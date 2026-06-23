@@ -1,20 +1,60 @@
 {
-  "name": "mock-ise-api",
-  "publisher": "test",
+  "name": "israeli-ecosystem-snapshots-api",
+  "publisher": "Pvalyou",
   "snapshots": [
     {
-      "name": "startups",
       "file": "startups.json",
+      "title": "Startups",
+      "source": "database",
       "cadence": "live",
-      "available": true,
-      "queryable": true
+      "queryable": true,
+      "name": "startups",
+      "available": true
     },
     {
-      "name": "macro",
-      "file": "macro.json",
-      "cadence": "intraday",
-      "available": true,
-      "queryable": true
+      "file": "founders.json",
+      "title": "Founders",
+      "source": "database",
+      "cadence": "live",
+      "queryable": true,
+      "name": "founders",
+      "available": true
+    },
+    {
+      "file": "technology-ip.json",
+      "title": "Technologies and Patents",
+      "source": "database",
+      "cadence": "live",
+      "queryable": true,
+      "name": "technology-ip",
+      "available": true
+    },
+    {
+      "file": "business-models.json",
+      "title": "Business Models",
+      "source": "database",
+      "cadence": "live",
+      "queryable": true,
+      "name": "business-models",
+      "available": true
+    },
+    {
+      "file": "jobs.json",
+      "title": "Open Roles",
+      "source": "database",
+      "cadence": "live",
+      "queryable": true,
+      "name": "jobs",
+      "available": true
+    },
+    {
+      "file": "network.json",
+      "title": "Network Graph",
+      "source": "database",
+      "cadence": "live",
+      "queryable": false,
+      "name": "network",
+      "available": true
     }
   ]
 }

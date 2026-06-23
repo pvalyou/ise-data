@@ -1,0 +1,4562 @@
+{
+  "schemaVersion": 1,
+  "page": "business-models",
+  "generatedAt": "2026-06-23T20:30:03.573Z",
+  "widgetMetadata": {
+    "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
+    "widgets": {
+      "business-models:kpi-identified-products": {
+        "title": "Identified Products",
+        "description": "Total number of product records associated with Israeli startups. The bar chart shows identified products by the founding year of the company that owns the product over the past 10 years.",
+        "dataPaths": [
+          "productOverview.totalProducts",
+          "productOverview.years",
+          "productOverview.productsByFoundingYear"
+        ]
+      },
+      "business-models:kpi-saas-products": {
+        "title": "SaaS Products",
+        "description": "Total number of Israeli startup product records marked as SaaS. The bar chart shows SaaS products by the founding year of the company that owns the product over the past 10 years.",
+        "dataPaths": [
+          "productOverview.saasProducts",
+          "productOverview.saasShare",
+          "productOverview.years",
+          "productOverview.saasProductsByFoundingYear"
+        ]
+      },
+      "business-models:saas-mix-over-time": {
+        "title": "SaaS Mix Over Time",
+        "description": "Share of Israeli startup product records marked as SaaS versus non-SaaS by the founding year of the company that owns the product. The white boundary line shows the SaaS share over the past 10 years, with SaaS below the line and non-SaaS above it.",
+        "dataPaths": [
+          "productOverview.productsByFoundingYear",
+          "productOverview.saasProductsByFoundingYear",
+          "productOverview.years"
+        ]
+      },
+      "business-models:top-product-groups": {
+        "title": "Top Product Groups",
+        "description": "Top 20 product groups among Israeli startup product records, ranked by product count. Bars are product-weighted, so companies with multiple products can contribute multiple rows.",
+        "dataPaths": [
+          "productOverview.totalProducts",
+          "productOverview.topProductGroups"
+        ]
+      },
+      "business-models:market-motion-sankey": {
+        "title": "Market Motion Flow",
+        "description": "Company-weighted Sankey flow showing how Israeli startups move from industry to customer segment, operating model, scalability, and revenue model. Each company contributes once using its highest-priority product for product-level revenue fields; companies missing any displayed dimension are excluded from the flow rather than shown as analytical categories.",
+        "dataPaths": [
+          "marketMotion.totalFlowCompanies",
+          "marketMotion.totalCompanies",
+          "marketMotion.nodes",
+          "marketMotion.links",
+          "marketMotion.excludedCounts"
+        ]
+      },
+      "business-models:customer-type-profiles": {
+        "title": "Customer Type Profiles",
+        "description": "Five heatmap cards, one for each Sankey column. Rows are subgroups in that column and columns are the most common customer-type keywords for that dimension. Cell intensity represents the share of companies in the subgroup tagged with that customer type. Customer types are multi-label, so row shares can overlap and do not sum to 100%.",
+        "dataPaths": [
+          "customerTypeProfiles.totalCompanies",
+          "customerTypeProfiles.columns"
+        ]
+      }
+    }
+  },
+  "productOverview": {
+    "totalProducts": 15744,
+    "saasProducts": 8429,
+    "saasShare": 0.5353785569105691,
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "productsByFoundingYear": [
+      911,
+      975,
+      845,
+      846,
+      835,
+      651,
+      420,
+      321,
+      172,
+      17
+    ],
+    "saasProductsByFoundingYear": [
+      518,
+      575,
+      506,
+      530,
+      539,
+      401,
+      263,
+      206,
+      110,
+      11
+    ],
+    "topProductGroups": [
+      {
+        "productGroup": "Business tools",
+        "count": 2325,
+        "saasCount": 1918,
+        "nonSaasCount": 407,
+        "saasShare": 0.8249462365591398,
+        "share": 0.14767530487804878
+      },
+      {
+        "productGroup": "Medical Devices",
+        "count": 1607,
+        "saasCount": 87,
+        "nonSaasCount": 1520,
+        "saasShare": 0.054138145612943375,
+        "share": 0.10207063008130081
+      },
+      {
+        "productGroup": "Media",
+        "count": 1371,
+        "saasCount": 833,
+        "nonSaasCount": 538,
+        "saasShare": 0.6075857038657914,
+        "share": 0.08708079268292683
+      },
+      {
+        "productGroup": "Security",
+        "count": 1274,
+        "saasCount": 947,
+        "nonSaasCount": 327,
+        "saasShare": 0.7433281004709577,
+        "share": 0.08091971544715447
+      },
+      {
+        "productGroup": "Analytics",
+        "count": 1122,
+        "saasCount": 941,
+        "nonSaasCount": 181,
+        "saasShare": 0.838680926916221,
+        "share": 0.07126524390243902
+      },
+      {
+        "productGroup": "Hardware & Semiconductors",
+        "count": 827,
+        "saasCount": 154,
+        "nonSaasCount": 673,
+        "saasShare": 0.18621523579201935,
+        "share": 0.052527947154471545
+      },
+      {
+        "productGroup": "Energy and Utilities",
+        "count": 707,
+        "saasCount": 152,
+        "nonSaasCount": 555,
+        "saasShare": 0.214992927864215,
+        "share": 0.04490599593495935
+      },
+      {
+        "productGroup": "Industrial",
+        "count": 607,
+        "saasCount": 186,
+        "nonSaasCount": 421,
+        "saasShare": 0.30642504118616143,
+        "share": 0.038554369918699184
+      },
+      {
+        "productGroup": "Pharma & Biotech",
+        "count": 596,
+        "saasCount": 26,
+        "nonSaasCount": 570,
+        "saasShare": 0.0436241610738255,
+        "share": 0.03785569105691057
+      },
+      {
+        "productGroup": "Marketing",
+        "count": 556,
+        "saasCount": 517,
+        "nonSaasCount": 39,
+        "saasShare": 0.9298561151079137,
+        "share": 0.035315040650406505
+      },
+      {
+        "productGroup": "Other",
+        "count": 495,
+        "saasCount": 166,
+        "nonSaasCount": 329,
+        "saasShare": 0.33535353535353535,
+        "share": 0.031440548780487805
+      },
+      {
+        "productGroup": "Food & AgriTech",
+        "count": 426,
+        "saasCount": 41,
+        "nonSaasCount": 385,
+        "saasShare": 0.09624413145539906,
+        "share": 0.027057926829268292
+      },
+      {
+        "productGroup": "Communication",
+        "count": 420,
+        "saasCount": 292,
+        "nonSaasCount": 128,
+        "saasShare": 0.6952380952380952,
+        "share": 0.026676829268292682
+      },
+      {
+        "productGroup": "Financial Services",
+        "count": 356,
+        "saasCount": 310,
+        "nonSaasCount": 46,
+        "saasShare": 0.8707865168539326,
+        "share": 0.02261178861788618
+      },
+      {
+        "productGroup": "Sales",
+        "count": 324,
+        "saasCount": 278,
+        "nonSaasCount": 46,
+        "saasShare": 0.8580246913580247,
+        "share": 0.020579268292682928
+      },
+      {
+        "productGroup": "Digital Health Group",
+        "count": 281,
+        "saasCount": 266,
+        "nonSaasCount": 15,
+        "saasShare": 0.9466192170818505,
+        "share": 0.017848069105691058
+      },
+      {
+        "productGroup": "Digital Health",
+        "count": 278,
+        "saasCount": 225,
+        "nonSaasCount": 53,
+        "saasShare": 0.8093525179856115,
+        "share": 0.017657520325203253
+      },
+      {
+        "productGroup": "Booking",
+        "count": 220,
+        "saasCount": 178,
+        "nonSaasCount": 42,
+        "saasShare": 0.8090909090909091,
+        "share": 0.013973577235772357
+      },
+      {
+        "productGroup": "Consumer Products",
+        "count": 219,
+        "saasCount": 15,
+        "nonSaasCount": 204,
+        "saasShare": 0.0684931506849315,
+        "share": 0.013910060975609756
+      },
+      {
+        "productGroup": "Robotics",
+        "count": 200,
+        "saasCount": 27,
+        "nonSaasCount": 173,
+        "saasShare": 0.135,
+        "share": 0.012703252032520325
+      }
+    ]
+  },
+  "marketMotion": {
+    "totalProductRows": 15744,
+    "totalCompanies": 13442,
+    "totalFlowCompanies": 11601,
+    "columns": [
+      {
+        "key": "industry",
+        "label": "Industry",
+        "description": "Broad market sector assigned to the startup."
+      },
+      {
+        "key": "business_model",
+        "label": "Customer segment",
+        "description": "Who primarily buys or uses the company offering: business, consumer, government, or mixed."
+      },
+      {
+        "key": "model_physics",
+        "label": "Operating model",
+        "description": "The commercial and delivery physics behind the business, such as SaaS, hardware, marketplace, or milestone-driven deep tech."
+      },
+      {
+        "key": "scalability",
+        "label": "Scalability",
+        "description": "How the company scales customer acquisition and delivery, from self-serve to high-touch and services-led motions."
+      },
+      {
+        "key": "payment_model",
+        "label": "Revenue model",
+        "description": "How the primary product appears to monetize: recurring, one-time, or usage-based."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "industry:IT and Telecom",
+        "name": "IT and Telecom",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Information technology, software, communications, and telecom infrastructure.",
+        "rankInColumn": 1,
+        "value": 4854,
+        "share": 0.41841220584432376
+      },
+      {
+        "id": "industry:Healthcare and Food",
+        "name": "Healthcare and Food",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Healthcare, life sciences, medical, food, and agriculture-related companies.",
+        "rankInColumn": 2,
+        "value": 3102,
+        "share": 0.2673907421773985
+      },
+      {
+        "id": "industry:Media and Entertainment",
+        "name": "Media and Entertainment",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Media, content, gaming, entertainment, and audience businesses.",
+        "rankInColumn": 3,
+        "value": 1264,
+        "share": 0.10895612447202828
+      },
+      {
+        "id": "industry:Consumer Goods and Services",
+        "name": "Consumer Goods and Services",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Consumer-facing products and everyday services.",
+        "rankInColumn": 4,
+        "value": 1236,
+        "share": 0.1065425394362555
+      },
+      {
+        "id": "industry:Financial Services",
+        "name": "Financial Services",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Finance, insurance, payments, lending, trading, and related services.",
+        "rankInColumn": 5,
+        "value": 601,
+        "share": 0.05180587880355142
+      },
+      {
+        "id": "industry:Energy and Utilities",
+        "name": "Energy and Utilities",
+        "column": "industry",
+        "columnLabel": "Industry",
+        "description": "Energy, climate, infrastructure, utility, and resource systems.",
+        "rankInColumn": 6,
+        "value": 544,
+        "share": 0.04689250926644255
+      },
+      {
+        "id": "business_model:B2B",
+        "name": "B2B",
+        "column": "business_model",
+        "columnLabel": "Customer segment",
+        "description": "Sells primarily to business customers.",
+        "rankInColumn": 1,
+        "value": 8153,
+        "share": 0.702784242737695
+      },
+      {
+        "id": "business_model:B2C",
+        "name": "B2C",
+        "column": "business_model",
+        "columnLabel": "Customer segment",
+        "description": "Serves individual consumers directly.",
+        "rankInColumn": 2,
+        "value": 2127,
+        "share": 0.18334626325316783
+      },
+      {
+        "id": "business_model:B2B2C",
+        "name": "B2B2C",
+        "column": "business_model",
+        "columnLabel": "Customer segment",
+        "description": "Reaches consumers through business partners or intermediaries.",
+        "rankInColumn": 3,
+        "value": 1186,
+        "share": 0.10223256615808982
+      },
+      {
+        "id": "business_model:B2G",
+        "name": "B2G",
+        "column": "business_model",
+        "columnLabel": "Customer segment",
+        "description": "Sells primarily to government or public-sector buyers.",
+        "rankInColumn": 4,
+        "value": 135,
+        "share": 0.011636927851047323
+      },
+      {
+        "id": "model_physics:b2b_enterprise_saas",
+        "name": "B2B Enterprise SaaS",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Software sold to organizations, usually recurring and sales-led.",
+        "rankInColumn": 1,
+        "value": 5693,
+        "share": 0.4907335574519438
+      },
+      {
+        "id": "model_physics:b2b_industrial_hardware",
+        "name": "B2B Industrial Hardware",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Physical products or systems sold into industrial or operational environments.",
+        "rankInColumn": 2,
+        "value": 2106,
+        "share": 0.18153607447633824
+      },
+      {
+        "id": "model_physics:hybrid_hardware_saas",
+        "name": "Hybrid Hardware SaaS",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Physical product with a recurring software, data, or service layer.",
+        "rankInColumn": 3,
+        "value": 1587,
+        "share": 0.13679855184897854
+      },
+      {
+        "id": "model_physics:marketplace_transactional",
+        "name": "Marketplace Transactional",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Platform connecting sides of a market and monetizing transactions or activity.",
+        "rankInColumn": 4,
+        "value": 1089,
+        "share": 0.09387121799844841
+      },
+      {
+        "id": "model_physics:deep_tech_milestone",
+        "name": "Deep Tech Milestone",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Deep-tech business where progress is often milestone, R&D, regulatory, or partnership driven.",
+        "rankInColumn": 5,
+        "value": 587,
+        "share": 0.05059908628566503
+      },
+      {
+        "id": "model_physics:usage_based_api",
+        "name": "Usage Based API",
+        "column": "model_physics",
+        "columnLabel": "Operating model",
+        "description": "Developer or API-led product where revenue scales with usage.",
+        "rankInColumn": 6,
+        "value": 539,
+        "share": 0.04646151193862598
+      },
+      {
+        "id": "scalability:sales_led",
+        "name": "Sales Led",
+        "column": "scalability",
+        "columnLabel": "Scalability",
+        "description": "Growth depends mainly on a direct sales motion.",
+        "rankInColumn": 1,
+        "value": 5095,
+        "share": 0.43918627704508234
+      },
+      {
+        "id": "scalability:self_serve",
+        "name": "Self Serve",
+        "column": "scalability",
+        "columnLabel": "Scalability",
+        "description": "Customers can adopt with limited human assistance.",
+        "rankInColumn": 2,
+        "value": 3096,
+        "share": 0.26687354538401864
+      },
+      {
+        "id": "scalability:high_touch",
+        "name": "High Touch",
+        "column": "scalability",
+        "columnLabel": "Scalability",
+        "description": "Requires consultative selling, onboarding, or delivery support.",
+        "rankInColumn": 3,
+        "value": 1650,
+        "share": 0.1422291181794673
+      },
+      {
+        "id": "scalability:low_touch",
+        "name": "Low Touch",
+        "column": "scalability",
+        "columnLabel": "Scalability",
+        "description": "Uses lightweight assisted sales or support after initial demand.",
+        "rankInColumn": 4,
+        "value": 1005,
+        "share": 0.08663046289113008
+      },
+      {
+        "id": "scalability:services_led",
+        "name": "Services Led",
+        "column": "scalability",
+        "columnLabel": "Scalability",
+        "description": "Growth depends substantially on service delivery or implementation work.",
+        "rankInColumn": 5,
+        "value": 755,
+        "share": 0.0650805965003017
+      },
+      {
+        "id": "payment_model:recurring",
+        "name": "Recurring",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Revenue is primarily subscription or repeat-contract based.",
+        "rankInColumn": 1,
+        "value": 7399,
+        "share": 0.6377898457029566
+      },
+      {
+        "id": "payment_model:one_time",
+        "name": "One-time",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Revenue is primarily one-time product or project purchase.",
+        "rankInColumn": 2,
+        "value": 3303,
+        "share": 0.28471683475562454
+      },
+      {
+        "id": "payment_model:usage_based",
+        "name": "Usage-based",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Revenue scales with consumption, transaction volume, or measured usage.",
+        "rankInColumn": 3,
+        "value": 813,
+        "share": 0.07008016550297388
+      },
+      {
+        "id": "payment_model:poa",
+        "name": "poa",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Classified as poa within Revenue model.",
+        "rankInColumn": 4,
+        "value": 82,
+        "share": 0.0070683561761917075
+      },
+      {
+        "id": "payment_model:free",
+        "name": "free",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Classified as free within Revenue model.",
+        "rankInColumn": 5,
+        "value": 3,
+        "share": 0.0002585983966899405
+      },
+      {
+        "id": "payment_model:freemium",
+        "name": "freemium",
+        "column": "payment_model",
+        "columnLabel": "Revenue model",
+        "description": "Classified as freemium within Revenue model.",
+        "rankInColumn": 6,
+        "value": 1,
+        "share": 0.0000861994655633135
+      }
+    ],
+    "links": [
+      {
+        "source": 6,
+        "target": 10,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:b2b_enterprise_saas",
+        "value": 4222,
+        "share": 0.3639341436083096,
+        "sourceShare": 0.5178461915859193,
+        "targetShare": 0.7416125065870367
+      },
+      {
+        "source": 0,
+        "target": 6,
+        "sourceId": "industry:IT and Telecom",
+        "targetId": "business_model:B2B",
+        "value": 4145,
+        "share": 0.3572967847599345,
+        "sourceShare": 0.853934899052328,
+        "targetShare": 0.508401815282718
+      },
+      {
+        "source": 16,
+        "target": 21,
+        "sourceId": "scalability:sales_led",
+        "targetId": "payment_model:recurring",
+        "value": 3508,
+        "share": 0.3023877251961038,
+        "sourceShare": 0.6885181550539745,
+        "targetShare": 0.4741181240708204
+      },
+      {
+        "source": 10,
+        "target": 16,
+        "sourceId": "model_physics:b2b_enterprise_saas",
+        "targetId": "scalability:sales_led",
+        "value": 2780,
+        "share": 0.23963451426601154,
+        "sourceShare": 0.4883189882311611,
+        "targetShare": 0.5456329735034348
+      },
+      {
+        "source": 1,
+        "target": 6,
+        "sourceId": "industry:Healthcare and Food",
+        "targetId": "business_model:B2B",
+        "value": 2340,
+        "share": 0.2017067494181536,
+        "sourceShare": 0.7543520309477756,
+        "targetShare": 0.28701091622715563
+      },
+      {
+        "source": 17,
+        "target": 21,
+        "sourceId": "scalability:self_serve",
+        "targetId": "payment_model:recurring",
+        "value": 2211,
+        "share": 0.19058701836048617,
+        "sourceShare": 0.7141472868217055,
+        "targetShare": 0.2988241654277605
+      },
+      {
+        "source": 10,
+        "target": 17,
+        "sourceId": "model_physics:b2b_enterprise_saas",
+        "targetId": "scalability:self_serve",
+        "value": 1817,
+        "share": 0.15662442892854064,
+        "sourceShare": 0.31916388547338836,
+        "targetShare": 0.5868863049095607
+      },
+      {
+        "source": 6,
+        "target": 11,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:b2b_industrial_hardware",
+        "value": 1652,
+        "share": 0.14240151711059393,
+        "sourceShare": 0.20262480068686373,
+        "targetShare": 0.7844254510921178
+      },
+      {
+        "source": 16,
+        "target": 22,
+        "sourceId": "scalability:sales_led",
+        "targetId": "payment_model:one_time",
+        "value": 1433,
+        "share": 0.12352383415222826,
+        "sourceShare": 0.28125613346418055,
+        "targetShare": 0.433848016954284
+      },
+      {
+        "source": 6,
+        "target": 12,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:hybrid_hardware_saas",
+        "value": 1231,
+        "share": 0.10611154210843893,
+        "sourceShare": 0.1509873666135165,
+        "targetShare": 0.7756773787019534
+      },
+      {
+        "source": 11,
+        "target": 16,
+        "sourceId": "model_physics:b2b_industrial_hardware",
+        "targetId": "scalability:sales_led",
+        "value": 1014,
+        "share": 0.0874062580811999,
+        "sourceShare": 0.48148148148148145,
+        "targetShare": 0.19901864573110892
+      },
+      {
+        "source": 7,
+        "target": 10,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:b2b_enterprise_saas",
+        "value": 977,
+        "share": 0.0842168778553573,
+        "sourceShare": 0.459332393041843,
+        "targetShare": 0.17161426313015984
+      },
+      {
+        "source": 12,
+        "target": 16,
+        "sourceId": "model_physics:hybrid_hardware_saas",
+        "targetId": "scalability:sales_led",
+        "value": 923,
+        "share": 0.07956210671493837,
+        "sourceShare": 0.5816005040957782,
+        "targetShare": 0.18115799803729146
+      },
+      {
+        "source": 18,
+        "target": 22,
+        "sourceId": "scalability:high_touch",
+        "targetId": "payment_model:one_time",
+        "value": 883,
+        "share": 0.07611412809240582,
+        "sourceShare": 0.5351515151515152,
+        "targetShare": 0.26733272782319106
+      },
+      {
+        "source": 13,
+        "target": 17,
+        "sourceId": "model_physics:marketplace_transactional",
+        "targetId": "scalability:self_serve",
+        "value": 716,
+        "share": 0.06171881734333247,
+        "sourceShare": 0.657483930211203,
+        "targetShare": 0.23126614987080105
+      },
+      {
+        "source": 19,
+        "target": 21,
+        "sourceId": "scalability:low_touch",
+        "targetId": "payment_model:recurring",
+        "value": 711,
+        "share": 0.0612878200155159,
+        "sourceShare": 0.7074626865671642,
+        "targetShare": 0.09609406676577915
+      },
+      {
+        "source": 18,
+        "target": 21,
+        "sourceId": "scalability:high_touch",
+        "targetId": "payment_model:recurring",
+        "value": 663,
+        "share": 0.05715024566847685,
+        "sourceShare": 0.4018181818181818,
+        "targetShare": 0.08960670360859575
+      },
+      {
+        "source": 3,
+        "target": 7,
+        "sourceId": "industry:Consumer Goods and Services",
+        "targetId": "business_model:B2C",
+        "value": 642,
+        "share": 0.05534005689164727,
+        "sourceShare": 0.5194174757281553,
+        "targetShare": 0.3018335684062059
+      },
+      {
+        "source": 2,
+        "target": 7,
+        "sourceId": "industry:Media and Entertainment",
+        "targetId": "business_model:B2C",
+        "value": 633,
+        "share": 0.05456426170157745,
+        "sourceShare": 0.5007911392405063,
+        "targetShare": 0.29760225669957685
+      },
+      {
+        "source": 11,
+        "target": 18,
+        "sourceId": "model_physics:b2b_industrial_hardware",
+        "targetId": "scalability:high_touch",
+        "value": 624,
+        "share": 0.05378846651150763,
+        "sourceShare": 0.2962962962962963,
+        "targetShare": 0.3781818181818182
+      },
+      {
+        "source": 10,
+        "target": 19,
+        "sourceId": "model_physics:b2b_enterprise_saas",
+        "targetId": "scalability:low_touch",
+        "value": 549,
+        "share": 0.047323506594259115,
+        "sourceShare": 0.09643421746003865,
+        "targetShare": 0.5462686567164179
+      },
+      {
+        "source": 6,
+        "target": 14,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:deep_tech_milestone",
+        "value": 546,
+        "share": 0.04706490819756917,
+        "sourceShare": 0.06696921378633632,
+        "targetShare": 0.9301533219761499
+      },
+      {
+        "source": 7,
+        "target": 13,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:marketplace_transactional",
+        "value": 521,
+        "share": 0.04490992155848634,
+        "sourceShare": 0.2449459332393042,
+        "targetShare": 0.47842056932966026
+      },
+      {
+        "source": 5,
+        "target": 6,
+        "sourceId": "industry:Energy and Utilities",
+        "targetId": "business_model:B2B",
+        "value": 500,
+        "share": 0.043099732781656755,
+        "sourceShare": 0.9191176470588235,
+        "targetShare": 0.06132711885195633
+      },
+      {
+        "source": 17,
+        "target": 23,
+        "sourceId": "scalability:self_serve",
+        "targetId": "payment_model:usage_based",
+        "value": 485,
+        "share": 0.04180674079820705,
+        "sourceShare": 0.15665374677002583,
+        "targetShare": 0.5965559655596556
+      },
+      {
+        "source": 8,
+        "target": 10,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:b2b_enterprise_saas",
+        "value": 451,
+        "share": 0.038875958969054394,
+        "sourceShare": 0.3802698145025295,
+        "targetShare": 0.07922009485332865
+      },
+      {
+        "source": 2,
+        "target": 6,
+        "sourceId": "industry:Media and Entertainment",
+        "targetId": "business_model:B2B",
+        "value": 442,
+        "share": 0.03810016377898457,
+        "sourceShare": 0.34968354430379744,
+        "targetShare": 0.0542131730651294
+      },
+      {
+        "source": 20,
+        "target": 22,
+        "sourceId": "scalability:services_led",
+        "targetId": "payment_model:one_time",
+        "value": 417,
+        "share": 0.03594517713990173,
+        "sourceShare": 0.552317880794702,
+        "targetShare": 0.1262488646684832
+      },
+      {
+        "source": 8,
+        "target": 13,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:marketplace_transactional",
+        "value": 399,
+        "share": 0.03439358675976209,
+        "sourceShare": 0.33642495784148396,
+        "targetShare": 0.36639118457300274
+      },
+      {
+        "source": 12,
+        "target": 18,
+        "sourceId": "model_physics:hybrid_hardware_saas",
+        "targetId": "scalability:high_touch",
+        "value": 399,
+        "share": 0.03439358675976209,
+        "sourceShare": 0.2514177693761815,
+        "targetShare": 0.24181818181818182
+      },
+      {
+        "source": 17,
+        "target": 22,
+        "sourceId": "scalability:self_serve",
+        "targetId": "payment_model:one_time",
+        "value": 396,
+        "share": 0.03413498836307215,
+        "sourceShare": 0.12790697674418605,
+        "targetShare": 0.11989100817438691
+      },
+      {
+        "source": 1,
+        "target": 7,
+        "sourceId": "industry:Healthcare and Food",
+        "targetId": "business_model:B2C",
+        "value": 390,
+        "share": 0.03361779156969227,
+        "sourceShare": 0.12572533849129594,
+        "targetShare": 0.18335684062059238
+      },
+      {
+        "source": 3,
+        "target": 6,
+        "sourceId": "industry:Consumer Goods and Services",
+        "targetId": "business_model:B2B",
+        "value": 370,
+        "share": 0.031893802258425995,
+        "sourceShare": 0.2993527508090615,
+        "targetShare": 0.04538206795044769
+      },
+      {
+        "source": 1,
+        "target": 8,
+        "sourceId": "industry:Healthcare and Food",
+        "targetId": "business_model:B2B2C",
+        "value": 368,
+        "share": 0.03172140332729937,
+        "sourceShare": 0.11863313990973566,
+        "targetShare": 0.3102866779089376
+      },
+      {
+        "source": 4,
+        "target": 6,
+        "sourceId": "industry:Financial Services",
+        "targetId": "business_model:B2B",
+        "value": 356,
+        "share": 0.03068700974053961,
+        "sourceShare": 0.5923460898502496,
+        "targetShare": 0.04366490862259291
+      },
+      {
+        "source": 6,
+        "target": 15,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:usage_based_api",
+        "value": 333,
+        "share": 0.028704422032583398,
+        "sourceShare": 0.04084386115540292,
+        "targetShare": 0.6178107606679035
+      },
+      {
+        "source": 15,
+        "target": 17,
+        "sourceId": "model_physics:usage_based_api",
+        "targetId": "scalability:self_serve",
+        "value": 327,
+        "share": 0.028187225239203518,
+        "sourceShare": 0.6066790352504638,
+        "targetShare": 0.10562015503875968
+      },
+      {
+        "source": 0,
+        "target": 7,
+        "sourceId": "industry:IT and Telecom",
+        "targetId": "business_model:B2C",
+        "value": 319,
+        "share": 0.02749762951469701,
+        "sourceShare": 0.06571899464359292,
+        "targetShare": 0.14997649271274094
+      },
+      {
+        "source": 14,
+        "target": 18,
+        "sourceId": "model_physics:deep_tech_milestone",
+        "targetId": "scalability:high_touch",
+        "value": 317,
+        "share": 0.027325230583570382,
+        "sourceShare": 0.5400340715502555,
+        "targetShare": 0.1921212121212121
+      },
+      {
+        "source": 20,
+        "target": 21,
+        "sourceId": "scalability:services_led",
+        "targetId": "payment_model:recurring",
+        "value": 306,
+        "share": 0.026377036462373934,
+        "sourceShare": 0.4052980132450331,
+        "targetShare": 0.041356940127044196
+      },
+      {
+        "source": 10,
+        "target": 18,
+        "sourceId": "model_physics:b2b_enterprise_saas",
+        "targetId": "scalability:high_touch",
+        "value": 304,
+        "share": 0.026204637531247306,
+        "sourceShare": 0.053398910943263656,
+        "targetShare": 0.18424242424242424
+      },
+      {
+        "source": 7,
+        "target": 11,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:b2b_industrial_hardware",
+        "value": 283,
+        "share": 0.024394448754417722,
+        "sourceShare": 0.13305124588622472,
+        "targetShare": 0.13437796771130103
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "sourceId": "industry:IT and Telecom",
+        "targetId": "business_model:B2B2C",
+        "value": 273,
+        "share": 0.023532454098784586,
+        "sourceShare": 0.05624227441285538,
+        "targetShare": 0.23018549747048903
+      },
+      {
+        "source": 10,
+        "target": 20,
+        "sourceId": "model_physics:b2b_enterprise_saas",
+        "targetId": "scalability:services_led",
+        "value": 243,
+        "share": 0.02094647013188518,
+        "sourceShare": 0.04268399789214825,
+        "targetShare": 0.3218543046357616
+      },
+      {
+        "source": 11,
+        "target": 20,
+        "sourceId": "model_physics:b2b_industrial_hardware",
+        "targetId": "scalability:services_led",
+        "value": 243,
+        "share": 0.02094647013188518,
+        "sourceShare": 0.11538461538461539,
+        "targetShare": 0.3218543046357616
+      },
+      {
+        "source": 3,
+        "target": 8,
+        "sourceId": "industry:Consumer Goods and Services",
+        "targetId": "business_model:B2B2C",
+        "value": 219,
+        "share": 0.018877682958365657,
+        "sourceShare": 0.17718446601941748,
+        "targetShare": 0.18465430016863407
+      },
+      {
+        "source": 14,
+        "target": 20,
+        "sourceId": "model_physics:deep_tech_milestone",
+        "targetId": "scalability:services_led",
+        "value": 193,
+        "share": 0.016636496853719505,
+        "sourceShare": 0.3287904599659284,
+        "targetShare": 0.2556291390728477
+      },
+      {
+        "source": 2,
+        "target": 8,
+        "sourceId": "industry:Media and Entertainment",
+        "targetId": "business_model:B2B2C",
+        "value": 189,
+        "share": 0.016291698991466253,
+        "sourceShare": 0.1495253164556962,
+        "targetShare": 0.15935919055649242
+      },
+      {
+        "source": 13,
+        "target": 16,
+        "sourceId": "model_physics:marketplace_transactional",
+        "targetId": "scalability:sales_led",
+        "value": 185,
+        "share": 0.015946901129212997,
+        "sourceShare": 0.16988062442607896,
+        "targetShare": 0.03631010794896958
+      },
+      {
+        "source": 19,
+        "target": 22,
+        "sourceId": "scalability:low_touch",
+        "targetId": "payment_model:one_time",
+        "value": 174,
+        "share": 0.014998707008016551,
+        "sourceShare": 0.17313432835820897,
+        "targetShare": 0.05267938237965486
+      },
+      {
+        "source": 6,
+        "target": 13,
+        "sourceId": "business_model:B2B",
+        "targetId": "model_physics:marketplace_transactional",
+        "value": 169,
+        "share": 0.014567709680199983,
+        "sourceShare": 0.02072856617196124,
+        "targetShare": 0.155188246097337
+      },
+      {
+        "source": 13,
+        "target": 19,
+        "sourceId": "model_physics:marketplace_transactional",
+        "targetId": "scalability:low_touch",
+        "value": 168,
+        "share": 0.014481510214636669,
+        "sourceShare": 0.15426997245179064,
+        "targetShare": 0.16716417910447762
+      },
+      {
+        "source": 7,
+        "target": 15,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:usage_based_api",
+        "value": 166,
+        "share": 0.014309111283510043,
+        "sourceShare": 0.07804419370004702,
+        "targetShare": 0.3079777365491651
+      },
+      {
+        "source": 7,
+        "target": 12,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:hybrid_hardware_saas",
+        "value": 164,
+        "share": 0.014136712352383415,
+        "sourceShare": 0.07710390220968501,
+        "targetShare": 0.1033396345305608
+      },
+      {
+        "source": 8,
+        "target": 12,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:hybrid_hardware_saas",
+        "value": 164,
+        "share": 0.014136712352383415,
+        "sourceShare": 0.13827993254637436,
+        "targetShare": 0.1033396345305608
+      },
+      {
+        "source": 16,
+        "target": 23,
+        "sourceId": "scalability:sales_led",
+        "targetId": "payment_model:usage_based",
+        "value": 151,
+        "share": 0.013016119300060339,
+        "sourceShare": 0.029636898920510305,
+        "targetShare": 0.1857318573185732
+      },
+      {
+        "source": 15,
+        "target": 16,
+        "sourceId": "model_physics:usage_based_api",
+        "targetId": "scalability:sales_led",
+        "value": 138,
+        "share": 0.011895526247737265,
+        "sourceShare": 0.2560296846011132,
+        "targetShare": 0.027085377821393523
+      },
+      {
+        "source": 4,
+        "target": 7,
+        "sourceId": "industry:Financial Services",
+        "targetId": "business_model:B2C",
+        "value": 131,
+        "share": 0.011292129988794069,
+        "sourceShare": 0.21797004991680533,
+        "targetShare": 0.0615890926187118
+      },
+      {
+        "source": 11,
+        "target": 17,
+        "sourceId": "model_physics:b2b_industrial_hardware",
+        "targetId": "scalability:self_serve",
+        "value": 129,
+        "share": 0.011119731057667443,
+        "sourceShare": 0.06125356125356125,
+        "targetShare": 0.041666666666666664
+      },
+      {
+        "source": 12,
+        "target": 19,
+        "sourceId": "model_physics:hybrid_hardware_saas",
+        "targetId": "scalability:low_touch",
+        "value": 120,
+        "share": 0.01034393586759762,
+        "sourceShare": 0.07561436672967864,
+        "targetShare": 0.11940298507462686
+      },
+      {
+        "source": 19,
+        "target": 23,
+        "sourceId": "scalability:low_touch",
+        "targetId": "payment_model:usage_based",
+        "value": 120,
+        "share": 0.01034393586759762,
+        "sourceShare": 0.11940298507462686,
+        "targetShare": 0.14760147601476015
+      },
+      {
+        "source": 0,
+        "target": 9,
+        "sourceId": "industry:IT and Telecom",
+        "targetId": "business_model:B2G",
+        "value": 117,
+        "share": 0.01008533747090768,
+        "sourceShare": 0.024103831891223733,
+        "targetShare": 0.8666666666666667
+      },
+      {
+        "source": 4,
+        "target": 8,
+        "sourceId": "industry:Financial Services",
+        "targetId": "business_model:B2B2C",
+        "value": 114,
+        "share": 0.00982673907421774,
+        "sourceShare": 0.1896838602329451,
+        "targetShare": 0.09612141652613827
+      },
+      {
+        "source": 8,
+        "target": 11,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:b2b_industrial_hardware",
+        "value": 113,
+        "share": 0.009740539608654427,
+        "sourceShare": 0.09527824620573355,
+        "targetShare": 0.05365622032288699
+      },
+      {
+        "source": 11,
+        "target": 19,
+        "sourceId": "model_physics:b2b_industrial_hardware",
+        "targetId": "scalability:low_touch",
+        "value": 96,
+        "share": 0.008275148694078097,
+        "sourceShare": 0.045584045584045586,
+        "targetShare": 0.0955223880597015
+      },
+      {
+        "source": 12,
+        "target": 17,
+        "sourceId": "model_physics:hybrid_hardware_saas",
+        "targetId": "scalability:self_serve",
+        "value": 96,
+        "share": 0.008275148694078097,
+        "sourceShare": 0.06049149338374291,
+        "targetShare": 0.031007751937984496
+      },
+      {
+        "source": 18,
+        "target": 24,
+        "sourceId": "scalability:high_touch",
+        "targetId": "payment_model:poa",
+        "value": 76,
+        "share": 0.0065511593828118265,
+        "sourceShare": 0.04606060606060606,
+        "targetShare": 0.926829268292683
+      },
+      {
+        "source": 15,
+        "target": 19,
+        "sourceId": "model_physics:usage_based_api",
+        "targetId": "scalability:low_touch",
+        "value": 61,
+        "share": 0.005258167399362124,
+        "sourceShare": 0.11317254174397032,
+        "targetShare": 0.06069651741293532
+      },
+      {
+        "source": 9,
+        "target": 11,
+        "sourceId": "business_model:B2G",
+        "targetId": "model_physics:b2b_industrial_hardware",
+        "value": 58,
+        "share": 0.004999569002672183,
+        "sourceShare": 0.42962962962962964,
+        "targetShare": 0.027540360873694207
+      },
+      {
+        "source": 14,
+        "target": 16,
+        "sourceId": "model_physics:deep_tech_milestone",
+        "targetId": "scalability:sales_led",
+        "value": 55,
+        "share": 0.004740970605982243,
+        "sourceShare": 0.09369676320272573,
+        "targetShare": 0.010794896957801767
+      },
+      {
+        "source": 12,
+        "target": 20,
+        "sourceId": "model_physics:hybrid_hardware_saas",
+        "targetId": "scalability:services_led",
+        "value": 49,
+        "share": 0.004223773812602362,
+        "sourceShare": 0.03087586641461878,
+        "targetShare": 0.06490066225165562
+      },
+      {
+        "source": 9,
+        "target": 10,
+        "sourceId": "business_model:B2G",
+        "targetId": "model_physics:b2b_enterprise_saas",
+        "value": 43,
+        "share": 0.0037065770192224808,
+        "sourceShare": 0.31851851851851853,
+        "targetShare": 0.007553135429474793
+      },
+      {
+        "source": 8,
+        "target": 15,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:usage_based_api",
+        "value": 40,
+        "share": 0.0034479786225325403,
+        "sourceShare": 0.03372681281618887,
+        "targetShare": 0.07421150278293136
+      },
+      {
+        "source": 20,
+        "target": 23,
+        "sourceId": "scalability:services_led",
+        "targetId": "payment_model:usage_based",
+        "value": 29,
+        "share": 0.0024997845013360917,
+        "sourceShare": 0.038410596026490065,
+        "targetShare": 0.03567035670356704
+      },
+      {
+        "source": 9,
+        "target": 12,
+        "sourceId": "business_model:B2G",
+        "targetId": "model_physics:hybrid_hardware_saas",
+        "value": 28,
+        "share": 0.002413585035772778,
+        "sourceShare": 0.2074074074074074,
+        "targetShare": 0.017643352236925015
+      },
+      {
+        "source": 18,
+        "target": 23,
+        "sourceId": "scalability:high_touch",
+        "targetId": "payment_model:usage_based",
+        "value": 28,
+        "share": 0.002413585035772778,
+        "sourceShare": 0.01696969696969697,
+        "targetShare": 0.03444034440344403
+      },
+      {
+        "source": 5,
+        "target": 8,
+        "sourceId": "industry:Energy and Utilities",
+        "targetId": "business_model:B2B2C",
+        "value": 23,
+        "share": 0.0019825877079562106,
+        "sourceShare": 0.042279411764705885,
+        "targetShare": 0.0193929173693086
+      },
+      {
+        "source": 8,
+        "target": 14,
+        "sourceId": "business_model:B2B2C",
+        "targetId": "model_physics:deep_tech_milestone",
+        "value": 19,
+        "share": 0.0016377898457029566,
+        "sourceShare": 0.016020236087689713,
+        "targetShare": 0.03236797274275979
+      },
+      {
+        "source": 13,
+        "target": 20,
+        "sourceId": "model_physics:marketplace_transactional",
+        "targetId": "scalability:services_led",
+        "value": 19,
+        "share": 0.0016377898457029566,
+        "sourceShare": 0.017447199265381085,
+        "targetShare": 0.025165562913907286
+      },
+      {
+        "source": 7,
+        "target": 14,
+        "sourceId": "business_model:B2C",
+        "targetId": "model_physics:deep_tech_milestone",
+        "value": 16,
+        "share": 0.001379191449013016,
+        "sourceShare": 0.007522331922896097,
+        "targetShare": 0.027257240204429302
+      },
+      {
+        "source": 5,
+        "target": 7,
+        "sourceId": "industry:Energy and Utilities",
+        "targetId": "business_model:B2C",
+        "value": 12,
+        "share": 0.001034393586759762,
+        "sourceShare": 0.022058823529411766,
+        "targetShare": 0.005641748942172073
+      },
+      {
+        "source": 14,
+        "target": 17,
+        "sourceId": "model_physics:deep_tech_milestone",
+        "targetId": "scalability:self_serve",
+        "value": 11,
+        "share": 0.0009481941211964486,
+        "sourceShare": 0.018739352640545145,
+        "targetShare": 0.0035529715762273903
+      },
+      {
+        "source": 14,
+        "target": 19,
+        "sourceId": "model_physics:deep_tech_milestone",
+        "targetId": "scalability:low_touch",
+        "value": 11,
+        "share": 0.0009481941211964486,
+        "sourceShare": 0.018739352640545145,
+        "targetShare": 0.010945273631840797
+      },
+      {
+        "source": 5,
+        "target": 9,
+        "sourceId": "industry:Energy and Utilities",
+        "targetId": "business_model:B2G",
+        "value": 9,
+        "share": 0.0007757951900698216,
+        "sourceShare": 0.016544117647058824,
+        "targetShare": 0.06666666666666667
+      },
+      {
+        "source": 15,
+        "target": 20,
+        "sourceId": "model_physics:usage_based_api",
+        "targetId": "scalability:services_led",
+        "value": 8,
+        "share": 0.000689595724506508,
+        "sourceShare": 0.014842300556586271,
+        "targetShare": 0.010596026490066225
+      },
+      {
+        "source": 9,
+        "target": 14,
+        "sourceId": "business_model:B2G",
+        "targetId": "model_physics:deep_tech_milestone",
+        "value": 6,
+        "share": 0.000517196793379881,
+        "sourceShare": 0.044444444444444446,
+        "targetShare": 0.010221465076660987
+      },
+      {
+        "source": 3,
+        "target": 9,
+        "sourceId": "industry:Consumer Goods and Services",
+        "targetId": "business_model:B2G",
+        "value": 5,
+        "share": 0.00043099732781656753,
+        "sourceShare": 0.0040453074433656954,
+        "targetShare": 0.037037037037037035
+      },
+      {
+        "source": 15,
+        "target": 18,
+        "sourceId": "model_physics:usage_based_api",
+        "targetId": "scalability:high_touch",
+        "value": 5,
+        "share": 0.00043099732781656753,
+        "sourceShare": 0.00927643784786642,
+        "targetShare": 0.0030303030303030303
+      },
+      {
+        "source": 1,
+        "target": 9,
+        "sourceId": "industry:Healthcare and Food",
+        "targetId": "business_model:B2G",
+        "value": 4,
+        "share": 0.000344797862253254,
+        "sourceShare": 0.0012894906511927789,
+        "targetShare": 0.02962962962962963
+      },
+      {
+        "source": 16,
+        "target": 24,
+        "sourceId": "scalability:sales_led",
+        "targetId": "payment_model:poa",
+        "value": 3,
+        "share": 0.0002585983966899405,
+        "sourceShare": 0.0005888125613346418,
+        "targetShare": 0.036585365853658534
+      },
+      {
+        "source": 17,
+        "target": 25,
+        "sourceId": "scalability:self_serve",
+        "targetId": "payment_model:free",
+        "value": 3,
+        "share": 0.0002585983966899405,
+        "sourceShare": 0.0009689922480620155,
+        "targetShare": 1.0
+      },
+      {
+        "source": 20,
+        "target": 24,
+        "sourceId": "scalability:services_led",
+        "targetId": "payment_model:poa",
+        "value": 3,
+        "share": 0.0002585983966899405,
+        "sourceShare": 0.003973509933774834,
+        "targetShare": 0.036585365853658534
+      },
+      {
+        "source": 13,
+        "target": 18,
+        "sourceId": "model_physics:marketplace_transactional",
+        "targetId": "scalability:high_touch",
+        "value": 1,
+        "share": 0.0000861994655633135,
+        "sourceShare": 0.0009182736455463728,
+        "targetShare": 0.0006060606060606061
+      },
+      {
+        "source": 17,
+        "target": 26,
+        "sourceId": "scalability:self_serve",
+        "targetId": "payment_model:freemium",
+        "value": 1,
+        "share": 0.0000861994655633135,
+        "sourceShare": 0.00032299741602067185,
+        "targetShare": 1.0
+      }
+    ],
+    "unknownCounts": {
+      "customerModel": 175,
+      "operatingModel": 136,
+      "industry": 1,
+      "scalability": 266,
+      "revenueModel": 1263
+    },
+    "excludedCounts": {
+      "missingCustomerModel": 175,
+      "missingOperatingModel": 136,
+      "missingIndustry": 1,
+      "missingScalability": 266,
+      "missingRevenueModel": 1263
+    }
+  },
+  "customerTypeProfiles": {
+    "totalCompanies": 11601,
+    "columns": [
+      {
+        "key": "industry",
+        "label": "Industry",
+        "customerTypes": [
+          "Consumers and households",
+          "Enterprise business teams",
+          "Digital consumers and creators",
+          "Healthcare providers",
+          "Hospitals",
+          "Enterprise IT teams",
+          "Manufacturers",
+          "Service providers",
+          "Specialist physicians",
+          "Clinics",
+          "Technology companies",
+          "Industrial operators",
+          "SMBs",
+          "Developers",
+          "Retailers",
+          "Financial institutions",
+          "E-commerce retailers",
+          "Enterprise systems",
+          "Media companies",
+          "Marketing teams"
+        ],
+        "groups": [
+          {
+            "id": "industry:IT and Telecom",
+            "name": "IT and Telecom",
+            "companies": 4854,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 427,
+                "share": 0.08796868562010712
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1495,
+                "share": 0.3079934074989699
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 346,
+                "share": 0.07128141738772147
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 187,
+                "share": 0.038524927894519986
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 65,
+                "share": 0.013391017717346519
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1227,
+                "share": 0.2527812113720643
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 693,
+                "share": 0.14276885043263288
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 691,
+                "share": 0.142356819118253
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 18,
+                "share": 0.003708281829419036
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 12,
+                "share": 0.002472187886279357
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 938,
+                "share": 0.19324268644416975
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 533,
+                "share": 0.10980634528224145
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 638,
+                "share": 0.13143798928718584
+              },
+              {
+                "customerType": "Developers",
+                "companies": 766,
+                "share": 0.15780799340749896
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 435,
+                "share": 0.0896168108776267
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 471,
+                "share": 0.09703337453646477
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 534,
+                "share": 0.1100123609394314
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 591,
+                "share": 0.12175525339925834
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 332,
+                "share": 0.06839719818706222
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 518,
+                "share": 0.10671611042439226
+              }
+            ]
+          },
+          {
+            "id": "industry:Healthcare and Food",
+            "name": "Healthcare and Food",
+            "companies": 3102,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 619,
+                "share": 0.19954867827208253
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 68,
+                "share": 0.02192134107027724
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 137,
+                "share": 0.04416505480335268
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 1368,
+                "share": 0.4410058027079304
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 1217,
+                "share": 0.392327530625403
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 7,
+                "share": 0.002256608639587363
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 196,
+                "share": 0.06318504190844616
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 113,
+                "share": 0.036428110896196006
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 1120,
+                "share": 0.3610573823339781
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 1068,
+                "share": 0.344294003868472
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 26,
+                "share": 0.008381689232753063
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 76,
+                "share": 0.024500322372662798
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 31,
+                "share": 0.009993552546744036
+              },
+              {
+                "customerType": "Developers",
+                "companies": 22,
+                "share": 0.0070921985815602835
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 112,
+                "share": 0.036105738233397806
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 5,
+                "share": 0.0016118633139909735
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 9,
+                "share": 0.0029013539651837525
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 48,
+                "share": 0.015473887814313346
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 2,
+                "share": 0.0006447453255963894
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 5,
+                "share": 0.0016118633139909735
+              }
+            ]
+          },
+          {
+            "id": "industry:Media and Entertainment",
+            "name": "Media and Entertainment",
+            "companies": 1264,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 506,
+                "share": 0.40031645569620256
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 61,
+                "share": 0.048259493670886076
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 669,
+                "share": 0.5292721518987342
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 2,
+                "share": 0.0015822784810126582
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 2,
+                "share": 0.0015822784810126582
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 3,
+                "share": 0.0023734177215189874
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 10,
+                "share": 0.007911392405063292
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 71,
+                "share": 0.05617088607594937
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 3,
+                "share": 0.0023734177215189874
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 1,
+                "share": 0.0007911392405063291
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 27,
+                "share": 0.021360759493670885
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 2,
+                "share": 0.0015822784810126582
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 34,
+                "share": 0.02689873417721519
+              },
+              {
+                "customerType": "Developers",
+                "companies": 65,
+                "share": 0.051424050632911396
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 33,
+                "share": 0.02610759493670886
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 9,
+                "share": 0.007120253164556962
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 67,
+                "share": 0.05300632911392405
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 35,
+                "share": 0.027689873417721517
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 430,
+                "share": 0.3401898734177215
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 235,
+                "share": 0.18591772151898733
+              }
+            ]
+          },
+          {
+            "id": "industry:Consumer Goods and Services",
+            "name": "Consumer Goods and Services",
+            "companies": 1236,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 790,
+                "share": 0.63915857605178
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 87,
+                "share": 0.0703883495145631
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 359,
+                "share": 0.290453074433657
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 13,
+                "share": 0.010517799352750809
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 10,
+                "share": 0.008090614886731391
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 3,
+                "share": 0.0024271844660194173
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 156,
+                "share": 0.1262135922330097
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 97,
+                "share": 0.0784789644012945
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 3,
+                "share": 0.0024271844660194173
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 22,
+                "share": 0.01779935275080906
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 79,
+                "share": 0.063915857605178
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 72,
+                "share": 0.05825242718446602
+              },
+              {
+                "customerType": "Developers",
+                "companies": 26,
+                "share": 0.021035598705501618
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 183,
+                "share": 0.14805825242718446
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 3,
+                "share": 0.0024271844660194173
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 110,
+                "share": 0.0889967637540453
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 35,
+                "share": 0.02831715210355987
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 21,
+                "share": 0.01699029126213592
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 29,
+                "share": 0.023462783171521034
+              }
+            ]
+          },
+          {
+            "id": "industry:Financial Services",
+            "name": "Financial Services",
+            "companies": 601,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 156,
+                "share": 0.259567387687188
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 211,
+                "share": 0.35108153078202997
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 99,
+                "share": 0.16472545757071547
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 2,
+                "share": 0.0033277870216306157
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 4,
+                "share": 0.0066555740432612314
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 14,
+                "share": 0.02329450915141431
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 24,
+                "share": 0.03993344425956739
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 150,
+                "share": 0.24958402662229617
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 7,
+                "share": 0.011647254575707155
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 2,
+                "share": 0.0033277870216306157
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 51,
+                "share": 0.08485856905158069
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 6,
+                "share": 0.009983361064891847
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 127,
+                "share": 0.2113144758735441
+              },
+              {
+                "customerType": "Developers",
+                "companies": 14,
+                "share": 0.02329450915141431
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 67,
+                "share": 0.11148086522462562
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 341,
+                "share": 0.56738768718802
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 74,
+                "share": 0.12312811980033278
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 58,
+                "share": 0.09650582362728785
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 6,
+                "share": 0.009983361064891847
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 4,
+                "share": 0.0066555740432612314
+              }
+            ]
+          },
+          {
+            "id": "industry:Energy and Utilities",
+            "name": "Energy and Utilities",
+            "companies": 544,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 41,
+                "share": 0.07536764705882353
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 31,
+                "share": 0.05698529411764706
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 3,
+                "share": 0.0055147058823529415
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 15,
+                "share": 0.027573529411764705
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 5,
+                "share": 0.009191176470588236
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 179,
+                "share": 0.3290441176470588
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 39,
+                "share": 0.07169117647058823
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 1,
+                "share": 0.001838235294117647
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 1,
+                "share": 0.001838235294117647
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 12,
+                "share": 0.022058823529411766
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 269,
+                "share": 0.4944852941176471
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 6,
+                "share": 0.011029411764705883
+              },
+              {
+                "customerType": "Developers",
+                "companies": 1,
+                "share": 0.001838235294117647
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 20,
+                "share": 0.03676470588235294
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 11,
+                "share": 0.02022058823529412
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 1,
+                "share": 0.001838235294117647
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 26,
+                "share": 0.04779411764705882
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 2,
+                "share": 0.003676470588235294
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "business_model",
+        "label": "Customer segment",
+        "customerTypes": [
+          "Consumers and households",
+          "Enterprise business teams",
+          "Digital consumers and creators",
+          "Healthcare providers",
+          "Hospitals",
+          "Enterprise IT teams",
+          "Manufacturers",
+          "Service providers",
+          "Specialist physicians",
+          "Clinics",
+          "Technology companies",
+          "Industrial operators",
+          "SMBs",
+          "Developers",
+          "Retailers",
+          "Financial institutions",
+          "E-commerce retailers",
+          "Enterprise systems",
+          "Media companies",
+          "Marketing teams"
+        ],
+        "groups": [
+          {
+            "id": "business_model:B2B",
+            "name": "B2B",
+            "companies": 8153,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 239,
+                "share": 0.029314362811235128
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1745,
+                "share": 0.21403164479332762
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 173,
+                "share": 0.021219183122776892
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 1241,
+                "share": 0.15221390899055562
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 1184,
+                "share": 0.1452226174414326
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1241,
+                "share": 0.15221390899055562
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 1200,
+                "share": 0.1471850852446952
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 907,
+                "share": 0.1112473935974488
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 932,
+                "share": 0.11431374954004661
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 890,
+                "share": 0.10916227155648228
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 1009,
+                "share": 0.12375812584324788
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 923,
+                "share": 0.11320986140071139
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 687,
+                "share": 0.08426346130258801
+              },
+              {
+                "customerType": "Developers",
+                "companies": 768,
+                "share": 0.09419845455660493
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 595,
+                "share": 0.07297927143382804
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 737,
+                "share": 0.09039617318778363
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 650,
+                "share": 0.07972525450754324
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 710,
+                "share": 0.087084508769778
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 613,
+                "share": 0.07518704771249847
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 693,
+                "share": 0.08499938672881148
+              }
+            ]
+          },
+          {
+            "id": "business_model:B2C",
+            "name": "B2C",
+            "companies": 2127,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1812,
+                "share": 0.8519040902679831
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 51,
+                "share": 0.023977433004231313
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 1188,
+                "share": 0.5585331452750353
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 85,
+                "share": 0.03996238834038552
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 7,
+                "share": 0.003291020216267043
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 5,
+                "share": 0.0023507287259050304
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 3,
+                "share": 0.0014104372355430183
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 31,
+                "share": 0.01457451810061119
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 49,
+                "share": 0.0230371415138693
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 25,
+                "share": 0.011753643629525154
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 6,
+                "share": 0.0028208744710860366
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 4,
+                "share": 0.0018805829807240243
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 65,
+                "share": 0.0305594734367654
+              },
+              {
+                "customerType": "Developers",
+                "companies": 47,
+                "share": 0.022096850023507288
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 52,
+                "share": 0.024447578749412318
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 31,
+                "share": 0.01457451810061119
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 22,
+                "share": 0.010343206393982134
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 26,
+                "share": 0.012223789374706159
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 54,
+                "share": 0.02538787023977433
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 23,
+                "share": 0.010813352139163141
+              }
+            ]
+          },
+          {
+            "id": "business_model:B2B2C",
+            "name": "B2B2C",
+            "companies": 1186,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 488,
+                "share": 0.4114671163575042
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 156,
+                "share": 0.1315345699831366
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 249,
+                "share": 0.20994940978077573
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 245,
+                "share": 0.20657672849915684
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 122,
+                "share": 0.10286677908937605
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 12,
+                "share": 0.01011804384485666
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 51,
+                "share": 0.04300168634064081
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 220,
+                "share": 0.18549747048903878
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 167,
+                "share": 0.14080944350758853
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 172,
+                "share": 0.14502529510961215
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 59,
+                "share": 0.049747048903878585
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 13,
+                "share": 0.010961214165261383
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 156,
+                "share": 0.1315345699831366
+              },
+              {
+                "customerType": "Developers",
+                "companies": 78,
+                "share": 0.0657672849915683
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 203,
+                "share": 0.1711635750421585
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 70,
+                "share": 0.05902192242833052
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 123,
+                "share": 0.10370994940978077
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 53,
+                "share": 0.04468802698145025
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 125,
+                "share": 0.10539629005059022
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 75,
+                "share": 0.06323777403035413
+              }
+            ]
+          },
+          {
+            "id": "business_model:B2G",
+            "name": "B2G",
+            "companies": 135,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1,
+                "share": 0.007407407407407408
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 4,
+                "share": 0.02962962962962963
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1,
+                "share": 0.007407407407407408
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 4,
+                "share": 0.02962962962962963
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 3,
+                "share": 0.022222222222222223
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 1,
+                "share": 0.007407407407407408
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 2,
+                "share": 0.014814814814814815
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 25,
+                "share": 0.18518518518518517
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Developers",
+                "companies": 1,
+                "share": 0.007407407407407408
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 2,
+                "share": 0.014814814814814815
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 4,
+                "share": 0.02962962962962963
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 1,
+                "share": 0.007407407407407408
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "model_physics",
+        "label": "Operating model",
+        "customerTypes": [
+          "Consumers and households",
+          "Enterprise business teams",
+          "Digital consumers and creators",
+          "Healthcare providers",
+          "Hospitals",
+          "Enterprise IT teams",
+          "Manufacturers",
+          "Service providers",
+          "Specialist physicians",
+          "Clinics",
+          "Technology companies",
+          "Industrial operators",
+          "SMBs",
+          "Developers",
+          "Retailers",
+          "Financial institutions",
+          "E-commerce retailers",
+          "Enterprise systems",
+          "Media companies",
+          "Marketing teams"
+        ],
+        "groups": [
+          {
+            "id": "model_physics:b2b_enterprise_saas",
+            "name": "B2B Enterprise SaaS",
+            "companies": 5693,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1058,
+                "share": 0.1858422624275426
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1593,
+                "share": 0.2798173195151941
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 851,
+                "share": 0.14948181977867556
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 510,
+                "share": 0.08958369927981732
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 254,
+                "share": 0.044616195327595295
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1084,
+                "share": 0.19040927454769013
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 413,
+                "share": 0.07254523098542069
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 728,
+                "share": 0.1278763393641314
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 233,
+                "share": 0.040927454769014576
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 233,
+                "share": 0.040927454769014576
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 756,
+                "share": 0.13279466010890567
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 260,
+                "share": 0.0456701212014755
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 709,
+                "share": 0.12453890743017741
+              },
+              {
+                "customerType": "Developers",
+                "companies": 602,
+                "share": 0.10574389601264711
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 465,
+                "share": 0.08167925522571579
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 647,
+                "share": 0.11364834006674863
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 537,
+                "share": 0.09432636571227823
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 566,
+                "share": 0.09942034076936589
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 476,
+                "share": 0.08361145266116284
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 626,
+                "share": 0.10995959950816793
+              }
+            ]
+          },
+          {
+            "id": "model_physics:b2b_industrial_hardware",
+            "name": "B2B Industrial Hardware",
+            "companies": 2106,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 384,
+                "share": 0.18233618233618235
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 40,
+                "share": 0.01899335232668566
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 73,
+                "share": 0.03466286799620133
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 469,
+                "share": 0.22269705603038936
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 596,
+                "share": 0.28300094966761635
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 26,
+                "share": 0.012345679012345678
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 416,
+                "share": 0.19753086419753085
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 88,
+                "share": 0.04178537511870845
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 511,
+                "share": 0.2426400759734093
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 483,
+                "share": 0.22934472934472935
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 66,
+                "share": 0.03133903133903134
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 305,
+                "share": 0.14482431149097816
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 10,
+                "share": 0.004748338081671415
+              },
+              {
+                "customerType": "Developers",
+                "companies": 31,
+                "share": 0.014719848053181387
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 104,
+                "share": 0.04938271604938271
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 7,
+                "share": 0.0033238366571699905
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 6,
+                "share": 0.002849002849002849
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 37,
+                "share": 0.017568850902184234
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 25,
+                "share": 0.011870845204178538
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 2,
+                "share": 0.000949667616334283
+              }
+            ]
+          },
+          {
+            "id": "model_physics:hybrid_hardware_saas",
+            "name": "Hybrid Hardware SaaS",
+            "companies": 1587,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 283,
+                "share": 0.17832388153749212
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 118,
+                "share": 0.074354127284184
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 45,
+                "share": 0.02835538752362949
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 370,
+                "share": 0.23314429741650913
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 306,
+                "share": 0.19281663516068054
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 70,
+                "share": 0.04410838059231254
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 318,
+                "share": 0.2003780718336484
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 122,
+                "share": 0.07687460617517328
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 231,
+                "share": 0.14555765595463138
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 259,
+                "share": 0.1632010081915564
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 56,
+                "share": 0.03528670447385003
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 369,
+                "share": 0.23251417769376181
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 37,
+                "share": 0.023314429741650915
+              },
+              {
+                "customerType": "Developers",
+                "companies": 32,
+                "share": 0.020163831127914304
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 136,
+                "share": 0.0856962822936358
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 36,
+                "share": 0.022684310018903593
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 42,
+                "share": 0.026465028355387523
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 63,
+                "share": 0.03969754253308128
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 50,
+                "share": 0.0315059861373661
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 11,
+                "share": 0.006931316950220542
+              }
+            ]
+          },
+          {
+            "id": "model_physics:marketplace_transactional",
+            "name": "Marketplace Transactional",
+            "companies": 1089,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 618,
+                "share": 0.5674931129476584
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 96,
+                "share": 0.0881542699724518
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 478,
+                "share": 0.4389348025711662
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 13,
+                "share": 0.011937557392102846
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 7,
+                "share": 0.006427915518824609
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 5,
+                "share": 0.004591368227731864
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 51,
+                "share": 0.046831955922865015
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 161,
+                "share": 0.14784205693296604
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 9,
+                "share": 0.008264462809917356
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 5,
+                "share": 0.004591368227731864
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 41,
+                "share": 0.03764921946740129
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 9,
+                "share": 0.008264462809917356
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 127,
+                "share": 0.11662075298438934
+              },
+              {
+                "customerType": "Developers",
+                "companies": 73,
+                "share": 0.06703397612488522
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 116,
+                "share": 0.10651974288337925
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 82,
+                "share": 0.07529843893480258
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 130,
+                "share": 0.11937557392102846
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 48,
+                "share": 0.0440771349862259
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 130,
+                "share": 0.11937557392102846
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 82,
+                "share": 0.07529843893480258
+              }
+            ]
+          },
+          {
+            "id": "model_physics:deep_tech_milestone",
+            "name": "Deep Tech Milestone",
+            "companies": 587,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 37,
+                "share": 0.06303236797274275
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 10,
+                "share": 0.017035775127768313
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 1,
+                "share": 0.0017035775127768314
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 194,
+                "share": 0.33049403747870526
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 146,
+                "share": 0.24872231686541738
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 5,
+                "share": 0.008517887563884156
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 49,
+                "share": 0.08347529812606473
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 5,
+                "share": 0.008517887563884156
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 158,
+                "share": 0.26916524701873934
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 102,
+                "share": 0.1737649063032368
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 26,
+                "share": 0.044293015332197615
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 17,
+                "share": 0.028960817717206135
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 2,
+                "share": 0.0034071550255536627
+              },
+              {
+                "customerType": "Developers",
+                "companies": 10,
+                "share": 0.017035775127768313
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 4,
+                "share": 0.0068143100511073255
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 7,
+                "share": 0.01192504258943782
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 2,
+                "share": 0.0034071550255536627
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 30,
+                "share": 0.05110732538330494
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          },
+          {
+            "id": "model_physics:usage_based_api",
+            "name": "Usage Based API",
+            "companies": 539,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 159,
+                "share": 0.2949907235621521
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 96,
+                "share": 0.17810760667903525
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 162,
+                "share": 0.300556586270872
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 19,
+                "share": 0.03525046382189239
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 4,
+                "share": 0.0074211502782931356
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 69,
+                "share": 0.1280148423005566
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 11,
+                "share": 0.02040816326530612
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 57,
+                "share": 0.10575139146567718
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 7,
+                "share": 0.012987012987012988
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 5,
+                "share": 0.00927643784786642
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 131,
+                "share": 0.24304267161410018
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 5,
+                "share": 0.00927643784786642
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 23,
+                "share": 0.04267161410018553
+              },
+              {
+                "customerType": "Developers",
+                "companies": 146,
+                "share": 0.27087198515769945
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 25,
+                "share": 0.04638218923933209
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 61,
+                "share": 0.11317254174397032
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 78,
+                "share": 0.14471243042671614
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 49,
+                "share": 0.09090909090909091
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 112,
+                "share": 0.2077922077922078
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 70,
+                "share": 0.12987012987012986
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scalability",
+        "label": "Scalability",
+        "customerTypes": [
+          "Consumers and households",
+          "Enterprise business teams",
+          "Digital consumers and creators",
+          "Healthcare providers",
+          "Hospitals",
+          "Enterprise IT teams",
+          "Manufacturers",
+          "Service providers",
+          "Specialist physicians",
+          "Clinics",
+          "Technology companies",
+          "Industrial operators",
+          "SMBs",
+          "Developers",
+          "Retailers",
+          "Financial institutions",
+          "E-commerce retailers",
+          "Enterprise systems",
+          "Media companies",
+          "Marketing teams"
+        ],
+        "groups": [
+          {
+            "id": "scalability:sales_led",
+            "name": "Sales Led",
+            "companies": 5095,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 323,
+                "share": 0.0633954857703631
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1180,
+                "share": 0.23159960745829244
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 98,
+                "share": 0.019234543670264965
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 792,
+                "share": 0.15544651619234542
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 662,
+                "share": 0.12993130520117763
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 884,
+                "share": 0.17350343473994112
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 793,
+                "share": 0.15564278704612364
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 690,
+                "share": 0.13542688910696762
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 537,
+                "share": 0.10539744847890088
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 626,
+                "share": 0.12286555446516192
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 609,
+                "share": 0.11952894995093229
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 581,
+                "share": 0.11403336604514229
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 292,
+                "share": 0.05731108930323847
+              },
+              {
+                "customerType": "Developers",
+                "companies": 397,
+                "share": 0.07791952894995094
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 470,
+                "share": 0.09224730127576054
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 551,
+                "share": 0.10814524043179588
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 368,
+                "share": 0.07222767419038273
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 425,
+                "share": 0.08341511285574092
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 356,
+                "share": 0.06987242394504416
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 251,
+                "share": 0.049263984298331696
+              }
+            ]
+          },
+          {
+            "id": "scalability:self_serve",
+            "name": "Self Serve",
+            "companies": 3096,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1726,
+                "share": 0.5574935400516796
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 386,
+                "share": 0.12467700258397933
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 1383,
+                "share": 0.44670542635658916
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 73,
+                "share": 0.023578811369509043
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 11,
+                "share": 0.0035529715762273903
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 163,
+                "share": 0.05264857881136951
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 30,
+                "share": 0.009689922480620155
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 227,
+                "share": 0.0733204134366925
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 32,
+                "share": 0.0103359173126615
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 14,
+                "share": 0.004521963824289405
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 187,
+                "share": 0.06040051679586563
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 12,
+                "share": 0.003875968992248062
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 413,
+                "share": 0.13339793281653747
+              },
+              {
+                "customerType": "Developers",
+                "companies": 341,
+                "share": 0.1101421188630491
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 185,
+                "share": 0.05975452196382429
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 90,
+                "share": 0.029069767441860465
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 284,
+                "share": 0.0917312661498708
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 156,
+                "share": 0.050387596899224806
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 290,
+                "share": 0.09366925064599484
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 379,
+                "share": 0.12241602067183463
+              }
+            ]
+          },
+          {
+            "id": "scalability:high_touch",
+            "name": "High Touch",
+            "companies": 1650,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 74,
+                "share": 0.044848484848484846
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 78,
+                "share": 0.04727272727272727
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 5,
+                "share": 0.0030303030303030303
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 481,
+                "share": 0.2915151515151515
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 489,
+                "share": 0.2963636363636364
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 66,
+                "share": 0.04
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 250,
+                "share": 0.15151515151515152
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 51,
+                "share": 0.03090909090909091
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 446,
+                "share": 0.2703030303030303
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 315,
+                "share": 0.19090909090909092
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 72,
+                "share": 0.04363636363636364
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 255,
+                "share": 0.15454545454545454
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 7,
+                "share": 0.004242424242424243
+              },
+              {
+                "customerType": "Developers",
+                "companies": 47,
+                "share": 0.028484848484848484
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 37,
+                "share": 0.022424242424242423
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 76,
+                "share": 0.04606060606060606
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 16,
+                "share": 0.009696969696969697
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 58,
+                "share": 0.03515151515151515
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 18,
+                "share": 0.01090909090909091
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 8,
+                "share": 0.0048484848484848485
+              }
+            ]
+          },
+          {
+            "id": "scalability:low_touch",
+            "name": "Low Touch",
+            "companies": 1005,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 351,
+                "share": 0.3492537313432836
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 166,
+                "share": 0.16517412935323383
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 112,
+                "share": 0.11144278606965174
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 137,
+                "share": 0.136318407960199
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 36,
+                "share": 0.03582089552238806
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 87,
+                "share": 0.08656716417910448
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 48,
+                "share": 0.04776119402985075
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 143,
+                "share": 0.14228855721393036
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 57,
+                "share": 0.056716417910447764
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 55,
+                "share": 0.05472636815920398
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 55,
+                "share": 0.05472636815920398
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 29,
+                "share": 0.028855721393034824
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 106,
+                "share": 0.1054726368159204
+              },
+              {
+                "customerType": "Developers",
+                "companies": 77,
+                "share": 0.07661691542288557
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 112,
+                "share": 0.11144278606965174
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 78,
+                "share": 0.07761194029850746
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 102,
+                "share": 0.10149253731343283
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 112,
+                "share": 0.11144278606965174
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 104,
+                "share": 0.10348258706467661
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 123,
+                "share": 0.12238805970149254
+              }
+            ]
+          },
+          {
+            "id": "scalability:services_led",
+            "name": "Services Led",
+            "companies": 755,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 65,
+                "share": 0.08609271523178808
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 143,
+                "share": 0.18940397350993377
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 12,
+                "share": 0.015894039735099338
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 92,
+                "share": 0.12185430463576159
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 115,
+                "share": 0.152317880794702
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 59,
+                "share": 0.0781456953642384
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 137,
+                "share": 0.1814569536423841
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 50,
+                "share": 0.06622516556291391
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 77,
+                "share": 0.10198675496688742
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 77,
+                "share": 0.10198675496688742
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 153,
+                "share": 0.20264900662251656
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 88,
+                "share": 0.11655629139072848
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 90,
+                "share": 0.11920529801324503
+              },
+              {
+                "customerType": "Developers",
+                "companies": 32,
+                "share": 0.0423841059602649
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 46,
+                "share": 0.060927152317880796
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 45,
+                "share": 0.059602649006622516
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 25,
+                "share": 0.033112582781456956
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 42,
+                "share": 0.05562913907284768
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 25,
+                "share": 0.033112582781456956
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 30,
+                "share": 0.039735099337748346
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "payment_model",
+        "label": "Revenue model",
+        "customerTypes": [
+          "Consumers and households",
+          "Enterprise business teams",
+          "Digital consumers and creators",
+          "Healthcare providers",
+          "Hospitals",
+          "Enterprise IT teams",
+          "Manufacturers",
+          "Service providers",
+          "Specialist physicians",
+          "Clinics",
+          "Technology companies",
+          "Industrial operators",
+          "SMBs",
+          "Developers",
+          "Retailers",
+          "Financial institutions",
+          "E-commerce retailers",
+          "Enterprise systems",
+          "Media companies",
+          "Marketing teams"
+        ],
+        "groups": [
+          {
+            "id": "payment_model:recurring",
+            "name": "Recurring",
+            "companies": 7399,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1428,
+                "share": 0.19299905392620625
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1784,
+                "share": 0.2411136640086498
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 1056,
+                "share": 0.14272198945803488
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 789,
+                "share": 0.10663603189620219
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 432,
+                "share": 0.05838626841465063
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1124,
+                "share": 0.15191242059737803
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 665,
+                "share": 0.08987701040681173
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 937,
+                "share": 0.12663873496418435
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 393,
+                "share": 0.053115285849439114
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 380,
+                "share": 0.051358291661035275
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 891,
+                "share": 0.12042167860521692
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 490,
+                "share": 0.06622516556291391
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 797,
+                "share": 0.10771725908906608
+              },
+              {
+                "customerType": "Developers",
+                "companies": 739,
+                "share": 0.09987836194080281
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 664,
+                "share": 0.08974185700770375
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 736,
+                "share": 0.09947290174347885
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 685,
+                "share": 0.09258007838897148
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 634,
+                "share": 0.08568725503446412
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 645,
+                "share": 0.08717394242465198
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 732,
+                "share": 0.0989322881470469
+              }
+            ]
+          },
+          {
+            "id": "payment_model:one_time",
+            "name": "One-time",
+            "companies": 3303,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 717,
+                "share": 0.21707538601271573
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 94,
+                "share": 0.028458976687859523
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 207,
+                "share": 0.06267029972752043
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 732,
+                "share": 0.22161671207992734
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 858,
+                "share": 0.259763851044505
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 118,
+                "share": 0.03572509839539812
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 542,
+                "share": 0.1640932485619134
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 135,
+                "share": 0.04087193460490463
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 705,
+                "share": 0.2134423251589464
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 685,
+                "share": 0.20738722373599758
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 122,
+                "share": 0.03693611867998789
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 434,
+                "share": 0.1313957008779897
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 34,
+                "share": 0.010293672419013019
+              },
+              {
+                "customerType": "Developers",
+                "companies": 89,
+                "share": 0.026945201332122314
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 121,
+                "share": 0.036633363608840445
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 40,
+                "share": 0.012110202845897668
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 27,
+                "share": 0.008174386920980926
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 115,
+                "share": 0.034816833181955796
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 100,
+                "share": 0.030275507114744173
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 15,
+                "share": 0.004541326067211626
+              }
+            ]
+          },
+          {
+            "id": "payment_model:usage_based",
+            "name": "Usage-based",
+            "companies": 813,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 390,
+                "share": 0.4797047970479705
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 74,
+                "share": 0.0910209102091021
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 344,
+                "share": 0.4231242312423124
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 37,
+                "share": 0.04551045510455105
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 16,
+                "share": 0.01968019680196802
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 14,
+                "share": 0.017220172201722016
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 42,
+                "share": 0.05166051660516605
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 87,
+                "share": 0.1070110701107011
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 33,
+                "share": 0.04059040590405904
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 20,
+                "share": 0.024600246002460024
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 48,
+                "share": 0.05904059040590406
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 27,
+                "share": 0.033210332103321034
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 77,
+                "share": 0.09471094710947109
+              },
+              {
+                "customerType": "Developers",
+                "companies": 63,
+                "share": 0.07749077490774908
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 65,
+                "share": 0.07995079950799508
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 64,
+                "share": 0.07872078720787208
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 83,
+                "share": 0.10209102091020911
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 39,
+                "share": 0.04797047970479705
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 48,
+                "share": 0.05904059040590406
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 44,
+                "share": 0.05412054120541206
+              }
+            ]
+          },
+          {
+            "id": "payment_model:poa",
+            "name": "poa",
+            "companies": 82,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1,
+                "share": 0.012195121951219513
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 17,
+                "share": 0.2073170731707317
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 7,
+                "share": 0.08536585365853659
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 2,
+                "share": 0.024390243902439025
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 9,
+                "share": 0.10975609756097561
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 1,
+                "share": 0.012195121951219513
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 18,
+                "share": 0.21951219512195122
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 2,
+                "share": 0.024390243902439025
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 14,
+                "share": 0.17073170731707318
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 14,
+                "share": 0.17073170731707318
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Developers",
+                "companies": 2,
+                "share": 0.024390243902439025
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 5,
+                "share": 0.06097560975609756
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          },
+          {
+            "id": "payment_model:free",
+            "name": "free",
+            "companies": 3,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 2,
+                "share": 0.6666666666666666
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 1,
+                "share": 0.3333333333333333
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 2,
+                "share": 0.6666666666666666
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 1,
+                "share": 0.3333333333333333
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 1,
+                "share": 0.3333333333333333
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 1,
+                "share": 0.3333333333333333
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Developers",
+                "companies": 1,
+                "share": 0.3333333333333333
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          },
+          {
+            "id": "payment_model:freemium",
+            "name": "freemium",
+            "companies": 1,
+            "customerTypes": [
+              {
+                "customerType": "Consumers and households",
+                "companies": 1,
+                "share": 1.0
+              },
+              {
+                "customerType": "Enterprise business teams",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Digital consumers and creators",
+                "companies": 1,
+                "share": 1.0
+              },
+              {
+                "customerType": "Healthcare providers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Hospitals",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise IT teams",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Manufacturers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Service providers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Specialist physicians",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Clinics",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Technology companies",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Industrial operators",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "SMBs",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Developers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Financial institutions",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "E-commerce retailers",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Enterprise systems",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Media companies",
+                "companies": 0,
+                "share": 0
+              },
+              {
+                "customerType": "Marketing teams",
+                "companies": 0,
+                "share": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
