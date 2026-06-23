@@ -1,0 +1,35 @@
+name: Snapshots (intraday)
+
+# Slower-moving feeds (e.g. macro). Hourly keeps git history light.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshots-commit
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      API_BASE_URL: ${{ vars.API_BASE_URL }}
+      CADENCE: intraday
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Fetch snapshots from ise-api
+        run: bash scripts/fetch-snapshots.sh
+
+      - name: Commit changed snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/commit-snapshots.sh
+
+      - name: Push
+        run: git push
