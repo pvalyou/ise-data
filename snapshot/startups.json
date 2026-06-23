@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:29:53.042Z",
+  "generatedAt": "2026-06-23T21:57:38.669Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,40 +159,40 @@
   },
   "kpis": {
     "startups": {
-      "value": 13641,
-      "delta24h": 336
+      "value": 13662,
+      "delta24h": 333
     },
     "totalFunding": {
       "valueUsd": 175136310000,
-      "rounds": 26448
+      "rounds": 26449
     },
     "exits": {
       "count": 1775,
       "valueUsd": 185705335900
     },
     "employees": {
-      "total": 355032,
-      "avgPerStartup": 32
+      "total": 355109,
+      "avgPerStartup": 31
     },
     "patents": {
       "total": 121366,
       "delta30d": 0
     },
-    "openJobs": 7471
+    "openJobs": 6868
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 2710
+        "count": 2712
       },
       {
         "name": "Central",
-        "count": 1552
+        "count": 1553
       },
       {
         "name": "Haifa",
-        "count": 552
+        "count": 553
       },
       {
         "name": "Jerusalem",
@@ -200,7 +200,7 @@
       },
       {
         "name": "Northern",
-        "count": 159
+        "count": 160
       },
       {
         "name": "Southern",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 1740
+        "count": 1742
       },
       {
         "name": "Ramat Gan",
@@ -280,7 +280,7 @@
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 131
+        "count": 132
       },
       {
         "name": "Ness Ziona",
@@ -371,7 +371,7 @@
         "district": "Northern",
         "lat": 32.7022,
         "lng": 35.2978,
-        "count": 37
+        "count": 38
       },
       {
         "name": "Yavne",
@@ -402,6 +402,13 @@
         "count": 22
       },
       {
+        "name": "Hadera",
+        "district": "Haifa",
+        "lat": 32.434,
+        "lng": 34.9196,
+        "count": 22
+      },
+      {
         "name": "Misgav",
         "district": "Northern",
         "lat": 32.9,
@@ -420,13 +427,6 @@
         "district": "Central",
         "lat": 32.0564,
         "lng": 34.8733,
-        "count": 21
-      },
-      {
-        "name": "Hadera",
-        "district": "Haifa",
-        "lat": 32.434,
-        "lng": 34.9196,
         "count": 21
       },
       {
@@ -881,22 +881,22 @@
         224,
         251,
         288,
-        361,
+        362,
         326,
-        281,
+        282,
         359,
-        577,
-        708,
-        717,
-        855,
-        863,
-        884,
+        579,
+        709,
+        719,
+        856,
+        867,
+        887,
         782,
-        833,
-        757,
-        771,
-        774,
-        619,
+        834,
+        758,
+        772,
+        775,
+        620,
         393,
         325,
         172,
@@ -956,19 +956,19 @@
         189,
         233,
         196,
-        173,
+        174,
         201,
-        360,
+        362,
         471,
-        452,
-        530,
-        478,
-        453,
+        454,
+        531,
+        482,
+        455,
         357,
         383,
-        309,
-        250,
-        222,
+        310,
+        251,
+        223,
         150,
         59,
         21,
@@ -976,8 +976,8 @@
         3
       ],
       "statusMix": {
-        "active": 7095,
-        "closed": 5940,
+        "active": 7101,
+        "closed": 5955,
         "inactive": 606
       }
     },
@@ -1062,7 +1062,7 @@
         1090,
         1551,
         1606,
-        1621,
+        1622,
         1852,
         1678,
         1316,
@@ -1115,7 +1115,7 @@
         8035991196
       ],
       "stageMix": {
-        "Seed": 9697,
+        "Seed": 9698,
         "Grant": 3655,
         "Other": 2548,
         "Series A": 2284,
@@ -1324,13 +1324,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 6208,
-      "closed": 5658,
+      "active": 6214,
+      "closed": 5673,
       "exited": 1775
     },
     "funnel": {
-      "all": 13641,
-      "funded": 9836,
+      "all": 13662,
+      "funded": 9837,
       "over1m": 3984,
       "over10m": 1905,
       "exited": 1775
@@ -1458,7 +1458,7 @@
       },
       {
         "year": 2018,
-        "total": 832,
+        "total": 833,
         "unknown": 1,
         "counts": {
           "it-telecom": 362,
@@ -1466,44 +1466,44 @@
           "consumer-goods-services": 89,
           "energy-utilities": 22,
           "financial-services": 66,
-          "media-entertainment": 44
+          "media-entertainment": 45
         },
         "shares": {
-          "it-telecom": 0.43509615384615385,
-          "healthcare-food": 0.29927884615384615,
-          "consumer-goods-services": 0.10697115384615384,
-          "energy-utilities": 0.026442307692307692,
-          "financial-services": 0.07932692307692307,
-          "media-entertainment": 0.052884615384615384
+          "it-telecom": 0.4345738295318127,
+          "healthcare-food": 0.29891956782713086,
+          "consumer-goods-services": 0.10684273709483794,
+          "energy-utilities": 0.026410564225690276,
+          "financial-services": 0.07923169267707082,
+          "media-entertainment": 0.05402160864345738
         }
       },
       {
         "year": 2019,
-        "total": 753,
+        "total": 754,
         "unknown": 4,
         "counts": {
           "it-telecom": 322,
           "healthcare-food": 227,
           "consumer-goods-services": 76,
-          "energy-utilities": 23,
+          "energy-utilities": 24,
           "financial-services": 56,
           "media-entertainment": 49
         },
         "shares": {
-          "it-telecom": 0.42762284196547146,
-          "healthcare-food": 0.301460823373174,
-          "consumer-goods-services": 0.10092961487383798,
-          "energy-utilities": 0.03054448871181939,
-          "financial-services": 0.07436918990703852,
-          "media-entertainment": 0.0650730411686587
+          "it-telecom": 0.4270557029177719,
+          "healthcare-food": 0.3010610079575597,
+          "consumer-goods-services": 0.10079575596816977,
+          "energy-utilities": 0.03183023872679045,
+          "financial-services": 0.07427055702917772,
+          "media-entertainment": 0.0649867374005305
         }
       },
       {
         "year": 2020,
-        "total": 769,
+        "total": 770,
         "unknown": 2,
         "counts": {
-          "it-telecom": 319,
+          "it-telecom": 320,
           "healthcare-food": 253,
           "consumer-goods-services": 75,
           "energy-utilities": 33,
@@ -1511,20 +1511,20 @@
           "media-entertainment": 45
         },
         "shares": {
-          "it-telecom": 0.41482444733420026,
-          "healthcare-food": 0.328998699609883,
-          "consumer-goods-services": 0.09752925877763328,
-          "energy-utilities": 0.04291287386215865,
-          "financial-services": 0.05721716514954486,
-          "media-entertainment": 0.05851755526657997
+          "it-telecom": 0.4155844155844156,
+          "healthcare-food": 0.32857142857142857,
+          "consumer-goods-services": 0.09740259740259741,
+          "energy-utilities": 0.04285714285714286,
+          "financial-services": 0.05714285714285714,
+          "media-entertainment": 0.05844155844155844
         }
       },
       {
         "year": 2021,
-        "total": 774,
+        "total": 775,
         "unknown": 0,
         "counts": {
-          "it-telecom": 334,
+          "it-telecom": 335,
           "healthcare-food": 207,
           "consumer-goods-services": 56,
           "energy-utilities": 49,
@@ -1532,33 +1532,33 @@
           "media-entertainment": 60
         },
         "shares": {
-          "it-telecom": 0.4315245478036176,
-          "healthcare-food": 0.26744186046511625,
-          "consumer-goods-services": 0.07235142118863049,
-          "energy-utilities": 0.06330749354005168,
-          "financial-services": 0.08785529715762273,
-          "media-entertainment": 0.07751937984496124
+          "it-telecom": 0.432258064516129,
+          "healthcare-food": 0.2670967741935484,
+          "consumer-goods-services": 0.07225806451612904,
+          "energy-utilities": 0.06322580645161291,
+          "financial-services": 0.08774193548387096,
+          "media-entertainment": 0.07741935483870968
         }
       },
       {
         "year": 2022,
-        "total": 619,
+        "total": 620,
         "unknown": 0,
         "counts": {
           "it-telecom": 255,
           "healthcare-food": 189,
           "consumer-goods-services": 41,
-          "energy-utilities": 48,
+          "energy-utilities": 49,
           "financial-services": 51,
           "media-entertainment": 35
         },
         "shares": {
-          "it-telecom": 0.41195476575121165,
-          "healthcare-food": 0.3053311793214863,
-          "consumer-goods-services": 0.06623586429725363,
-          "energy-utilities": 0.07754442649434572,
-          "financial-services": 0.08239095315024232,
-          "media-entertainment": 0.05654281098546042
+          "it-telecom": 0.4112903225806452,
+          "healthcare-food": 0.30483870967741933,
+          "consumer-goods-services": 0.06612903225806452,
+          "energy-utilities": 0.07903225806451612,
+          "financial-services": 0.08225806451612903,
+          "media-entertainment": 0.056451612903225805
         }
       },
       {
@@ -1650,42 +1650,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 5546,
-        "share": 0.4070159988257743
+        "count": 5556,
+        "share": 0.4071224444932952
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 3729,
-        "share": 0.27366798767062966
+        "count": 3733,
+        "share": 0.2735399721550524
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 1515,
-        "share": 0.11118450022016732
+        "share": 0.11101340954055837
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 692,
-        "share": 0.050785263466901515
+        "count": 694,
+        "share": 0.050853667472704624
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 721,
-        "share": 0.05291354762953178
+        "share": 0.052832124276397746
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 1423,
-        "share": 0.10443270218699545
+        "count": 1428,
+        "share": 0.10463838206199165
       }
     ],
     "mixSummary": {
-      "totalVisible": 5434,
+      "totalVisible": 5439,
       "totalUnknown": 9
     },
     "subTrendYears": [
@@ -1720,11 +1720,11 @@
         ],
         "shares": [
           0.06649616368286446,
-          0.07692307692307693,
-          0.05305039787798409,
-          0.07152145643693109,
-          0.07751937984496124,
-          0.09046849757673667,
+          0.07683073229291716,
+          0.052980132450331126,
+          0.07142857142857142,
+          0.07741935483870968,
+          0.09032258064516129,
           0.07633587786259542,
           0.12307692307692308,
           0.10588235294117647,
@@ -1734,14 +1734,14 @@
       {
         "name": "Enterprise Software",
         "parent": "IT and Telecom",
-        "total": 838,
+        "total": 839,
         "shareDelta": 0.027,
         "counts": [
           101,
           130,
           103,
           132,
-          130,
+          131,
           86,
           80,
           44,
@@ -1750,11 +1750,11 @@
         ],
         "shares": [
           0.12915601023017903,
-          0.15625,
-          0.13660477453580902,
-          0.1716514954486346,
-          0.16795865633074936,
-          0.13893376413570274,
+          0.15606242496998798,
+          0.13642384105960265,
+          0.17142857142857143,
+          0.16903225806451613,
+          0.13870967741935483,
           0.2035623409669211,
           0.13538461538461538,
           0.16470588235294117,
@@ -1780,11 +1780,11 @@
         ],
         "shares": [
           0.0076726342710997444,
-          0.008413461538461538,
-          0.007957559681697613,
-          0.010403120936280884,
-          0.011627906976744186,
-          0.009693053311793215,
+          0.008403361344537815,
+          0.007947019867549669,
+          0.01038961038961039,
+          0.011612903225806452,
+          0.00967741935483871,
           0.01272264631043257,
           0.027692307692307693,
           0.058823529411764705,
@@ -1794,15 +1794,15 @@
       {
         "name": "Clean Technology",
         "parent": "Energy and Utilities",
-        "total": 118,
+        "total": 120,
         "shareDelta": 0.019,
         "counts": [
           8,
           10,
-          12,
+          13,
           15,
           15,
-          25,
+          26,
           16,
           12,
           3,
@@ -1810,11 +1810,11 @@
         ],
         "shares": [
           0.010230179028132993,
-          0.01201923076923077,
-          0.015915119363395226,
-          0.01950585175552666,
-          0.01937984496124031,
-          0.04038772213247173,
+          0.012004801920768308,
+          0.017218543046357615,
+          0.01948051948051948,
+          0.01935483870967742,
+          0.041935483870967745,
           0.04071246819338423,
           0.036923076923076927,
           0.01764705882352941,
@@ -1840,11 +1840,11 @@
         ],
         "shares": [
           0.00639386189258312,
-          0.009615384615384616,
-          0.003978779840848806,
-          0.006501950585175552,
-          0.002583979328165375,
-          0.008077544426494346,
+          0.009603841536614645,
+          0.003973509933774834,
+          0.006493506493506494,
+          0.0025806451612903226,
+          0.008064516129032258,
           0.010178117048346057,
           0.009230769230769232,
           0.041176470588235294,
@@ -1872,11 +1872,11 @@
         ],
         "shares": [
           0.028132992327365727,
-          0.02403846153846154,
-          0.010610079575596816,
-          0.006501950585175552,
-          0.0103359173126615,
-          0.008077544426494346,
+          0.024009603841536616,
+          0.010596026490066225,
+          0.006493506493506494,
+          0.01032258064516129,
+          0.008064516129032258,
           0.002544529262086514,
           0.003076923076923077,
           0.0,
@@ -1902,11 +1902,11 @@
         ],
         "shares": [
           0.021739130434782608,
-          0.013221153846153846,
-          0.021220159151193633,
-          0.013003901170351105,
-          0.011627906976744186,
-          0.014539579967689823,
+          0.013205282112845138,
+          0.02119205298013245,
+          0.012987012987012988,
+          0.011612903225806452,
+          0.014516129032258065,
           0.005089058524173028,
           0.003076923076923077,
           0.0058823529411764705,
@@ -1932,11 +1932,11 @@
         ],
         "shares": [
           0.01918158567774936,
-          0.02283653846153846,
-          0.014588859416445624,
-          0.01950585175552666,
-          0.020671834625323,
-          0.01615508885298869,
+          0.022809123649459785,
+          0.01456953642384106,
+          0.01948051948051948,
+          0.02064516129032258,
+          0.016129032258064516,
           0.002544529262086514,
           0.015384615384615385,
           0.0,
@@ -1962,11 +1962,11 @@
         ],
         "shares": [
           0.01278772378516624,
-          0.015625,
-          0.01856763925729443,
-          0.013003901170351105,
-          0.00904392764857881,
-          0.006462035541195477,
+          0.015606242496998799,
+          0.018543046357615896,
+          0.012987012987012988,
+          0.00903225806451613,
+          0.0064516129032258064,
           0.005089058524173028,
           0.003076923076923077,
           0.0,
@@ -1992,11 +1992,11 @@
         ],
         "shares": [
           0.01918158567774936,
-          0.01201923076923077,
-          0.013262599469496022,
-          0.006501950585175552,
-          0.006459948320413436,
-          0.0032310177705977385,
+          0.012004801920768308,
+          0.013245033112582781,
+          0.006493506493506494,
+          0.0064516129032258064,
+          0.0032258064516129032,
           0.002544529262086514,
           0.009230769230769232,
           0.0,
@@ -2005,9 +2005,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 6537,
+      "deeptechCount": 6542,
       "deeptechPct": 47.9,
-      "globalCount": 6073,
+      "globalCount": 6082,
       "globalPct": 44.5
     }
   },
@@ -2096,17 +2096,6 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
         "org": "Frame Security",
         "stage": "Series A",
         "amountUsd": 50000000,
@@ -2127,6 +2116,17 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
         "org": "Coddy",
         "stage": "Debt Financing",
         "amountUsd": 10000000,
@@ -2143,6 +2143,47 @@
         "investors": [],
         "investorCount": 12,
         "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Novella Israel Tech",
+        "stage": "Series A",
+        "amountUsd": 21000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Lipovation",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 13,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Kela",
+        "stage": "Other",
+        "amountUsd": 200000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2176,47 +2217,6 @@
         "investorCount": 1,
         "isVcBacked": false,
         "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Lipovation",
-        "stage": "Grant",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Kela",
-        "stage": "Other",
-        "amountUsd": 200000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Novella Israel Tech",
-        "stage": "Series A",
-        "amountUsd": 21000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 13,
-        "isVcBacked": false,
-        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2226,417 +2226,412 @@
     },
     "newStartups": [
       {
-        "ts": "2026-06-23T20:24:56.678Z",
-        "org": "Shindigo",
-        "industry": "Media and Entertainment",
-        "city": "נתניה",
-        "subIndustry": "Streaming & Video",
-        "description": "Mobile application providing real-time live video and audio streaming from nightlife venues and concerts with integrated social features.",
-        "domain": "shindigo.tv",
-        "keywords": [
-          "Live streaming app",
-          "Nightlife app",
-          "Concert streaming",
-          "Mobile video streaming",
-          "Social entertainment"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 3,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-06-23T20:23:17.874Z",
-        "org": "TinyYears",
+        "ts": "2026-06-23T21:47:19.961Z",
+        "org": "Blenders Music",
         "industry": "Media and Entertainment",
         "city": "",
-        "subIndustry": "Social Media & Community",
-        "description": "A social networking platform designed for families to securely capture, store, and share milestones and memories of children.",
-        "domain": "tinyyears.com",
+        "subIndustry": "Music & Audio",
+        "description": "A location-based music application that enables collaborative playlist creation and management for shared environments. It allows multiple users to contribute to a joint music queue, ensuring balanced representation of preferences in social or commercial settings.",
+        "domain": "blendersapp.com",
         "keywords": [
-          "Social network for families",
-          "Baby diary app",
-          "Digital memory keeping",
-          "Family photo sharing",
-          "Private social network"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 5,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-06-23T20:21:03.804Z",
-        "org": "FundersLand",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "A technology startup focused on web application development using server-side scripting languages.",
-        "domain": "fundersland.com",
-        "keywords": [
-          "Web development",
-          "PHP development",
-          "Enterprise applications",
-          "Custom software development",
-          "Web application services"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 3,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-06-23T20:20:53.686Z",
-        "org": "CrazyQuest",
-        "industry": "Media and Entertainment",
-        "city": "",
-        "subIndustry": "Gaming",
-        "description": "A platform for creating and deploying location-based, augmented reality team missions and interactive games without requiring programming knowledge. It enables the transformation of physical spaces into immersive, escape room-style experiences.",
-        "domain": "crazyquest.com",
-        "keywords": [
-          "Augmented reality gaming",
-          "Location-based games",
-          "No-code game platform",
-          "Team building activities",
-          "Mobile game development",
-          "Interactive experiences"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 5,
-        "isDeeptech": false,
-        "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-06-23T20:11:42.436Z",
-        "org": "PSST",
-        "industry": "Media and Entertainment",
-        "city": "רמת גן",
-        "subIndustry": "Social Media & Community",
-        "description": "Mobile application providing a platform for anonymous messaging and social interaction between friends.",
-        "domain": "psst-net.com",
-        "keywords": [
-          "Anonymous messaging",
-          "Social networking app",
-          "Mobile messaging",
-          "Social communication",
-          "Private messaging"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 3,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-06-23T20:09:22.465Z",
-        "org": "Bareket-AR",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Hardware & Semiconductors",
-        "description": "Developing innovative augmented reality hardware technology.",
-        "domain": "bareket-ar.com",
-        "keywords": [
-          "Augmented reality hardware",
-          "AR technology",
-          "Wearable electronics",
-          "Optical components",
-          "AR display systems"
+          "Music technology",
+          "Social music sharing",
+          "Collaborative playlists",
+          "Location-based apps",
+          "Music management software"
         ],
         "employeeRange": "1-10",
         "exactEmployees": 2,
-        "isDeeptech": true,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-06-23T20:07:56.295Z",
-        "org": "Langotalk",
-        "industry": "Consumer Goods and Services",
-        "city": "Tel Aviv - Jaffa",
-        "subIndustry": "Education & Training",
-        "description": "AI-powered language learning platform providing personalized, conversation-based tutoring and immersive speaking practice.",
-        "domain": "langotalk.org",
-        "keywords": [
-          "Language learning app",
-          "AI language tutor",
-          "Generative AI education",
-          "Personalized language practice",
-          "Conversational AI learning",
-          "EdTech platform"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 4,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-06-23T20:05:28.213Z",
-        "org": "Logos Technologies",
-        "industry": "IT and Telecom",
-        "city": "מיטב",
-        "subIndustry": "Smart City Technology",
-        "description": "Provider of advanced control and automation solutions for residential, commercial, and industrial buildings. The company specializes in integrating smart technologies to enhance efficiency, comfort, and energy management in both new and existing structures.",
-        "domain": "logos-tech.com",
-        "keywords": [
-          "Smart home automation",
-          "Building control systems",
-          "KNX integration",
-          "Smart building solutions",
-          "Industrial automation",
-          "Energy management systems",
-          "Home retrofitting"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 3,
         "isDeeptech": false,
         "businessModel": "B2B2C"
       },
       {
-        "ts": "2026-06-23T20:05:00.948Z",
-        "org": "Speculate",
-        "industry": "Healthcare and Food",
+        "ts": "2026-06-23T21:42:38.614Z",
+        "org": "BizzApp",
+        "industry": "IT and Telecom",
         "city": "",
-        "subIndustry": "Medical Devices",
-        "description": "Developing an AI-powered gynecological self-exam device designed to modernize and improve comfort in gynecological examinations.",
-        "domain": "speculategyn.com",
-        "keywords": [
-          "FemTech",
-          "Gynecology",
-          "Medical devices",
-          "MedTech",
-          "Healthtech",
-          "AI diagnostics",
-          "Women's health"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 7,
-        "isDeeptech": true,
-        "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-06-23T19:46:51.836Z",
-        "org": "Blue Ocean Technologies",
-        "industry": "IT and Telecom",
-        "city": "Herzliya",
-        "subIndustry": "Cybersecurity",
-        "description": "Developer of offensive cyber tools and surveillance software designed for intelligence gathering and device monitoring.",
-        "keywords": [
-          "Offensive cyber tools",
-          "Spyware",
-          "Intelligence gathering",
-          "Device tracking",
-          "Cyber security",
-          "Surveillance software"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 40,
-        "isDeeptech": true,
-        "businessModel": "B2G"
-      },
-      {
-        "ts": "2026-06-23T19:36:54.232Z",
-        "org": "Safe Markets",
-        "industry": "IT and Telecom",
-        "city": "ראשון לציון",
-        "subIndustry": "Cybersecurity",
-        "description": "A network platform that helps online sellers identify and mitigate abusive buyer behavior by processing reports into actionable buyer rating scores.",
-        "domain": "safe-markets.com",
-        "keywords": [
-          "E-commerce protection",
-          "Buyer rating system",
-          "Fraud prevention",
-          "Online marketplace security",
-          "Retail risk management",
-          "Seller protection platform"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 3,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-06-23T19:30:21.363Z",
-        "org": "CashCow",
-        "industry": "IT and Telecom",
-        "city": "Rishon Lezion",
         "subIndustry": "Enterprise Software",
-        "description": "Cloud-based e-commerce platform enabling businesses to create, manage, and scale online stores with integrated marketing and sales tools.",
-        "domain": "cashcow.co.il",
+        "description": "A no-code web platform that enables businesses to create and deploy branded native mobile applications for commerce and service management.",
+        "domain": "bizzappglobal.com",
         "keywords": [
-          "E-commerce platform",
-          "Online store builder",
-          "SaaS e-commerce",
-          "Social commerce",
-          "Digital storefront",
-          "Retail management software"
+          "No-code app builder",
+          "Mobile commerce platform",
+          "Retail mobile app",
+          "Business app development",
+          "Mobile shopping solution"
         ],
         "employeeRange": "1-10",
-        "exactEmployees": 3,
+        "exactEmployees": 5,
         "isDeeptech": false,
         "businessModel": "B2B"
       },
       {
-        "ts": "2026-06-23T19:22:02.800Z",
-        "org": "Tasteronomy",
-        "industry": "Healthcare and Food",
-        "city": "Hadera",
-        "subIndustry": "Food Technology",
-        "description": "A digital marketplace platform that enables users to search for food recipes based on taste profiles and facilitates ordering from local dining establishments.",
-        "domain": "tasteronomy.com",
+        "ts": "2026-06-23T21:41:37.584Z",
+        "org": "StreamSquid",
+        "industry": "Media and Entertainment",
+        "city": "",
+        "subIndustry": "Streaming & Video",
+        "description": "A free online music streaming and internet radio platform that aggregates content from third-party media services to provide personalized playlists and genre-based listening.",
+        "domain": "streamsquid.com",
         "keywords": [
-          "Food recipes",
-          "Recipe marketplace",
-          "Food ordering platform",
-          "Local dining search",
-          "Taste-based search"
+          "Music streaming",
+          "Internet radio",
+          "Digital media",
+          "Online entertainment",
+          "Music technology",
+          "Playlist management"
         ],
         "employeeRange": "1-10",
-        "exactEmployees": 3,
+        "exactEmployees": 2,
         "isDeeptech": false,
         "businessModel": "B2C"
       },
       {
-        "ts": "2026-06-23T19:19:01.145Z",
-        "org": "My Baby Beat",
-        "industry": "Healthcare and Food",
-        "city": "קריית טבעון",
-        "subIndustry": "Digital Health",
-        "description": "A mobile application developer that creates digital health tools for expectant parents to monitor fetal heartbeats using standard mobile device microphones.",
-        "domain": "mybabybeat.com",
+        "ts": "2026-06-23T21:40:32.873Z",
+        "org": "Latent Energy",
+        "industry": "Energy and Utilities",
+        "city": "תל אביב - יפו",
+        "subIndustry": "Clean Technology",
+        "description": "Developer of thermochemical recycling technology that converts unsorted plastic and aluminum waste into high-value fuels and chemical products. The process utilizes embedded energy within waste to create reusable commodities, enabling circular economy solutions.",
+        "domain": "latent-energy.com",
         "keywords": [
-          "Fetal monitoring",
-          "Digital health",
-          "Femtech",
-          "Mobile health apps",
-          "Prenatal care",
-          "Fetal heartbeat monitor"
+          "Waste-to-energy",
+          "Plastic recycling technology",
+          "Circular economy solutions",
+          "Thermochemical recycling",
+          "Waste management innovation",
+          "Sustainable chemical production",
+          "Clean fuel production"
         ],
         "employeeRange": "1-10",
         "exactEmployees": 5,
         "isDeeptech": true,
-        "businessModel": "B2C"
+        "businessModel": "B2B"
       },
       {
-        "ts": "2026-06-23T19:15:27.160Z",
-        "org": "HeyLife",
-        "industry": "Consumer Goods and Services",
+        "ts": "2026-06-23T21:37:16.477Z",
+        "org": "ListenUp",
+        "industry": "Healthcare and Food",
         "city": "",
-        "subIndustry": "Consumer Software",
-        "description": "Mobile application providing a digital task management and planning platform that combines calendar functionality with daily journaling and reminders.",
-        "domain": "heylifeapp.com",
+        "subIndustry": "Digital Health",
+        "description": "A technology company developing solutions to improve speech comprehension by providing additional time for cognitive processing.",
+        "domain": "listen-up.tv",
         "keywords": [
-          "Task management app",
-          "Digital planner",
-          "Calendar software",
-          "Productivity tools",
-          "Personal organization",
-          "Mobile planning app"
+          "Speech enhancement",
+          "Speech technologies",
+          "Cognitive processing assistance",
+          "Assistive technology",
+          "Speech comprehension software"
         ],
-        "employeeRange": "11-50",
-        "exactEmployees": 22,
+        "employeeRange": "1-10",
+        "exactEmployees": 8,
         "isDeeptech": false,
         "businessModel": "B2C"
       },
       {
-        "ts": "2026-06-23T19:09:32.081Z",
-        "org": "Pet Appdate",
-        "industry": "Consumer Goods and Services",
-        "city": "",
-        "subIndustry": "Consumer Services",
-        "description": "Mobile application platform designed to modernize pet boarding facility operations and enhance communication between kennels and pet owners.",
-        "domain": "petappdate.com",
+        "ts": "2026-06-23T21:34:00.596Z",
+        "org": "Shadow Lair Games",
+        "industry": "Media and Entertainment",
+        "city": "כפר סבא",
+        "subIndustry": "Gaming",
+        "description": "An independent studio focused on developing console and mobile video games, alongside creating automation tools for game engine development workflows.",
+        "domain": "shadowlairgames.com",
         "keywords": [
-          "Pet boarding software",
-          "Kennel management app",
-          "Pet care technology",
-          "Mobile pet services",
-          "Pet owner communication"
+          "Video game development",
+          "Console games",
+          "Mobile games",
+          "Game engine automation",
+          "Game development tools",
+          "Unity3d tools"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-06-23T21:25:28.378Z",
+        "org": "StartFu",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Enterprise Software",
+        "description": "A digital tool for creating online forms and surveys using simple text-based questions.",
+        "domain": "startfu.com",
+        "keywords": [
+          "Online forms",
+          "Survey builder",
+          "Data collection tool",
+          "Form creation software",
+          "Digital surveys"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-06-23T21:22:25.786Z",
+        "org": "Spicebox",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Industrial Technologies",
+        "description": "Provides hardware and software integration services and development tools for teams building connected devices and IoT solutions.",
+        "domain": "spiceboxlabs.com",
+        "keywords": [
+          "IoT development",
+          "Embedded systems",
+          "Hardware integration",
+          "Wireless protocols",
+          "Connected devices",
+          "IoT infrastructure",
+          "R&D services"
+        ],
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T21:21:38.900Z",
+        "org": "Amedeo",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Enterprise Software",
+        "description": "An artificial intelligence platform that integrates data science tools into online auction processes to improve sales engagement and profitability.",
+        "domain": "amedeo.ai",
+        "keywords": [
+          "Artificial intelligence auction platform",
+          "Auction management software",
+          "Predictive pricing analytics",
+          "Online auction optimization",
+          "Data-driven sales tools"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T21:13:36.839Z",
+        "org": "Galil Software",
+        "industry": "IT and Telecom",
+        "city": "Nazareth",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Provider of near-shore software research and development services, offering custom application development, quality assurance automation, and technical infrastructure support.",
+        "domain": "galilsoftware.com",
+        "keywords": [
+          "Software R&D services",
+          "Near-shore software development",
+          "QA automation services",
+          "Custom web development",
+          "Mobile application development",
+          "DevOps services",
+          "AI solutions development"
+        ],
+        "employeeRange": "150-500",
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T21:13:12.316Z",
+        "org": "Foondha",
+        "industry": "Media and Entertainment",
+        "city": "",
+        "subIndustry": "Music & Audio",
+        "description": "A feedback platform designed for musicians to receive constructive critiques on their music from peers and social media channels.",
+        "domain": "foondha.com",
+        "keywords": [
+          "Music feedback platform",
+          "Musician community",
+          "Music collaboration tools",
+          "Social music sharing",
+          "Artist development tools"
         ],
         "employeeRange": "1-10",
         "exactEmployees": 3,
         "isDeeptech": false,
-        "businessModel": "B2B2C"
+        "businessModel": "B2C"
       },
       {
-        "ts": "2026-06-23T19:04:14.081Z",
-        "org": "Babi",
+        "ts": "2026-06-23T21:10:53.099Z",
+        "org": "Helputer",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Social Media & Community",
+        "description": "A social community platform that connected individuals experiencing computer issues with others who could provide solutions, tips, and educational resources.",
+        "domain": "helputer.com",
+        "keywords": [
+          "Computer repair network",
+          "Technical support community",
+          "Computer troubleshooting tips",
+          "Social networking platform",
+          "IT help forum"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-06-23T21:02:11.671Z",
+        "org": "Subaba",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Consumer Software",
+        "description": "AI-powered platform that aggregates and makes searchable data from social media and online marketplaces for housing and automotive inventory.",
+        "domain": "subaba.co.il",
+        "keywords": [
+          "Artificial intelligence",
+          "Mobile application",
+          "Real estate search",
+          "Automotive marketplace",
+          "Meta-search engine",
+          "Data aggregation"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-06-23T21:01:26.649Z",
+        "org": "Appvertize",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Mobile Applications",
+        "description": "A mobile technology solution designed to improve user experience by enabling seamless switching between active applications without exiting to the device home screen.",
+        "domain": "appvertize.com",
+        "keywords": [
+          "Mobile monetization",
+          "App navigation",
+          "User retention",
+          "Mobile user experience",
+          "App switching"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 3,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T20:53:32.502Z",
+        "org": "Picza",
         "industry": "Media and Entertainment",
         "city": "",
         "subIndustry": "Social Media & Community",
-        "description": "Mobile application facilitating synchronized, intergenerational reading experiences through integrated video chat.",
-        "domain": "babi-app.com",
+        "description": "A mobile-focused platform designed for capturing, sharing, and viewing photographic content.",
         "keywords": [
-          "Video chat app",
-          "EdTech mobile app",
-          "Intergenerational communication",
-          "Digital reading platform",
-          "Remote family bonding"
+          "Mobile photography",
+          "Photo sharing app",
+          "Social media platform",
+          "Image capture technology",
+          "Mobile application"
         ],
         "employeeRange": "1-10",
-        "exactEmployees": 5,
+        "exactEmployees": 3,
         "isDeeptech": false,
         "businessModel": "B2C"
       },
       {
-        "ts": "2026-06-23T18:56:11.183Z",
-        "org": "Mobreeze",
-        "industry": "IT and Telecom",
+        "ts": "2026-06-23T20:52:03.004Z",
+        "org": "Inuvation",
+        "industry": "Healthcare and Food",
         "city": "",
-        "subIndustry": "AI & Machine Learning",
-        "description": "The company developed affective computing solutions and software agents, utilizing physiological sensors and cloud-based augmented reality for medical and gaming applications.",
-        "domain": "mobreeze.com",
+        "subIndustry": "Pharmaceuticals",
+        "description": "Developing a dermatological anti-viral therapeutic derived from medicinal plant extracts to treat viral infections and associated inflammatory symptoms.",
         "keywords": [
-          "Affective computing",
-          "Software agents",
-          "Augmented reality",
-          "Physiological sensors",
-          "Cloud architecture",
-          "Medical applications",
-          "Gaming technology"
+          "Pharmaceuticals",
+          "Dermatology therapeutics",
+          "Anti-viral treatment",
+          "Plant-based medicine",
+          "Biotechnology"
         ],
         "employeeRange": "1-10",
         "exactEmployees": 3,
         "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T20:48:38.046Z",
+        "org": "ViewEat",
+        "industry": "Healthcare and Food",
+        "city": "Hadera",
+        "subIndustry": "Food Technology",
+        "description": "A multi-lingual data platform providing detailed nutritional and dietary information for food items and menus to support health-conscious consumers and those with specific dietary needs.",
+        "domain": "vieweat.com",
+        "keywords": [
+          "Food technology",
+          "Nutritional data",
+          "Dietary management",
+          "Menu transparency",
+          "Food allergy information",
+          "Health awareness"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": false,
         "businessModel": "B2B2C"
       },
       {
-        "ts": "2026-06-23T18:53:26.835Z",
-        "org": "OpenLETS",
-        "industry": "IT and Telecom",
+        "ts": "2026-06-23T20:44:46.129Z",
+        "org": "BIMbase",
+        "industry": "Energy and Utilities",
         "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "Open source platform designed to enable communities and businesses to manage resource sharing and collaboration without the use of monetary transactions.",
-        "domain": "openlets.org",
+        "subIndustry": "Clean Technology",
+        "description": "Web-based platform for analyzing digital 3D construction information to assess the carbon footprint of building projects and support energy-efficient design.",
+        "domain": "bimbase.design",
         "keywords": [
-          "Community platform",
-          "Resource sharing",
-          "Open source economy",
-          "Collaborative consumption",
-          "Barter system software"
+          "Construction tech",
+          "Carbon footprint assessment",
+          "Green building software",
+          "Decarbonization tools",
+          "BIM analysis",
+          "Building energy efficiency"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 1,
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T20:42:37.296Z",
+        "org": "ApexNano Medical",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Medical Devices",
+        "description": "A medical technology company developing a platform for targeted drug delivery using magnetically controlled particles to improve treatment for acute ischemic stroke.",
+        "domain": "apexnanomedical.com",
+        "keywords": [
+          "Medical devices",
+          "Nanotechnology",
+          "Drug delivery",
+          "Stroke treatment",
+          "Medtech",
+          "Life sciences"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 4,
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-06-23T20:37:03.421Z",
+        "org": "vantage.team",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv - Jaffa",
+        "subIndustry": "Enterprise Software",
+        "description": "A mobile application that connects job seekers with employers using data science to provide accurate and efficient candidate matching.",
+        "domain": "vantage.team",
+        "keywords": [
+          "Recruitment platform",
+          "Job matching app",
+          "HR technology",
+          "Candidate screening",
+          "Talent acquisition",
+          "Automated hiring"
         ],
         "employeeRange": "1-10",
         "exactEmployees": 3,
         "isDeeptech": false,
         "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-06-23T18:50:50.079Z",
-        "org": "InFashionista",
-        "industry": "Media and Entertainment",
-        "city": "",
-        "subIndustry": "Advertising Technology",
-        "description": "Marketplace platform providing tools for influencer marketing campaign management, real-time monitoring, and segmented data reporting for the fashion and beauty industries.",
-        "domain": "infashionista.com",
-        "keywords": [
-          "Influencer marketing",
-          "AdTech platform",
-          "Campaign management",
-          "Fashion tech",
-          "Social media marketing",
-          "Marketing analytics"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 5,
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2721,22 +2716,15 @@
         "ts": "2026-06-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "Pillar Security",
-        "summary": "Presented on the State of Agentic Guide 2026 at Infosecurity Europe 2026."
+        "org": "CodeValue",
+        "summary": "Hosting the annual Architecture Next 2026 conference to discuss software architecture and AI trends."
       },
       {
         "ts": "2026-06-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "CodeValue",
-        "summary": "Hosting the annual Architecture Next 2026 conference to discuss software architecture and AI trends."
-      },
-      {
-        "ts": "2026-06-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Sensos",
-        "summary": "Represented at the SIL Barcelona 2026 logistics industry event to discuss real-time visibility and reaction."
+        "org": "Pillar Security",
+        "summary": "Presented on the State of Agentic Guide 2026 at Infosecurity Europe 2026."
       },
       {
         "ts": "2026-06-03T00:00:00.000Z",
@@ -2746,11 +2734,11 @@
         "summary": "Mellie attended Insurtech Insights America in New York to connect with group benefit carriers."
       },
       {
-        "ts": "2026-06-02T00:00:00.000Z",
+        "ts": "2026-06-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "Webz.io",
-        "summary": "Participated in Infosecurity Europe 2026 at Excel London."
+        "org": "Sensos",
+        "summary": "Represented at the SIL Barcelona 2026 logistics industry event to discuss real-time visibility and reaction."
       },
       {
         "ts": "2026-06-02T00:00:00.000Z",
@@ -2762,16 +2750,9 @@
       {
         "ts": "2026-06-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Rayzone Group",
-        "summary": "Unveiled 'The I Family' solution at ISS World Europe 2026 in Prague, designed for smart operations and advanced intelligence capabilities."
-      },
-      {
-        "ts": "2026-06-02T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "Ray Security",
-        "summary": "Ariel Zamir, CEO of Ray Security, spoke at Infosecurity Europe 2026 about securing data in the age of AI agents."
+        "org": "Webz.io",
+        "summary": "Participated in Infosecurity Europe 2026 at Excel London."
       },
       {
         "ts": "2026-06-02T00:00:00.000Z",
@@ -2779,6 +2760,20 @@
         "rawKind": "Product Launch",
         "org": "Ray Security",
         "summary": "Ray Security exhibited at Infosecurity Europe 2026 in the Startup Zone."
+      },
+      {
+        "ts": "2026-06-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Orion Security",
+        "summary": "Nitay Milner, CEO and co-founder of Orion Security, moderated a session titled 'The Great DLP Reset' at the Gartner Security & Risk Management Summit 2026."
+      },
+      {
+        "ts": "2026-06-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Ray Security",
+        "summary": "Ariel Zamir, CEO of Ray Security, spoke at Infosecurity Europe 2026 about securing data in the age of AI agents."
       }
     ]
   }
