@@ -1,0 +1,1780 @@
+{
+  "schemaVersion": 1,
+  "page": "technology-ip",
+  "generatedAt": "2026-06-27T11:22:41.587Z",
+  "widgetMetadata": {
+    "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
+    "widgets": {
+      "tech-ip:kpi-companies-with-patents": {
+        "title": "Companies With Patents",
+        "description": "Total number of Israeli startups that own at least one patent family (a group of related filings sharing the same invention). The sparkline shows the 10 year trend of new patenting companies by year of first filing.",
+        "dataPaths": [
+          "kpis.patentingStartups",
+          "patentTrends.years",
+          "patentTrends.patentingCompanies"
+        ]
+      },
+      "tech-ip:kpi-patent-families": {
+        "title": "Patent Families",
+        "description": "Total count of patent families attributed to Israeli startups. A family groups together every filing of the same invention across jurisdictions, so it counts inventions rather than individual applications. The sparkline shows new families by earliest filing year in the past 10 years.",
+        "dataPaths": [
+          "kpis.patentFamilies",
+          "patentTrends.years",
+          "patentTrends.inventions"
+        ]
+      },
+      "tech-ip:kpi-patent-filings": {
+        "title": "Patent Filings",
+        "description": "Total count of individual patent applications filed by Israeli startups. Each filing in each jurisdiction counts separately (one family typically produces several filings). The sparkline shows new filings per year in the past 10 years.",
+        "dataPaths": [
+          "kpis.patentFilings",
+          "patentTrends.years",
+          "patentTrends.patentFilings"
+        ]
+      },
+      "tech-ip:patent-geography": {
+        "title": "Patent Geography",
+        "description": "Where Israeli startups protect their inventions. The interactive globe rotates to a hovered jurisdiction. The table lists the top jurisdictions ranked by number of Israeli companies filing there, alongside the count of patent families filed in that jurisdiction.",
+        "dataPaths": [
+          "patentGeography.items"
+        ]
+      },
+      "tech-ip:ip-intensity": {
+        "title": "Technology Patent Intensity",
+        "description": "Each bubble is a technology family. The X axis is the number of Israeli companies developing in that area. The Y axis is patent families per company (patenting intensity). Bubble size is the number of those companies that actually patent. For example: the upper-right area has companies with many builders and patent heavily.",
+        "dataPaths": [
+          "ipIntensity.items"
+        ]
+      },
+      "tech-ip:build-profile-donut": {
+        "title": "Software vs Physical",
+        "description": "Distribution of Israeli startups by what they build: pure software, pure physical (hardware, biotech, materials etc.), or a mix of both. Hover a slice to see its share of all startups.",
+        "dataPaths": [
+          "buildProfile.totalCompanies",
+          "buildProfile.items"
+        ]
+      },
+      "tech-ip:build-profile-efficiency": {
+        "title": "Software Physical Patenting Frequency",
+        "description": "How often each build profile (Software / Mixed / Physical) translates into actual patents. The horizontal bar shows the share of companies in that category that own at least one patent family. The dots represent patenting intensity: patent families per patenting company in that category.",
+        "dataPaths": [
+          "buildProfile.items"
+        ]
+      },
+      "tech-ip:tech-family-treemap": {
+        "title": "Most Built Technology Areas",
+        "description": "Technology areas ranked by how many Israeli startups build in them. Tile size is proportional to the number of companies; the largest areas are filled with their family color, smaller ones are shown as outlines.",
+        "dataPaths": [
+          "ipIntensity.items"
+        ]
+      },
+      "tech-ip:tech-trend-line": {
+        "title": "Technology Area Trends",
+        "description": "How the share of Israeli startups working in each top technology area has evolved over founding years. Each line is one area. The value at year Y is the share of companies founded in year Y whose primary technology falls in that area. The dashed tail marks the most recent year, which is still incomplete.",
+        "dataPaths": [
+          "techFamilyTrendSeries.years",
+          "techFamilyTrendSeries.trending"
+        ]
+      }
+    }
+  },
+  "kpis": {
+    "totalTechnologies": 16037,
+    "companiesWithTechnologies": 14495,
+    "patentingStartups": 3143,
+    "patentFamilies": 32147,
+    "patentFilings": 121448,
+    "grantedFamilies": 11266
+  },
+  "patentTrends": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "patentingCompanies": [
+      533,
+      528,
+      552,
+      555,
+      596,
+      559,
+      507,
+      423,
+      259,
+      0
+    ],
+    "inventions": [
+      973,
+      952,
+      978,
+      1062,
+      1134,
+      1157,
+      1056,
+      963,
+      451,
+      0
+    ],
+    "patentFilings": [
+      5555,
+      5668,
+      6112,
+      6421,
+      6211,
+      5722,
+      4830,
+      3166,
+      1637,
+      30
+    ]
+  },
+  "buildProfile": {
+    "totalCompanies": 14572,
+    "excludedNoSoftwareNoPhysical": 53,
+    "items": [
+      {
+        "key": "onlySoftware",
+        "label": "Only Software",
+        "companies": 8828,
+        "patentingCompanies": 1066,
+        "patentFamilies": 5846,
+        "grantedFamilies": 2388
+      },
+      {
+        "key": "mixed",
+        "label": "Mixed Software Physical",
+        "companies": 3507,
+        "patentingCompanies": 1192,
+        "patentFamilies": 15457,
+        "grantedFamilies": 5667
+      },
+      {
+        "key": "onlyPhysical",
+        "label": "Only Physical",
+        "companies": 2237,
+        "patentingCompanies": 880,
+        "patentFamilies": 10292,
+        "grantedFamilies": 3106
+      }
+    ]
+  },
+  "ipIntensity": {
+    "items": [
+      {
+        "technologyFamily": "Semiconductors",
+        "companies": 243,
+        "patentingCompanies": 115,
+        "patentFamilies": 1792,
+        "grantedFamilies": 775,
+        "patentingRatePct": 47.3,
+        "patentFamiliesPerCompany": 7.37,
+        "patentFamiliesPerPatentingCompany": 15.58,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 173,
+        "topIndustrySharePct": 71.2,
+        "topSubIndustry": "Hardware & Semiconductors",
+        "topSubIndustryCompanies": 141,
+        "topSubIndustrySharePct": 58.0
+      },
+      {
+        "technologyFamily": "Medical Devices",
+        "companies": 1809,
+        "patentingCompanies": 787,
+        "patentFamilies": 9209,
+        "grantedFamilies": 2956,
+        "patentingRatePct": 43.5,
+        "patentFamiliesPerCompany": 5.09,
+        "patentFamiliesPerPatentingCompany": 11.7,
+        "topIndustry": "Healthcare and Food",
+        "topIndustryCompanies": 1715,
+        "topIndustrySharePct": 94.8,
+        "topSubIndustry": "Medical Devices",
+        "topSubIndustryCompanies": 1200,
+        "topSubIndustrySharePct": 66.3
+      },
+      {
+        "technologyFamily": "Energy & Climate",
+        "companies": 316,
+        "patentingCompanies": 111,
+        "patentFamilies": 1318,
+        "grantedFamilies": 443,
+        "patentingRatePct": 35.1,
+        "patentFamiliesPerCompany": 4.17,
+        "patentFamiliesPerPatentingCompany": 11.87,
+        "topIndustry": "Energy and Utilities",
+        "topIndustryCompanies": 230,
+        "topIndustrySharePct": 72.8,
+        "topSubIndustry": "Clean Technology",
+        "topSubIndustryCompanies": 110,
+        "topSubIndustrySharePct": 34.8
+      },
+      {
+        "technologyFamily": "Biotech & Pharma",
+        "companies": 1577,
+        "patentingCompanies": 505,
+        "patentFamilies": 5629,
+        "grantedFamilies": 1580,
+        "patentingRatePct": 32.0,
+        "patentFamiliesPerCompany": 3.57,
+        "patentFamiliesPerPatentingCompany": 11.15,
+        "topIndustry": "Healthcare and Food",
+        "topIndustryCompanies": 851,
+        "topIndustrySharePct": 54.0,
+        "topSubIndustry": "Biotechnology",
+        "topSubIndustryCompanies": 448,
+        "topSubIndustrySharePct": 28.4
+      },
+      {
+        "technologyFamily": "Computer Vision",
+        "companies": 508,
+        "patentingCompanies": 182,
+        "patentFamilies": 1326,
+        "grantedFamilies": 517,
+        "patentingRatePct": 35.8,
+        "patentFamiliesPerCompany": 2.61,
+        "patentFamiliesPerPatentingCompany": 7.29,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 258,
+        "topIndustrySharePct": 50.8,
+        "topSubIndustry": "AI & Machine Learning",
+        "topSubIndustryCompanies": 98,
+        "topSubIndustrySharePct": 19.3
+      },
+      {
+        "technologyFamily": "Communications",
+        "companies": 100,
+        "patentingCompanies": 12,
+        "patentFamilies": 257,
+        "grantedFamilies": 106,
+        "patentingRatePct": 12.0,
+        "patentFamiliesPerCompany": 2.57,
+        "patentFamiliesPerPatentingCompany": 21.42,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 64,
+        "topIndustrySharePct": 64.0,
+        "topSubIndustry": "Telecommunications",
+        "topSubIndustryCompanies": 19,
+        "topSubIndustrySharePct": 19.0
+      },
+      {
+        "technologyFamily": "IoT & Sensors",
+        "companies": 569,
+        "patentingCompanies": 130,
+        "patentFamilies": 1435,
+        "grantedFamilies": 474,
+        "patentingRatePct": 22.8,
+        "patentFamiliesPerCompany": 2.52,
+        "patentFamiliesPerPatentingCompany": 11.04,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 199,
+        "topIndustrySharePct": 35.0,
+        "topSubIndustry": "Consumer Electronics",
+        "topSubIndustryCompanies": 69,
+        "topSubIndustrySharePct": 12.1
+      },
+      {
+        "technologyFamily": "Materials & Manufacturing",
+        "companies": 322,
+        "patentingCompanies": 91,
+        "patentFamilies": 799,
+        "grantedFamilies": 228,
+        "patentingRatePct": 28.3,
+        "patentFamiliesPerCompany": 2.48,
+        "patentFamiliesPerPatentingCompany": 8.78,
+        "topIndustry": "Consumer Goods and Services",
+        "topIndustryCompanies": 136,
+        "topIndustrySharePct": 42.2,
+        "topSubIndustry": "Food Technology",
+        "topSubIndustryCompanies": 56,
+        "topSubIndustrySharePct": 17.4
+      },
+      {
+        "technologyFamily": "Analytics & Data",
+        "companies": 865,
+        "patentingCompanies": 189,
+        "patentFamilies": 2023,
+        "grantedFamilies": 923,
+        "patentingRatePct": 21.8,
+        "patentFamiliesPerCompany": 2.34,
+        "patentFamiliesPerPatentingCompany": 10.7,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 481,
+        "topIndustrySharePct": 55.6,
+        "topSubIndustry": "Enterprise Software",
+        "topSubIndustryCompanies": 165,
+        "topSubIndustrySharePct": 19.1
+      },
+      {
+        "technologyFamily": "Security",
+        "companies": 761,
+        "patentingCompanies": 188,
+        "patentFamilies": 1628,
+        "grantedFamilies": 726,
+        "patentingRatePct": 24.7,
+        "patentFamiliesPerCompany": 2.14,
+        "patentFamiliesPerPatentingCompany": 8.66,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 636,
+        "topIndustrySharePct": 83.6,
+        "topSubIndustry": "Cybersecurity",
+        "topSubIndustryCompanies": 484,
+        "topSubIndustrySharePct": 63.6
+      },
+      {
+        "technologyFamily": "Robotics & Autonomy",
+        "companies": 321,
+        "patentingCompanies": 80,
+        "patentFamilies": 633,
+        "grantedFamilies": 234,
+        "patentingRatePct": 24.9,
+        "patentFamiliesPerCompany": 1.97,
+        "patentFamiliesPerPatentingCompany": 7.91,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 146,
+        "topIndustrySharePct": 45.5,
+        "topSubIndustry": "Robotics & Manufacturing",
+        "topSubIndustryCompanies": 45,
+        "topSubIndustrySharePct": 14.0
+      },
+      {
+        "technologyFamily": "Cloud & Infrastructure",
+        "companies": 1680,
+        "patentingCompanies": 242,
+        "patentFamilies": 2987,
+        "grantedFamilies": 1138,
+        "patentingRatePct": 14.4,
+        "patentFamiliesPerCompany": 1.78,
+        "patentFamiliesPerPatentingCompany": 12.34,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 1012,
+        "topIndustrySharePct": 60.2,
+        "topSubIndustry": "Enterprise Software",
+        "topSubIndustryCompanies": 511,
+        "topSubIndustrySharePct": 30.4
+      },
+      {
+        "technologyFamily": "Location & Mapping",
+        "companies": 61,
+        "patentingCompanies": 3,
+        "patentFamilies": 61,
+        "grantedFamilies": 10,
+        "patentingRatePct": 4.9,
+        "patentFamiliesPerCompany": 1.0,
+        "patentFamiliesPerPatentingCompany": 20.33,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 42,
+        "topIndustrySharePct": 68.9,
+        "topSubIndustry": "Location & Mapping",
+        "topSubIndustryCompanies": 17,
+        "topSubIndustrySharePct": 27.9
+      },
+      {
+        "technologyFamily": "AI & Machine Learning",
+        "companies": 2910,
+        "patentingCompanies": 394,
+        "patentFamilies": 2489,
+        "grantedFamilies": 979,
+        "patentingRatePct": 13.5,
+        "patentFamiliesPerCompany": 0.86,
+        "patentFamiliesPerPatentingCompany": 6.32,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 1703,
+        "topIndustrySharePct": 58.5,
+        "topSubIndustry": "Enterprise Software",
+        "topSubIndustryCompanies": 698,
+        "topSubIndustrySharePct": 24.0
+      },
+      {
+        "technologyFamily": "Media & Immersive",
+        "companies": 369,
+        "patentingCompanies": 52,
+        "patentFamilies": 225,
+        "grantedFamilies": 72,
+        "patentingRatePct": 14.1,
+        "patentFamiliesPerCompany": 0.61,
+        "patentFamiliesPerPatentingCompany": 4.33,
+        "topIndustry": "Media and Entertainment",
+        "topIndustryCompanies": 231,
+        "topIndustrySharePct": 62.6,
+        "topSubIndustry": "Gaming",
+        "topSubIndustryCompanies": 107,
+        "topSubIndustrySharePct": 29.0
+      },
+      {
+        "technologyFamily": "Applications & Business Software",
+        "companies": 2043,
+        "patentingCompanies": 37,
+        "patentFamilies": 252,
+        "grantedFamilies": 82,
+        "patentingRatePct": 1.8,
+        "patentFamiliesPerCompany": 0.12,
+        "patentFamiliesPerPatentingCompany": 6.81,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 629,
+        "topIndustrySharePct": 30.8,
+        "topSubIndustry": "Social Media & Community",
+        "topSubIndustryCompanies": 265,
+        "topSubIndustrySharePct": 13.0
+      }
+    ]
+  },
+  "patentGeography": {
+    "items": [
+      {
+        "countryCode": "US",
+        "countryName": "United States",
+        "lat": 39.8,
+        "lng": -98.6,
+        "patentFamilies": 16093,
+        "grantedFamilies": 9560,
+        "patentingCompanies": 2834,
+        "sharePct": 25.9
+      },
+      {
+        "countryCode": "WO",
+        "countryName": "WIPO / International",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 11871,
+        "grantedFamilies": 51,
+        "patentingCompanies": 2594,
+        "sharePct": 19.1
+      },
+      {
+        "countryCode": "EP",
+        "countryName": "European Patent Office",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 8423,
+        "grantedFamilies": 3275,
+        "patentingCompanies": 2043,
+        "sharePct": 13.6
+      },
+      {
+        "countryCode": "CN",
+        "countryName": "China",
+        "lat": 35.9,
+        "lng": 104.2,
+        "patentFamilies": 4548,
+        "grantedFamilies": 1756,
+        "patentingCompanies": 1267,
+        "sharePct": 7.3
+      },
+      {
+        "countryCode": "JP",
+        "countryName": "Japan",
+        "lat": 36.2,
+        "lng": 138.3,
+        "patentFamilies": 3860,
+        "grantedFamilies": 115,
+        "patentingCompanies": 1087,
+        "sharePct": 6.2
+      },
+      {
+        "countryCode": "IL",
+        "countryName": "Israel",
+        "lat": 31.0,
+        "lng": 35.0,
+        "patentFamilies": 3839,
+        "grantedFamilies": 1366,
+        "patentingCompanies": 1240,
+        "sharePct": 6.2
+      },
+      {
+        "countryCode": "AU",
+        "countryName": "Australia",
+        "lat": -25.3,
+        "lng": 133.8,
+        "patentFamilies": 3125,
+        "grantedFamilies": 866,
+        "patentingCompanies": 972,
+        "sharePct": 5.0
+      },
+      {
+        "countryCode": "CA",
+        "countryName": "Canada",
+        "lat": 56.1,
+        "lng": -106.3,
+        "patentFamilies": 3065,
+        "grantedFamilies": 6,
+        "patentingCompanies": 969,
+        "sharePct": 4.9
+      },
+      {
+        "countryCode": "KR",
+        "countryName": "South Korea",
+        "lat": 35.9,
+        "lng": 127.8,
+        "patentFamilies": 1996,
+        "grantedFamilies": 4,
+        "patentingCompanies": 676,
+        "sharePct": 3.2
+      },
+      {
+        "countryCode": "BR",
+        "countryName": "Brazil",
+        "lat": -14.2,
+        "lng": -51.9,
+        "patentFamilies": 1020,
+        "grantedFamilies": 173,
+        "patentingCompanies": 451,
+        "sharePct": 1.6
+      },
+      {
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "lat": 23.6,
+        "lng": -102.6,
+        "patentFamilies": 675,
+        "grantedFamilies": 105,
+        "patentingCompanies": 302,
+        "sharePct": 1.1
+      },
+      {
+        "countryCode": "TW",
+        "countryName": "Taiwan",
+        "lat": 23.7,
+        "lng": 121.0,
+        "patentFamilies": 468,
+        "grantedFamilies": 12,
+        "patentingCompanies": 120,
+        "sharePct": 0.8
+      },
+      {
+        "countryCode": "GB",
+        "countryName": "United Kingdom",
+        "lat": 55.4,
+        "lng": -3.4,
+        "patentFamilies": 443,
+        "grantedFamilies": 182,
+        "patentingCompanies": 177,
+        "sharePct": 0.7
+      },
+      {
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "lat": 61.5,
+        "lng": 105.3,
+        "patentFamilies": 428,
+        "grantedFamilies": 0,
+        "patentingCompanies": 247,
+        "sharePct": 0.7
+      },
+      {
+        "countryCode": "ZA",
+        "countryName": "South Africa",
+        "lat": -30.6,
+        "lng": 22.9,
+        "patentFamilies": 360,
+        "grantedFamilies": 358,
+        "patentingCompanies": 186,
+        "sharePct": 0.6
+      },
+      {
+        "countryCode": "HK",
+        "countryName": "Hong Kong",
+        "lat": 22.3,
+        "lng": 114.2,
+        "patentFamilies": 323,
+        "grantedFamilies": 7,
+        "patentingCompanies": 175,
+        "sharePct": 0.5
+      },
+      {
+        "countryCode": "SG",
+        "countryName": "Singapore",
+        "lat": 1.4,
+        "lng": 103.8,
+        "patentFamilies": 257,
+        "grantedFamilies": 0,
+        "patentingCompanies": 147,
+        "sharePct": 0.4
+      },
+      {
+        "countryCode": "NZ",
+        "countryName": "New Zealand",
+        "lat": -40.9,
+        "lng": 174.9,
+        "patentFamilies": 169,
+        "grantedFamilies": 0,
+        "patentingCompanies": 93,
+        "sharePct": 0.3
+      },
+      {
+        "countryCode": "EA",
+        "countryName": "Eurasian Patent Organization",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 123,
+        "grantedFamilies": 66,
+        "patentingCompanies": 68,
+        "sharePct": 0.2
+      },
+      {
+        "countryCode": "AR",
+        "countryName": "Argentina",
+        "lat": -34.6,
+        "lng": -58.4,
+        "patentFamilies": 108,
+        "grantedFamilies": 0,
+        "patentingCompanies": 50,
+        "sharePct": 0.2
+      },
+      {
+        "countryCode": "CL",
+        "countryName": "Chile",
+        "lat": -35.7,
+        "lng": -71.5,
+        "patentFamilies": 96,
+        "grantedFamilies": 0,
+        "patentingCompanies": 50,
+        "sharePct": 0.2
+      },
+      {
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "lat": 51.2,
+        "lng": 10.5,
+        "patentFamilies": 94,
+        "grantedFamilies": 17,
+        "patentingCompanies": 37,
+        "sharePct": 0.2
+      },
+      {
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "lat": 40.5,
+        "lng": -3.7,
+        "patentFamilies": 74,
+        "grantedFamilies": 4,
+        "patentingCompanies": 49,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "PH",
+        "countryName": "PH",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 45,
+        "grantedFamilies": 10,
+        "patentingCompanies": 34,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "PL",
+        "countryName": "Poland",
+        "lat": 51.9,
+        "lng": 19.1,
+        "patentFamilies": 43,
+        "grantedFamilies": 0,
+        "patentingCompanies": 33,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "UA",
+        "countryName": "UA",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 41,
+        "grantedFamilies": 0,
+        "patentingCompanies": 28,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "MA",
+        "countryName": "MA",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 39,
+        "grantedFamilies": 20,
+        "patentingCompanies": 20,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "HU",
+        "countryName": "Hungary",
+        "lat": 47.2,
+        "lng": 19.5,
+        "patentFamilies": 38,
+        "grantedFamilies": 16,
+        "patentingCompanies": 26,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "CO",
+        "countryName": "Colombia",
+        "lat": 4.6,
+        "lng": -74.1,
+        "patentFamilies": 36,
+        "grantedFamilies": 0,
+        "patentingCompanies": 23,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "NL",
+        "countryName": "Netherlands",
+        "lat": 52.1,
+        "lng": 5.3,
+        "patentFamilies": 34,
+        "grantedFamilies": 9,
+        "patentingCompanies": 7,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "RS",
+        "countryName": "RS",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 32,
+        "grantedFamilies": 30,
+        "patentingCompanies": 25,
+        "sharePct": 0.1
+      },
+      {
+        "countryCode": "MY",
+        "countryName": "MY",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 31,
+        "grantedFamilies": 0,
+        "patentingCompanies": 20,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "PE",
+        "countryName": "PE",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 28,
+        "grantedFamilies": 0,
+        "patentingCompanies": 18,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "FR",
+        "countryName": "France",
+        "lat": 46.2,
+        "lng": 2.2,
+        "patentFamilies": 23,
+        "grantedFamilies": 14,
+        "patentingCompanies": 15,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CZ",
+        "countryName": "Czech Republic",
+        "lat": 49.8,
+        "lng": 15.5,
+        "patentFamilies": 22,
+        "grantedFamilies": 11,
+        "patentingCompanies": 16,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "DK",
+        "countryName": "Denmark",
+        "lat": 56.3,
+        "lng": 9.5,
+        "patentFamilies": 22,
+        "grantedFamilies": 0,
+        "patentingCompanies": 17,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "IT",
+        "countryName": "Italy",
+        "lat": 41.9,
+        "lng": 12.6,
+        "patentFamilies": 20,
+        "grantedFamilies": 2,
+        "patentingCompanies": 14,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "IE",
+        "countryName": "Ireland",
+        "lat": 53.4,
+        "lng": -8.2,
+        "patentFamilies": 16,
+        "grantedFamilies": 11,
+        "patentingCompanies": 8,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "IN",
+        "countryName": "India",
+        "lat": 20.6,
+        "lng": 78.9,
+        "patentFamilies": 11,
+        "grantedFamilies": 9,
+        "patentingCompanies": 9,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "lat": 39.4,
+        "lng": -8.2,
+        "patentFamilies": 11,
+        "grantedFamilies": 5,
+        "patentingCompanies": 9,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "AT",
+        "countryName": "Austria",
+        "lat": 47.5,
+        "lng": 14.6,
+        "patentFamilies": 10,
+        "grantedFamilies": 1,
+        "patentingCompanies": 7,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "FI",
+        "countryName": "Finland",
+        "lat": 61.9,
+        "lng": 25.7,
+        "patentFamilies": 10,
+        "grantedFamilies": 0,
+        "patentingCompanies": 8,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SE",
+        "countryName": "Sweden",
+        "lat": 60.1,
+        "lng": 18.6,
+        "patentFamilies": 10,
+        "grantedFamilies": 1,
+        "patentingCompanies": 6,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "UY",
+        "countryName": "Uruguay",
+        "lat": -32.5,
+        "lng": -55.8,
+        "patentFamilies": 9,
+        "grantedFamilies": 0,
+        "patentingCompanies": 5,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "BE",
+        "countryName": "Belgium",
+        "lat": 50.5,
+        "lng": 4.5,
+        "patentFamilies": 8,
+        "grantedFamilies": 0,
+        "patentingCompanies": 6,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SA",
+        "countryName": "Saudi Arabia",
+        "lat": 23.9,
+        "lng": 45.1,
+        "patentFamilies": 8,
+        "grantedFamilies": 8,
+        "patentingCompanies": 5,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CR",
+        "countryName": "CR",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 7,
+        "grantedFamilies": 0,
+        "patentingCompanies": 7,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "TN",
+        "countryName": "Tunisia",
+        "lat": 34.0,
+        "lng": 9.5,
+        "patentFamilies": 7,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "AP",
+        "countryName": "African Regional IP Organization",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 6,
+        "grantedFamilies": 0,
+        "patentingCompanies": 4,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "DO",
+        "countryName": "DO",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 6,
+        "grantedFamilies": 0,
+        "patentingCompanies": 5,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "HR",
+        "countryName": "HR",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 6,
+        "grantedFamilies": 1,
+        "patentingCompanies": 6,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CH",
+        "countryName": "Switzerland",
+        "lat": 46.8,
+        "lng": 8.2,
+        "patentFamilies": 5,
+        "grantedFamilies": 1,
+        "patentingCompanies": 4,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "TR",
+        "countryName": "Turkey",
+        "lat": 39.0,
+        "lng": 35.2,
+        "patentFamilies": 5,
+        "grantedFamilies": 0,
+        "patentingCompanies": 4,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "BG",
+        "countryName": "BG",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 4,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "EC",
+        "countryName": "EC",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 4,
+        "grantedFamilies": 0,
+        "patentingCompanies": 4,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "EG",
+        "countryName": "EG",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 4,
+        "grantedFamilies": 0,
+        "patentingCompanies": 4,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "LU",
+        "countryName": "LU",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 4,
+        "grantedFamilies": 3,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SK",
+        "countryName": "Slovakia",
+        "lat": 48.7,
+        "lng": 19.7,
+        "patentFamilies": 4,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "YU",
+        "countryName": "YU",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 4,
+        "grantedFamilies": 1,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "DD",
+        "countryName": "DD",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 3,
+        "grantedFamilies": 0,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "EE",
+        "countryName": "EE",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 3,
+        "grantedFamilies": 2,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "LT",
+        "countryName": "LT",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 3,
+        "grantedFamilies": 1,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "NI",
+        "countryName": "NI",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 3,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "NO",
+        "countryName": "Norway",
+        "lat": 60.5,
+        "lng": 8.5,
+        "patentFamilies": 3,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "OA",
+        "countryName": "African Intellectual Property Organization",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 3,
+        "grantedFamilies": 0,
+        "patentingCompanies": 3,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CU",
+        "countryName": "CU",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 0,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CY",
+        "countryName": "CY",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 0,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "GE",
+        "countryName": "GE",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 2,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "ME",
+        "countryName": "ME",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 2,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "RO",
+        "countryName": "RO",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 2,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SI",
+        "countryName": "SI",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 2,
+        "grantedFamilies": 0,
+        "patentingCompanies": 2,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "CS",
+        "countryName": "CS",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 1,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "GT",
+        "countryName": "GT",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "HN",
+        "countryName": "HN",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "IS",
+        "countryName": "IS",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "JO",
+        "countryName": "JO",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "MD",
+        "countryName": "MD",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SM",
+        "countryName": "SM",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 1,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SU",
+        "countryName": "SU",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      },
+      {
+        "countryCode": "SV",
+        "countryName": "SV",
+        "lat": null,
+        "lng": null,
+        "patentFamilies": 1,
+        "grantedFamilies": 0,
+        "patentingCompanies": 1,
+        "sharePct": 0.0
+      }
+    ]
+  },
+  "technologyFamilies": {
+    "totalRows": 16037,
+    "totalCompanies": 14495,
+    "items": [
+      {
+        "family": "AI & Machine Learning",
+        "technologyRows": 3113,
+        "companies": 3059,
+        "priority1Rows": 2910,
+        "openSourceRows": 21
+      },
+      {
+        "family": "Applications & Business Software",
+        "technologyRows": 2073,
+        "companies": 2072,
+        "priority1Rows": 2043,
+        "openSourceRows": 17
+      },
+      {
+        "family": "Medical Devices",
+        "technologyRows": 2069,
+        "companies": 1890,
+        "priority1Rows": 1809,
+        "openSourceRows": 1
+      },
+      {
+        "family": "Cloud & Infrastructure",
+        "technologyRows": 1828,
+        "companies": 1794,
+        "priority1Rows": 1680,
+        "openSourceRows": 49
+      },
+      {
+        "family": "Biotech & Pharma",
+        "technologyRows": 1802,
+        "companies": 1711,
+        "priority1Rows": 1577,
+        "openSourceRows": 5
+      },
+      {
+        "family": "Analytics & Data",
+        "technologyRows": 1064,
+        "companies": 1026,
+        "priority1Rows": 865,
+        "openSourceRows": 14
+      },
+      {
+        "family": "Security",
+        "technologyRows": 885,
+        "companies": 834,
+        "priority1Rows": 761,
+        "openSourceRows": 32
+      },
+      {
+        "family": "IoT & Sensors",
+        "technologyRows": 638,
+        "companies": 631,
+        "priority1Rows": 569,
+        "openSourceRows": 6
+      },
+      {
+        "family": "Computer Vision",
+        "technologyRows": 558,
+        "companies": 547,
+        "priority1Rows": 508,
+        "openSourceRows": 0
+      },
+      {
+        "family": "Media & Immersive",
+        "technologyRows": 406,
+        "companies": 399,
+        "priority1Rows": 369,
+        "openSourceRows": 4
+      },
+      {
+        "family": "Robotics & Autonomy",
+        "technologyRows": 391,
+        "companies": 370,
+        "priority1Rows": 321,
+        "openSourceRows": 5
+      },
+      {
+        "family": "Materials & Manufacturing",
+        "technologyRows": 359,
+        "companies": 348,
+        "priority1Rows": 323,
+        "openSourceRows": 0
+      },
+      {
+        "family": "Energy & Climate",
+        "technologyRows": 339,
+        "companies": 332,
+        "priority1Rows": 316,
+        "openSourceRows": 0
+      },
+      {
+        "family": "Semiconductors",
+        "technologyRows": 261,
+        "companies": 253,
+        "priority1Rows": 243,
+        "openSourceRows": 1
+      },
+      {
+        "family": "Communications",
+        "technologyRows": 122,
+        "companies": 120,
+        "priority1Rows": 100,
+        "openSourceRows": 2
+      },
+      {
+        "family": "Location & Mapping",
+        "technologyRows": 71,
+        "companies": 70,
+        "priority1Rows": 61,
+        "openSourceRows": 0
+      },
+      {
+        "family": "Other",
+        "technologyRows": 58,
+        "companies": 57,
+        "priority1Rows": 43,
+        "openSourceRows": 0
+      }
+    ]
+  },
+  "techFamilyTrendSeries": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "trending": [
+      {
+        "name": "AI & Machine Learning",
+        "parent": "Technology",
+        "total": 2910,
+        "shareDelta": 0.24225352112676057,
+        "counts": [
+          183,
+          198,
+          203,
+          210,
+          259,
+          197,
+          163,
+          141,
+          77,
+          6
+        ],
+        "shares": [
+          0.2577464788732394,
+          0.2571428571428571,
+          0.2998522895125554,
+          0.29453015427769985,
+          0.3528610354223433,
+          0.3396551724137931,
+          0.4630681818181818,
+          0.49823321554770317,
+          0.506578947368421,
+          0.5
+        ]
+      },
+      {
+        "name": "Applications & Business Software",
+        "parent": "Technology",
+        "total": 2043,
+        "shareDelta": 0.017370892018779338,
+        "counts": [
+          106,
+          114,
+          108,
+          117,
+          99,
+          78,
+          24,
+          29,
+          17,
+          2
+        ],
+        "shares": [
+          0.14929577464788732,
+          0.14805194805194805,
+          0.15952732644017725,
+          0.1640953716690042,
+          0.13487738419618528,
+          0.13448275862068965,
+          0.06818181818181818,
+          0.10247349823321555,
+          0.1118421052631579,
+          0.16666666666666666
+        ]
+      },
+      {
+        "name": "Medical Devices",
+        "parent": "Technology",
+        "total": 1809,
+        "shareDelta": -0.1352112676056338,
+        "counts": [
+          96,
+          102,
+          82,
+          93,
+          73,
+          72,
+          43,
+          19,
+          17,
+          0
+        ],
+        "shares": [
+          0.1352112676056338,
+          0.13246753246753246,
+          0.12112259970457903,
+          0.13043478260869565,
+          0.0994550408719346,
+          0.12413793103448276,
+          0.12215909090909091,
+          0.06713780918727916,
+          0.1118421052631579,
+          0.0
+        ]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "parent": "Technology",
+        "total": 1680,
+        "shareDelta": -0.04483568075117371,
+        "counts": [
+          91,
+          98,
+          66,
+          86,
+          87,
+          76,
+          30,
+          24,
+          11,
+          1
+        ],
+        "shares": [
+          0.12816901408450704,
+          0.12727272727272726,
+          0.09748892171344166,
+          0.12061711079943899,
+          0.11852861035422343,
+          0.1310344827586207,
+          0.08522727272727272,
+          0.08480565371024736,
+          0.07236842105263158,
+          0.08333333333333333
+        ]
+      },
+      {
+        "name": "Biotech & Pharma",
+        "parent": "Technology",
+        "total": 1577,
+        "shareDelta": -0.036384976525821594,
+        "counts": [
+          85,
+          107,
+          94,
+          101,
+          94,
+          77,
+          56,
+          35,
+          10,
+          1
+        ],
+        "shares": [
+          0.11971830985915492,
+          0.13896103896103895,
+          0.13884785819793205,
+          0.14165497896213183,
+          0.12806539509536785,
+          0.13275862068965516,
+          0.1590909090909091,
+          0.12367491166077739,
+          0.06578947368421052,
+          0.08333333333333333
+        ]
+      },
+      {
+        "name": "Analytics & Data",
+        "parent": "Technology",
+        "total": 865,
+        "shareDelta": 0.01431924882629107,
+        "counts": [
+          49,
+          52,
+          46,
+          36,
+          56,
+          23,
+          14,
+          12,
+          5,
+          1
+        ],
+        "shares": [
+          0.06901408450704226,
+          0.06753246753246753,
+          0.06794682422451995,
+          0.05049088359046283,
+          0.07629427792915532,
+          0.039655172413793106,
+          0.03977272727272727,
+          0.04240282685512368,
+          0.03289473684210526,
+          0.08333333333333333
+        ]
+      },
+      {
+        "name": "Security",
+        "parent": "Technology",
+        "total": 761,
+        "shareDelta": -0.008215962441314562,
+        "counts": [
+          65,
+          60,
+          43,
+          35,
+          36,
+          31,
+          9,
+          13,
+          11,
+          1
+        ],
+        "shares": [
+          0.09154929577464789,
+          0.07792207792207792,
+          0.06351550960118169,
+          0.04908835904628331,
+          0.04904632152588556,
+          0.05344827586206897,
+          0.02556818181818182,
+          0.045936395759717315,
+          0.07236842105263158,
+          0.08333333333333333
+        ]
+      },
+      {
+        "name": "IoT & Sensors",
+        "parent": "Technology",
+        "total": 569,
+        "shareDelta": -0.04929577464788732,
+        "counts": [
+          35,
+          39,
+          35,
+          35,
+          30,
+          26,
+          13,
+          10,
+          4,
+          0
+        ],
+        "shares": [
+          0.04929577464788732,
+          0.05064935064935065,
+          0.051698670605613,
+          0.04908835904628331,
+          0.04087193460490463,
+          0.04482758620689655,
+          0.036931818181818184,
+          0.0353356890459364,
+          0.02631578947368421,
+          0.0
+        ]
+      }
+    ]
+  },
+  "patentClassTrendSeries": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "trending": [
+      {
+        "name": "Software & Sensors",
+        "parent": "Patents",
+        "total": 2866,
+        "shareDelta": -0.3684210526315789,
+        "counts": [
+          329,
+          321,
+          341,
+          341,
+          352,
+          343,
+          346,
+          342,
+          151,
+          0
+        ],
+        "shares": [
+          0.3684210526315789,
+          0.37369033760186265,
+          0.3814317673378076,
+          0.3541017653167186,
+          0.35235235235235235,
+          0.32419659735349715,
+          0.3642105263157895,
+          0.3931034482758621,
+          0.36561743341404357,
+          0
+        ]
+      },
+      {
+        "name": "Health, Food & AgTech",
+        "parent": "Patents",
+        "total": 2798,
+        "shareDelta": -0.3784994400895857,
+        "counts": [
+          338,
+          320,
+          319,
+          347,
+          365,
+          388,
+          308,
+          280,
+          133,
+          0
+        ],
+        "shares": [
+          0.3784994400895857,
+          0.37252619324796277,
+          0.3568232662192394,
+          0.3603322949117342,
+          0.36536536536536535,
+          0.3667296786389414,
+          0.32421052631578945,
+          0.3218390804597701,
+          0.3220338983050847,
+          0
+        ]
+      },
+      {
+        "name": "Manufacturing & Mobility",
+        "parent": "Patents",
+        "total": 1015,
+        "shareDelta": -0.0851063829787234,
+        "counts": [
+          76,
+          91,
+          94,
+          138,
+          141,
+          162,
+          146,
+          118,
+          49,
+          0
+        ],
+        "shares": [
+          0.0851063829787234,
+          0.10593713620488941,
+          0.10514541387024609,
+          0.14330218068535824,
+          0.14114114114114115,
+          0.15311909262759923,
+          0.15368421052631578,
+          0.135632183908046,
+          0.11864406779661017,
+          0
+        ]
+      },
+      {
+        "name": "Hardware & Telecom",
+        "parent": "Patents",
+        "total": 865,
+        "shareDelta": -0.1366181410974244,
+        "counts": [
+          122,
+          104,
+          107,
+          109,
+          102,
+          98,
+          92,
+          82,
+          49,
+          0
+        ],
+        "shares": [
+          0.1366181410974244,
+          0.1210710128055879,
+          0.11968680089485459,
+          0.11318795430944964,
+          0.1021021021021021,
+          0.09262759924385633,
+          0.0968421052631579,
+          0.09425287356321839,
+          0.11864406779661017,
+          0
+        ]
+      },
+      {
+        "name": "Biotech & Materials",
+        "parent": "Patents",
+        "total": 355,
+        "shareDelta": -0.03135498320268757,
+        "counts": [
+          28,
+          23,
+          33,
+          28,
+          39,
+          67,
+          58,
+          48,
+          31,
+          0
+        ],
+        "shares": [
+          0.03135498320268757,
+          0.02677532013969732,
+          0.03691275167785235,
+          0.029075804776739357,
+          0.03903903903903904,
+          0.06332703213610585,
+          0.061052631578947365,
+          0.05517241379310345,
+          0.07506053268765134,
+          0
+        ]
+      }
+    ]
+  }
+}

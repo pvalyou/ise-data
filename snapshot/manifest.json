@@ -55,6 +55,43 @@
       "queryable": false,
       "name": "network",
       "available": true
+    },
+    {
+      "file": "macro.json",
+      "title": "Macro",
+      "source": "external-feed",
+      "cadence": "intraday",
+      "queryable": true,
+      "name": "macro",
+      "available": true
+    },
+    {
+      "file": "literature-review.json",
+      "title": "Literature Review",
+      "source": "openalex+curated",
+      "cadence": "daily",
+      "queryable": true,
+      "name": "literature-review",
+      "available": true
+    },
+    {
+      "file": "about.json",
+      "title": "About Pvalyou",
+      "source": "authored",
+      "cadence": "on-change",
+      "queryable": true,
+      "name": "about",
+      "available": true
+    },
+    {
+      "file": "embedding-map.json",
+      "title": "Similarity Map",
+      "source": "ml-model",
+      "cadence": "occasional",
+      "queryable": false,
+      "binary": "embedding-map.bin",
+      "name": "embedding-map",
+      "available": true
     }
   ]
 }
