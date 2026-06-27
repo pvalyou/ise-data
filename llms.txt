@@ -1,0 +1,23 @@
+# Israeli Startup Ecosystem (Pvalyou)
+
+> Open snapshots of the Israeli startup ecosystem, published by Pvalyou. Built from public sources and refreshed automatically. The live dashboard reads these same files.
+
+Read SKILL.md first. It explains every file, every metric, and the operating definitions. No API key, no rate limit, just read the JSON. Files are cached on the CDN below; the raw GitHub path is the freshest.
+
+## Guide
+- [Data guide](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/SKILL.md): how to read every file, with the definitions
+- [Index](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/manifest.json): machine-readable list of all files
+
+## Data
+- [Startups](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/startups.json): counts, funding, exits, geography
+- [Founders](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/founders.json): founders and founding teams
+- [Technologies and Patents](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/technology-ip.json): what startups build and patent
+- [Business Models](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/business-models.json): revenue models and go to market
+- [Open Roles](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/jobs.json): live hiring demand
+- [Macro](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/macro.json): market indices and currency
+- [Literature Review](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/literature-review.json): academic findings recomputed on Israeli data
+- [About Pvalyou](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/about.json): company and methodology
+
+## Visualization only
+- [Network Graph](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/network.json): graph layout geometry, not a fact table
+- [Similarity Map](https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/embedding-map.json): map coordinates and clusters, not a fact table
