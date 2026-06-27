@@ -1,7 +1,7 @@
 # Snapshot publish migration
 
 Publishing moved to [ise-api](https://github.com/pvalyou/ise-api). This repo
-now contains only committed JSON and validation CI.
+now contains only committed JSON.
 
 Migration docs (complete):
 
