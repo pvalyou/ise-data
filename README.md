@@ -17,49 +17,37 @@ No API key, no rate limit, no server required - just read the JSON.
   `https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/startups.json`
 
 Start from [`snapshot/manifest.json`](snapshot/manifest.json) to discover what
-is available. For fresher-than-commit data, query
-[ise-api](https://github.com/pvalyou/ise-api) directly.
+is available.
 
 ## How it updates
 
 ```mermaid
 flowchart LR
   PG[(Postgres)] -->|live query| API[ise-api]
-  API -->|"GET /snapshots/{name}"| Cron[GitHub Actions cron]
+  API -->|direct export| Cron[GitHub Actions in ise-api]
   Cron -->|commit only on change| Repo[this repo]
   Repo -->|raw / CDN| Users[consumers]
 ```
 
-Three scheduled workflows fetch from ise-api by cadence tier and commit only
-when content changed:
+Scheduled workflows in [ise-api](https://github.com/pvalyou/ise-api) export
+snapshots directly from Postgres and commit changes here by cadence tier:
 
-| Workflow | Cadence | Schedule |
+| Workflow (ise-api) | Cadence | Schedule |
 | --- | --- | --- |
-| [`snapshots-live.yml`](.github/workflows/snapshots-live.yml) | `live` | every 15 min |
-| [`snapshots-intraday.yml`](.github/workflows/snapshots-intraday.yml) | `intraday` | hourly |
-| [`snapshots-daily.yml`](.github/workflows/snapshots-daily.yml) | `daily` | daily |
+| `snapshots-live.yml` | `live` | every 15 min |
+| `snapshots-intraday.yml` | `intraday` | hourly |
+| `snapshots-daily.yml` | `daily` | daily |
 
-The shared scripts [`scripts/fetch-snapshots.sh`](scripts/fetch-snapshots.sh)
-and [`scripts/commit-snapshots.sh`](scripts/commit-snapshots.sh) do the work.
-The fetch step reads the ise-api manifest and only pulls snapshots that are
-both available and match the tier's cadence, so new snapshots appear here
-automatically as they ship in ise-api.
-
-## Setup
-
-1. Deploy ise-api and note its public URL.
-2. In this repo: Settings -> Secrets and variables -> Actions -> Variables,
-   add a repository variable `API_BASE_URL` = the ise-api base URL.
-3. The workflows use the default `GITHUB_TOKEN` to commit - no other secrets
-   needed. Ensure Actions has write permission (Settings -> Actions -> General
-   -> Workflow permissions -> Read and write).
+Commits only happen when content changes. See
+[ise-api migration docs](https://github.com/pvalyou/ise-api/blob/main/docs/migration/README.md)
+for setup and architecture.
 
 ## Notes on history size
 
 Some snapshots are large (e.g. `network.json`, `jobs.json`). To keep the repo
 healthy:
 
-- Commits only happen when content changes (handled by the commit script).
+- Commits only happen when content changes.
 - Tune cron frequency per tier to match how often data really moves.
 - If churn on large files becomes heavy, consider git LFS for those files or a
   periodic history squash.

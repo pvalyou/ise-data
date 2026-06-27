@@ -12,5 +12,5 @@ jobs:
       - name: checkout
         uses: actions/checkout@v7
 
-      - name: validate scripts and mock fetch
+      - name: validate snapshot JSON
         run: bash tests/validate.sh
