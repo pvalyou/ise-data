@@ -1,53 +1,59 @@
 # ise-data
 
-Public, machine-readable snapshots of the Israeli startup ecosystem.
+Open, machine-readable snapshots of the Israeli startup ecosystem, published by
+Pvalyou. These JSON files power the live dashboard and are the same data it
+reads. Everything is built from public information, gathered and structured by
+Pvalyou, and refreshed automatically.
 
-Each file under [`snapshot/`](snapshot/) is generated live from Postgres by
-[ise-api](https://github.com/pvalyou/ise-api) and committed here on a schedule.
-Because every refresh is a commit, you can see exactly what changed and when
-through the git history - the diff *is* the changelog.
+The numbers live here. The full guide to reading them is in `snapshot/SKILL.md`,
+and a machine index is in `snapshot/manifest.json`.
 
 ## Consume the data
 
-No API key, no rate limit, no server required - just read the JSON.
+No API key, no rate limit, no server. Just read the JSON.
 
-- Raw GitHub:
-  `https://raw.githubusercontent.com/pvalyou/ise-data/main/snapshot/startups.json`
-- CDN (cached, faster):
-  `https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/startups.json`
+- Raw GitHub: `https://raw.githubusercontent.com/pvalyou/ise-data/main/snapshot/startups.json`
+- CDN (cached, faster): `https://cdn.jsdelivr.net/gh/pvalyou/ise-data@main/snapshot/startups.json`
 
-Start from [`snapshot/manifest.json`](snapshot/manifest.json) to discover what
-is available.
+Start from `snapshot/manifest.json` to discover every file.
+
+## Use it with an AI assistant
+
+`snapshot/SKILL.md` is a ready-to-install skill that teaches an assistant how to
+read these files, with every metric and the operating definitions.
+
+- Claude Code: copy it into `~/.claude/skills/israeli-ecosystem-snapshots/`, or
+  `.claude/skills/` in a project. It loads automatically.
+- claude.ai: Settings, Features, upload the skill folder as a zip.
+- Claude API: upload via the `/v1/skills` endpoint, reference it with code execution.
+- Other agents (Cursor, Gemini CLI, Codex CLI): drop `SKILL.md` in their skills folder.
+- Any other assistant: paste `SKILL.md` as a custom instruction, attach `manifest.json`.
 
 ## How it updates
 
-```mermaid
-flowchart LR
-  PG[(Postgres)] -->|live query| API[ise-api]
-  API -->|direct export| Cron[GitHub Actions in ise-api]
-  Cron -->|commit only on change| Repo[this repo]
-  Repo -->|raw / CDN| Users[consumers]
-```
+Scheduled workflows export from Postgres and commit here, only when content
+changes. Every refresh is a commit, so the git history is the changelog.
 
-Scheduled workflows in [ise-api](https://github.com/pvalyou/ise-api) export
-snapshots directly from Postgres and commit changes here by cadence tier:
+| Tier | Cadence |
+| --- | --- |
+| live | every 15 min |
+| intraday | hourly |
+| daily | daily |
 
-| Workflow (ise-api) | Cadence | Schedule |
-| --- | --- | --- |
-| `snapshots-live.yml` | `live` | every 15 min |
-| `snapshots-intraday.yml` | `intraday` | hourly |
-| `snapshots-daily.yml` | `daily` | daily |
+`network.json` and `embedding-map.*` are visualization geometry for the
+interactive views. For figures, use the other files.
 
-Commits only happen when content changes. See
-[ise-api migration docs](https://github.com/pvalyou/ise-api/blob/main/docs/migration/README.md)
-for setup and architecture.
+## License
 
-## Notes on history size
+CC BY-NC 4.0. Free to use and share with attribution to Pvalyou, for
+non-commercial purposes. Reselling the data or building a paid product on it is
+not permitted. See `LICENSE`.
 
-Some snapshots are large (e.g. `network.json`, `jobs.json`). To keep the repo
-healthy:
+## Citation
 
-- Commits only happen when content changes.
-- Tune cron frequency per tier to match how often data really moves.
-- If churn on large files becomes heavy, consider git LFS for those files or a
-  periodic history squash.
+Credit Pvalyou. A machine-readable `CITATION.cff` is included. Recommended form:
+Pvalyou. Israeli Startup Ecosystem, Open Snapshots. https://pvalyou.com (accessed YYYY-MM-DD).
+
+## Contact
+
+val@pvalyou.com
