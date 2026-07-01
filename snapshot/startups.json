@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T10:36:59.063Z",
+  "generatedAt": "2026-07-01T13:22:12.014Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 15916,
-      "delta24h": 285
+      "delta24h": 252
     },
     "totalFunding": {
       "valueUsd": 175296970000,
@@ -2112,14 +2112,13 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
@@ -2133,13 +2132,14 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       },
       {
         "ts": "2026-05-03T00:00:00.000Z",
@@ -2150,17 +2150,6 @@
         "investorCount": 12,
         "isVcBacked": true,
         "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Egdal AI",
-        "stage": "Grant",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2175,11 +2164,22 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "IM Cannabis",
-        "stage": "Convertible Note",
-        "amountUsd": 550000,
+        "org": "Novella Israel Tech",
+        "stage": "Series A",
+        "amountUsd": 21000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 13,
         "isVcBacked": false,
         "isNonEquity": false
       },
@@ -2195,6 +2195,16 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
+        "org": "IM Cannabis",
+        "stage": "Convertible Note",
+        "amountUsd": 550000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
         "org": "Kela",
         "stage": "Other",
         "amountUsd": 200000000,
@@ -2205,24 +2215,14 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
+        "org": "Egdal AI",
+        "stage": "Grant",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 13,
+        "investorCount": 0,
         "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Novella Israel Tech",
-        "stage": "Series A",
-        "amountUsd": 21000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       }
     ],
     "todayStats": {
@@ -2760,15 +2760,15 @@
         "ts": "2026-06-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "CodeValue",
-        "summary": "Hosting the annual Architecture Next 2026 conference to discuss software architecture and AI trends."
+        "org": "Deeep Social",
+        "summary": "Deeep Social is organizing the Creatives & Conversions TLV III conference at Tel Aviv University, featuring 10 speakers and 11 workshops."
       },
       {
         "ts": "2026-06-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "Deeep Social",
-        "summary": "Deeep Social is organizing the Creatives & Conversions TLV III conference at Tel Aviv University, featuring 10 speakers and 11 workshops."
+        "org": "CodeValue",
+        "summary": "Hosting the annual Architecture Next 2026 conference to discuss software architecture and AI trends."
       },
       {
         "ts": "2026-06-03T00:00:00.000Z",
