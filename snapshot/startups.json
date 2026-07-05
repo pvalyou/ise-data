@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T19:58:51.523Z",
+  "generatedAt": "2026-07-05T20:58:47.228Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,22 +160,22 @@
   "kpis": {
     "startups": {
       "value": 17091,
-      "delta24h": 217
+      "delta24h": 214
     },
     "totalFunding": {
-      "valueUsd": 177843020000,
-      "rounds": 26809
+      "valueUsd": 177902720000,
+      "rounds": 26818
     },
     "exits": {
       "count": 1817,
       "valueUsd": 186112584900
     },
     "employees": {
-      "total": 382779,
+      "total": 382789,
       "avgPerStartup": 26
     },
     "patents": {
-      "total": 110701,
+      "total": 110766,
       "delta30d": 0
     },
     "openJobs": 6458
@@ -1063,14 +1063,14 @@
         744,
         830,
         949,
-        1098,
+        1101,
         1058,
-        1119,
-        1579,
+        1120,
+        1581,
         1628,
-        1646,
-        1874,
-        1697,
+        1647,
+        1875,
+        1698,
         1341,
         1615,
         1137,
@@ -1107,27 +1107,27 @@
         1629090500,
         1980606015,
         2732897405,
-        3230519489,
+        3290219489,
         3315000282,
         6287215655,
         4475244711,
         6009325258,
         15562474140,
-        33177256808,
-        18321280305,
+        33175856808,
+        18322680305,
         8509640727,
         16670266651,
         22997468334,
         8112991196
       ],
       "stageMix": {
-        "Seed": 9795,
-        "Grant": 3697,
+        "Seed": 9796,
+        "Grant": 3699,
         "Series A": 2316,
         "Other": 2141,
         "Unknown": 1581,
         "Series B": 1199,
-        "Non-equity": 1164,
+        "Non-equity": 1170,
         "Accelerator": 941
       }
     },
@@ -1336,9 +1336,9 @@
     },
     "funnel": {
       "all": 17091,
-      "funded": 10021,
-      "over1m": 4012,
-      "over10m": 1920,
+      "funded": 10023,
+      "over1m": 4013,
+      "over10m": 1921,
       "exited": 1817
     },
     "timeToExit": {
@@ -2102,6 +2102,27 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
         "org": "Coddy",
         "stage": "Debt Financing",
         "amountUsd": 10000000,
@@ -2121,27 +2142,6 @@
         "isNonEquity": false
       },
       {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
         "ts": "2026-05-03T00:00:00.000Z",
         "org": "MSICS Pharma",
         "stage": "Series A",
@@ -2150,6 +2150,17 @@
         "investorCount": 12,
         "isVcBacked": true,
         "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Egdal AI",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2173,28 +2184,7 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Deep Ocean",
-        "stage": "Other",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "R&D Round"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 13,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Egdal AI",
+        "org": "4C Biomed",
         "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
@@ -2202,6 +2192,16 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "IM Cannabis",
+        "stage": "Convertible Note",
+        "amountUsd": 550000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2653,16 +2653,16 @@
       {
         "ts": "2026-07-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "MyHeritage",
-        "summary": "MyHeritage offered free access to its collection of city directories from July 1-5, 2026 to celebrate America's 250th birthday, expanding access to historical records."
+        "rawKind": "R&D Milestone",
+        "org": "MedDesk",
+        "summary": "Planned launch of the MedDesk-AI Quantum prototype."
       },
       {
         "ts": "2026-07-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "MedDesk",
-        "summary": "Planned launch of the MedDesk-AI Quantum prototype."
+        "rawKind": "Market Expansion",
+        "org": "MyHeritage",
+        "summary": "MyHeritage offered free access to its collection of city directories from July 1-5, 2026 to celebrate America's 250th birthday, expanding access to historical records."
       },
       {
         "ts": "2026-06-25T00:00:00.000Z",
@@ -2682,22 +2682,15 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Deel",
-        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Nayax",
-        "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
+        "org": "Deel",
+        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2705,6 +2698,13 @@
         "rawKind": "Conference Presentation",
         "org": "Imagry",
         "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
+      },
+      {
+        "ts": "2026-06-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Nayax",
+        "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2758,16 +2758,16 @@
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nayax",
-        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
+        "rawKind": "Strategic Partnership",
+        "org": "Lasso Security",
+        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lasso Security",
-        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
+        "rawKind": "Product Launch",
+        "org": "Nayax",
+        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
       },
       {
         "ts": "2026-06-11T00:00:00.000Z",
@@ -2780,8 +2780,8 @@
         "ts": "2026-06-10T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Conference Presentation",
-        "org": "Sensos",
-        "summary": "Participated in the TAPA EMEA conference in Oberhausen to address supply chain security operations."
+        "org": "Jeen AI",
+        "summary": "Stephen Ko presented on scaling AI with control, governance, and accountability at SuperAI Singapore."
       }
     ]
   }
