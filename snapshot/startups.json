@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:52:46.377Z",
+  "generatedAt": "2026-07-06T22:56:50.206Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,56 +159,56 @@
   },
   "kpis": {
     "startups": {
-      "value": 17153,
-      "delta24h": 60
+      "value": 17157,
+      "delta24h": 63
     },
     "totalFunding": {
       "valueUsd": 177933690000,
-      "rounds": 26921
+      "rounds": 26925
     },
     "exits": {
       "count": 1824,
       "valueUsd": 186180447400
     },
     "employees": {
-      "total": 383552,
+      "total": 383557,
       "avgPerStartup": 26
     },
     "patents": {
       "total": 110889,
       "delta30d": 0
     },
-    "openJobs": 7001
+    "openJobs": 7008
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3119
+        "count": 3487
       },
       {
         "name": "Central",
-        "count": 1769
+        "count": 2018
       },
       {
         "name": "Haifa",
-        "count": 620
+        "count": 702
       },
       {
         "name": "Jerusalem",
-        "count": 327
+        "count": 394
       },
       {
         "name": "Northern",
-        "count": 173
+        "count": 218
       },
       {
         "name": "Southern",
-        "count": 99
+        "count": 122
       },
       {
         "name": "Judea & Samaria",
-        "count": 7
+        "count": 10
       }
     ],
     "cities": [
@@ -217,189 +217,231 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 1986
-      },
-      {
-        "name": "Ramat Gan",
-        "district": "Tel Aviv",
-        "lat": 32.0823,
-        "lng": 34.8145,
-        "count": 355
+        "count": 2217
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 345
+        "count": 396
+      },
+      {
+        "name": "Ramat Gan",
+        "district": "Tel Aviv",
+        "lat": 32.0823,
+        "lng": 34.8145,
+        "count": 392
       },
       {
         "name": "Jerusalem",
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 296
-      },
-      {
-        "name": "Petah Tikva",
-        "district": "Central",
-        "lat": 32.0878,
-        "lng": 34.8878,
-        "count": 261
+        "count": 354
       },
       {
         "name": "Haifa",
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 252
+        "count": 297
+      },
+      {
+        "name": "Petah Tikva",
+        "district": "Central",
+        "lat": 32.0878,
+        "lng": 34.8878,
+        "count": 293
       },
       {
         "name": "Ra'anana",
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 215
+        "count": 253
       },
       {
         "name": "Rehovot",
         "district": "Central",
         "lat": 31.8944,
         "lng": 34.8097,
-        "count": 189
-      },
-      {
-        "name": "Kfar Saba",
-        "district": "Central",
-        "lat": 32.175,
-        "lng": 34.907,
-        "count": 150
+        "count": 207
       },
       {
         "name": "Netanya",
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 150
+        "count": 176
+      },
+      {
+        "name": "Kfar Saba",
+        "district": "Central",
+        "lat": 32.175,
+        "lng": 34.907,
+        "count": 168
       },
       {
         "name": "Ness Ziona",
         "district": "Central",
         "lat": 31.9293,
         "lng": 34.7986,
-        "count": 126
-      },
-      {
-        "name": "Hod Hasharon",
-        "district": "Central",
-        "lat": 32.15,
-        "lng": 34.8833,
-        "count": 114
+        "count": 143
       },
       {
         "name": "Rishon LeZion",
         "district": "Central",
         "lat": 31.973,
         "lng": 34.7925,
-        "count": 114
+        "count": 135
+      },
+      {
+        "name": "Hod Hasharon",
+        "district": "Central",
+        "lat": 32.15,
+        "lng": 34.8833,
+        "count": 133
       },
       {
         "name": "Bnei Brak",
         "district": "Tel Aviv",
         "lat": 32.0836,
         "lng": 34.8337,
-        "count": 112
+        "count": 128
       },
       {
         "name": "Yokneam Illit",
         "district": "Haifa",
         "lat": 32.6594,
         "lng": 35.1097,
-        "count": 107
+        "count": 115
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 95
+        "count": 106
       },
       {
         "name": "Caesarea",
         "district": "Haifa",
         "lat": 32.5167,
         "lng": 34.9,
-        "count": 93
-      },
-      {
-        "name": "Ramat Hasharon",
-        "district": "Tel Aviv",
-        "lat": 32.1461,
-        "lng": 34.8417,
-        "count": 76
+        "count": 104
       },
       {
         "name": "Rosh HaAyin",
         "district": "Central",
         "lat": 32.0844,
         "lng": 34.9547,
-        "count": 75
+        "count": 85
+      },
+      {
+        "name": "Ramat Hasharon",
+        "district": "Tel Aviv",
+        "lat": 32.1461,
+        "lng": 34.8417,
+        "count": 84
       },
       {
         "name": "Givatayim",
         "district": "Tel Aviv",
         "lat": 32.072,
         "lng": 34.8117,
-        "count": 74
+        "count": 79
       },
       {
         "name": "Holon",
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 61
+        "count": 68
       },
       {
         "name": "Or Yehuda",
         "district": "Tel Aviv",
         "lat": 32.0333,
         "lng": 34.85,
-        "count": 54
+        "count": 60
       },
       {
         "name": "Nazareth",
         "district": "Northern",
         "lat": 32.7022,
         "lng": 35.2978,
-        "count": 42
+        "count": 51
       },
       {
         "name": "Yavne",
         "district": "Central",
         "lat": 31.8781,
         "lng": 34.7381,
-        "count": 41
+        "count": 47
       },
       {
         "name": "Kiryat Ono",
         "district": "Tel Aviv",
         "lat": 32.0633,
         "lng": 34.8547,
-        "count": 40
+        "count": 43
       },
       {
         "name": "Lod",
         "district": "Central",
         "lat": 31.9506,
         "lng": 34.8887,
-        "count": 30
+        "count": 36
       },
       {
         "name": "Ashdod",
         "district": "Southern",
         "lat": 31.8044,
         "lng": 34.6553,
+        "count": 34
+      },
+      {
+        "name": "Givat Shmuel",
+        "district": "Central",
+        "lat": 32.0833,
+        "lng": 34.85,
+        "count": 31
+      },
+      {
+        "name": "Misgav",
+        "district": "Northern",
+        "lat": 32.9,
+        "lng": 35.3,
         "count": 29
+      },
+      {
+        "name": "Shoham",
+        "district": "Central",
+        "lat": 32.0014,
+        "lng": 34.937,
+        "count": 29
+      },
+      {
+        "name": "Beit Shemesh",
+        "district": "Jerusalem",
+        "lat": 31.7494,
+        "lng": 34.9889,
+        "count": 28
+      },
+      {
+        "name": "Tel Mond",
+        "district": "Central",
+        "lat": 32.2514,
+        "lng": 34.9175,
+        "count": 28
+      },
+      {
+        "name": "Ashkelon",
+        "district": "Southern",
+        "lat": 31.6689,
+        "lng": 34.5715,
+        "count": 27
       },
       {
         "name": "Ganei Tikva",
@@ -409,73 +451,66 @@
         "count": 27
       },
       {
-        "name": "Shoham",
-        "district": "Central",
-        "lat": 32.0014,
-        "lng": 34.937,
-        "count": 26
-      },
-      {
         "name": "Hadera",
         "district": "Haifa",
         "lat": 32.434,
         "lng": 34.9196,
-        "count": 25
+        "count": 27
       },
       {
-        "name": "Tel Mond",
-        "district": "Central",
-        "lat": 32.2514,
-        "lng": 34.9175,
-        "count": 24
+        "name": "Migdal HaEmek",
+        "district": "Northern",
+        "lat": 32.6747,
+        "lng": 35.2406,
+        "count": 27
       },
       {
         "name": "Binyamina",
         "district": "Haifa",
         "lat": 32.5183,
         "lng": 34.9478,
-        "count": 23
-      },
-      {
-        "name": "Even Yehuda",
-        "district": "Central",
-        "lat": 32.2667,
-        "lng": 34.8833,
-        "count": 23
-      },
-      {
-        "name": "Givat Shmuel",
-        "district": "Central",
-        "lat": 32.0833,
-        "lng": 34.85,
-        "count": 23
-      },
-      {
-        "name": "Misgav",
-        "district": "Northern",
-        "lat": 32.9,
-        "lng": 35.3,
-        "count": 22
-      },
-      {
-        "name": "Beit Shemesh",
-        "district": "Jerusalem",
-        "lat": 31.7494,
-        "lng": 34.9889,
-        "count": 21
+        "count": 26
       },
       {
         "name": "Nesher",
         "district": "Haifa",
         "lat": 32.77,
         "lng": 35.04,
-        "count": 21
+        "count": 26
+      },
+      {
+        "name": "Even Yehuda",
+        "district": "Central",
+        "lat": 32.2667,
+        "lng": 34.8833,
+        "count": 24
       },
       {
         "name": "Yehud-Monoson",
         "district": "Central",
         "lat": 32.0333,
         "lng": 34.8833,
+        "count": 22
+      },
+      {
+        "name": "Bat Yam",
+        "district": "Tel Aviv",
+        "lat": 32.0231,
+        "lng": 34.7503,
+        "count": 20
+      },
+      {
+        "name": "Pardes Hanna-Karkur",
+        "district": "Haifa",
+        "lat": 32.4718,
+        "lng": 34.972,
+        "count": 20
+      },
+      {
+        "name": "Zichron Ya'akov",
+        "district": "Haifa",
+        "lat": 32.5739,
+        "lng": 34.9517,
         "count": 20
       },
       {
@@ -486,59 +521,38 @@
         "count": 19
       },
       {
-        "name": "Pardes Hanna-Karkur",
-        "district": "Haifa",
-        "lat": 32.4718,
-        "lng": 34.972,
-        "count": 19
-      },
-      {
-        "name": "Ashkelon",
-        "district": "Southern",
-        "lat": 31.6689,
-        "lng": 34.5715,
-        "count": 18
-      },
-      {
         "name": "Be'er Sheva",
         "district": "Southern",
         "lat": 31.2518,
         "lng": 34.7915,
-        "count": 17
-      },
-      {
-        "name": "Zichron Ya'akov",
-        "district": "Haifa",
-        "lat": 32.5739,
-        "lng": 34.9517,
-        "count": 17
+        "count": 18
       },
       {
         "name": "Afula",
         "district": "Northern",
         "lat": 32.6078,
         "lng": 35.2897,
-        "count": 16
+        "count": 17
       },
       {
-        "name": "Bat Yam",
-        "district": "Tel Aviv",
-        "lat": 32.0231,
-        "lng": 34.7503,
-        "count": 16
-      },
-      {
-        "name": "Migdal HaEmek",
+        "name": "Katzrin",
         "district": "Northern",
-        "lat": 32.6747,
-        "lng": 35.2406,
-        "count": 15
+        "lat": 32.9917,
+        "lng": 35.6944,
+        "count": 17
       },
       {
         "name": "Or Akiva",
         "district": "Haifa",
         "lat": 32.51,
         "lng": 34.9175,
+        "count": 17
+      },
+      {
+        "name": "Sderot",
+        "district": "Southern",
+        "lat": 31.5247,
+        "lng": 34.5964,
         "count": 15
       },
       {
@@ -546,6 +560,20 @@
         "district": "Haifa",
         "lat": 32.7611,
         "lng": 34.9711,
+        "count": 15
+      },
+      {
+        "name": "Airport City",
+        "district": "Central",
+        "lat": 32.0014,
+        "lng": 34.8864,
+        "count": 14
+      },
+      {
+        "name": "Kiryat Shmona",
+        "district": "Northern",
+        "lat": 33.2075,
+        "lng": 35.5697,
         "count": 14
       },
       {
@@ -556,10 +584,10 @@
         "count": 14
       },
       {
-        "name": "Airport City",
+        "name": "Gedera",
         "district": "Central",
-        "lat": 32.0014,
-        "lng": 34.8864,
+        "lat": 31.8137,
+        "lng": 34.7774,
         "count": 12
       },
       {
@@ -570,25 +598,18 @@
         "count": 12
       },
       {
-        "name": "Kiryat Shmona",
-        "district": "Northern",
-        "lat": 33.2075,
-        "lng": 35.5697,
+        "name": "Mevaseret Zion",
+        "district": "Jerusalem",
+        "lat": 31.7986,
+        "lng": 35.15,
         "count": 12
       },
       {
-        "name": "Sderot",
-        "district": "Southern",
-        "lat": 31.5247,
-        "lng": 34.5964,
-        "count": 12
-      },
-      {
-        "name": "Gedera",
+        "name": "Savyon",
         "district": "Central",
-        "lat": 31.8137,
-        "lng": 34.7774,
-        "count": 11
+        "lat": 32.0369,
+        "lng": 34.8839,
+        "count": 12
       },
       {
         "name": "Kiryat Gat",
@@ -598,24 +619,17 @@
         "count": 11
       },
       {
-        "name": "Katzrin",
-        "district": "Northern",
-        "lat": 32.9917,
-        "lng": 35.6944,
-        "count": 10
-      },
-      {
-        "name": "Mevaseret Zion",
-        "district": "Jerusalem",
-        "lat": 31.7986,
-        "lng": 35.15,
-        "count": 10
-      },
-      {
         "name": "Kfar Yona",
         "district": "Central",
         "lat": 32.3217,
         "lng": 34.9369,
+        "count": 10
+      },
+      {
+        "name": "Kiryat Motzkin",
+        "district": "Haifa",
+        "lat": 32.8359,
+        "lng": 35.077,
         "count": 9
       },
       {
@@ -626,31 +640,45 @@
         "count": 9
       },
       {
-        "name": "Savyon",
-        "district": "Central",
-        "lat": 32.0369,
-        "lng": 34.8839,
+        "name": "Ramat Yishai",
+        "district": "Northern",
+        "lat": 32.705,
+        "lng": 35.17,
         "count": 9
-      },
-      {
-        "name": "Kiryat Motzkin",
-        "district": "Haifa",
-        "lat": 32.8359,
-        "lng": 35.077,
-        "count": 8
       },
       {
         "name": "Tiberias",
         "district": "Northern",
         "lat": 32.7922,
         "lng": 35.5311,
+        "count": 9
+      },
+      {
+        "name": "Eilat",
+        "district": "Southern",
+        "lat": 29.5581,
+        "lng": 34.9482,
         "count": 8
       },
       {
-        "name": "Ramat Yishai",
+        "name": "Dimona",
+        "district": "Southern",
+        "lat": 31.07,
+        "lng": 35.0333,
+        "count": 7
+      },
+      {
+        "name": "Nahariya",
         "district": "Northern",
-        "lat": 32.705,
-        "lng": 35.17,
+        "lat": 33.0061,
+        "lng": 35.0947,
+        "count": 7
+      },
+      {
+        "name": "Rosh Pina",
+        "district": "Northern",
+        "lat": 32.9694,
+        "lng": 35.5417,
         "count": 7
       },
       {
@@ -661,17 +689,10 @@
         "count": 6
       },
       {
-        "name": "Ma'ale Adumim",
-        "district": "Judea & Samaria",
-        "lat": 31.7769,
-        "lng": 35.2981,
-        "count": 6
-      },
-      {
-        "name": "Nahariya",
+        "name": "Safed",
         "district": "Northern",
-        "lat": 33.0061,
-        "lng": 35.0947,
+        "lat": 32.9646,
+        "lng": 35.496,
         "count": 6
       },
       {
@@ -682,31 +703,17 @@
         "count": 5
       },
       {
-        "name": "Dimona",
-        "district": "Southern",
-        "lat": 31.07,
-        "lng": 35.0333,
+        "name": "Ariel",
+        "district": "Judea & Samaria",
+        "lat": 32.1055,
+        "lng": 35.1736,
         "count": 5
       },
       {
-        "name": "Eilat",
-        "district": "Southern",
-        "lat": 29.5581,
-        "lng": 34.9482,
-        "count": 5
-      },
-      {
-        "name": "Rosh Pina",
-        "district": "Northern",
-        "lat": 32.9694,
-        "lng": 35.5417,
-        "count": 5
-      },
-      {
-        "name": "Safed",
-        "district": "Northern",
-        "lat": 32.9646,
-        "lng": 35.496,
+        "name": "Ma'ale Adumim",
+        "district": "Judea & Samaria",
+        "lat": 31.7769,
+        "lng": 35.2981,
         "count": 5
       },
       {
@@ -714,6 +721,13 @@
         "district": "Northern",
         "lat": 33.017,
         "lng": 35.27,
+        "count": 4
+      },
+      {
+        "name": "Ramla",
+        "district": "Central",
+        "lat": 31.9281,
+        "lng": 34.8714,
         "count": 4
       },
       {
@@ -731,20 +745,6 @@
         "count": 2
       },
       {
-        "name": "Ramla",
-        "district": "Central",
-        "lat": 31.9281,
-        "lng": 34.8714,
-        "count": 2
-      },
-      {
-        "name": "Ariel",
-        "district": "Judea & Samaria",
-        "lat": 32.1055,
-        "lng": 35.1736,
-        "count": 1
-      },
-      {
         "name": "Baqa al-Gharbiya",
         "district": "Haifa",
         "lat": 32.4131,
@@ -752,7 +752,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 983
+    "unresolvedCount": 1171
   },
   "overTime": {
     "foundedClosed": {
@@ -896,9 +896,9 @@
         1026,
         1198,
         1235,
-        1165,
+        1166,
         1060,
-        1052,
+        1053,
         969,
         1003,
         957,
@@ -953,9 +953,9 @@
         18,
         25,
         30,
-        24,
+        25,
         34,
-        65,
+        66,
         99,
         53,
         75,
@@ -963,31 +963,31 @@
         157,
         169,
         193,
-        235,
-        197,
+        236,
+        198,
         181,
         224,
-        541,
-        719,
-        713,
-        792,
-        747,
-        664,
-        555,
-        530,
-        430,
-        364,
-        306,
-        218,
-        72,
-        28,
+        546,
+        722,
+        716,
+        797,
+        751,
+        665,
+        561,
+        535,
+        432,
+        372,
+        322,
+        232,
+        74,
+        33,
         15,
         3
       ],
       "statusMix": {
-        "active": 8320,
-        "closed": 8191,
-        "inactive": 642
+        "active": 8241,
+        "closed": 8275,
+        "inactive": 641
       }
     },
     "funding": {
@@ -1068,12 +1068,12 @@
         956,
         1108,
         1061,
-        1125,
+        1126,
         1590,
-        1636,
-        1655,
+        1637,
+        1656,
         1883,
-        1708,
+        1709,
         1343,
         1622,
         1149,
@@ -1124,12 +1124,12 @@
         8123491196
       ],
       "stageMix": {
-        "Seed": 9822,
+        "Seed": 9824,
         "Grant": 3710,
         "Series A": 2329,
         "Other": 2152,
         "Unknown": 1571,
-        "Series B": 1198,
+        "Series B": 1199,
         "Non-equity": 1191,
         "Accelerator": 957
       }
@@ -1333,13 +1333,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 7414,
-      "closed": 7915,
+      "active": 7335,
+      "closed": 7998,
       "exited": 1824
     },
     "funnel": {
-      "all": 17153,
-      "funded": 10057,
+      "all": 17157,
+      "funded": 10058,
       "over1m": 4018,
       "over10m": 1927,
       "exited": 1824
@@ -1467,23 +1467,23 @@
       },
       {
         "year": 2018,
-        "total": 1051,
+        "total": 1052,
         "unknown": 1,
         "counts": {
           "it-telecom": 448,
-          "healthcare-food": 289,
+          "healthcare-food": 290,
           "consumer-goods-services": 113,
           "energy-utilities": 27,
           "financial-services": 90,
           "media-entertainment": 84
         },
         "shares": {
-          "it-telecom": 0.4262607040913416,
-          "healthcare-food": 0.27497621313035203,
-          "consumer-goods-services": 0.10751665080875357,
-          "energy-utilities": 0.025689819219790674,
-          "financial-services": 0.08563273073263558,
-          "media-entertainment": 0.07992388201712655
+          "it-telecom": 0.42585551330798477,
+          "healthcare-food": 0.27566539923954375,
+          "consumer-goods-services": 0.10741444866920152,
+          "energy-utilities": 0.025665399239543727,
+          "financial-services": 0.08555133079847908,
+          "media-entertainment": 0.07984790874524715
         }
       },
       {
@@ -1659,42 +1659,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 6947,
-        "share": 0.40549848237216907
+        "count": 6948,
+        "share": 0.4054621848739496
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 4260,
-        "share": 0.24865748307261265
+        "count": 4262,
+        "share": 0.24871615312791784
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 2065,
-        "share": 0.12053467195890731
+        "count": 2066,
+        "share": 0.12056489262371616
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 802,
-        "share": 0.046812981554984825
+        "share": 0.04680205415499533
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 945,
-        "share": 0.05515993462526267
+        "share": 0.05514705882352941
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 2113,
-        "share": 0.1233364464160635
+        "share": 0.1233076563958917
       }
     ],
     "mixSummary": {
-      "totalVisible": 6839,
+      "totalVisible": 6840,
       "totalUnknown": 9
     },
     "subTrendYears": [
@@ -1729,7 +1729,7 @@
         ],
         "shares": [
           0.05660377358490566,
-          0.07516650808753568,
+          0.07509505703422054,
           0.055900621118012424,
           0.06593406593406594,
           0.07210031347962383,
@@ -1759,7 +1759,7 @@
         ],
         "shares": [
           0.12735849056603774,
-          0.15128449096098953,
+          0.15114068441064638,
           0.14182194616977226,
           0.17882117882117882,
           0.17136886102403343,
@@ -1789,7 +1789,7 @@
         ],
         "shares": [
           0.006603773584905661,
-          0.009514747859181731,
+          0.009505703422053232,
           0.007246376811594203,
           0.00999000999000999,
           0.014629049111807733,
@@ -1819,7 +1819,7 @@
         ],
         "shares": [
           0.008490566037735849,
-          0.009514747859181731,
+          0.009505703422053232,
           0.013457556935817806,
           0.015984015984015984,
           0.019853709508881923,
@@ -1849,7 +1849,7 @@
         ],
         "shares": [
           0.03679245283018868,
-          0.028544243577545196,
+          0.028517110266159697,
           0.052795031055900624,
           0.03496503496503497,
           0.03761755485893417,
@@ -1881,7 +1881,7 @@
         ],
         "shares": [
           0.03018867924528302,
-          0.028544243577545196,
+          0.028517110266159697,
           0.011387163561076604,
           0.004995004995004995,
           0.009404388714733543,
@@ -1911,7 +1911,7 @@
         ],
         "shares": [
           0.03962264150943396,
-          0.029495718363463368,
+          0.029467680608365018,
           0.019668737060041408,
           0.02097902097902098,
           0.02612330198537095,
@@ -1941,7 +1941,7 @@
         ],
         "shares": [
           0.022641509433962263,
-          0.015223596574690771,
+          0.015209125475285171,
           0.018633540372670808,
           0.013986013986013986,
           0.006269592476489028,
@@ -1971,7 +1971,7 @@
         ],
         "shares": [
           0.010377358490566037,
-          0.014272121788772598,
+          0.014258555133079848,
           0.018633540372670808,
           0.012987012987012988,
           0.008359456635318705,
@@ -2001,7 +2001,7 @@
         ],
         "shares": [
           0.027358490566037737,
-          0.014272121788772598,
+          0.014258555133079848,
           0.022774327122153208,
           0.017982017982017984,
           0.018808777429467086,
@@ -2014,9 +2014,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 7619,
+      "deeptechCount": 7621,
       "deeptechPct": 44.4,
-      "globalCount": 7487,
+      "globalCount": 7488,
       "globalPct": 43.6
     }
   },
@@ -2116,6 +2116,26 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
         "org": "LepreCon",
         "stage": "Seed",
         "amountUsd": 0,
@@ -2136,26 +2156,6 @@
         "isNonEquity": false
       },
       {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
         "ts": "2026-05-03T00:00:00.000Z",
         "org": "MSICS Pharma",
         "stage": "Series A",
@@ -2167,21 +2167,22 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
+        "org": "4C Biomed",
+        "stage": "Grant",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 13,
+        "investorCount": 0,
         "isVcBacked": false,
-        "isNonEquity": false
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "IM Cannabis",
-        "stage": "Convertible Note",
-        "amountUsd": 550000,
+        "org": "Lipovation",
+        "stage": "Grant",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 0,
         "isVcBacked": false,
         "isNonEquity": false
       },
@@ -2208,24 +2209,24 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Lipovation",
-        "stage": "Grant",
-        "amountUsd": 0,
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 13,
         "isVcBacked": false,
         "isNonEquity": false
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Novella Israel Tech",
-        "stage": "Series A",
-        "amountUsd": 21000000,
+        "org": "Egdal AI",
+        "stage": "Grant",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       }
     ],
     "todayStats": {
@@ -2235,22 +2236,100 @@
     },
     "newStartups": [
       {
-        "ts": "2026-07-06T21:36:53.401Z",
-        "org": "CROSwiss",
+        "ts": "2026-07-06T22:56:36.758Z",
+        "org": "Ogen MedTech HR",
         "industry": "IT and Telecom",
         "city": "",
-        "subIndustry": "Education & Training",
-        "description": "A community and resource platform dedicated to conversion rate optimization and digital experimentation, providing insights and best practices for data-driven decision-making.",
-        "domain": "croswiss.ch",
+        "subIndustry": "IT Services & Consulting",
+        "description": "A recruitment and staffing agency specializing in placement services for the medical and high-tech industries, offering comprehensive human resources and employer of record solutions.",
+        "domain": "ogen-hr.co.il",
         "keywords": [
-          "Conversion rate optimization",
-          "CRO",
-          "Digital experimentation",
-          "Website analytics",
-          "Data-driven marketing",
-          "A/B testing"
+          "Recruitment services",
+          "Staffing agency",
+          "Medical device recruitment",
+          "High-tech staffing",
+          "Employer of record",
+          "HR solutions",
+          "Technical placement"
         ],
         "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-06T22:51:16.011Z",
+        "org": "Cura9",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Digital Health",
+        "description": "A clinical decision support platform designed to unify disparate clinical data to enable faster and more informed decision-making for healthcare providers.",
+        "domain": "cura9.com",
+        "keywords": [
+          "Clinical decision support",
+          "Healthcare SaaS",
+          "Healthtech platform",
+          "Clinical data integration",
+          "Healthcare analytics"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-06T22:46:14.714Z",
+        "org": "testifly",
+        "industry": "IT and Telecom",
+        "city": "Haifa",
+        "subIndustry": "Enterprise Software",
+        "description": "AI-powered end-to-end testing platform that automatically generates, runs, and self-heals software tests.",
+        "domain": "testifly.dev",
+        "keywords": [
+          "Software testing",
+          "Test automation",
+          "AI testing platform",
+          "Automated QA",
+          "Self-healing tests",
+          "End-to-end testing"
+        ],
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-06T22:24:28.741Z",
+        "org": "Moon Holidays",
+        "industry": "Consumer Goods and Services",
+        "city": "Bangkok",
+        "subIndustry": "Travel & Hospitality",
+        "description": "A destination management company providing personalized travel planning, accommodation booking, and curated tour packages for travelers visiting Thailand.",
+        "domain": "moonholidays.co.th",
+        "keywords": [
+          "Travel agency",
+          "Destination management",
+          "Tour packages",
+          "Thailand tourism",
+          "Custom travel planning",
+          "Hotel booking",
+          "Inbound tourism"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-07-06T21:58:00.662Z",
+        "org": "NIBC",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Medical Devices",
+        "description": "Developer of point-of-care diagnostic technology for rapid blood count analysis to support clinical decision-making in infection management and oncology care.",
+        "keywords": [
+          "Point of care diagnostics",
+          "Blood count analysis",
+          "Medical diagnostics",
+          "Infection assessment",
+          "Oncology monitoring",
+          "Clinical diagnostics"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 5,
+        "isDeeptech": true,
         "businessModel": "B2B"
       },
       {
@@ -2558,89 +2637,6 @@
         "exactEmployees": 3,
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-06T15:19:35.049Z",
-        "org": "Pulssoft",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "A provider of digital signage management software and specialized display hardware for retail environments, enabling users to create and deploy content through a visual interface.",
-        "domain": "pulssoft.com",
-        "keywords": [
-          "Digital signage software",
-          "Retail technology",
-          "Content management system",
-          "Advertising campaign management",
-          "Digital display hardware"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-06T15:18:04.607Z",
-        "org": "Shopstar",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Marketing Technology",
-        "description": "A social commerce platform that enables businesses to generate branded video content and incentivize customer engagement on social media platforms.",
-        "domain": "getshopstar.com",
-        "keywords": [
-          "Social commerce",
-          "User generated content",
-          "Video marketing",
-          "E-commerce marketing",
-          "Social media advertising",
-          "Influencer marketing platform"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 7,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-06T15:16:36.028Z",
-        "org": "SOLIAIR",
-        "industry": "Healthcare and Food",
-        "city": "",
-        "subIndustry": "Food Technology",
-        "description": "Developer of a food supplement formulated with natural ingredients designed to support respiratory system health and manage symptoms of chronic respiratory conditions.",
-        "domain": "soliair.branded.me",
-        "keywords": [
-          "Nutraceuticals",
-          "Respiratory health supplement",
-          "Natural respiratory support",
-          "Chronic respiratory disease management",
-          "Herbal health solutions"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 1,
-        "isDeeptech": true,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-07-06T15:09:44.188Z",
-        "org": "Emmesh",
-        "industry": "Energy and Utilities",
-        "city": "",
-        "subIndustry": "Energy Technology",
-        "description": "Developer of low-cost, long-duration energy storage battery systems utilizing earth-abundant materials for grid and critical infrastructure backup. The technology focuses on high durability and efficiency to provide extended power resilience for essential services.",
-        "domain": "emmesh.com",
-        "keywords": [
-          "Energy storage",
-          "Flow batteries",
-          "Long-duration energy storage",
-          "Telecom backup power",
-          "Climate tech",
-          "Grid resilience",
-          "Sustainable energy"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 5,
-        "isDeeptech": true,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2676,6 +2672,13 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Deel",
+        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+      },
+      {
+        "ts": "2026-06-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "MAX Security",
         "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
       },
@@ -2687,11 +2690,11 @@
         "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
-        "ts": "2026-06-24T00:00:00.000Z",
+        "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Deel",
-        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2706,13 +2709,6 @@
         "rawKind": "Conference Presentation",
         "org": "AGEERA",
         "summary": "AGEERA will showcase its advanced Energy Management System (EMS) at The smarter E Europe 2026 in Munich, Booth B0.355."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Imagry",
-        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
@@ -2731,16 +2727,16 @@
       {
         "ts": "2026-06-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Precise Financial Management Services",
-        "summary": "Hosted webinar 'Beyond Great Design \u2013 The Three Pillars of A/E Practice Profitability' in partnership with NLA, featuring speaker Lior Schnabel."
+        "rawKind": "R&D Milestone",
+        "org": "101 Therapeutics",
+        "summary": "Public release of Phase II/III clinical data and Ebola white paper for 101-PGC-005, a macrophage-targeted dexamethasone prodrug, seeking independent review for therapeutic use in Bundibugyo Ebola disease."
       },
       {
         "ts": "2026-06-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "101 Therapeutics",
-        "summary": "Public release of Phase II/III clinical data and Ebola white paper for 101-PGC-005, a macrophage-targeted dexamethasone prodrug, seeking independent review for therapeutic use in Bundibugyo Ebola disease."
+        "rawKind": "Conference Presentation",
+        "org": "Precise Financial Management Services",
+        "summary": "Hosted webinar 'Beyond Great Design \u2013 The Three Pillars of A/E Practice Profitability' in partnership with NLA, featuring speaker Lior Schnabel."
       },
       {
         "ts": "2026-06-18T00:00:00.000Z",
@@ -2766,16 +2762,16 @@
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lasso Security",
-        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
+        "rawKind": "Product Launch",
+        "org": "Nayax",
+        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nayax",
-        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
+        "rawKind": "Strategic Partnership",
+        "org": "Lasso Security",
+        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
       },
       {
         "ts": "2026-06-11T00:00:00.000Z",
