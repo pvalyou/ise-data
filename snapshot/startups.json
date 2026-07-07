@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:21:24.320Z",
+  "generatedAt": "2026-07-07T23:27:19.124Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 17183,
-      "delta24h": 30
+      "delta24h": 24
     },
     "totalFunding": {
       "valueUsd": 179604640000,
@@ -178,7 +178,7 @@
       "total": 110889,
       "delta30d": 0
     },
-    "openJobs": 7181
+    "openJobs": 7182
   },
   "map": {
     "districts": [
@@ -2127,12 +2127,33 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
         "org": "Coddy",
         "stage": "Debt Financing",
         "amountUsd": 10000000,
         "investors": [],
         "investorCount": 2,
         "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
         "isNonEquity": false
       },
       {
@@ -2146,27 +2167,6 @@
         "isNonEquity": false
       },
       {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
         "ts": "2026-05-03T00:00:00.000Z",
         "org": "MSICS Pharma",
         "stage": "Series A",
@@ -2174,27 +2174,6 @@
         "investors": [],
         "investorCount": 12,
         "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Novella Israel Tech",
-        "stage": "Series A",
-        "amountUsd": 21000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "IM Cannabis",
-        "stage": "Convertible Note",
-        "amountUsd": 550000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2210,6 +2189,37 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Kela",
+        "stage": "Other",
+        "amountUsd": 200000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Novella Israel Tech",
+        "stage": "Series A",
+        "amountUsd": 21000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Lipovation",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
         "org": "Deep Ocean",
         "stage": "Other",
         "amountUsd": 0,
@@ -2218,17 +2228,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "R&D Round"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ActualSignal",
-        "stage": "Grant",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
       }
     ],
     "todayStats": {
@@ -2685,22 +2684,22 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+        "org": "Deel",
+        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Deel",
-        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Nayax",
-        "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2712,9 +2711,9 @@
       {
         "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Imagry",
-        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
+        "rawKind": "Strategic Partnership",
+        "org": "Nayax",
+        "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
@@ -2747,23 +2746,16 @@
       {
         "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "AdGPT",
-        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
-      },
-      {
-        "ts": "2026-06-18T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "Precise Financial Management Services",
         "summary": "Attended senior-level networking event hosted by Article 25 at Kensington Palace."
       },
       {
-        "ts": "2026-06-16T00:00:00.000Z",
+        "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Automat-it",
-        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
+        "rawKind": "Product Launch",
+        "org": "AdGPT",
+        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2773,11 +2765,11 @@
         "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
       },
       {
-        "ts": "2026-06-15T00:00:00.000Z",
+        "ts": "2026-06-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lasso Security",
-        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
+        "rawKind": "Market Expansion",
+        "org": "Automat-it",
+        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
@@ -2785,6 +2777,13 @@
         "rawKind": "Product Launch",
         "org": "Nayax",
         "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
+      },
+      {
+        "ts": "2026-06-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Lasso Security",
+        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
       }
     ]
   }
