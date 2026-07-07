@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T19:39:09.999Z",
+  "generatedAt": "2026-07-07T21:10:15.074Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 17183,
-      "delta24h": 35
+      "delta24h": 33
     },
     "totalFunding": {
       "valueUsd": 179604640000,
@@ -178,7 +178,7 @@
       "total": 110889,
       "delta30d": 0
     },
-    "openJobs": 7204
+    "openJobs": 7177
   },
   "map": {
     "districts": [
@@ -2127,13 +2127,14 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 3,
-        "isVcBacked": false,
-        "isNonEquity": false
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
@@ -2157,14 +2158,13 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
+        "investorCount": 3,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-05-03T00:00:00.000Z",
@@ -2200,21 +2200,11 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Lipovation",
-        "stage": "Grant",
-        "amountUsd": 0,
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
         "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "IM Cannabis",
-        "stage": "Convertible Note",
-        "amountUsd": 550000,
-        "investors": [],
-        "investorCount": 1,
+        "investorCount": 13,
         "isVcBacked": false,
         "isNonEquity": false
       },
@@ -2225,6 +2215,16 @@
         "amountUsd": 200000000,
         "investors": [],
         "investorCount": 6,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Lipovation",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
         "isVcBacked": false,
         "isNonEquity": false
       }
@@ -2683,15 +2683,15 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Deel",
-        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+        "org": "Deel",
+        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2745,23 +2745,16 @@
       {
         "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "AdGPT",
-        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
-      },
-      {
-        "ts": "2026-06-18T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "Precise Financial Management Services",
         "summary": "Attended senior-level networking event hosted by Article 25 at Kensington Palace."
       },
       {
-        "ts": "2026-06-16T00:00:00.000Z",
+        "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Automat-it",
-        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
+        "rawKind": "Product Launch",
+        "org": "AdGPT",
+        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2769,6 +2762,13 @@
         "rawKind": "Conference Presentation",
         "org": "NoviSign",
         "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
+      },
+      {
+        "ts": "2026-06-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Automat-it",
+        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
