@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T21:58:17.749Z",
+  "generatedAt": "2026-07-08T23:03:51.052Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -188,7 +188,7 @@
       },
       {
         "name": "Central",
-        "count": 2021
+        "count": 2020
       },
       {
         "name": "Haifa",
@@ -287,7 +287,7 @@
         "district": "Central",
         "lat": 31.9293,
         "lng": 34.7986,
-        "count": 141
+        "count": 140
       },
       {
         "name": "Rishon LeZion",
@@ -981,12 +981,12 @@
         234,
         75,
         33,
-        15,
+        16,
         3
       ],
       "statusMix": {
-        "active": 8274,
-        "closed": 8292,
+        "active": 8273,
+        "closed": 8293,
         "inactive": 648
       }
     },
@@ -1333,8 +1333,8 @@
   },
   "survivability": {
     "composition": {
-      "active": 7364,
-      "closed": 8019,
+      "active": 7363,
+      "closed": 8020,
       "exited": 1831
     },
     "funnel": {
@@ -2127,23 +2127,12 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 7,
         "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2158,13 +2147,24 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
+        "investorCount": 3,
+        "isVcBacked": false,
         "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       },
       {
         "ts": "2026-05-03T00:00:00.000Z",
@@ -2178,7 +2178,7 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Egdal AI",
+        "org": "4C Biomed",
         "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
@@ -2189,14 +2189,24 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Yunnity",
-        "stage": "Grant",
-        "amountUsd": 0,
+        "org": "Novella Israel Tech",
+        "stage": "Series A",
+        "amountUsd": 21000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 13,
         "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
+        "isNonEquity": false
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2211,24 +2221,14 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 13,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Deep Ocean",
-        "stage": "Other",
+        "org": "Egdal AI",
+        "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "R&D Round"
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       }
     ],
     "todayStats": {
@@ -2668,22 +2668,15 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+        "org": "MAX Security",
+        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "MAX Security",
-        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "AGEERA",
-        "summary": "AGEERA will showcase its advanced Energy Management System (EMS) at The smarter E Europe 2026 in Munich, Booth B0.355."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2691,6 +2684,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Nayax",
         "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
+      },
+      {
+        "ts": "2026-06-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "AGEERA",
+        "summary": "AGEERA will showcase its advanced Energy Management System (EMS) at The smarter E Europe 2026 in Munich, Booth B0.355."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2730,16 +2730,16 @@
       {
         "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Precise Financial Management Services",
-        "summary": "Attended senior-level networking event hosted by Article 25 at Kensington Palace."
+        "rawKind": "Product Launch",
+        "org": "AdGPT",
+        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
       },
       {
         "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "AdGPT",
-        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
+        "rawKind": "Conference Presentation",
+        "org": "Precise Financial Management Services",
+        "summary": "Attended senior-level networking event hosted by Article 25 at Kensington Palace."
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2758,16 +2758,16 @@
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nayax",
-        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
+        "rawKind": "Strategic Partnership",
+        "org": "Lasso Security",
+        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lasso Security",
-        "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
+        "rawKind": "Product Launch",
+        "org": "Nayax",
+        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
       }
     ]
   }

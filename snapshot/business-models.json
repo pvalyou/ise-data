@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "business-models",
-  "generatedAt": "2026-07-08T21:58:52.478Z",
+  "generatedAt": "2026-07-08T23:04:26.323Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -514,8 +514,8 @@
         "columnLabel": "Revenue model",
         "description": "Revenue is primarily subscription or repeat-contract based.",
         "rankInColumn": 1,
-        "value": 9957,
-        "share": 0.6569675376088677
+        "value": 9959,
+        "share": 0.6570994985484296
       },
       {
         "id": "payment_model:one_time",
@@ -558,22 +558,12 @@
         "share": 0.0001979414093428345
       },
       {
-        "id": "payment_model:subscription",
-        "name": "Subscription",
-        "column": "payment_model",
-        "columnLabel": "Revenue model",
-        "description": "Classified as Subscription within Revenue model.",
-        "rankInColumn": 6,
-        "value": 2,
-        "share": 0.0001319609395618897
-      },
-      {
         "id": "payment_model:freemium",
         "name": "freemium",
         "column": "payment_model",
         "columnLabel": "Revenue model",
         "description": "Classified as freemium within Revenue model.",
-        "rankInColumn": 7,
+        "rankInColumn": 6,
         "value": 1,
         "share": 6.598046978094485e-05
       }
@@ -607,7 +597,7 @@
         "value": 4639,
         "share": 0.30608339931380313,
         "sourceShare": 0.7164478764478764,
-        "targetShare": 0.4659033845535804
+        "targetShare": 0.4658098202630786
       },
       {
         "source": 10,
@@ -624,10 +614,10 @@
         "target": 21,
         "sourceId": "scalability:self_serve",
         "targetId": "payment_model:recurring",
-        "value": 3347,
-        "share": 0.22083663235682238,
-        "sourceShare": 0.7133418584825234,
-        "targetShare": 0.33614542532891434
+        "value": 3349,
+        "share": 0.22096859329638427,
+        "sourceShare": 0.7137681159420289,
+        "targetShare": 0.3362787428456672
       },
       {
         "source": 10,
@@ -767,7 +757,7 @@
         "value": 831,
         "share": 0.05482977038796516,
         "sourceShare": 0.6942355889724311,
-        "targetShare": 0.08345887315456463
+        "targetShare": 0.08344211266191384
       },
       {
         "source": 17,
@@ -787,7 +777,7 @@
         "value": 729,
         "share": 0.04809976247030879,
         "sourceShare": 0.38921516284036306,
-        "targetShare": 0.073214823742091
+        "targetShare": 0.07320012049402551
       },
       {
         "source": 11,
@@ -967,7 +957,7 @@
         "value": 411,
         "share": 0.02711797307996833,
         "sourceShare": 0.4472252448313384,
-        "targetShare": 0.041277493220849656
+        "targetShare": 0.04126920373531479
       },
       {
         "source": 7,
@@ -1512,16 +1502,6 @@
       {
         "source": 17,
         "target": 26,
-        "sourceId": "scalability:self_serve",
-        "targetId": "payment_model:subscription",
-        "value": 2,
-        "share": 0.0001319609395618897,
-        "sourceShare": 0.00042625745950554135,
-        "targetShare": 1.0
-      },
-      {
-        "source": 17,
-        "target": 27,
         "sourceId": "scalability:self_serve",
         "targetId": "payment_model:freemium",
         "value": 1,
@@ -3936,107 +3916,107 @@
           {
             "id": "payment_model:recurring",
             "name": "Recurring",
-            "companies": 9957,
+            "companies": 9959,
             "customerTypes": [
               {
                 "customerType": "Consumers and households",
-                "companies": 2156,
-                "share": 0.21653108365973686
+                "companies": 2157,
+                "share": 0.2165880108444623
               },
               {
                 "customerType": "Digital consumers and creators",
                 "companies": 1780,
-                "share": 0.17876870543336346
+                "share": 0.17873280449844361
               },
               {
                 "customerType": "Enterprise business teams",
                 "companies": 2346,
-                "share": 0.23561313648689364
+                "share": 0.23556581986143188
               },
               {
                 "customerType": "Healthcare providers",
                 "companies": 941,
-                "share": 0.09450637742291855
+                "share": 0.09448739833316598
               },
               {
                 "customerType": "Manufacturers",
                 "companies": 845,
-                "share": 0.08486491915235513
+                "share": 0.08484787629280048
               },
               {
                 "customerType": "Service providers",
                 "companies": 1286,
-                "share": 0.12915536808275585
+                "share": 0.1291294306657295
               },
               {
                 "customerType": "Enterprise IT teams",
                 "companies": 1405,
-                "share": 0.1411067590639751
+                "share": 0.14107842152826588
               },
               {
                 "customerType": "Hospitals",
                 "companies": 528,
-                "share": 0.05302802048809883
+                "share": 0.053017371222010244
               },
               {
                 "customerType": "Technology companies",
                 "companies": 1123,
-                "share": 0.11278497539419503
+                "share": 0.11276232553469223
               },
               {
                 "customerType": "Specialist physicians",
                 "companies": 500,
-                "share": 0.050215928492517825
+                "share": 0.05020584396023697
               },
               {
                 "customerType": "Clinics",
                 "companies": 501,
-                "share": 0.05031636034950286
+                "share": 0.050306255648157445
               },
               {
                 "customerType": "SMBs",
                 "companies": 1126,
-                "share": 0.11308627096515014
+                "share": 0.11306356059845366
               },
               {
                 "customerType": "Industrial operators",
                 "companies": 634,
-                "share": 0.06367379732851261
+                "share": 0.06366101014158047
               },
               {
                 "customerType": "Retailers",
-                "companies": 966,
-                "share": 0.09701717384754444
+                "companies": 967,
+                "share": 0.0970981022190983
               },
               {
                 "customerType": "E-commerce retailers",
-                "companies": 1039,
-                "share": 0.10434869940745205
+                "companies": 1040,
+                "share": 0.1044281554372929
               },
               {
                 "customerType": "Developers",
                 "companies": 974,
-                "share": 0.09782062870342473
+                "share": 0.09780098403454163
               },
               {
                 "customerType": "Media companies",
                 "companies": 911,
-                "share": 0.09149342171336748
+                "share": 0.09147504769555176
               },
               {
                 "customerType": "Marketing teams",
-                "companies": 999,
-                "share": 0.10033142512805061
+                "companies": 1000,
+                "share": 0.10041168792047395
               },
               {
                 "customerType": "Financial institutions",
                 "companies": 908,
-                "share": 0.09119212614241237
+                "share": 0.09117381263179034
               },
               {
                 "customerType": "Advertisers and brands",
                 "companies": 824,
-                "share": 0.08275585015566937
+                "share": 0.08273923084647053
               }
             ]
           },
@@ -4455,113 +4435,6 @@
                 "customerType": "Marketing teams",
                 "companies": 0,
                 "share": 0
-              },
-              {
-                "customerType": "Financial institutions",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Advertisers and brands",
-                "companies": 0,
-                "share": 0
-              }
-            ]
-          },
-          {
-            "id": "payment_model:subscription",
-            "name": "Subscription",
-            "companies": 2,
-            "customerTypes": [
-              {
-                "customerType": "Consumers and households",
-                "companies": 1,
-                "share": 0.5
-              },
-              {
-                "customerType": "Digital consumers and creators",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Enterprise business teams",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Healthcare providers",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Manufacturers",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Service providers",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Enterprise IT teams",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Hospitals",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Technology companies",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Specialist physicians",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Clinics",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "SMBs",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Industrial operators",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Retailers",
-                "companies": 1,
-                "share": 0.5
-              },
-              {
-                "customerType": "E-commerce retailers",
-                "companies": 1,
-                "share": 0.5
-              },
-              {
-                "customerType": "Developers",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Media companies",
-                "companies": 0,
-                "share": 0
-              },
-              {
-                "customerType": "Marketing teams",
-                "companies": 1,
-                "share": 0.5
               },
               {
                 "customerType": "Financial institutions",
