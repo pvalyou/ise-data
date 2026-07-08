@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T11:15:39.924Z",
+  "generatedAt": "2026-07-08T12:57:20.675Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 17214,
-      "delta24h": 21
+      "delta24h": 19
     },
     "totalFunding": {
       "valueUsd": 180297600000,
@@ -2127,12 +2127,12 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 7,
+        "isVcBacked": true,
         "isNonEquity": false
       },
       {
@@ -2147,12 +2147,12 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2189,28 +2189,6 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Deep Ocean",
-        "stage": "Other",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "R&D Round"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ActualSignal",
-        "stage": "Grant",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
         "org": "IM Cannabis",
         "stage": "Convertible Note",
         "amountUsd": 550000,
@@ -2228,6 +2206,28 @@
         "investorCount": 0,
         "isVcBacked": false,
         "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Yunnity",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Novella Israel Tech",
+        "stage": "Series A",
+        "amountUsd": 21000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       }
     ],
     "todayStats": {
@@ -2638,16 +2638,16 @@
       {
         "ts": "2026-07-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "MedDesk",
-        "summary": "Planned launch of the MedDesk-AI Quantum prototype."
+        "rawKind": "Market Expansion",
+        "org": "MyHeritage",
+        "summary": "MyHeritage offered free access to its collection of city directories from July 1-5, 2026 to celebrate America's 250th birthday, expanding access to historical records."
       },
       {
         "ts": "2026-07-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "MyHeritage",
-        "summary": "MyHeritage offered free access to its collection of city directories from July 1-5, 2026 to celebrate America's 250th birthday, expanding access to historical records."
+        "rawKind": "R&D Milestone",
+        "org": "MedDesk",
+        "summary": "Planned launch of the MedDesk-AI Quantum prototype."
       },
       {
         "ts": "2026-06-25T00:00:00.000Z",
@@ -2655,6 +2655,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Lightico",
         "summary": "Partnered with VodafoneThree to build an arrears support programme, resulting in a finalist nomination for Digital Initiative of the Year at the ICA Compliance Awards Europe 2026."
+      },
+      {
+        "ts": "2026-06-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "MAX Security",
+        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
@@ -2671,20 +2678,6 @@
         "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
-        "ts": "2026-06-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "MAX Security",
-        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Imagry",
-        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
-      },
-      {
         "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
@@ -2697,6 +2690,13 @@
         "rawKind": "Conference Presentation",
         "org": "AGEERA",
         "summary": "AGEERA will showcase its advanced Energy Management System (EMS) at The smarter E Europe 2026 in Munich, Booth B0.355."
+      },
+      {
+        "ts": "2026-06-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
@@ -2743,23 +2743,16 @@
       {
         "ts": "2026-06-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "NoviSign",
-        "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
-      },
-      {
-        "ts": "2026-06-16T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Automat-it",
         "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
       },
       {
-        "ts": "2026-06-15T00:00:00.000Z",
+        "ts": "2026-06-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nayax",
-        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
@@ -2767,6 +2760,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Lasso Security",
         "summary": "Lasso hosted a webinar titled Forget AI Firewalls: Agentic Workflows Need Intent Security featuring Latio Tech."
+      },
+      {
+        "ts": "2026-06-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Nayax",
+        "summary": "Nayax introduced proprietary AI-powered discovery and personalization tools for retailers."
       }
     ]
   }
