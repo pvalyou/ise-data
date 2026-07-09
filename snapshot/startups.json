@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:52:20.297Z",
+  "generatedAt": "2026-07-09T13:42:39.340Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 17214,
-      "delta24h": 1
+      "value": 17216,
+      "delta24h": 0
     },
     "totalFunding": {
       "valueUsd": 180290370000,
@@ -175,7 +175,7 @@
       "avgPerStartup": 26
     },
     "patents": {
-      "total": 110929,
+      "total": 110936,
       "delta30d": 0
     },
     "openJobs": 7173
@@ -184,15 +184,15 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3492
+        "count": 3493
       },
       {
         "name": "Central",
-        "count": 2021
+        "count": 2020
       },
       {
         "name": "Haifa",
-        "count": 700
+        "count": 701
       },
       {
         "name": "Jerusalem",
@@ -231,7 +231,7 @@
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 393
+        "count": 394
       },
       {
         "name": "Jerusalem",
@@ -315,7 +315,7 @@
         "district": "Haifa",
         "lat": 32.6594,
         "lng": 35.1097,
-        "count": 115
+        "count": 116
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
@@ -483,7 +483,7 @@
         "district": "Central",
         "lat": 32.2667,
         "lng": 34.8833,
-        "count": 23
+        "count": 22
       },
       {
         "name": "Yehud-Monoson",
@@ -891,10 +891,10 @@
         337,
         299,
         399,
-        785,
+        786,
         1001,
         1029,
-        1201,
+        1202,
         1244,
         1168,
         1064,
@@ -985,7 +985,7 @@
         3
       ],
       "statusMix": {
-        "active": 8271,
+        "active": 8273,
         "closed": 8296,
         "inactive": 647
       }
@@ -1333,12 +1333,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 7361,
+      "active": 7363,
       "closed": 8022,
       "exited": 1831
     },
     "funnel": {
-      "all": 17214,
+      "all": 17216,
       "funded": 10094,
       "over1m": 4040,
       "over10m": 1940,
@@ -1659,38 +1659,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 6976,
-        "share": 0.4057701256398325
+        "count": 6978,
+        "share": 0.4058392462486914
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 4272,
-        "share": 0.24848766868310843
+        "share": 0.24845876468535535
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 2072,
-        "share": 0.12052117263843648
+        "share": 0.12050715365825287
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 804,
-        "share": 0.04676593764541647
+        "share": 0.046760497848086544
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 950,
-        "share": 0.05525825965565379
+        "share": 0.05525183203443061
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 2118,
-        "share": 0.12319683573755234
+        "share": 0.1231825055251832
       }
     ],
     "mixSummary": {
@@ -2017,7 +2017,7 @@
       "deeptechCount": 7646,
       "deeptechPct": 44.4,
       "globalCount": 7514,
-      "globalPct": 43.7
+      "globalPct": 43.6
     }
   },
   "feeds": {
@@ -2127,16 +2127,6 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
         "org": "Coddy",
         "stage": "Debt Financing",
         "amountUsd": 10000000,
@@ -2153,6 +2143,16 @@
         "investors": [],
         "investorCount": 3,
         "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Frame Security",
+        "stage": "Series A",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
         "isNonEquity": false
       },
       {
@@ -2178,14 +2178,24 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Deep Ocean",
-        "stage": "Other",
+        "org": "Lipovation",
+        "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "R&D Round"
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Egdal AI",
+        "stage": "Grant",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2199,24 +2209,14 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Yunnity",
+        "org": "4C Biomed",
         "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 0,
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant"
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 13,
-        "isVcBacked": false,
-        "isNonEquity": false
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2660,8 +2660,8 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "MAX Security",
-        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
@@ -2674,8 +2674,15 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+        "org": "MAX Security",
+        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
+      },
+      {
+        "ts": "2026-06-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2690,13 +2697,6 @@
         "rawKind": "Conference Presentation",
         "org": "AGEERA",
         "summary": "AGEERA will showcase its advanced Energy Management System (EMS) at The smarter E Europe 2026 in Munich, Booth B0.355."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Imagry",
-        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
@@ -2729,23 +2729,16 @@
       {
         "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "AdGPT",
-        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
-      },
-      {
-        "ts": "2026-06-18T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "Precise Financial Management Services",
         "summary": "Attended senior-level networking event hosted by Article 25 at Kensington Palace."
       },
       {
-        "ts": "2026-06-16T00:00:00.000Z",
+        "ts": "2026-06-18T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Automat-it",
-        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
+        "rawKind": "Product Launch",
+        "org": "AdGPT",
+        "summary": "Launched Go Live\u2122, an AI-powered capability that allows businesses to generate and activate complete marketing campaigns in minutes instead of weeks."
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2753,6 +2746,13 @@
         "rawKind": "Conference Presentation",
         "org": "NoviSign",
         "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
+      },
+      {
+        "ts": "2026-06-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Automat-it",
+        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
