@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T04:27:04.876Z",
+  "generatedAt": "2026-07-09T08:08:27.562Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,18 +160,18 @@
   "kpis": {
     "startups": {
       "value": 17214,
-      "delta24h": 6
+      "delta24h": 2
     },
     "totalFunding": {
       "valueUsd": 180290370000,
-      "rounds": 27016
+      "rounds": 26977
     },
     "exits": {
       "count": 1831,
       "valueUsd": 186940447400
     },
     "employees": {
-      "total": 384785,
+      "total": 384801,
       "avgPerStartup": 26
     },
     "patents": {
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3491
+        "count": 3492
       },
       {
         "name": "Central",
-        "count": 2020
+        "count": 2021
       },
       {
         "name": "Haifa",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 2218
+        "count": 2219
       },
       {
         "name": "Herzliya",
@@ -259,7 +259,7 @@
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 253
+        "count": 254
       },
       {
         "name": "Rehovot",
@@ -752,7 +752,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1204
+    "unresolvedCount": 1203
   },
   "overTime": {
     "foundedClosed": {
@@ -893,9 +893,9 @@
         399,
         785,
         1001,
-        1028,
+        1029,
         1201,
-        1243,
+        1244,
         1168,
         1064,
         1058,
@@ -969,9 +969,9 @@
         225,
         546,
         723,
-        716,
+        717,
         798,
-        754,
+        755,
         666,
         561,
         538,
@@ -985,9 +985,9 @@
         3
       ],
       "statusMix": {
-        "active": 8273,
-        "closed": 8293,
-        "inactive": 648
+        "active": 8271,
+        "closed": 8296,
+        "inactive": 647
       }
     },
     "funding": {
@@ -1124,13 +1124,13 @@
         8155041196
       ],
       "stageMix": {
-        "Seed": 9857,
-        "Grant": 3715,
+        "Seed": 9844,
+        "Grant": 3714,
         "Series A": 2344,
-        "Other": 2165,
-        "Unknown": 1570,
+        "Other": 2158,
+        "Unknown": 1555,
         "Series B": 1204,
-        "Non-equity": 1197,
+        "Non-equity": 1196,
         "Accelerator": 964
       }
     },
@@ -1333,8 +1333,8 @@
   },
   "survivability": {
     "composition": {
-      "active": 7363,
-      "closed": 8020,
+      "active": 7361,
+      "closed": 8022,
       "exited": 1831
     },
     "funnel": {
@@ -2127,6 +2127,26 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
         "org": "LepreCon",
         "stage": "Seed",
         "amountUsd": 0,
@@ -2147,26 +2167,6 @@
         "isNonEquity": false
       },
       {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Coddy",
-        "stage": "Debt Financing",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
         "ts": "2026-05-03T00:00:00.000Z",
         "org": "MSICS Pharma",
         "stage": "Series A",
@@ -2174,26 +2174,6 @@
         "investors": [],
         "investorCount": 12,
         "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Kela",
-        "stage": "Other",
-        "amountUsd": 200000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-05-01T00:00:00.000Z",
-        "org": "ZyG",
-        "stage": "Series A",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 13,
-        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2209,14 +2189,23 @@
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
-        "org": "Deep Ocean",
-        "stage": "Other",
+        "org": "ZyG",
+        "stage": "Series A",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 13,
+        "isVcBacked": false,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Lipovation",
+        "stage": "Grant",
         "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "R&D Round"
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-05-01T00:00:00.000Z",
@@ -2228,6 +2217,17 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant"
+      },
+      {
+        "ts": "2026-05-01T00:00:00.000Z",
+        "org": "Deep Ocean",
+        "stage": "Other",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "R&D Round"
       }
     ],
     "todayStats": {
@@ -2660,6 +2660,13 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+      },
+      {
+        "ts": "2026-06-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "MAX Security",
         "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
       },
@@ -2671,11 +2678,11 @@
         "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
       },
       {
-        "ts": "2026-06-24T00:00:00.000Z",
+        "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic Development Security, a new layer of its AI to police AI coding agents."
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
@@ -2690,13 +2697,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Nayax",
         "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Imagry",
-        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
@@ -2715,16 +2715,16 @@
       {
         "ts": "2026-06-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Precise Financial Management Services",
-        "summary": "Hosted webinar 'Beyond Great Design \u2013 The Three Pillars of A/E Practice Profitability' in partnership with NLA, featuring speaker Lior Schnabel."
+        "rawKind": "R&D Milestone",
+        "org": "101 Therapeutics",
+        "summary": "Public release of Phase II/III clinical data and Ebola white paper for 101-PGC-005, a macrophage-targeted dexamethasone prodrug, seeking independent review for therapeutic use in Bundibugyo Ebola disease."
       },
       {
         "ts": "2026-06-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "101 Therapeutics",
-        "summary": "Public release of Phase II/III clinical data and Ebola white paper for 101-PGC-005, a macrophage-targeted dexamethasone prodrug, seeking independent review for therapeutic use in Bundibugyo Ebola disease."
+        "rawKind": "Conference Presentation",
+        "org": "Precise Financial Management Services",
+        "summary": "Hosted webinar 'Beyond Great Design \u2013 The Three Pillars of A/E Practice Profitability' in partnership with NLA, featuring speaker Lior Schnabel."
       },
       {
         "ts": "2026-06-18T00:00:00.000Z",
@@ -2743,16 +2743,16 @@
       {
         "ts": "2026-06-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Automat-it",
-        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "NoviSign",
-        "summary": "Hosted first-ever NoviSign Americas Summit 2026 in Las Vegas one day before InfoComm."
+        "rawKind": "Market Expansion",
+        "org": "Automat-it",
+        "summary": "Automat-it Expands to North America to bring expert Agentic AI DevOps & FinOps services to US startups."
       },
       {
         "ts": "2026-06-15T00:00:00.000Z",
