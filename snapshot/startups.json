@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:05:53.124Z",
+  "generatedAt": "2026-07-10T21:18:52.348Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -178,7 +178,7 @@
       "total": 111014,
       "delta30d": 0
     },
-    "openJobs": 7123
+    "openJobs": 5997
   },
   "map": {
     "districts": [
@@ -2088,21 +2088,21 @@
       },
       {
         "ts": "2026-06-10T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 600000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-06-10T00:00:00.000Z",
         "org": "Aryon Security",
         "stage": "Series A",
         "amountUsd": 29000000,
         "investors": [],
         "investorCount": 12,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-06-10T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 600000000,
+        "investors": [],
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2200,23 +2200,12 @@
       },
       {
         "ts": "2026-05-11T00:00:00.000Z",
-        "org": "LepreCon",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Coddy",
+        "stage": "Debt Financing",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-05-11T00:00:00.000Z",
-        "org": "Frame Security",
-        "stage": "Series A",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
+        "investorCount": 3,
+        "isVcBacked": false,
         "isNonEquity": false
       },
       {
@@ -2225,9 +2214,20 @@
         "stage": "Debt Financing",
         "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 2,
         "isVcBacked": false,
         "isNonEquity": false
+      },
+      {
+        "ts": "2026-05-11T00:00:00.000Z",
+        "org": "LepreCon",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       }
     ],
     "todayStats": {
@@ -2638,23 +2638,23 @@
       {
         "ts": "2026-07-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Arcturus Therapeutics",
-        "summary": "Collaborated with Thermo Fisher Scientific to support Phase 3 development of ARCT-032 for cystic fibrosis."
-      },
-      {
-        "ts": "2026-07-03T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Tufin",
         "summary": "Unveiled AI assistants and an executive security hub to enhance network security operations."
       },
       {
-        "ts": "2026-07-02T00:00:00.000Z",
+        "ts": "2026-07-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Government Contract",
-        "org": "Arteevo",
-        "summary": "Selected as a participant in the European Pandemics AI Observatory project, receiving nearly two million Euros in EU contributions alongside Clalit Health Services and other international entities."
+        "rawKind": "Strategic Partnership",
+        "org": "Arcturus Therapeutics",
+        "summary": "Collaborated with Thermo Fisher Scientific to support Phase 3 development of ARCT-032 for cystic fibrosis."
+      },
+      {
+        "ts": "2026-07-02T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "AnyClip",
+        "summary": "Company was acquired (routed from provider M&A deal entry)."
       },
       {
         "ts": "2026-07-02T00:00:00.000Z",
@@ -2672,10 +2672,17 @@
       },
       {
         "ts": "2026-07-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Government Contract",
+        "org": "Arteevo",
+        "summary": "Selected as a participant in the European Pandemics AI Observatory project, receiving nearly two million Euros in EU contributions alongside Clalit Health Services and other international entities."
+      },
+      {
+        "ts": "2026-07-01T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "AnyClip",
-        "summary": "Company was acquired (routed from provider M&A deal entry)."
+        "org": "ai.work",
+        "summary": "Acquired by ServiceNow"
       },
       {
         "ts": "2026-07-01T00:00:00.000Z",
@@ -2690,13 +2697,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Arbitrip",
         "summary": "Announced a landmark partnership with El Al Airlines."
-      },
-      {
-        "ts": "2026-07-01T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "ai.work",
-        "summary": "Acquired by ServiceNow"
       },
       {
         "ts": "2026-07-01T00:00:00.000Z",
@@ -2715,16 +2715,16 @@
       {
         "ts": "2026-06-29T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Base44",
+        "summary": "Launched its first proprietary AI model, Base 1, a custom LLM developed and trained on tens of millions of user interactions, now in production."
+      },
+      {
+        "ts": "2026-06-29T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "Analytics Model",
         "summary": "Analytics Model joined Amdocs Partner Summit 2026 in Budapest, contributing to discussions on AI in telecom."
-      },
-      {
-        "ts": "2026-06-25T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "Aidoc",
-        "summary": "FDA granted Breakthrough Device Designation to First Read, AI designed to analyze chest radiographs and generate preliminary high-quality radiology report text."
       },
       {
         "ts": "2026-06-25T00:00:00.000Z",
@@ -2734,11 +2734,18 @@
         "summary": "Partnered with VodafoneThree to build an arrears support programme, resulting in a finalist nomination for Digital Initiative of the Year at the ICA Compliance Awards Europe 2026."
       },
       {
+        "ts": "2026-06-25T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "Aidoc",
+        "summary": "FDA granted Breakthrough Device Designation to First Read, AI designed to analyze chest radiographs and generate preliminary high-quality radiology report text."
+      },
+      {
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "MAX Security",
-        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
+        "org": "Deel",
+        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
       },
       {
         "ts": "2026-06-24T00:00:00.000Z",
@@ -2751,22 +2758,15 @@
         "ts": "2026-06-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Deel",
-        "summary": "Launched Deel Field Services (DFS), a new workforce solution for industrial workforce management."
+        "org": "MAX Security",
+        "summary": "Launched a series of in-person workshops titled Embedding AI into Corporate Intelligence Workflows in Paris and Frankfurt."
       },
       {
         "ts": "2026-06-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Allot",
-        "summary": "Allot Ltd. board authorized a $40 million share repurchase program, to be executed on Nasdaq and the Tel Aviv Stock Exchange or via privately negotiated transactions."
-      },
-      {
-        "ts": "2026-06-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Nayax",
-        "summary": "Tellus Power partnered with Nayax to simplify commercial EV charging deployment with an integrated charging and payments platform."
+        "rawKind": "Conference Presentation",
+        "org": "Imagry",
+        "summary": "CEO Eran Ofir presented 'How do we want to implement AV? - A Scenario Discussion' at PAVE Europe's Automated Mobility in Practice course in Hamburg."
       }
     ]
   }
