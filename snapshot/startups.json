@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T04:21:33.574Z",
+  "generatedAt": "2026-07-17T06:33:57.453Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,23 +159,23 @@
   },
   "kpis": {
     "startups": {
-      "value": 17215,
+      "value": 17220,
       "delta24h": 79
     },
     "totalFunding": {
-      "valueUsd": 199193440000,
-      "rounds": 28967
+      "valueUsd": 199316230000,
+      "rounds": 29102
     },
     "exits": {
-      "count": 1947,
-      "valueUsd": 192240987400
+      "count": 1953,
+      "valueUsd": 192408987400
     },
     "employees": {
-      "total": 417302,
+      "total": 420578,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 110413,
+      "total": 110469,
       "delta30d": 0
     },
     "openJobs": 6309
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3596
+        "count": 3606
       },
       {
         "name": "Central",
-        "count": 2019
+        "count": 2017
       },
       {
         "name": "Haifa",
@@ -200,7 +200,7 @@
       },
       {
         "name": "Northern",
-        "count": 214
+        "count": 216
       },
       {
         "name": "Southern",
@@ -217,21 +217,21 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 2294
-      },
-      {
-        "name": "Herzliya",
-        "district": "Tel Aviv",
-        "lat": 32.1663,
-        "lng": 34.8435,
-        "count": 407
+        "count": 2304
       },
       {
         "name": "Ramat Gan",
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 407
+        "count": 406
+      },
+      {
+        "name": "Herzliya",
+        "district": "Tel Aviv",
+        "lat": 32.1663,
+        "lng": 34.8435,
+        "count": 405
       },
       {
         "name": "Jerusalem",
@@ -245,7 +245,7 @@
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 302
+        "count": 303
       },
       {
         "name": "Petah Tikva",
@@ -259,7 +259,7 @@
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 251
+        "count": 250
       },
       {
         "name": "Rehovot",
@@ -273,7 +273,7 @@
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 177
+        "count": 178
       },
       {
         "name": "Kfar Saba",
@@ -308,14 +308,14 @@
         "district": "Tel Aviv",
         "lat": 32.0836,
         "lng": 34.8337,
-        "count": 128
+        "count": 129
       },
       {
         "name": "Yokneam Illit",
         "district": "Haifa",
         "lat": 32.6594,
         "lng": 35.1097,
-        "count": 118
+        "count": 117
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
@@ -343,7 +343,7 @@
         "district": "Tel Aviv",
         "lat": 32.1461,
         "lng": 34.8417,
-        "count": 86
+        "count": 87
       },
       {
         "name": "Givatayim",
@@ -357,7 +357,7 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 70
+        "count": 71
       },
       {
         "name": "Or Yehuda",
@@ -367,17 +367,17 @@
         "count": 62
       },
       {
-        "name": "Yavne",
-        "district": "Central",
-        "lat": 31.8781,
-        "lng": 34.7381,
-        "count": 49
-      },
-      {
         "name": "Nazareth",
         "district": "Northern",
         "lat": 32.7022,
         "lng": 35.2978,
+        "count": 47
+      },
+      {
+        "name": "Yavne",
+        "district": "Central",
+        "lat": 31.8781,
+        "lng": 34.7381,
         "count": 47
       },
       {
@@ -392,7 +392,7 @@
         "district": "Central",
         "lat": 31.9506,
         "lng": 34.8887,
-        "count": 37
+        "count": 38
       },
       {
         "name": "Ashdod",
@@ -451,18 +451,18 @@
         "count": 26
       },
       {
-        "name": "Ganei Tikva",
-        "district": "Central",
-        "lat": 32.0564,
-        "lng": 34.8733,
-        "count": 26
-      },
-      {
         "name": "Hadera",
         "district": "Haifa",
         "lat": 32.434,
         "lng": 34.9196,
         "count": 26
+      },
+      {
+        "name": "Ganei Tikva",
+        "district": "Central",
+        "lat": 32.0564,
+        "lng": 34.8733,
+        "count": 25
       },
       {
         "name": "Tel Mond",
@@ -549,6 +549,13 @@
         "count": 16
       },
       {
+        "name": "Kiryat Shmona",
+        "district": "Northern",
+        "lat": 33.2075,
+        "lng": 35.5697,
+        "count": 15
+      },
+      {
         "name": "Tirat Carmel",
         "district": "Haifa",
         "lat": 32.7611,
@@ -595,13 +602,6 @@
         "district": "Central",
         "lat": 31.8137,
         "lng": 34.7774,
-        "count": 13
-      },
-      {
-        "name": "Kiryat Shmona",
-        "district": "Northern",
-        "lat": 33.2075,
-        "lng": 35.5697,
         "count": 13
       },
       {
@@ -752,7 +752,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1228
+    "unresolvedCount": 1226
   },
   "overTime": {
     "foundedClosed": {
@@ -880,32 +880,32 @@
         57,
         57,
         110,
-        155,
+        156,
         85,
         112,
-        189,
+        190,
         238,
         274,
-        300,
+        301,
         377,
         341,
         305,
         408,
-        791,
+        792,
         1001,
         1027,
         1194,
-        1239,
+        1240,
         1167,
         1069,
         1063,
         973,
         1016,
-        961,
-        808,
+        963,
+        809,
         447,
-        355,
-        202,
+        356,
+        204,
         21
       ],
       "closed": [
@@ -959,7 +959,7 @@
         99,
         52,
         74,
-        120,
+        121,
         154,
         171,
         190,
@@ -973,21 +973,21 @@
         779,
         744,
         657,
-        560,
-        523,
+        559,
+        522,
         424,
-        373,
-        309,
+        372,
+        310,
         228,
         68,
         27,
-        9,
+        10,
         2
       ],
       "statusMix": {
-        "active": 8382,
-        "closed": 8271,
-        "inactive": 524,
+        "active": 8388,
+        "closed": 8279,
+        "inactive": 515,
         "unknown": 38
       }
     },
@@ -1051,36 +1051,36 @@
         24,
         25,
         52,
-        56,
+        57,
         72,
         142,
         268,
-        227,
+        229,
         268,
-        380,
-        492,
-        518,
+        381,
+        493,
+        520,
         605,
-        705,
-        654,
+        706,
+        656,
         497,
-        574,
+        576,
         603,
-        789,
+        791,
         882,
-        1021,
-        1207,
-        1173,
-        1248,
-        1765,
-        1778,
-        1843,
-        2073,
-        1896,
-        1504,
-        1784,
-        1270,
-        320
+        1024,
+        1210,
+        1178,
+        1254,
+        1779,
+        1788,
+        1856,
+        2088,
+        1913,
+        1516,
+        1790,
+        1280,
+        327
       ],
       "raisedUsd": [
         0,
@@ -1113,29 +1113,29 @@
         1528069000,
         1947178500,
         2086023015,
-        2959529905,
+        2964529905,
         4695429089,
         3752323582,
-        6622208355,
+        6624460655,
         5322957011,
-        7681634024,
-        16931834523,
-        35466225308,
-        21208273305,
-        9980928871,
-        19348496151,
-        24308000734,
-        10474257196
+        7682166024,
+        16953834523,
+        35853565308,
+        21219050305,
+        10088078871,
+        19357416151,
+        25320574734,
+        11280257196
       ],
       "stageMix": {
-        "Seed": 10173,
-        "Grant": 3948,
-        "Series A": 2616,
-        "Other": 2255,
-        "Unknown": 1478,
-        "Non-equity": 1363,
-        "Accelerator": 1317,
-        "Series B": 1290
+        "Seed": 10192,
+        "Grant": 3965,
+        "Series A": 2626,
+        "Other": 2266,
+        "Unknown": 1475,
+        "Non-equity": 1388,
+        "Accelerator": 1346,
+        "Series B": 1293
       }
     },
     "exits": {
@@ -1206,14 +1206,14 @@
         76,
         90,
         87,
-        102,
+        104,
         94,
-        207,
+        210,
         113,
-        103,
-        109,
+        104,
+        110,
         158,
-        270
+        269
       ],
       "acquisitions": [
         0,
@@ -1244,14 +1244,14 @@
         71,
         84,
         81,
-        90,
+        92,
         79,
-        151,
+        154,
         98,
-        96,
-        101,
+        97,
+        102,
         146,
-        224
+        223
       ],
       "ipos": [
         1,
@@ -1322,43 +1322,43 @@
         3304669000,
         13927506300,
         5882112500,
-        15152296000,
-        12835685000,
-        10055659100,
+        15257296000,
+        12858685000,
+        10095659100,
         13948856700,
         59401660000,
         7598155000
       ],
       "typeMix": {
-        "acquisition": 1750,
+        "acquisition": 1756,
         "ipo": 243
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 7401,
-      "closed": 7867,
-      "exited": 1947
+      "active": 7402,
+      "closed": 7865,
+      "exited": 1953
     },
     "funnel": {
-      "all": 17215,
-      "funded": 10295,
-      "over1m": 4178,
-      "over10m": 2024,
-      "exited": 1947
+      "all": 17220,
+      "funded": 10308,
+      "over1m": 4182,
+      "over10m": 2027,
+      "exited": 1953
     },
     "timeToExit": {
       "overall": {
         "avgYears": 9.0,
         "medianYears": 7.0,
-        "avgValueUsd": 89731217,
+        "avgValueUsd": 89535556,
         "medianValueUsd": 0
       },
       "acquisition": {
-        "avgYears": 9.0,
+        "avgYears": 8.9,
         "medianYears": 7.0,
-        "avgValueUsd": 102563356,
+        "avgValueUsd": 102301271,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1368,18 +1368,18 @@
         "medianValueUsd": 2600000
       },
       "distribution": [
-        28,
+        30,
         49,
-        132,
+        133,
         159,
-        164,
-        154,
+        165,
+        155,
         153,
-        141,
+        140,
         106,
-        119,
+        120,
         92,
-        84,
+        85,
         74,
         58,
         51,
@@ -1516,16 +1516,16 @@
         "total": 1013,
         "unknown": 3,
         "counts": {
-          "it-telecom": 429,
-          "healthcare-food": 314,
+          "it-telecom": 430,
+          "healthcare-food": 313,
           "consumer-goods-services": 111,
           "energy-utilities": 36,
           "financial-services": 54,
           "media-entertainment": 69
         },
         "shares": {
-          "it-telecom": 0.42349457058242845,
-          "healthcare-food": 0.3099703849950642,
+          "it-telecom": 0.4244817374136229,
+          "healthcare-food": 0.3089832181638697,
           "consumer-goods-services": 0.10957551826258638,
           "energy-utilities": 0.035538005923000986,
           "financial-services": 0.05330700888450148,
@@ -1534,44 +1534,44 @@
       },
       {
         "year": 2021,
-        "total": 961,
+        "total": 963,
         "unknown": 0,
         "counts": {
-          "it-telecom": 413,
-          "healthcare-food": 249,
+          "it-telecom": 414,
+          "healthcare-food": 250,
           "consumer-goods-services": 76,
           "energy-utilities": 60,
           "financial-services": 82,
           "media-entertainment": 81
         },
         "shares": {
-          "it-telecom": 0.4297606659729448,
-          "healthcare-food": 0.259105098855359,
-          "consumer-goods-services": 0.07908428720083246,
-          "energy-utilities": 0.062434963579604576,
-          "financial-services": 0.08532778355879292,
-          "media-entertainment": 0.08428720083246619
+          "it-telecom": 0.42990654205607476,
+          "healthcare-food": 0.25960539979231567,
+          "consumer-goods-services": 0.07892004153686397,
+          "energy-utilities": 0.06230529595015576,
+          "financial-services": 0.08515057113187954,
+          "media-entertainment": 0.08411214953271028
         }
       },
       {
         "year": 2022,
-        "total": 808,
+        "total": 809,
         "unknown": 0,
         "counts": {
           "it-telecom": 335,
           "healthcare-food": 230,
           "consumer-goods-services": 65,
           "energy-utilities": 62,
-          "financial-services": 66,
+          "financial-services": 67,
           "media-entertainment": 50
         },
         "shares": {
-          "it-telecom": 0.4146039603960396,
-          "healthcare-food": 0.28465346534653463,
-          "consumer-goods-services": 0.08044554455445545,
-          "energy-utilities": 0.07673267326732673,
-          "financial-services": 0.08168316831683169,
-          "media-entertainment": 0.06188118811881188
+          "it-telecom": 0.41409147095179233,
+          "healthcare-food": 0.2843016069221261,
+          "consumer-goods-services": 0.08034610630407911,
+          "energy-utilities": 0.07663782447466007,
+          "financial-services": 0.08281829419035847,
+          "media-entertainment": 0.06180469715698393
         }
       },
       {
@@ -1597,10 +1597,10 @@
       },
       {
         "year": 2024,
-        "total": 355,
+        "total": 356,
         "unknown": 0,
         "counts": {
-          "it-telecom": 183,
+          "it-telecom": 184,
           "healthcare-food": 90,
           "consumer-goods-services": 26,
           "energy-utilities": 26,
@@ -1608,33 +1608,33 @@
           "media-entertainment": 16
         },
         "shares": {
-          "it-telecom": 0.5154929577464789,
-          "healthcare-food": 0.2535211267605634,
-          "consumer-goods-services": 0.07323943661971831,
-          "energy-utilities": 0.07323943661971831,
-          "financial-services": 0.03943661971830986,
-          "media-entertainment": 0.04507042253521127
+          "it-telecom": 0.5168539325842697,
+          "healthcare-food": 0.25280898876404495,
+          "consumer-goods-services": 0.07303370786516854,
+          "energy-utilities": 0.07303370786516854,
+          "financial-services": 0.03932584269662921,
+          "media-entertainment": 0.0449438202247191
         }
       },
       {
         "year": 2025,
-        "total": 199,
+        "total": 201,
         "unknown": 3,
         "counts": {
-          "it-telecom": 102,
+          "it-telecom": 103,
           "healthcare-food": 44,
           "consumer-goods-services": 13,
           "energy-utilities": 10,
-          "financial-services": 14,
+          "financial-services": 15,
           "media-entertainment": 16
         },
         "shares": {
-          "it-telecom": 0.5125628140703518,
-          "healthcare-food": 0.22110552763819097,
-          "consumer-goods-services": 0.06532663316582915,
-          "energy-utilities": 0.05025125628140704,
-          "financial-services": 0.07035175879396985,
-          "media-entertainment": 0.08040201005025126
+          "it-telecom": 0.5124378109452736,
+          "healthcare-food": 0.21890547263681592,
+          "consumer-goods-services": 0.06467661691542288,
+          "energy-utilities": 0.04975124378109453,
+          "financial-services": 0.07462686567164178,
+          "media-entertainment": 0.07960199004975124
         }
       },
       {
@@ -1663,42 +1663,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 6997,
-        "share": 0.40696795207351827
+        "count": 6999,
+        "share": 0.40696592627049655
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 4243,
-        "share": 0.24678648287093585
+        "count": 4244,
+        "share": 0.24677288056750785
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 2086,
-        "share": 0.12132844762403304
+        "share": 0.1212931736248401
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 807,
-        "share": 0.046937707206421216
+        "share": 0.046924060937318296
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 949,
-        "share": 0.05519688245216076
+        "count": 951,
+        "share": 0.0552971275729736
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 2111,
-        "share": 0.12278252777293085
+        "share": 0.1227468310268636
       }
     ],
     "mixSummary": {
-      "totalVisible": 6903,
+      "totalVisible": 6909,
       "totalUnknown": 12
     },
     "subTrendYears": [
@@ -1717,41 +1717,41 @@
       {
         "name": "Cybersecurity",
         "parent": "IT and Telecom",
-        "total": 491,
+        "total": 494,
         "shareDelta": 0.039,
         "counts": [
           60,
-          79,
+          80,
           51,
           66,
-          72,
+          73,
           64,
           35,
-          43,
+          44,
           20,
           1
         ],
         "shares": [
           0.05612722170252572,
-          0.0743879472693032,
+          0.07532956685499058,
           0.05263157894736842,
           0.0650887573964497,
-          0.07492195629552549,
-          0.07920792079207921,
+          0.07580477673935618,
+          0.07911001236093942,
           0.07829977628635347,
-          0.12112676056338029,
-          0.1,
+          0.12359550561797752,
+          0.09900990099009901,
           0.047619047619047616
         ]
       },
       {
         "name": "Enterprise Software",
         "parent": "IT and Telecom",
-        "total": 1084,
+        "total": 1083,
         "shareDelta": 0.026,
         "counts": [
           138,
-          164,
+          163,
           138,
           184,
           165,
@@ -1763,14 +1763,14 @@
         ],
         "shares": [
           0.12909260991580918,
-          0.1544256120527307,
+          0.1534839924670433,
           0.14241486068111456,
           0.1814595660749507,
-          0.1716961498439126,
-          0.1448019801980198,
+          0.17133956386292834,
+          0.1446229913473424,
           0.203579418344519,
-          0.14647887323943662,
-          0.155,
+          0.14606741573033707,
+          0.15346534653465346,
           0.19047619047619047
         ]
       },
@@ -1796,12 +1796,42 @@
           0.010357815442561206,
           0.007223942208462332,
           0.010848126232741617,
-          0.013527575442247659,
-          0.01485148514851485,
+          0.013499480789200415,
+          0.014833127317676144,
           0.011185682326621925,
-          0.030985915492957747,
-          0.055,
+          0.03089887640449438,
+          0.054455445544554455,
           0.0
+        ]
+      },
+      {
+        "name": "AI & Machine Learning",
+        "parent": "IT and Telecom",
+        "total": 286,
+        "shareDelta": 0.021,
+        "counts": [
+          39,
+          32,
+          51,
+          35,
+          34,
+          31,
+          26,
+          23,
+          12,
+          3
+        ],
+        "shares": [
+          0.03648269410664172,
+          0.030131826741996232,
+          0.05263157894736842,
+          0.03451676528599606,
+          0.035306334371754934,
+          0.038318912237330034,
+          0.058165548098434,
+          0.06460674157303371,
+          0.0594059405940594,
+          0.14285714285714285
         ]
       },
       {
@@ -1826,42 +1856,12 @@
           0.009416195856873822,
           0.013415892672858616,
           0.015779092702169626,
-          0.019771071800208116,
-          0.039603960396039604,
+          0.01973001038421599,
+          0.03955500618046971,
           0.035794183445190156,
-          0.036619718309859155,
-          0.02,
+          0.03651685393258427,
+          0.019801980198019802,
           0.09523809523809523
-        ]
-      },
-      {
-        "name": "AI & Machine Learning",
-        "parent": "IT and Telecom",
-        "total": 284,
-        "shareDelta": 0.019,
-        "counts": [
-          39,
-          32,
-          51,
-          35,
-          34,
-          31,
-          25,
-          23,
-          11,
-          3
-        ],
-        "shares": [
-          0.03648269410664172,
-          0.030131826741996232,
-          0.05263157894736842,
-          0.03451676528599606,
-          0.03537981269510926,
-          0.038366336633663366,
-          0.05592841163310962,
-          0.0647887323943662,
-          0.055,
-          0.14285714285714285
         ]
       }
     ],
@@ -1888,10 +1888,10 @@
           0.02824858757062147,
           0.011351909184726523,
           0.004930966469428008,
-          0.009365244536940686,
-          0.008663366336633664,
+          0.009345794392523364,
+          0.00865265760197775,
           0.0022371364653243847,
-          0.0028169014084507044,
+          0.0028089887640449437,
           0.0,
           0.0
         ]
@@ -1918,11 +1918,11 @@
           0.02919020715630885,
           0.0196078431372549,
           0.021696252465483234,
-          0.026014568158168574,
-          0.012376237623762377,
+          0.02596053997923157,
+          0.012360939431396786,
           0.011185682326621925,
-          0.01971830985915493,
-          0.01,
+          0.019662921348314606,
+          0.009900990099009901,
           0.0
         ]
       },
@@ -1948,11 +1948,11 @@
           0.014124293785310734,
           0.023735810113519093,
           0.016765285996055226,
-          0.015608740894901144,
-          0.017326732673267328,
+          0.01557632398753894,
+          0.0173053152039555,
           0.0022371364653243847,
-          0.005633802816901409,
-          0.015,
+          0.0056179775280898875,
+          0.01485148514851485,
           0.0
         ]
       },
@@ -1978,10 +1978,10 @@
           0.015065913370998116,
           0.02063983488132095,
           0.014792899408284023,
-          0.006243496357960458,
-          0.008663366336633664,
+          0.006230529595015576,
+          0.00865265760197775,
           0.0044742729306487695,
-          0.011267605633802818,
+          0.011235955056179775,
           0.0,
           0.0
         ]
@@ -1990,13 +1990,13 @@
         "name": "Food Technology",
         "parent": "Healthcare and Food",
         "total": 272,
-        "shareDelta": -0.011,
+        "shareDelta": -0.012,
         "counts": [
           29,
           41,
           52,
-          46,
-          32,
+          45,
+          33,
           41,
           19,
           8,
@@ -2007,20 +2007,20 @@
           0.027128157156220765,
           0.038606403013182675,
           0.053663570691434466,
-          0.045364891518737675,
-          0.03329864724245578,
-          0.050742574257425746,
+          0.04437869822485207,
+          0.03426791277258567,
+          0.05067985166872682,
           0.042505592841163314,
-          0.022535211267605635,
-          0.02,
+          0.02247191011235955,
+          0.019801980198019802,
           0.0
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 7604,
+      "deeptechCount": 7606,
       "deeptechPct": 44.2,
-      "globalCount": 7558,
+      "globalCount": 7561,
       "globalPct": 43.9
     }
   },
@@ -2135,6 +2135,17 @@
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
+        "org": "AppsFlyer",
+        "stage": "Series E",
+        "amountUsd": 1000000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series E"
+      },
+      {
+        "ts": "2026-06-22T00:00:00.000Z",
         "org": "RedHill Biopharma",
         "stage": "Post-IPO",
         "amountUsd": 6000000,
@@ -2145,15 +2156,15 @@
         "roundTitle": "Private Placement - June 2026"
       },
       {
-        "ts": "2026-06-22T00:00:00.000Z",
-        "org": "AppsFlyer",
-        "stage": "Series E",
-        "amountUsd": 1000000000,
+        "ts": "2026-06-18T00:00:00.000Z",
+        "org": "Jump Trading",
+        "stage": "Other",
+        "amountUsd": 506000000,
         "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
+        "investorCount": 0,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series E"
+        "roundTitle": "General Corporate Purpose"
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2201,21 +2212,21 @@
       },
       {
         "ts": "2026-06-10T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 600000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-06-10T00:00:00.000Z",
         "org": "Aryon Security",
         "stage": "Series A",
         "amountUsd": 29000000,
         "investors": [],
         "investorCount": 12,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-06-10T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 600000000,
+        "investors": [],
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2229,17 +2240,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-06-03T00:00:00.000Z",
-        "org": "Coralogix",
-        "stage": "Series F",
-        "amountUsd": 200000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series F"
       }
     ],
     "todayStats": {
@@ -2703,9 +2703,9 @@
       {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
+        "rawKind": "Conference Presentation",
+        "org": "Tastewise",
+        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2717,16 +2717,9 @@
       {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Tastewise",
-        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
-      },
-      {
-        "ts": "2026-07-14T00:00:00.000Z",
-        "kind": "first_patent",
-        "rawKind": "Patent and IP",
-        "org": "Can-Fite",
-        "summary": "Australian Patent Office allowed patent application for Namodenoson in advanced metastatic cancer, supporting development in liver and pancreatic cancer."
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2734,6 +2727,13 @@
         "rawKind": "Acquisition",
         "org": "CardinalOps",
         "summary": "Acquired by Cribl"
+      },
+      {
+        "ts": "2026-07-14T00:00:00.000Z",
+        "kind": "first_patent",
+        "rawKind": "Patent and IP",
+        "org": "Can-Fite",
+        "summary": "Australian Patent Office allowed patent application for Namodenoson in advanced metastatic cancer, supporting development in liver and pancreatic cancer."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2752,16 +2752,23 @@
       {
         "ts": "2026-07-10T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Beamr Imaging",
+        "summary": "Beamr's ML-safe video data technology now available on the RTMaps AI Store."
+      },
+      {
+        "ts": "2026-07-10T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Government Contract",
         "org": "ClearmindMed",
         "summary": "Submitted a formal response to the U.S. HHS RFI for addiction treatment innovations as part of the Great American Recovery Initiative, highlighting CMND-100 (MEAI) as a potential non-hallucinogenic neuroplastogen for AUD."
       },
       {
-        "ts": "2026-07-10T00:00:00.000Z",
+        "ts": "2026-07-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Beamr Imaging",
-        "summary": "Beamr's ML-safe video data technology now available on the RTMaps AI Store."
+        "rawKind": "Company Restructuring",
+        "org": "Darrow",
+        "summary": "Darrow laid off 60 employees (40 in Israel) as part of a strategic restructure, reducing workforce from approximately 180 to 120. The company stated the move was to rebalance team capabilities and not a cost-cutting measure."
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
@@ -2773,23 +2780,23 @@
       {
         "ts": "2026-07-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Cato Networks",
-        "summary": "Announced partner award winners at the 2026 APJ Partner Summit."
-      },
-      {
-        "ts": "2026-07-09T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Coronet Cyber Security",
         "summary": "Coro expanded into the DACH market through a distribution partnership with QBS Software."
       },
       {
-        "ts": "2026-07-08T00:00:00.000Z",
+        "ts": "2026-07-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Teads",
-        "summary": "Teads formed a strategic partnership with TiVo Ads to integrate TiVo Ads' HomeScreen inventory into the Teads ecosystem across the United States, Canada, and the United Kingdom."
+        "rawKind": "Product Launch",
+        "org": "Cyolo",
+        "summary": "Launched Cyolo CPS Segmentation, a microsegmentation product for OT networks extending the platform to machine-to-machine communication control."
+      },
+      {
+        "ts": "2026-07-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Cato Networks",
+        "summary": "Announced partner award winners at the 2026 APJ Partner Summit."
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
@@ -2807,17 +2814,10 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "Cando Drones",
-        "summary": "Completed IPO on the Tel Aviv Stock Exchange (TASE: CNDO), raising NIS 19 million at a valuation of NIS 102 million."
-      },
-      {
-        "ts": "2026-07-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Cogniteam",
-        "summary": "Partnered with Innoviz Technologies to develop a new counter-UAS (C-UAS) perception module combining InnovizSMART Long-Range LiDAR with Cogniteam's AI-powered perception and analytics software for drone detection, localization, tracking, and classification."
+        "org": "Teads",
+        "summary": "Teads formed a strategic partnership with TiVo Ads to integrate TiVo Ads' HomeScreen inventory into the Teads ecosystem across the United States, Canada, and the United Kingdom."
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
@@ -2827,11 +2827,11 @@
         "summary": "Acquired by Scipher Medicine Corporation via all-stock merger; combined company to trade as SCIP on Nasdaq."
       },
       {
-        "ts": "2026-07-07T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Launched a quantum computing initiative with Alfred University."
+        "ts": "2026-07-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "Cando Drones",
+        "summary": "Completed IPO on the Tel Aviv Stock Exchange (TASE: CNDO), raising NIS 19 million at a valuation of NIS 102 million."
       }
     ]
   }
