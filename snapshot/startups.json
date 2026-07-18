@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T11:34:55.618Z",
+  "generatedAt": "2026-07-18T12:35:41.128Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,23 +159,23 @@
   },
   "kpis": {
     "startups": {
-      "value": 17561,
+      "value": 17563,
       "delta24h": 272
     },
     "totalFunding": {
-      "valueUsd": 265348860000,
-      "rounds": 30533
+      "valueUsd": 265307750000,
+      "rounds": 30565
     },
     "exits": {
-      "count": 2022,
-      "valueUsd": 196187087400
+      "count": 2024,
+      "valueUsd": 195987087400
     },
     "employees": {
-      "total": 426846,
+      "total": 427287,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 110819,
+      "total": 110836,
       "delta30d": 0
     },
     "openJobs": 6290
@@ -184,7 +184,7 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3678
+        "count": 3679
       },
       {
         "name": "Central",
@@ -200,11 +200,11 @@
       },
       {
         "name": "Northern",
-        "count": 218
+        "count": 219
       },
       {
         "name": "Southern",
-        "count": 135
+        "count": 136
       },
       {
         "name": "Judea & Samaria",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 2353
+        "count": 2354
       },
       {
         "name": "Ramat Gan",
@@ -266,14 +266,14 @@
         "district": "Central",
         "lat": 31.8944,
         "lng": 34.8097,
-        "count": 213
+        "count": 212
       },
       {
         "name": "Netanya",
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 180
+        "count": 181
       },
       {
         "name": "Kfar Saba",
@@ -465,18 +465,18 @@
         "count": 26
       },
       {
+        "name": "Be'er Sheva",
+        "district": "Southern",
+        "lat": 31.2518,
+        "lng": 34.7915,
+        "count": 25
+      },
+      {
         "name": "Ganei Tikva",
         "district": "Central",
         "lat": 32.0564,
         "lng": 34.8733,
         "count": 25
-      },
-      {
-        "name": "Be'er Sheva",
-        "district": "Southern",
-        "lat": 31.2518,
-        "lng": 34.7915,
-        "count": 24
       },
       {
         "name": "Migdal HaEmek",
@@ -542,6 +542,13 @@
         "count": 17
       },
       {
+        "name": "Karmiel",
+        "district": "Northern",
+        "lat": 32.9171,
+        "lng": 35.2949,
+        "count": 16
+      },
+      {
         "name": "Kiryat Gat",
         "district": "Southern",
         "lat": 31.61,
@@ -561,13 +568,6 @@
         "lat": 32.7611,
         "lng": 34.9711,
         "count": 16
-      },
-      {
-        "name": "Karmiel",
-        "district": "Northern",
-        "lat": 32.9171,
-        "lng": 35.2949,
-        "count": 15
       },
       {
         "name": "Kiryat Shmona",
@@ -884,7 +884,7 @@
         89,
         116,
         197,
-        239,
+        240,
         281,
         310,
         391,
@@ -897,11 +897,11 @@
         1219,
         1265,
         1188,
-        1082,
+        1083,
         1088,
         1002,
         1040,
-        982,
+        983,
         829,
         464,
         373,
@@ -985,10 +985,10 @@
         2
       ],
       "statusMix": {
-        "active": 8553,
-        "closed": 8444,
+        "active": 8555,
+        "closed": 8443,
         "inactive": 494,
-        "unknown": 70
+        "unknown": 71
       }
     },
     "funding": {
@@ -1067,19 +1067,19 @@
         601,
         631,
         821,
-        918,
+        920,
         1080,
         1275,
-        1255,
-        1323,
-        1884,
-        1887,
-        1974,
-        2191,
-        2027,
-        1595,
-        1897,
-        1352,
+        1257,
+        1327,
+        1886,
+        1890,
+        1976,
+        2196,
+        2029,
+        1596,
+        1898,
+        1357,
         386
       ],
       "raisedUsd": [
@@ -1116,26 +1116,26 @@
         3071176905,
         4826798089,
         3872684882,
-        6834775636,
-        55530591811,
-        8142319024,
+        6838804136,
+        55530611811,
+        8149819024,
         17344274523,
         36956570308,
-        22370050305,
-        10284206159,
+        22370129405,
+        10291406159,
         19612424151,
-        27133590734,
+        27133647034,
         12918292196
       ],
       "stageMix": {
-        "Seed": 10463,
-        "Grant": 4175,
-        "Series A": 2780,
-        "Other": 2376,
-        "Non-equity": 1596,
-        "Accelerator": 1513,
-        "Unknown": 1473,
-        "Series B": 1334
+        "Seed": 10468,
+        "Grant": 4179,
+        "Series A": 2782,
+        "Other": 2378,
+        "Non-equity": 1601,
+        "Accelerator": 1519,
+        "Unknown": 1472,
+        "Series B": 1336
       }
     },
     "exits": {
@@ -1195,11 +1195,11 @@
         20,
         45,
         41,
-        42,
+        43,
         34,
         51,
         57,
-        61,
+        60,
         63,
         63,
         68,
@@ -1212,7 +1212,7 @@
         115,
         106,
         116,
-        161,
+        162,
         283
       ],
       "acquisitions": [
@@ -1233,11 +1233,11 @@
         17,
         40,
         36,
-        42,
+        43,
         33,
         46,
         55,
-        60,
+        59,
         58,
         58,
         64,
@@ -1250,7 +1250,7 @@
         100,
         99,
         108,
-        148,
+        149,
         234
       ],
       "ipos": [
@@ -1325,13 +1325,13 @@
         15289946000,
         12758685000,
         10128359100,
-        14004456700,
+        13804456700,
         59410660000,
         9478155000
       ],
       "typeMix": {
-        "acquisition": 1819,
-        "ipo": 251
+        "acquisition": 1820,
+        "ipo": 252
       }
     }
   },
@@ -1339,26 +1339,26 @@
     "composition": {
       "active": 7564,
       "closed": 7975,
-      "exited": 2022
+      "exited": 2024
     },
     "funnel": {
-      "all": 17561,
-      "funded": 10526,
-      "over1m": 4295,
+      "all": 17563,
+      "funded": 10531,
+      "over1m": 4296,
       "over10m": 2094,
-      "exited": 2022
+      "exited": 2024
     },
     "timeToExit": {
       "overall": {
         "avgYears": 9.0,
         "medianYears": 7.0,
-        "avgValueUsd": 88291195,
+        "avgValueUsd": 88144482,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 8.9,
         "medianYears": 7.0,
-        "avgValueUsd": 100690050,
+        "avgValueUsd": 100520456,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1370,8 +1370,8 @@
       "distribution": [
         33,
         52,
-        140,
-        164,
+        139,
+        166,
         174,
         159,
         157,
@@ -1450,23 +1450,23 @@
     "mixByYear": [
       {
         "year": 2017,
-        "total": 1081,
+        "total": 1082,
         "unknown": 1,
         "counts": {
           "it-telecom": 436,
           "healthcare-food": 294,
           "consumer-goods-services": 128,
-          "energy-utilities": 32,
+          "energy-utilities": 33,
           "financial-services": 78,
           "media-entertainment": 113
         },
         "shares": {
-          "it-telecom": 0.40333024976873266,
-          "healthcare-food": 0.2719703977798335,
-          "consumer-goods-services": 0.11840888066604996,
-          "energy-utilities": 0.02960222016651249,
-          "financial-services": 0.07215541165587419,
-          "media-entertainment": 0.10453283996299723
+          "it-telecom": 0.4029574861367837,
+          "healthcare-food": 0.27171903881700554,
+          "consumer-goods-services": 0.11829944547134935,
+          "energy-utilities": 0.030499075785582256,
+          "financial-services": 0.07208872458410351,
+          "media-entertainment": 0.1044362292051756
         }
       },
       {
@@ -1534,10 +1534,10 @@
       },
       {
         "year": 2021,
-        "total": 982,
+        "total": 983,
         "unknown": 0,
         "counts": {
-          "it-telecom": 420,
+          "it-telecom": 421,
           "healthcare-food": 255,
           "consumer-goods-services": 80,
           "energy-utilities": 61,
@@ -1545,12 +1545,12 @@
           "media-entertainment": 83
         },
         "shares": {
-          "it-telecom": 0.42769857433808556,
-          "healthcare-food": 0.25967413441955195,
-          "consumer-goods-services": 0.0814663951120163,
-          "energy-utilities": 0.062118126272912425,
-          "financial-services": 0.0845213849287169,
-          "media-entertainment": 0.0845213849287169
+          "it-telecom": 0.42828077314343843,
+          "healthcare-food": 0.25940996948118006,
+          "consumer-goods-services": 0.08138351983723296,
+          "energy-utilities": 0.06205493387589013,
+          "financial-services": 0.0844354018311292,
+          "media-entertainment": 0.0844354018311292
         }
       },
       {
@@ -1663,42 +1663,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 7130,
-        "share": 0.4070099326407124
+        "count": 7131,
+        "share": 0.4070205479452055
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 4293,
-        "share": 0.24506222171480763
+        "share": 0.24503424657534248
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 2143,
-        "share": 0.1223313163603151
+        "share": 0.12231735159817352
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 828,
-        "share": 0.04726566959698596
+        "count": 829,
+        "share": 0.04731735159817352
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 977,
-        "share": 0.05577120675876242
+        "share": 0.0557648401826484
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 2147,
-        "share": 0.12255965292841649
+        "share": 0.12254566210045661
       }
     ],
     "mixSummary": {
-      "totalVisible": 7086,
+      "totalVisible": 7088,
       "totalUnknown": 15
     },
     "subTrendYears": [
@@ -1732,11 +1732,11 @@
           2
         ],
         "shares": [
-          0.05545286506469501,
+          0.055401662049861494,
           0.07451701931922723,
           0.05410821643286573,
           0.0626808100289296,
-          0.07637474541751528,
+          0.0762970498474059,
           0.07729468599033816,
           0.07974137931034483,
           0.12332439678284182,
@@ -1747,14 +1747,14 @@
       {
         "name": "Enterprise Software",
         "parent": "IT and Telecom",
-        "total": 1107,
+        "total": 1108,
         "shareDelta": 0.026,
         "counts": [
           143,
           165,
           142,
           186,
-          167,
+          168,
           119,
           92,
           56,
@@ -1762,11 +1762,11 @@
           4
         ],
         "shares": [
-          0.1321626617375231,
+          0.13204062788550322,
           0.15179392824287027,
           0.14228456913827656,
           0.17936354869816779,
-          0.17006109979633402,
+          0.17090539165818922,
           0.14371980676328502,
           0.19827586206896552,
           0.15013404825737264,
@@ -1792,11 +1792,11 @@
           0
         ],
         "shares": [
-          0.006469500924214418,
+          0.006463527239150508,
           0.010119595216191352,
           0.008016032064128256,
           0.010607521697203472,
-          0.013238289205702648,
+          0.013224821973550356,
           0.014492753623188406,
           0.01293103448275862,
           0.029490616621983913,
@@ -1822,11 +1822,11 @@
           4
         ],
         "shares": [
-          0.036044362292051754,
+          0.036011080332409975,
           0.029438822447102116,
           0.0531062124248497,
           0.03567984570877531,
-          0.035641547861507125,
+          0.03560528992878942,
           0.03864734299516908,
           0.06465517241379311,
           0.06166219839142091,
@@ -1852,11 +1852,11 @@
           2
         ],
         "shares": [
-          0.00831792975970425,
+          0.008310249307479225,
           0.010119595216191352,
           0.013026052104208416,
           0.01639344262295082,
-          0.020366598778004074,
+          0.02034587995930824,
           0.03864734299516908,
           0.034482758620689655,
           0.03753351206434316,
@@ -1884,11 +1884,11 @@
           0
         ],
         "shares": [
-          0.02865064695009242,
+          0.028624192059095107,
           0.028518859245630176,
           0.011022044088176353,
           0.006750241080038573,
-          0.009164969450101833,
+          0.009155645981688708,
           0.008454106280193236,
           0.0021551724137931034,
           0.002680965147453083,
@@ -1914,11 +1914,11 @@
           0
         ],
         "shares": [
-          0.03974121996303143,
+          0.03970452446906741,
           0.028518859245630176,
           0.02004008016032064,
           0.021215043394406944,
-          0.025458248472505093,
+          0.0254323499491353,
           0.013285024154589372,
           0.01293103448275862,
           0.01876675603217158,
@@ -1944,11 +1944,11 @@
           0
         ],
         "shares": [
-          0.026802218114602587,
+          0.02677746999076639,
           0.014719411223551058,
           0.023046092184368736,
           0.017357762777242044,
-          0.015274949083503055,
+          0.015259409969481181,
           0.016908212560386472,
           0.004310344827586207,
           0.005361930294906166,
@@ -1974,11 +1974,11 @@
           0
         ],
         "shares": [
-          0.022181146025878003,
+          0.0221606648199446,
           0.014719411223551058,
           0.021042084168336674,
           0.013500482160077145,
-          0.008146639511201629,
+          0.008138351983723296,
           0.008454106280193236,
           0.00646551724137931,
           0.010723860589812333,
@@ -2004,11 +2004,11 @@
           0
         ],
         "shares": [
-          0.027726432532347505,
+          0.027700831024930747,
           0.03863845446182153,
           0.0531062124248497,
           0.04339440694310511,
-          0.035641547861507125,
+          0.03560528992878942,
           0.049516908212560384,
           0.040948275862068964,
           0.021447721179624665,
@@ -2018,9 +2018,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 7671,
+      "deeptechCount": 7672,
       "deeptechPct": 43.7,
-      "globalCount": 7676,
+      "globalCount": 7677,
       "globalPct": 43.7
     }
   },
@@ -2157,17 +2157,6 @@
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
-        "org": "AppsFlyer",
-        "stage": "Series E",
-        "amountUsd": 1000000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series E"
-      },
-      {
-        "ts": "2026-06-22T00:00:00.000Z",
         "org": "RedHill Biopharma",
         "stage": "Post-IPO",
         "amountUsd": 6000000,
@@ -2178,14 +2167,15 @@
         "roundTitle": "Private Placement - June 2026"
       },
       {
-        "ts": "2026-06-18T00:00:00.000Z",
-        "org": "Dream Security",
-        "stage": "Series C",
-        "amountUsd": 260000000,
+        "ts": "2026-06-22T00:00:00.000Z",
+        "org": "AppsFlyer",
+        "stage": "Series E",
+        "amountUsd": 1000000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 4,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Series E"
       },
       {
         "ts": "2026-06-18T00:00:00.000Z",
@@ -2197,6 +2187,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "General Corporate Purpose"
+      },
+      {
+        "ts": "2026-06-18T00:00:00.000Z",
+        "org": "Dream Security",
+        "stage": "Series C",
+        "amountUsd": 260000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-06-16T00:00:00.000Z",
@@ -2679,16 +2679,23 @@
       {
         "ts": "2026-07-16T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Fhenix",
+        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Award Recognition",
         "org": "Eco Wave Power",
         "summary": "California's Final SB 605 Report highlighted Eco Wave Power's Port of Los Angeles pilot as part of the state's marine energy commercialization assessment."
       },
       {
-        "ts": "2026-07-16T00:00:00.000Z",
+        "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Fhenix",
-        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
+        "rawKind": "Conference Presentation",
+        "org": "Tastewise",
+        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2714,9 +2721,9 @@
       {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Tastewise",
-        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
+        "rawKind": "Accelerator Milestone",
+        "org": "DisperseBio",
+        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2724,13 +2731,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Classiq Technologies",
         "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Accelerator Milestone",
-        "org": "DisperseBio",
-        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2744,7 +2744,7 @@
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "CardinalOps",
-        "summary": "Acquired by Cribl for $100.0M (routed from provider M&A deal entry)."
+        "summary": "Acquired by Cribl"
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2755,17 +2755,10 @@
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "dotz nano",
-        "summary": "Shareholders at Extraordinary General Meeting back capital raisings and CEO incentives, reject Malka options."
-      },
-      {
-        "ts": "2026-07-14T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "CardinalOps",
-        "summary": "Acquired by Cribl"
+        "summary": "Acquired by Cribl for $100.0M (routed from provider M&A deal entry)."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2773,6 +2766,13 @@
         "rawKind": "Government Contract",
         "org": "eyesAtop",
         "summary": "eyesAtop, together with Kela, won a Ministry of Defense tender to develop the autonomous command-and-control system for the IDF's 'Digital Bat' attack drone program."
+      },
+      {
+        "ts": "2026-07-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "dotz nano",
+        "summary": "Shareholders at Extraordinary General Meeting back capital raisings and CEO incentives, reject Malka options."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2798,16 +2798,16 @@
       {
         "ts": "2026-07-10T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Beamr Imaging",
-        "summary": "Beamr's ML-safe video data technology now available on the RTMaps AI Store."
+        "rawKind": "Government Contract",
+        "org": "ClearmindMed",
+        "summary": "Submitted a formal response to the U.S. HHS RFI for addiction treatment innovations as part of the Great American Recovery Initiative, highlighting CMND-100 (MEAI) as a potential non-hallucinogenic neuroplastogen for AUD."
       },
       {
         "ts": "2026-07-10T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Government Contract",
-        "org": "ClearmindMed",
-        "summary": "Submitted a formal response to the U.S. HHS RFI for addiction treatment innovations as part of the Great American Recovery Initiative, highlighting CMND-100 (MEAI) as a potential non-hallucinogenic neuroplastogen for AUD."
+        "rawKind": "Strategic Partnership",
+        "org": "Beamr Imaging",
+        "summary": "Beamr's ML-safe video data technology now available on the RTMaps AI Store."
       }
     ]
   }
