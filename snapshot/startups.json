@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:04:41.369Z",
+  "generatedAt": "2026-07-18T23:06:48.298Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 18048,
-      "delta24h": 659
+      "delta24h": 625
     },
     "totalFunding": {
       "valueUsd": 234153060000,
@@ -2094,16 +2094,6 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "org": "Alta",
-        "stage": "Series A",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-08T00:00:00.000Z",
         "org": "Cando Drones",
         "stage": "Post-IPO",
         "amountUsd": 0,
@@ -2112,6 +2102,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "IPO"
+      },
+      {
+        "ts": "2026-07-08T00:00:00.000Z",
+        "org": "Alta",
+        "stage": "Series A",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-07T00:00:00.000Z",
@@ -2126,17 +2126,6 @@
       },
       {
         "ts": "2026-07-01T00:00:00.000Z",
-        "org": "Funpressor",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-01T00:00:00.000Z",
         "org": "Aligned",
         "stage": "Series B",
         "amountUsd": 60000000,
@@ -2145,6 +2134,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-07-01T00:00:00.000Z",
+        "org": "Funpressor",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-06-29T00:00:00.000Z",
@@ -2213,16 +2213,6 @@
       },
       {
         "ts": "2026-06-18T00:00:00.000Z",
-        "org": "Dream Security",
-        "stage": "Series C",
-        "amountUsd": 260000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-06-18T00:00:00.000Z",
         "org": "NextVision",
         "stage": "Secondary",
         "amountUsd": 200000000,
@@ -2242,6 +2232,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "General Corporate Purpose"
+      },
+      {
+        "ts": "2026-06-18T00:00:00.000Z",
+        "org": "Dream Security",
+        "stage": "Series C",
+        "amountUsd": 260000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-06-17T00:00:00.000Z",
@@ -2648,6 +2648,20 @@
       {
         "ts": "2026-07-16T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Eco Wave Power",
+        "summary": "California's Final SB 605 Report highlighted Eco Wave Power's Port of Los Angeles pilot as part of the state's marine energy commercialization assessment."
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Fhenix",
+        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Government Contract",
         "org": "XTEND",
         "summary": "Supported British Army during a major autonomous strike exercise, advancing UK operational drone warfare capabilities."
@@ -2660,74 +2674,11 @@
         "summary": "Announced second amendment to merger agreement with JFB Construction Holdings, including minimum cash requirement of $60 million, change of listing from NASDAQ to NYSE, and $6.00 per share floor for new issuances."
       },
       {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Fhenix",
-        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Eco Wave Power",
-        "summary": "California's Final SB 605 Report highlighted Eco Wave Power's Port of Los Angeles pilot as part of the state's marine energy commercialization assessment."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Oak Identity Security",
-        "summary": "Oak emerged from stealth and launched its AI-native Identity Operating System, a unified platform governing human, machine, and AI identities, generally available and deployed by enterprise clients."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Genda",
-        "summary": "Buildots commercialized Genda's workforce, safety, and logistics capabilities under the new Buildots Field brand, with pre-sales opening and a fully integrated Buildots Field App on track for general availability in Q4 2026."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Captain's Eye",
-        "summary": "Secured major deployment across more than 100 Pacific Basin vessels."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Accelerator Milestone",
-        "org": "DisperseBio",
-        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Viz.ai",
-        "summary": "Viz.ai to support the MINUTE Trial, a landmark multicenter study evaluating the SCUBA..."
-      },
-      {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Pentera",
         "summary": "Added granular testing of ransomware families Qilin, Play, and BlackCat to prevent breaches."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Tastewise",
-        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2747,15 +2698,57 @@
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Fireblocks",
-        "summary": "Partnered with MOTMX to provide self-custody wallets within the GetC pre-built rewards product for financial institutions."
+        "org": "Classiq Technologies",
+        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
       },
       {
-        "ts": "2026-07-14T00:00:00.000Z",
+        "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Innoviz",
-        "summary": "Launched Perciz, a defense and homeland security brand built to address modern threats."
+        "org": "Oak Identity Security",
+        "summary": "Oak emerged from stealth and launched its AI-native Identity Operating System, a unified platform governing human, machine, and AI identities, generally available and deployed by enterprise clients."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Viz.ai",
+        "summary": "Viz.ai to support the MINUTE Trial, a landmark multicenter study evaluating the SCUBA..."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Accelerator Milestone",
+        "org": "DisperseBio",
+        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Captain's Eye",
+        "summary": "Secured major deployment across more than 100 Pacific Basin vessels."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Genda",
+        "summary": "Buildots commercialized Genda's workforce, safety, and logistics capabilities under the new Buildots Field brand, with pre-sales opening and a fully integrated Buildots Field App on track for general availability in Q4 2026."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Tastewise",
+        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Fireblocks",
+        "summary": "Partnered with MOTMX to provide self-custody wallets within the GetC pre-built rewards product for financial institutions."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2767,16 +2760,23 @@
       {
         "ts": "2026-07-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Government Contract",
-        "org": "eyesAtop",
-        "summary": "eyesAtop, together with Kela, won a Ministry of Defense tender to develop the autonomous command-and-control system for the IDF's 'Digital Bat' attack drone program."
+        "rawKind": "Product Launch",
+        "org": "Innoviz",
+        "summary": "Launched Perciz, a defense and homeland security brand built to address modern threats."
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Office Opening",
+        "kind": "first_patent",
+        "rawKind": "Patent and IP",
+        "org": "Can-Fite",
+        "summary": "Australian Patent Office allowed patent application for Namodenoson in advanced metastatic cancer, supporting development in liver and pancreatic cancer."
+      },
+      {
+        "ts": "2026-07-14T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
         "org": "CardinalOps",
-        "summary": "Cribl to establish a Tel Aviv office following acquisition of CardinalOps"
+        "summary": "Acquired by Cribl for $100.0M (routed from provider M&A deal entry)."
       }
     ]
   }
