@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T07:51:03.880Z",
+  "generatedAt": "2026-07-20T10:39:31.551Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,40 +159,40 @@
   },
   "kpis": {
     "startups": {
-      "value": 18651,
-      "delta24h": 614
+      "value": 18773,
+      "delta24h": 675
     },
     "totalFunding": {
-      "valueUsd": 246917120000,
-      "rounds": 32203
+      "valueUsd": 249472780000,
+      "rounds": 32335
     },
     "exits": {
-      "count": 2099,
-      "valueUsd": 203393717600
+      "count": 2103,
+      "valueUsd": 203412767600
     },
     "employees": {
-      "total": 472933,
+      "total": 473565,
       "avgPerStartup": 30
     },
     "patents": {
-      "total": 111355,
+      "total": 111357,
       "delta30d": 0
     },
-    "openJobs": 6846
+    "openJobs": 6990
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 3784
+        "count": 3804
       },
       {
         "name": "Central",
-        "count": 2098
+        "count": 2096
       },
       {
         "name": "Haifa",
-        "count": 767
+        "count": 768
       },
       {
         "name": "Jerusalem",
@@ -200,7 +200,7 @@
       },
       {
         "name": "Northern",
-        "count": 229
+        "count": 230
       },
       {
         "name": "Southern",
@@ -217,21 +217,21 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 2419
+        "count": 2432
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 426
+        "count": 429
       },
       {
         "name": "Ramat Gan",
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 423
+        "count": 424
       },
       {
         "name": "Jerusalem",
@@ -245,28 +245,28 @@
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 315
+        "count": 314
       },
       {
         "name": "Petah Tikva",
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 300
+        "count": 299
       },
       {
         "name": "Ra'anana",
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 249
+        "count": 248
       },
       {
         "name": "Rehovot",
         "district": "Central",
         "lat": 31.8944,
         "lng": 34.8097,
-        "count": 219
+        "count": 220
       },
       {
         "name": "Netanya",
@@ -280,7 +280,7 @@
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 172
+        "count": 171
       },
       {
         "name": "Ness Ziona",
@@ -308,7 +308,7 @@
         "district": "Tel Aviv",
         "lat": 32.0836,
         "lng": 34.8337,
-        "count": 136
+        "count": 137
       },
       {
         "name": "Yokneam Illit",
@@ -322,7 +322,7 @@
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 115
+        "count": 116
       },
       {
         "name": "Caesarea",
@@ -343,7 +343,7 @@
         "district": "Central",
         "lat": 32.0844,
         "lng": 34.9547,
-        "count": 95
+        "count": 96
       },
       {
         "name": "Givatayim",
@@ -357,14 +357,14 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 75
+        "count": 76
       },
       {
         "name": "Or Yehuda",
         "district": "Tel Aviv",
         "lat": 32.0333,
         "lng": 34.85,
-        "count": 65
+        "count": 66
       },
       {
         "name": "Yavne",
@@ -406,7 +406,7 @@
         "district": "Northern",
         "lat": 32.9,
         "lng": 35.3,
-        "count": 34
+        "count": 35
       },
       {
         "name": "Be'er Sheva",
@@ -497,7 +497,7 @@
         "district": "Central",
         "lat": 32.0333,
         "lng": 34.8833,
-        "count": 24
+        "count": 23
       },
       {
         "name": "Zichron Ya'akov",
@@ -535,6 +535,13 @@
         "count": 18
       },
       {
+        "name": "Tirat Carmel",
+        "district": "Haifa",
+        "lat": 32.7611,
+        "lng": 34.9711,
+        "count": 18
+      },
+      {
         "name": "Afula",
         "district": "Northern",
         "lat": 32.6078,
@@ -560,13 +567,6 @@
         "district": "Northern",
         "lat": 32.9171,
         "lng": 35.2949,
-        "count": 16
-      },
-      {
-        "name": "Tirat Carmel",
-        "district": "Haifa",
-        "lat": 32.7611,
-        "lng": 34.9711,
         "count": 16
       },
       {
@@ -612,13 +612,6 @@
         "count": 13
       },
       {
-        "name": "Kadima-Zoran",
-        "district": "Central",
-        "lat": 32.2789,
-        "lng": 34.9181,
-        "count": 12
-      },
-      {
         "name": "Mevaseret Zion",
         "district": "Jerusalem",
         "lat": 31.7986,
@@ -631,6 +624,13 @@
         "lat": 32.0369,
         "lng": 34.8839,
         "count": 12
+      },
+      {
+        "name": "Kadima-Zoran",
+        "district": "Central",
+        "lat": 32.2789,
+        "lng": 34.9181,
+        "count": 11
       },
       {
         "name": "Ramat Yishai",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1222
+    "unresolvedCount": 1226
   },
   "overTime": {
     "foundedClosed": {
@@ -946,51 +946,51 @@
         7,
         4,
         5,
-        13,
+        14,
         8,
         6,
         10,
         8,
         18,
-        16,
+        17,
         21,
         17,
         24,
-        32,
-        49,
-        44,
+        33,
+        50,
+        46,
         54,
-        55,
-        70,
-        78,
-        130,
-        189,
-        106,
-        125,
-        211,
+        57,
+        71,
+        81,
+        132,
+        193,
+        109,
+        127,
+        216,
         264,
-        297,
-        342,
-        428,
-        378,
-        368,
-        461,
-        852,
-        1076,
-        1091,
-        1267,
-        1302,
-        1239,
-        1159,
-        1136,
-        1043,
+        298,
+        344,
+        434,
+        383,
+        374,
+        465,
+        857,
+        1084,
+        1093,
+        1274,
+        1303,
+        1244,
+        1161,
+        1137,
+        1049,
         1068,
-        1017,
-        865,
-        494,
-        428,
-        268,
-        49
+        1027,
+        867,
+        502,
+        432,
+        275,
+        50
       ],
       "closed": [
         0,
@@ -1022,7 +1022,7 @@
         4,
         2,
         1,
-        3,
+        4,
         3,
         2,
         5,
@@ -1032,47 +1032,47 @@
         10,
         10,
         9,
-        14,
-        20,
-        29,
+        15,
+        21,
+        30,
         28,
-        36,
-        32,
-        40,
-        76,
-        118,
-        64,
-        78,
-        132,
-        169,
-        177,
-        212,
-        261,
-        212,
-        214,
-        248,
-        567,
-        752,
-        732,
-        810,
-        768,
-        688,
-        588,
-        546,
-        450,
-        386,
-        329,
-        237,
-        76,
+        37,
         33,
-        11,
+        41,
+        78,
+        119,
+        65,
+        79,
+        135,
+        169,
+        178,
+        214,
+        263,
+        217,
+        217,
+        248,
+        571,
+        759,
+        734,
+        811,
+        768,
+        690,
+        589,
+        545,
+        451,
+        387,
+        332,
+        238,
+        77,
+        33,
+        12,
         3
       ],
       "statusMix": {
-        "active": 8985,
-        "closed": 8857,
-        "inactive": 472,
-        "unknown": 337
+        "active": 9038,
+        "closed": 8912,
+        "inactive": 469,
+        "unknown": 354
       }
     },
     "funding": {
@@ -1136,35 +1136,35 @@
         30,
         55,
         63,
-        78,
-        150,
-        281,
+        79,
+        152,
+        282,
         245,
         279,
         404,
-        515,
-        552,
-        642,
-        739,
-        692,
-        533,
-        627,
-        653,
+        516,
+        551,
+        645,
+        740,
+        691,
+        537,
+        630,
+        654,
         854,
-        965,
-        1154,
-        1359,
-        1342,
-        1418,
-        2041,
-        2019,
-        2107,
-        2344,
-        2138,
-        1714,
-        2002,
-        1435,
-        440
+        966,
+        1158,
+        1368,
+        1357,
+        1427,
+        2055,
+        2030,
+        2118,
+        2359,
+        2147,
+        1727,
+        2013,
+        1440,
+        447
       ],
       "raisedUsd": [
         0,
@@ -1181,45 +1181,45 @@
         5400000,
         20700000,
         44000000,
-        77275000,
-        172700000,
-        942030000,
-        604775000,
-        530416000,
+        82275000,
+        179700000,
+        944530000,
+        606025000,
+        531416000,
         392530000,
-        919903615,
-        748631000,
-        1357885000,
-        1307572000,
-        1228542571,
-        715313000,
-        1158783870,
-        9829749000,
-        2119955696,
-        3202358015,
-        3347678705,
-        5208946989,
-        4276665682,
-        7419263355,
-        6940059011,
-        10824875124,
-        21630036352,
-        44956666308,
-        23977239257,
-        12446237159,
-        22348388051,
-        33289839434,
-        14929072196
+        920103615,
+        760631000,
+        1373945000,
+        1299733000,
+        1239745000,
+        729784718,
+        1221783870,
+        9850349000,
+        2131955696,
+        3212622983,
+        3359383705,
+        5237249989,
+        4403866682,
+        7480895455,
+        7070519311,
+        10881748624,
+        21838579352,
+        45506322308,
+        24327004257,
+        12571237159,
+        22760482051,
+        33605839434,
+        14947872196
       ],
       "stageMix": {
-        "Seed": 10770,
-        "Grant": 4417,
-        "Series A": 2989,
-        "Other": 2517,
-        "Non-equity": 1786,
-        "Accelerator": 1685,
-        "Unknown": 1410,
-        "Series B": 1410
+        "Seed": 10792,
+        "Grant": 4445,
+        "Series A": 3009,
+        "Other": 2527,
+        "Non-equity": 1809,
+        "Accelerator": 1706,
+        "Series B": 1410,
+        "Unknown": 1387
       }
     },
     "exits": {
@@ -1270,7 +1270,7 @@
         2,
         6,
         10,
-        3,
+        4,
         3,
         7,
         21,
@@ -1279,9 +1279,9 @@
         42,
         44,
         34,
-        52,
+        53,
         58,
-        62,
+        63,
         63,
         64,
         69,
@@ -1292,7 +1292,7 @@
         102,
         232,
         116,
-        107,
+        108,
         122,
         163,
         293
@@ -1307,7 +1307,7 @@
         2,
         2,
         8,
-        2,
+        3,
         2,
         7,
         19,
@@ -1318,7 +1318,7 @@
         33,
         47,
         56,
-        61,
+        62,
         58,
         61,
         65,
@@ -1329,7 +1329,7 @@
         87,
         170,
         102,
-        100,
+        101,
         114,
         149,
         242
@@ -1353,7 +1353,7 @@
         5,
         0,
         1,
-        5,
+        6,
         2,
         1,
         5,
@@ -1381,7 +1381,7 @@
         260000000,
         470000000,
         7765200000,
-        26500000,
+        28750000,
         90000000,
         2250000,
         459000000,
@@ -1390,7 +1390,7 @@
         1092950000,
         1463570000,
         1072350000,
-        1519800000,
+        1525000000,
         1494002000,
         5327050000,
         4805599000,
@@ -1406,56 +1406,56 @@
         8503559100,
         14192356700,
         55733270200,
-        11698255000
+        11709855000
       ],
       "typeMix": {
-        "acquisition": 1885,
-        "ipo": 259
+        "acquisition": 1888,
+        "ipo": 260
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 8220,
-      "closed": 8332,
-      "exited": 2099
+      "active": 8287,
+      "closed": 8383,
+      "exited": 2103
     },
     "funnel": {
-      "all": 18651,
-      "funded": 10795,
-      "over1m": 4455,
-      "over10m": 2194,
-      "exited": 2099
+      "all": 18773,
+      "funded": 10817,
+      "over1m": 4478,
+      "over10m": 2202,
+      "exited": 2103
     },
     "timeToExit": {
       "overall": {
         "avgYears": 8.9,
         "medianYears": 7.0,
-        "avgValueUsd": 90476525,
+        "avgValueUsd": 90351951,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 8.8,
         "medianYears": 7.0,
-        "avgValueUsd": 100455374,
+        "avgValueUsd": 100352600,
         "medianValueUsd": 0
       },
       "ipo": {
         "avgYears": 11.4,
-        "medianYears": 9.5,
-        "avgValueUsd": 65531552,
-        "medianValueUsd": 525000
+        "medianYears": 9.0,
+        "avgValueUsd": 65285301,
+        "medianValueUsd": 1050000
       },
       "distribution": [
         33,
-        58,
+        60,
         145,
         173,
         186,
         168,
         160,
         153,
-        119,
+        120,
         126,
         93,
         85,
@@ -1464,12 +1464,12 @@
         53,
         51,
         42,
-        34,
+        35,
         32,
         32,
         27,
         19,
-        16,
+        15,
         11,
         12,
         8,
@@ -1529,212 +1529,212 @@
     "mixByYear": [
       {
         "year": 2017,
-        "total": 1153,
-        "unknown": 6,
+        "total": 1154,
+        "unknown": 7,
         "counts": {
-          "it-telecom": 455,
+          "it-telecom": 454,
           "healthcare-food": 308,
-          "consumer-goods-services": 146,
+          "consumer-goods-services": 148,
           "energy-utilities": 34,
           "financial-services": 84,
           "media-entertainment": 126
         },
         "shares": {
-          "it-telecom": 0.39462272333044235,
-          "healthcare-food": 0.26712922810060713,
-          "consumer-goods-services": 0.1266261925411969,
-          "energy-utilities": 0.029488291413703384,
-          "financial-services": 0.07285342584562012,
-          "media-entertainment": 0.10928013876843018
+          "it-telecom": 0.3934142114384749,
+          "healthcare-food": 0.2668977469670711,
+          "consumer-goods-services": 0.12824956672443674,
+          "energy-utilities": 0.029462738301559793,
+          "financial-services": 0.07279029462738301,
+          "media-entertainment": 0.10918544194107452
         }
       },
       {
         "year": 2018,
-        "total": 1133,
+        "total": 1134,
         "unknown": 3,
         "counts": {
           "it-telecom": 482,
           "healthcare-food": 302,
-          "consumer-goods-services": 136,
+          "consumer-goods-services": 137,
           "energy-utilities": 29,
           "financial-services": 94,
           "media-entertainment": 90
         },
         "shares": {
-          "it-telecom": 0.42541924095322153,
-          "healthcare-food": 0.26654898499558694,
-          "consumer-goods-services": 0.12003530450132392,
-          "energy-utilities": 0.02559576345984113,
-          "financial-services": 0.08296557811120918,
-          "media-entertainment": 0.0794351279788173
+          "it-telecom": 0.42504409171075835,
+          "healthcare-food": 0.26631393298059963,
+          "consumer-goods-services": 0.12081128747795414,
+          "energy-utilities": 0.025573192239858905,
+          "financial-services": 0.08289241622574955,
+          "media-entertainment": 0.07936507936507936
         }
       },
       {
         "year": 2019,
-        "total": 1036,
-        "unknown": 7,
+        "total": 1040,
+        "unknown": 9,
         "counts": {
-          "it-telecom": 424,
-          "healthcare-food": 291,
+          "it-telecom": 426,
+          "healthcare-food": 292,
           "consumer-goods-services": 124,
           "energy-utilities": 35,
           "financial-services": 74,
-          "media-entertainment": 88
+          "media-entertainment": 89
         },
         "shares": {
-          "it-telecom": 0.4092664092664093,
-          "healthcare-food": 0.2808880308880309,
-          "consumer-goods-services": 0.11969111969111969,
-          "energy-utilities": 0.033783783783783786,
-          "financial-services": 0.07142857142857142,
-          "media-entertainment": 0.08494208494208494
+          "it-telecom": 0.4096153846153846,
+          "healthcare-food": 0.28076923076923077,
+          "consumer-goods-services": 0.11923076923076924,
+          "energy-utilities": 0.03365384615384615,
+          "financial-services": 0.07115384615384615,
+          "media-entertainment": 0.08557692307692308
         }
       },
       {
         "year": 2020,
-        "total": 1062,
-        "unknown": 6,
+        "total": 1063,
+        "unknown": 5,
         "counts": {
-          "it-telecom": 444,
-          "healthcare-food": 322,
+          "it-telecom": 443,
+          "healthcare-food": 323,
           "consumer-goods-services": 120,
           "energy-utilities": 40,
           "financial-services": 60,
-          "media-entertainment": 76
+          "media-entertainment": 77
         },
         "shares": {
-          "it-telecom": 0.4180790960451977,
-          "healthcare-food": 0.3032015065913371,
-          "consumer-goods-services": 0.11299435028248588,
-          "energy-utilities": 0.03766478342749529,
-          "financial-services": 0.05649717514124294,
-          "media-entertainment": 0.07156308851224105
+          "it-telecom": 0.4167450611476952,
+          "healthcare-food": 0.30385700846660396,
+          "consumer-goods-services": 0.11288805268109126,
+          "energy-utilities": 0.03762935089369708,
+          "financial-services": 0.05644402634054563,
+          "media-entertainment": 0.07243650047036689
         }
       },
       {
         "year": 2021,
-        "total": 1015,
+        "total": 1025,
         "unknown": 2,
         "counts": {
-          "it-telecom": 428,
-          "healthcare-food": 266,
-          "consumer-goods-services": 84,
-          "energy-utilities": 62,
-          "financial-services": 88,
-          "media-entertainment": 87
+          "it-telecom": 430,
+          "healthcare-food": 269,
+          "consumer-goods-services": 86,
+          "energy-utilities": 63,
+          "financial-services": 89,
+          "media-entertainment": 88
         },
         "shares": {
-          "it-telecom": 0.42167487684729066,
-          "healthcare-food": 0.2620689655172414,
-          "consumer-goods-services": 0.08275862068965517,
-          "energy-utilities": 0.061083743842364535,
-          "financial-services": 0.08669950738916256,
-          "media-entertainment": 0.08571428571428572
+          "it-telecom": 0.4195121951219512,
+          "healthcare-food": 0.2624390243902439,
+          "consumer-goods-services": 0.08390243902439025,
+          "energy-utilities": 0.06146341463414634,
+          "financial-services": 0.08682926829268292,
+          "media-entertainment": 0.08585365853658537
         }
       },
       {
         "year": 2022,
-        "total": 864,
+        "total": 866,
         "unknown": 1,
         "counts": {
           "it-telecom": 352,
           "healthcare-food": 241,
-          "consumer-goods-services": 72,
+          "consumer-goods-services": 73,
           "energy-utilities": 63,
           "financial-services": 81,
-          "media-entertainment": 55
+          "media-entertainment": 56
         },
         "shares": {
-          "it-telecom": 0.4074074074074074,
-          "healthcare-food": 0.2789351851851852,
-          "consumer-goods-services": 0.08333333333333333,
-          "energy-utilities": 0.07291666666666667,
-          "financial-services": 0.09375,
-          "media-entertainment": 0.06365740740740741
+          "it-telecom": 0.4064665127020785,
+          "healthcare-food": 0.27829099307159355,
+          "consumer-goods-services": 0.08429561200923788,
+          "energy-utilities": 0.07274826789838337,
+          "financial-services": 0.09353348729792148,
+          "media-entertainment": 0.06466512702078522
         }
       },
       {
         "year": 2023,
-        "total": 494,
+        "total": 502,
         "unknown": 0,
         "counts": {
-          "it-telecom": 229,
-          "healthcare-food": 143,
+          "it-telecom": 234,
+          "healthcare-food": 145,
           "consumer-goods-services": 42,
           "energy-utilities": 33,
-          "financial-services": 22,
+          "financial-services": 23,
           "media-entertainment": 25
         },
         "shares": {
-          "it-telecom": 0.46356275303643724,
-          "healthcare-food": 0.2894736842105263,
-          "consumer-goods-services": 0.08502024291497975,
-          "energy-utilities": 0.06680161943319839,
-          "financial-services": 0.044534412955465584,
-          "media-entertainment": 0.05060728744939271
+          "it-telecom": 0.46613545816733065,
+          "healthcare-food": 0.28884462151394424,
+          "consumer-goods-services": 0.08366533864541832,
+          "energy-utilities": 0.06573705179282868,
+          "financial-services": 0.045816733067729085,
+          "media-entertainment": 0.049800796812749
         }
       },
       {
         "year": 2024,
-        "total": 426,
-        "unknown": 2,
+        "total": 429,
+        "unknown": 3,
         "counts": {
-          "it-telecom": 217,
-          "healthcare-food": 104,
-          "consumer-goods-services": 36,
+          "it-telecom": 218,
+          "healthcare-food": 105,
+          "consumer-goods-services": 37,
           "energy-utilities": 29,
           "financial-services": 16,
           "media-entertainment": 24
         },
         "shares": {
-          "it-telecom": 0.5093896713615024,
-          "healthcare-food": 0.24413145539906103,
-          "consumer-goods-services": 0.08450704225352113,
-          "energy-utilities": 0.06807511737089202,
-          "financial-services": 0.03755868544600939,
-          "media-entertainment": 0.056338028169014086
+          "it-telecom": 0.5081585081585082,
+          "healthcare-food": 0.24475524475524477,
+          "consumer-goods-services": 0.08624708624708624,
+          "energy-utilities": 0.0675990675990676,
+          "financial-services": 0.037296037296037296,
+          "media-entertainment": 0.055944055944055944
         }
       },
       {
         "year": 2025,
-        "total": 264,
-        "unknown": 4,
+        "total": 269,
+        "unknown": 6,
         "counts": {
-          "it-telecom": 134,
-          "healthcare-food": 56,
+          "it-telecom": 137,
+          "healthcare-food": 57,
           "consumer-goods-services": 21,
           "energy-utilities": 13,
           "financial-services": 20,
-          "media-entertainment": 20
+          "media-entertainment": 21
         },
         "shares": {
-          "it-telecom": 0.5075757575757576,
-          "healthcare-food": 0.21212121212121213,
-          "consumer-goods-services": 0.07954545454545454,
-          "energy-utilities": 0.04924242424242424,
-          "financial-services": 0.07575757575757576,
-          "media-entertainment": 0.07575757575757576
+          "it-telecom": 0.5092936802973977,
+          "healthcare-food": 0.21189591078066913,
+          "consumer-goods-services": 0.07806691449814127,
+          "energy-utilities": 0.048327137546468404,
+          "financial-services": 0.07434944237918216,
+          "media-entertainment": 0.07806691449814127
         }
       },
       {
         "year": 2026,
-        "total": 49,
+        "total": 50,
         "unknown": 0,
         "counts": {
           "it-telecom": 24,
           "healthcare-food": 7,
           "consumer-goods-services": 7,
           "energy-utilities": 6,
-          "financial-services": 1,
+          "financial-services": 2,
           "media-entertainment": 4
         },
         "shares": {
-          "it-telecom": 0.4897959183673469,
-          "healthcare-food": 0.14285714285714285,
-          "consumer-goods-services": 0.14285714285714285,
-          "energy-utilities": 0.12244897959183673,
-          "financial-services": 0.02040816326530612,
-          "media-entertainment": 0.08163265306122448
+          "it-telecom": 0.48,
+          "healthcare-food": 0.14,
+          "consumer-goods-services": 0.14,
+          "energy-utilities": 0.12,
+          "financial-services": 0.04,
+          "media-entertainment": 0.08
         }
       }
     ],
@@ -1742,43 +1742,43 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 7542,
-        "share": 0.4066425837062598
+        "count": 7585,
+        "share": 0.4064844587352626
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 4460,
-        "share": 0.2404701568986898
+        "count": 4488,
+        "share": 0.2405144694533762
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 2346,
-        "share": 0.12648945921173235
+        "count": 2362,
+        "share": 0.12658092175777064
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 882,
-        "share": 0.047554860624359735
+        "count": 883,
+        "share": 0.047320471596998925
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 1054,
-        "share": 0.05682859761686526
+        "count": 1062,
+        "share": 0.05691318327974276
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 2263,
-        "share": 0.12201434194209305
+        "count": 2280,
+        "share": 0.12218649517684887
       }
     ],
     "mixSummary": {
-      "totalVisible": 7496,
-      "totalUnknown": 31
+      "totalVisible": 7532,
+      "totalUnknown": 36
     },
     "subTrendYears": [
       2017,
@@ -1797,90 +1797,90 @@
         "name": "Cybersecurity",
         "parent": "IT and Telecom",
         "total": 524,
-        "shareDelta": 0.036,
+        "shareDelta": 0.035,
         "counts": [
-          62,
+          61,
           83,
           56,
           66,
           75,
-          66,
+          67,
           37,
           51,
           25,
           3
         ],
         "shares": [
-          0.053726169844020795,
-          0.07325684024713151,
-          0.05400192864030858,
-          0.062088428974600186,
-          0.07389162561576355,
-          0.0763888888888889,
-          0.07489878542510121,
-          0.11971830985915492,
-          0.09433962264150944,
-          0.061224489795918366
+          0.05281385281385281,
+          0.07319223985890652,
+          0.053794428434197884,
+          0.06203007518796992,
+          0.07317073170731707,
+          0.07736720554272518,
+          0.07370517928286853,
+          0.11888111888111888,
+          0.09259259259259259,
+          0.06
         ]
       },
       {
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
-        "total": 324,
-        "shareDelta": 0.028,
+        "total": 328,
+        "shareDelta": 0.031,
         "counts": [
           41,
           34,
           54,
           37,
-          35,
-          34,
+          36,
+          33,
+          33,
           32,
-          31,
-          17,
+          19,
           9
         ],
         "shares": [
-          0.03552859618717504,
-          0.03000882612533098,
-          0.052073288331726135,
-          0.034807149576669805,
-          0.034482758620689655,
-          0.03935185185185185,
-          0.06477732793522267,
-          0.07276995305164319,
-          0.06415094339622641,
-          0.1836734693877551
+          0.0354978354978355,
+          0.029982363315696647,
+          0.05187319884726225,
+          0.03477443609022556,
+          0.0351219512195122,
+          0.03810623556581986,
+          0.06573705179282868,
+          0.07459207459207459,
+          0.07037037037037037,
+          0.18
         ]
       },
       {
         "name": "Enterprise Software",
         "parent": "IT and Telecom",
-        "total": 1159,
+        "total": 1162,
         "shareDelta": 0.023,
         "counts": [
           149,
           171,
-          148,
-          191,
+          149,
+          190,
           171,
           123,
-          98,
+          100,
           59,
-          41,
+          42,
           8
         ],
         "shares": [
-          0.1291161178509532,
-          0.15092674315975288,
-          0.14271938283510124,
-          0.17968015051740358,
-          0.1684729064039409,
-          0.1423611111111111,
-          0.19838056680161945,
-          0.13849765258215962,
-          0.15471698113207547,
-          0.16326530612244897
+          0.129004329004329,
+          0.15079365079365079,
+          0.1431316042267051,
+          0.17857142857142858,
+          0.16682926829268294,
+          0.1420323325635104,
+          0.199203187250996,
+          0.13752913752913754,
+          0.15555555555555556,
+          0.16
         ]
       },
       {
@@ -1901,15 +1901,15 @@
           0
         ],
         "shares": [
-          0.006932409012131715,
-          0.009708737864077669,
-          0.007714561234329798,
-          0.010348071495766699,
-          0.014778325123152709,
-          0.015046296296296295,
-          0.012145748987854251,
-          0.025821596244131457,
-          0.052830188679245285,
+          0.006926406926406926,
+          0.009700176366843033,
+          0.007684918347742555,
+          0.010338345864661654,
+          0.014634146341463415,
+          0.015011547344110854,
+          0.01195219123505976,
+          0.02564102564102564,
+          0.05185185185185185,
           0.0
         ]
       },
@@ -1917,7 +1917,7 @@
         "name": "Clean Technology",
         "parent": "Energy and Utilities",
         "total": 144,
-        "shareDelta": 0.019,
+        "shareDelta": 0.018,
         "counts": [
           9,
           12,
@@ -1931,16 +1931,16 @@
           4
         ],
         "shares": [
-          0.00779896013864818,
-          0.01059135039717564,
-          0.01253616200578592,
-          0.016933207902163686,
-          0.019704433497536946,
-          0.037037037037037035,
-          0.032388663967611336,
-          0.035211267605633804,
-          0.018867924528301886,
-          0.08163265306122448
+          0.007792207792207792,
+          0.010582010582010581,
+          0.012487992315081652,
+          0.016917293233082706,
+          0.01951219512195122,
+          0.03695150115473441,
+          0.03187250996015936,
+          0.03496503496503497,
+          0.018518518518518517,
+          0.08
         ]
       }
     ],
@@ -1948,7 +1948,7 @@
       {
         "name": "Blockchain & Cryptocurrency",
         "parent": "Financial Services",
-        "total": 110,
+        "total": 111,
         "shareDelta": -0.018,
         "counts": [
           34,
@@ -1957,35 +1957,35 @@
           7,
           10,
           8,
-          1,
+          2,
           1,
           3,
           0
         ],
         "shares": [
-          0.029462738301559793,
-          0.03089143865842895,
-          0.010607521697203472,
-          0.00658513640639699,
-          0.009852216748768473,
-          0.009259259259259259,
-          0.0020242914979757085,
-          0.002347417840375587,
-          0.011320754716981131,
+          0.02943722943722944,
+          0.030864197530864196,
+          0.010566762728146013,
+          0.006578947368421052,
+          0.00975609756097561,
+          0.009237875288683603,
+          0.00398406374501992,
+          0.002331002331002331,
+          0.011111111111111112,
           0.0
         ]
       },
       {
         "name": "Travel & Hospitality",
         "parent": "Consumer Goods and Services",
-        "total": 103,
+        "total": 104,
         "shareDelta": -0.014,
         "counts": [
           26,
           16,
           24,
           14,
-          8,
+          9,
           7,
           3,
           4,
@@ -1993,23 +1993,53 @@
           0
         ],
         "shares": [
-          0.022530329289428077,
-          0.01412180052956752,
-          0.023143683702989394,
-          0.01317027281279398,
-          0.007881773399014778,
-          0.008101851851851851,
-          0.006072874493927126,
-          0.009389671361502348,
-          0.0037735849056603774,
+          0.022510822510822513,
+          0.014109347442680775,
+          0.023054755043227664,
+          0.013157894736842105,
+          0.00878048780487805,
+          0.008083140877598153,
+          0.00597609561752988,
+          0.009324009324009324,
+          0.003703703703703704,
+          0.0
+        ]
+      },
+      {
+        "name": "Social Media & Community",
+        "parent": "Consumer Goods and Services",
+        "total": 130,
+        "shareDelta": -0.012,
+        "counts": [
+          29,
+          16,
+          24,
+          19,
+          16,
+          16,
+          4,
+          3,
+          3,
+          0
+        ],
+        "shares": [
+          0.025108225108225107,
+          0.014109347442680775,
+          0.023054755043227664,
+          0.017857142857142856,
+          0.015609756097560976,
+          0.018475750577367205,
+          0.00796812749003984,
+          0.006993006993006993,
+          0.011111111111111112,
           0.0
         ]
       },
       {
         "name": "Advertising Technology",
         "parent": "IT and Telecom",
-        "total": 176,
-        "shareDelta": -0.012,
+        "total": 177,
+        "shareDelta": -0.011,
         "counts": [
           47,
           31,
@@ -2019,88 +2049,58 @@
           11,
           8,
           8,
-          4,
+          5,
           0
         ],
         "shares": [
-          0.04072790294627383,
-          0.02736098852603707,
-          0.019286403085824494,
-          0.01975540921919097,
-          0.02561576354679803,
-          0.01273148148148148,
-          0.016194331983805668,
-          0.018779342723004695,
-          0.01509433962264151,
-          0.0
-        ]
-      },
-      {
-        "name": "Social Media & Community",
-        "parent": "Consumer Goods and Services",
-        "total": 129,
-        "shareDelta": -0.012,
-        "counts": [
-          29,
-          16,
-          24,
-          19,
-          15,
-          16,
-          4,
-          3,
-          3,
-          0
-        ],
-        "shares": [
-          0.02512998266897747,
-          0.01412180052956752,
-          0.023143683702989394,
-          0.017873941674506115,
-          0.014778325123152709,
+          0.04069264069264069,
+          0.027336860670194002,
+          0.01921229586935639,
+          0.019736842105263157,
+          0.025365853658536587,
+          0.012702078521939953,
+          0.01593625498007968,
+          0.018648018648018648,
           0.018518518518518517,
-          0.008097165991902834,
-          0.007042253521126761,
-          0.011320754716981131,
           0.0
         ]
       },
       {
         "name": "Automotive & Transportation",
         "parent": "Consumer Goods and Services",
-        "total": 84,
+        "total": 86,
         "shareDelta": -0.011,
         "counts": [
-          13,
+          14,
           15,
           21,
           16,
           8,
-          4,
+          5,
           4,
           2,
           0,
           1
         ],
         "shares": [
-          0.011265164644714038,
-          0.01323918799646955,
-          0.020250723240115717,
-          0.015051740357478834,
-          0.007881773399014778,
-          0.004629629629629629,
-          0.008097165991902834,
-          0.004694835680751174,
+          0.012121212121212121,
+          0.013227513227513227,
+          0.020172910662824207,
+          0.015037593984962405,
+          0.007804878048780488,
+          0.005773672055427252,
+          0.00796812749003984,
+          0.004662004662004662,
           0.0,
-          0.02040816326530612
+          0.02
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 7868,
-      "deeptechPct": 42.2,
-      "globalCount": 7914,
-      "globalPct": 42.4
+      "deeptechCount": 7896,
+      "deeptechPct": 42.1,
+      "globalCount": 7931,
+      "globalPct": 42.2
     }
   },
   "feeds": {
@@ -2161,17 +2161,6 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Hemispheric",
-        "stage": "Series A",
-        "amountUsd": 52000000,
-        "investors": [],
-        "investorCount": 11,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
         "org": "DisperseBio",
         "stage": "Grant",
         "amountUsd": 15000,
@@ -2180,6 +2169,17 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "Ray of Hope Accelerator Grant"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Hemispheric",
+        "stage": "Series A",
+        "amountUsd": 52000000,
+        "investors": [],
+        "investorCount": 11,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2302,17 +2302,6 @@
       },
       {
         "ts": "2026-06-22T00:00:00.000Z",
-        "org": "AppsFlyer",
-        "stage": "Series E",
-        "amountUsd": 1000000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series E"
-      },
-      {
-        "ts": "2026-06-22T00:00:00.000Z",
         "org": "RedHill Biopharma",
         "stage": "Post-IPO",
         "amountUsd": 6000000,
@@ -2321,6 +2310,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Private Placement - June 2026"
+      },
+      {
+        "ts": "2026-06-22T00:00:00.000Z",
+        "org": "AppsFlyer",
+        "stage": "Series E",
+        "amountUsd": 1000000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series E"
       }
     ],
     "todayStats": {
@@ -2330,369 +2330,376 @@
     },
     "newStartups": [
       {
-        "ts": "2026-07-20T07:46:27.071Z",
-        "org": "CEPCO Health Management Systems Ltd",
+        "ts": "2026-07-20T10:35:48.751Z",
+        "org": "Agile Business Solutions",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "IT Services & Consulting",
+        "description": "System integrator providing IT strategy, project management, business analysis, system design, and custom software development services to optimize business processes.",
+        "domain": "agilebs.com",
+        "keywords": [
+          "Information technology services",
+          "System integration",
+          "Custom software development",
+          "Cloud infrastructure",
+          "Project management",
+          "Business analysis",
+          "Microsoft solutions"
+        ],
+        "employeeRange": "11-50",
+        "isDeeptech": false,
+        "businessModel": "B2B Services"
+      },
+      {
+        "ts": "2026-07-20T10:35:17.530Z",
+        "org": "AI Medical Semiconductor",
         "industry": "Healthcare and Food",
         "city": "",
-        "subIndustry": "Healthcare IT",
-        "description": "Operational entity developing health management systems and a medical card product for healthcare administration.",
+        "subIndustry": "Medical Devices",
+        "description": "Develops spiking neural network technology for control of cardiac implants.",
         "keywords": [
-          "Health management systems",
-          "Medical card",
-          "Healthcare administration",
-          "Health technology",
-          "Medical software"
+          "Spiking neural networks",
+          "Cardiac implants",
+          "Neuromorphic computing",
+          "Medical device AI",
+          "Implantable medical devices"
         ],
         "employeeRange": "1-10",
-        "isDeeptech": false,
+        "isDeeptech": true,
         "businessModel": "B2B"
       },
       {
-        "ts": "2026-07-20T07:44:39.579Z",
-        "org": "CFLABS.CO",
-        "industry": "Financial Services",
+        "ts": "2026-07-20T10:34:37.797Z",
+        "org": "Ai R&D",
+        "industry": "IT and Telecom",
         "city": "",
-        "subIndustry": "Payments & Transactions",
-        "description": "Alternative finance platform providing crowdfunding solutions for businesses and individuals.",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Private research organization focused on advancing conversational artificial intelligence through fundamental research and development.",
         "keywords": [
-          "Crowdfunding",
-          "Alternative finance",
-          "Fundraising platform",
-          "Peer-to-peer lending",
-          "Investment platform"
+          "Conversational AI",
+          "Artificial intelligence research",
+          "Natural language processing",
+          "Dialogue systems",
+          "Machine learning",
+          "Deep learning",
+          "Language understanding"
         ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
+        "isDeeptech": true,
+        "businessModel": "Research and Development"
       },
       {
-        "ts": "2026-07-20T07:39:10.700Z",
-        "org": "ChemXtry Inc.",
+        "ts": "2026-07-20T10:34:33.613Z",
+        "org": "AI Recruiting Intelligence Platform",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "AI & Machine Learning",
+        "description": "LLM-powered platform for candidate-to-role matching, enabling efficient recruitment through AI-driven analysis.",
+        "keywords": [
+          "AI recruiting",
+          "Candidate matching",
+          "Talent acquisition",
+          "LLM platform",
+          "Recruitment automation"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "B2B SaaS"
+      },
+      {
+        "ts": "2026-07-20T10:33:07.615Z",
+        "org": "AIRGAPIX",
         "industry": "Unknown",
         "city": "",
-        "description": "Stealth-mode AI-driven chemistry discovery platform startup.",
+        "description": "Airgapix provides security solutions for air-gapped, isolated, and sensitive IT environments, serving sectors such as banking, finance, and critical infrastructure.",
+        "domain": "airgapix.com",
         "employeeRange": "1-10",
         "exactEmployees": 1
       },
       {
-        "ts": "2026-07-20T07:38:34.818Z",
-        "org": "C-Hermes Financial Services",
-        "industry": "Financial Services",
+        "ts": "2026-07-20T10:32:39.709Z",
+        "org": "AI Solutions",
+        "industry": "IT and Telecom",
         "city": "",
-        "subIndustry": "Investment & Wealth Management",
-        "description": "Technology-driven trading firm developing proprietary models and advanced trading strategies for financial markets.",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Development of AI-powered assistants and RAG SaaS platforms.",
         "keywords": [
-          "Proprietary trading",
-          "Quantitative trading",
-          "Algorithmic trading",
-          "Financial markets",
-          "Trading strategies"
+          "Ai assistants",
+          "Rag platforms",
+          "SaaS",
+          "Artificial intelligence",
+          "Retrieval augmented generation",
+          "Conversational AI"
         ],
-        "employeeRange": "11-50",
+        "employeeRange": "1-10",
+        "exactEmployees": 1,
         "isDeeptech": false,
         "businessModel": "B2B"
       },
       {
-        "ts": "2026-07-20T07:34:30.058Z",
-        "org": "Chromatis",
+        "ts": "2026-07-20T10:32:00.024Z",
+        "org": "Alamgu",
         "industry": "IT and Telecom",
-        "city": "Herndon",
-        "subIndustry": "Telecommunications",
-        "description": "Optical networking company that developed metropolitan area network equipment enabling efficient multi-service traffic (voice, data, video) over fiber optic infrastructure.",
+        "city": "",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Developer of advanced voice synthesis and text-to-speech technology, specializing in accessibility solutions for individuals with visual or speech impairments.",
         "keywords": [
-          "Optical networking",
-          "Metro optical networks",
-          "Fiber optic equipment",
-          "Telecommunications infrastructure",
-          "Multi-service transport"
+          "Text to speech",
+          "Voice synthesis",
+          "Accessibility software",
+          "Assistive technology",
+          "Speech impairment solutions",
+          "Screen reader technology",
+          "AI voice generation"
         ],
-        "employeeRange": "51-200",
-        "exactEmployees": 150,
+        "employeeRange": "1-10",
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-20T10:31:03.702Z",
+        "org": "Algo",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Enterprise Software",
+        "description": "AI-powered supply chain planning SaaS platform providing demand forecasting, inventory optimization, and omnichannel planning for retailers, suppliers, distributors, and manufacturers.",
+        "keywords": [
+          "Supply chain planning",
+          "Demand forecasting",
+          "Inventory optimization",
+          "AI supply chain",
+          "Omnichannel planning",
+          "Retail planning software",
+          "SaaS supply chain"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B SaaS"
+      },
+      {
+        "ts": "2026-07-20T10:30:00.431Z",
+        "org": "AlgoMentor",
+        "industry": "Financial Services",
+        "city": "",
+        "subIndustry": "Investment & Wealth Management",
+        "description": "Advanced AI tools providing oversight and control systems for trading environments at large investment and trading firms.",
+        "keywords": [
+          "Trading oversight",
+          "Investment management software",
+          "Trading control systems",
+          "AI trading tools",
+          "Financial compliance",
+          "Risk management",
+          "Algorithmic trading"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-20T10:29:48.304Z",
+        "org": "Algoreit AI",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "AI & Machine Learning",
+        "description": "AI-powered platform for real estate marketing and property value forecasting using machine learning algorithms.",
+        "keywords": [
+          "Real estate marketing",
+          "Property forecasting",
+          "AI analytics",
+          "Predictive modeling",
+          "Real estate technology",
+          "Property valuation",
+          "Marketing automation"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B SaaS"
+      },
+      {
+        "ts": "2026-07-20T10:26:13.646Z",
+        "org": "Almagor Application Development",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Custom software integration and development services for businesses across multiple industries.",
+        "keywords": [
+          "Custom software development",
+          "Software integration",
+          "IT consulting",
+          "Application development",
+          "Software outsourcing"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-20T10:25:21.339Z",
+        "org": "Amir Cashflow Ltd",
+        "industry": "Financial Services",
+        "city": "\u05d1\u05e0\u05d9 \u05d1\u05e8\u05e7",
+        "subIndustry": "Accounting & Finance Software",
+        "description": "Financial management and cashflow analysis software provider.",
+        "keywords": [
+          "Financial management",
+          "Cashflow analysis",
+          "Cash flow forecasting",
+          "Financial planning",
+          "Business finance software",
+          "Accounting software",
+          "Liquidity management"
+        ],
+        "employeeRange": "11-50",
+        "isDeeptech": false,
+        "businessModel": "B2B SaaS"
+      },
+      {
+        "ts": "2026-07-20T10:21:34.615Z",
+        "org": "AlternativeTraveling.com",
+        "industry": "Media and Entertainment",
+        "city": "",
+        "subIndustry": "Publishing & Content",
+        "description": "Rich media information provider for the budget and alternative traveling industry.",
+        "domain": "alternativetraveling.com",
+        "keywords": [
+          "Budget travel",
+          "Alternative travel",
+          "Travel information",
+          "Travel guides",
+          "Travel tips",
+          "Travel resources"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "Content Publisher"
+      },
+      {
+        "ts": "2026-07-20T10:21:05.457Z",
+        "org": "AlumaBio",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Biotechnology",
+        "description": "Biotechnology company developing innovative solutions for life sciences and industrial biology applications.",
+        "keywords": [
+          "Biotechnology",
+          "Life sciences",
+          "Industrial biology",
+          "Bioengineering",
+          "Synthetic biology",
+          "Biomanufacturing"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": true
+      },
+      {
+        "ts": "2026-07-20T10:17:33.546Z",
+        "org": "AMMY-Bio",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Food Technology",
+        "description": "Biotechnology company developing biosynthetic collagen, carbon capture solutions, and biosynthetic sweeteners and colorants using microalgae.",
+        "keywords": [
+          "Biosynthetic collagen",
+          "Microalgae biotechnology",
+          "Carbon capture",
+          "Biosynthetic sweeteners",
+          "Food technology",
+          "Climate technology",
+          "Sustainable ingredients"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-20T10:17:31.618Z",
+        "org": "Amuso Studios",
+        "industry": "Media and Entertainment",
+        "city": "",
+        "subIndustry": "Gaming",
+        "description": "Developed location-based games for mobile devices, creating a unique game design and working prototype before ceasing operations.",
+        "keywords": [
+          "Location-based games",
+          "Mobile game development",
+          "Game design",
+          "Prototype development"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Business to Consumer"
+      },
+      {
+        "ts": "2026-07-20T10:14:38.446Z",
+        "org": "ANATXT",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Data & Analytics",
+        "description": "Software platform for analyzing structured and unstructured text, providing insights for financial organizations, banking institutions, insurance companies, and government agencies.",
+        "keywords": [
+          "Text analysis",
+          "Natural language processing",
+          "Unstructured data",
+          "Fraud detection",
+          "Financial crime analytics",
+          "Intelligence analysis",
+          "OSINT"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-07-20T10:13:44.711Z",
+        "org": "AnchorAway Ltd.",
+        "industry": "Consumer Goods and Services",
+        "city": "",
+        "subIndustry": "Automotive & Transportation",
+        "description": "Company developing modern technologies to enhance safety, operation, and maintenance for the boating industry.",
+        "keywords": [
+          "Boating safety",
+          "Marine technology",
+          "Boat maintenance",
+          "Marine operations",
+          "Vessel safety"
+        ],
+        "employeeRange": "1-10",
         "isDeeptech": false,
         "businessModel": "Product"
       },
       {
-        "ts": "2026-07-20T07:33:58.060Z",
-        "org": "Chronicles Publishers",
-        "industry": "Media and Entertainment",
-        "city": "",
-        "subIndustry": "Publishing & Content",
-        "description": "Publishing company producing books that offer scientific interpretations of the Bible.",
-        "keywords": [
-          "Biblical interpretation",
-          "Religious publishing",
-          "Science and religion",
-          "Christian literature",
-          "Theological books"
-        ],
-        "employeeRange": "11-50",
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-07-20T07:29:24.889Z",
-        "org": "Circuito.io",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "Web platform for designing electronic circuits, generating schematics and code automatically from component selection.",
-        "domain": "circuito.io",
-        "keywords": [
-          "Electronic circuit design",
-          "Arduino project builder",
-          "Schematic generator",
-          "Code generation",
-          "DIY electronics",
-          "Hardware prototyping",
-          "Component selection"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-07-20T07:29:13.455Z",
-        "org": "Cizaro Corp",
-        "industry": "IT and Telecom",
-        "city": "Wilmington",
-        "subIndustry": "Enterprise Software",
-        "description": "Cloud-based business management suite combining point-of-sale, enterprise resource planning, and customer relationship management for retail and hospitality businesses.",
-        "domain": "cizaro.com",
-        "keywords": [
-          "Point of sale software",
-          "ERP system",
-          "Inventory management",
-          "Retail management",
-          "Restaurant POS",
-          "Cloud-based POS",
-          "Business management software",
-          "E-commerce integration",
-          "Customer relationship management",
-          "Multi-store management"
-        ],
-        "employeeRange": "11-50 employees",
-        "exactEmployees": 8,
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS"
-      },
-      {
-        "ts": "2026-07-20T07:27:29.413Z",
-        "org": "Classified Startup",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "AI & Machine Learning",
-        "description": "Technology startup developing algorithms and machine learning solutions for data-driven applications.",
-        "keywords": [
-          "Machine learning",
-          "Algorithm development",
-          "Data analytics",
-          "Predictive modeling",
-          "Artificial intelligence"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-20T07:26:29.902Z",
-        "org": "Cleanergy",
-        "industry": "Energy and Utilities",
-        "city": "",
-        "subIndustry": "Energy Tech",
-        "description": "Boutique energy management office providing consulting and project management for PV, storage, and natural gas sectors.",
-        "domain": "cleanergy.co.il",
-        "keywords": [
-          "Energy management consulting",
-          "Project management",
-          "Photovoltaic systems",
-          "Energy storage",
-          "Natural gas",
-          "Renewable energy consulting"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 6,
-        "isDeeptech": false,
-        "businessModel": "B2B Services"
-      },
-      {
-        "ts": "2026-07-20T07:26:00.979Z",
-        "org": "Cleap",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "Digital receipts service connecting directly to POS systems, enabling paperless transaction records for businesses.",
-        "keywords": [
-          "Digital receipts",
-          "Point of sale integration",
-          "Paperless transactions",
-          "Receipt management",
-          "POS connectivity"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 1,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-20T07:25:28.261Z",
-        "org": "Clear Lake Technologies",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "IT Services & Consulting",
-        "description": "IT and marketing consultancy providing business development services to companies in the global financial services market.",
-        "keywords": [
-          "IT consulting",
-          "Marketing consultancy",
-          "Business development services",
-          "Financial services consulting"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "B2B Services"
-      },
-      {
-        "ts": "2026-07-20T07:23:39.485Z",
-        "org": "Cliconomy",
-        "industry": "Media and Entertainment",
-        "city": "",
-        "subIndustry": "Advertising Technology",
-        "description": "Marketing consultation services specializing in online traffic buying and selling, email marketing, and database utilization.",
-        "keywords": [
-          "Online traffic buying",
-          "Email marketing",
-          "Database marketing",
-          "Marketing consultation",
-          "Digital advertising",
-          "Affiliate marketing",
-          "Lead generation",
-          "Performance marketing"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "Consulting"
-      },
-      {
-        "ts": "2026-07-20T07:23:39.472Z",
-        "org": "Clinical-i",
-        "industry": "Unknown",
-        "city": "",
-        "description": "Strategic clinical consulting for healthcare companies.",
-        "employeeRange": "1-10"
-      },
-      {
-        "ts": "2026-07-20T07:23:39.470Z",
-        "org": "Cloud-Intelligence",
-        "industry": "Energy and Utilities",
-        "city": "",
-        "subIndustry": "Energy Tech",
-        "description": "Cloud-based intelligence platform providing data analytics and insights for the energy industry.",
-        "keywords": [
-          "Cloud-based analytics",
-          "Data intelligence",
-          "Energy analytics",
-          "Predictive analytics",
-          "Business intelligence"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-20T07:23:39.464Z",
-        "org": "Clini-Kal",
-        "industry": "Healthcare and Food",
-        "city": "Rotherham",
-        "subIndustry": "Medical Devices",
-        "description": "Outsourced clinical services provider offering regulatory, pre-clinical, and clinical development solutions for medical device companies.",
-        "domain": "clini-kal.co.il",
-        "keywords": [
-          "Medical device clinical services",
-          "Regulatory consulting",
-          "Clinical development",
-          "Pre-clinical testing",
-          "Outsourced clinical trials",
-          "Medical device regulatory affairs",
-          "Clinical research services"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "B2B Services"
-      },
-      {
-        "ts": "2026-07-20T07:23:39.440Z",
-        "org": "CLOTHAT",
+        "ts": "2026-07-20T10:11:28.461Z",
+        "org": "Any.Party",
         "industry": "Consumer Goods and Services",
         "city": "",
-        "subIndustry": "Fashion & Apparel",
-        "description": "Fashion technology platform providing a mix-and-match clothing application for virtual outfit coordination.",
+        "subIndustry": "Consumer Services",
+        "description": "Online platform for event planning and party services, enabling users to organize and manage events.",
         "keywords": [
-          "Fashion technology",
-          "Mix and match clothing",
-          "Virtual wardrobe",
-          "Outfit coordination",
-          "Style recommendation",
-          "Clothing app",
-          "Fashion discovery"
+          "Event planning",
+          "Party services",
+          "Online event management",
+          "Event organization",
+          "Party planning platform"
         ],
-        "employeeRange": "1-10",
         "isDeeptech": false,
         "businessModel": "B2C"
       },
       {
-        "ts": "2026-07-20T07:19:54.823Z",
-        "org": "CloudIT Consulting",
+        "ts": "2026-07-20T10:11:14.546Z",
+        "org": "AnyWare Access",
         "industry": "IT and Telecom",
         "city": "",
-        "subIndustry": "IT Services & Consulting",
-        "description": "IT consulting firm providing managed IT services, cloud solutions, cybersecurity, and compliance support to optimize operations and reduce IT costs for businesses.",
-        "domain": "cloudit.co.il",
+        "subIndustry": "Telecommunications",
+        "description": "Cloud-based platform providing roaming connectivity solutions for cellular network users traveling abroad, enabling seamless international mobile data access.",
         "keywords": [
-          "Managed IT services",
-          "Cloud solutions",
-          "Cybersecurity",
-          "IT consulting",
-          "Compliance support",
-          "IT infrastructure",
-          "Technology strategy"
+          "International roaming",
+          "Cellular network solutions",
+          "Traveler connectivity",
+          "Mobile data roaming",
+          "Global SIM solutions",
+          "Roaming management",
+          "Telecom infrastructure"
         ],
         "employeeRange": "1-10",
-        "exactEmployees": 1,
-        "isDeeptech": false,
-        "businessModel": "B2B Services"
-      },
-      {
-        "ts": "2026-07-20T07:18:51.831Z",
-        "org": "Cognitical",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Advertising Technology",
-        "description": "Artificial intelligence platform for online advertising campaign optimization and audience targeting.",
-        "keywords": [
-          "Online advertising",
-          "Campaign optimization",
-          "Artificial intelligence",
-          "Ad targeting",
-          "Marketing automation"
-        ],
-        "employeeRange": "11-50",
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-07-20T07:17:13.085Z",
-        "org": "Co host",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "Platform for short-term rental property managers, providing tools to manage holiday apartment listings, bookings, and operations.",
-        "keywords": [
-          "Short-term rental management",
-          "Holiday apartment platform",
-          "Property management software",
-          "Vacation rental tools",
-          "Airbnb co-host services",
-          "Rental property operations",
-          "Booking management"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS"
       }
     ],
     "notable": [
@@ -2706,23 +2713,9 @@
       {
         "ts": "2026-07-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "imgn",
-        "summary": "IMGN partnered with the Raindance Film Festival to launch the IMGN/Raindance Film Fund (\u00a310,000) and the Raindance\u2013IMGN Development Hub, integrated into the 2027 Raindance Script Competition, to support independent filmmakers with AI-powered production planning tools."
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Government Contract",
         "org": "XTEND",
         "summary": "Supported British Army during a major autonomous strike exercise, advancing UK operational drone warfare capabilities."
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Fhenix",
-        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
       },
       {
         "ts": "2026-07-16T00:00:00.000Z",
@@ -2734,58 +2727,37 @@
       {
         "ts": "2026-07-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Cyabra",
-        "summary": "Cyabra collaborated with Onclusive to help brands distinguish authentic conversation from inauthentic narratives."
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Award Recognition",
         "org": "Eco Wave Power",
         "summary": "California's Final SB 605 Report highlighted Eco Wave Power's Port of Los Angeles pilot as part of the state's marine energy commercialization assessment."
       },
       {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Captain's Eye",
-        "summary": "Secured major deployment across more than 100 Pacific Basin vessels."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
+        "ts": "2026-07-16T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
+        "org": "Fhenix",
+        "summary": "Partnered with Sedona to integrate CoFHE infrastructure into Sedona's Arbitrum-based trading platform."
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "imgn",
+        "summary": "IMGN partnered with the Raindance Film Festival to launch the IMGN/Raindance Film Fund (\u00a310,000) and the Raindance\u2013IMGN Development Hub, integrated into the 2027 Raindance Script Competition, to support independent filmmakers with AI-powered production planning tools."
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Cyabra",
+        "summary": "Cyabra collaborated with Onclusive to help brands distinguish authentic conversation from inauthentic narratives."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Gilat Satellite Networks",
-        "summary": "Received over $20 million in orders from a leading global satellite operator for SkyEdge services and systems, most deliveries expected within 24 months."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Accelerator Milestone",
-        "org": "DisperseBio",
-        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Viz.ai",
-        "summary": "Viz.ai to support the MINUTE Trial, a landmark multicenter study evaluating the SCUBA..."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Genda",
-        "summary": "Buildots commercialized Genda's workforce, safety, and logistics capabilities under the new Buildots Field brand, with pre-sales opening and a fully integrated Buildots Field App on track for general availability in Q4 2026."
+        "rawKind": "Conference Presentation",
+        "org": "Tastewise",
+        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2797,9 +2769,16 @@
       {
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Oak Identity Security",
-        "summary": "Oak emerged from stealth and launched its AI-native Identity Operating System, a unified platform governing human, machine, and AI identities, generally available and deployed by enterprise clients."
+        "rawKind": "Customer Milestone",
+        "org": "Gilat Satellite Networks",
+        "summary": "Received over $20 million in orders from a leading global satellite operator for SkyEdge services and systems, most deliveries expected within 24 months."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Fullpath",
+        "summary": "Christina Rosenbach, Chief Customer Officer of Fullpath, recognized as a 2026 Women in Retail honoree by Auto Remarketing."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2812,22 +2791,50 @@
         "ts": "2026-07-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Genda",
+        "summary": "Buildots commercialized Genda's workforce, safety, and logistics capabilities under the new Buildots Field brand, with pre-sales opening and a fully integrated Buildots Field App on track for general availability in Q4 2026."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Viz.ai",
+        "summary": "Viz.ai to support the MINUTE Trial, a landmark multicenter study evaluating the SCUBA..."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Captain's Eye",
+        "summary": "Secured major deployment across more than 100 Pacific Basin vessels."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Accelerator Milestone",
+        "org": "DisperseBio",
+        "summary": "Selected for the 2026 Ray of Hope Accelerator by the Biomimicry Institute, receiving $15,000 in non-dilutive funding and access to resources and mentorship."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Partnered with ParityQC to optimize and streamline quantum execution."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Oak Identity Security",
+        "summary": "Oak emerged from stealth and launched its AI-native Identity Operating System, a unified platform governing human, machine, and AI identities, generally available and deployed by enterprise clients."
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "Pentera",
         "summary": "Added granular testing of ransomware families Qilin, Play, and BlackCat to prevent breaches."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Tastewise",
-        "summary": "Alon Chen, Chief Executive Officer and Co-Founder of Tastewise, to share real-world use cases of AI in food innovation at the IFT FIRST Annual Event and Expo."
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Fullpath",
-        "summary": "Christina Rosenbach, Chief Customer Officer of Fullpath, recognized as a 2026 Women in Retail honoree by Auto Remarketing."
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
