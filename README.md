@@ -40,8 +40,11 @@ changes. Every refresh is a commit, so the git history is the changelog.
 | intraday | hourly |
 | daily | daily |
 
-`network.json` and `embedding-map.*` are visualization geometry for the
-interactive views. For figures, use the other files.
+`network.json` holds the graph the dashboard draws: founders and their
+startups, the schools they attended, the companies they worked at, the angels
+who hold shares, and the Israel Innovation Authority joined to every company
+it has funded. `embedding-map.*` is coordinates for the similarity map. For
+ecosystem totals, use the other files.
 
 ## License
 
