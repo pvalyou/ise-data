@@ -1,0 +1,1910 @@
+{
+  "schemaVersion": 1,
+  "page": "angels",
+  "generatedAt": "2026-07-21T16:33:28.252Z",
+  "widgetMetadata": {
+    "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
+    "widgets": {
+      "angels:kpi-angels": {
+        "title": "Angels",
+        "description": "Total number of individuals identified as angel investors in the Israeli startup population. The sparkline shows how many wrote their first ever recorded check in each of the last ten years, so it tracks new entrants rather than everyone active in a year.",
+        "dataPaths": [
+          "angels.total",
+          "byYear.years",
+          "byYear.newAngels"
+        ]
+      },
+      "angels:kpi-investments": {
+        "title": "Investments",
+        "description": "Total angel-company pairings, counting each company once per angel however many rounds they joined. The bars show investments per year, where the solid portion was made by angels writing their first ever check and the outline above it is repeat activity from angels already in the data.",
+        "dataPaths": [
+          "angels.investments",
+          "byYear.years",
+          "byYear.investments",
+          "byYear.newAngels"
+        ]
+      },
+      "angels:kpi-companies": {
+        "title": "Companies Backed",
+        "description": "Distinct companies in the Israeli startup population with at least one identified angel behind them. The sparkline counts companies receiving their first angel check each year, so a company appears once however many angels back it later.",
+        "dataPaths": [
+          "angels.startupsBacked",
+          "byYear.years",
+          "byYear.newCompanies"
+        ]
+      },
+      "angels:kpi-age": {
+        "title": "Age at First Check",
+        "description": "How old angels were when they made their first recorded investment, in five-year bands from 25 with an open final band. The source carries no birth date, so age is reconstructed from a person\u2019s age when they founded a company against that company\u2019s founding year, which means it only exists for angels who are also founders. The covered share is stated on the card.",
+        "dataPaths": [
+          "ageAtFirstCheck"
+        ]
+      },
+      "angels:kpi-exit-lag": {
+        "title": "Exit to First Check",
+        "description": "How many years passed between a founder exit and that person\u2019s first angel investment, in two-year bands with an open final band and the median called out. The population is only angels who founded a company that was acquired or went public, and the covered count against that population is stated on the card. Angels whose first check predates their exit fall outside the measured set.",
+        "dataPaths": [
+          "exitToFirstCheck"
+        ]
+      },
+      "angels:profile": {
+        "title": "Startup Experience",
+        "description": "What these people did before they started writing checks. The donut splits every angel into three tiers by founder background \u2014 never founded a company, founded but no exit, founded and exited. The centre of the donut reads the founded share at rest, and on hover names the tier under the cursor and gives the mean number of investments per angel in it, which is what shows whether founding and exiting changes how much someone invests. The exited tier is deliberately not split by whether investing started before or after the exit, because that split key correlates with portfolio size and the comparison would be circular; the count of angels already investing before their exit is carried in the data as a note.",
+        "dataPaths": [
+          "profile.tiers",
+          "profile.angelBeforeExit"
+        ]
+      },
+      "angels:dna": {
+        "title": "Angel DNA",
+        "description": "The share of angels with a technical versus a non-technical background, over the angels with a known classification. Same technical / non-technical axis the founders page uses, so the two are comparable. Technical means an affirmatively technical background; non-technical is everyone else, not a named function.",
+        "dataPaths": [
+          "profile.dnaTechnical",
+          "profile.dnaNonTechnical",
+          "profile.dnaKnown"
+        ]
+      },
+      "angels:geography": {
+        "title": "Where Angels Are Based",
+        "description": "Where the angels backing Israeli startups are located, split into Israel, the United States and the rest of the world, with the angel count, the mean investments per angel and the number of companies each group reaches. Country aliases are folded together first. Angels with no recorded country are excluded from the split rather than folded into the rest, because a missing country could be either, and are reported separately in the data. A large share sit outside Israel, which is diaspora and foreign capital reaching Israeli companies.",
+        "dataPaths": [
+          "geography.groups",
+          "geography.known",
+          "geography.unknown",
+          "geography.countries"
+        ]
+      },
+      "angels:employers": {
+        "title": "Where Angels Worked",
+        "description": "The most common prior employers among angels, counted once per person per employer. A person\u2019s own founder roles are excluded, schools are excluded so they cannot leak in from the employer side, and membership networks and advisory councils are excluded as affiliations rather than jobs. Built like the founders page equivalent, so the two are comparable.",
+        "dataPaths": [
+          "employers.items",
+          "employers.coveredAngels"
+        ]
+      },
+      "angels:schools": {
+        "title": "Where Angels Studied",
+        "description": "The most common institutions angels attended, counted once per person per school. Shares are against the angels with a recorded school rather than all angels. Built like the founders page equivalent, so the two are comparable.",
+        "dataPaths": [
+          "schools.items",
+          "schools.coveredAngels"
+        ]
+      },
+      "angels:gender": {
+        "title": "Gender",
+        "description": "The gender split among identified angels, over the angels with a known value. This became reportable only after an enrichment backfill took coverage from roughly 45% to 99%; before that the field was populated for angels who are also founders and almost nobody else. The share of women here runs below the equivalent share among founders.",
+        "dataPaths": [
+          "gender"
+        ]
+      },
+      "angels:leaderboard": {
+        "title": "Most Active Angels",
+        "description": "Angels ranked by how many distinct companies in the Israeli startup population they backed. Bars are scaled to the top angel. Each row shows the portfolio count and the span of years between the first and most recent recorded round, with a marker for angels who founded a company that exited. Hovering a row names the companies they founded and the most recent companies they backed. Follow-on rounds into the same company count once toward the portfolio, so the round count can exceed it.",
+        "dataPaths": [
+          "leaderboard"
+        ]
+      },
+      "angels:portfolio-distribution": {
+        "title": "Investments per Angel",
+        "description": "How concentrated angel activity is: the number of angels who made 1, 2, 3-4, 5-9, or 10 or more investments, with the share of all investments each group accounts for. Reads as a power law, where most identified angels appear once and a small group carries a disproportionate share of the deals.",
+        "dataPaths": [
+          "portfolioDistribution"
+        ]
+      },
+      "angels:stage-mix": {
+        "title": "Where Angels Enter",
+        "description": "The funding stage of every equity round an angel participated in, drawn as a centred funnel read top to bottom in ladder order, from pre-seed through seed and up. Rounds labelled Angel are counted as pre-seed: the two are one rung under two names, and the evidence is that they almost never appear at the same company, that neither consistently precedes the other when they do, that both sit about the same distance before that company own seed round, that the same investors write both, and that Angel was the common label until roughly 2016 and pre-seed has been the common label since. Band width and fill depth both carry the number of rounds. SAFEs, convertible notes and bridges are financing instruments rather than stages, so they are grouped under Other instead of being folded into a seed bucket; Other has no place on a ladder and is left off the chart, though it stays in the data. A round with several identified angels counts once per angel.",
+        "dataPaths": [
+          "stageMix"
+        ]
+      },
+      "angels:sectors": {
+        "title": "Where Angels Invest",
+        "description": "Angel-backed companies grouped by subindustry, drawn as a circle-pack bubble chart: each bubble is a subindustry sized by how many angel investments went into it and colored by its parent industry. Counted at the angel-company pair level, so a company backed by three angels contributes three. Hovering a bubble shows that subindustry\u2019s share of all angel investments, angels and backed companies, plus outcomes for those companies: the median total they have raised (over the ones that disclose funding) and how many reached a completed acquisition or listing. Colors match the industry palette used across the dashboard.",
+        "dataPaths": [
+          "sectors"
+        ]
+      },
+      "angels:coverage": {
+        "title": "Coverage",
+        "description": "How much of the Israeli startup population has an identified angel behind it. Angel names in the source data are raw strings, and only the ones that resolve to a real person are counted here, so roughly half the individual investor names in the source are not represented. Every number on this page is therefore a floor rather than a complete count of Israeli angel activity.",
+        "dataPaths": [
+          "angels.total",
+          "angels.startupsBacked",
+          "angels.investments",
+          "angels.populationStartups"
+        ]
+      }
+    }
+  },
+  "angels": {
+    "total": 913,
+    "startupsBacked": 821,
+    "investments": 1461,
+    "rounds": 1652,
+    "populationStartups": 19693,
+    "firstYear": 1989,
+    "lastYear": 2026
+  },
+  "profile": {
+    "tiers": [
+      {
+        "key": "never-founded",
+        "label": "Never founded",
+        "angels": 488,
+        "investments": 608,
+        "avgPortfolio": 1.25
+      },
+      {
+        "key": "founded-no-exit",
+        "label": "Founded, no exit",
+        "angels": 193,
+        "investments": 283,
+        "avgPortfolio": 1.47
+      },
+      {
+        "key": "founded-exited",
+        "label": "Founded, exited",
+        "angels": 232,
+        "investments": 570,
+        "avgPortfolio": 2.46
+      }
+    ],
+    "angelBeforeExit": 66,
+    "dnaKnown": 907,
+    "dnaTechnical": 234,
+    "dnaNonTechnical": 673,
+    "dnaBreakdown": [
+      {
+        "label": "Business",
+        "angels": 604
+      },
+      {
+        "label": "Technical",
+        "angels": 234
+      },
+      {
+        "label": "Product",
+        "angels": 61
+      },
+      {
+        "label": "None",
+        "angels": 8
+      },
+      {
+        "label": "Unknown",
+        "angels": 6
+      }
+    ]
+  },
+  "exitToFirstCheck": {
+    "exitedFounders": 232,
+    "measured": 166,
+    "medianYears": 4.5,
+    "bins": [
+      {
+        "lo": 0,
+        "hi": 1,
+        "count": 24
+      },
+      {
+        "lo": 1,
+        "hi": 2,
+        "count": 18
+      },
+      {
+        "lo": 2,
+        "hi": 3,
+        "count": 19
+      },
+      {
+        "lo": 3,
+        "hi": 4,
+        "count": 16
+      },
+      {
+        "lo": 4,
+        "hi": 5,
+        "count": 8
+      },
+      {
+        "lo": 5,
+        "hi": 6,
+        "count": 14
+      },
+      {
+        "lo": 6,
+        "hi": 7,
+        "count": 12
+      },
+      {
+        "lo": 7,
+        "hi": 8,
+        "count": 5
+      },
+      {
+        "lo": 8,
+        "hi": 9,
+        "count": 5
+      },
+      {
+        "lo": 9,
+        "hi": 10,
+        "count": 9
+      },
+      {
+        "lo": 10,
+        "hi": 11,
+        "count": 8
+      },
+      {
+        "lo": 11,
+        "hi": 12,
+        "count": 4
+      },
+      {
+        "lo": 12,
+        "hi": 13,
+        "count": 3
+      },
+      {
+        "lo": 13,
+        "hi": 14,
+        "count": 4
+      },
+      {
+        "lo": 14,
+        "hi": 15,
+        "count": 2
+      },
+      {
+        "lo": 15,
+        "hi": null,
+        "count": 15
+      }
+    ]
+  },
+  "leaderboard": [
+    {
+      "id": "43b1b86c-2a31-49a4-99a0-51d56efa3c0c",
+      "name": "Ariel Maislos",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/43b1b86c-2a31-49a4-99a0-51d56efa3c0c_20260505_1011.jpg",
+      "portfolio": 29,
+      "rounds": 32,
+      "firstYear": 2001,
+      "lastYear": 2026,
+      "founded": [
+        "Anobit",
+        "Passave",
+        "Coho AI"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Huskeys",
+        "Parter",
+        "GeoX",
+        "BeWith",
+        "Monto",
+        "Salvador Technologies"
+      ]
+    },
+    {
+      "id": "a11af248-04da-48e3-9a73-32c8a3914446",
+      "name": "Marius Nacht",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/a11af248-04da-48e3-9a73-32c8a3914446_20260701_0336.jpg",
+      "portfolio": 24,
+      "rounds": 33,
+      "firstYear": 2006,
+      "lastYear": 2023,
+      "founded": [
+        "Check Point",
+        "DayTwo",
+        "Aummune"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "WaveBL",
+        "TrueMeeting",
+        "Ultima Genomics",
+        "GrayMatters Health",
+        "WINT - WI",
+        "1E Therapeutics"
+      ]
+    },
+    {
+      "id": "83d9c9e6-5847-476f-aff6-4cf461280091",
+      "name": "Shlomo Kramer",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/83d9c9e6-5847-476f-aff6-4cf461280091_20260720_232325.jpg",
+      "portfolio": 20,
+      "rounds": 29,
+      "firstYear": 2006,
+      "lastYear": 2025,
+      "founded": [
+        "Cato Networks",
+        "Check Point",
+        "Trusteer"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Opti",
+        "Aryon Security",
+        "Clutch Security",
+        "Nagomi",
+        "PhaseV Trials",
+        "Coho AI"
+      ]
+    },
+    {
+      "id": "c1876da5-2a73-4444-910f-ab31b8686903",
+      "name": "Gigi Levy-Weiss",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/c1876da5-2a73-4444-910f-ab31b8686903_20260531_1238.jpg",
+      "portfolio": 20,
+      "rounds": 20,
+      "firstYear": 2011,
+      "lastYear": 2025,
+      "founded": [
+        "GivingWay",
+        "Beach Bum"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Faireez",
+        "PVML",
+        "Everybuddy Games",
+        "Barrel Protocol",
+        "InceptionXR",
+        "Tacticsoft"
+      ]
+    },
+    {
+      "id": "20df7414-9bed-43f1-a256-937b171b5ab2",
+      "name": "Yossi Vardi",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/20df7414-9bed-43f1-a256-937b171b5ab2_20260720_232332.jpg",
+      "portfolio": 17,
+      "rounds": 22,
+      "firstYear": 1999,
+      "lastYear": 2011,
+      "founded": [
+        "SafeRide Technologies"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Dex Technologies",
+        "Wibiya",
+        "The Gifts Project",
+        "Overwolf",
+        "Similarweb",
+        "DoNanza"
+      ]
+    },
+    {
+      "id": "22ce58bc-d37c-447d-b435-384d1686f76d",
+      "name": "Zohar Gilon",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/22ce58bc-d37c-447d-b435-384d1686f76d_20260720_232334.jpg",
+      "portfolio": 16,
+      "rounds": 21,
+      "firstYear": 2009,
+      "lastYear": 2025,
+      "founded": [],
+      "hasFounderExit": false,
+      "backed": [
+        "Linguana",
+        "Annabella",
+        "RealView Imaging",
+        "EverAfter AI",
+        "Hoopo",
+        "Galil Software"
+      ]
+    },
+    {
+      "id": "d74df9d4-8745-4403-b844-2f4115ebf6c9",
+      "name": "Assaf Rappaport",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/d74df9d4-8745-4403-b844-2f4115ebf6c9_20260521_1822.jpg",
+      "portfolio": 11,
+      "rounds": 11,
+      "firstYear": 2020,
+      "lastYear": 2026,
+      "founded": [
+        "Wiz",
+        "Adallom"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "NewCore",
+        "A Security",
+        "Frame Security",
+        "ZyG",
+        "Daylight",
+        "Irregular"
+      ]
+    },
+    {
+      "id": "5a1301f2-8422-4cab-b658-2bb286d5d497",
+      "name": "Jeff Pulver",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/5a1301f2-8422-4cab-b658-2bb286d5d497_20260720_232327.jpg",
+      "portfolio": 9,
+      "rounds": 14,
+      "firstYear": 2007,
+      "lastYear": 2013,
+      "founded": [
+        "Zula"
+      ],
+      "hasFounderExit": false,
+      "backed": [
+        "Stevie",
+        "Geev. Me Tech",
+        "Serendip",
+        "Adventure Mob",
+        "Livetune Ltd.",
+        "Wibiya"
+      ]
+    },
+    {
+      "id": "152a2f05-8521-491c-aa3c-5ccad643c3c5",
+      "name": "Ronald Cohen",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/152a2f05-8521-491c-aa3c-5ccad643c3c5_20260720_232334.png",
+      "portfolio": 9,
+      "rounds": 11,
+      "firstYear": 2008,
+      "lastYear": 2024,
+      "founded": [],
+      "hasFounderExit": false,
+      "backed": [
+        "Glide Identity",
+        "OPMED PLATFORM",
+        "Masterschool",
+        "RiseUp",
+        "Circles",
+        "Alpha Tau"
+      ]
+    },
+    {
+      "id": "841b6227-0469-4cf1-87df-c446eb7e6a91",
+      "name": "Moshe Lichtman",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/841b6227-0469-4cf1-87df-c446eb7e6a91_20260720_130434.jpg",
+      "portfolio": 9,
+      "rounds": 11,
+      "firstYear": 2012,
+      "lastYear": 2023,
+      "founded": [],
+      "hasFounderExit": false,
+      "backed": [
+        "Lunar.dev",
+        "Plannie",
+        "BitDam",
+        "Zirra.co",
+        "Crosswise",
+        "MyRoll"
+      ]
+    },
+    {
+      "id": "f906e5c6-3f42-44e4-9dae-aa7e92ba6d18",
+      "name": "Avigdor Willenz",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/f906e5c6-3f42-44e4-9dae-aa7e92ba6d18_20260529_0746.jpg",
+      "portfolio": 9,
+      "rounds": 10,
+      "firstYear": 2011,
+      "lastYear": 2025,
+      "founded": [
+        "Annapurna Labs",
+        "Element Labs",
+        "Banias Labs"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "ProteanTecs",
+        "buildots",
+        "VDOO",
+        "Xsight Labs",
+        "Madlan",
+        "Bizzabo"
+      ]
+    },
+    {
+      "id": "d3a24bbe-f09f-4417-b374-214370cec764",
+      "name": "Saar Wilf",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/d3a24bbe-f09f-4417-b374-214370cec764_20260423_0654.jpg",
+      "portfolio": 9,
+      "rounds": 9,
+      "firstYear": 2010,
+      "lastYear": 2020,
+      "founded": [
+        "Trivnet",
+        "PointGrab",
+        "FraudSciences"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "bzigo",
+        "wndr",
+        "Deep Optics",
+        "PointGrab",
+        "CallApp",
+        "Wikiwand"
+      ]
+    },
+    {
+      "id": "cd42fefb-4d31-4549-95e7-a948881ef575",
+      "name": "Michael Boodaei",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/cd42fefb-4d31-4549-95e7-a948881ef575_20260506_0401.jpg",
+      "portfolio": 8,
+      "rounds": 12,
+      "firstYear": 2012,
+      "lastYear": 2024,
+      "founded": [
+        "Trusteer",
+        "Transmit Security"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "PointFive",
+        "Entro Security",
+        "Laminate Medical Technologies",
+        "Zirra.co",
+        "FireGlass",
+        "Aorato"
+      ]
+    },
+    {
+      "id": "bfd857b9-155a-460b-883a-d6ff06346fc1",
+      "name": "Eyal Waldman",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/bfd857b9-155a-460b-883a-d6ff06346fc1_20260419_1659.jpg",
+      "portfolio": 8,
+      "rounds": 11,
+      "firstYear": 2015,
+      "lastYear": 2026,
+      "founded": [
+        "Mellanox Technologies"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Airis Labs",
+        "Linguana",
+        "Pick a Pier",
+        "HedgeWiz",
+        "Speedata",
+        "Indoor Robotics"
+      ]
+    },
+    {
+      "id": "fa463928-b60f-4543-8ee3-9ef079c2c4b0",
+      "name": "Avishai Abrahami",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/fa463928-b60f-4543-8ee3-9ef079c2c4b0_20260526_1438.jpg",
+      "portfolio": 8,
+      "rounds": 10,
+      "firstYear": 2014,
+      "lastYear": 2025,
+      "founded": [
+        "Wix.com",
+        "Oporto Carbon",
+        "Psyable"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "CustoMed",
+        "SpotitEarly",
+        "Marquee",
+        "Bllink",
+        "Unlimited Robotics",
+        "Maapilim"
+      ]
+    },
+    {
+      "id": "384c5194-c4e6-4fbb-b681-0d409dd521e7",
+      "name": "Oren Zeev",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/384c5194-c4e6-4fbb-b681-0d409dd521e7_20260507_0115.jpg",
+      "portfolio": 8,
+      "rounds": 8,
+      "firstYear": 2012,
+      "lastYear": 2025,
+      "founded": [
+        "Tipalti",
+        "Wondermall"
+      ],
+      "hasFounderExit": false,
+      "backed": [
+        "Venn",
+        "Linguana",
+        "Fairmatic",
+        "HoneyBook",
+        "Riverside",
+        "Galil Software"
+      ]
+    },
+    {
+      "id": "6e48164e-0466-41fa-a820-d810d1476825",
+      "name": "Yuval Tal",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/6e48164e-0466-41fa-a820-d810d1476825_20260529_0642.jpg",
+      "portfolio": 7,
+      "rounds": 10,
+      "firstYear": 2005,
+      "lastYear": 2025,
+      "founded": [
+        "Payoneer",
+        "Borderfree",
+        "Linguana"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Humanz",
+        "Ledge",
+        "Nilos",
+        "Rentigo",
+        "Cymbio",
+        "Laminate Medical Technologies"
+      ]
+    },
+    {
+      "id": "2e0f194d-bc89-4126-bbcf-9847d524d261",
+      "name": "Amnon Shashua",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/2e0f194d-bc89-4126-bbcf-9847d524d261_20260503_0837.jpg",
+      "portfolio": 7,
+      "rounds": 8,
+      "firstYear": 2017,
+      "lastYear": 2023,
+      "founded": [
+        "AI21",
+        "Mobileye",
+        "DoubleAI"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "Commcrete",
+        "ONE ZERO Digital Bank",
+        "ShopperAI",
+        "AI21",
+        "Indoor Robotics",
+        "ironAlgo"
+      ]
+    },
+    {
+      "id": "e6a6051c-c0ec-4732-9846-df3f13c9c31b",
+      "name": "Uri Levine",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/uri-levine-85389_20260719_001812.jpg",
+      "portfolio": 7,
+      "rounds": 8,
+      "firstYear": 2010,
+      "lastYear": 2024,
+      "founded": [
+        "Waze",
+        "Oversee",
+        "Refundit"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "WeSki",
+        "Kahun",
+        "Pumba",
+        "SeeTree Systems",
+        "SeeTree",
+        "Oversee"
+      ]
+    },
+    {
+      "id": "57dc7347-9e65-42f6-b782-4141b3f931aa",
+      "name": "Eyal Gura",
+      "pictureUrl": "https://kolkore.pvalyou.com/assets/57dc7347-9e65-42f6-b782-4141b3f931aa_20260502_2258.jpg",
+      "portfolio": 7,
+      "rounds": 7,
+      "firstYear": 2009,
+      "lastYear": 2026,
+      "founded": [
+        "Nanox AI",
+        "PicApp",
+        "KolGene"
+      ],
+      "hasFounderExit": true,
+      "backed": [
+        "MSICS Pharma",
+        "Imagene AI",
+        "Taranis",
+        "Dataloop",
+        "KolGene",
+        "Taboola"
+      ]
+    }
+  ],
+  "portfolioDistribution": [
+    {
+      "bucket": "1",
+      "angels": 725,
+      "investments": 725
+    },
+    {
+      "bucket": "2",
+      "angels": 92,
+      "investments": 184
+    },
+    {
+      "bucket": "3-4",
+      "angels": 54,
+      "investments": 184
+    },
+    {
+      "bucket": "5-9",
+      "angels": 35,
+      "investments": 231
+    },
+    {
+      "bucket": "10+",
+      "angels": 7,
+      "investments": 137
+    }
+  ],
+  "stageMix": [
+    {
+      "stage": "Pre-seed",
+      "rounds": 209,
+      "angels": 175
+    },
+    {
+      "stage": "Seed",
+      "rounds": 790,
+      "angels": 532
+    },
+    {
+      "stage": "Series A",
+      "rounds": 357,
+      "angels": 244
+    },
+    {
+      "stage": "Series B",
+      "rounds": 124,
+      "angels": 98
+    },
+    {
+      "stage": "Series C+",
+      "rounds": 66,
+      "angels": 53
+    },
+    {
+      "stage": "Other",
+      "rounds": 106,
+      "angels": 95
+    }
+  ],
+  "sectors": [
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Enterprise Software",
+      "investments": 265,
+      "angels": 214,
+      "companies": 145,
+      "exited": 37,
+      "medianRaisedUsd": 8000000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cybersecurity",
+      "investments": 202,
+      "angels": 128,
+      "companies": 95,
+      "exited": 40,
+      "medianRaisedUsd": 15350000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Medical Devices",
+      "investments": 91,
+      "angels": 80,
+      "companies": 58,
+      "exited": 10,
+      "medianRaisedUsd": 9095000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "AI & Machine Learning",
+      "investments": 67,
+      "angels": 67,
+      "companies": 43,
+      "exited": 12,
+      "medianRaisedUsd": 9700000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Data & Analytics",
+      "investments": 53,
+      "angels": 51,
+      "companies": 28,
+      "exited": 9,
+      "medianRaisedUsd": 12325000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Gaming",
+      "investments": 49,
+      "angels": 43,
+      "companies": 29,
+      "exited": 8,
+      "medianRaisedUsd": 4625000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Hardware & Semiconductors",
+      "investments": 45,
+      "angels": 37,
+      "companies": 25,
+      "exited": 13,
+      "medianRaisedUsd": 103800000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Digital Health",
+      "investments": 44,
+      "angels": 40,
+      "companies": 25,
+      "exited": 4,
+      "medianRaisedUsd": 8050000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Retail & E-commerce",
+      "investments": 44,
+      "angels": 44,
+      "companies": 26,
+      "exited": 7,
+      "medianRaisedUsd": 3220000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "DevOps & Development Tools",
+      "investments": 40,
+      "angels": 34,
+      "companies": 17,
+      "exited": 7,
+      "medianRaisedUsd": 9000000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Payments & Transactions",
+      "investments": 37,
+      "angels": 36,
+      "companies": 21,
+      "exited": 7,
+      "medianRaisedUsd": 10850000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Advertising Technology",
+      "investments": 32,
+      "angels": 32,
+      "companies": 16,
+      "exited": 8,
+      "medianRaisedUsd": 15000000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Travel & Hospitality",
+      "investments": 32,
+      "angels": 32,
+      "companies": 12,
+      "exited": 0,
+      "medianRaisedUsd": 4000000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Social Media & Community",
+      "investments": 28,
+      "angels": 25,
+      "companies": 17,
+      "exited": 7,
+      "medianRaisedUsd": 3175000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Financial Data & Analytics",
+      "investments": 26,
+      "angels": 26,
+      "companies": 9,
+      "exited": 2,
+      "medianRaisedUsd": 4150000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Marketing Technology",
+      "investments": 21,
+      "angels": 21,
+      "companies": 10,
+      "exited": 3,
+      "medianRaisedUsd": 5800000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Agriculture",
+      "investments": 20,
+      "angels": 18,
+      "companies": 15,
+      "exited": 1,
+      "medianRaisedUsd": 28600000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Accounting & Finance Software",
+      "investments": 20,
+      "angels": 20,
+      "companies": 12,
+      "exited": 2,
+      "medianRaisedUsd": 12345000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Healthcare IT",
+      "investments": 19,
+      "angels": 19,
+      "companies": 15,
+      "exited": 1,
+      "medianRaisedUsd": 15000000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Food Technology",
+      "investments": 18,
+      "angels": 18,
+      "companies": 12,
+      "exited": 0,
+      "medianRaisedUsd": 3300000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Biotechnology",
+      "investments": 18,
+      "angels": 16,
+      "companies": 16,
+      "exited": 4,
+      "medianRaisedUsd": 17250000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Electronics",
+      "investments": 16,
+      "angels": 14,
+      "companies": 11,
+      "exited": 2,
+      "medianRaisedUsd": 6000000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Publishing & Content",
+      "investments": 15,
+      "angels": 15,
+      "companies": 9,
+      "exited": 2,
+      "medianRaisedUsd": 3200000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Streaming & Video",
+      "investments": 15,
+      "angels": 13,
+      "companies": 9,
+      "exited": 3,
+      "medianRaisedUsd": 9940000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Advertising Technology",
+      "investments": 15,
+      "angels": 15,
+      "companies": 9,
+      "exited": 4,
+      "medianRaisedUsd": 5000000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Digital Media",
+      "investments": 11,
+      "angels": 11,
+      "companies": 6,
+      "exited": 0,
+      "medianRaisedUsd": 2830000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Music & Audio",
+      "investments": 11,
+      "angels": 10,
+      "companies": 6,
+      "exited": 1,
+      "medianRaisedUsd": 2675000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Telecommunications",
+      "investments": 11,
+      "angels": 11,
+      "companies": 9,
+      "exited": 8,
+      "medianRaisedUsd": 38500000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Home & Garden",
+      "investments": 11,
+      "angels": 11,
+      "companies": 4,
+      "exited": 1,
+      "medianRaisedUsd": 9880000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Investment & Wealth Management",
+      "investments": 10,
+      "angels": 10,
+      "companies": 6,
+      "exited": 0,
+      "medianRaisedUsd": 8300000
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Clean Technology",
+      "investments": 10,
+      "angels": 10,
+      "companies": 7,
+      "exited": 0,
+      "medianRaisedUsd": 13000000
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Renewable Energy",
+      "investments": 10,
+      "angels": 10,
+      "companies": 5,
+      "exited": 1,
+      "medianRaisedUsd": 2250000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Robotics & Manufacturing",
+      "investments": 10,
+      "angels": 10,
+      "companies": 4,
+      "exited": 1,
+      "medianRaisedUsd": 19340000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cloud Infrastructure",
+      "investments": 9,
+      "angels": 8,
+      "companies": 7,
+      "exited": 4,
+      "medianRaisedUsd": 32980000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Education & Training",
+      "investments": 9,
+      "angels": 9,
+      "companies": 7,
+      "exited": 2,
+      "medianRaisedUsd": 2230000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Automotive & Transportation",
+      "investments": 9,
+      "angels": 9,
+      "companies": 5,
+      "exited": 1,
+      "medianRaisedUsd": 6000000
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Energy Tech",
+      "investments": 8,
+      "angels": 8,
+      "companies": 3,
+      "exited": 0,
+      "medianRaisedUsd": 30000000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Creative Tools",
+      "investments": 7,
+      "angels": 7,
+      "companies": 4,
+      "exited": 1,
+      "medianRaisedUsd": 7620000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Real Estate and Property",
+      "investments": 7,
+      "angels": 7,
+      "companies": 3,
+      "exited": 1,
+      "medianRaisedUsd": 11000000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Fashion & Apparel",
+      "investments": 7,
+      "angels": 7,
+      "companies": 2,
+      "exited": 2,
+      "medianRaisedUsd": 73900000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Blockchain & Cryptocurrency",
+      "investments": 6,
+      "angels": 6,
+      "companies": 5,
+      "exited": 2,
+      "medianRaisedUsd": 24975000
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Education & Training",
+      "investments": 5,
+      "angels": 5,
+      "companies": 2,
+      "exited": 0,
+      "medianRaisedUsd": 28750000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "IT Services & Consulting",
+      "investments": 5,
+      "angels": 5,
+      "companies": 3,
+      "exited": 2,
+      "medianRaisedUsd": 15870000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Social Media & Community",
+      "investments": 5,
+      "angels": 5,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 11000000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Sports & Fitness",
+      "investments": 5,
+      "angels": 5,
+      "companies": 3,
+      "exited": 1,
+      "medianRaisedUsd": 1200000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Blockchain & Cryptocurrency",
+      "investments": 4,
+      "angels": 4,
+      "companies": 4,
+      "exited": 1,
+      "medianRaisedUsd": 3065000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Personal Care & Beauty",
+      "investments": 4,
+      "angels": 4,
+      "companies": 3,
+      "exited": 1,
+      "medianRaisedUsd": 4000000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Banking & Lending",
+      "investments": 4,
+      "angels": 4,
+      "companies": 4,
+      "exited": 0,
+      "medianRaisedUsd": 19000000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Insurance & InsurTech",
+      "investments": 4,
+      "angels": 4,
+      "companies": 3,
+      "exited": 0,
+      "medianRaisedUsd": 44325000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Food & Beverage",
+      "investments": 4,
+      "angels": 4,
+      "companies": 1,
+      "exited": 1,
+      "medianRaisedUsd": 4000000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Aerospace & Defense",
+      "investments": 4,
+      "angels": 4,
+      "companies": 2,
+      "exited": 0,
+      "medianRaisedUsd": 35500000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "RegTech & Compliance",
+      "investments": 4,
+      "angels": 4,
+      "companies": 3,
+      "exited": 1,
+      "medianRaisedUsd": 4000000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "API & Integration Platforms",
+      "investments": 4,
+      "angels": 4,
+      "companies": 2,
+      "exited": 1,
+      "medianRaisedUsd": 8490000
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Electric Vehicles & Infrastructure",
+      "investments": 3,
+      "angels": 3,
+      "companies": 3,
+      "exited": 1,
+      "medianRaisedUsd": 5830000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Databases & Data Management",
+      "investments": 3,
+      "angels": 3,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 10000000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Sports & Fitness",
+      "investments": 3,
+      "angels": 3,
+      "companies": 2,
+      "exited": 0,
+      "medianRaisedUsd": 4235000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Mobile Applications",
+      "investments": 3,
+      "angels": 3,
+      "companies": 1,
+      "exited": 1,
+      "medianRaisedUsd": 4750000
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Utilities Software",
+      "investments": 2,
+      "angels": 2,
+      "companies": 2,
+      "exited": 0,
+      "medianRaisedUsd": 45000000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Gig Economy Platforms",
+      "investments": 2,
+      "angels": 2,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 2500000
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Business Lending & Financing",
+      "investments": 2,
+      "angels": 2,
+      "companies": 2,
+      "exited": 1,
+      "medianRaisedUsd": 182400000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Events & Ticketing",
+      "investments": 2,
+      "angels": 2,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": null
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Software",
+      "investments": 2,
+      "angels": 2,
+      "companies": 2,
+      "exited": 0,
+      "medianRaisedUsd": 62700000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Automotive & Transportation",
+      "investments": 2,
+      "angels": 2,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 1550000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "LegalTech",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 2500000
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Media and Entertainment",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 1,
+      "medianRaisedUsd": 7910000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Agriculture",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 2800000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Packaging & Containers",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 120000000
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Construction & Real Estate Technology",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 10500000
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Logistics and Supply Chain Software",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": null
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Water & Waste Management",
+      "investments": 1,
+      "angels": 1,
+      "companies": 1,
+      "exited": 0,
+      "medianRaisedUsd": 24730000
+    }
+  ],
+  "geography": {
+    "known": 786,
+    "unknown": 127,
+    "groups": [
+      {
+        "key": "israel",
+        "label": "Israel",
+        "angels": 377,
+        "investments": 718,
+        "companies": 480,
+        "avgPortfolio": 1.9
+      },
+      {
+        "key": "united-states",
+        "label": "United States",
+        "angels": 314,
+        "investments": 452,
+        "companies": 340,
+        "avgPortfolio": 1.44
+      },
+      {
+        "key": "rest",
+        "label": "Rest of world",
+        "angels": 95,
+        "investments": 119,
+        "companies": 102,
+        "avgPortfolio": 1.25
+      }
+    ],
+    "countries": [
+      {
+        "country": "Israel",
+        "angels": 377
+      },
+      {
+        "country": "United States",
+        "angels": 314
+      },
+      {
+        "country": "United Kingdom",
+        "angels": 28
+      },
+      {
+        "country": "France",
+        "angels": 15
+      },
+      {
+        "country": "Canada",
+        "angels": 9
+      },
+      {
+        "country": "Singapore",
+        "angels": 7
+      },
+      {
+        "country": "Italy",
+        "angels": 6
+      },
+      {
+        "country": "Spain",
+        "angels": 5
+      },
+      {
+        "country": "India",
+        "angels": 4
+      },
+      {
+        "country": "Switzerland",
+        "angels": 4
+      },
+      {
+        "country": "Germany",
+        "angels": 4
+      },
+      {
+        "country": "Australia",
+        "angels": 3
+      },
+      {
+        "country": "Netherlands",
+        "angels": 3
+      },
+      {
+        "country": "Portugal",
+        "angels": 2
+      },
+      {
+        "country": "Kazakhstan",
+        "angels": 1
+      },
+      {
+        "country": "Thailand",
+        "angels": 1
+      },
+      {
+        "country": "Japan",
+        "angels": 1
+      },
+      {
+        "country": "China",
+        "angels": 1
+      },
+      {
+        "country": "Belgium",
+        "angels": 1
+      }
+    ]
+  },
+  "employers": {
+    "coveredAngels": 834,
+    "items": [
+      {
+        "name": "Google",
+        "domain": "google.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/de399cf7-793c-46b5-9c48-1aace2d9589c.avif",
+        "angels": 33
+      },
+      {
+        "name": "Microsoft",
+        "domain": "microsoft.com",
+        "logoUrl": null,
+        "angels": 26
+      },
+      {
+        "name": "McKinsey & Company",
+        "domain": "mckinsey.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/6a3edb62-fdb0-4dfe-9bad-a05d8125b375.avif",
+        "angels": 18
+      },
+      {
+        "name": "Intel",
+        "domain": "intel.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/abceefd5-c102-4a3e-ab2c-b529f2bdc71f.avif",
+        "angels": 17
+      },
+      {
+        "name": "Meta",
+        "domain": "facebook.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/2e1261d1-4ec1-4b51-934a-382e8aa63b9e.avif",
+        "angels": 15
+      },
+      {
+        "name": "Cyberstarts",
+        "domain": null,
+        "logoUrl": null,
+        "angels": 14
+      },
+      {
+        "name": "YL Ventures",
+        "domain": null,
+        "logoUrl": null,
+        "angels": 13
+      },
+      {
+        "name": "IBM",
+        "domain": "ibm.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/8030049b-c86a-442c-b9a8-9e69ff0d89d3.avif",
+        "angels": 11
+      },
+      {
+        "name": "Palo Alto Networks",
+        "domain": "paloaltonetworks.com",
+        "logoUrl": null,
+        "angels": 11
+      },
+      {
+        "name": "Morgan Stanley",
+        "domain": null,
+        "logoUrl": null,
+        "angels": 10
+      }
+    ]
+  },
+  "schools": {
+    "coveredAngels": 500,
+    "items": [
+      {
+        "name": "Tel Aviv University",
+        "domain": "tau.ac.il",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tel%20Aviv%20university%20logo%20-%20Hebrew.png",
+        "angels": 98
+      },
+      {
+        "name": "Technion - Israel Institute of Technology",
+        "domain": "technion.ac.il",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Technion%20logo.svg",
+        "angels": 65
+      },
+      {
+        "name": "Hebrew University of Jerusalem",
+        "domain": "huji.ac.il",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hebrew%20University%20Logo.svg",
+        "angels": 22
+      },
+      {
+        "name": "Reichman University",
+        "domain": "runi.ac.il",
+        "logoUrl": null,
+        "angels": 19
+      },
+      {
+        "name": "Bar-Ilan University",
+        "domain": "biu.ac.il",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bar%20Ilan%20logo.png",
+        "angels": 17
+      },
+      {
+        "name": "Harvard Business School",
+        "domain": "hbs.edu",
+        "logoUrl": null,
+        "angels": 16
+      },
+      {
+        "name": "Stanford University",
+        "domain": "stanford.edu",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stanford%20wordmark%20%282012%29.svg",
+        "angels": 15
+      },
+      {
+        "name": "University of Pennsylvania",
+        "domain": "upenn.edu",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shield%20of%20the%20University%20of%20Pennsylvania.svg",
+        "angels": 15
+      },
+      {
+        "name": "Ben-Gurion University of the Negev",
+        "domain": "bgu.ac.il",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben-Gurion%20University%20of%20the%20Negev%20logo.svg",
+        "angels": 12
+      },
+      {
+        "name": "Harvard University",
+        "domain": "harvard.edu",
+        "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20logo.svg",
+        "angels": 12
+      }
+    ]
+  },
+  "gender": {
+    "known": 909,
+    "female": 42,
+    "male": 867
+  },
+  "ageAtFirstCheck": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "variable": {
+      "key": "ageAtFirstCheck",
+      "label": "Age at first check",
+      "unit": "yrs",
+      "count": 388,
+      "avg": 44.123711340206185,
+      "min": 19.0,
+      "max": 78.0,
+      "p10": 31.0,
+      "p25": 36.0,
+      "median": 43.0,
+      "p75": 51.0,
+      "p90": 59.30000000000001,
+      "histogram": {
+        "binEdges": [
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85
+        ],
+        "counts": [
+          2,
+          6,
+          20,
+          49,
+          65,
+          72,
+          61,
+          43,
+          31,
+          19,
+          15,
+          2,
+          3,
+          0
+        ]
+      },
+      "avgByYear": [
+        43.411764705882355,
+        38.76923076923077,
+        44.214285714285715,
+        43.41379310344828,
+        46.28125,
+        45.63265306122449,
+        46.22222222222222,
+        47.625,
+        43.42857142857143,
+        43.7
+      ],
+      "p90ByYear": [
+        55.4,
+        44.0,
+        61.70000000000001,
+        58.4,
+        63.00000000000002,
+        62.2,
+        59.400000000000006,
+        62.500000000000014,
+        52.0,
+        49.599999999999994
+      ]
+    }
+  },
+  "byYear": {
+    "years": [
+      1989,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "investments": [
+      1,
+      1,
+      2,
+      12,
+      4,
+      3,
+      3,
+      5,
+      9,
+      18,
+      22,
+      27,
+      15,
+      19,
+      53,
+      46,
+      52,
+      52,
+      44,
+      53,
+      59,
+      52,
+      64,
+      84,
+      126,
+      187,
+      98,
+      122,
+      129,
+      55
+    ],
+    "angels": [
+      1,
+      1,
+      2,
+      11,
+      4,
+      3,
+      3,
+      5,
+      9,
+      15,
+      16,
+      23,
+      12,
+      19,
+      45,
+      42,
+      49,
+      43,
+      40,
+      52,
+      54,
+      47,
+      55,
+      73,
+      119,
+      167,
+      86,
+      112,
+      116,
+      41
+    ],
+    "newAngels": [
+      1,
+      1,
+      2,
+      11,
+      4,
+      3,
+      1,
+      5,
+      7,
+      14,
+      15,
+      18,
+      9,
+      15,
+      35,
+      31,
+      35,
+      31,
+      27,
+      34,
+      36,
+      26,
+      33,
+      53,
+      86,
+      118,
+      60,
+      79,
+      72,
+      24
+    ],
+    "newCompanies": [
+      1,
+      1,
+      2,
+      7,
+      2,
+      1,
+      2,
+      5,
+      9,
+      15,
+      15,
+      13,
+      12,
+      7,
+      30,
+      33,
+      29,
+      27,
+      30,
+      35,
+      31,
+      39,
+      44,
+      45,
+      56,
+      91,
+      54,
+      61,
+      73,
+      18
+    ]
+  }
+}
