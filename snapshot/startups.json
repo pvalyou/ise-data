@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:47:00.014Z",
+  "generatedAt": "2026-07-24T21:54:27.507Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 21664,
-      "delta24h": 596
+      "value": 21665,
+      "delta24h": 593
     },
     "totalFunding": {
       "valueUsd": 196054686171,
@@ -965,7 +965,7 @@
         111,
         167,
         237,
-        137,
+        138,
         152,
         251,
         315,
@@ -974,7 +974,7 @@
         501,
         447,
         456,
-        584,
+        585,
         941,
         1189,
         1197,
@@ -1072,7 +1072,7 @@
         "active": 9893,
         "closed": 9828,
         "inactive": 319,
-        "unknown": 1624
+        "unknown": 1625
       }
     },
     "funding": {
@@ -1421,12 +1421,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 10210,
+      "active": 10211,
       "closed": 8969,
       "exited": 2485
     },
     "funnel": {
-      "all": 21664,
+      "all": 21665,
       "funded": 12244,
       "over1m": 5188,
       "over10m": 2580,
@@ -1747,38 +1747,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 8883,
-        "share": 0.41277881040892195
+        "count": 8884,
+        "share": 0.4128060963709865
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 4868,
-        "share": 0.2262081784386617
+        "share": 0.22619766739463779
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 2838,
-        "share": 0.13187732342007435
+        "share": 0.13187119557641375
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 983,
-        "share": 0.045678438661710036
+        "share": 0.04567631615631244
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 1265,
-        "share": 0.058782527881040894
+        "share": 0.05877979647785884
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 2683,
-        "share": 0.12467472118959108
+        "share": 0.12466892802379072
       }
     ],
     "mixSummary": {
@@ -2104,7 +2104,7 @@
     "signals": {
       "deeptechCount": 8345,
       "deeptechPct": 38.5,
-      "globalCount": 8807,
+      "globalCount": 8808,
       "globalPct": 40.7
     }
   },
@@ -2145,14 +2145,25 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Nanovel",
-        "stage": "Grant",
-        "amountUsd": 2850000,
+        "org": "TytoCare",
+        "stage": "Other",
+        "amountUsd": 25000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Stark Power",
+        "stage": "Other",
+        "amountUsd": 48000000,
+        "investors": [],
+        "investorCount": 3,
         "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "EIC Accelerator Grant"
+        "isNonEquity": false,
+        "roundTitle": "Equity Raise"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2178,17 +2189,6 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "TytoCare",
-        "stage": "Other",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
         "org": "DisperseBio",
         "stage": "Grant",
         "amountUsd": 15000,
@@ -2200,14 +2200,14 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Stark Power",
-        "stage": "Other",
-        "amountUsd": 48000000,
+        "org": "Nanovel",
+        "stage": "Grant",
+        "amountUsd": 2850000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 1,
         "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Equity Raise"
+        "isNonEquity": true,
+        "roundTitle": "EIC Accelerator Grant"
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2233,17 +2233,6 @@
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
-        "org": "Omnix Medical",
-        "stage": "Grant",
-        "amountUsd": 8000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
         "org": "Pulsenmore",
         "stage": "Grant",
         "amountUsd": 1000000,
@@ -2252,6 +2241,17 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant (AI Sandbox)"
+      },
+      {
+        "ts": "2026-07-13T00:00:00.000Z",
+        "org": "Omnix Medical",
+        "stage": "Grant",
+        "amountUsd": 8000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "R&D Grant"
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
@@ -2266,23 +2266,23 @@
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
-        "org": "Spikes Studio",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-07-09T00:00:00.000Z",
         "org": "Tangos",
         "stage": "Seed",
         "amountUsd": 20000000,
         "investors": [],
         "investorCount": 8,
         "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
+      },
+      {
+        "ts": "2026-07-09T00:00:00.000Z",
+        "org": "Spikes Studio",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Seed - Extended"
       },
@@ -2299,14 +2299,14 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "Post-IPO",
-        "amountUsd": 0,
+        "org": "Respiro",
+        "stage": "Pre-seed",
+        "amountUsd": 1330000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 6,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "IPO"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
@@ -2320,14 +2320,14 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "org": "Respiro",
-        "stage": "Pre-seed",
-        "amountUsd": 1330000,
+        "org": "Cando Drones",
+        "stage": "Post-IPO",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "IPO"
       }
     ],
     "todayStats": {
@@ -2336,6 +2336,25 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-07-24T21:46:43.473Z",
+        "org": "CallByText",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Telecommunications",
+        "description": "Cloud-based service that enables users to avoid international roaming fees by initiating Skype conference calls via text message or a mobile application.",
+        "keywords": [
+          "Cloud communication",
+          "Skype conferencing",
+          "Roaming cost savings",
+          "Text message initiation",
+          "Mobile app",
+          "International calling"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-07-24T21:45:20.903Z",
         "org": "CADVision Medical Technologies",
@@ -2707,36 +2726,9 @@
         "exactEmployees": 3,
         "isDeeptech": true,
         "businessModel": "Product Sales"
-      },
-      {
-        "ts": "2026-07-24T21:17:21.810Z",
-        "org": "Blockchain Academy",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Education & Training",
-        "description": "Educational platform offering customized blockchain and Bitcoin training programs for businesses and individuals.",
-        "keywords": [
-          "Blockchain education",
-          "Bitcoin training",
-          "Blockchain courses",
-          "Corporate blockchain training",
-          "Blockchain certification",
-          "Crypto trading course",
-          "Smart contract security"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "B2B and B2C"
       }
     ],
     "notable": [
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Toya",
-        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
-      },
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
@@ -2766,25 +2758,11 @@
         "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
       },
       {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Prismm",
-        "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
+        "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Pontera",
-        "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "TopGum",
-        "summary": "Launched longevity gummies for cognition and eye health."
+        "org": "Toya",
+        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2801,60 +2779,25 @@
         "summary": "Ash Huber appointed as CEO of ZotaPay."
       },
       {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "Snap",
-        "summary": "Snap Inc. reached a tentative settlement in a social media addiction lawsuit."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "Lightbits Labs",
-        "summary": "Lightbits Labs expanded enterprise Linux support with Ubuntu certification."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Speedata",
-        "summary": "Deployed Arteris FlexNoC network-on-chip technology in its Callisto Analytics Processing Unit (APU) for data center compute."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ParaZero Technologies Ltd.",
-        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Portnox",
-        "summary": "Portnox announced strong growth as customer demand rises for continuous access control; includes milestone of over one million devices managed."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "PolyPid",
-        "summary": "PolyPid announced an exclusive partnership with Azurity Pharmaceuticals for the commercialization of D-PLEX100 in the U.S. and Canada, valued at over $320 million in upfront and milestone payments plus tiered royalties."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Wasens",
-        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
+        "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Mindspace",
-        "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+        "org": "Pontera",
+        "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Prismm",
+        "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "TopGum",
+        "summary": "Launched longevity gummies for cognition and eye health."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2866,9 +2809,65 @@
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Speedata",
+        "summary": "Deployed Arteris FlexNoC network-on-chip technology in its Callisto Analytics Processing Unit (APU) for data center compute."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Nexxen",
+        "summary": "Nexxen expanded partnership with Acxiom, introducing Acxiom audience data into Nexxen Discovery."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "Lightbits Labs",
+        "summary": "Lightbits Labs expanded enterprise Linux support with Ubuntu certification."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Legal Case",
         "org": "ZoomInfo",
         "summary": "Securities fraud class action lawsuit filed on behalf of ZoomInfo investors after stock plummeted nearly 33% due to alleged misleading statements regarding customer retention."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "Snap",
+        "summary": "Snap Inc. reached a tentative settlement in a social media addiction lawsuit."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ParaZero Technologies Ltd.",
+        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Mindspace",
+        "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "PolyPid",
+        "summary": "PolyPid announced an exclusive partnership with Azurity Pharmaceuticals for the commercialization of D-PLEX100 in the U.S. and Canada, valued at over $320 million in upfront and milestone payments plus tiered royalties."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Oktopost",
+        "summary": "Named in the 2026 Gartner Magic Quadrant for Social Media Management and Listening."
       }
     ]
   }
