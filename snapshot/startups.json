@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T12:59:44.954Z",
+  "generatedAt": "2026-07-25T14:38:22.600Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 21944,
-      "delta24h": 531
+      "delta24h": 505
     },
     "totalFunding": {
       "valueUsd": 188590544103,
@@ -2145,17 +2145,6 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Nanovel",
-        "stage": "Grant",
-        "amountUsd": 2850000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "EIC Accelerator Grant"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
         "org": "Stark Power",
         "stage": "Other",
         "amountUsd": 48000000,
@@ -2164,17 +2153,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Equity Raise"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "TytoCare",
-        "stage": "Other",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2200,6 +2178,17 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Nanovel",
+        "stage": "Grant",
+        "amountUsd": 2850000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "EIC Accelerator Grant"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
         "org": "Hemispheric",
         "stage": "Series A",
         "amountUsd": 52000000,
@@ -2208,6 +2197,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "TytoCare",
+        "stage": "Other",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round"
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2219,17 +2219,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
-        "org": "Cordio Medical",
-        "stage": "Accelerator",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Accelerator/Incubator"
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2254,6 +2243,17 @@
         "roundTitle": "R&D Grant"
       },
       {
+        "ts": "2026-07-13T00:00:00.000Z",
+        "org": "Cordio Medical",
+        "stage": "Accelerator",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Accelerator/Incubator"
+      },
+      {
         "ts": "2026-07-09T00:00:00.000Z",
         "org": "Tangos",
         "stage": "Seed",
@@ -2263,17 +2263,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-07-09T00:00:00.000Z",
-        "org": "Keyper",
-        "stage": "Series A",
-        "amountUsd": 11000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
@@ -2288,6 +2277,17 @@
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
+        "org": "Keyper",
+        "stage": "Series A",
+        "amountUsd": 11000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-09T00:00:00.000Z",
         "org": "Spikes Studio",
         "stage": "Seed",
         "amountUsd": 0,
@@ -2299,13 +2299,14 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "org": "Alta",
-        "stage": "Series A",
-        "amountUsd": 25000000,
+        "org": "Respiro",
+        "stage": "Pre-seed",
+        "amountUsd": 1330000,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 6,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
@@ -2320,14 +2321,13 @@
       },
       {
         "ts": "2026-07-08T00:00:00.000Z",
-        "org": "Respiro",
-        "stage": "Pre-seed",
-        "amountUsd": 1330000,
+        "org": "Alta",
+        "stage": "Series A",
+        "amountUsd": 25000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 7,
         "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2720,23 +2720,9 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ManageWare",
-        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
-      },
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "WSC Sports",
         "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
-      },
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Yuki",
-        "summary": "Yuki launched the Cortex Control Center, a product that breaks down Snowflake Cortex AI spend by product, agent, user, role, and model, providing cost and latency insights."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2751,6 +2737,27 @@
         "rawKind": "Product Launch",
         "org": "Toya",
         "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Yuki",
+        "summary": "Yuki launched the Cortex Control Center, a product that breaks down Snowflake Cortex AI spend by product, agent, user, role, and model, providing cost and latency insights."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "ManageWare",
+        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Zafran Security",
+        "summary": "Zafran announced a strategic investment from Cisco Investments."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2781,11 +2788,18 @@
         "summary": "Ash Huber appointed as CEO of ZotaPay."
       },
       {
-        "ts": "2026-07-22T00:00:00.000Z",
+        "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Zafran Security",
-        "summary": "Zafran announced a strategic investment from Cisco Investments."
+        "rawKind": "Product Launch",
+        "org": "Mindspace",
+        "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Oktopost",
+        "summary": "Named in the 2026 Gartner Magic Quadrant for Social Media Management and Listening."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2797,30 +2811,9 @@
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "ZoomInfo Technologies",
-        "summary": "Securities fraud class action lawsuit filed on behalf of ZoomInfo investors after stock plummeted nearly 33% due to alleged misleading statements regarding customer retention."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Nexxen",
-        "summary": "Nexxen expanded partnership with Acxiom, introducing Acxiom audience data into Nexxen Discovery."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Wasens",
-        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ParaZero Technologies Ltd.",
-        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
+        "rawKind": "Executive Appointment",
+        "org": "Nano Dimension Technologies",
+        "summary": "Appointed interim Chief Executive Officer and Chairman of the Board."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2833,8 +2826,8 @@
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "PolyPid",
-        "summary": "PolyPid announced an exclusive partnership with Azurity Pharmaceuticals for the commercialization of D-PLEX100 in the U.S. and Canada, valued at over $320 million in upfront and milestone payments plus tiered royalties."
+        "org": "Nexxen",
+        "summary": "Nexxen expanded partnership with Acxiom, introducing Acxiom audience data into Nexxen Discovery."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2846,16 +2839,23 @@
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Mindspace",
-        "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+        "rawKind": "Strategic Partnership",
+        "org": "Wasens",
+        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "ZoomInfo Technologies",
+        "summary": "Securities fraud class action lawsuit filed on behalf of ZoomInfo investors after stock plummeted nearly 33% due to alleged misleading statements regarding customer retention."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Customer Milestone",
-        "org": "Portnox",
-        "summary": "Portnox announced strong growth as customer demand rises for continuous access control; includes milestone of over one million devices managed."
+        "org": "ParaZero Technologies Ltd.",
+        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
       }
     ]
   }
