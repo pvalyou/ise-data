@@ -145,13 +145,15 @@ How values are derived, then the terms.
 Most classifications, industry and sub-industry, deeptech, global reach, SaaS, operating model, customer segment, scalability, revenue model, and founder background, are produced by language models reading public text about each company, then standardized into fixed labels. Quantities like funding, rounds, acquisitions, and IPOs come from disclosed public records. Every value links back to its source.
 
 Core terms:
-- **Israeli startup**, a company whose type is startup and which is operationally Israeli, either headquartered in Israel or registered as an Israeli legal entity after a flip abroad. Every figure is scoped to this population.
+- **Israeli**, a company counts as Israeli when any one of three holds: it is headquartered in Israel, it holds an Israeli headquarters-level registration after incorporating abroad (the Delaware flip), or at least one founder is Israeli by residence, language or education. A company that only runs a branch or an R&D site in Israel does not count. Being acquired or going public never changes it.
+- **Israeli startup**, an Israeli company whose type is startup. This is the population behind every figure except the unicorns file, which counts Israeli companies of any type, and open roles.
+- **Cohort**, `hq-israel` still headquartered in Israel, `israeli-abroad` Israeli in origin and based elsewhere.
 - **Status**, Active is still operating, Closed is shut down or dissolved, Exit is acquired or public.
 - **Exit**, a completed acquisition or a completed public listing. Time to exit runs from founding year to exit year.
 - **Equity round**, money paid into the company for newly issued shares, from pre-seed through late stage, including SAFEs and convertibles. Every funding figure counts these.
 - **Funded**, raised at least one equity round. The exit funnel then steps up to $1M+ and $10M+ raised in total.
 - **Angel**, an individual who joined an equity round in an Israeli startup, counted once per angel and company.
-- **Unicorn**, a company that reached a one billion dollar valuation, whether by a funding round, an acquisition or a public listing.
+- **Unicorn**, an Israeli company that reached a one billion dollar valuation, whether by a funding round, an acquisition or a public listing. Counted across every company type, not startups alone, because reaching a billion is what reclassifies a company away from startup.
 
 Classifications:
 - **Industry**, six top-level groups, IT and Telecom, Healthcare and Food, Consumer Goods and Services, Energy and Utilities, Financial Services, Media and Entertainment. Sub-industries roll up into these.
