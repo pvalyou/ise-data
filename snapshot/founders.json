@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "founders",
-  "generatedAt": "2026-07-29T21:09:46.127Z",
+  "generatedAt": "2026-07-29T23:18:18.565Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -109,8 +109,8 @@
     }
   },
   "composition": {
-    "male": 31357,
-    "female": 3697
+    "male": 44125,
+    "female": 4881
   },
   "genderOverTime": {
     "years": [
@@ -126,36 +126,84 @@
       2026
     ],
     "male": [
-      2048,
-      2088,
-      1856,
-      1979,
-      1975,
-      1618,
-      946,
-      747,
-      423,
-      36
+      2503,
+      2522,
+      2237,
+      2358,
+      2276,
+      1902,
+      1574,
+      1343,
+      1000,
+      199
+    ],
+    "maleNew": [
+      1679,
+      1702,
+      1462,
+      1480,
+      1471,
+      1204,
+      971,
+      795,
+      478,
+      47
+    ],
+    "maleRepeat": [
+      824,
+      820,
+      775,
+      878,
+      805,
+      698,
+      603,
+      548,
+      522,
+      152
     ],
     "female": [
-      242,
-      243,
-      263,
-      264,
-      299,
-      293,
-      174,
-      112,
-      81,
-      7
+      292,
+      323,
+      303,
+      319,
+      335,
+      318,
+      258,
+      196,
+      136,
+      20
+    ],
+    "femaleNew": [
+      246,
+      260,
+      255,
+      259,
+      269,
+      266,
+      201,
+      151,
+      89,
+      9
+    ],
+    "femaleRepeat": [
+      46,
+      63,
+      48,
+      60,
+      66,
+      52,
+      57,
+      45,
+      47,
+      11
     ]
   },
   "teamComposition": {
-    "onlyMale": 12279,
-    "mostlyMale": 1507,
-    "exactMix": 2208,
-    "mostlyFemale": 352,
-    "onlyFemale": 1122
+    "onlyMale": 19647,
+    "mostlyMale": 1301,
+    "exactMix": 1537,
+    "mostlyFemale": 159,
+    "onlyFemale": 1111
   },
   "continuousVariables": {
     "years": [
@@ -174,15 +222,15 @@
       {
         "key": "estimatedAge",
         "label": "Estimated age",
-        "count": 33116,
-        "avg": 36.647073921971256,
-        "min": 0.0,
-        "max": 148.0,
-        "p10": 24.0,
-        "p25": 29.0,
-        "median": 34.5,
-        "p75": 42.0,
-        "p90": 51.0,
+        "count": 43328,
+        "avg": 37.43452271048744,
+        "min": 2.0,
+        "max": 97.0,
+        "p10": 26.0,
+        "p25": 30.0,
+        "median": 36.0,
+        "p75": 43.0,
+        "p90": 51.5,
         "histogram": {
           "binEdges": [
             15,
@@ -202,60 +250,60 @@
             85
           ],
           "counts": [
-            810,
-            2692,
-            6267,
-            6882,
-            5765,
-            4167,
-            2717,
-            1671,
-            939,
-            524,
-            250,
-            133,
-            38,
-            261
+            183,
+            2093,
+            8293,
+            9103,
+            8129,
+            6037,
+            4005,
+            2502,
+            1427,
+            831,
+            411,
+            194,
+            81,
+            39
           ]
         },
         "avgByYear": [
-          36.41137805983681,
-          36.915350877192985,
-          37.39975669099757,
-          38.455748175182485,
-          37.731864708500225,
-          37.994640943194,
-          38.006744604316545,
-          38.85370152761457,
-          39.341046277665995,
-          38.642857142857146
+          37.48436918496464,
+          37.808043875685556,
+          38.12382509194933,
+          39.09062861550328,
+          38.80524861878453,
+          39.031496062992126,
+          39.39884020618557,
+          39.95607333842628,
+          41.838855421686745,
+          42.42325581395349
         ],
         "p90ByYear": [
-          50.0,
-          51.0,
-          51.0,
-          52.0,
-          51.0,
           51.0,
           52.0,
           52.0,
-          53.400000000000034,
-          52.9
+          53.0,
+          52.0,
+          53.0,
+          53.0,
+          53.0,
+          55.0,
+          57.599999999999994
         ],
         "unit": "yrs"
       },
       {
         "key": "yearsOfExperience",
         "label": "Years of experience",
-        "count": 36504,
-        "avg": 10.194186390532545,
+        "count": 45037,
+        "avg": 10.66455203499345,
         "min": 0.0,
-        "max": 126.51,
+        "max": 71.0,
         "p10": 0.0,
-        "p25": 2.92,
-        "median": 7.7,
-        "p75": 14.06,
-        "p90": 21.67,
+        "p25": 3.33,
+        "median": 9.0,
+        "p75": 15.92,
+        "p90": 23.0,
         "histogram": {
           "binEdges": [
             0,
@@ -276,62 +324,62 @@
             45
           ],
           "counts": [
-            9165,
-            5771,
-            5331,
-            4450,
-            3404,
-            2470,
-            1879,
-            1239,
-            859,
-            587,
-            381,
-            259,
-            188,
-            118,
-            403
+            9414,
+            6887,
+            6071,
+            5580,
+            4542,
+            3681,
+            2849,
+            1940,
+            1349,
+            955,
+            662,
+            411,
+            287,
+            175,
+            234
           ],
           "maxLabel": "42+"
         },
         "avgByYear": [
-          9.752465696465697,
-          10.1600654396728,
-          10.614306997742665,
-          11.58057634408602,
-          11.167849508336896,
-          11.334833589349719,
-          11.601935483870967,
-          12.361808873720136,
-          12.168838095238096,
-          13.812272727272727
+          11.04719489981785,
+          11.307037701974865,
+          11.843730923694778,
+          12.716853677028052,
+          12.612403433476395,
+          12.808185576481396,
+          13.423220230473751,
+          14.0290234670704,
+          15.621014925373135,
+          16.606605504587154
         ],
         "p90ByYear": [
-          21.0,
-          21.368,
-          22.45800000000001,
-          24.265999999999984,
-          22.428000000000026,
-          22.985999999999997,
-          23.434000000000005,
-          23.598000000000003,
-          23.968000000000004,
-          25.12100000000001
+          22.75,
+          23.33,
+          24.0,
+          25.83,
+          24.14600000000001,
+          25.08,
+          25.783000000000005,
+          25.83,
+          28.012,
+          29.179000000000002
         ],
         "unit": "yrs"
       },
       {
         "key": "numPriorEmployers",
         "label": "Num prior employers",
-        "count": 36504,
-        "avg": 1.7392340565417488,
+        "count": 45052,
+        "avg": 2.9022906863180324,
         "min": 0.0,
-        "max": 22.0,
+        "max": 36.0,
         "p10": 0.0,
-        "p25": 0.0,
+        "p25": 1.0,
         "median": 2.0,
-        "p75": 3.0,
-        "p90": 4.0,
+        "p75": 4.0,
+        "p90": 6.0,
         "histogram": {
           "binEdges": [
             0,
@@ -346,55 +394,55 @@
             9
           ],
           "counts": [
-            10173,
-            7703,
-            6951,
-            6088,
-            4690,
-            753,
-            66,
-            41,
-            39
+            5927,
+            8714,
+            8357,
+            7417,
+            6125,
+            3429,
+            1833,
+            1101,
+            2149
           ]
         },
         "avgByYear": [
-          1.8316008316008316,
-          1.9394683026584867,
-          2.053273137697517,
-          2.306236559139785,
-          2.4796921761436512,
-          2.537122375832053,
-          2.8142981691368787,
-          2.9897610921501707,
-          2.9238095238095236,
-          3.0227272727272725
+          3.0280510018214937,
+          3.1385996409335726,
+          3.2966680048173425,
+          3.6080363912054585,
+          3.754584471322669,
+          3.7583830960036746,
+          4.154929577464789,
+          4.246782740348221,
+          4.822885572139303,
+          5.4495412844036695
         ],
         "p90ByYear": [
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0
+          6.0,
+          6.0,
+          6.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          8.0,
+          10.0
         ],
         "unit": ""
       },
       {
         "key": "yearsOfEducation",
         "label": "Years of education",
-        "count": 36504,
-        "avg": 4.08393600701293,
+        "count": 46843,
+        "avg": 4.5879000064043725,
         "min": 0.0,
-        "max": 39.0,
+        "max": 81.0,
         "p10": 0.0,
         "p25": 2.0,
         "median": 4.0,
         "p75": 6.0,
-        "p90": 8.0,
+        "p90": 9.0,
         "histogram": {
           "binEdges": [
             0,
@@ -421,67 +469,67 @@
             21
           ],
           "counts": [
-            5013,
-            3859,
-            3336,
-            4169,
-            5554,
-            3912,
-            4322,
-            1882,
-            1192,
-            1159,
-            785,
-            496,
-            270,
-            162,
-            131,
-            67,
-            44,
-            47,
-            35,
-            15,
-            54
+            7627,
+            3190,
+            2606,
+            5521,
+            7024,
+            5338,
+            4812,
+            2630,
+            2119,
+            1665,
+            1249,
+            761,
+            641,
+            364,
+            333,
+            219,
+            183,
+            108,
+            101,
+            93,
+            259
           ]
         },
         "avgByYear": [
-          3.8095634095634097,
-          3.9627811860940696,
-          3.8049661399548533,
-          3.846451612903226,
-          3.9850363403163747,
-          3.804915514592934,
-          4.147340889276373,
-          4.065984072810012,
-          3.6133333333333333,
-          4.113636363636363
+          4.622222222222222,
+          4.6495489243580845,
+          4.462319406481843,
+          4.603606919396393,
+          4.801590306702007,
+          4.770367054610564,
+          4.734782608695652,
+          4.690652818991098,
+          4.602898550724638,
+          4.112107623318385
         ],
         "p90ByYear": [
-          7.599999999999909,
-          8.0,
-          8.0,
-          8.0,
-          8.0,
-          8.0,
-          8.0,
           9.0,
-          7.0,
-          7.700000000000003
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          10.0,
+          9.0,
+          8.0
         ],
         "unit": "yrs"
       },
       {
         "key": "numDegrees",
         "label": "Number of degrees",
-        "count": 36504,
-        "avg": 1.4225016436554898,
+        "count": 46843,
+        "avg": 1.5840573831735798,
         "min": 0.0,
-        "max": 7.0,
+        "max": 10.0,
         "p10": 0.0,
         "p25": 1.0,
-        "median": 1.0,
+        "median": 2.0,
         "p75": 2.0,
-        "p90": 2.0,
+        "p90": 3.0,
         "histogram": {
           "binEdges": [
             0,
@@ -492,35 +540,35 @@
             5
           ],
           "counts": [
-            4954,
-            13925,
-            15033,
-            2450,
-            142
+            7627,
+            15087,
+            16791,
+            4847,
+            2491
           ]
         },
         "avgByYear": [
-          1.3613305613305613,
-          1.412678936605317,
-          1.3733634311512415,
-          1.3793548387096775,
-          1.4283882000855066,
-          1.4039938556067588,
-          1.4995640802092416,
-          1.4550625711035268,
-          1.380952380952381,
-          1.5681818181818181
+          1.6416225749559084,
+          1.6398334489937543,
+          1.5954705193283873,
+          1.6407802723592197,
+          1.712608860280197,
+          1.6960608773500447,
+          1.6590062111801243,
+          1.6253709198813056,
+          1.6367149758454107,
+          1.4798206278026906
         ],
         "p90ByYear": [
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
           3.0
         ],
         "unit": ""
@@ -544,96 +592,96 @@
       {
         "key": "serialFounder",
         "label": "Serial Founders",
-        "count": 36504,
-        "trueCount": 12113,
-        "pct": 33.182664913434145,
+        "count": 46843,
+        "trueCount": 20541,
+        "pct": 43.85073543539056,
         "pctByYear": [
-          34.71933471933472,
-          35.95092024539877,
-          37.832957110609485,
-          43.13978494623656,
-          40.487387772552374,
-          41.372247823860725,
-          42.28421970357454,
-          42.093287827076225,
-          41.333333333333336,
-          36.36363636363637
+          46.067019400352734,
+          46.18320610687023,
+          48.57477547832878,
+          52.300331247699674,
+          51.26845891707686,
+          50.44762757385855,
+          54.6583850931677,
+          56.75074183976261,
+          65.21739130434783,
+          78.47533632286996
         ]
       },
       {
         "key": "ceoExperience",
         "label": "CEO Experience",
-        "count": 36504,
-        "trueCount": 6013,
-        "pct": 16.472167433705895,
+        "count": 46843,
+        "trueCount": 9337,
+        "pct": 19.932540614392757,
         "pctByYear": [
-          18.170478170478173,
-          17.955010224948875,
-          19.729119638826184,
-          22.10752688172043,
-          19.11073108165883,
-          19.969278033794165,
-          20.74978204010462,
-          22.639362912400454,
-          20.0,
-          20.454545454545457
+          21.199294532627867,
+          21.408743927827896,
+          23.70167903162827,
+          25.76370997423629,
+          23.475956077243467,
+          23.276633840644585,
+          23.975155279503106,
+          27.596439169139465,
+          30.33816425120773,
+          41.70403587443946
         ]
       },
       {
         "key": "hasStemDegree",
         "label": "Has STEM Degree",
-        "count": 36504,
-        "trueCount": 7439,
-        "pct": 20.378588647819416,
+        "count": 46843,
+        "trueCount": 23721,
+        "pct": 50.639369809790146,
         "pctByYear": [
-          17.380457380457383,
-          18.03680981595092,
-          17.78781038374718,
-          17.20430107526882,
-          18.34117144078666,
-          13.466461853558629,
-          20.662598081952922,
-          19.453924914675767,
-          15.80952380952381,
-          25.0
+          50.51146384479718,
+          50.41637751561415,
+          49.04334244435768,
+          49.466323150533675,
+          52.55585005679667,
+          52.59623992837958,
+          53.54037267080746,
+          55.712166172106826,
+          52.946859903381636,
+          46.18834080717489
         ]
       },
       {
         "key": "hasMba",
         "label": "Has MBA",
-        "count": 36504,
-        "trueCount": 6713,
-        "pct": 18.38976550515012,
+        "count": 46843,
+        "trueCount": 7557,
+        "pct": 16.132613197276008,
         "pctByYear": [
-          16.923076923076923,
-          18.97750511247444,
-          19.09706546275395,
-          18.322580645161292,
-          19.66652415562206,
-          16.897081413210447,
-          20.83696599825632,
-          16.723549488054605,
-          18.476190476190478,
-          22.727272727272727
+          16.261022927689595,
+          18.11242192921582,
+          17.376024990238186,
+          17.114464482885534,
+          18.515713744793636,
+          15.801253357206804,
+          18.88198757763975,
+          15.578635014836795,
+          19.32367149758454,
+          13.004484304932735
         ]
       },
       {
         "key": "hasPhd",
         "label": "Has PhD",
-        "count": 36504,
-        "trueCount": 4252,
-        "pct": 11.648038571115494,
+        "count": 46843,
+        "trueCount": 4764,
+        "pct": 10.170142817496744,
         "pctByYear": [
-          11.101871101871103,
-          10.797546012269938,
-          10.428893905191874,
-          11.655913978494624,
-          13.766566908935443,
-          14.439324116743471,
-          12.728857890148213,
-          16.496018202502842,
-          10.285714285714285,
-          15.909090909090908
+          10.229276895943562,
+          10.582928521859818,
+          9.29324482623975,
+          10.26867868973132,
+          12.684589170768648,
+          12.846911369740377,
+          10.993788819875776,
+          13.87240356083086,
+          9.371980676328501,
+          8.968609865470851
         ]
       }
     ]
@@ -655,335 +703,335 @@
       {
         "key": "anyInteraction",
         "label": "Any Interaction",
-        "count": 13093,
-        "trueCount": 3919,
-        "pct": 29.93202474604751,
+        "count": 14749,
+        "trueCount": 3688,
+        "pct": 25.005085090514612,
         "pctByYear": [
-          31.952662721893493,
-          35.95890410958904,
-          34.9685534591195,
-          40.803897685749085,
-          44.272076372315034,
-          42.39766081871345,
-          46.43678160919541,
-          47.51552795031056,
-          42.3469387755102,
-          29.411764705882355
+          29.493087557603687,
+          32.81423804226919,
+          33.210332103321036,
+          36.11764705882353,
+          40.78794901506373,
+          40.67055393586006,
+          33.21678321678322,
+          29.310344827586203,
+          23.322683706070286,
+          11.363636363636363
         ]
       },
       {
         "key": "studiedTogether",
         "label": "Studied Together",
-        "count": 13093,
-        "trueCount": 1824,
-        "pct": 13.931108225769496,
+        "count": 14749,
+        "trueCount": 1741,
+        "pct": 11.80419011458404,
         "pctByYear": [
-          13.372781065088757,
-          17.123287671232877,
-          16.9811320754717,
-          16.199756394640684,
-          19.809069212410503,
-          17.982456140350877,
-          19.080459770114942,
-          21.11801242236025,
-          16.83673469387755,
-          17.647058823529413
+          12.788018433179724,
+          15.684093437152391,
+          16.236162361623617,
+          14.23529411764706,
+          18.53997682502897,
+          17.784256559766764,
+          13.636363636363635,
+          13.36206896551724,
+          8.945686900958465,
+          6.8181818181818175
         ]
       },
       {
         "key": "workedTogether",
         "label": "Worked Together",
-        "count": 13093,
-        "trueCount": 2250,
-        "pct": 17.18475521270908,
+        "count": 14749,
+        "trueCount": 2110,
+        "pct": 14.306054647772731,
         "pctByYear": [
-          18.93491124260355,
-          20.54794520547945,
-          18.9937106918239,
-          26.796589524969548,
-          26.849642004773273,
-          23.976608187134502,
-          30.344827586206897,
-          28.88198757763975,
-          28.061224489795915,
-          11.76470588235294
+          16.93548387096774,
+          18.909899888765295,
+          18.081180811808117,
+          24.0,
+          24.565469293163382,
+          22.886297376093296,
+          21.853146853146853,
+          17.67241379310345,
+          15.335463258785943,
+          4.545454545454546
         ]
       },
       {
         "key": "workedAndStudied",
         "label": "Worked & Studied",
-        "count": 13093,
-        "trueCount": 389,
-        "pct": 2.9710532345528144,
+        "count": 14749,
+        "trueCount": 384,
+        "pct": 2.603566343480914,
         "pctByYear": [
-          2.603550295857988,
-          3.3105022831050226,
-          3.1446540880503147,
-          4.6285018270401945,
-          5.4892601431980905,
-          3.216374269005848,
-          6.666666666666667,
-          5.590062111801243,
-          6.122448979591836,
+          2.4193548387096775,
+          3.225806451612903,
+          3.198031980319803,
+          4.352941176470588,
+          5.098493626882966,
+          3.498542274052478,
+          4.895104895104895,
+          3.8793103448275863,
+          3.1948881789137378,
           0.0
         ]
       },
       {
         "key": "sameSurname",
         "label": "Same Surname",
-        "count": 13093,
-        "trueCount": 1087,
-        "pct": 8.302146184984343,
+        "count": 15324,
+        "trueCount": 1392,
+        "pct": 9.08379013312451,
         "pctByYear": [
-          8.63905325443787,
-          9.018264840182647,
-          7.29559748427673,
-          7.673568818514006,
-          6.205250596658711,
-          5.847953216374268,
-          6.206896551724138,
-          4.968944099378882,
-          6.122448979591836,
-          0.0
+          9.523809523809524,
+          11.014176663031625,
+          7.923169267707082,
+          7.454128440366972,
+          6.436781609195402,
+          5.689900426742532,
+          6.176961602671119,
+          5.95482546201232,
+          7.384615384615385,
+          13.043478260869565
         ]
       }
     ]
   },
   "topSchools": {
-    "totalFounders": 25351,
+    "totalFounders": 29480,
     "items": [
       {
         "school": "Tel Aviv University",
-        "domain": "tau.ac.il",
-        "alumniCount": 2661
+        "domain": "english.tau.ac.il",
+        "alumniCount": 4039
       },
       {
-        "school": "Technion - Israel Institute of Technology",
+        "school": "Technion \u2013 Israel Institute of Technology",
         "domain": "technion.ac.il",
-        "alumniCount": 1905
+        "alumniCount": 2752
       },
       {
         "school": "Hebrew University of Jerusalem",
-        "domain": "huji.ac.il",
-        "alumniCount": 1187
+        "domain": "new.huji.ac.il",
+        "alumniCount": 1880
       },
       {
         "school": "Ben-Gurion University of the Negev",
         "domain": "bgu.ac.il",
-        "alumniCount": 826
+        "alumniCount": 1385
       },
       {
         "school": "Bar-Ilan University",
-        "domain": "biu.ac.il",
-        "alumniCount": 623
+        "domain": "www1.biu.ac.il",
+        "alumniCount": 1080
       },
       {
         "school": "Reichman University",
         "domain": "runi.ac.il",
-        "alumniCount": 422
+        "alumniCount": 885
       },
       {
         "school": "Open University of Israel",
-        "domain": "openu.ac.il",
-        "alumniCount": 327
-      },
-      {
-        "school": "University of Haifa",
-        "domain": "haifa.ac.il",
-        "alumniCount": 293
-      },
-      {
-        "school": "Weizmann Institute of Science",
-        "domain": "weizmann.ac.il",
-        "alumniCount": 270
+        "domain": "www-e.openu.ac.il",
+        "alumniCount": 717
       },
       {
         "school": "College of Management Academic Studies",
         "domain": "colman.ac.il",
-        "alumniCount": 262
+        "alumniCount": 513
       },
       {
-        "school": "Academic College of Tel Aviv-Yaffo",
-        "domain": "mta.ac.il",
-        "alumniCount": 108
+        "school": "University of Haifa",
+        "domain": "haifa.ac.il",
+        "alumniCount": 500
       },
       {
-        "school": "New York University",
-        "domain": "nyu.edu",
-        "alumniCount": 84
+        "school": "Weizmann Institute of Science",
+        "domain": "weizmann.ac.il",
+        "alumniCount": 367
       },
       {
-        "school": "Ono Academic College",
-        "domain": "ono.ac.il",
-        "alumniCount": 76
-      },
-      {
-        "school": "Harvard University",
-        "domain": "harvard.edu",
-        "alumniCount": 72
+        "school": "Holon Institute of Technology",
+        "domain": "hit.ac.il",
+        "alumniCount": 154
       },
       {
         "school": "Ruppin Academic Center",
         "domain": "ruppin.ac.il",
-        "alumniCount": 72
+        "alumniCount": 151
+      },
+      {
+        "school": "Ariel University",
+        "domain": "ariel.ac.il",
+        "alumniCount": 126
+      },
+      {
+        "school": "Ono Academic College",
+        "domain": "friends.ono.ac.il",
+        "alumniCount": 125
+      },
+      {
+        "school": "Academic College of Tel Aviv-Yafo",
+        "domain": "int.mta.ac.il",
+        "alumniCount": 125
       }
     ]
   },
   "topEmployers": {
-    "totalFounders": 27764,
+    "totalFounders": 36118,
     "items": [
       {
-        "employer": "Google",
-        "domain": "google.com",
-        "alumniCount": 667
+        "employer": "Intel",
+        "domain": "intel.com",
+        "alumniCount": 717
       },
       {
         "employer": "Microsoft",
         "domain": "microsoft.com",
-        "alumniCount": 665
+        "alumniCount": 518
       },
       {
-        "employer": "Intel",
-        "domain": "intel.com",
-        "alumniCount": 456
+        "employer": "Google",
+        "domain": "google.com",
+        "alumniCount": 492
       },
       {
         "employer": "Amdocs",
         "domain": "amdocs.com",
-        "alumniCount": 455
+        "alumniCount": 433
       },
       {
         "employer": "Elbit Systems",
         "domain": "elbitsystems.com",
-        "alumniCount": 428
-      },
-      {
-        "employer": "Intel Corporation",
-        "domain": null,
         "alumniCount": 416
       },
       {
-        "employer": "Check Point Software Technologies",
+        "employer": "Check Point",
         "domain": "checkpoint.com",
-        "alumniCount": 399
+        "alumniCount": 315
       },
       {
         "employer": "IBM",
         "domain": "ibm.com",
-        "alumniCount": 324
+        "alumniCount": 278
       },
       {
-        "employer": "Wix",
-        "domain": "wix.com",
-        "alumniCount": 262
+        "employer": "Comverse",
+        "domain": "comverse.com",
+        "alumniCount": 215
+      },
+      {
+        "employer": "RAFAEL Advanced Defense Systems",
+        "domain": "rafael.co.il",
+        "alumniCount": 212
       },
       {
         "employer": "Meta",
         "domain": "meta.com",
-        "alumniCount": 244
-      },
-      {
-        "employer": "Self Employed",
-        "domain": null,
-        "alumniCount": 227
+        "alumniCount": 190
       },
       {
         "employer": "Wix.com",
-        "domain": null,
-        "alumniCount": 226
+        "domain": "wix.com",
+        "alumniCount": 177
       },
       {
-        "employer": "Rafael Advanced Defense Systems",
-        "domain": "rafael.co.il",
-        "alumniCount": 217
+        "employer": "Wix",
+        "domain": "wix.com",
+        "alumniCount": 153
       },
       {
-        "employer": "Amazon Web Services",
-        "domain": "aws.amazon.com",
-        "alumniCount": 211
+        "employer": "Verint",
+        "domain": "verint.com",
+        "alumniCount": 150
       },
       {
         "employer": "Israel Aerospace Industries",
         "domain": "iai.co.il",
-        "alumniCount": 211
+        "alumniCount": 147
+      },
+      {
+        "employer": "Cisco",
+        "domain": "cisco.com",
+        "alumniCount": 143
       }
     ]
   },
   "teamSize": {
-    "totalTeams": 17468,
+    "totalTeams": 24631,
     "buckets": [
       {
         "label": "1",
-        "count": 4375,
+        "count": 9323,
         "gender": {
-          "onlyMale": 3676,
+          "onlyMale": 8305,
           "mostlyMale": 0,
           "exactMix": 0,
           "mostlyFemale": 0,
-          "onlyFemale": 699
+          "onlyFemale": 875
         }
       },
       {
         "label": "2",
-        "count": 7904,
+        "count": 8650,
         "gender": {
-          "onlyMale": 5556,
+          "onlyMale": 6736,
           "mostlyMale": 0,
-          "exactMix": 1990,
+          "exactMix": 1416,
           "mostlyFemale": 0,
-          "onlyFemale": 358
+          "onlyFemale": 203
         }
       },
       {
         "label": "3",
-        "count": 3721,
+        "count": 4356,
         "gender": {
-          "onlyMale": 2310,
-          "mostlyMale": 1046,
+          "onlyMale": 3159,
+          "mostlyMale": 774,
           "exactMix": 0,
-          "mostlyFemale": 308,
-          "onlyFemale": 57
+          "mostlyFemale": 145,
+          "onlyFemale": 32
         }
       },
       {
         "label": "4+",
-        "count": 1468,
+        "count": 2302,
         "gender": {
-          "onlyMale": 737,
-          "mostlyMale": 461,
-          "exactMix": 218,
-          "mostlyFemale": 44,
-          "onlyFemale": 8
+          "onlyMale": 1447,
+          "mostlyMale": 527,
+          "exactMix": 121,
+          "mostlyFemale": 14,
+          "onlyFemale": 1
         }
       }
     ]
   },
   "teamDna": {
-    "totalTeams": 17468,
+    "totalTeams": 24631,
     "items": [
       {
         "composition": [
           "B",
           "T"
         ],
-        "count": 3667,
-        "pct": 20.99
+        "count": 3981,
+        "pct": 16.16
       },
       {
         "composition": [
           "B",
           "B"
         ],
-        "count": 2426,
-        "pct": 13.89
+        "count": 2577,
+        "pct": 10.46
       },
       {
         "composition": [
           "T",
           "T"
         ],
-        "count": 1654,
-        "pct": 9.47
+        "count": 1821,
+        "pct": 7.39
       },
       {
         "composition": [
@@ -991,8 +1039,8 @@
           "B",
           "T"
         ],
-        "count": 1354,
-        "pct": 7.75
+        "count": 1661,
+        "pct": 6.74
       },
       {
         "composition": [
@@ -1000,8 +1048,8 @@
           "T",
           "T"
         ],
-        "count": 1037,
-        "pct": 5.94
+        "count": 1273,
+        "pct": 5.17
       },
       {
         "composition": [
@@ -1009,8 +1057,8 @@
           "B",
           "B"
         ],
-        "count": 485,
-        "pct": 2.78
+        "count": 588,
+        "pct": 2.39
       },
       {
         "composition": [
@@ -1018,8 +1066,8 @@
           "T",
           "T"
         ],
-        "count": 410,
-        "pct": 2.35
+        "count": 462,
+        "pct": 1.88
       }
     ]
   }
