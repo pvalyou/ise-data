@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:26:32.537Z",
+  "generatedAt": "2026-07-29T19:39:13.967Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 27291,
-      "delta24h": 1013
+      "value": 27292,
+      "delta24h": 941
     },
     "totalFunding": {
       "valueUsd": 189187330058,
@@ -928,7 +928,7 @@
         241,
         324,
         518,
-        624,
+        625,
         377,
         374,
         410,
@@ -1016,9 +1016,9 @@
       ],
       "statusMix": {
         "inactive": 443,
-        "active": 11913,
-        "unknown": 2055,
+        "active": 11914,
         "closed": 12879,
+        "unknown": 2055,
         "acquired": 1
       }
     },
@@ -1373,13 +1373,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 12730,
+      "active": 12731,
       "closed": 12083,
       "exited": 2478
     },
     "funnel": {
-      "all": 27291,
-      "funded": 13977,
+      "all": 27292,
+      "funded": 13981,
       "over1m": 5641,
       "over10m": 2764,
       "exited": 2478
@@ -1700,37 +1700,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 11318,
-        "share": 0.418580568808018
+        "share": 0.41856508875739645
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 5899,
-        "share": 0.21816635230592848
+        "share": 0.21815828402366863
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 3742,
-        "share": 0.1383926920374274
+        "count": 3743,
+        "share": 0.13842455621301775
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1361,
-        "share": 0.05033470172713488
+        "share": 0.05033284023668639
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 1496,
-        "share": 0.05532748992196457
+        "share": 0.055325443786982245
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 3223,
-        "share": 0.11919819519952661
+        "share": 0.11919378698224851
       }
     ],
     "mixSummary": {
@@ -1872,7 +1872,7 @@
       },
       {
         "name": "Aerospace & Defense",
-        "parent": "IT and Telecom",
+        "parent": "Energy and Utilities",
         "total": 135,
         "shareDelta": 0.016,
         "counts": [
@@ -1904,7 +1904,7 @@
     "trendingDown": [
       {
         "name": "Blockchain & Cryptocurrency",
-        "parent": "Financial Services",
+        "parent": "IT and Telecom",
         "total": 158,
         "shareDelta": -0.021,
         "counts": [
@@ -1994,7 +1994,7 @@
       },
       {
         "name": "Advertising Technology",
-        "parent": "Media and Entertainment",
+        "parent": "IT and Telecom",
         "total": 227,
         "shareDelta": -0.012,
         "counts": [
@@ -2130,25 +2130,25 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Nanovel",
-        "stage": "Grant",
-        "amountUsd": 2850000,
+        "org": "Hemispheric",
+        "stage": "Series A",
+        "amountUsd": 52000000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "EIC Accelerator Grant"
+        "investorCount": 11,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Stark Power",
+        "org": "TytoCare",
         "stage": "Other",
-        "amountUsd": 48000000,
+        "amountUsd": 25000000,
         "investors": [],
-        "investorCount": 3,
-        "isVcBacked": false,
+        "investorCount": 10,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Equity Raise"
+        "roundTitle": "Growth Round"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2174,25 +2174,35 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "TytoCare",
-        "stage": "Other",
-        "amountUsd": 25000000,
+        "org": "Nanovel",
+        "stage": "Grant",
+        "amountUsd": 2850000,
         "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round"
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "EIC Accelerator Grant"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Hemispheric",
-        "stage": "Series A",
-        "amountUsd": 52000000,
+        "org": "Stark Power",
+        "stage": "Other",
+        "amountUsd": 48000000,
         "investors": [],
-        "investorCount": 11,
-        "isVcBacked": true,
+        "investorCount": 3,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Equity Raise"
+      },
+      {
+        "ts": "2026-07-14T00:00:00.000Z",
+        "org": "Mizo",
+        "stage": "Series A",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2204,16 +2214,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-07-14T00:00:00.000Z",
-        "org": "Mizo",
-        "stage": "Series A",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2228,16 +2228,6 @@
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
-        "org": "TunedCare",
-        "stage": "Seed",
-        "amountUsd": 530000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": false,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
         "org": "Pulsenmore",
         "stage": "Grant",
         "amountUsd": 1000000,
@@ -2246,6 +2236,16 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant (AI Sandbox)"
+      },
+      {
+        "ts": "2026-07-13T00:00:00.000Z",
+        "org": "TunedCare",
+        "stage": "Seed",
+        "amountUsd": 530000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2260,25 +2260,25 @@
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
-        "org": "Tangos",
-        "stage": "Seed",
-        "amountUsd": 20000000,
+        "org": "Keyper",
+        "stage": "Series A",
+        "amountUsd": 11000000,
         "investors": [],
-        "investorCount": 8,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-07-09T00:00:00.000Z",
-        "org": "Safe Shower",
-        "stage": "Grant",
+        "org": "Spikes Studio",
+        "stage": "Seed",
         "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
         "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "R&D Grant"
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       }
     ],
     "todayStats": {
@@ -2287,6 +2287,25 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-07-29T17:28:11.971Z",
+        "org": "Jerusalem Hostel",
+        "industry": "Consumer Goods and Services",
+        "city": "",
+        "subIndustry": "Travel & Hospitality",
+        "description": "Online booking platform for hotels in Jerusalem, enabling travelers to search, compare, and reserve accommodations.",
+        "domain": "jerusalem-hostel.com",
+        "keywords": [
+          "Hotel booking",
+          "Jerusalem hotels",
+          "Accommodation search",
+          "Online reservation",
+          "Travel booking"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "Marketplace"
+      },
       {
         "ts": "2026-07-29T17:16:34.216Z",
         "org": "HobbitNet",
@@ -2664,27 +2683,6 @@
         "exactEmployees": 18,
         "isDeeptech": false,
         "businessModel": "Advertising"
-      },
-      {
-        "ts": "2026-07-29T14:59:22.033Z",
-        "org": "\u05d1\u05e7\u05e8\u05de\u05d5\u05e1 \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05e2\"\u05de",
-        "industry": "IT and Telecom",
-        "city": "\u05e7\u05d9\u05e1\u05e8\u05d9\u05d4",
-        "subIndustry": "Hardware & Semiconductors",
-        "description": "Precision electronics manufacturing and contract assembly services specializing in micro-electronics, MEMS packaging, and medical device production within controlled cleanroom environments.",
-        "domain": "beckermus.com",
-        "keywords": [
-          "Electronics manufacturing",
-          "Micro-electronics assembly",
-          "MEMS packaging",
-          "Contract manufacturing",
-          "Cleanroom production",
-          "Medical device assembly",
-          "Semiconductor packaging",
-          "Turnkey manufacturing"
-        ],
-        "isDeeptech": false,
-        "businessModel": "Contract manufacturing"
       }
     ],
     "notable": [
@@ -2712,13 +2710,6 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ManageWare",
-        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
-      },
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Toya",
         "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
@@ -2729,6 +2720,13 @@
         "rawKind": "Product Launch",
         "org": "Yuki",
         "summary": "Yuki launched the Cortex Control Center, a product that breaks down Snowflake Cortex AI spend by product, agent, user, role, and model, providing cost and latency insights."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "ManageWare",
+        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2743,13 +2741,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Zafran Security",
         "summary": "Zafran announced a strategic investment from Cisco Investments."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Dondy",
-        "summary": "Acquired by Circeus"
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2774,10 +2765,24 @@
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Dondy",
+        "summary": "Acquired by Circeus"
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Prismm",
         "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Speedata",
+        "summary": "Deployed Arteris FlexNoC network-on-chip technology in its Callisto Analytics Processing Unit (APU) for data center compute."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2789,16 +2794,9 @@
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Portnox",
-        "summary": "Portnox announced strong growth as customer demand rises for continuous access control; includes milestone of over one million devices managed."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Nexxen",
-        "summary": "Nexxen expanded partnership with Acxiom, introducing Acxiom audience data into Nexxen Discovery."
+        "org": "Wasens",
+        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2811,15 +2809,8 @@
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "PolyPid",
-        "summary": "PolyPid announced an exclusive partnership with Azurity Pharmaceuticals for the commercialization of D-PLEX100 in the U.S. and Canada, valued at over $320 million in upfront and milestone payments plus tiered royalties."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Wasens",
-        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
+        "org": "Nexxen",
+        "summary": "Nexxen expanded partnership with Acxiom, introducing Acxiom audience data into Nexxen Discovery."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2827,6 +2818,13 @@
         "rawKind": "Product Launch",
         "org": "Mindspace",
         "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ParaZero Technologies Ltd.",
+        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
       }
     ]
   }
