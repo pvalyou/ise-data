@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:25:01.123Z",
+  "generatedAt": "2026-08-01T22:07:00.441Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 28566,
-      "delta24h": 593
+      "delta24h": 541
     },
     "totalFunding": {
       "valueUsd": 190948638626,
@@ -178,7 +178,7 @@
       "total": 116686,
       "delta30d": 0
     },
-    "openJobs": 5651
+    "openJobs": 5738
   },
   "map": {
     "districts": [
@@ -2110,7 +2110,7 @@
       },
       {
         "name": "Social Media & Community",
-        "parent": "Media and Entertainment",
+        "parent": "Consumer Goods and Services",
         "total": 172,
         "shareDelta": -0.011,
         "counts": [
@@ -2160,17 +2160,6 @@
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
-        "org": "Glow",
-        "stage": "Series B",
-        "amountUsd": 100000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
         "org": "Plantopia",
         "stage": "Seed",
         "amountUsd": 9000000,
@@ -2179,6 +2168,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "org": "Glow",
+        "stage": "Series B",
+        "amountUsd": 100000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2247,39 +2247,6 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "DisperseBio",
-        "stage": "Grant",
-        "amountUsd": 15000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Ray of Hope Accelerator Grant"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Regatta Data",
-        "stage": "Series C",
-        "amountUsd": 68000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Nanovel",
-        "stage": "Grant",
-        "amountUsd": 2850000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "EIC Accelerator Grant"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
         "org": "Hemispheric",
         "stage": "Series A",
         "amountUsd": 52000000,
@@ -2299,6 +2266,39 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Regatta Data",
+        "stage": "Series C",
+        "amountUsd": 68000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "DisperseBio",
+        "stage": "Grant",
+        "amountUsd": 15000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Ray of Hope Accelerator Grant"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Nanovel",
+        "stage": "Grant",
+        "amountUsd": 2850000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "EIC Accelerator Grant"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2334,13 +2334,14 @@
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
-        "org": "TunedCare",
-        "stage": "Seed",
-        "amountUsd": 530000,
+        "org": "Cordio Medical",
+        "stage": "Accelerator",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 0,
         "isVcBacked": false,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Accelerator/Incubator"
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2761,6 +2762,13 @@
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "HawkEye 360",
+        "summary": "Pinpointed a hard-to-locate transmitter, restoring spectrum availability for NOAA's GOES weather system."
+      },
+      {
+        "ts": "2026-07-29T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Daydream",
         "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
@@ -2771,13 +2779,6 @@
         "rawKind": "Clinical Trial Milestone",
         "org": "Silexion Therapeutics",
         "summary": "Successfully initiated the Phase 2/3 clinical trial of SIL204 in locally advanced pancreatic cancer at Tel Aviv Sourasky Medical Center."
-      },
-      {
-        "ts": "2026-07-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "HawkEye 360",
-        "summary": "Pinpointed a hard-to-locate transmitter, restoring spectrum availability for NOAA's GOES weather system."
       },
       {
         "ts": "2026-07-28T00:00:00.000Z",
@@ -2803,16 +2804,16 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ManageWare",
-        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
+        "rawKind": "Government Contract",
+        "org": "HawkEye 360",
+        "summary": "Awarded a multi-year contract to enhance Indian Ocean Region maritime domain awareness."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Toya",
-        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
+        "rawKind": "Strategic Partnership",
+        "org": "AGAT Software",
+        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2824,16 +2825,16 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Government Contract",
-        "org": "HawkEye 360",
-        "summary": "Awarded a multi-year contract to enhance Indian Ocean Region maritime domain awareness."
+        "rawKind": "Executive Appointment",
+        "org": "ManageWare",
+        "summary": "Bryan Hunziker appointed as Chief Growth Officer."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "AGAT Software",
-        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
+        "rawKind": "Product Launch",
+        "org": "Toya",
+        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2852,9 +2853,37 @@
       {
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "ZotaPay",
+        "summary": "Ash Huber appointed as CEO of ZotaPay."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Glow",
+        "summary": "Glow emerged from stealth and launched its AI-native endpoint security platform, designed to prevent security threats from reaching corporate devices using specialized AI agents for real-time risk analysis and policy enforcement."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Pontera",
         "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Zafran Security",
+        "summary": "Zafran announced a strategic investment from Cisco Investments."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Dondy",
+        "summary": "Acquired by Circeus"
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2869,34 +2898,6 @@
         "rawKind": "Product Launch",
         "org": "TopGum",
         "summary": "Launched longevity gummies for cognition and eye health."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Dondy",
-        "summary": "Acquired by Circeus"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Zafran Security",
-        "summary": "Zafran announced a strategic investment from Cisco Investments."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ZotaPay",
-        "summary": "Ash Huber appointed as CEO of ZotaPay."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Glow",
-        "summary": "Glow emerged from stealth and launched its AI-native endpoint security platform, designed to prevent security threats from reaching corporate devices using specialized AI agents for real-time risk analysis and policy enforcement."
       }
     ]
   }
