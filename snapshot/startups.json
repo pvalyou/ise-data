@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T04:36:27.913Z",
+  "generatedAt": "2026-08-01T13:06:11.069Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,56 +159,56 @@
   },
   "kpis": {
     "startups": {
-      "value": 28119,
-      "delta24h": 687
+      "value": 28451,
+      "delta24h": 711
     },
     "totalFunding": {
-      "valueUsd": 190334818870,
-      "rounds": 28260
+      "valueUsd": 190843438626,
+      "rounds": 28328
     },
     "exits": {
-      "count": 2541,
-      "valueUsd": 278460847800
+      "count": 2576,
+      "valueUsd": 283842302800
     },
     "employees": {
-      "total": 533790,
+      "total": 541719,
       "avgPerStartup": 24
     },
     "patents": {
-      "total": 116376,
+      "total": 116660,
       "delta30d": 0
     },
-    "openJobs": 5643
+    "openJobs": 5651
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 5230
+        "count": 5293
       },
       {
         "name": "Central",
-        "count": 2832
+        "count": 2871
       },
       {
         "name": "Haifa",
-        "count": 1024
+        "count": 1040
       },
       {
         "name": "Jerusalem",
-        "count": 597
+        "count": 603
       },
       {
         "name": "Northern",
-        "count": 356
+        "count": 362
       },
       {
         "name": "Southern",
-        "count": 288
+        "count": 296
       },
       {
         "name": "Judea & Samaria",
-        "count": 11
+        "count": 12
       }
     ],
     "cities": [
@@ -217,70 +217,70 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 3367
+        "count": 3398
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 596
+        "count": 602
       },
       {
         "name": "Ramat Gan",
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 571
+        "count": 582
       },
       {
         "name": "Jerusalem",
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 552
+        "count": 558
       },
       {
         "name": "Haifa",
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 436
+        "count": 444
       },
       {
         "name": "Petah Tikva",
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 400
+        "count": 409
       },
       {
         "name": "Ra'anana",
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 347
+        "count": 354
       },
       {
         "name": "Rehovot",
         "district": "Central",
         "lat": 31.8944,
         "lng": 34.8097,
-        "count": 283
+        "count": 284
       },
       {
         "name": "Netanya",
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 262
+        "count": 268
       },
       {
         "name": "Kfar Saba",
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 230
+        "count": 232
       },
       {
         "name": "Hod Hasharon",
@@ -290,32 +290,46 @@
         "count": 200
       },
       {
-        "name": "Ness Ziona",
-        "district": "Central",
-        "lat": 31.9293,
-        "lng": 34.7986,
-        "count": 190
-      },
-      {
         "name": "Bnei Brak",
         "district": "Tel Aviv",
         "lat": 32.0836,
         "lng": 34.8337,
-        "count": 185
+        "count": 190
+      },
+      {
+        "name": "Ness Ziona",
+        "district": "Central",
+        "lat": 31.9293,
+        "lng": 34.7986,
+        "count": 188
       },
       {
         "name": "Rishon LeZion",
         "district": "Central",
         "lat": 31.973,
         "lng": 34.7925,
-        "count": 171
+        "count": 174
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 153
+        "count": 156
+      },
+      {
+        "name": "Caesarea",
+        "district": "Haifa",
+        "lat": 32.5167,
+        "lng": 34.9,
+        "count": 145
+      },
+      {
+        "name": "Rosh HaAyin",
+        "district": "Central",
+        "lat": 32.0844,
+        "lng": 34.9547,
+        "count": 144
       },
       {
         "name": "Ramat Hasharon",
@@ -325,32 +339,18 @@
         "count": 143
       },
       {
-        "name": "Caesarea",
-        "district": "Haifa",
-        "lat": 32.5167,
-        "lng": 34.9,
-        "count": 142
-      },
-      {
-        "name": "Rosh HaAyin",
-        "district": "Central",
-        "lat": 32.0844,
-        "lng": 34.9547,
-        "count": 141
-      },
-      {
         "name": "Yokneam Illit",
         "district": "Haifa",
         "lat": 32.6594,
         "lng": 35.1097,
-        "count": 128
+        "count": 129
       },
       {
         "name": "Holon",
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 101
+        "count": 107
       },
       {
         "name": "Givatayim",
@@ -364,7 +364,7 @@
         "district": "Tel Aviv",
         "lat": 32.0333,
         "lng": 34.85,
-        "count": 83
+        "count": 86
       },
       {
         "name": "Be'er Sheva",
@@ -374,6 +374,13 @@
         "count": 75
       },
       {
+        "name": "Yavne",
+        "district": "Central",
+        "lat": 31.8781,
+        "lng": 34.7381,
+        "count": 71
+      },
+      {
         "name": "Nazareth",
         "district": "Northern",
         "lat": 32.7022,
@@ -381,18 +388,11 @@
         "count": 69
       },
       {
-        "name": "Yavne",
-        "district": "Central",
-        "lat": 31.8781,
-        "lng": 34.7381,
-        "count": 68
-      },
-      {
         "name": "Ashdod",
         "district": "Southern",
         "lat": 31.8044,
         "lng": 34.6553,
-        "count": 64
+        "count": 65
       },
       {
         "name": "Kiryat Ono",
@@ -402,6 +402,20 @@
         "count": 59
       },
       {
+        "name": "Nesher",
+        "district": "Haifa",
+        "lat": 32.77,
+        "lng": 35.04,
+        "count": 54
+      },
+      {
+        "name": "Lod",
+        "district": "Central",
+        "lat": 31.9506,
+        "lng": 34.8887,
+        "count": 52
+      },
+      {
         "name": "Misgav",
         "district": "Northern",
         "lat": 32.9,
@@ -409,18 +423,11 @@
         "count": 52
       },
       {
-        "name": "Nesher",
-        "district": "Haifa",
-        "lat": 32.77,
-        "lng": 35.04,
-        "count": 52
-      },
-      {
-        "name": "Lod",
-        "district": "Central",
-        "lat": 31.9506,
-        "lng": 34.8887,
-        "count": 51
+        "name": "Ashkelon",
+        "district": "Southern",
+        "lat": 31.6689,
+        "lng": 34.5715,
+        "count": 48
       },
       {
         "name": "Migdal HaEmek",
@@ -428,13 +435,6 @@
         "lat": 32.6747,
         "lng": 35.2406,
         "count": 47
-      },
-      {
-        "name": "Ashkelon",
-        "district": "Southern",
-        "lat": 31.6689,
-        "lng": 34.5715,
-        "count": 46
       },
       {
         "name": "Hadera",
@@ -462,7 +462,7 @@
         "district": "Central",
         "lat": 32.0333,
         "lng": 34.8833,
-        "count": 36
+        "count": 37
       },
       {
         "name": "Beit Shemesh",
@@ -483,14 +483,21 @@
         "district": "Central",
         "lat": 32.2667,
         "lng": 34.8833,
-        "count": 31
+        "count": 32
       },
       {
         "name": "Tirat Carmel",
         "district": "Haifa",
         "lat": 32.7611,
         "lng": 34.9711,
-        "count": 30
+        "count": 31
+      },
+      {
+        "name": "Pardes Hanna-Karkur",
+        "district": "Haifa",
+        "lat": 32.4718,
+        "lng": 34.972,
+        "count": 29
       },
       {
         "name": "Tel Mond",
@@ -511,14 +518,14 @@
         "district": "Haifa",
         "lat": 32.7191,
         "lng": 35.1247,
-        "count": 28
+        "count": 27
       },
       {
-        "name": "Pardes Hanna-Karkur",
-        "district": "Haifa",
-        "lat": 32.4718,
-        "lng": 34.972,
-        "count": 28
+        "name": "Afula",
+        "district": "Northern",
+        "lat": 32.6078,
+        "lng": 35.2897,
+        "count": 26
       },
       {
         "name": "Katzrin",
@@ -542,6 +549,13 @@
         "count": 25
       },
       {
+        "name": "Kiryat Gat",
+        "district": "Southern",
+        "lat": 31.61,
+        "lng": 34.7642,
+        "count": 25
+      },
+      {
         "name": "Or Akiva",
         "district": "Haifa",
         "lat": 32.51,
@@ -549,25 +563,25 @@
         "count": 25
       },
       {
-        "name": "Kiryat Gat",
-        "district": "Southern",
-        "lat": 31.61,
-        "lng": 34.7642,
-        "count": 24
-      },
-      {
-        "name": "Afula",
-        "district": "Northern",
-        "lat": 32.6078,
-        "lng": 35.2897,
-        "count": 23
-      },
-      {
         "name": "Kiryat Bialik",
         "district": "Haifa",
         "lat": 32.8367,
         "lng": 35.0861,
-        "count": 23
+        "count": 24
+      },
+      {
+        "name": "Sderot",
+        "district": "Southern",
+        "lat": 31.5247,
+        "lng": 34.5964,
+        "count": 24
+      },
+      {
+        "name": "Bat Yam",
+        "district": "Tel Aviv",
+        "lat": 32.0231,
+        "lng": 34.7503,
+        "count": 22
       },
       {
         "name": "Gedera",
@@ -584,32 +598,18 @@
         "count": 22
       },
       {
-        "name": "Sderot",
-        "district": "Southern",
-        "lat": 31.5247,
-        "lng": 34.5964,
-        "count": 22
-      },
-      {
-        "name": "Bat Yam",
-        "district": "Tel Aviv",
-        "lat": 32.0231,
-        "lng": 34.7503,
-        "count": 21
-      },
-      {
         "name": "Omer",
         "district": "Southern",
         "lat": 31.2661,
         "lng": 34.8489,
-        "count": 20
+        "count": 22
       },
       {
         "name": "Kadima-Zoran",
         "district": "Central",
         "lat": 32.2789,
         "lng": 34.9181,
-        "count": 19
+        "count": 20
       },
       {
         "name": "Tzur Yigal",
@@ -626,6 +626,13 @@
         "count": 18
       },
       {
+        "name": "Nahariya",
+        "district": "Northern",
+        "lat": 33.0061,
+        "lng": 35.0947,
+        "count": 16
+      },
+      {
         "name": "Airport City",
         "district": "Central",
         "lat": 32.0014,
@@ -640,17 +647,17 @@
         "count": 15
       },
       {
-        "name": "Nahariya",
-        "district": "Northern",
-        "lat": 33.0061,
-        "lng": 35.0947,
-        "count": 15
-      },
-      {
         "name": "Kfar Yona",
         "district": "Central",
         "lat": 32.3217,
         "lng": 34.9369,
+        "count": 14
+      },
+      {
+        "name": "Ramat Yishai",
+        "district": "Northern",
+        "lat": 32.705,
+        "lng": 35.17,
         "count": 14
       },
       {
@@ -665,13 +672,6 @@
         "district": "Central",
         "lat": 32.2197,
         "lng": 34.9864,
-        "count": 13
-      },
-      {
-        "name": "Ramat Yishai",
-        "district": "Northern",
-        "lat": 32.705,
-        "lng": 35.17,
         "count": 13
       },
       {
@@ -707,7 +707,7 @@
         "district": "Northern",
         "lat": 32.9281,
         "lng": 35.0818,
-        "count": 9
+        "count": 10
       },
       {
         "name": "Ofakim",
@@ -766,6 +766,13 @@
         "count": 6
       },
       {
+        "name": "Ma'ale Adumim",
+        "district": "Judea & Samaria",
+        "lat": 31.7769,
+        "lng": 35.2981,
+        "count": 6
+      },
+      {
         "name": "Ma'alot-Tarshiha",
         "district": "Northern",
         "lat": 33.017,
@@ -778,13 +785,6 @@
         "lat": 31.9281,
         "lng": 34.8714,
         "count": 6
-      },
-      {
-        "name": "Ma'ale Adumim",
-        "district": "Judea & Samaria",
-        "lat": 31.7769,
-        "lng": 35.2981,
-        "count": 5
       },
       {
         "name": "Glil Yam",
@@ -836,18 +836,21 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1857
+    "unresolvedCount": 1898
   },
   "overTime": {
     "foundedClosed": {
       "years": [
         1902,
         1935,
+        1936,
         1939,
         1943,
+        1945,
         1946,
         1947,
         1948,
+        1949,
         1950,
         1951,
         1954,
@@ -929,78 +932,81 @@
         1,
         1,
         2,
-        2,
-        1,
-        1,
-        1,
         1,
         2,
         1,
-        2,
+        3,
+        1,
         1,
         1,
         1,
         3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
         4,
-        4,
+        7,
         2,
         5,
-        2,
-        1,
-        8,
-        5,
-        1,
-        1,
-        5,
-        5,
+        3,
         2,
         9,
+        6,
+        3,
+        1,
+        7,
+        6,
+        5,
         11,
-        25,
-        18,
-        13,
+        12,
+        28,
         20,
-        21,
-        44,
-        45,
-        51,
+        17,
+        22,
+        23,
+        46,
+        47,
+        53,
         41,
-        62,
-        100,
-        133,
-        143,
-        197,
-        194,
-        252,
-        332,
-        533,
-        645,
-        382,
-        383,
-        424,
-        578,
-        596,
-        679,
-        781,
-        740,
-        809,
-        918,
-        1018,
+        65,
+        104,
+        134,
+        147,
+        203,
+        199,
+        260,
+        338,
+        541,
+        659,
+        393,
+        396,
+        440,
+        594,
+        605,
+        696,
+        806,
+        757,
+        828,
+        923,
+        1028,
         1280,
-        1288,
-        1494,
-        1562,
-        1469,
-        1411,
-        1364,
-        1301,
-        1351,
-        1274,
-        1114,
-        1009,
-        860,
-        743,
-        180
+        1298,
+        1506,
+        1577,
+        1478,
+        1419,
+        1374,
+        1306,
+        1356,
+        1271,
+        1116,
+        1005,
+        857,
+        739,
+        179
       ],
       "closed": [
         0,
@@ -1008,7 +1014,10 @@
         0,
         0,
         0,
+        0,
+        0,
         1,
+        0,
         0,
         0,
         0,
@@ -1034,60 +1043,60 @@
         0,
         0,
         0,
-        0,
+        1,
         2,
         1,
         4,
         6,
         3,
         9,
-        10,
+        11,
         15,
-        19,
+        20,
         17,
-        23,
-        26,
+        22,
+        28,
         52,
-        68,
+        67,
         78,
-        91,
-        109,
-        140,
-        195,
-        323,
+        92,
+        110,
+        144,
+        197,
+        326,
         405,
-        234,
-        228,
-        260,
-        353,
-        333,
-        396,
-        475,
-        407,
-        479,
-        502,
-        624,
-        844,
-        820,
-        911,
+        238,
+        231,
+        264,
+        358,
+        336,
+        401,
+        482,
+        416,
+        488,
+        504,
+        627,
+        840,
+        817,
+        916,
         849,
-        771,
-        697,
-        617,
-        525,
-        447,
-        385,
-        289,
-        173,
-        77,
-        32,
+        768,
+        698,
+        616,
+        526,
+        446,
+        386,
+        287,
+        172,
+        76,
+        31,
         3
       ],
       "statusMix": {
-        "inactive": 439,
-        "active": 12684,
-        "unknown": 2062,
-        "closed": 12933,
+        "inactive": 440,
+        "active": 12950,
+        "closed": 12995,
+        "unknown": 2065,
         "acquired": 1
       }
     },
@@ -1150,37 +1159,37 @@
         32,
         46,
         54,
-        86,
-        123,
-        176,
-        313,
-        562,
+        87,
+        124,
+        175,
+        314,
+        563,
         381,
-        353,
-        365,
-        480,
-        504,
-        565,
-        665,
-        647,
-        489,
-        598,
-        690,
-        808,
-        954,
-        1095,
-        1215,
-        1200,
-        1283,
-        1509,
-        1516,
-        1566,
-        2027,
-        1926,
-        1462,
-        1388,
-        1290,
-        466
+        355,
+        368,
+        485,
+        503,
+        567,
+        667,
+        653,
+        495,
+        605,
+        696,
+        812,
+        959,
+        1099,
+        1213,
+        1204,
+        1281,
+        1510,
+        1510,
+        1565,
+        2026,
+        1921,
+        1467,
+        1385,
+        1294,
+        471
       ],
       "raisedUsd": [
         0,
@@ -1197,45 +1206,45 @@
         30700000,
         23333000,
         120160000,
-        189750000,
+        181750000,
         394850000,
-        1844579142,
+        1831379142,
         1293480000,
-        851901374,
-        646886000,
-        937328845,
-        969451000,
-        1209709000,
-        1378795000,
-        1709471000,
-        1239736000,
-        1309197062,
-        1999308860,
-        1715722500,
-        2512807583,
-        3538714378,
-        4035019125,
-        4618100790,
-        5773347242,
-        7599501624,
-        11237230824,
-        12100205320,
-        33505617010,
-        22071470350,
-        11247977063,
-        14307484329,
-        22046694775,
-        14142555234
+        815901374,
+        655886000,
+        938578845,
+        967951000,
+        1215109000,
+        1396980000,
+        1830471000,
+        1232191000,
+        1508047062,
+        2146607660,
+        1724457500,
+        2464147583,
+        3536791378,
+        3998379125,
+        4623500790,
+        5883847242,
+        7625115224,
+        11279230824,
+        12059159320,
+        33654831010,
+        21939411706,
+        11403907063,
+        14207643329,
+        22210094775,
+        13876955234
       ],
       "stageMix": {
-        "Seed": 13543,
-        "Series A": 4281,
-        "Other": 3310,
-        "Series B": 1777,
-        "Series C": 1584,
-        "Unknown": 856,
+        "Seed": 13563,
+        "Series A": 4280,
+        "Other": 3337,
+        "Series B": 1776,
+        "Series C": 1582,
+        "Unknown": 848,
         "Pre-seed": 769,
-        "Angel": 754
+        "Angel": 761
       }
     },
     "exits": {
@@ -1285,7 +1294,7 @@
         2,
         1,
         2,
-        3,
+        4,
         1,
         3,
         2,
@@ -1293,31 +1302,31 @@
         8,
         25,
         8,
-        13,
+        14,
         10,
-        34,
+        36,
         39,
-        65,
-        50,
+        64,
+        51,
         56,
         42,
         60,
         75,
-        64,
+        65,
         69,
-        78,
-        88,
-        98,
-        111,
-        116,
-        144,
-        123,
-        277,
-        136,
-        125,
-        143,
-        192,
-        321
+        82,
+        89,
+        99,
+        112,
+        121,
+        147,
+        124,
+        279,
+        141,
+        126,
+        145,
+        191,
+        326
       ],
       "acquisitions": [
         0,
@@ -1325,7 +1334,7 @@
         0,
         0,
         0,
-        2,
+        3,
         1,
         2,
         2,
@@ -1337,27 +1346,27 @@
         10,
         32,
         35,
-        58,
+        57,
         44,
         55,
         40,
-        55,
+        54,
         71,
-        62,
+        63,
         64,
-        71,
-        81,
-        92,
-        101,
-        104,
-        131,
+        75,
+        82,
+        93,
+        100,
+        108,
+        134,
         102,
-        202,
-        117,
-        117,
-        136,
-        174,
-        263
+        203,
+        121,
+        118,
+        138,
+        172,
+        264
       ],
       "ipos": [
         2,
@@ -1373,31 +1382,31 @@
         4,
         5,
         0,
-        2,
+        3,
         0,
-        2,
+        4,
         4,
         7,
-        6,
+        7,
         1,
         2,
-        5,
+        6,
         4,
         2,
         5,
         7,
         7,
         6,
-        10,
         12,
         13,
-        21,
-        75,
-        19,
+        13,
+        22,
+        76,
+        20,
         8,
         7,
-        18,
-        58
+        19,
+        62
       ],
       "valueUsd": [
         0,
@@ -1415,100 +1424,100 @@
         454000000,
         195240000,
         124450000,
-        1557000000,
+        1548300000,
         1746310000,
         2718306800,
         2080550000,
         1900570000,
         1772655000,
-        1795700000,
+        1794800000,
         3652871000,
         4017261000,
-        4897639700,
-        2830260000,
-        4617170000,
-        4488820000,
-        19949833000,
-        6090069000,
-        17035306300,
-        6901702500,
-        17919317500,
-        12720175000,
+        4892139700,
+        2853860000,
+        4702170000,
+        4584820000,
+        19949633000,
+        9474069000,
+        17558681300,
+        6740702500,
+        17928477500,
+        12755175000,
         53911634100,
-        15241531700,
-        59823620200,
-        14503955000
+        15565531700,
+        59833620200,
+        15571575000
       ],
       "typeMix": {
-        "acquisition": 2274,
-        "ipo": 320
+        "acquisition": 2293,
+        "ipo": 336
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 13454,
-      "closed": 12124,
-      "exited": 2541
+      "active": 13694,
+      "closed": 12181,
+      "exited": 2576
     },
     "funnel": {
-      "all": 28119,
-      "funded": 14366,
-      "over1m": 5730,
-      "over10m": 2802,
-      "exited": 2541
+      "all": 28451,
+      "funded": 14453,
+      "over1m": 5773,
+      "over10m": 2823,
+      "exited": 2576
     },
     "timeToExit": {
       "overall": {
-        "avgYears": 8.6,
+        "avgYears": 8.8,
         "medianYears": 7.0,
-        "avgValueUsd": 103950653,
+        "avgValueUsd": 104791136,
         "medianValueUsd": 0
       },
       "acquisition": {
-        "avgYears": 8.6,
+        "avgYears": 8.7,
         "medianYears": 7.0,
-        "avgValueUsd": 115617636,
+        "avgValueUsd": 116776491,
         "medianValueUsd": 0
       },
       "ipo": {
-        "avgYears": 10.3,
-        "medianYears": 8.0,
-        "avgValueUsd": 55161041,
+        "avgYears": 10.5,
+        "medianYears": 9.0,
+        "avgValueUsd": 55630528,
         "medianValueUsd": 0
       },
       "distribution": [
-        47,
-        83,
-        193,
+        50,
+        84,
+        190,
         208,
-        234,
+        237,
         202,
-        202,
-        189,
+        205,
+        190,
         149,
-        141,
-        115,
-        101,
+        140,
+        118,
+        105,
         103,
-        79,
-        69,
+        80,
+        77,
         60,
-        51,
+        54,
         41,
         35,
-        34,
+        38,
         32,
         19,
         16,
         8,
-        14,
+        15,
         9,
-        13,
-        9,
+        12,
+        10,
         5,
-        7,
-        39
+        8,
+        45
       ]
     }
   },
@@ -1560,178 +1569,178 @@
     "mixByYear": [
       {
         "year": 2017,
-        "total": 1401,
-        "unknown": 10,
+        "total": 1407,
+        "unknown": 12,
         "counts": {
-          "it-telecom": 562,
-          "healthcare-food": 338,
-          "consumer-goods-services": 190,
-          "energy-utilities": 39,
-          "financial-services": 111,
-          "media-entertainment": 161
+          "it-telecom": 568,
+          "healthcare-food": 339,
+          "consumer-goods-services": 192,
+          "energy-utilities": 38,
+          "financial-services": 110,
+          "media-entertainment": 160
         },
         "shares": {
-          "it-telecom": 0.4011420413990007,
-          "healthcare-food": 0.2412562455389008,
-          "consumer-goods-services": 0.13561741613133477,
-          "energy-utilities": 0.027837259100642397,
-          "financial-services": 0.07922912205567452,
-          "media-entertainment": 0.11491791577444682
+          "it-telecom": 0.4036958066808813,
+          "healthcare-food": 0.24093816631130063,
+          "consumer-goods-services": 0.13646055437100213,
+          "energy-utilities": 0.02700781805259417,
+          "financial-services": 0.07818052594171997,
+          "media-entertainment": 0.11371712864250177
         }
       },
       {
         "year": 2018,
-        "total": 1360,
+        "total": 1370,
         "unknown": 4,
         "counts": {
-          "it-telecom": 552,
-          "healthcare-food": 323,
-          "consumer-goods-services": 203,
-          "energy-utilities": 37,
-          "financial-services": 129,
+          "it-telecom": 554,
+          "healthcare-food": 325,
+          "consumer-goods-services": 205,
+          "energy-utilities": 38,
+          "financial-services": 132,
           "media-entertainment": 116
         },
         "shares": {
-          "it-telecom": 0.40588235294117647,
-          "healthcare-food": 0.2375,
-          "consumer-goods-services": 0.14926470588235294,
-          "energy-utilities": 0.027205882352941177,
-          "financial-services": 0.09485294117647058,
-          "media-entertainment": 0.08529411764705883
+          "it-telecom": 0.4043795620437956,
+          "healthcare-food": 0.23722627737226276,
+          "consumer-goods-services": 0.14963503649635038,
+          "energy-utilities": 0.027737226277372264,
+          "financial-services": 0.09635036496350365,
+          "media-entertainment": 0.08467153284671533
         }
       },
       {
         "year": 2019,
-        "total": 1292,
+        "total": 1297,
         "unknown": 9,
         "counts": {
-          "it-telecom": 525,
-          "healthcare-food": 338,
-          "consumer-goods-services": 175,
-          "energy-utilities": 44,
+          "it-telecom": 526,
+          "healthcare-food": 339,
+          "consumer-goods-services": 177,
+          "energy-utilities": 42,
           "financial-services": 94,
-          "media-entertainment": 116
+          "media-entertainment": 119
         },
         "shares": {
-          "it-telecom": 0.40634674922600617,
-          "healthcare-food": 0.26160990712074306,
-          "consumer-goods-services": 0.13544891640866874,
-          "energy-utilities": 0.034055727554179564,
-          "financial-services": 0.07275541795665634,
-          "media-entertainment": 0.08978328173374613
+          "it-telecom": 0.4055512721665382,
+          "healthcare-food": 0.26137239784117194,
+          "consumer-goods-services": 0.13646877409406322,
+          "energy-utilities": 0.03238242097147263,
+          "financial-services": 0.07247494217424827,
+          "media-entertainment": 0.09175019275250579
         }
       },
       {
         "year": 2020,
-        "total": 1340,
+        "total": 1345,
         "unknown": 11,
         "counts": {
-          "it-telecom": 534,
-          "healthcare-food": 372,
+          "it-telecom": 536,
+          "healthcare-food": 374,
           "consumer-goods-services": 185,
-          "energy-utilities": 45,
+          "energy-utilities": 46,
           "financial-services": 92,
           "media-entertainment": 112
         },
         "shares": {
-          "it-telecom": 0.39850746268656717,
-          "healthcare-food": 0.27761194029850744,
-          "consumer-goods-services": 0.13805970149253732,
-          "energy-utilities": 0.033582089552238806,
-          "financial-services": 0.06865671641791045,
-          "media-entertainment": 0.08358208955223881
+          "it-telecom": 0.39851301115241633,
+          "healthcare-food": 0.27806691449814125,
+          "consumer-goods-services": 0.137546468401487,
+          "energy-utilities": 0.03420074349442379,
+          "financial-services": 0.06840148698884758,
+          "media-entertainment": 0.08327137546468401
         }
       },
       {
         "year": 2021,
-        "total": 1267,
+        "total": 1264,
         "unknown": 7,
         "counts": {
-          "it-telecom": 522,
-          "healthcare-food": 303,
-          "consumer-goods-services": 135,
-          "energy-utilities": 74,
-          "financial-services": 117,
-          "media-entertainment": 116
+          "it-telecom": 525,
+          "healthcare-food": 299,
+          "consumer-goods-services": 137,
+          "energy-utilities": 72,
+          "financial-services": 116,
+          "media-entertainment": 115
         },
         "shares": {
-          "it-telecom": 0.4119968429360695,
-          "healthcare-food": 0.23914759273875297,
-          "consumer-goods-services": 0.10655090765588003,
-          "energy-utilities": 0.05840568271507498,
-          "financial-services": 0.09234411996842937,
-          "media-entertainment": 0.09155485398579322
+          "it-telecom": 0.4153481012658228,
+          "healthcare-food": 0.23655063291139242,
+          "consumer-goods-services": 0.10838607594936708,
+          "energy-utilities": 0.056962025316455694,
+          "financial-services": 0.09177215189873418,
+          "media-entertainment": 0.09098101265822785
         }
       },
       {
         "year": 2022,
-        "total": 1108,
+        "total": 1110,
         "unknown": 6,
         "counts": {
-          "it-telecom": 452,
-          "healthcare-food": 283,
+          "it-telecom": 456,
+          "healthcare-food": 282,
           "consumer-goods-services": 126,
-          "energy-utilities": 72,
-          "financial-services": 95,
-          "media-entertainment": 80
+          "energy-utilities": 70,
+          "financial-services": 97,
+          "media-entertainment": 79
         },
         "shares": {
-          "it-telecom": 0.40794223826714804,
-          "healthcare-food": 0.25541516245487367,
-          "consumer-goods-services": 0.11371841155234658,
-          "energy-utilities": 0.06498194945848375,
-          "financial-services": 0.08574007220216606,
-          "media-entertainment": 0.07220216606498195
+          "it-telecom": 0.41081081081081083,
+          "healthcare-food": 0.25405405405405407,
+          "consumer-goods-services": 0.11351351351351352,
+          "energy-utilities": 0.06306306306306306,
+          "financial-services": 0.08738738738738738,
+          "media-entertainment": 0.07117117117117117
         }
       },
       {
         "year": 2023,
-        "total": 1000,
+        "total": 996,
         "unknown": 9,
         "counts": {
-          "it-telecom": 442,
-          "healthcare-food": 247,
-          "consumer-goods-services": 133,
+          "it-telecom": 439,
+          "healthcare-food": 246,
+          "consumer-goods-services": 132,
           "energy-utilities": 55,
           "financial-services": 48,
-          "media-entertainment": 75
+          "media-entertainment": 76
         },
         "shares": {
-          "it-telecom": 0.442,
-          "healthcare-food": 0.247,
-          "consumer-goods-services": 0.133,
-          "energy-utilities": 0.055,
-          "financial-services": 0.048,
-          "media-entertainment": 0.075
+          "it-telecom": 0.4407630522088353,
+          "healthcare-food": 0.2469879518072289,
+          "consumer-goods-services": 0.13253012048192772,
+          "energy-utilities": 0.055220883534136546,
+          "financial-services": 0.04819277108433735,
+          "media-entertainment": 0.07630522088353414
         }
       },
       {
         "year": 2024,
-        "total": 851,
+        "total": 848,
         "unknown": 9,
         "counts": {
-          "it-telecom": 405,
+          "it-telecom": 403,
           "healthcare-food": 192,
           "consumer-goods-services": 104,
           "energy-utilities": 55,
-          "financial-services": 46,
+          "financial-services": 45,
           "media-entertainment": 49
         },
         "shares": {
-          "it-telecom": 0.47591069330199764,
-          "healthcare-food": 0.2256169212690952,
-          "consumer-goods-services": 0.12220916568742655,
-          "energy-utilities": 0.06462984723854288,
-          "financial-services": 0.05405405405405406,
-          "media-entertainment": 0.057579318448883664
+          "it-telecom": 0.47523584905660377,
+          "healthcare-food": 0.22641509433962265,
+          "consumer-goods-services": 0.12264150943396226,
+          "energy-utilities": 0.06485849056603774,
+          "financial-services": 0.05306603773584906,
+          "media-entertainment": 0.05778301886792453
         }
       },
       {
         "year": 2025,
-        "total": 717,
+        "total": 713,
         "unknown": 26,
         "counts": {
-          "it-telecom": 363,
+          "it-telecom": 359,
           "healthcare-food": 138,
           "consumer-goods-services": 74,
           "energy-utilities": 49,
@@ -1739,33 +1748,33 @@
           "media-entertainment": 50
         },
         "shares": {
-          "it-telecom": 0.5062761506276151,
-          "healthcare-food": 0.19246861924686193,
-          "consumer-goods-services": 0.10320781032078104,
-          "energy-utilities": 0.06834030683403068,
-          "financial-services": 0.0599721059972106,
-          "media-entertainment": 0.0697350069735007
+          "it-telecom": 0.5035063113604488,
+          "healthcare-food": 0.1935483870967742,
+          "consumer-goods-services": 0.10378681626928471,
+          "energy-utilities": 0.06872370266479663,
+          "financial-services": 0.06030855539971949,
+          "media-entertainment": 0.07012622720897616
         }
       },
       {
         "year": 2026,
-        "total": 176,
+        "total": 175,
         "unknown": 4,
         "counts": {
           "it-telecom": 94,
           "healthcare-food": 25,
           "consumer-goods-services": 16,
           "energy-utilities": 16,
-          "financial-services": 11,
+          "financial-services": 10,
           "media-entertainment": 14
         },
         "shares": {
-          "it-telecom": 0.5340909090909091,
-          "healthcare-food": 0.14204545454545456,
-          "consumer-goods-services": 0.09090909090909091,
-          "energy-utilities": 0.09090909090909091,
-          "financial-services": 0.0625,
-          "media-entertainment": 0.07954545454545454
+          "it-telecom": 0.5371428571428571,
+          "healthcare-food": 0.14285714285714285,
+          "consumer-goods-services": 0.09142857142857143,
+          "energy-utilities": 0.09142857142857143,
+          "financial-services": 0.05714285714285714,
+          "media-entertainment": 0.08
         }
       }
     ],
@@ -1773,43 +1782,43 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 11492,
-        "share": 0.41243181165661785
+        "count": 11608,
+        "share": 0.4118210522581332
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 5998,
-        "share": 0.21525983347688774
+        "count": 6045,
+        "share": 0.21446056692801646
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 4091,
-        "share": 0.1468202698822854
+        "count": 4182,
+        "share": 0.14836626813779402
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1455,
-        "share": 0.052217915590008615
+        "count": 1487,
+        "share": 0.05275481604995211
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 1554,
-        "share": 0.055770887166236
+        "count": 1566,
+        "share": 0.05555752651931742
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 3274,
-        "share": 0.1174992822279644
+        "count": 3299,
+        "share": 0.11703977010678682
       }
     ],
     "mixSummary": {
-      "totalVisible": 10512,
-      "totalUnknown": 95
+      "totalVisible": 10525,
+      "totalUnknown": 97
     },
     "subTrendYears": [
       2017,
@@ -1827,61 +1836,61 @@
       {
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
-        "total": 521,
+        "total": 520,
         "shareDelta": 0.048,
         "counts": [
           52,
           40,
           61,
           43,
-          44,
-          40,
+          45,
+          39,
           70,
           71,
-          74,
+          73,
           26
         ],
         "shares": [
-          0.037089871611982884,
-          0.029411764705882353,
-          0.04714064914992272,
-          0.03206562266964952,
-          0.03472770323599053,
-          0.036101083032490974,
-          0.07,
-          0.08343125734430082,
-          0.10306406685236769,
-          0.14772727272727273
+          0.036931818181818184,
+          0.029197080291970802,
+          0.04695919938414165,
+          0.03194650817236255,
+          0.03560126582278481,
+          0.03513513513513514,
+          0.07028112449799197,
+          0.08372641509433962,
+          0.10224089635854341,
+          0.14857142857142858
         ]
       },
       {
         "name": "Enterprise Software",
         "parent": "Unknown",
         "total": 1690,
-        "shareDelta": 0.027,
+        "shareDelta": 0.026,
         "counts": [
-          196,
-          207,
+          198,
+          208,
           191,
-          230,
+          229,
           215,
-          173,
-          192,
-          128,
-          128,
+          175,
+          191,
+          127,
+          126,
           30
         ],
         "shares": [
-          0.1398002853067047,
-          0.15220588235294116,
-          0.14760432766615147,
-          0.1715137956748695,
-          0.1696921862667719,
-          0.15613718411552346,
-          0.192,
-          0.15041128084606345,
-          0.17827298050139276,
-          0.17045454545454544
+          0.140625,
+          0.15182481751824817,
+          0.147036181678214,
+          0.17013372956909362,
+          0.17009493670886075,
+          0.15765765765765766,
+          0.19176706827309237,
+          0.14976415094339623,
+          0.17647058823529413,
+          0.17142857142857143
         ]
       },
       {
@@ -1890,40 +1899,40 @@
         "total": 706,
         "shareDelta": 0.024,
         "counts": [
-          74,
-          96,
+          75,
+          94,
           68,
           78,
           84,
-          84,
+          85,
           62,
-          86,
-          60,
+          87,
+          59,
           14
         ],
         "shares": [
-          0.052781740370898715,
-          0.07058823529411765,
-          0.05255023183925812,
-          0.058165548098434,
-          0.06629834254143646,
-          0.07581227436823104,
-          0.062,
-          0.10105757931844889,
-          0.08356545961002786,
-          0.07954545454545454
+          0.053267045454545456,
+          0.06861313868613139,
+          0.05234795996920708,
+          0.05794947994056464,
+          0.06645569620253164,
+          0.07657657657657657,
+          0.06224899598393574,
+          0.10259433962264151,
+          0.08263305322128851,
+          0.08
         ]
       },
       {
         "name": "Clean Technology",
         "parent": "Energy and Utilities",
-        "total": 201,
+        "total": 202,
         "shareDelta": 0.017,
         "counts": [
           10,
           16,
           16,
-          20,
+          21,
           26,
           35,
           27,
@@ -1932,27 +1941,27 @@
           7
         ],
         "shares": [
-          0.007132667617689016,
-          0.011764705882352941,
-          0.012364760432766615,
-          0.014914243102162566,
-          0.020520915548539857,
-          0.0315884476534296,
-          0.027,
-          0.03172737955346651,
-          0.023676880222841225,
-          0.03977272727272727
+          0.007102272727272727,
+          0.01167883211678832,
+          0.012317167051578136,
+          0.015601783060921248,
+          0.020569620253164556,
+          0.03153153153153153,
+          0.02710843373493976,
+          0.031839622641509434,
+          0.023809523809523808,
+          0.04
         ]
       },
       {
         "name": "Aerospace & Defense",
         "parent": "Energy and Utilities",
-        "total": 139,
+        "total": 140,
         "shareDelta": 0.016,
         "counts": [
           9,
           15,
-          9,
+          10,
           16,
           17,
           13,
@@ -1962,121 +1971,121 @@
           2
         ],
         "shares": [
-          0.006419400855920114,
-          0.011029411764705883,
-          0.006955177743431221,
-          0.011931394481730051,
-          0.013417521704814523,
-          0.011732851985559567,
-          0.013,
-          0.021151586368977675,
-          0.037604456824512536,
-          0.011363636363636364
+          0.006392045454545455,
+          0.010948905109489052,
+          0.007698229407236336,
+          0.01188707280832095,
+          0.013449367088607595,
+          0.011711711711711712,
+          0.013052208835341365,
+          0.02122641509433962,
+          0.037815126050420166,
+          0.011428571428571429
         ]
       }
     ],
     "trendingDown": [
       {
         "name": "Blockchain & Cryptocurrency",
-        "parent": "Financial Services",
-        "total": 163,
+        "parent": "IT and Telecom",
+        "total": 167,
         "shareDelta": -0.019,
         "counts": [
           51,
-          42,
+          43,
           13,
           11,
-          15,
+          17,
           14,
-          9,
+          10,
           2,
           6,
           0
         ],
         "shares": [
-          0.03637660485021398,
-          0.030882352941176472,
-          0.010046367851622875,
-          0.00820283370618941,
-          0.011838989739542225,
-          0.01263537906137184,
-          0.009,
-          0.0023501762632197414,
-          0.008356545961002786,
+          0.03622159090909091,
+          0.031386861313868614,
+          0.010007698229407237,
+          0.008172362555720654,
+          0.013449367088607595,
+          0.012612612612612612,
+          0.010040160642570281,
+          0.0023584905660377358,
+          0.008403361344537815,
           0.0
         ]
       },
       {
         "name": "Food Technology",
         "parent": "Healthcare and Food",
-        "total": 331,
+        "total": 330,
         "shareDelta": -0.014,
         "counts": [
           36,
           44,
-          59,
+          58,
           51,
           38,
-          47,
-          29,
+          48,
+          28,
           20,
           7,
           0
         ],
         "shares": [
-          0.025677603423680456,
-          0.03235294117647059,
-          0.04559505409582689,
-          0.03803131991051454,
-          0.02999210734017364,
-          0.042418772563176894,
-          0.029,
-          0.023501762632197415,
-          0.009749303621169917,
+          0.02556818181818182,
+          0.032116788321167884,
+          0.044649730561970746,
+          0.03789004457652303,
+          0.030063291139240507,
+          0.043243243243243246,
+          0.028112449799196786,
+          0.02358490566037736,
+          0.00980392156862745,
           0.0
         ]
       },
       {
         "name": "Travel & Hospitality",
         "parent": "IT and Telecom",
-        "total": 148,
+        "total": 147,
         "shareDelta": -0.014,
         "counts": [
           33,
-          29,
-          24,
+          30,
+          23,
           17,
-          13,
-          13,
+          12,
+          14,
           6,
-          9,
+          8,
           4,
           0
         ],
         "shares": [
-          0.023537803138373753,
-          0.021323529411764706,
-          0.01854714064914992,
-          0.01267710663683818,
-          0.010260457774269928,
-          0.011732851985559567,
-          0.006,
-          0.010575793184488837,
-          0.005571030640668524,
+          0.0234375,
+          0.021897810218978103,
+          0.01770592763664357,
+          0.01263001485884101,
+          0.00949367088607595,
+          0.012612612612612612,
+          0.006024096385542169,
+          0.009433962264150943,
+          0.0056022408963585435,
           0.0
         ]
       },
       {
         "name": "Advertising Technology",
-        "parent": "IT and Telecom",
-        "total": 229,
+        "parent": "Media and Entertainment",
+        "total": 228,
         "shareDelta": -0.012,
         "counts": [
           57,
           36,
           24,
           32,
-          27,
+          26,
           10,
           16,
           11,
@@ -2084,16 +2093,16 @@
           1
         ],
         "shares": [
-          0.04065620542082739,
-          0.026470588235294117,
-          0.01854714064914992,
-          0.023862788963460103,
-          0.021310181531176007,
-          0.009025270758122744,
-          0.016,
-          0.012925969447708578,
-          0.020891364902506964,
-          0.005681818181818182
+          0.040482954545454544,
+          0.026277372262773723,
+          0.018475750577367205,
+          0.0237741456166419,
+          0.020569620253164556,
+          0.009009009009009009,
+          0.01606425702811245,
+          0.012971698113207548,
+          0.02100840336134454,
+          0.005714285714285714
         ]
       },
       {
@@ -2104,8 +2113,8 @@
         "counts": [
           33,
           20,
-          29,
-          24,
+          30,
+          23,
           21,
           21,
           8,
@@ -2114,24 +2123,24 @@
           1
         ],
         "shares": [
-          0.023537803138373753,
-          0.014705882352941176,
-          0.02241112828438949,
-          0.017897091722595078,
-          0.016574585635359115,
-          0.01895306859205776,
-          0.008,
-          0.008225616921269096,
-          0.011142061281337047,
-          0.005681818181818182
+          0.0234375,
+          0.014598540145985401,
+          0.023094688221709007,
+          0.017087667161961365,
+          0.01661392405063291,
+          0.01891891891891892,
+          0.008032128514056224,
+          0.008254716981132075,
+          0.011204481792717087,
+          0.005714285714285714
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 9580,
-      "deeptechPct": 34.1,
-      "globalCount": 11277,
-      "globalPct": 40.1
+      "deeptechCount": 9614,
+      "deeptechPct": 33.8,
+      "globalCount": 11493,
+      "globalPct": 40.4
     }
   },
   "feeds": {
@@ -2180,6 +2189,16 @@
         "roundTitle": "Series A"
       },
       {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Hey Seven",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
         "ts": "2026-07-20T00:00:00.000Z",
         "org": "Neo Security",
         "stage": "Series A",
@@ -2203,6 +2222,17 @@
       },
       {
         "ts": "2026-07-16T00:00:00.000Z",
+        "org": "Horizon Trade",
+        "stage": "Pre-seed",
+        "amountUsd": 2000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-seed"
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
         "org": "Kind Designs",
         "stage": "Series A",
         "amountUsd": 10000000,
@@ -2213,15 +2243,15 @@
         "roundTitle": "Pre-Series A"
       },
       {
-        "ts": "2026-07-16T00:00:00.000Z",
-        "org": "Horizon Trade",
-        "stage": "Pre-seed",
-        "amountUsd": 2000000,
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Regatta Data",
+        "stage": "Series C",
+        "amountUsd": 68000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 10,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-seed"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2233,6 +2263,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "TytoCare",
+        "stage": "Other",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2266,28 +2307,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Equity Raise"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Regatta Data",
-        "stage": "Series C",
-        "amountUsd": 68000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "TytoCare",
-        "stage": "Other",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round"
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2341,17 +2360,6 @@
         "investorCount": 4,
         "isVcBacked": false,
         "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
-        "org": "Cordio Medical",
-        "stage": "Accelerator",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Accelerator/Incubator"
       }
     ],
     "todayStats": {
@@ -2361,427 +2369,451 @@
     },
     "newStartups": [
       {
-        "ts": "2026-08-01T04:29:59.625Z",
-        "org": "K.M.A Advanced Technologies",
+        "ts": "2026-08-01T11:11:11.943Z",
+        "org": "Zero21 Innovation",
         "industry": "IT and Telecom",
-        "city": "Binyamina",
-        "subIndustry": "Cybersecurity",
-        "description": "Network security and web application security services provider offering consulting, assessments, and implementation support for organizations.",
-        "domain": "kmacons.com",
+        "city": "Tel Aviv",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Entrepreneurship education and development studio helping startups build MVPs and digital products, offering product definition, development, and AI integration services.",
+        "domain": "zero21innovation.com",
         "keywords": [
-          "Network security",
-          "Web application security",
-          "Security consulting",
-          "Cybersecurity services",
-          "Penetration testing",
-          "Security assessments"
+          "Startup development",
+          "MVP building",
+          "Product design",
+          "Entrepreneurship education",
+          "Web development",
+          "Mobile app development",
+          "AI development"
         ],
-        "exactEmployees": 3,
+        "exactEmployees": 7,
         "isDeeptech": false,
         "businessModel": "Services"
       },
       {
-        "ts": "2026-08-01T04:29:58.787Z",
-        "org": "J.O.T",
-        "industry": "IT and Telecom",
-        "city": "Tel Aviv-Yafo",
-        "subIndustry": "Enterprise Software",
-        "description": "Cloud-based project management platform that links strategy, team execution, and daily work through structured sprints, WBS-based task management, time tracking, and automated reporting.",
-        "domain": "jot-s.com",
-        "keywords": [
-          "Project management software",
-          "Task management",
-          "Workflow automation",
-          "PMO software",
-          "Agile project management",
-          "Portfolio management",
-          "Time tracking",
-          "Daily reporting",
-          "Team collaboration",
-          "Work breakdown structure"
-        ],
-        "employeeRange": "51-200",
-        "exactEmployees": 51,
-        "isDeeptech": false,
-        "businessModel": "SaaS subscription"
-      },
-      {
-        "ts": "2026-08-01T04:27:12.149Z",
-        "org": "Peak Energy",
-        "industry": "Unknown",
-        "city": "",
-        "description": "U.S.-based company developing low-cost, giga-scale energy storage technology for the grid",
-        "domain": "peakenergy.com"
-      },
-      {
-        "ts": "2026-08-01T04:18:04.716Z",
-        "org": "Hoogel",
-        "industry": "Consumer Goods and Services",
-        "city": "Or Yehuda",
-        "subIndustry": "Consumer Services",
-        "description": "Online directory and search platform for recreational activities and courses in Israel, connecting local service providers with consumers.",
-        "domain": "hoogel.co.il",
-        "keywords": [
-          "Leisure activities directory",
-          "Course search",
-          "Recreational activities",
-          "Local courses",
-          "Activity listings",
-          "Search platform",
-          "Israel activities"
-        ],
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "Advertising platform"
-      },
-      {
-        "ts": "2026-08-01T04:15:12.119Z",
-        "org": "Intelligent Appliance",
-        "industry": "IT and Telecom",
-        "city": "Netanya",
-        "subIndustry": "Hardware & Semiconductors",
-        "description": "Industrial data acquisition and control device manufacturer providing relay controllers, digital and analog I/O modules, and communication building blocks for automation and monitoring systems.",
-        "domain": "intelligent-appliance.com",
-        "keywords": [
-          "Industrial data acquisition",
-          "Relay controllers",
-          "Digital I/O modules",
-          "Analog I/O modules",
-          "USB relay boards",
-          "Remote I/O controllers",
-          "Motion control",
-          "Industrial automation",
-          "RS-232 controllers"
-        ],
-        "exactEmployees": 18,
-        "isDeeptech": false,
-        "businessModel": "Manufacturing and sales of industrial electronic control devices, with custom design services."
-      },
-      {
-        "ts": "2026-08-01T04:15:02.955Z",
-        "org": "IntellectUp",
-        "industry": "Healthcare and Food",
-        "city": "Tel Aviv",
-        "subIndustry": "Digital Health",
-        "description": "Cloud-based healthcare analytics platform providing real-time blood sample analysis and disease risk assessment for hospitals, laboratories, and clinics.",
-        "domain": "intellectup.com",
-        "keywords": [
-          "Blood diagnostics",
-          "Real-time diagnosis",
-          "Health analytics",
-          "Disease risk assessment",
-          "Clinical decision support",
-          "Laboratory automation",
-          "Biometric data analysis",
-          "Diagnostic platform"
-        ],
-        "exactEmployees": 15,
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS platform"
-      },
-      {
-        "ts": "2026-08-01T04:13:30.358Z",
-        "org": "Buy2Fly",
-        "industry": "Consumer Goods and Services",
-        "city": "",
-        "subIndustry": "Travel & Hospitality",
-        "description": "Online travel deals platform offering discounted flight and vacation packages to consumers, aggregating offers from travel providers.",
-        "keywords": [
-          "Travel deals",
-          "Flight discounts",
-          "Vacation packages",
-          "Holiday deals",
-          "Travel coupons",
-          "Israel travel",
-          "Discounted flights"
-        ],
-        "isDeeptech": false,
-        "businessModel": "Affiliate Marketing"
-      },
-      {
-        "ts": "2026-08-01T04:13:03.717Z",
-        "org": "Integrity Meter",
-        "industry": "IT and Telecom",
-        "city": "S\u00e3o Paulo",
-        "subIndustry": "Enterprise Software",
-        "description": "Provider of online integrity and reliability testing platforms for pre-employment screening and ongoing employee monitoring, helping organizations assess candidates' honesty and suitability.",
-        "domain": "integritymeter.com",
-        "keywords": [
-          "Employee integrity testing",
-          "Pre-employment screening",
-          "Reliability tests",
-          "Background checks",
-          "Recruitment software",
-          "Employee assessment",
-          "HR screening tools"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 18,
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS"
-      },
-      {
-        "ts": "2026-08-01T04:12:47.732Z",
-        "org": "Imali Media",
-        "industry": "Media and Entertainment",
-        "city": "Tel Aviv",
-        "subIndustry": "Advertising Technology",
-        "description": "Performance-based digital advertising and marketing company specializing in multi-channel user acquisition, programmatic buying, video advertising, and software distribution.",
-        "domain": "imali.media",
-        "keywords": [
-          "Performance advertising",
-          "User acquisition",
-          "Programmatic buying",
-          "Video advertising",
-          "Ad serving",
-          "Software distribution",
-          "Digital marketing",
-          "Ad tech",
-          "Media buying"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 6,
-        "isDeeptech": false,
-        "businessModel": "Performance-based advertising services and ad-tech platform"
-      },
-      {
-        "ts": "2026-08-01T04:12:45.079Z",
-        "org": "Imagine Bio",
+        "ts": "2026-08-01T10:54:43.725Z",
+        "org": "Givee App",
         "industry": "Consumer Goods and Services",
         "city": "Jerusalem",
-        "subIndustry": "Business Services",
-        "description": "Healthcare advisory firm providing strategic consulting, partnership facilitation, and investment guidance to pharmaceutical companies, medical device manufacturers, healthcare providers, and emerging digital health startups.",
-        "domain": "imaginebio.com",
-        "keywords": [
-          "Healthcare advisory",
-          "Healthcare consulting",
-          "Digital health strategy",
-          "Partnership strategy",
-          "Healthcare investment",
-          "Healthcare market research"
-        ],
-        "exactEmployees": 3,
-        "isDeeptech": false,
-        "businessModel": "Consulting & Advisory"
-      },
-      {
-        "ts": "2026-08-01T04:12:13.602Z",
-        "org": "Ido off road center",
-        "industry": "Consumer Goods and Services",
-        "city": "Pardes Hana",
-        "subIndustry": "Automotive & Transportation",
-        "description": "Designer and manufacturer of high-mobility all-terrain vehicles for military, security, and off-road applications, including tactical utility vehicles and specialized armored platforms.",
-        "domain": "zibarusa.com",
-        "keywords": [
-          "Off-road vehicles",
-          "Military vehicles",
-          "All-terrain vehicles",
-          "Tactical vehicles",
-          "Armored vehicles",
-          "4x4 vehicles",
-          "Security vehicles",
-          "Vehicle design and manufacturing"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-08-01T04:11:49.874Z",
-        "org": "IPM Square",
-        "industry": "Consumer Goods and Services",
-        "city": "Hadid",
-        "subIndustry": "Manufacturing",
-        "description": "Manufacturer of smart Wi-Fi-connected rodent monitoring and trapping systems for commercial pest management, with real-time reporting via a cloud dashboard and mobile app. Products serve food manufacturing and pharmaceutical industries.",
-        "domain": "ipmsquare.com",
-        "keywords": [
-          "Rodent control",
-          "Smart pest monitoring",
-          "IoT pest management",
-          "Rodent traps",
-          "Pest control products",
-          "Pest management software"
-        ],
-        "employeeRange": "51-100",
-        "isDeeptech": false,
-        "businessModel": "B2B manufacturer of pest control hardware with integrated software platform"
-      },
-      {
-        "ts": "2026-08-01T04:10:50.604Z",
-        "org": "IMC Industries",
-        "industry": "Energy and Utilities",
-        "city": "Petach Tikva",
-        "subIndustry": "Aerospace & Defense",
-        "description": "Developer and manufacturer of RF modules, microwave components, and data link communication systems for defense, homeland security, and civilian applications.",
-        "domain": "imc-mw.com",
-        "keywords": [
-          "RF modules",
-          "Microwave components",
-          "Antennas",
-          "Transceivers",
-          "Data link systems",
-          "Defense electronics",
-          "Telemetry systems",
-          "Flight termination systems"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 15,
-        "isDeeptech": false,
-        "businessModel": "B2B hardware manufacturing and systems integration"
-      },
-      {
-        "ts": "2026-08-01T04:09:26.968Z",
-        "org": "HopaYacht",
-        "industry": "Consumer Goods and Services",
-        "city": "Tel Aviv-yafo",
         "subIndustry": "Travel & Hospitality",
-        "description": "Online platform for booking boutique yacht charters and cruises, offering customizable trips on small to mid-sized vessels.",
-        "domain": "hopayacht.com",
+        "description": "Mobile marketplace connecting travelers with local tour guides, concierges, and trusted local individuals for personalized tours and local experiences.",
+        "domain": "givee-travel.com",
         "keywords": [
-          "Boat charter booking",
-          "Yacht rental",
-          "Boutique cruises",
-          "Online travel booking",
-          "Cabin charter",
-          "Yacht charter platform"
+          "Tour guide booking",
+          "Local experiences",
+          "Travel companion",
+          "Concierge services",
+          "Trip planning"
         ],
-        "employeeRange": "1-10",
-        "exactEmployees": 5,
         "isDeeptech": false,
         "businessModel": "Marketplace"
       },
       {
-        "ts": "2026-08-01T04:09:00.023Z",
-        "org": "Home Market",
+        "ts": "2026-08-01T10:51:29.170Z",
+        "org": "Gilco Pharm",
+        "industry": "Healthcare and Food",
+        "city": "Rishon LeZiyyon",
+        "subIndustry": "Medical Devices",
+        "description": "Manufacturer and distributor of innovative medico-cosmetics, dietary supplements, and medical devices, providing health and wellness solutions to healthcare providers and consumers.",
+        "domain": "gilcopharm.com",
+        "keywords": [
+          "Medicinal cosmetics",
+          "Dietary supplements",
+          "Medical devices",
+          "Health products",
+          "Nutraceuticals",
+          "Pharmaceutical products",
+          "Cosmeceuticals",
+          "Vitamin supplements"
+        ],
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "Manufacturing and distribution of healthcare products"
+      },
+      {
+        "ts": "2026-08-01T10:50:57.176Z",
+        "org": "Giftinclick",
         "industry": "Consumer Goods and Services",
         "city": "Tel Aviv",
-        "subIndustry": "Real Estate and Property",
-        "description": "Real estate company specializing in marketing and selling new and second-hand residential properties through an online platform",
-        "domain": "home-market.info",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Smart gifting platform enabling individuals and businesses to select, personalize, and send gifts with electronic or physical delivery, also developing custom corporate gift packages and gifting campaigns.",
+        "domain": "giftinclick.com",
         "keywords": [
-          "Real estate marketing",
-          "Property listings",
-          "New developments",
-          "Second-hand homes",
-          "Real estate services"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 18,
-        "isDeeptech": false,
-        "businessModel": "Real estate brokerage"
-      },
-      {
-        "ts": "2026-08-01T04:07:40.559Z",
-        "org": "Hi-Tech Mechanics",
-        "industry": "Consumer Goods and Services",
-        "city": "Jerusalem",
-        "subIndustry": "Manufacturing",
-        "description": "Manufactures precision machined components and custom parts using CNC milling and turning for various industries.",
-        "domain": "hitechm.com",
-        "keywords": [
-          "CNC machining",
-          "CNC milling",
-          "CNC turning",
-          "Precision machining",
-          "Machined components",
-          "Custom parts",
-          "Metal fabrication",
-          "Manufacturing services"
-        ],
-        "exactEmployees": 18,
-        "isDeeptech": false,
-        "businessModel": "B2B manufacturing"
-      },
-      {
-        "ts": "2026-08-01T04:06:54.853Z",
-        "org": "Hazorea Aquatics",
-        "industry": "Consumer Goods and Services",
-        "city": "Hazorea",
-        "subIndustry": "Pet Care",
-        "description": "Breeder and exporter of ornamental fish, including Koi, goldfish, and tropical fish, known for biosecure production methods.",
-        "domain": "hazorea-aquatics.com",
-        "keywords": [
-          "Ornamental fish",
-          "Koi breeder",
-          "Goldfish supplier",
-          "Biosecure fish",
-          "Aquaculture",
-          "Pet fish export",
-          "Fish farm"
-        ],
-        "exactEmployees": 17,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-08-01T04:06:38.171Z",
-        "org": "Admir Technologies",
-        "industry": "Consumer Goods and Services",
-        "city": "Yehud",
-        "subIndustry": "Industrial Technologies",
-        "description": "Geotechnical solutions provider offering geosynthetic materials and engineering applications for infrastructure projects such as roads, railways, water reservoirs, and waste management facilities.",
-        "domain": "admir-geo.com",
-        "keywords": [
-          "Geosynthetics",
-          "Civil engineering materials",
-          "Soil reinforcement",
-          "Drainage systems",
-          "Erosion control",
-          "Geotextiles",
-          "Geomembranes",
-          "Geogrids",
-          "Waterproofing solutions",
-          "Infrastructure construction"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 11,
-        "isDeeptech": false,
-        "businessModel": "Manufacturing and distribution of geosynthetic products"
-      },
-      {
-        "ts": "2026-08-01T04:05:52.125Z",
-        "org": "GRTH",
-        "industry": "IT and Telecom",
-        "city": "Kfar Saba",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Software development company providing dedicated R&D teams to help clients build and scale their products.",
-        "domain": "grth.co.il",
-        "keywords": [
-          "Software development services",
-          "Dedicated development teams",
-          "Custom software development",
-          "R&D outsourcing",
-          "Remote engineering teams",
-          "Software outsourcing",
-          "Product development services"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 14,
-        "isDeeptech": false,
-        "businessModel": "B2B Services"
-      },
-      {
-        "ts": "2026-08-01T04:05:05.879Z",
-        "org": "Funds Back",
-        "industry": "Consumer Goods and Services",
-        "city": "Bene Beraq",
-        "subIndustry": "Business Services",
-        "description": "Consulting and recovery firm that assists victims of online scams in retrieving lost funds through negotiation and legal channels.",
-        "domain": "funds-back.com",
-        "keywords": [
-          "Scam recovery",
-          "Fund recovery",
-          "Online fraud help",
-          "Asset recovery",
-          "Money recovery",
-          "Fraud victim assistance"
+          "Corporate gifts",
+          "Personalized gifts",
+          "Employee gifting",
+          "Gift delivery",
+          "Custom gift packages",
+          "Smart gifting",
+          "Gift personalization",
+          "Corporate gifting platform"
         ],
         "employeeRange": "1-10",
         "isDeeptech": false,
-        "businessModel": "Services Led"
+        "businessModel": "E-commerce platform"
+      },
+      {
+        "ts": "2026-08-01T10:50:46.173Z",
+        "org": "Genesis Seeds",
+        "industry": "Healthcare and Food",
+        "city": "Ashalim",
+        "subIndustry": "Agriculture",
+        "description": "Producer of certified organic vegetable, herb, and flower seeds with in-house breeding and research capabilities, focusing on disease-resistant varieties for commercial growers worldwide.",
+        "domain": "genesisseeds.com",
+        "keywords": [
+          "Organic seeds",
+          "Vegetable seeds",
+          "Herb seeds",
+          "Flower seeds",
+          "Seed breeding",
+          "Disease resistant varieties",
+          "Agricultural seeds",
+          "Plant genetics",
+          "Seed production",
+          "Horticulture"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 17,
+        "isDeeptech": false,
+        "businessModel": "Seed production and breeding"
+      },
+      {
+        "ts": "2026-08-01T10:45:55.946Z",
+        "org": "GegeIT",
+        "industry": "IT and Telecom",
+        "city": "Herzliya",
+        "subIndustry": "Enterprise Software",
+        "description": "Provider of monitoring and management software for IBM i (AS/400) systems, offering real-time insights, job management, and automated alerts through a modern user interface.",
+        "domain": "gegeit.com",
+        "keywords": [
+          "IBM i monitoring",
+          "AS400 management",
+          "Job management software",
+          "System monitoring",
+          "Legacy modernization",
+          "Real-time insights",
+          "Automated alerts",
+          "Enterprise software",
+          "Small business software"
+        ],
+        "employeeRange": "1-10",
+        "exactEmployees": 3,
+        "isDeeptech": false,
+        "businessModel": "B2B Software"
+      },
+      {
+        "ts": "2026-08-01T10:45:39.930Z",
+        "org": "Geektime",
+        "industry": "Media and Entertainment",
+        "city": "Tel-Aviv",
+        "subIndustry": "Publishing & Content",
+        "description": "Technology news blog providing curated articles and insights on global startups, innovations, and technology trends.",
+        "domain": "geektime.co.il",
+        "keywords": [
+          "Technology news",
+          "Startup coverage",
+          "Tech blog",
+          "Developer conference",
+          "Innovation news",
+          "Global technology"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 27,
+        "isDeeptech": false,
+        "businessModel": "Content-driven media platform monetized through advertising, sponsorships, and event ticketing."
+      },
+      {
+        "ts": "2026-08-01T10:42:32.922Z",
+        "org": "Gavish",
+        "industry": "IT and Telecom",
+        "city": "Bedford",
+        "subIndustry": "Industrial Technologies",
+        "description": "Sapphire optics manufacturer producing high-precision sapphire components for semiconductor, defense, and medical equipment applications.",
+        "domain": "gavish.com",
+        "keywords": [
+          "Sapphire optics",
+          "Sapphire components",
+          "Sapphire windows",
+          "Precision fabrication",
+          "Optical materials",
+          "Semiconductor components",
+          "Laser optics",
+          "Industrial sapphire"
+        ],
+        "exactEmployees": 58,
+        "isDeeptech": false,
+        "businessModel": "Manufacturing"
+      },
+      {
+        "ts": "2026-08-01T10:40:52.675Z",
+        "org": "Galil Capital",
+        "industry": "Consumer Goods and Services",
+        "city": "Barcelona",
+        "subIndustry": "Real Estate and Property",
+        "description": "Spanish real estate investment company (SOCIMI) focused on acquiring, managing, and generating stable income from residential properties in Barcelona and Madrid.",
+        "domain": "galilcapital.es",
+        "keywords": [
+          "Real estate investment",
+          "Residential properties",
+          "SOCIMI",
+          "Property management",
+          "Rental income",
+          "Barcelona real estate",
+          "Madrid real estate",
+          "Income properties"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "Real estate investment and management"
+      },
+      {
+        "ts": "2026-08-01T10:39:54.964Z",
+        "org": "Gali Karten",
+        "industry": "Consumer Goods and Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Fashion & Apparel",
+        "description": "Bridal couture brand designing and manufacturing handmade wedding gowns featuring intricate embellishments and modern silhouettes.",
+        "domain": "galikarten.com",
+        "keywords": [
+          "Bridal gowns",
+          "Wedding dresses",
+          "Couture fashion",
+          "Evening wear",
+          "Bespoke tailoring",
+          "Bridal collection",
+          "Luxury dresses"
+        ],
+        "employeeRange": "11-50",
+        "isDeeptech": false,
+        "businessModel": "B2C Retail"
+      },
+      {
+        "ts": "2026-08-01T10:39:33.419Z",
+        "org": "GainLoop",
+        "industry": "Consumer Goods and Services",
+        "city": "",
+        "subIndustry": "Consumer Services",
+        "description": "Online platform enabling people to exchange services with each other without monetary payment.",
+        "domain": "gainloop.com",
+        "keywords": [
+          "Service exchange",
+          "Skill sharing",
+          "Community platform",
+          "Barter services",
+          "Free service marketplace"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "Marketplace"
+      },
+      {
+        "ts": "2026-08-01T10:38:49.172Z",
+        "org": "Gadot Biochemical Industries",
+        "industry": "Healthcare and Food",
+        "city": "Haifa Bay",
+        "subIndustry": "Food Technology",
+        "description": "Manufacturer of food and nutraceutical ingredients producing mineral salts and functional additives for food, beverage, pharmaceutical, and detergent industries.",
+        "domain": "gadotbio.com",
+        "keywords": [
+          "Food ingredients",
+          "Nutraceutical ingredients",
+          "Mineral fortification",
+          "Citrates",
+          "Gluconates",
+          "Phosphates",
+          "Bisglycinates",
+          "Fructose",
+          "Food additives",
+          "Dietary supplement ingredients"
+        ],
+        "exactEmployees": 38,
+        "isDeeptech": false,
+        "businessModel": "B2B ingredient manufacturer"
+      },
+      {
+        "ts": "2026-08-01T10:38:31.930Z",
+        "org": "Gadiv Petrochemical Industries",
+        "industry": "Energy and Utilities",
+        "city": "Athens",
+        "subIndustry": "Oil & Gas",
+        "description": "Petrochemical manufacturer producing aromatics, aliphatic solvents, and intermediates for the chemical, pharmaceutical, plastic, and food industries.",
+        "domain": "gadiv.com",
+        "keywords": [
+          "Petrochemical manufacturer",
+          "Aromatics",
+          "Aliphatic solvents",
+          "Chemical intermediates",
+          "Benzene",
+          "Toluene",
+          "Xylene"
+        ],
+        "employeeRange": "11-50 employees",
+        "exactEmployees": 11,
+        "isDeeptech": false,
+        "businessModel": "Manufacturing and distribution of petrochemical products"
+      },
+      {
+        "ts": "2026-08-01T10:37:14.426Z",
+        "org": "GP Implants",
+        "industry": "Healthcare and Food",
+        "city": "Netanya",
+        "subIndustry": "Medical Devices",
+        "description": "Manufacturer of dental implants and prosthetic components for oral restoration procedures.",
+        "domain": "gp-implant.com",
+        "keywords": [
+          "Dental implants",
+          "Dental prosthetics",
+          "Implant systems",
+          "Oral surgery",
+          "Dental restoration",
+          "Medical devices"
+        ],
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2B manufacturing and sales"
+      },
+      {
+        "ts": "2026-08-01T10:36:37.422Z",
+        "org": "GLV International",
+        "industry": "Consumer Goods and Services",
+        "city": "Maalot",
+        "subIndustry": "Manufacturing",
+        "description": "Manufacturer and global distributor of flexible insulated and non-insulated air ducts for HVAC systems and residential dryer applications.",
+        "domain": "glv1995.com",
+        "keywords": [
+          "Flexible air ducts",
+          "Insulated ducts",
+          "Non-insulated ducts",
+          "HVAC ducting",
+          "Dryer vent ducts",
+          "Air duct manufacturer",
+          "Semi-rigid ducts"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 20,
+        "isDeeptech": false,
+        "businessModel": "Manufacturing and distribution (B2B)"
+      },
+      {
+        "ts": "2026-08-01T10:34:55.424Z",
+        "org": "GLG",
+        "industry": "Consumer Goods and Services",
+        "city": "Kfar-Saba",
+        "subIndustry": "Consumer Products",
+        "description": "Manufacturer of sustainable and safe cleaning solutions for industrial, commercial, and consumer markets, offering plant-based and mineral-based eco-friendly products.",
+        "domain": "glg-scs.com",
+        "keywords": [
+          "Cleaning solutions",
+          "Eco-friendly cleaning products",
+          "Plant-based cleaners",
+          "Industrial cleaning",
+          "Commercial cleaning",
+          "Sustainable cleaning",
+          "Disinfectants",
+          "Degreasers"
+        ],
+        "employeeRange": "11-50",
+        "isDeeptech": false,
+        "businessModel": "Manufacturing and distribution of cleaning products"
+      },
+      {
+        "ts": "2026-08-01T10:33:20.689Z",
+        "org": "GEOSTORM technology",
+        "industry": "Energy and Utilities",
+        "city": "Tel Aviv",
+        "subIndustry": "Clean Technology",
+        "description": "Company developing digital signal processing modules and artificial intelligence algorithms for real-time extreme weather detection and forecasting, enabling radar upgrades for meteorological stations, aviation, and maritime operations.",
+        "domain": "geostorm.technology",
+        "keywords": [
+          "Weather forecasting",
+          "Extreme weather detection",
+          "Radar signal processing",
+          "Digital signal processing",
+          "AI weather analytics",
+          "Climate risk assessment",
+          "Disaster prevention",
+          "Radar technology",
+          "Real-time weather monitoring",
+          "Precipitation mapping"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2B hardware and software sales"
+      },
+      {
+        "ts": "2026-08-01T10:33:15.177Z",
+        "org": "G.A.D Flights",
+        "industry": "Consumer Goods and Services",
+        "city": "Rishon LeZion",
+        "subIndustry": "Transportation & Logistics",
+        "description": "Charter airline offering on-demand private, business, cargo, and medical evacuation flight services with a focus on safety and reliability.",
+        "domain": "gadflights.com",
+        "keywords": [
+          "Private jet charter",
+          "Business flights",
+          "Cargo flights",
+          "Air ambulance",
+          "Medical evacuation",
+          "Charter airline",
+          "Executive travel",
+          "VIP flights"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 7,
+        "isDeeptech": false,
+        "businessModel": "Service-based"
+      },
+      {
+        "ts": "2026-08-01T10:29:38.429Z",
+        "org": "FormaTK",
+        "industry": "Healthcare and Food",
+        "city": "Tirat Carmel",
+        "subIndustry": "Medical Devices",
+        "description": "Global developer and manufacturer of medical aesthetic devices using advanced laser and intense pulsed light technologies for hair removal, skin rejuvenation, and treatment of vascular and pigmented lesions.",
+        "domain": "forma-tk.com",
+        "keywords": [
+          "Medical aesthetic devices",
+          "Laser hair removal",
+          "IPL technology",
+          "Aesthetic laser systems",
+          "Diode laser",
+          "Skin rejuvenation",
+          "Dermatology equipment",
+          "Vascular lesion treatment"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 27,
+        "isDeeptech": false,
+        "businessModel": "B2B hardware manufacturer"
+      },
+      {
+        "ts": "2026-08-01T10:28:39.201Z",
+        "org": "FollowDigits",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv",
+        "subIndustry": "Marketing Technology",
+        "description": "SaaS platform for tracking and analytics of digital ad campaigns and mobile app attributions, providing affiliates and media buyers with tools to optimize campaign performance.",
+        "domain": "followdigits.com",
+        "keywords": [
+          "Ad campaign tracking",
+          "Mobile attribution",
+          "Performance marketing analytics",
+          "Affiliate marketing tools",
+          "Media buying analytics"
+        ],
+        "employeeRange": "1-10",
+        "isDeeptech": false,
+        "businessModel": "SaaS Subscription"
       }
     ],
     "notable": [
+      {
+        "ts": "2026-07-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "HawkEye 360",
+        "summary": "Pinpointed a hard-to-locate transmitter, restoring spectrum availability for NOAA's GOES weather system."
+      },
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
@@ -2792,30 +2824,23 @@
       {
         "ts": "2026-07-28T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Softil",
-        "summary": "Softil partnered with Flight Tactics to deliver TAK/MCX integration for iOS devices, showcased at APCO 2026."
-      },
-      {
-        "ts": "2026-07-28T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "TAG VS",
         "summary": "TAG Video Systems announced new platform enhancements."
       },
       {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "WSC Sports",
-        "summary": "WSC Sports announced layoffs of approximately 70 employees (10% of workforce) as part of a restructuring."
-      },
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
+        "ts": "2026-07-28T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "WSC Sports",
-        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
+        "org": "Softil",
+        "summary": "Softil partnered with Flight Tactics to deliver TAK/MCX integration for iOS devices, showcased at APCO 2026."
+      },
+      {
+        "ts": "2026-07-27T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Metropoline",
+        "summary": "Acquired Tnufa, a bus operator in the Jerusalem and Samaria regions"
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2841,23 +2866,37 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "WSC Sports",
+        "summary": "WSC Sports announced layoffs of approximately 70 employees (10% of workforce) as part of a restructuring."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Toya",
         "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
       },
       {
-        "ts": "2026-07-22T00:00:00.000Z",
+        "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "TopGum",
-        "summary": "Launched longevity gummies for cognition and eye health."
+        "rawKind": "Strategic Partnership",
+        "org": "WSC Sports",
+        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Government Contract",
+        "org": "HawkEye 360",
+        "summary": "Awarded a multi-year contract to enhance Indian Ocean Region maritime domain awareness."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Zafran Security",
-        "summary": "Zafran announced a strategic investment from Cisco Investments."
+        "rawKind": "Product Launch",
+        "org": "Glow",
+        "summary": "Glow emerged from stealth and launched its AI-native endpoint security platform, designed to prevent security threats from reaching corporate devices using specialized AI agents for real-time risk analysis and policy enforcement."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2883,9 +2922,16 @@
       {
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Zafran Security",
+        "summary": "Zafran announced a strategic investment from Cisco Investments."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Glow",
-        "summary": "Glow emerged from stealth and launched its AI-native endpoint security platform, designed to prevent security threats from reaching corporate devices using specialized AI agents for real-time risk analysis and policy enforcement."
+        "org": "TopGum",
+        "summary": "Launched longevity gummies for cognition and eye health."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2897,30 +2943,9 @@
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Speedata",
-        "summary": "Deployed Arteris FlexNoC network-on-chip technology in its Callisto Analytics Processing Unit (APU) for data center compute."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Wasens",
-        "summary": "MadisonWater launched its Submetering Program in the U.S., powered by the WASENS Smart Water Management System, integrating submetering, leak detection, and automatic shutoff technology."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Oktopost",
-        "summary": "Named in the 2026 Gartner Magic Quadrant for Social Media Management and Listening."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Asio Technologies",
-        "summary": "Landed a deal with Anduril Industries worth millions of dollars to supply components for unmanned aerial vehicles."
+        "rawKind": "Executive Appointment",
+        "org": "Nano Dimension Technologies",
+        "summary": "Appointed interim Chief Executive Officer and Chairman of the Board."
       }
     ]
   }
