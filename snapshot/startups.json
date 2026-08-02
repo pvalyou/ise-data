@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:41:37.049Z",
+  "generatedAt": "2026-08-02T21:54:04.737Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,26 +159,26 @@
   },
   "kpis": {
     "startups": {
-      "value": 27583,
-      "delta24h": 0
+      "value": 27585,
+      "delta24h": 2
     },
     "totalFunding": {
       "valueUsd": 187856460326,
-      "rounds": 28137
+      "rounds": 28143
     },
     "exits": {
-      "count": 2949,
+      "count": 2950,
       "valueUsd": 284699572800
     },
     "employees": {
-      "total": 520461,
+      "total": 520494,
       "avgPerStartup": 23
     },
     "patents": {
       "total": 116351,
       "delta30d": 0
     },
-    "openJobs": 5769
+    "openJobs": 6738
   },
   "map": {
     "districts": [
@@ -956,13 +956,13 @@
         386,
         385,
         421,
-        574,
+        575,
         578,
         676,
         787,
         733,
         803,
-        895,
+        896,
         998,
         1253,
         1266,
@@ -1052,7 +1052,7 @@
       ],
       "statusMix": {
         "inactive": 434,
-        "active": 12271,
+        "active": 12273,
         "unknown": 2058,
         "closed": 12819,
         "acquired": 1
@@ -1124,12 +1124,12 @@
         355,
         368,
         486,
-        500,
+        501,
         567,
         667,
         650,
-        495,
-        603,
+        496,
+        604,
         694,
         808,
         956,
@@ -1137,12 +1137,12 @@
         1209,
         1193,
         1274,
-        1503,
+        1504,
         1501,
-        1560,
+        1561,
         2019,
         1909,
-        1461,
+        1462,
         1373,
         1279,
         460
@@ -1192,9 +1192,9 @@
         13581555234
       ],
       "stageMix": {
-        "Seed": 13501,
+        "Seed": 13503,
         "Series A": 4240,
-        "Other": 3299,
+        "Other": 3303,
         "Series B": 1759,
         "Series C": 1571,
         "Unknown": 845,
@@ -1279,7 +1279,7 @@
         132,
         158,
         214,
-        386
+        387
       ],
       "acquisitions": [
         0,
@@ -1357,7 +1357,7 @@
         8,
         7,
         17,
-        54
+        55
       ],
       "valueUsd": [
         0,
@@ -1400,28 +1400,28 @@
       ],
       "typeMix": {
         "acquisition": 2690,
-        "ipo": 316
+        "ipo": 317
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 12836,
+      "active": 12837,
       "closed": 11798,
-      "exited": 2949
+      "exited": 2950
     },
     "funnel": {
-      "all": 27583,
-      "funded": 14306,
+      "all": 27585,
+      "funded": 14308,
       "over1m": 5719,
       "over10m": 2789,
-      "exited": 2949
+      "exited": 2950
     },
     "timeToExit": {
       "overall": {
         "avgYears": 8.8,
         "medianYears": 7.0,
-        "avgValueUsd": 92044586,
+        "avgValueUsd": 92012934,
         "medianValueUsd": 0
       },
       "acquisition": {
@@ -1433,7 +1433,7 @@
       "ipo": {
         "avgYears": 10.0,
         "medianYears": 8.0,
-        "avgValueUsd": 56959365,
+        "avgValueUsd": 56775625,
         "medianValueUsd": 0
       },
       "distribution": [
@@ -1459,7 +1459,7 @@
         40,
         32,
         20,
-        20,
+        21,
         12,
         24,
         9,
@@ -1732,38 +1732,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 11264,
-        "share": 0.412193069125773
+        "count": 11265,
+        "share": 0.4121994950418969
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 5958,
-        "share": 0.21802612800526952
+        "count": 5959,
+        "share": 0.21804676351128838
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 3878,
-        "share": 0.1419109305814762
+        "share": 0.14190054520838669
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1429,
-        "share": 0.05229260438394262
+        "share": 0.052288777489114126
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 1548,
-        "share": 0.05664727192886156
+        "share": 0.05664312634929928
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 3250,
-        "share": 0.11892999597467706
+        "share": 0.11892129240001463
       }
     ],
     "mixSummary": {
@@ -1815,7 +1815,7 @@
       },
       {
         "name": "Enterprise Software",
-        "parent": "IT and Telecom",
+        "parent": "Unknown",
         "total": 1691,
         "shareDelta": 0.026,
         "counts": [
@@ -1905,7 +1905,7 @@
       },
       {
         "name": "Aerospace & Defense",
-        "parent": "IT and Telecom",
+        "parent": "Energy and Utilities",
         "total": 138,
         "shareDelta": 0.016,
         "counts": [
@@ -2089,7 +2089,7 @@
     "signals": {
       "deeptechCount": 9561,
       "deeptechPct": 34.7,
-      "globalCount": 11203,
+      "globalCount": 11205,
       "globalPct": 40.6
     }
   },
@@ -2118,17 +2118,6 @@
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
-        "org": "Plantopia",
-        "stage": "Seed",
-        "amountUsd": 9000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
         "org": "Glow",
         "stage": "Series B",
         "amountUsd": 100000000,
@@ -2139,14 +2128,15 @@
         "roundTitle": "Series B"
       },
       {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "org": "Hey Seven",
+        "ts": "2026-07-22T00:00:00.000Z",
+        "org": "Plantopia",
         "stage": "Seed",
-        "amountUsd": 0,
+        "amountUsd": 9000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 7,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2158,6 +2148,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Hey Seven",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-20T00:00:00.000Z",
@@ -2172,17 +2172,6 @@
       },
       {
         "ts": "2026-07-16T00:00:00.000Z",
-        "org": "Beacon Security",
-        "stage": "Seed",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
         "org": "Horizon Trade",
         "stage": "Pre-seed",
         "amountUsd": 2000000,
@@ -2191,6 +2180,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-seed"
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "org": "Beacon Security",
+        "stage": "Seed",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2202,6 +2202,28 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "Ray of Hope Accelerator Grant"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "TytoCare",
+        "stage": "Other",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "Regatta Data",
+        "stage": "Series C",
+        "amountUsd": 68000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2227,17 +2249,6 @@
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Regatta Data",
-        "stage": "Series C",
-        "amountUsd": 68000000,
-        "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-07-15T00:00:00.000Z",
         "org": "Nanovel",
         "stage": "Grant",
         "amountUsd": 2850000,
@@ -2248,15 +2259,14 @@
         "roundTitle": "EIC Accelerator Grant"
       },
       {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "TytoCare",
-        "stage": "Other",
-        "amountUsd": 25000000,
+        "ts": "2026-07-14T00:00:00.000Z",
+        "org": "Mizo",
+        "stage": "Series A",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 10,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round"
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-14T00:00:00.000Z",
@@ -2268,16 +2278,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-07-14T00:00:00.000Z",
-        "org": "Mizo",
-        "stage": "Series A",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
@@ -2292,17 +2292,6 @@
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
-        "org": "Cordio Medical",
-        "stage": "Accelerator",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Accelerator/Incubator"
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
         "org": "Pulsenmore",
         "stage": "Grant",
         "amountUsd": 1000000,
@@ -2311,6 +2300,16 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant (AI Sandbox)"
+      },
+      {
+        "ts": "2026-07-13T00:00:00.000Z",
+        "org": "TunedCare",
+        "stage": "Seed",
+        "amountUsd": 530000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": false,
+        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2319,6 +2318,49 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-08-02T20:00:48.743Z",
+        "org": "SCAILIUM",
+        "industry": "IT and Telecom",
+        "city": "Ramat Gan",
+        "subIndustry": "Data & Analytics",
+        "description": "GPU-native data infrastructure platform that accelerates AI data pipelines by executing data processing directly on GPUs, eliminating CPU bottlenecks and improving compute utilization and energy efficiency.",
+        "domain": "scailium.com",
+        "keywords": [
+          "AI infrastructure",
+          "GPU acceleration",
+          "Data pipeline",
+          "GPU-native platform",
+          "Data processing",
+          "High-performance computing",
+          "AI compute",
+          "Data analytics"
+        ],
+        "exactEmployees": 23,
+        "isDeeptech": false,
+        "businessModel": "B2B enterprise software licensing and subscription"
+      },
+      {
+        "ts": "2026-08-02T19:59:41.741Z",
+        "org": "Save Foods",
+        "industry": "Healthcare and Food",
+        "city": "Tel Aviv",
+        "subIndustry": "Agriculture",
+        "description": "Provides biodegradable post-harvest crop protection treatments that control fungal pathogens, extend shelf life, and reduce fungicide residues on fresh produce.",
+        "keywords": [
+          "Post-harvest treatment",
+          "Crop protection",
+          "Food safety",
+          "Shelf life extension",
+          "Biodegradable treatment",
+          "Fungicide reduction",
+          "Fresh produce preservation",
+          "Agricultural technology"
+        ],
+        "exactEmployees": 10,
+        "isDeeptech": false,
+        "businessModel": "Sells biodegradable post-harvest treatment products to packing houses and produce exporters."
+      },
       {
         "ts": "2026-08-01T18:21:42.122Z",
         "org": "My Wed",
@@ -2665,59 +2707,22 @@
         "exactEmployees": 7,
         "isDeeptech": false,
         "businessModel": "Product Sales"
-      },
-      {
-        "ts": "2026-08-01T16:42:09.123Z",
-        "org": "Koomzitz.com",
-        "industry": "Consumer Goods and Services",
-        "city": "",
-        "subIndustry": "Toys & Games",
-        "description": "Recreational product development company specializing in do-it-yourself (DIY) products.",
-        "keywords": [
-          "Do-it-yourself",
-          "DIY projects",
-          "Recreational products",
-          "Hobby supplies",
-          "Craft products"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false
-      },
-      {
-        "ts": "2026-08-01T16:40:12.601Z",
-        "org": "BizyBot",
-        "industry": "IT and Telecom",
-        "city": "London",
-        "subIndustry": "Enterprise Software",
-        "description": "AI chatbot platform that automates customer service and manages requests for municipalities and businesses, learning from interactions to improve responses while integrating with existing systems.",
-        "domain": "bizybot.co.uk",
-        "keywords": [
-          "Chatbot platform",
-          "Customer service automation",
-          "Request management",
-          "AI chatbot",
-          "Municipal services",
-          "Business communication",
-          "SaaS chatbot"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS"
       }
     ],
     "notable": [
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Silexion Therapeutics",
-        "summary": "Successfully initiated the Phase 2/3 clinical trial of SIL204 in locally advanced pancreatic cancer at Tel Aviv Sourasky Medical Center."
+        "rawKind": "Product Launch",
+        "org": "Daydream",
+        "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Daydream",
-        "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Silexion Therapeutics",
+        "summary": "Successfully initiated the Phase 2/3 clinical trial of SIL204 in locally advanced pancreatic cancer at Tel Aviv Sourasky Medical Center."
       },
       {
         "ts": "2026-07-28T00:00:00.000Z",
@@ -2736,9 +2741,16 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "AGAT Software",
-        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
+        "rawKind": "Product Launch",
+        "org": "Yuki",
+        "summary": "Yuki launched the Cortex Control Center, a product that breaks down Snowflake Cortex AI spend by product, agent, user, role, and model, providing cost and latency insights."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Toya",
+        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2751,15 +2763,8 @@
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "WSC Sports",
-        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
-      },
-      {
-        "ts": "2026-07-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Yuki",
-        "summary": "Yuki launched the Cortex Control Center, a product that breaks down Snowflake Cortex AI spend by product, agent, user, role, and model, providing cost and latency insights."
+        "org": "AGAT Software",
+        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2771,9 +2776,9 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Toya",
-        "summary": "Toya launched PlayTiger, a measurement and attribution platform for Roblox, in beta."
+        "rawKind": "Strategic Partnership",
+        "org": "WSC Sports",
+        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2781,13 +2786,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Prismm",
         "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Pontera",
-        "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2799,9 +2797,9 @@
       {
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "TopGum",
-        "summary": "Launched longevity gummies for cognition and eye health."
+        "rawKind": "Executive Appointment",
+        "org": "ZotaPay",
+        "summary": "Ash Huber appointed as CEO of ZotaPay."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2813,9 +2811,9 @@
       {
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ZotaPay",
-        "summary": "Ash Huber appointed as CEO of ZotaPay."
+        "rawKind": "Product Launch",
+        "org": "TopGum",
+        "summary": "Launched longevity gummies for cognition and eye health."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2825,25 +2823,32 @@
         "summary": "Glow emerged from stealth and launched its AI-native endpoint security platform, designed to prevent security threats from reaching corporate devices using specialized AI agents for real-time risk analysis and policy enforcement."
       },
       {
-        "ts": "2026-07-21T00:00:00.000Z",
+        "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Asio Technologies",
-        "summary": "Landed a deal with Anduril Industries worth millions of dollars to supply components for unmanned aerial vehicles."
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ParaZero Technologies Ltd.",
-        "summary": "Received follow-on order for DefendAir Pods for autonomous Counter-UAS installation protecting high-value assets."
+        "rawKind": "Product Launch",
+        "org": "Pontera",
+        "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "PolyPid",
-        "summary": "PolyPid announced an exclusive partnership with Azurity Pharmaceuticals for the commercialization of D-PLEX100 in the U.S. and Canada, valued at over $320 million in upfront and milestone payments plus tiered royalties."
+        "org": "AGAT Software",
+        "summary": "Pragatix by AGAT Software partners with Teilen Solutions to secure AI adoption in financial services"
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Mindspace",
+        "summary": "Mindspace launched 'Managed by Mindspace Suites' product for larger occupiers at its new San Francisco location, also marking the 50th location globally."
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Peninsula",
+        "summary": "Acquired by Meitav Investment House. Following a full exchange tender offer and compulsory acquisition, Meitav acquired 100% of Peninsula's shares, making Peninsula a wholly owned private subsidiary. Peninsula's shares were delisted from the Tel Aviv Stock Exchange."
       }
     ]
   }
