@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T23:09:34.094Z",
+  "generatedAt": "2026-08-02T04:48:56.052Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 27656,
-      "delta24h": 339
+      "value": 27654,
+      "delta24h": 217
     },
     "totalFunding": {
       "valueUsd": 190328638626,
@@ -171,7 +171,7 @@
       "valueUsd": 280587852800
     },
     "employees": {
-      "total": 523484,
+      "total": 523463,
       "avgPerStartup": 24
     },
     "patents": {
@@ -956,12 +956,12 @@
         388,
         386,
         422,
-        578,
+        577,
         579,
         678,
         789,
         733,
-        808,
+        807,
         897,
         1001,
         1254,
@@ -1052,9 +1052,9 @@
       ],
       "statusMix": {
         "inactive": 437,
-        "active": 12311,
+        "active": 12310,
         "closed": 12838,
-        "unknown": 2069,
+        "unknown": 2068,
         "acquired": 1
       }
     },
@@ -1401,14 +1401,14 @@
   },
   "survivability": {
     "composition": {
-      "active": 13105,
+      "active": 13103,
       "closed": 12031,
       "exited": 2520
     },
     "funnel": {
-      "all": 27656,
-      "funded": 14347,
-      "over1m": 5750,
+      "all": 27654,
+      "funded": 14346,
+      "over1m": 5749,
       "over10m": 2807,
       "exited": 2520
     },
@@ -1728,37 +1728,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 11294,
-        "share": 0.41232521631192726
+        "share": 0.41235532513052686
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 5974,
-        "share": 0.2181008360410354
+        "count": 5973,
+        "share": 0.2180802511957355
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 3882,
-        "share": 0.1417253842503012
+        "count": 3881,
+        "share": 0.14169922231552814
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1432,
-        "share": 0.05227994596765361
+        "share": 0.052283763554711746
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 1553,
-        "share": 0.05669745536855171
+        "share": 0.05670159553105261
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 3256,
-        "share": 0.11887116206053083
+        "share": 0.11887984227244514
       }
     ],
     "mixSummary": {
@@ -1900,7 +1900,7 @@
       },
       {
         "name": "Aerospace & Defense",
-        "parent": "Energy and Utilities",
+        "parent": "IT and Telecom",
         "total": 138,
         "shareDelta": 0.016,
         "counts": [
@@ -2052,7 +2052,7 @@
       },
       {
         "name": "Social Media & Community",
-        "parent": "Consumer Goods and Services",
+        "parent": "Media and Entertainment",
         "total": 172,
         "shareDelta": -0.011,
         "counts": [
@@ -2082,9 +2082,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9587,
+      "deeptechCount": 9586,
       "deeptechPct": 34.7,
-      "globalCount": 11234,
+      "globalCount": 11233,
       "globalPct": 40.6
     }
   },
@@ -2102,17 +2102,6 @@
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
-        "org": "Glow",
-        "stage": "Series B",
-        "amountUsd": 100000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
         "org": "Plantopia",
         "stage": "Seed",
         "amountUsd": 9000000,
@@ -2123,14 +2112,15 @@
         "roundTitle": "Seed"
       },
       {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "org": "Hey Seven",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "ts": "2026-07-22T00:00:00.000Z",
+        "org": "Glow",
+        "stage": "Series B",
+        "amountUsd": 100000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 9,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
@@ -2142,6 +2132,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Hey Seven",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-20T00:00:00.000Z",
@@ -2276,17 +2276,6 @@
       },
       {
         "ts": "2026-07-13T00:00:00.000Z",
-        "org": "Cordio Medical",
-        "stage": "Accelerator",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Accelerator/Incubator"
-      },
-      {
-        "ts": "2026-07-13T00:00:00.000Z",
         "org": "Pulsenmore",
         "stage": "Grant",
         "amountUsd": 1000000,
@@ -2306,6 +2295,17 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "R&D Grant"
+      },
+      {
+        "ts": "2026-07-13T00:00:00.000Z",
+        "org": "Cordio Medical",
+        "stage": "Accelerator",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Accelerator/Incubator"
       }
     ],
     "todayStats": {
@@ -2703,9 +2703,9 @@
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Daydream",
-        "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
+        "rawKind": "Customer Milestone",
+        "org": "HawkEye 360",
+        "summary": "Pinpointed a hard-to-locate transmitter, restoring spectrum availability for NOAA's GOES weather system."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2717,9 +2717,9 @@
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "HawkEye 360",
-        "summary": "Pinpointed a hard-to-locate transmitter, restoring spectrum availability for NOAA's GOES weather system."
+        "rawKind": "Product Launch",
+        "org": "Daydream",
+        "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
       },
       {
         "ts": "2026-07-28T00:00:00.000Z",
@@ -2759,9 +2759,16 @@
       {
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Government Contract",
+        "org": "HawkEye 360",
+        "summary": "Awarded a multi-year contract to enhance Indian Ocean Region maritime domain awareness."
+      },
+      {
+        "ts": "2026-07-23T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "AGAT Software",
-        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
+        "org": "WSC Sports",
+        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2774,15 +2781,29 @@
         "ts": "2026-07-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "WSC Sports",
-        "summary": "Partnerbrite by WSC Sports and Yieldmo announced a strategic partnership to deliver an integrated solution for sports sponsorship."
+        "org": "AGAT Software",
+        "summary": "AGAT Software partners with Your Metamorphosis Limited for AI security and automation for UK and German SMEs"
       },
       {
-        "ts": "2026-07-23T00:00:00.000Z",
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Dondy",
+        "summary": "Acquired by Circeus"
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Government Contract",
-        "org": "HawkEye 360",
-        "summary": "Awarded a multi-year contract to enhance Indian Ocean Region maritime domain awareness."
+        "rawKind": "Strategic Partnership",
+        "org": "Zafran Security",
+        "summary": "Zafran announced a strategic investment from Cisco Investments."
+      },
+      {
+        "ts": "2026-07-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "ZotaPay",
+        "summary": "Ash Huber appointed as CEO of ZotaPay."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2802,22 +2823,8 @@
         "ts": "2026-07-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Zafran Security",
-        "summary": "Zafran announced a strategic investment from Cisco Investments."
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Dondy",
-        "summary": "Acquired by Circeus"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "ZotaPay",
-        "summary": "Ash Huber appointed as CEO of ZotaPay."
+        "org": "Prismm",
+        "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
@@ -2827,18 +2834,11 @@
         "summary": "Pontera introduced Bulk Rebalancing, a new workflow that helps advisory firms and their advisors save hours on workplace retirement plan management."
       },
       {
-        "ts": "2026-07-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Prismm",
-        "summary": "Prismm partnered with HoneyBook to integrate spatial design and floor planning into HoneyBook's client collaboration platform."
-      },
-      {
         "ts": "2026-07-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Oktopost",
-        "summary": "Named in the 2026 Gartner Magic Quadrant for Social Media Management and Listening."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Peninsula",
+        "summary": "Acquired by Meitav Investment House. Following a full exchange tender offer and compulsory acquisition, Meitav acquired 100% of Peninsula's shares, making Peninsula a wholly owned private subsidiary. Peninsula's shares were delisted from the Tel Aviv Stock Exchange."
       }
     ]
   }
