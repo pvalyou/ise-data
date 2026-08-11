@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:36:20.765Z",
+  "generatedAt": "2026-08-11T15:12:49.267Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,11 +160,11 @@
   "kpis": {
     "startups": {
       "value": 30647,
-      "delta24h": 258
+      "delta24h": 235
     },
     "totalFunding": {
       "valueUsd": 196537390164,
-      "rounds": 28752
+      "rounds": 28753
     },
     "exits": {
       "count": 3036,
@@ -1154,7 +1154,7 @@
         1505,
         1411,
         1335,
-        523
+        524
       ],
       "raisedUsd": [
         0,
@@ -1202,7 +1202,7 @@
       ],
       "stageMix": {
         "Seed": 13736,
-        "Series A": 4382,
+        "Series A": 4383,
         "Other": 3338,
         "Series B": 1812,
         "Series C": 1648,
@@ -1824,7 +1824,7 @@
       },
       {
         "name": "Enterprise Software",
-        "parent": "Unknown",
+        "parent": "IT and Telecom",
         "total": 1987,
         "shareDelta": 0.032,
         "counts": [
@@ -2036,7 +2036,7 @@
       },
       {
         "name": "Advertising Technology",
-        "parent": "IT and Telecom",
+        "parent": "Media and Entertainment",
         "total": 279,
         "shareDelta": -0.013,
         "counts": [
@@ -2128,16 +2128,6 @@
       },
       {
         "ts": "2026-07-30T00:00:00.000Z",
-        "org": "Marquee",
-        "stage": "Seed",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
         "org": "Bloom Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2146,6 +2136,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-30T00:00:00.000Z",
+        "org": "Marquee",
+        "stage": "Seed",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2226,21 +2226,21 @@
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
-        "org": "Hey Seven",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
         "org": "Digital Asset",
         "stage": "Series E",
         "amountUsd": 10000000,
         "investors": [],
         "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Hey Seven",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2290,17 +2290,6 @@
       },
       {
         "ts": "2026-07-16T00:00:00.000Z",
-        "org": "Horizon Trade",
-        "stage": "Pre-seed",
-        "amountUsd": 2000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-seed"
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
         "org": "Beacon Security",
         "stage": "Seed",
         "amountUsd": 13000000,
@@ -2309,6 +2298,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-16T00:00:00.000Z",
+        "org": "Horizon Trade",
+        "stage": "Pre-seed",
+        "amountUsd": 2000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-seed"
       },
       {
         "ts": "2026-07-15T00:00:00.000Z",
@@ -2785,16 +2785,16 @@
       {
         "ts": "2026-08-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
+        "rawKind": "R&D Milestone",
         "org": "Arrakis Security",
-        "summary": "Arrakis Security emerged from stealth and launched its AI agent security platform."
+        "summary": "Launched Arrakis Labs, a research arm focused on AI agent security threats."
       },
       {
         "ts": "2026-08-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
+        "rawKind": "Product Launch",
         "org": "Arrakis Security",
-        "summary": "Launched Arrakis Labs, a research arm focused on AI agent security threats."
+        "summary": "Arrakis Security emerged from stealth and launched its AI agent security platform."
       },
       {
         "ts": "2026-08-01T00:00:00.000Z",
@@ -2814,6 +2814,13 @@
         "ts": "2026-07-30T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Bloom Security",
+        "summary": "Bloom Security emerged from stealth, launching its AI-native endpoint security platform designed for the AI era, announced alongside a $20M seed round led by Glilot Capital Partners and Ten Eleven Ventures, with participation from Okta Ventures and Runtime Ventures."
+      },
+      {
+        "ts": "2026-07-30T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "Maestra",
         "summary": "Shipped Q2 2026 product updates: opened MCP access to all clients for AI assistant reporting, introduced emails that render live data at send time, and rolled out UX upgrades across SMS, on-site personalization, and analytics."
       },
@@ -2825,18 +2832,18 @@
         "summary": "Closed Q2 2026 with $4.7M in annual recurring revenue, up 86% YoY, adding brands like Nations Photo Lab and Lucy & Yak, with about half of new clients switching from Klaviyo."
       },
       {
-        "ts": "2026-07-30T00:00:00.000Z",
+        "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Bloom Security",
-        "summary": "Bloom Security emerged from stealth, launching its AI-native endpoint security platform designed for the AI era, announced alongside a $20M seed round led by Glilot Capital Partners and Ten Eleven Ventures, with participation from Okta Ventures and Runtime Ventures."
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Silexion Therapeutics",
+        "summary": "Successfully initiated the Phase 2/3 clinical trial of SIL204 in locally advanced pancreatic cancer at Tel Aviv Sourasky Medical Center."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "InsideTracker",
-        "summary": "Unveils source-agnostic blood data processing across nearly 120 biomarkers."
+        "rawKind": "Award Recognition",
+        "org": "Vertice",
+        "summary": "Named a Leader in IDC MarketScape: Worldwide AI-Enabled Spend Orchestration 2026 Vendor Assessment."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2844,13 +2851,6 @@
         "rawKind": "Product Launch",
         "org": "Daydream",
         "summary": "Launched 'Powered by Daydream', a program enabling fashion brands and retailers to integrate the company's AI-powered search and discovery solution."
-      },
-      {
-        "ts": "2026-07-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Enigma AI Labs",
-        "summary": "Introduced Multiverse, described as the first AI Multiplayer World Model."
       }
     ]
   }
