@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:59:29.856Z",
+  "generatedAt": "2026-08-11T21:59:18.908Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,11 +160,11 @@
   "kpis": {
     "startups": {
       "value": 30650,
-      "delta24h": 161
+      "delta24h": 149
     },
     "totalFunding": {
-      "valueUsd": 197708700164,
-      "rounds": 28771
+      "valueUsd": 197569700164,
+      "rounds": 28766
     },
     "exits": {
       "count": 3036,
@@ -178,7 +178,7 @@
       "total": 126034,
       "delta30d": 0
     },
-    "openJobs": 6865
+    "openJobs": 6840
   },
   "map": {
     "districts": [
@@ -1138,7 +1138,7 @@
         672,
         652,
         505,
-        611,
+        610,
         702,
         816,
         966,
@@ -1147,9 +1147,9 @@
         1213,
         1299,
         1533,
-        1530,
-        1607,
-        2072,
+        1529,
+        1605,
+        2071,
         1965,
         1507,
         1411,
@@ -1191,9 +1191,9 @@
         4715279790,
         6049543136,
         7460620924,
-        11317608772,
-        13074001320,
-        35528606010,
+        11309608772,
+        13003001320,
+        35468606010,
         22595091702,
         11675757063,
         14719863329,
@@ -1201,11 +1201,11 @@
         15707040234
       ],
       "stageMix": {
-        "Seed": 13738,
-        "Series A": 4386,
+        "Seed": 13737,
+        "Series A": 4385,
         "Other": 3342,
-        "Series B": 1814,
-        "Series C": 1650,
+        "Series B": 1813,
+        "Series C": 1649,
         "Unknown": 848,
         "Angel": 783,
         "Pre-seed": 776
@@ -1421,9 +1421,9 @@
     },
     "funnel": {
       "all": 30650,
-      "funded": 14609,
-      "over1m": 5869,
-      "over10m": 2890,
+      "funded": 14607,
+      "over1m": 5868,
+      "over10m": 2889,
       "exited": 3036
     },
     "timeToExit": {
@@ -2128,6 +2128,16 @@
       },
       {
         "ts": "2026-07-30T00:00:00.000Z",
+        "org": "Marquee",
+        "stage": "Seed",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-07-30T00:00:00.000Z",
         "org": "Bloom Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2136,16 +2146,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
-        "org": "Marquee",
-        "stage": "Seed",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2160,17 +2160,6 @@
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
-        "org": "Way Security",
-        "stage": "Seed",
-        "amountUsd": 20000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-27T00:00:00.000Z",
         "org": "Enigma AI Labs",
         "stage": "Seed",
         "amountUsd": 71000000,
@@ -2179,6 +2168,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed - Extended"
+      },
+      {
+        "ts": "2026-07-27T00:00:00.000Z",
+        "org": "Way Security",
+        "stage": "Seed",
+        "amountUsd": 20000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2193,17 +2193,6 @@
       },
       {
         "ts": "2026-07-22T00:00:00.000Z",
-        "org": "Plantopia",
-        "stage": "Seed",
-        "amountUsd": 9000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-22T00:00:00.000Z",
         "org": "Glow",
         "stage": "Series B",
         "amountUsd": 100000000,
@@ -2214,12 +2203,23 @@
         "roundTitle": "Series B"
       },
       {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "org": "Hey Seven",
+        "ts": "2026-07-22T00:00:00.000Z",
+        "org": "Plantopia",
         "stage": "Seed",
-        "amountUsd": 0,
+        "amountUsd": 9000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Digital Asset",
+        "stage": "Series E",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2236,6 +2236,16 @@
       },
       {
         "ts": "2026-07-21T00:00:00.000Z",
+        "org": "Hey Seven",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-07-21T00:00:00.000Z",
         "org": "Asio Technologies",
         "stage": "Series A",
         "amountUsd": 15000000,
@@ -2244,16 +2254,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-07-21T00:00:00.000Z",
-        "org": "Digital Asset",
-        "stage": "Series E",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false
       },
       {
         "ts": "2026-07-20T00:00:00.000Z",
@@ -2290,17 +2290,6 @@
       },
       {
         "ts": "2026-07-16T00:00:00.000Z",
-        "org": "Sable AI",
-        "stage": "Series A",
-        "amountUsd": 45000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-07-16T00:00:00.000Z",
         "org": "Beacon Security",
         "stage": "Seed",
         "amountUsd": 13000000,
@@ -2311,15 +2300,26 @@
         "roundTitle": "Seed"
       },
       {
-        "ts": "2026-07-15T00:00:00.000Z",
-        "org": "Nanovel",
-        "stage": "Grant",
-        "amountUsd": 2850000,
+        "ts": "2026-07-16T00:00:00.000Z",
+        "org": "Sable AI",
+        "stage": "Series A",
+        "amountUsd": 45000000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "EIC Accelerator Grant"
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-07-15T00:00:00.000Z",
+        "org": "TytoCare",
+        "stage": "Other",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 10,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round"
       }
     ],
     "todayStats": {
@@ -2737,13 +2737,6 @@
       {
         "ts": "2026-08-06T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Novig",
-        "summary": "Launched federally regulated sports prediction market nationwide."
-      },
-      {
-        "ts": "2026-08-06T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Regulatory and Compliance",
         "org": "Suno",
         "summary": "Announced new tools to watermark AI-generated songs, limit downloads, and update community guidelines."
@@ -2754,6 +2747,13 @@
         "rawKind": "R&D Milestone",
         "org": "Erez Defense Solutions",
         "summary": "Completed another round of field testing for its counter-drone defense system, focusing on validation of a proprietary capsule and its launch mechanism."
+      },
+      {
+        "ts": "2026-08-06T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Novig",
+        "summary": "Launched federally regulated sports prediction market nationwide."
       },
       {
         "ts": "2026-08-05T00:00:00.000Z",
@@ -2822,13 +2822,6 @@
         "ts": "2026-07-30T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Maestra",
-        "summary": "Shipped Q2 2026 product updates: opened MCP access to all clients for AI assistant reporting, introduced emails that render live data at send time, and rolled out UX upgrades across SMS, on-site personalization, and analytics."
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Bloom Security",
         "summary": "Bloom Security emerged from stealth, launching its AI-native endpoint security platform designed for the AI era, announced alongside a $20M seed round led by Glilot Capital Partners and Ten Eleven Ventures, with participation from Okta Ventures and Runtime Ventures."
       },
@@ -2840,11 +2833,11 @@
         "summary": "Closed Q2 2026 with $4.7M in annual recurring revenue, up 86% YoY, adding brands like Nations Photo Lab and Lucy & Yak, with about half of new clients switching from Klaviyo."
       },
       {
-        "ts": "2026-07-29T00:00:00.000Z",
+        "ts": "2026-07-30T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Silexion Therapeutics",
-        "summary": "Successfully initiated the Phase 2/3 clinical trial of SIL204 in locally advanced pancreatic cancer at Tel Aviv Sourasky Medical Center."
+        "rawKind": "Product Launch",
+        "org": "Maestra",
+        "summary": "Shipped Q2 2026 product updates: opened MCP access to all clients for AI assistant reporting, introduced emails that render live data at send time, and rolled out UX upgrades across SMS, on-site personalization, and analytics."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2852,6 +2845,13 @@
         "rawKind": "Award Recognition",
         "org": "Vertice",
         "summary": "Named a Leader in IDC MarketScape: Worldwide AI-Enabled Spend Orchestration 2026 Vendor Assessment."
+      },
+      {
+        "ts": "2026-07-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "InsideTracker",
+        "summary": "Unveils source-agnostic blood data processing across nearly 120 biomarkers."
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
