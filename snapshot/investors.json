@@ -1,0 +1,3987 @@
+{
+  "schemaVersion": 1,
+  "page": "investors",
+  "generatedAt": "2026-08-16T12:47:50.056Z",
+  "widgetMetadata": {
+    "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
+    "widgets": {
+      "investors:kpi-investors": {
+        "title": "Investors",
+        "description": "Distinct institutional investors that backed an Israeli startup through an equity round: VCs, corporate venture arms, private equity, family offices and equity crowdfunding platforms. Angels and accelerators are excluded, each having its own page. Bars count investors active in at least one round that year, so a fund that goes quiet leaves and returns when it writes again.",
+        "dataPaths": [
+          "coverage.investors",
+          "byYear.years",
+          "byYear.investors"
+        ]
+      },
+      "investors:kpi-companies": {
+        "title": "Companies Backed",
+        "description": "Distinct Israeli startups with at least one named institutional investor on an equity round. Bars count companies that raised that year, so a company appears in every year it raised rather than once.",
+        "dataPaths": [
+          "coverage.startups",
+          "byYear.years",
+          "byYear.startups"
+        ]
+      },
+      "investors:kpi-rounds": {
+        "title": "Rounds",
+        "description": "Equity rounds that name at least one institutional investor. Smaller than the total equity rounds on the startups page, because only about half of rounds name anyone at all.",
+        "dataPaths": [
+          "coverage.rounds",
+          "byYear.years",
+          "byYear.rounds"
+        ]
+      },
+      "investors:kpi-syndicate": {
+        "title": "Syndicate Size",
+        "description": "Mean institutional investors per round, for the most recent year. It measures how many parties share a deal, not how large the deal is. The figure roughly doubled between the late 2000s and the 2021 peak and has not returned to its earlier level, so larger syndicates look structural.",
+        "dataPaths": [
+          "byYear.years",
+          "byYear.avgSyndicate"
+        ]
+      },
+      "investors:kpi-investments": {
+        "title": "Investments",
+        "description": "Every investment this page counts, once per investor per round, so a round backed by four firms contributes four. This is the denominator behind every share figure on the page. It is a floor rather than a total, since only about half of equity rounds name any investor.",
+        "dataPaths": [
+          "coverage.participations",
+          "byYear.years",
+          "byYear.participations"
+        ]
+      },
+      "investors:stage-size": {
+        "title": "Round Size by Stage",
+        "description": "Six box plots, one per funding stage, on a single shared logarithmic axis. Log because medians run from about $1M at pre-seed to $45M at Series E and beyond, so a linear axis would collapse the early stages into the left edge. Equal steps across the axis mean equal multiples, which is why the boxes march right at a near constant rate. Each row shows the box from P25 to P75, whiskers to P10 and P90, a dot at the median and a hairline at the average, and the gap between those two is the skew. Whiskers stop short of the extremes so one outlier cannot set the scale; the true range is in the hover. Reported amounts only, about three quarters of rounds, and percentiles run over distinct rounds rather than participations.",
+        "dataPaths": [
+          "byStage"
+        ]
+      },
+      "investors:stage-who": {
+        "title": "Who Invests by Stage",
+        "description": "One 100% stacked bar per funding stage, on the same rows as the box plots beside it so the two read across. Segments are shares of that stage's investments by investor class, with venture capital split by how often a firm appears. The mix barely moves down the ladder apart from corporate venture capital, which roughly triples its share. The legend carries distinct firms per class. Not capital deployed, since per investor amounts exist on under 1% of records.",
+        "dataPaths": [
+          "byStage",
+          "byClass"
+        ]
+      },
+      "investors:sectors": {
+        "title": "What Industries Investors Back, and Where Attention Moved",
+        "description": "Two views of the same subindustries under one industry legend, so hovering either highlights both. The treemap sizes each subindustry by companies backed and colours it by parent industry, with investors, rounds and exits in the hover. The rank chart tracks the last ten years by distinct active investors, where the crossings are the content rather than the absolute size of any one sector. Ranked and sized by investors and companies rather than rounds, because raising often from the same few funds is not gained ground. The final year is partial and drawn dashed.",
+        "dataPaths": [
+          "sectors",
+          "sectorTrends"
+        ]
+      },
+      "investors:class-flow": {
+        "title": "Investor Types and How Often They Back",
+        "description": "What kind of investor turns up how often, as a two column flow. Investor type on the left, number of Israeli companies backed on the right, ribbon thickness carrying the number of firms. Every firm appears once on each side, so the two columns sum to the same total. The left column uses type rather than the page's investor class, because the class splits venture capital by portfolio size and charting that against portfolio size would show a relationship the definition already forced. Hovering a ribbon gives its share of the type and of the bucket, which is the question a thin ribbon off a large node raises.",
+        "dataPaths": [
+          "classPortfolio",
+          "portfolioDistribution"
+        ]
+      },
+      "investors:leaderboard": {
+        "title": "Most Active Investors",
+        "description": "Investors ranked by distinct Israeli companies backed, with the number of those that are unicorns beside it. Follow on rounds into the same company count once toward the portfolio, so the round count can exceed it. Counts cover Israeli activity only, not the investor's global portfolio. Name spellings are folded onto one row where they can be shown to be the same firm, including rebrands such as Carmel to Viola and Magma to 10D. Unicorn and exit counts are overlaps with the backed portfolio, not a claim about who caused the outcome.",
+        "dataPaths": [
+          "leaderboard"
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "equityRounds": 29383,
+    "roundsNamingAnInvestor": 14794,
+    "investors": 10343,
+    "startups": 6666,
+    "rounds": 12651,
+    "participations": 36117
+  },
+  "byYear": {
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "investors": [
+      311,
+      247,
+      310,
+      371,
+      359,
+      517,
+      516,
+      700,
+      744,
+      892,
+      1000,
+      1210,
+      1341,
+      2148,
+      2106,
+      1639,
+      1582,
+      1737,
+      922
+    ],
+    "rounds": [
+      219,
+      175,
+      213,
+      249,
+      268,
+      339,
+      369,
+      473,
+      460,
+      568,
+      650,
+      713,
+      778,
+      1183,
+      1099,
+      812,
+      819,
+      839,
+      353
+    ],
+    "startups": [
+      198,
+      165,
+      193,
+      234,
+      248,
+      315,
+      347,
+      445,
+      435,
+      540,
+      603,
+      666,
+      722,
+      1070,
+      1032,
+      754,
+      765,
+      774,
+      333
+    ],
+    "participations": [
+      496,
+      383,
+      502,
+      599,
+      568,
+      835,
+      825,
+      1110,
+      1154,
+      1374,
+      1642,
+      1908,
+      2278,
+      4129,
+      3808,
+      2569,
+      2587,
+      2910,
+      1369
+    ],
+    "newInvestors": [
+      130,
+      79,
+      142,
+      161,
+      164,
+      221,
+      225,
+      330,
+      333,
+      453,
+      460,
+      572,
+      595,
+      1068,
+      993,
+      691,
+      626,
+      705,
+      320
+    ],
+    "avgSyndicate": [
+      2.26,
+      2.19,
+      2.36,
+      2.41,
+      2.12,
+      2.46,
+      2.24,
+      2.35,
+      2.51,
+      2.42,
+      2.53,
+      2.68,
+      2.93,
+      3.49,
+      3.46,
+      3.16,
+      3.16,
+      3.47,
+      3.88
+    ]
+  },
+  "leaderboard": [
+    {
+      "key": "860a694d-e09a-4e7b-9de6-ab9d53e569cf",
+      "name": "OurCrowd",
+      "domain": "ourcrowd.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/860a694d-e09a-4e7b-9de6-ab9d53e569cf.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 5,
+      "portfolio": 197,
+      "rounds": 325,
+      "firstYear": 1999,
+      "lastYear": 2026,
+      "unicorns": 5,
+      "exits": 60,
+      "recentPortfolio": 45,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 282,
+      "bigRounds": 10,
+      "medianRoundUsd": 7000000
+    },
+    {
+      "key": "263ae140-9f55-424c-a988-b67f301cdcad",
+      "name": "Pitango VC",
+      "domain": "pitango.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/263ae140-9f55-424c-a988-b67f301cdcad.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 7,
+      "portfolio": 185,
+      "rounds": 368,
+      "firstYear": 1991,
+      "lastYear": 2026,
+      "unicorns": 13,
+      "exits": 79,
+      "recentPortfolio": 38,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 302,
+      "bigRounds": 22,
+      "medianRoundUsd": 12000000
+    },
+    {
+      "key": "b9c5057a-9155-407c-b65d-aa6a59f932ba",
+      "name": "Viola Ventures",
+      "domain": "viola.vc",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/b9c5057a-9155-407c-b65d-aa6a59f932ba.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 143,
+      "rounds": 276,
+      "firstYear": 2000,
+      "lastYear": 2026,
+      "unicorns": 9,
+      "exits": 59,
+      "recentPortfolio": 25,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 234,
+      "bigRounds": 3,
+      "medianRoundUsd": 10000000
+    },
+    {
+      "key": "1f03b124-b4ad-4557-a04a-ab029ea2cf1d",
+      "name": "Insight Partners",
+      "domain": "insightpartners.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/1f03b124-b4ad-4557-a04a-ab029ea2cf1d.webp",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 134,
+      "rounds": 243,
+      "firstYear": 2004,
+      "lastYear": 2026,
+      "unicorns": 33,
+      "exits": 45,
+      "recentPortfolio": 59,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 222,
+      "bigRounds": 42,
+      "medianRoundUsd": 33000000
+    },
+    {
+      "key": "5a013751-1378-446a-b4b3-487e380e0986",
+      "name": "Jerusalem Venture Partners",
+      "domain": "jvpvc.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/5a013751-1378-446a-b4b3-487e380e0986.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 3,
+      "portfolio": 106,
+      "rounds": 221,
+      "firstYear": 1996,
+      "lastYear": 2026,
+      "unicorns": 5,
+      "exits": 48,
+      "recentPortfolio": 14,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 169,
+      "bigRounds": 4,
+      "medianRoundUsd": 10500000
+    },
+    {
+      "key": "9f0e4efe-77a7-4d77-9a62-a40f4f469745",
+      "name": "Lightspeed Venture Partners",
+      "domain": "lsvp.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/9f0e4efe-77a7-4d77-9a62-a40f4f469745.webp",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 104,
+      "rounds": 203,
+      "firstYear": 1995,
+      "lastYear": 2026,
+      "unicorns": 18,
+      "exits": 44,
+      "recentPortfolio": 39,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 188,
+      "bigRounds": 36,
+      "medianRoundUsd": 25500000
+    },
+    {
+      "key": "06985468-699a-447b-a599-d391e5919688",
+      "name": "NFX",
+      "domain": "nfx.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/06985468-699a-447b-a599-d391e5919688.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 100,
+      "rounds": 166,
+      "firstYear": 2006,
+      "lastYear": 2026,
+      "unicorns": 1,
+      "exits": 22,
+      "recentPortfolio": 42,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 134,
+      "bigRounds": 2,
+      "medianRoundUsd": 6800000
+    },
+    {
+      "key": "ec885c81-0dce-4662-b5d1-41bce9d70e60",
+      "name": "Sequoia Capital",
+      "domain": "sequoiacap.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ec885c81-0dce-4662-b5d1-41bce9d70e60.jpg",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 99,
+      "rounds": 209,
+      "firstYear": 1998,
+      "lastYear": 2026,
+      "unicorns": 21,
+      "exits": 53,
+      "recentPortfolio": 28,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 188,
+      "bigRounds": 29,
+      "medianRoundUsd": 15000000
+    },
+    {
+      "key": "6ae82d95-2d88-4077-b4d7-49289bb98b80",
+      "name": "Bessemer Venture Partners",
+      "domain": "bvp.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/6ae82d95-2d88-4077-b4d7-49289bb98b80.jpg",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 97,
+      "rounds": 207,
+      "firstYear": 2000,
+      "lastYear": 2026,
+      "unicorns": 21,
+      "exits": 38,
+      "recentPortfolio": 40,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 189,
+      "bigRounds": 26,
+      "medianRoundUsd": 25000000
+    },
+    {
+      "key": "a77ec928-7b51-4ec0-b124-025e1290953e",
+      "name": "Intel Capital",
+      "domain": "intelcapital.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/a77ec928-7b51-4ec0-b124-025e1290953e.jpg",
+      "country": "United States",
+      "subtype": "CVC",
+      "nameVariants": 1,
+      "portfolio": 97,
+      "rounds": 180,
+      "firstYear": 2000,
+      "lastYear": 2026,
+      "unicorns": 6,
+      "exits": 55,
+      "recentPortfolio": 18,
+      "investorClass": "Corporate VC",
+      "pricedRounds": 152,
+      "bigRounds": 7,
+      "medianRoundUsd": 15750000
+    },
+    {
+      "key": "2b25b918-96ac-4217-b0e2-9ce3d7167acb",
+      "name": "Entr\u00e9e Capital",
+      "domain": "entreecap.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/2b25b918-96ac-4217-b0e2-9ce3d7167acb.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 97,
+      "rounds": 166,
+      "firstYear": 2011,
+      "lastYear": 2026,
+      "unicorns": 7,
+      "exits": 23,
+      "recentPortfolio": 46,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 135,
+      "bigRounds": 9,
+      "medianRoundUsd": 14000000
+    },
+    {
+      "key": "70e5f2c6-0b73-4db3-9b2e-9b9d33e162ee",
+      "name": "Fusion VC",
+      "domain": "fusion-vc.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/70e5f2c6-0b73-4db3-9b2e-9b9d33e162ee.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 3,
+      "portfolio": 95,
+      "rounds": 119,
+      "firstYear": 2013,
+      "lastYear": 2026,
+      "unicorns": 0,
+      "exits": 12,
+      "recentPortfolio": 46,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 73,
+      "bigRounds": 0,
+      "medianRoundUsd": 800000
+    },
+    {
+      "key": "5df8a8fa-e9f2-48fa-bc16-f724960fed90",
+      "name": "Vertex Ventures Israel",
+      "domain": "vertexventures.co.il",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/5df8a8fa-e9f2-48fa-bc16-f724960fed90.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 5,
+      "portfolio": 94,
+      "rounds": 165,
+      "firstYear": 1997,
+      "lastYear": 2026,
+      "unicorns": 6,
+      "exits": 44,
+      "recentPortfolio": 17,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 145,
+      "bigRounds": 2,
+      "medianRoundUsd": 11000000
+    },
+    {
+      "key": "94d09008-f22b-40e7-a2e4-dad566162930",
+      "name": "Peregrine Ventures",
+      "domain": "peregrinevc.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/94d09008-f22b-40e7-a2e4-dad566162930.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 79,
+      "rounds": 142,
+      "firstYear": 2002,
+      "lastYear": 2026,
+      "unicorns": 1,
+      "exits": 22,
+      "recentPortfolio": 25,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 105,
+      "bigRounds": 2,
+      "medianRoundUsd": 1400000
+    },
+    {
+      "key": "3e25523b-8736-44bc-a305-e3efa34ca042",
+      "name": "Sarona Ventures",
+      "domain": "sarona.vc",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/3e25523b-8736-44bc-a305-e3efa34ca042.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 77,
+      "rounds": 97,
+      "firstYear": 2009,
+      "lastYear": 2026,
+      "unicorns": 0,
+      "exits": 6,
+      "recentPortfolio": 11,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 59,
+      "bigRounds": 0,
+      "medianRoundUsd": 1000000
+    },
+    {
+      "key": "46afe326-4646-44fc-a92d-40961338c7a1",
+      "name": "TLV Partners",
+      "domain": "tlv.partners",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/46afe326-4646-44fc-a92d-40961338c7a1.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 76,
+      "rounds": 142,
+      "firstYear": 2006,
+      "lastYear": 2026,
+      "unicorns": 7,
+      "exits": 23,
+      "recentPortfolio": 37,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 130,
+      "bigRounds": 4,
+      "medianRoundUsd": 11750000
+    },
+    {
+      "key": "5f28f40a-3e51-4750-9f55-c2db684ef488",
+      "name": "Vertex Ventures",
+      "domain": "vertexventures.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/5f28f40a-3e51-4750-9f55-c2db684ef488.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 76,
+      "rounds": 128,
+      "firstYear": 1997,
+      "lastYear": 2026,
+      "unicorns": 6,
+      "exits": 32,
+      "recentPortfolio": 18,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 113,
+      "bigRounds": 9,
+      "medianRoundUsd": 14000000
+    },
+    {
+      "key": "8e2c3f3d-67af-47d3-a2d4-b7e558ce445f",
+      "name": "10D",
+      "domain": "10d.vc",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/8e2c3f3d-67af-47d3-a2d4-b7e558ce445f.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 5,
+      "portfolio": 74,
+      "rounds": 128,
+      "firstYear": 1999,
+      "lastYear": 2026,
+      "unicorns": 4,
+      "exits": 32,
+      "recentPortfolio": 19,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 109,
+      "bigRounds": 1,
+      "medianRoundUsd": 9000000
+    },
+    {
+      "key": "9959587d-0a00-41b1-959c-697ac80b82fe",
+      "name": "Battery Ventures",
+      "domain": "battery.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/9959587d-0a00-41b1-959c-697ac80b82fe.png",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 1,
+      "portfolio": 73,
+      "rounds": 136,
+      "firstYear": 1996,
+      "lastYear": 2025,
+      "unicorns": 12,
+      "exits": 40,
+      "recentPortfolio": 14,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 124,
+      "bigRounds": 15,
+      "medianRoundUsd": 16000000
+    },
+    {
+      "key": "bce2fc21-6a20-4860-89e9-6b2b1e9e4502",
+      "name": "Accel",
+      "domain": "accel.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bce2fc21-6a20-4860-89e9-6b2b1e9e4502.webp",
+      "country": "United States",
+      "subtype": "VC",
+      "nameVariants": 3,
+      "portfolio": 71,
+      "rounds": 151,
+      "firstYear": 1999,
+      "lastYear": 2026,
+      "unicorns": 9,
+      "exits": 35,
+      "recentPortfolio": 22,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 134,
+      "bigRounds": 18,
+      "medianRoundUsd": 17100000
+    },
+    {
+      "key": "2f364226-b72f-4914-80e8-8b2c6a835076",
+      "name": "Aleph",
+      "domain": "aleph.vc",
+      "logoUrl": null,
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 4,
+      "portfolio": 71,
+      "rounds": 130,
+      "firstYear": 1999,
+      "lastYear": 2026,
+      "unicorns": 12,
+      "exits": 17,
+      "recentPortfolio": 32,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 118,
+      "bigRounds": 7,
+      "medianRoundUsd": 15000000
+    },
+    {
+      "key": "1b120fb1-22d0-4466-88a6-db386d3473ef",
+      "name": "iAngels",
+      "domain": "iangels.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/1b120fb1-22d0-4466-88a6-db386d3473ef.webp",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 2,
+      "portfolio": 71,
+      "rounds": 106,
+      "firstYear": 2012,
+      "lastYear": 2025,
+      "unicorns": 0,
+      "exits": 23,
+      "recentPortfolio": 18,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 94,
+      "bigRounds": 1,
+      "medianRoundUsd": 8000000
+    },
+    {
+      "key": "e359edab-1528-46b4-bd16-45f5204bbef5",
+      "name": "StageOne Ventures",
+      "domain": "stageonevc.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/e359edab-1528-46b4-bd16-45f5204bbef5.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 4,
+      "portfolio": 68,
+      "rounds": 131,
+      "firstYear": 2002,
+      "lastYear": 2026,
+      "unicorns": 3,
+      "exits": 28,
+      "recentPortfolio": 17,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 116,
+      "bigRounds": 4,
+      "medianRoundUsd": 7000000
+    },
+    {
+      "key": "66aa341b-5b75-40c3-999a-fc3459d135ce",
+      "name": "Gemini Israel Ventures",
+      "domain": "gemini.co.il",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/66aa341b-5b75-40c3-999a-fc3459d135ce.jpg",
+      "country": "Israel",
+      "subtype": "VC",
+      "nameVariants": 3,
+      "portfolio": 67,
+      "rounds": 133,
+      "firstYear": 1996,
+      "lastYear": 2019,
+      "unicorns": 3,
+      "exits": 44,
+      "recentPortfolio": 0,
+      "investorClass": "VC \u00b7 high volume",
+      "pricedRounds": 116,
+      "bigRounds": 0,
+      "medianRoundUsd": 9000000
+    }
+  ],
+  "byClass": [
+    {
+      "investorClass": "VC \u00b7 high volume",
+      "investors": 328,
+      "rounds": 7891,
+      "startups": 4217,
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 512
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 2919
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 2195
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 334
+        },
+        {
+          "band": "$100M+",
+          "rounds": 289
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 1642
+        }
+      ]
+    },
+    {
+      "investorClass": "VC \u00b7 occasional",
+      "investors": 5773,
+      "rounds": 7054,
+      "startups": 4294,
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 477
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 2673
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 1891
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 270
+        },
+        {
+          "band": "$100M+",
+          "rounds": 247
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 1496
+        }
+      ]
+    },
+    {
+      "investorClass": "Corporate VC",
+      "investors": 1877,
+      "rounds": 3426,
+      "startups": 2133,
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 123
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 1120
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 1182
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 191
+        },
+        {
+          "band": "$100M+",
+          "rounds": 168
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 642
+        }
+      ]
+    },
+    {
+      "investorClass": "PE & family office",
+      "investors": 489,
+      "rounds": 991,
+      "startups": 720,
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 38
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 285
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 311
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 95
+        },
+        {
+          "band": "$100M+",
+          "rounds": 87
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 175
+        }
+      ]
+    },
+    {
+      "investorClass": "Other",
+      "investors": 1876,
+      "rounds": 1829,
+      "startups": 1408,
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 187
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 626
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 467
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 77
+        },
+        {
+          "band": "$100M+",
+          "rounds": 86
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 386
+        }
+      ]
+    }
+  ],
+  "byStage": [
+    {
+      "stage": "Pre-seed",
+      "rounds": 528,
+      "investors": 705,
+      "participations": 986,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 363
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 431
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 61
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 23
+        },
+        {
+          "investorClass": "Other",
+          "participations": 108
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 159
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 194
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 4
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 0
+        },
+        {
+          "band": "$100M+",
+          "rounds": 0
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 171
+        }
+      ],
+      "sizeStats": {
+        "rounds": 528,
+        "pricedRounds": 357,
+        "min": 10000,
+        "p10": 123000,
+        "p25": 400000,
+        "median": 1000000,
+        "p75": 2000000,
+        "p90": 4080000,
+        "max": 26690000,
+        "avg": 1743968
+      }
+    },
+    {
+      "stage": "Seed",
+      "rounds": 5027,
+      "investors": 4767,
+      "participations": 11490,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 4681
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 4582
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 1071
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 217
+        },
+        {
+          "investorClass": "Other",
+          "participations": 939
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 739
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 2329
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 352
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 20
+        },
+        {
+          "band": "$100M+",
+          "rounds": 6
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 1581
+        }
+      ],
+      "sizeStats": {
+        "rounds": 5027,
+        "pricedRounds": 3446,
+        "min": 10030,
+        "p10": 377500,
+        "p25": 1000000,
+        "median": 2800000,
+        "p75": 6000000,
+        "p90": 10000000,
+        "max": 2000000000,
+        "avg": 5564247
+      }
+    },
+    {
+      "stage": "Series A",
+      "rounds": 2806,
+      "investors": 3926,
+      "participations": 8710,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 3574
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 3213
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 1202
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 217
+        },
+        {
+          "investorClass": "Other",
+          "participations": 504
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 52
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 1208
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 999
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 53
+        },
+        {
+          "band": "$100M+",
+          "rounds": 30
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 464
+        }
+      ],
+      "sizeStats": {
+        "rounds": 2806,
+        "pricedRounds": 2342,
+        "min": 50000,
+        "p10": 2000000,
+        "p25": 4187000,
+        "median": 8115000,
+        "p75": 15500000,
+        "p90": 27000000,
+        "max": 543000000,
+        "avg": 13578350
+      }
+    },
+    {
+      "stage": "Series B",
+      "rounds": 1396,
+      "investors": 2608,
+      "participations": 5666,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 2293
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 1883
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 1059
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 158
+        },
+        {
+          "investorClass": "Other",
+          "participations": 273
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 6
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 343
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 740
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 113
+        },
+        {
+          "band": "$100M+",
+          "rounds": 55
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 139
+        }
+      ],
+      "sizeStats": {
+        "rounds": 1396,
+        "pricedRounds": 1257,
+        "min": 250000,
+        "p10": 5000000,
+        "p25": 8700000,
+        "median": 16000000,
+        "p75": 30000000,
+        "p90": 55000000,
+        "max": 400000000,
+        "avg": 26773544
+      }
+    },
+    {
+      "stage": "Series C-D",
+      "rounds": 1271,
+      "investors": 2337,
+      "participations": 5360,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 2093
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 1715
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 1003
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 213
+        },
+        {
+          "investorClass": "Other",
+          "participations": 336
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 8
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 231
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 522
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 179
+        },
+        {
+          "band": "$100M+",
+          "rounds": 145
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 186
+        }
+      ],
+      "sizeStats": {
+        "rounds": 1271,
+        "pricedRounds": 1085,
+        "min": 15000,
+        "p10": 5500000,
+        "p25": 10000000,
+        "median": 25000000,
+        "p75": 53500000,
+        "p90": 100000000,
+        "max": 2000000000,
+        "avg": 45929567
+      }
+    },
+    {
+      "stage": "Series E+",
+      "rounds": 333,
+      "investors": 746,
+      "participations": 1365,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 553
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 414
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 165
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 119
+        },
+        {
+          "investorClass": "Other",
+          "participations": 114
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 0
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 27
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 107
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 32
+        },
+        {
+          "band": "$100M+",
+          "rounds": 108
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 59
+        }
+      ],
+      "sizeStats": {
+        "rounds": 333,
+        "pricedRounds": 274,
+        "min": 1000000,
+        "p10": 10000000,
+        "p25": 16250000,
+        "median": 50000000,
+        "p75": 150000000,
+        "p90": 300000000,
+        "max": 1150000000,
+        "avg": 123611460
+      }
+    },
+    {
+      "stage": "Other",
+      "rounds": 1290,
+      "investors": 1720,
+      "participations": 2540,
+      "classes": [
+        {
+          "investorClass": "VC \u00b7 high volume",
+          "participations": 716
+        },
+        {
+          "investorClass": "VC \u00b7 occasional",
+          "participations": 827
+        },
+        {
+          "investorClass": "Corporate VC",
+          "participations": 481
+        },
+        {
+          "investorClass": "PE & family office",
+          "participations": 155
+        },
+        {
+          "investorClass": "Other",
+          "participations": 361
+        }
+      ],
+      "bands": [
+        {
+          "band": "<$1M",
+          "rounds": 75
+        },
+        {
+          "band": "$1-10M",
+          "rounds": 335
+        },
+        {
+          "band": "$10-50M",
+          "rounds": 166
+        },
+        {
+          "band": "$50-100M",
+          "rounds": 27
+        },
+        {
+          "band": "$100M+",
+          "rounds": 18
+        },
+        {
+          "band": "Undisclosed",
+          "rounds": 669
+        }
+      ],
+      "sizeStats": {
+        "rounds": 1290,
+        "pricedRounds": 621,
+        "min": 12700,
+        "p10": 670000,
+        "p25": 1900000,
+        "median": 5000000,
+        "p75": 13500000,
+        "p90": 35000000,
+        "max": 550000000,
+        "avg": 17135450
+      }
+    }
+  ],
+  "sectorTrends": [
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "AI & Machine Learning",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 6,
+          "investors": 63,
+          "rounds": 28
+        },
+        {
+          "year": 2018,
+          "rank": 3,
+          "investors": 94,
+          "rounds": 36
+        },
+        {
+          "year": 2019,
+          "rank": 4,
+          "investors": 107,
+          "rounds": 46
+        },
+        {
+          "year": 2020,
+          "rank": 7,
+          "investors": 89,
+          "rounds": 35
+        },
+        {
+          "year": 2021,
+          "rank": 5,
+          "investors": 155,
+          "rounds": 47
+        },
+        {
+          "year": 2022,
+          "rank": 6,
+          "investors": 149,
+          "rounds": 51
+        },
+        {
+          "year": 2023,
+          "rank": 4,
+          "investors": 149,
+          "rounds": 46
+        },
+        {
+          "year": 2024,
+          "rank": 5,
+          "investors": 135,
+          "rounds": 40
+        },
+        {
+          "year": 2025,
+          "rank": 3,
+          "investors": 180,
+          "rounds": 51
+        },
+        {
+          "year": 2026,
+          "rank": 3,
+          "investors": 102,
+          "rounds": 28
+        }
+      ]
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Accounting & Finance Software",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 14,
+          "investors": 20,
+          "rounds": 9
+        },
+        {
+          "year": 2018,
+          "rank": 23,
+          "investors": 14,
+          "rounds": 10
+        },
+        {
+          "year": 2019,
+          "rank": 22,
+          "investors": 21,
+          "rounds": 9
+        },
+        {
+          "year": 2020,
+          "rank": 17,
+          "investors": 28,
+          "rounds": 9
+        },
+        {
+          "year": 2021,
+          "rank": 18,
+          "investors": 47,
+          "rounds": 18
+        },
+        {
+          "year": 2022,
+          "rank": 18,
+          "investors": 55,
+          "rounds": 16
+        },
+        {
+          "year": 2023,
+          "rank": 13,
+          "investors": 42,
+          "rounds": 14
+        },
+        {
+          "year": 2024,
+          "rank": 13,
+          "investors": 40,
+          "rounds": 11
+        },
+        {
+          "year": 2025,
+          "rank": 10,
+          "investors": 52,
+          "rounds": 14
+        },
+        {
+          "year": 2026,
+          "rank": 17,
+          "investors": 15,
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Aerospace & Defense",
+      "points": [
+        {
+          "year": 2017,
+          "rank": null,
+          "investors": 0,
+          "rounds": 0
+        },
+        {
+          "year": 2018,
+          "rank": 53,
+          "investors": 3,
+          "rounds": 2
+        },
+        {
+          "year": 2019,
+          "rank": 48,
+          "investors": 3,
+          "rounds": 2
+        },
+        {
+          "year": 2020,
+          "rank": 59,
+          "investors": 2,
+          "rounds": 1
+        },
+        {
+          "year": 2021,
+          "rank": 50,
+          "investors": 9,
+          "rounds": 4
+        },
+        {
+          "year": 2022,
+          "rank": 45,
+          "investors": 6,
+          "rounds": 3
+        },
+        {
+          "year": 2023,
+          "rank": 30,
+          "investors": 16,
+          "rounds": 6
+        },
+        {
+          "year": 2024,
+          "rank": 44,
+          "investors": 5,
+          "rounds": 5
+        },
+        {
+          "year": 2025,
+          "rank": 13,
+          "investors": 44,
+          "rounds": 25
+        },
+        {
+          "year": 2026,
+          "rank": 8,
+          "investors": 37,
+          "rounds": 10
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Agriculture",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 13,
+          "investors": 22,
+          "rounds": 12
+        },
+        {
+          "year": 2018,
+          "rank": 11,
+          "investors": 35,
+          "rounds": 11
+        },
+        {
+          "year": 2019,
+          "rank": 9,
+          "investors": 49,
+          "rounds": 24
+        },
+        {
+          "year": 2020,
+          "rank": 8,
+          "investors": 57,
+          "rounds": 17
+        },
+        {
+          "year": 2021,
+          "rank": 9,
+          "investors": 112,
+          "rounds": 31
+        },
+        {
+          "year": 2022,
+          "rank": 11,
+          "investors": 86,
+          "rounds": 22
+        },
+        {
+          "year": 2023,
+          "rank": 11,
+          "investors": 57,
+          "rounds": 8
+        },
+        {
+          "year": 2024,
+          "rank": 9,
+          "investors": 76,
+          "rounds": 23
+        },
+        {
+          "year": 2025,
+          "rank": 32,
+          "investors": 13,
+          "rounds": 6
+        },
+        {
+          "year": 2026,
+          "rank": 27,
+          "investors": 10,
+          "rounds": 4
+        }
+      ]
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Automotive & Transportation",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 19,
+          "investors": 15,
+          "rounds": 7
+        },
+        {
+          "year": 2018,
+          "rank": 10,
+          "investors": 42,
+          "rounds": 16
+        },
+        {
+          "year": 2019,
+          "rank": 15,
+          "investors": 28,
+          "rounds": 13
+        },
+        {
+          "year": 2020,
+          "rank": 12,
+          "investors": 48,
+          "rounds": 13
+        },
+        {
+          "year": 2021,
+          "rank": 27,
+          "investors": 24,
+          "rounds": 8
+        },
+        {
+          "year": 2022,
+          "rank": 29,
+          "investors": 27,
+          "rounds": 12
+        },
+        {
+          "year": 2023,
+          "rank": 18,
+          "investors": 28,
+          "rounds": 5
+        },
+        {
+          "year": 2024,
+          "rank": 26,
+          "investors": 17,
+          "rounds": 5
+        },
+        {
+          "year": 2025,
+          "rank": 25,
+          "investors": 18,
+          "rounds": 7
+        },
+        {
+          "year": 2026,
+          "rank": 30,
+          "investors": 9,
+          "rounds": 3
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Biotechnology",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 5,
+          "investors": 65,
+          "rounds": 26
+        },
+        {
+          "year": 2018,
+          "rank": 6,
+          "investors": 57,
+          "rounds": 32
+        },
+        {
+          "year": 2019,
+          "rank": 7,
+          "investors": 70,
+          "rounds": 28
+        },
+        {
+          "year": 2020,
+          "rank": 5,
+          "investors": 98,
+          "rounds": 47
+        },
+        {
+          "year": 2021,
+          "rank": 6,
+          "investors": 130,
+          "rounds": 52
+        },
+        {
+          "year": 2022,
+          "rank": 8,
+          "investors": 126,
+          "rounds": 50
+        },
+        {
+          "year": 2023,
+          "rank": 5,
+          "investors": 94,
+          "rounds": 43
+        },
+        {
+          "year": 2024,
+          "rank": 6,
+          "investors": 101,
+          "rounds": 47
+        },
+        {
+          "year": 2025,
+          "rank": 4,
+          "investors": 146,
+          "rounds": 42
+        },
+        {
+          "year": 2026,
+          "rank": 4,
+          "investors": 76,
+          "rounds": 16
+        }
+      ]
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Blockchain & Cryptocurrency",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 31,
+          "investors": 8,
+          "rounds": 6
+        },
+        {
+          "year": 2018,
+          "rank": 37,
+          "investors": 8,
+          "rounds": 2
+        },
+        {
+          "year": 2019,
+          "rank": 35,
+          "investors": 9,
+          "rounds": 6
+        },
+        {
+          "year": 2020,
+          "rank": 20,
+          "investors": 24,
+          "rounds": 9
+        },
+        {
+          "year": 2021,
+          "rank": 22,
+          "investors": 40,
+          "rounds": 11
+        },
+        {
+          "year": 2022,
+          "rank": 13,
+          "investors": 85,
+          "rounds": 15
+        },
+        {
+          "year": 2023,
+          "rank": 34,
+          "investors": 12,
+          "rounds": 3
+        },
+        {
+          "year": 2024,
+          "rank": 19,
+          "investors": 25,
+          "rounds": 3
+        },
+        {
+          "year": 2025,
+          "rank": 21,
+          "investors": 25,
+          "rounds": 4
+        },
+        {
+          "year": 2026,
+          "rank": 9,
+          "investors": 33,
+          "rounds": 3
+        }
+      ]
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Clean Technology",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 30,
+          "investors": 10,
+          "rounds": 6
+        },
+        {
+          "year": 2018,
+          "rank": 39,
+          "investors": 8,
+          "rounds": 7
+        },
+        {
+          "year": 2019,
+          "rank": 26,
+          "investors": 14,
+          "rounds": 9
+        },
+        {
+          "year": 2020,
+          "rank": 16,
+          "investors": 31,
+          "rounds": 15
+        },
+        {
+          "year": 2021,
+          "rank": 26,
+          "investors": 27,
+          "rounds": 13
+        },
+        {
+          "year": 2022,
+          "rank": 15,
+          "investors": 61,
+          "rounds": 20
+        },
+        {
+          "year": 2023,
+          "rank": 10,
+          "investors": 59,
+          "rounds": 24
+        },
+        {
+          "year": 2024,
+          "rank": 12,
+          "investors": 41,
+          "rounds": 17
+        },
+        {
+          "year": 2025,
+          "rank": 8,
+          "investors": 61,
+          "rounds": 19
+        },
+        {
+          "year": 2026,
+          "rank": 25,
+          "investors": 11,
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cloud Infrastructure",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 10,
+          "investors": 39,
+          "rounds": 10
+        },
+        {
+          "year": 2018,
+          "rank": 7,
+          "investors": 52,
+          "rounds": 14
+        },
+        {
+          "year": 2019,
+          "rank": 19,
+          "investors": 25,
+          "rounds": 11
+        },
+        {
+          "year": 2020,
+          "rank": 14,
+          "investors": 34,
+          "rounds": 13
+        },
+        {
+          "year": 2021,
+          "rank": 15,
+          "investors": 60,
+          "rounds": 10
+        },
+        {
+          "year": 2022,
+          "rank": 32,
+          "investors": 23,
+          "rounds": 7
+        },
+        {
+          "year": 2023,
+          "rank": 28,
+          "investors": 17,
+          "rounds": 7
+        },
+        {
+          "year": 2024,
+          "rank": 18,
+          "investors": 27,
+          "rounds": 7
+        },
+        {
+          "year": 2025,
+          "rank": 19,
+          "investors": 30,
+          "rounds": 8
+        },
+        {
+          "year": 2026,
+          "rank": 16,
+          "investors": 17,
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cybersecurity",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 3,
+          "investors": 116,
+          "rounds": 54
+        },
+        {
+          "year": 2018,
+          "rank": 1,
+          "investors": 185,
+          "rounds": 98
+        },
+        {
+          "year": 2019,
+          "rank": 2,
+          "investors": 180,
+          "rounds": 80
+        },
+        {
+          "year": 2020,
+          "rank": 2,
+          "investors": 200,
+          "rounds": 95
+        },
+        {
+          "year": 2021,
+          "rank": 2,
+          "investors": 319,
+          "rounds": 120
+        },
+        {
+          "year": 2022,
+          "rank": 2,
+          "investors": 299,
+          "rounds": 122
+        },
+        {
+          "year": 2023,
+          "rank": 2,
+          "investors": 258,
+          "rounds": 101
+        },
+        {
+          "year": 2024,
+          "rank": 2,
+          "investors": 236,
+          "rounds": 105
+        },
+        {
+          "year": 2025,
+          "rank": 2,
+          "investors": 306,
+          "rounds": 137
+        },
+        {
+          "year": 2026,
+          "rank": 2,
+          "investors": 168,
+          "rounds": 67
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Data & Analytics",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 4,
+          "investors": 81,
+          "rounds": 29
+        },
+        {
+          "year": 2018,
+          "rank": 5,
+          "investors": 63,
+          "rounds": 23
+        },
+        {
+          "year": 2019,
+          "rank": 5,
+          "investors": 84,
+          "rounds": 26
+        },
+        {
+          "year": 2020,
+          "rank": 4,
+          "investors": 111,
+          "rounds": 44
+        },
+        {
+          "year": 2021,
+          "rank": 8,
+          "investors": 126,
+          "rounds": 40
+        },
+        {
+          "year": 2022,
+          "rank": 5,
+          "investors": 150,
+          "rounds": 42
+        },
+        {
+          "year": 2023,
+          "rank": 14,
+          "investors": 40,
+          "rounds": 9
+        },
+        {
+          "year": 2024,
+          "rank": 10,
+          "investors": 58,
+          "rounds": 19
+        },
+        {
+          "year": 2025,
+          "rank": 12,
+          "investors": 45,
+          "rounds": 16
+        },
+        {
+          "year": 2026,
+          "rank": 10,
+          "investors": 33,
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Digital Health",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 7,
+          "investors": 61,
+          "rounds": 26
+        },
+        {
+          "year": 2018,
+          "rank": 9,
+          "investors": 48,
+          "rounds": 26
+        },
+        {
+          "year": 2019,
+          "rank": 6,
+          "investors": 77,
+          "rounds": 38
+        },
+        {
+          "year": 2020,
+          "rank": 6,
+          "investors": 97,
+          "rounds": 31
+        },
+        {
+          "year": 2021,
+          "rank": 3,
+          "investors": 214,
+          "rounds": 68
+        },
+        {
+          "year": 2022,
+          "rank": 7,
+          "investors": 140,
+          "rounds": 60
+        },
+        {
+          "year": 2023,
+          "rank": 7,
+          "investors": 80,
+          "rounds": 34
+        },
+        {
+          "year": 2024,
+          "rank": 4,
+          "investors": 148,
+          "rounds": 48
+        },
+        {
+          "year": 2025,
+          "rank": 5,
+          "investors": 124,
+          "rounds": 36
+        },
+        {
+          "year": 2026,
+          "rank": 5,
+          "investors": 54,
+          "rounds": 14
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Enterprise Software",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 1,
+          "investors": 141,
+          "rounds": 79
+        },
+        {
+          "year": 2018,
+          "rank": 2,
+          "investors": 182,
+          "rounds": 98
+        },
+        {
+          "year": 2019,
+          "rank": 1,
+          "investors": 237,
+          "rounds": 110
+        },
+        {
+          "year": 2020,
+          "rank": 1,
+          "investors": 240,
+          "rounds": 120
+        },
+        {
+          "year": 2021,
+          "rank": 1,
+          "investors": 454,
+          "rounds": 215
+        },
+        {
+          "year": 2022,
+          "rank": 1,
+          "investors": 447,
+          "rounds": 199
+        },
+        {
+          "year": 2023,
+          "rank": 1,
+          "investors": 370,
+          "rounds": 163
+        },
+        {
+          "year": 2024,
+          "rank": 1,
+          "investors": 359,
+          "rounds": 155
+        },
+        {
+          "year": 2025,
+          "rank": 1,
+          "investors": 437,
+          "rounds": 161
+        },
+        {
+          "year": 2026,
+          "rank": 1,
+          "investors": 182,
+          "rounds": 55
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Food Technology",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 26,
+          "investors": 12,
+          "rounds": 9
+        },
+        {
+          "year": 2018,
+          "rank": 12,
+          "investors": 32,
+          "rounds": 18
+        },
+        {
+          "year": 2019,
+          "rank": 17,
+          "investors": 28,
+          "rounds": 14
+        },
+        {
+          "year": 2020,
+          "rank": 10,
+          "investors": 54,
+          "rounds": 22
+        },
+        {
+          "year": 2021,
+          "rank": 10,
+          "investors": 106,
+          "rounds": 45
+        },
+        {
+          "year": 2022,
+          "rank": 4,
+          "investors": 168,
+          "rounds": 60
+        },
+        {
+          "year": 2023,
+          "rank": 6,
+          "investors": 92,
+          "rounds": 38
+        },
+        {
+          "year": 2024,
+          "rank": 7,
+          "investors": 88,
+          "rounds": 36
+        },
+        {
+          "year": 2025,
+          "rank": 11,
+          "investors": 51,
+          "rounds": 27
+        },
+        {
+          "year": 2026,
+          "rank": 11,
+          "investors": 33,
+          "rounds": 9
+        }
+      ]
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Gaming",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 22,
+          "investors": 14,
+          "rounds": 11
+        },
+        {
+          "year": 2018,
+          "rank": 13,
+          "investors": 27,
+          "rounds": 13
+        },
+        {
+          "year": 2019,
+          "rank": 11,
+          "investors": 34,
+          "rounds": 14
+        },
+        {
+          "year": 2020,
+          "rank": 27,
+          "investors": 19,
+          "rounds": 15
+        },
+        {
+          "year": 2021,
+          "rank": 11,
+          "investors": 90,
+          "rounds": 30
+        },
+        {
+          "year": 2022,
+          "rank": 10,
+          "investors": 97,
+          "rounds": 42
+        },
+        {
+          "year": 2023,
+          "rank": 12,
+          "investors": 45,
+          "rounds": 19
+        },
+        {
+          "year": 2024,
+          "rank": 14,
+          "investors": 39,
+          "rounds": 14
+        },
+        {
+          "year": 2025,
+          "rank": 14,
+          "investors": 43,
+          "rounds": 18
+        },
+        {
+          "year": 2026,
+          "rank": 19,
+          "investors": 13,
+          "rounds": 4
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Hardware & Semiconductors",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 8,
+          "investors": 56,
+          "rounds": 20
+        },
+        {
+          "year": 2018,
+          "rank": 8,
+          "investors": 49,
+          "rounds": 21
+        },
+        {
+          "year": 2019,
+          "rank": 8,
+          "investors": 70,
+          "rounds": 21
+        },
+        {
+          "year": 2020,
+          "rank": 9,
+          "investors": 55,
+          "rounds": 27
+        },
+        {
+          "year": 2021,
+          "rank": 7,
+          "investors": 127,
+          "rounds": 36
+        },
+        {
+          "year": 2022,
+          "rank": 14,
+          "investors": 71,
+          "rounds": 22
+        },
+        {
+          "year": 2023,
+          "rank": 8,
+          "investors": 75,
+          "rounds": 22
+        },
+        {
+          "year": 2024,
+          "rank": 8,
+          "investors": 80,
+          "rounds": 23
+        },
+        {
+          "year": 2025,
+          "rank": 7,
+          "investors": 92,
+          "rounds": 21
+        },
+        {
+          "year": 2026,
+          "rank": 15,
+          "investors": 18,
+          "rounds": 11
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Healthcare IT",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 18,
+          "investors": 16,
+          "rounds": 7
+        },
+        {
+          "year": 2018,
+          "rank": 29,
+          "investors": 10,
+          "rounds": 5
+        },
+        {
+          "year": 2019,
+          "rank": 18,
+          "investors": 26,
+          "rounds": 10
+        },
+        {
+          "year": 2020,
+          "rank": 15,
+          "investors": 32,
+          "rounds": 12
+        },
+        {
+          "year": 2021,
+          "rank": 21,
+          "investors": 46,
+          "rounds": 16
+        },
+        {
+          "year": 2022,
+          "rank": 16,
+          "investors": 61,
+          "rounds": 20
+        },
+        {
+          "year": 2023,
+          "rank": 9,
+          "investors": 74,
+          "rounds": 21
+        },
+        {
+          "year": 2024,
+          "rank": 11,
+          "investors": 48,
+          "rounds": 19
+        },
+        {
+          "year": 2025,
+          "rank": 9,
+          "investors": 54,
+          "rounds": 17
+        },
+        {
+          "year": 2026,
+          "rank": 13,
+          "investors": 31,
+          "rounds": 6
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Medical Devices",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 2,
+          "investors": 117,
+          "rounds": 58
+        },
+        {
+          "year": 2018,
+          "rank": 4,
+          "investors": 91,
+          "rounds": 42
+        },
+        {
+          "year": 2019,
+          "rank": 3,
+          "investors": 130,
+          "rounds": 59
+        },
+        {
+          "year": 2020,
+          "rank": 3,
+          "investors": 173,
+          "rounds": 72
+        },
+        {
+          "year": 2021,
+          "rank": 4,
+          "investors": 203,
+          "rounds": 78
+        },
+        {
+          "year": 2022,
+          "rank": 3,
+          "investors": 175,
+          "rounds": 73
+        },
+        {
+          "year": 2023,
+          "rank": 3,
+          "investors": 165,
+          "rounds": 63
+        },
+        {
+          "year": 2024,
+          "rank": 3,
+          "investors": 199,
+          "rounds": 78
+        },
+        {
+          "year": 2025,
+          "rank": 6,
+          "investors": 120,
+          "rounds": 67
+        },
+        {
+          "year": 2026,
+          "rank": 6,
+          "investors": 53,
+          "rounds": 24
+        }
+      ]
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Payments & Transactions",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 12,
+          "investors": 26,
+          "rounds": 12
+        },
+        {
+          "year": 2018,
+          "rank": 18,
+          "investors": 21,
+          "rounds": 11
+        },
+        {
+          "year": 2019,
+          "rank": 13,
+          "investors": 31,
+          "rounds": 16
+        },
+        {
+          "year": 2020,
+          "rank": 18,
+          "investors": 27,
+          "rounds": 8
+        },
+        {
+          "year": 2021,
+          "rank": 12,
+          "investors": 88,
+          "rounds": 24
+        },
+        {
+          "year": 2022,
+          "rank": 9,
+          "investors": 102,
+          "rounds": 28
+        },
+        {
+          "year": 2023,
+          "rank": 15,
+          "investors": 40,
+          "rounds": 14
+        },
+        {
+          "year": 2024,
+          "rank": 24,
+          "investors": 21,
+          "rounds": 9
+        },
+        {
+          "year": 2025,
+          "rank": 16,
+          "investors": 38,
+          "rounds": 10
+        },
+        {
+          "year": 2026,
+          "rank": 12,
+          "investors": 32,
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Retail & E-commerce",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 9,
+          "investors": 41,
+          "rounds": 15
+        },
+        {
+          "year": 2018,
+          "rank": 22,
+          "investors": 18,
+          "rounds": 9
+        },
+        {
+          "year": 2019,
+          "rank": 10,
+          "investors": 49,
+          "rounds": 14
+        },
+        {
+          "year": 2020,
+          "rank": 11,
+          "investors": 50,
+          "rounds": 17
+        },
+        {
+          "year": 2021,
+          "rank": 13,
+          "investors": 82,
+          "rounds": 30
+        },
+        {
+          "year": 2022,
+          "rank": 12,
+          "investors": 86,
+          "rounds": 25
+        },
+        {
+          "year": 2023,
+          "rank": 24,
+          "investors": 20,
+          "rounds": 6
+        },
+        {
+          "year": 2024,
+          "rank": 16,
+          "investors": 32,
+          "rounds": 10
+        },
+        {
+          "year": 2025,
+          "rank": 18,
+          "investors": 35,
+          "rounds": 9
+        },
+        {
+          "year": 2026,
+          "rank": 38,
+          "investors": 4,
+          "rounds": 1
+        }
+      ]
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Robotics & Manufacturing",
+      "points": [
+        {
+          "year": 2017,
+          "rank": 37,
+          "investors": 7,
+          "rounds": 4
+        },
+        {
+          "year": 2018,
+          "rank": 45,
+          "investors": 7,
+          "rounds": 3
+        },
+        {
+          "year": 2019,
+          "rank": 39,
+          "investors": 7,
+          "rounds": 3
+        },
+        {
+          "year": 2020,
+          "rank": 29,
+          "investors": 16,
+          "rounds": 4
+        },
+        {
+          "year": 2021,
+          "rank": 32,
+          "investors": 21,
+          "rounds": 5
+        },
+        {
+          "year": 2022,
+          "rank": 22,
+          "investors": 41,
+          "rounds": 7
+        },
+        {
+          "year": 2023,
+          "rank": 27,
+          "investors": 18,
+          "rounds": 7
+        },
+        {
+          "year": 2024,
+          "rank": 22,
+          "investors": 24,
+          "rounds": 6
+        },
+        {
+          "year": 2025,
+          "rank": 17,
+          "investors": 37,
+          "rounds": 10
+        },
+        {
+          "year": 2026,
+          "rank": 7,
+          "investors": 38,
+          "rounds": 6
+        }
+      ]
+    }
+  ],
+  "portfolioDistribution": [
+    {
+      "bucket": "1",
+      "investors": 7392,
+      "startups": 7392
+    },
+    {
+      "bucket": "2",
+      "investors": 1249,
+      "startups": 2498
+    },
+    {
+      "bucket": "3-5",
+      "investors": 1002,
+      "startups": 3666
+    },
+    {
+      "bucket": "6-10",
+      "investors": 346,
+      "startups": 2607
+    },
+    {
+      "bucket": "11-25",
+      "investors": 241,
+      "startups": 3805
+    },
+    {
+      "bucket": "26+",
+      "investors": 113,
+      "startups": 5723
+    }
+  ],
+  "classPortfolio": [
+    {
+      "investorClass": "VC \u00b7 high volume",
+      "bucket": "6-10",
+      "investors": 29
+    },
+    {
+      "investorClass": "VC \u00b7 high volume",
+      "bucket": "11-25",
+      "investors": 196
+    },
+    {
+      "investorClass": "VC \u00b7 high volume",
+      "bucket": "26+",
+      "investors": 103
+    },
+    {
+      "investorClass": "VC \u00b7 occasional",
+      "bucket": "1",
+      "investors": 4000
+    },
+    {
+      "investorClass": "VC \u00b7 occasional",
+      "bucket": "2",
+      "investors": 824
+    },
+    {
+      "investorClass": "VC \u00b7 occasional",
+      "bucket": "3-5",
+      "investors": 713
+    },
+    {
+      "investorClass": "VC \u00b7 occasional",
+      "bucket": "6-10",
+      "investors": 236
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "1",
+      "investors": 1324
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "2",
+      "investors": 260
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "3-5",
+      "investors": 198
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "6-10",
+      "investors": 56
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "11-25",
+      "investors": 31
+    },
+    {
+      "investorClass": "Corporate VC",
+      "bucket": "26+",
+      "investors": 8
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "1",
+      "investors": 367
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "2",
+      "investors": 64
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "3-5",
+      "investors": 38
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "6-10",
+      "investors": 11
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "11-25",
+      "investors": 8
+    },
+    {
+      "investorClass": "PE & family office",
+      "bucket": "26+",
+      "investors": 1
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "1",
+      "investors": 1701
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "2",
+      "investors": 101
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "3-5",
+      "investors": 53
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "6-10",
+      "investors": 14
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "11-25",
+      "investors": 6
+    },
+    {
+      "investorClass": "Other",
+      "bucket": "26+",
+      "investors": 1
+    }
+  ],
+  "sectors": [
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Enterprise Software",
+      "startups": 1063,
+      "investors": 2227,
+      "rounds": 2031,
+      "exited": 293
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cybersecurity",
+      "startups": 650,
+      "investors": 1397,
+      "rounds": 1334,
+      "exited": 268
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Medical Devices",
+      "startups": 620,
+      "investors": 1391,
+      "rounds": 1141,
+      "exited": 139
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Biotechnology",
+      "startups": 323,
+      "investors": 799,
+      "rounds": 559,
+      "exited": 78
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Hardware & Semiconductors",
+      "startups": 307,
+      "investors": 903,
+      "rounds": 669,
+      "exited": 137
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "AI & Machine Learning",
+      "startups": 278,
+      "investors": 899,
+      "rounds": 520,
+      "exited": 57
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Digital Health",
+      "startups": 258,
+      "investors": 747,
+      "rounds": 467,
+      "exited": 33
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Telecommunications",
+      "startups": 203,
+      "investors": 559,
+      "rounds": 428,
+      "exited": 112
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Data & Analytics",
+      "startups": 202,
+      "investors": 667,
+      "rounds": 458,
+      "exited": 80
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Gaming",
+      "startups": 178,
+      "investors": 403,
+      "rounds": 289,
+      "exited": 38
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Food Technology",
+      "startups": 171,
+      "investors": 462,
+      "rounds": 309,
+      "exited": 27
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Retail & E-commerce",
+      "startups": 128,
+      "investors": 372,
+      "rounds": 229,
+      "exited": 28
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Advertising Technology",
+      "startups": 121,
+      "investors": 356,
+      "rounds": 263,
+      "exited": 49
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Clean Technology",
+      "startups": 117,
+      "investors": 359,
+      "rounds": 217,
+      "exited": 17
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Agriculture",
+      "startups": 99,
+      "investors": 347,
+      "rounds": 184,
+      "exited": 10
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Payments & Transactions",
+      "startups": 97,
+      "investors": 383,
+      "rounds": 197,
+      "exited": 25
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Healthcare IT",
+      "startups": 79,
+      "investors": 303,
+      "rounds": 171,
+      "exited": 15
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Cloud Infrastructure",
+      "startups": 79,
+      "investors": 305,
+      "rounds": 193,
+      "exited": 36
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Streaming & Video",
+      "startups": 79,
+      "investors": 191,
+      "rounds": 144,
+      "exited": 32
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Electronics",
+      "startups": 73,
+      "investors": 211,
+      "rounds": 118,
+      "exited": 19
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Automotive & Transportation",
+      "startups": 73,
+      "investors": 241,
+      "rounds": 133,
+      "exited": 24
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "DevOps & Development Tools",
+      "startups": 70,
+      "investors": 231,
+      "rounds": 133,
+      "exited": 28
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Accounting & Finance Software",
+      "startups": 65,
+      "investors": 231,
+      "rounds": 131,
+      "exited": 11
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Renewable Energy",
+      "startups": 59,
+      "investors": 211,
+      "rounds": 106,
+      "exited": 14
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Travel & Hospitality",
+      "startups": 57,
+      "investors": 148,
+      "rounds": 97,
+      "exited": 15
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Education & Training",
+      "startups": 55,
+      "investors": 154,
+      "rounds": 89,
+      "exited": 9
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Marketing Technology",
+      "startups": 53,
+      "investors": 151,
+      "rounds": 91,
+      "exited": 16
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Social Media & Community",
+      "startups": 53,
+      "investors": 142,
+      "rounds": 82,
+      "exited": 17
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Insurance & InsurTech",
+      "startups": 50,
+      "investors": 220,
+      "rounds": 117,
+      "exited": 12
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Investment & Wealth Management",
+      "startups": 48,
+      "investors": 138,
+      "rounds": 81,
+      "exited": 6
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Financial Data & Analytics",
+      "startups": 48,
+      "investors": 180,
+      "rounds": 87,
+      "exited": 4
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Blockchain & Cryptocurrency",
+      "startups": 45,
+      "investors": 244,
+      "rounds": 78,
+      "exited": 7
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Advertising Technology",
+      "startups": 41,
+      "investors": 125,
+      "rounds": 80,
+      "exited": 12
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Aerospace & Defense",
+      "startups": 41,
+      "investors": 118,
+      "rounds": 60,
+      "exited": 5
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Banking & Lending",
+      "startups": 39,
+      "investors": 206,
+      "rounds": 91,
+      "exited": 9
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Publishing & Content",
+      "startups": 32,
+      "investors": 72,
+      "rounds": 51,
+      "exited": 8
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Robotics & Manufacturing",
+      "startups": 31,
+      "investors": 170,
+      "rounds": 64,
+      "exited": 6
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Creative Tools",
+      "startups": 29,
+      "investors": 80,
+      "rounds": 54,
+      "exited": 6
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Water & Waste Management",
+      "startups": 28,
+      "investors": 59,
+      "rounds": 43,
+      "exited": 8
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "RegTech & Compliance",
+      "startups": 28,
+      "investors": 115,
+      "rounds": 61,
+      "exited": 10
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Blockchain & Cryptocurrency",
+      "startups": 28,
+      "investors": 197,
+      "rounds": 39,
+      "exited": 3
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Logistics and Supply Chain Software",
+      "startups": 28,
+      "investors": 72,
+      "rounds": 39,
+      "exited": 1
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Pharmaceuticals",
+      "startups": 28,
+      "investors": 75,
+      "rounds": 50,
+      "exited": 11
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Mobile Applications",
+      "startups": 22,
+      "investors": 58,
+      "rounds": 29,
+      "exited": 7
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Databases & Data Management",
+      "startups": 20,
+      "investors": 88,
+      "rounds": 52,
+      "exited": 3
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Food & Beverage",
+      "startups": 20,
+      "investors": 70,
+      "rounds": 34,
+      "exited": 4
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Electric Vehicles & Infrastructure",
+      "startups": 19,
+      "investors": 73,
+      "rounds": 36,
+      "exited": 7
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "IT Services & Consulting",
+      "startups": 19,
+      "investors": 51,
+      "rounds": 40,
+      "exited": 8
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Utilities Software",
+      "startups": 19,
+      "investors": 69,
+      "rounds": 44,
+      "exited": 3
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Personal Care & Beauty",
+      "startups": 18,
+      "investors": 48,
+      "rounds": 25,
+      "exited": 5
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Energy Tech",
+      "startups": 18,
+      "investors": 85,
+      "rounds": 36,
+      "exited": 2
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Real Estate and Property",
+      "startups": 17,
+      "investors": 58,
+      "rounds": 35,
+      "exited": 4
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Digital Media",
+      "startups": 17,
+      "investors": 58,
+      "rounds": 27,
+      "exited": 3
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Industrial Technologies",
+      "startups": 17,
+      "investors": 40,
+      "rounds": 23,
+      "exited": 3
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Music & Audio",
+      "startups": 17,
+      "investors": 54,
+      "rounds": 33,
+      "exited": 4
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Sports & Fitness",
+      "startups": 16,
+      "investors": 41,
+      "rounds": 18,
+      "exited": 0
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "API & Integration Platforms",
+      "startups": 15,
+      "investors": 77,
+      "rounds": 31,
+      "exited": 4
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Home & Garden",
+      "startups": 14,
+      "investors": 37,
+      "rounds": 24,
+      "exited": 5
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Sports & Fitness",
+      "startups": 13,
+      "investors": 47,
+      "rounds": 26,
+      "exited": 3
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Consumer Software",
+      "startups": 13,
+      "investors": 23,
+      "rounds": 17,
+      "exited": 3
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "LegalTech",
+      "startups": 13,
+      "investors": 34,
+      "rounds": 21,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Fashion & Apparel",
+      "startups": 13,
+      "investors": 39,
+      "rounds": 23,
+      "exited": 5
+    },
+    {
+      "industry": "Healthcare and Food",
+      "subIndustry": "Education & Training",
+      "startups": 12,
+      "investors": 38,
+      "rounds": 17,
+      "exited": 3
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Construction & Real Estate Technology",
+      "startups": 12,
+      "investors": 51,
+      "rounds": 18,
+      "exited": 2
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Business Lending & Financing",
+      "startups": 9,
+      "investors": 52,
+      "rounds": 19,
+      "exited": 2
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Advanced Materials",
+      "startups": 9,
+      "investors": 22,
+      "rounds": 12,
+      "exited": 0
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Oil & Gas",
+      "startups": 9,
+      "investors": 15,
+      "rounds": 11,
+      "exited": 6
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Events & Ticketing",
+      "startups": 8,
+      "investors": 26,
+      "rounds": 12,
+      "exited": 3
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Smart City Technology",
+      "startups": 8,
+      "investors": 14,
+      "rounds": 10,
+      "exited": 1
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Software",
+      "startups": 8,
+      "investors": 18,
+      "rounds": 12,
+      "exited": 0
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Location & Mapping",
+      "startups": 7,
+      "investors": 19,
+      "rounds": 10,
+      "exited": 2
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Industrial Technologies",
+      "startups": 7,
+      "investors": 31,
+      "rounds": 17,
+      "exited": 2
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Manufacturing",
+      "startups": 7,
+      "investors": 28,
+      "rounds": 14,
+      "exited": 2
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Pet Care",
+      "startups": 5,
+      "investors": 6,
+      "rounds": 5,
+      "exited": 2
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Transportation & Logistics",
+      "startups": 5,
+      "investors": 18,
+      "rounds": 9,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Products",
+      "startups": 5,
+      "investors": 11,
+      "rounds": 10,
+      "exited": 1
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Industrial Technologies",
+      "startups": 5,
+      "investors": 8,
+      "rounds": 7,
+      "exited": 1
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Social Media & Community",
+      "startups": 5,
+      "investors": 11,
+      "rounds": 6,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Consumer Services",
+      "startups": 4,
+      "investors": 20,
+      "rounds": 11,
+      "exited": 1
+    },
+    {
+      "industry": "IT and Telecom",
+      "subIndustry": "Transportation & Logistics",
+      "startups": 4,
+      "investors": 10,
+      "rounds": 7,
+      "exited": 0
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Space & Aerospace",
+      "startups": 3,
+      "investors": 12,
+      "rounds": 6,
+      "exited": 1
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Packaging & Containers",
+      "startups": 3,
+      "investors": 14,
+      "rounds": 8,
+      "exited": 0
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Energy Trading & Management",
+      "startups": 3,
+      "investors": 12,
+      "rounds": 5,
+      "exited": 1
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Gig Economy Platforms",
+      "startups": 3,
+      "investors": 4,
+      "rounds": 3,
+      "exited": 0
+    },
+    {
+      "industry": "Media and Entertainment",
+      "subIndustry": "Media and Entertainment",
+      "startups": 2,
+      "investors": 9,
+      "rounds": 4,
+      "exited": 2
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Financial Services",
+      "startups": 2,
+      "investors": 7,
+      "rounds": 3,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Business Services",
+      "startups": 2,
+      "investors": 4,
+      "rounds": 3,
+      "exited": 0
+    },
+    {
+      "industry": "Financial Services",
+      "subIndustry": "Financial Media",
+      "startups": 1,
+      "investors": 1,
+      "rounds": 1,
+      "exited": 0
+    },
+    {
+      "industry": "Energy and Utilities",
+      "subIndustry": "Infrastructure Security",
+      "startups": 1,
+      "investors": 1,
+      "rounds": 1,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Luxury Goods",
+      "startups": 1,
+      "investors": 3,
+      "rounds": 1,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Lifestyle",
+      "startups": 1,
+      "investors": 1,
+      "rounds": 1,
+      "exited": 0
+    },
+    {
+      "industry": "Consumer Goods and Services",
+      "subIndustry": "Safety Equipment",
+      "startups": 1,
+      "investors": 1,
+      "rounds": 1,
+      "exited": 0
+    }
+  ],
+  "origins": {
+    "minPortfolio": 10,
+    "cohortFirms": 399,
+    "unplacedFirms": 82,
+    "composition": [
+      {
+        "origin": "Israel",
+        "firms": 179,
+        "cheques": 8813
+      },
+      {
+        "origin": "United States",
+        "firms": 110,
+        "cheques": 4887
+      },
+      {
+        "origin": "Europe",
+        "firms": 21,
+        "cheques": 632
+      },
+      {
+        "origin": "Rest of world",
+        "firms": 7,
+        "cheques": 248
+      }
+    ],
+    "byYear": [
+      {
+        "year": 2017,
+        "origin": "Israel",
+        "cheques": 359,
+        "firms": 111
+      },
+      {
+        "year": 2017,
+        "origin": "United States",
+        "cheques": 178,
+        "firms": 62
+      },
+      {
+        "year": 2017,
+        "origin": "Europe",
+        "cheques": 21,
+        "firms": 13
+      },
+      {
+        "year": 2017,
+        "origin": "Rest of world",
+        "cheques": 9,
+        "firms": 5
+      },
+      {
+        "year": 2018,
+        "origin": "Israel",
+        "cheques": 449,
+        "firms": 118
+      },
+      {
+        "year": 2018,
+        "origin": "United States",
+        "cheques": 197,
+        "firms": 69
+      },
+      {
+        "year": 2018,
+        "origin": "Europe",
+        "cheques": 28,
+        "firms": 14
+      },
+      {
+        "year": 2018,
+        "origin": "Rest of world",
+        "cheques": 18,
+        "firms": 6
+      },
+      {
+        "year": 2019,
+        "origin": "Israel",
+        "cheques": 488,
+        "firms": 127
+      },
+      {
+        "year": 2019,
+        "origin": "United States",
+        "cheques": 231,
+        "firms": 84
+      },
+      {
+        "year": 2019,
+        "origin": "Europe",
+        "cheques": 38,
+        "firms": 18
+      },
+      {
+        "year": 2019,
+        "origin": "Rest of world",
+        "cheques": 25,
+        "firms": 6
+      },
+      {
+        "year": 2020,
+        "origin": "Israel",
+        "cheques": 568,
+        "firms": 134
+      },
+      {
+        "year": 2020,
+        "origin": "United States",
+        "cheques": 333,
+        "firms": 87
+      },
+      {
+        "year": 2020,
+        "origin": "Europe",
+        "cheques": 53,
+        "firms": 19
+      },
+      {
+        "year": 2020,
+        "origin": "Rest of world",
+        "cheques": 18,
+        "firms": 7
+      },
+      {
+        "year": 2021,
+        "origin": "Israel",
+        "cheques": 1007,
+        "firms": 155
+      },
+      {
+        "year": 2021,
+        "origin": "United States",
+        "cheques": 598,
+        "firms": 99
+      },
+      {
+        "year": 2021,
+        "origin": "Europe",
+        "cheques": 88,
+        "firms": 19
+      },
+      {
+        "year": 2021,
+        "origin": "Rest of world",
+        "cheques": 28,
+        "firms": 7
+      },
+      {
+        "year": 2022,
+        "origin": "Israel",
+        "cheques": 877,
+        "firms": 144
+      },
+      {
+        "year": 2022,
+        "origin": "United States",
+        "cheques": 513,
+        "firms": 98
+      },
+      {
+        "year": 2022,
+        "origin": "Europe",
+        "cheques": 77,
+        "firms": 19
+      },
+      {
+        "year": 2022,
+        "origin": "Rest of world",
+        "cheques": 31,
+        "firms": 6
+      },
+      {
+        "year": 2023,
+        "origin": "Israel",
+        "cheques": 562,
+        "firms": 132
+      },
+      {
+        "year": 2023,
+        "origin": "United States",
+        "cheques": 293,
+        "firms": 93
+      },
+      {
+        "year": 2023,
+        "origin": "Europe",
+        "cheques": 44,
+        "firms": 18
+      },
+      {
+        "year": 2023,
+        "origin": "Rest of world",
+        "cheques": 11,
+        "firms": 4
+      },
+      {
+        "year": 2024,
+        "origin": "Israel",
+        "cheques": 594,
+        "firms": 129
+      },
+      {
+        "year": 2024,
+        "origin": "United States",
+        "cheques": 340,
+        "firms": 87
+      },
+      {
+        "year": 2024,
+        "origin": "Europe",
+        "cheques": 43,
+        "firms": 15
+      },
+      {
+        "year": 2024,
+        "origin": "Rest of world",
+        "cheques": 19,
+        "firms": 4
+      },
+      {
+        "year": 2025,
+        "origin": "Israel",
+        "cheques": 599,
+        "firms": 123
+      },
+      {
+        "year": 2025,
+        "origin": "United States",
+        "cheques": 416,
+        "firms": 93
+      },
+      {
+        "year": 2025,
+        "origin": "Europe",
+        "cheques": 54,
+        "firms": 16
+      },
+      {
+        "year": 2025,
+        "origin": "Rest of world",
+        "cheques": 20,
+        "firms": 5
+      },
+      {
+        "year": 2026,
+        "origin": "Israel",
+        "cheques": 257,
+        "firms": 84
+      },
+      {
+        "year": 2026,
+        "origin": "United States",
+        "cheques": 235,
+        "firms": 78
+      },
+      {
+        "year": 2026,
+        "origin": "Europe",
+        "cheques": 16,
+        "firms": 5
+      },
+      {
+        "year": 2026,
+        "origin": "Rest of world",
+        "cheques": 9,
+        "firms": 3
+      }
+    ],
+    "countries": [
+      {
+        "country": "Israel",
+        "firms": 179
+      },
+      {
+        "country": "United States",
+        "firms": 110
+      },
+      {
+        "country": "United Kingdom",
+        "firms": 10
+      },
+      {
+        "country": "Germany",
+        "firms": 5
+      },
+      {
+        "country": "Luxembourg",
+        "firms": 2
+      },
+      {
+        "country": "Netherlands",
+        "firms": 2
+      },
+      {
+        "country": "Singapore",
+        "firms": 2
+      },
+      {
+        "country": "Australia",
+        "firms": 1
+      },
+      {
+        "country": "Belgium",
+        "firms": 1
+      },
+      {
+        "country": "Brazil",
+        "firms": 1
+      },
+      {
+        "country": "Canada",
+        "firms": 1
+      },
+      {
+        "country": "France",
+        "firms": 1
+      },
+      {
+        "country": "Hong Kong",
+        "firms": 1
+      },
+      {
+        "country": "Japan",
+        "firms": 1
+      }
+    ]
+  },
+  "followOn": [
+    {
+      "bucket": "1",
+      "pairs": 18374
+    },
+    {
+      "bucket": "2",
+      "pairs": 5132
+    },
+    {
+      "bucket": "3-4",
+      "pairs": 1989
+    },
+    {
+      "bucket": "5+",
+      "pairs": 196
+    }
+  ]
+}

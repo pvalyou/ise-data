@@ -1,0 +1,2101 @@
+{
+  "schemaVersion": 1,
+  "page": "feed",
+  "generatedAt": "2026-08-16T12:48:27.289825Z",
+  "widgetMetadata": {
+    "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
+    "widgets": {
+      "feed:kpis": {
+        "title": "Ecosystem Now",
+        "description": "What moved across the ecosystem over the window you pick, and that choice drives the whole page: every card below reports the same window and lights the same days in its bar strip. Each cell carries its figure with the trailing shape beside it, and hovering the line gives the change against the window before it. That change compares complete days only, so a half-finished today never reads as a collapse, and where the earlier window held fewer than five of something it reports a count rather than a percentage. The 24-hour view shows no change at all, because the day is not over.",
+        "dataPaths": []
+      },
+      "feed:funding": {
+        "title": "Funding Rounds",
+        "description": "Israeli funding rounds as they land, ranked by size rather than listed flat. Rounds of $100M or more take pinned panels at the top and the rest run as lines, largest first. The strip under the head splits the window's rounds by stage on a fixed ladder, Pre-seed through E+ plus debt, coloured earliest to latest so the shape reads without the legend. Accelerator cheques count as pre-seed and everything past Series D is E+. The head figure carries every round type, so a raise the ladder has no rung for, like a public company's, is counted there but not drawn on the strip.",
+        "dataPaths": [
+          "activity.days",
+          "activity.fundingRounds"
+        ]
+      },
+      "feed:new-startups": {
+        "title": "New Startups",
+        "description": "Companies newly added to the dataset, each with what it does in its own words. The strip splits the window's intake by industry and sums to the figure beside the title. These are intake events, so the count tracks how fast the dataset is learning rather than how fast Israel is starting companies. Cards rotate, and hovering one holds it and shows the full description.",
+        "dataPaths": [
+          "activity.days",
+          "activity.newOrgs"
+        ]
+      },
+      "feed:news-israel": {
+        "title": "Israeli News",
+        "description": "Press coverage of funding and acquisitions whose reporting states an Israeli tie, up to 25 stories from the last 30 days, each dated by its own publication and following the page window like every other card. This is a deal sweep, so it carries money events only. Non-deal company news, meaning launches, partnerships and approvals, runs in Milestones instead. Amounts print exactly as the press wrote them rather than parsed into numbers, and unconfirmed stories carry a RUMORED badge. Hovering a row shows the tie phrase the coverage actually used.",
+        "dataPaths": [
+          "news.sweptOn",
+          "news.israel"
+        ]
+      },
+      "feed:news-global": {
+        "title": "Global News",
+        "description": "The same deal sweep for stories with no stated Israeli tie, the global funding and acquisitions the ecosystem gets read against, dated and windowed the same way as the Israeli box. Amounts print verbatim and rumours are badged. The split follows what the coverage states, so a rumour about an Israeli company still lands on the Israeli side.",
+        "dataPaths": [
+          "news.sweptOn",
+          "news.global"
+        ]
+      },
+      "feed:exits": {
+        "title": "Exits & IPOs",
+        "description": "Exits of Israeli startups: acquisitions that transfer the business, whether full entity, majority stake or merger, plus IPOs. Every exit in the window gets a panel showing the two companies, the price and the deal type, ordered by size with the largest disclosed deal leading. Deals the press reports but nobody has confirmed ride along from the news sweep with a Rumored badge, their price kept verbatim as written, and they stay out of the announced count. Dates respect their stated precision, so a month-precise deal shows a month, and a price appears only where it was disclosed.",
+        "dataPaths": [
+          "exits",
+          "activity.exits"
+        ]
+      },
+      "feed:first-checks": {
+        "title": "New Investments",
+        "description": "Every cheque written into an Israeli round, counted once per investor per round, so a round backed by four firms counts four and this figure runs well above the round count next door. Most active ranks investors by cheques in the window, and appears only when the window holds a genuine leader. Each investor is marked as a fund or an angel, and \"new\" marks an investor writing their first ever Israeli cheque.",
+        "dataPaths": [
+          "firstChecks",
+          "activity.firstChecks"
+        ]
+      },
+      "feed:patents": {
+        "title": "New Patents",
+        "description": "Patents granted to Israeli companies, most recently added first, each linking to its record on Espacenet. The assignee sits under the title and the strip counts grants per day across the window. Espacenet is the European Patent Office\u2019s own viewer and shares the database these rows come from, so it holds a grant the day we list it. The window counts when a grant reached our data rather than when it issued, because grants arrive a median of two months after the office publishes them and a window on the grant date would show a fraction of what actually issued. Only grants issued within the last two years are eligible, which keeps decades-old backfill out of a card about what is new. Each row shows its real grant date, so a recently added patent can legitimately read as months old. Publication lags filing by roughly 18 months, so these are grants reaching the public record now rather than inventions made now.",
+        "dataPaths": [
+          "patents",
+          "activity.patentsIssued"
+        ]
+      },
+      "feed:jobs": {
+        "title": "New Roles",
+        "description": "Who is hiring hardest, then what they just posted. Hiring most ranks employers by postings in the window and appears only when the window holds enough to rank. It covers every employer rather than startups alone, which is why the chip and defence firms lead it. Roles are dated by when the employer published them, and each links to the live application page.",
+        "dataPaths": [
+          "jobs",
+          "activity.jobsPosted"
+        ]
+      },
+      "feed:programs": {
+        "title": "Programs Open",
+        "description": "Accelerators, incubators and grant programmes a founder can apply to, dated intakes first and rolling programmes after. Deadlines are future-facing, so this list is the one part of the page the window selector does not filter. Each row carries the operator and links straight to the application page.",
+        "dataPaths": [
+          "programs"
+        ]
+      },
+      "feed:milestones": {
+        "title": "Milestones",
+        "description": "Company milestones and $1B crossings on one timeline, newest first. Product launches, market expansions, reports and unicorn crossings all sit together, each dated by when it happened rather than when it was recorded. Hovering a row gives the full summary.",
+        "dataPaths": []
+      }
+    }
+  },
+  "activity": {
+    "days": [
+      "2026-07-18",
+      "2026-07-19",
+      "2026-07-20",
+      "2026-07-21",
+      "2026-07-22",
+      "2026-07-23",
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26",
+      "2026-07-27",
+      "2026-07-28",
+      "2026-07-29",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02",
+      "2026-08-03",
+      "2026-08-04",
+      "2026-08-05",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09",
+      "2026-08-10",
+      "2026-08-11",
+      "2026-08-12",
+      "2026-08-13",
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "fundingRounds": [
+      0,
+      0,
+      2,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      3,
+      2,
+      0,
+      0,
+      1,
+      2,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "newOrgs": [
+      514,
+      358,
+      716,
+      517,
+      550,
+      442,
+      632,
+      168,
+      676,
+      1460,
+      1938,
+      762,
+      246,
+      443,
+      327,
+      4,
+      349,
+      306,
+      214,
+      526,
+      411,
+      382,
+      347,
+      358,
+      119,
+      100,
+      123,
+      297,
+      484,
+      322
+    ],
+    "exits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "firstChecks": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "patentsIssued": [
+      4,
+      0,
+      0,
+      32,
+      27,
+      18,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      78,
+      0,
+      5,
+      0,
+      0,
+      0,
+      16,
+      153,
+      425,
+      67,
+      0,
+      0,
+      0,
+      78,
+      62,
+      0
+    ],
+    "jobsPosted": [
+      23,
+      349,
+      175,
+      383,
+      202,
+      372,
+      46,
+      55,
+      342,
+      438,
+      152,
+      133,
+      720,
+      33,
+      94,
+      557,
+      574,
+      668,
+      866,
+      885,
+      96,
+      43,
+      352,
+      389,
+      236,
+      433,
+      647,
+      102,
+      70,
+      51
+    ],
+    "newFounders": [
+      286,
+      225,
+      445,
+      415,
+      839,
+      723,
+      403,
+      43,
+      355,
+      863,
+      1085,
+      776,
+      263,
+      370,
+      274,
+      5,
+      379,
+      329,
+      425,
+      625,
+      328,
+      315,
+      353,
+      350,
+      118,
+      43,
+      103,
+      130,
+      193,
+      170
+    ],
+    "investments": [
+      0,
+      0,
+      6,
+      17,
+      16,
+      2,
+      0,
+      0,
+      0,
+      8,
+      0,
+      17,
+      11,
+      0,
+      0,
+      4,
+      11,
+      7,
+      6,
+      0,
+      4,
+      0,
+      0,
+      3,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    "fundingStages": [
+      {},
+      {},
+      {
+        "Seed": 1,
+        "Series A": 1
+      },
+      {
+        "Seed": 2,
+        "Series E": 1
+      },
+      {
+        "Accelerator": 1,
+        "Series B": 1,
+        "Series C": 1
+      },
+      {
+        "Other": 1
+      },
+      {},
+      {},
+      {},
+      {
+        "Seed": 2
+      },
+      {},
+      {
+        "Series A": 1,
+        "Series B": 1,
+        "Series C": 1
+      },
+      {
+        "Seed": 2
+      },
+      {},
+      {},
+      {
+        "Seed": 1
+      },
+      {
+        "Series C": 2
+      },
+      {
+        "Series C": 1
+      },
+      {
+        "Series C": 1
+      },
+      {},
+      {
+        "Series C": 1
+      },
+      {},
+      {},
+      {
+        "Seed": 1
+      },
+      {},
+      {
+        "Series A": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "fundingUsd": [
+      0,
+      0,
+      115000000,
+      18000000,
+      109000000,
+      18000000,
+      0,
+      0,
+      0,
+      91000000,
+      0,
+      243000000,
+      24000000,
+      0,
+      0,
+      8000000,
+      132000000,
+      60000000,
+      50000000,
+      0,
+      2000000000,
+      0,
+      0,
+      60000000,
+      0,
+      36000000,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "totals": {
+    "fundingRounds": {
+      "d1": 0,
+      "d7": 2,
+      "d30": 24
+    },
+    "newOrgs": {
+      "d1": 526,
+      "d7": 1803,
+      "d30": 14091
+    },
+    "exits": {
+      "d1": 0,
+      "d7": 0,
+      "d30": 4
+    },
+    "firstChecks": {
+      "d1": 0,
+      "d7": 0,
+      "d30": 2
+    },
+    "patentsIssued": {
+      "d1": 0,
+      "d7": 207,
+      "d30": 998
+    },
+    "jobsPosted": {
+      "d1": 51,
+      "d7": 1928,
+      "d30": 9486
+    },
+    "newFounders": {
+      "d1": 261,
+      "d7": 1107,
+      "d30": 11231
+    },
+    "investments": {
+      "d1": 0,
+      "d7": 15,
+      "d30": 124
+    },
+    "fundingUsd": {
+      "d1": 0,
+      "d7": 96000000,
+      "d30": 2964000000
+    }
+  },
+  "news": {
+    "sweptOn": "2026-08-16",
+    "israel": [
+      {
+        "company": "Nebius",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "bringing it deeper into Israel",
+        "url": "https://www.calcalistech.com/ctechnews/article/25ue6vi49",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://www.calcalistech.com/ctechnews/article/25ue6vi49"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "Decart",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Anthropic",
+        "status": "rumored",
+        "tie": "Israeli artificial intelligence startup",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-talks-buy-israeli-ai-074100462.html",
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/anthropic-reportedly-in-talks-to-buy-decart/"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "News",
+            "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-talks-buy-israeli-ai-074100462.html"
+          },
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YZmhfWnFacjlJZmdyeXlyYW5GSTNka3ZTM3FHUjdzLUhRb3o4a210T1ptWEVfSF9VZnhOdkxQaEo5eFlpMVJhaElfODdyOTl0eFB6UmE2N05EUXZCWkZ1aV9TYlp4ZEk?oc=5"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001552217#utm_source=RSS"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/iinisraeliran/status/2088556190418584025"
+          }
+        ],
+        "amount": "about $6bn",
+        "publishedAt": "2026-08-13",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Wonderful",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Insight Partners",
+        "status": "rumored",
+        "tie": "one of the fastest growing companies in Israel",
+        "url": "https://en.globes.co.il/en/article-1001552121#utm_source=RSS",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://en.globes.co.il/en/article-israeli-ai-agents-co-wonderful-seeks-to-raise-500m-1001552121"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001552121#utm_source=RSS"
+          }
+        ],
+        "amount": "$500m",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Remepy",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": null,
+        "status": "reported",
+        "tie": "The Israeli company",
+        "url": "https://www.calcalistech.com/ctechnews/article/bkbxd0yuge",
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/remepy-raises-a-round/"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/bkbxd0yuge"
+          },
+          {
+            "label": "News",
+            "url": "https://www.calcalistech.com/ctechnews/article/bkbxd0yuge"
+          },
+          {
+            "label": "X",
+            "url": "https://t.co/4T49u8xbWJ"
+          }
+        ],
+        "amount": "$36 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Hemispheric",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli startup",
+        "url": "https://t.co/kWg9dkxwBu",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://t.co/FT55CyuKjq"
+          }
+        ],
+        "amount": "$52 million",
+        "publishedAt": "2026-08-13",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "BioCatch",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Visa",
+        "status": "reported",
+        "tie": "Tel Aviv-based",
+        "url": "https://finance.yahoo.com/technology/ai/articles/visa-inc-v-vs-mastercard-140953343.html",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://finance.yahoo.com/technology/ai/articles/visa-inc-v-vs-mastercard-140953343.html"
+          },
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOHlUQklfTHVXWGtxS0V1WG4tYkJLQ0RvN01rYldKLUxmc0c1NTJhRS15U2pfZ0ZsVlJiSS1TVlhMa2FxY01tNG9fay01M2pnYXF4ZUFkRzBrdy1aUExVR0ZZQnc2TUVDdHBmbVVtLXN3cXctRkRXZms1eTdXaWlOQVQtd1RxUQ?oc=5"
+          }
+        ],
+        "amount": "$2.4 Billion",
+        "publishedAt": "2026-08-12",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "LinkedIn",
+        "event": "layoffs",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israel R&D center",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3YXlSR19JMlBCa1NpemhOX1hLLVVBRE9fRG1xY3BrUmUwQ1A2dE1oTUR4NGM4UmxORDh1NS1BSUdvcXJUNUxDMXZsenF4b2gzUXFpdVA1aG9kUEFUWUVpQ3ZLdw?oc=5",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3YXlSR19JMlBCa1NpemhOX1hLLVVBRE9fRG1xY3BrUmUwQ1A2dE1oTUR4NGM4UmxORDh1NS1BSUdvcXJUNUxDMXZsenF4b2gzUXFpdVA1aG9kUEFUWUVpQ3ZLdw?oc=5"
+          },
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rRklWVkRSME40a3BtWDNhRkJrQU5SODhWakdDN2xUWkxUX0dVaHh3WkxlaEdOSHA5UGh0X19CU3dqZkVrSk1UdVM5cVRlcUFHWnJWQlZVUnF3ZWM0VlpzWlNJbnFWZGVs?oc=5"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/linkedin-closes-israel-rd-center/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-11",
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "Highlight",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Nofar",
+        "status": "rumored",
+        "tie": "Israeli energy company Highlight",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1idzR1VjFJR0g3c0I1QmEyT1dUWHZpNmkzSnViR0dlelJqa1llano1UzRHYzc1YXp0SGFGRFNkU2k0ZF9QVUFfa3hmNWl0bU9rR01BMEk3SF9UOXUwMmh4dktQTlAyWEU?oc=5",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1idzR1VjFJR0g3c0I1QmEyT1dUWHZpNmkzSnViR0dlelJqa1llano1UzRHYzc1YXp0SGFGRFNkU2k0ZF9QVUFfa3hmNWl0bU9rR01BMEk3SF9UOXUwMmh4dktQTlAyWEU?oc=5"
+          }
+        ],
+        "amount": "up to $50 million",
+        "publishedAt": "2026-08-10",
+        "seenOn": "2026-08-15"
+      },
+      {
+        "company": "Stardust Solutions",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "US\u2011Israeli startup",
+        "url": "https://twitter.com/tcf_updates/status/2085578305873522995",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/tcf_updates/status/2085578305873522995"
+          }
+        ],
+        "amount": "$75 million",
+        "publishedAt": "2026-08-07",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Exite",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea",
+        "url": "https://twitter.com/geektimecoil/status/2082880292738437188",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/geektimecoil/status/2082880292738437188"
+          }
+        ],
+        "amount": "$300 million",
+        "publishedAt": "2026-07-30",
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "Onyx Security",
+        "event": "funding",
+        "round": "Series B",
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli startup",
+        "url": "https://t.co/dzbzaMrvl9",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xdWlrUWpRYi1TT3I4aXZzelhCUzNpWVdmV2pvN2s3anhaa3ZNT2JMZlBqRTJMaXVadjBzTWRVT1RXYTE4dzdKbGJPcGl3ZjRHZ1oxWThaZTNOVmd1ZGlHQ1lVM2ZnbXBa?oc=5"
+          },
+          {
+            "label": "X",
+            "url": "https://t.co/dzbzaMrvl9"
+          }
+        ],
+        "amount": "$113 million",
+        "publishedAt": "2026-07-30",
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "groundcover",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "The Israeli startup",
+        "url": "https://t.co/dMvC810P4G",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YUm51QlZqY252S0VsTV9DSnVKVlRpdjZyVU9WcHgyWTVuSDhELXA5OEFqcUdRRnB2SzQyNDg2WWY4b2VRbEVQRUZTaHpabFdEQnp2R0o4WVJLT0E4YUtjbmtzVQ?oc=5"
+          },
+          {
+            "label": "X",
+            "url": "https://t.co/dMvC810P4G"
+          }
+        ],
+        "amount": "$100 million",
+        "publishedAt": "2026-07-30",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Oasis Security",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Cyera",
+        "status": "reported",
+        "tie": "\u05e1\u05d8\u05d0\u05e8\u05d8-\u05d0\u05e4 \u05d4\u05e1\u05d9\u05d9\u05d1\u05e8 \u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9",
+        "url": "https://t.co/2SyBJBGtCC",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFBPOGw0U29ObWNpUlJkdlU3ZndEckc4ZVdIZjN5UWRabExxYUUzMF9pWUlIWDZ6VGJORERyT2NhUml5UFdtS05kbWozY1JxZm1VWlBPV2xYaDdzSjBrVmFTUXVvcWRUbEhiVGRrSHZMd0czdlJuVjVWOGVuWVVsaVBGRWtxcVRHOFBWWE9jZFdyN0NxbWR2NlpCWUxKVlVJ0gGmAUFVX3lxTFBWQmdNZk1CSHlXekFoTHJfbGJ5cHRISldqWGZuXzBLbmp0MjZlU3M2TEU4UDJZN2RuUWp2M1RfY0U2LUx5NURpSXpNTERNb3dNZHNWVWtQamo4N28zcVlOQUlxWUd4Nkg4UXRjbE5xcUxrYmZxeUVyY3ZvUTVWZXYxMFZia2lOelpob0Mwb1dObUk0dVR4Ml9VdGhyQUpmUDVBQ3ZXZHc?oc=5"
+          },
+          {
+            "label": "X",
+            "url": "https://t.co/2SyBJBGtCC"
+          }
+        ],
+        "amount": "$1 billion",
+        "publishedAt": "2026-07-28",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Plantopia",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli startup",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZNi1uUWZFODMxWm13Ym1kdXgzbFZBSU1zQlF6ZUphT0R4cjQ2SmctSkZiS0F1WFlDSG15bmk1Y2hzWDhKSmNlYmdEb2I4Vk5nQzRIWXVzbTNRZ29pRHRyQXZ4SUhNNnBj?oc=5",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZNi1uUWZFODMxWm13Ym1kdXgzbFZBSU1zQlF6ZUphT0R4cjQ2SmctSkZiS0F1WFlDSG15bmk1Y2hzWDhKSmNlYmdEb2I4Vk5nQzRIWXVzbTNRZ29pRHRyQXZ4SUhNNnBj?oc=5"
+          }
+        ],
+        "amount": "$9 million",
+        "publishedAt": "2026-07-22",
+        "seenOn": "2026-08-15"
+      },
+      {
+        "company": "Zafran",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Cisco",
+        "status": "rumored",
+        "tie": "Israeli cyber startup Zafran",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PRjRuWWtPaHloTGl2VzdZVWY4bjBWZmZGZklyNVhxdkpYOE9GLUNpVEE3NDVqV1NpWUJhSVpKTjV2VWxZZjdHOWJvZ1dZWVJ4UllJM29VekJWSDM0UTdYTEktbWtpd2Y4N1E?oc=5",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PRjRuWWtPaHloTGl2VzdZVWY4bjBWZmZGZklyNVhxdkpYOE9GLUNpVEE3NDVqV1NpWUJhSVpKTjV2VWxZZjdHOWJvZ1dZWVJ4UllJM29VekJWSDM0UTdYTEktbWtpd2Y4N1E?oc=5"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-07-20",
+        "seenOn": "2026-08-15"
+      },
+      {
+        "company": "ASIO Technologies",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli defense-tech startup",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUVE3YUdDNkhUc0FVYktBQ0hfUnJQaDN4VmNjTFhQNlRpNlBVVjFvaUZlbGFyN19LT211dmoyd010MEhGaUx1c25peUNhUmIxdk1SZ2RyUUFxZ3FMVFIybFFRYw?oc=5",
+        "sources": [
+          {
+            "label": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUVE3YUdDNkhUc0FVYktBQ0hfUnJQaDN4VmNjTFhQNlRpNlBVVjFvaUZlbGFyN19LT211dmoyd010MEhGaUx1c25peUNhUmIxdk1SZ2RyUUFxZ3FMVFIybFFRYw?oc=5"
+          }
+        ],
+        "amount": "$15 million",
+        "publishedAt": "2026-07-20",
+        "seenOn": "2026-08-15"
+      }
+    ],
+    "global": [
+      {
+        "company": "UVision",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": "U.S. Army",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.calcalistech.com/ctechnews",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "$50 million-plus",
+        "publishedAt": null,
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "LORILLION",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "SubSea Craft",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/"
+          }
+        ],
+        "amount": "multi-million-euro",
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "Hagit power plant",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Edeltech",
+        "status": "rumored",
+        "tie": null,
+        "url": "https://www.calcalistech.com/ctechnews",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "omni:us",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "adesso",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/berlin-ai-insurtech-startup-omnius-acquired-by-dortmunds-adesso-embed-ai-into-core-insurance-systems/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/berlin-ai-insurtech-startup-omnius-acquired-by-dortmunds-adesso-embed-ai-into-core-insurance-systems/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "Aisot Technologies",
+        "event": "funding",
+        "round": "Seed extension",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/eth-zurich-spin-off-aisot-technologies-bags-e2-13-million-to-bring-agentic-ai-to-portfolio-management/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/eth-zurich-spin-off-aisot-technologies-bags-e2-13-million-to-bring-agentic-ai-to-portfolio-management/"
+          }
+        ],
+        "amount": "\u20ac2.13 million",
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "Tap & Go",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Cashflows",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/two-female-led-uk-fintechs-join-forces-as-cashflows-invests-in-blackpools-tap-go/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/two-female-led-uk-fintechs-join-forces-as-cashflows-invests-in-blackpools-tap-go/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "LORILLION",
+        "event": "funding",
+        "round": null,
+        "counterparty": "SubSea Craft",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/"
+          }
+        ],
+        "amount": "multi-million-euro",
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "Entravel Group",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Ethereal Ventures and Finality Capital",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/"
+          }
+        ],
+        "amount": "\u20ac6.5 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "Cytix",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": "Northern Gritstone",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/uk-cybersecurity-startup-cytix-raises-e6-million-series-a-to-tackle-ai-driven-software-change-risks/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/uk-cybersecurity-startup-cytix-raises-e6-million-series-a-to-tackle-ai-driven-software-change-risks/"
+          }
+        ],
+        "amount": "\u20ac6 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-14"
+      },
+      {
+        "company": "Lovable",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.c14.co.il/article/1658610",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/the-10-biggest-startup-investments-in-sweden-this-year/"
+          },
+          {
+            "label": "News",
+            "url": "https://www.c14.co.il/article/1658610"
+          },
+          {
+            "label": "X",
+            "url": "https://t.co/Lr3OlQ1vJJ"
+          }
+        ],
+        "amount": "400 \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8",
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Runna",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Strava",
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com",
+        "sources": [
+          {
+            "label": "Crunchbase",
+            "url": "https://news.crunchbase.com"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Animade",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Duolingo",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-13",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "TrainingPeaks",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Garmin",
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com",
+        "sources": [
+          {
+            "label": "Crunchbase",
+            "url": "https://news.crunchbase.com"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Google",
+        "event": "product_launch",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.geektime.co.il/pixel-11-pixel-11-pro-pixel-11-pro-fold-announced/",
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/pixel-11-pixel-11-pro-pixel-11-pro-fold-announced/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-13",
+        "seenOn": "2026-08-16"
+      },
+      {
+        "company": "Mindgard",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": "Album VC",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/lancaster-university-spinout-mindgard-lands-e26-million-to-secure-enterprise-ai-systems/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/lancaster-university-spinout-mindgard-lands-e26-million-to-secure-enterprise-ai-systems/"
+          }
+        ],
+        "amount": "\u20ac26 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Millow",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Magnus Emilson",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/gothenburgs-millow-secures-e2-million-to-scale-clean-label-protein-made-from-oats-and-mycelium/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/gothenburgs-millow-secures-e2-million-to-scale-clean-label-protein-made-from-oats-and-mycelium/"
+          }
+        ],
+        "amount": "\u20ac2 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "AMDB Security Pro",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/lyons-amdb-security-pro-locks-in-e2-68-million-to-take-its-excavator-anti-theft-systems-to-the-us/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/lyons-amdb-security-pro-locks-in-e2-68-million-to-take-its-excavator-anti-theft-systems-to-the-us/"
+          }
+        ],
+        "amount": "\u20ac2.68 million",
+        "publishedAt": "2026-08-13",
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "River AI",
+        "event": "funding",
+        "round": "seed/Series A",
+        "counterparty": "General Catalyst and AMP PBC",
+        "status": "reported",
+        "tie": null,
+        "url": "https://theaiinsider.tech/2026/08/12/ai-startup-river-ai-raises-1-1b-to-build-personally-trainable-ai-agents/",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://theaiinsider.tech/2026/08/12/ai-startup-river-ai-raises-1-1b-to-build-personally-trainable-ai-agents/"
+          }
+        ],
+        "amount": "$1.1B",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Anthropic",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://twitter.com/RonitMarzan/status/2087789602547311073",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/RonitMarzan/status/2087789602547311073"
+          }
+        ],
+        "amount": "$13 billion",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "CodeRabbit",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/"
+          }
+        ],
+        "amount": "$143 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Form Energy",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.wsj.com/business/energy-oil/energy-startup-raises-750-million-for-rust-powered-batteries-e2354154",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://www.wsj.com/business/energy-oil/energy-startup-raises-750-million-for-rust-powered-batteries-e2354154"
+          }
+        ],
+        "amount": "$750 Million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Boulevard Bio",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Deerfield",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.prnewswire.com/news-releases/boulevard-bio-launches-with-65-million-from-deerfield-and-world-class-founders-to-advance-precision-immunology-pipeline-302849204.html",
+        "sources": [
+          {
+            "label": "News",
+            "url": "https://www.prnewswire.com/news-releases/boulevard-bio-launches-with-65-million-from-deerfield-and-world-class-founders-to-advance-precision-immunology-pipeline-302849204.html"
+          }
+        ],
+        "amount": "$65 Million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Makalu Optics",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Ashdod Port",
+        "status": "reported",
+        "tie": null,
+        "url": "https://nocamels.com",
+        "sources": [
+          {
+            "label": "NoCamels",
+            "url": "https://nocamels.com"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Trunk Tools",
+        "event": "funding",
+        "round": "Series B",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com",
+        "sources": [
+          {
+            "label": "Crunchbase",
+            "url": "https://news.crunchbase.com"
+          }
+        ],
+        "amount": "$40 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      },
+      {
+        "company": "Devoted Health",
+        "event": "funding",
+        "round": "Series F",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com",
+        "sources": [
+          {
+            "label": "Crunchbase",
+            "url": "https://news.crunchbase.com"
+          }
+        ],
+        "amount": "$366 million",
+        "publishedAt": null,
+        "seenOn": "2026-08-13"
+      }
+    ]
+  },
+  "exits": [
+    {
+      "ts": "2026-08-03",
+      "precision": "day",
+      "target": "BioCatch",
+      "acquirer": "Visa",
+      "kind": "acquisition",
+      "amountUsd": 2400000000
+    },
+    {
+      "ts": "2026-07-28",
+      "precision": "day",
+      "target": "Oasis Security",
+      "acquirer": "Cyera",
+      "kind": "acquisition",
+      "amountUsd": 1000000000
+    },
+    {
+      "ts": "2026-07-22",
+      "precision": "day",
+      "target": "Dondy",
+      "acquirer": "Circeus",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-20",
+      "precision": "day",
+      "target": "Superplay",
+      "acquirer": "Tencent",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-16",
+      "precision": "day",
+      "target": "Arpalus",
+      "acquirer": "Instacart",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-14",
+      "precision": "day",
+      "target": "CardinalOps",
+      "acquirer": "Cribl",
+      "kind": "acquisition",
+      "amountUsd": 100000000
+    },
+    {
+      "ts": "2026-07-14",
+      "precision": "day",
+      "target": "Cherre",
+      "acquirer": "RealPage",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-13",
+      "precision": "day",
+      "target": "IoTM Solutions",
+      "acquirer": "CSL Group",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-09",
+      "precision": "day",
+      "target": "Laor Energy",
+      "acquirer": "Matrix IT",
+      "kind": "acquisition",
+      "amountUsd": 24200000
+    },
+    {
+      "ts": "2026-07-08",
+      "precision": "day",
+      "target": "Cando Drones",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-08",
+      "precision": "day",
+      "target": "Wonder Care",
+      "acquirer": "Movement Group",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-08",
+      "precision": "day",
+      "target": "Chemomab",
+      "acquirer": "Scipher Medicine Corporation",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-07",
+      "precision": "day",
+      "target": "Else Nutrition",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-02",
+      "precision": "day",
+      "target": "AnyClip",
+      "acquirer": "Edge226",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "Imagine Communications",
+      "acquirer": "Lumine Group",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "ai.work",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "PayEm",
+      "acquirer": "Top Group Software",
+      "kind": "acquisition",
+      "amountUsd": 500000
+    },
+    {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "SAM Seamless Network",
+      "acquirer": "Qualcomm",
+      "kind": "acquisition",
+      "amountUsd": 100000000
+    },
+    {
+      "ts": "2026-06-30",
+      "precision": "day",
+      "target": "Meteor Aerospace",
+      "acquirer": "VisionWave Holdings, Inc.",
+      "kind": "acquisition",
+      "amountUsd": 20400000
+    },
+    {
+      "ts": "2026-06-30",
+      "precision": "day",
+      "target": "Root.io",
+      "acquirer": "Aikido Security NV",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-25",
+      "precision": "day",
+      "target": "Identiq",
+      "acquirer": "Incode Technologies Inc.",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-25",
+      "precision": "day",
+      "target": "Obol",
+      "acquirer": "Priority Software",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-24",
+      "precision": "day",
+      "target": "ClearCut Medical",
+      "acquirer": "pfm medical gmbh",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-22",
+      "precision": "day",
+      "target": "Chic Hlavin",
+      "acquirer": "Nili Capital",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-22",
+      "precision": "day",
+      "target": "Rahan Meristem",
+      "acquirer": "Tropic Biosciences UK Limited",
+      "kind": "acquisition",
+      "amountUsd": 20000000
+    },
+    {
+      "ts": "2026-08-13",
+      "precision": "day",
+      "target": "Decart",
+      "acquirer": "Anthropic",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": "about $6bn",
+      "rumored": true
+    },
+    {
+      "ts": "2026-08-10",
+      "precision": "day",
+      "target": "Highlight",
+      "acquirer": "Nofar",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": "up to $50 million",
+      "rumored": true
+    },
+    {
+      "ts": "2026-07-20",
+      "precision": "day",
+      "target": "Zafran",
+      "acquirer": "Cisco",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": null,
+      "rumored": true
+    }
+  ],
+  "firstChecks": [
+    {
+      "ts": "2026-08-02",
+      "investor": "Mati Staniszewski",
+      "kind": "angel",
+      "company": "Arrakis Security"
+    },
+    {
+      "ts": "2026-08-02",
+      "investor": "Amitai Ratzon",
+      "kind": "angel",
+      "company": "Arrakis Security"
+    }
+  ],
+  "investments": [
+    {
+      "ts": "2026-08-12",
+      "investor": "97212 Ventures",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "97212.vc"
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "Fresh Fund",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "IT-Farm Corp",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "Key1 Capital",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "M Ventures",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "m-ventures.com"
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "NFX",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "nfx.com"
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "O.G. Venture Partners",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "og-vp.com"
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "PsyMed Ventures",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "Qumra Capital",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "qumracapital.com"
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "Tadmor Group",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "TechAviv",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-12",
+      "investor": "Vine Ventures",
+      "company": "Remepy",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-10",
+      "investor": "Coatue",
+      "company": "Corma Labs",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "coatue.com"
+    },
+    {
+      "ts": "2026-08-10",
+      "investor": "Khosla Ventures",
+      "company": "Corma Labs",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "khoslaventures.com"
+    },
+    {
+      "ts": "2026-08-10",
+      "investor": "Sequoia Capital",
+      "company": "Corma Labs",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "sequoiacap.com"
+    },
+    {
+      "ts": "2026-08-07",
+      "investor": "Blackstone",
+      "company": "Firmus Technologies",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "blackstone.com"
+    },
+    {
+      "ts": "2026-08-07",
+      "investor": "Coatue",
+      "company": "Firmus Technologies",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "coatue.com"
+    },
+    {
+      "ts": "2026-08-07",
+      "investor": "Jane Street",
+      "company": "Firmus Technologies",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-08-07",
+      "investor": "Nvidia",
+      "company": "Firmus Technologies",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "nvidia.com"
+    },
+    {
+      "ts": "2026-08-05",
+      "investor": "BRM",
+      "company": "Faye",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    }
+  ],
+  "patents": [
+    {
+      "ts": "2025-08-12",
+      "addedTs": "2026-08-15",
+      "org": "Tenyx",
+      "title": "Training multi-task neural network while minimizing catastrophic forgetting",
+      "number": "12387107",
+      "url": "https://patents.google.com/patent/US12387107B2/en"
+    },
+    {
+      "ts": "2025-04-15",
+      "addedTs": "2026-08-15",
+      "org": "Tenyx",
+      "title": "Assessing and improving the deployment of large language models in specific domains",
+      "number": "12277396",
+      "url": "https://patents.google.com/patent/US12277396B2/en"
+    },
+    {
+      "ts": "2026-02-03",
+      "addedTs": "2026-08-15",
+      "org": "CheckMate",
+      "title": "Self-labelling of fraud risk in a transaction processing system",
+      "number": "12541768",
+      "url": "https://patents.google.com/patent/US12541768B2/en"
+    },
+    {
+      "ts": "2024-11-12",
+      "addedTs": "2026-08-15",
+      "org": "Nimble",
+      "title": "System and method for collecting content from network servers",
+      "number": "12141218",
+      "url": "https://patents.google.com/patent/US12141218B1/en"
+    },
+    {
+      "ts": "2025-11-04",
+      "addedTs": "2026-08-15",
+      "org": "Ingonyama",
+      "title": "Hardware accelerator for computing an algebraic function",
+      "number": "12461786",
+      "url": "https://patents.google.com/patent/US12461786B2/en"
+    },
+    {
+      "ts": "2026-02-24",
+      "addedTs": "2026-08-15",
+      "org": "Savvy Security",
+      "title": "File upload validation",
+      "number": "12561128",
+      "url": "https://patents.google.com/patent/US12561128B2/en"
+    },
+    {
+      "ts": "2026-06-23",
+      "addedTs": "2026-08-15",
+      "org": "Savvy Security",
+      "title": "Automatic authentication for user-dependent functionality",
+      "number": "12664248",
+      "url": "https://patents.google.com/patent/US12664248B2/en"
+    },
+    {
+      "ts": "2025-06-17",
+      "addedTs": "2026-08-15",
+      "org": "Control Plane",
+      "title": "Cross-cloud workload identity virtualization",
+      "number": "12335347",
+      "url": "https://patents.google.com/patent/US12335347B2/en"
+    },
+    {
+      "ts": "2025-03-25",
+      "addedTs": "2026-08-15",
+      "org": "Control Plane",
+      "title": "Cross-cloud workload identity virtualization",
+      "number": "12261918",
+      "url": "https://patents.google.com/patent/US12261918B2/en"
+    },
+    {
+      "ts": "2026-07-01",
+      "addedTs": "2026-08-15",
+      "org": "Nuel",
+      "title": "Composite metal oxide fuel additives",
+      "number": "321552",
+      "url": "https://patents.google.com/patent/IL321552B1/en"
+    }
+  ],
+  "jobs": [
+    {
+      "ts": "2026-08-16",
+      "title": "Software Engineer",
+      "company": "Horizon Technologies LTD.",
+      "city": "Karmiel",
+      "url": "https://il.linkedin.com/jobs/view/software-engineer-at-horizon-technologies-ltd-4451762684"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Algorithm Team Lead",
+      "company": "Taboola",
+      "city": "Tel Aviv",
+      "url": "https://www.taboola.com/careers/job/8131711"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Firmware Core Engineer",
+      "company": "NVIDIA AI",
+      "city": "Haifa District",
+      "url": "https://il.linkedin.com/jobs/view/firmware-core-engineer-at-nvidia-ai-4449516558"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "ADMS Solution Integrator",
+      "company": "GE Vernova",
+      "city": "Herzliya",
+      "url": "https://il.linkedin.com/jobs/view/adms-solution-integrator-at-ge-vernova-4454514106"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Beauty Advisor/Artist Beauty Advisor",
+      "company": "The Est\u00e9e Lauder Companies Inc.",
+      "city": "Rishon LeZion",
+      "url": "https://il.linkedin.com/jobs/view/beauty-advisor-artist-beauty-advisor-at-the-est%C3%A9e-lauder-companies-inc-4450957269"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Product Engineer",
+      "company": "Ultra Clean Technology",
+      "city": "Nof HaGalil",
+      "url": "https://il.linkedin.com/jobs/view/product-engineer-at-ultra-clean-technology-4451262700"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Technician-Extrusion",
+      "company": "Netafim",
+      "city": "Hatzerim",
+      "url": "https://il.linkedin.com/jobs/view/technician-extrusion-at-netafim-4451113061"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "DevOps Tools & Automation Staff Engineer",
+      "company": "Integra LifeSciences",
+      "city": "Haifa",
+      "url": "https://il.linkedin.com/jobs/view/devops-tools-automation-staff-engineer-at-integra-lifesciences-4377406238"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Design Verification Engineer, Networking, Google Cloud",
+      "company": "Google",
+      "city": "Haifa District",
+      "url": "https://il.linkedin.com/jobs/view/design-verification-engineer-networking-google-cloud-at-google-4452993825"
+    },
+    {
+      "ts": "2026-08-16",
+      "title": "Recruiter (34315)",
+      "company": "\u05de\u05e8\u05d8\u05e0\u05e1 | Mertens \u2013 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea \u05de\u05dc\u05dd \u05ea\u05d9\u05dd",
+      "city": "Center District",
+      "url": "https://il.linkedin.com/jobs/view/recruiter-34315-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4454014035"
+    }
+  ],
+  "mix": {
+    "stages": [
+      {
+        "label": "Seed",
+        "count": 9
+      },
+      {
+        "label": "Series C",
+        "count": 7
+      },
+      {
+        "label": "Series A",
+        "count": 3
+      },
+      {
+        "label": "Series B",
+        "count": 2
+      },
+      {
+        "label": "Accelerator",
+        "count": 1
+      },
+      {
+        "label": "Other",
+        "count": 1
+      },
+      {
+        "label": "Series E",
+        "count": 1
+      }
+    ],
+    "industries": [
+      {
+        "label": "IT and Telecom",
+        "count": 5740
+      },
+      {
+        "label": "Consumer Goods and Services",
+        "count": 2818
+      },
+      {
+        "label": "Healthcare and Food",
+        "count": 1965
+      },
+      {
+        "label": "Media and Entertainment",
+        "count": 1603
+      },
+      {
+        "label": "Financial Services",
+        "count": 783
+      },
+      {
+        "label": "Energy and Utilities",
+        "count": 619
+      },
+      {
+        "label": "Unknown",
+        "count": 563
+      }
+    ]
+  },
+  "mostActive": [
+    {
+      "name": "97212 Ventures",
+      "kind": "fund",
+      "count": 2,
+      "domain": "97212.vc"
+    },
+    {
+      "name": "Bessemer Venture Partners",
+      "kind": "fund",
+      "count": 2,
+      "domain": "bvp.com"
+    },
+    {
+      "name": "Coatue",
+      "kind": "fund",
+      "count": 2,
+      "domain": "coatue.com"
+    },
+    {
+      "name": "Cyberstarts",
+      "kind": "fund",
+      "count": 2,
+      "domain": "cyberstarts.com"
+    }
+  ],
+  "topHiring": [
+    {
+      "company": "Nvidia",
+      "count": 712,
+      "city": "Yokne'am",
+      "domain": "nvidia.com"
+    },
+    {
+      "company": "Elbit Systems",
+      "count": 405,
+      "city": "Haifa",
+      "domain": "elbitsystems.com"
+    },
+    {
+      "company": "Israel Aerospace Industries",
+      "count": 289,
+      "city": "Lod",
+      "domain": "iai.co.il"
+    },
+    {
+      "company": "Google",
+      "count": 259,
+      "city": "Tel Aviv",
+      "domain": "google.com"
+    }
+  ],
+  "programs": {
+    "openNow": 22,
+    "upcoming": 3,
+    "items": [
+      {
+        "name": "Y Combinator Accelerator",
+        "operator": "Y Combinator",
+        "kind": "upcoming",
+        "israeli": false,
+        "ts": "2026-10-01",
+        "url": "https://ycombinator.com/apply"
+      },
+      {
+        "name": "FI Core Program",
+        "operator": "Founder Institute",
+        "kind": "upcoming",
+        "israeli": true,
+        "ts": "2026-10-21",
+        "url": "https://fi.co/join"
+      },
+      {
+        "name": "Breakthrough Bio",
+        "operator": "MassChallenge",
+        "kind": "upcoming",
+        "israeli": false,
+        "ts": "2027-01-01",
+        "url": "https://innovationisrael.org.il/en/calls_for_proposal/pilots-accelerator-biotech-medtech/"
+      },
+      {
+        "name": "Flagship Accelerator",
+        "operator": "500 Global",
+        "kind": "open",
+        "israeli": false,
+        "ts": null,
+        "url": "https://500.co/founders/flagship"
+      },
+      {
+        "name": "a16z speedrun",
+        "operator": "Andreessen Horowitz",
+        "kind": "open",
+        "israeli": false,
+        "ts": null,
+        "url": "https://speedrun.a16z.com/apply"
+      },
+      {
+        "name": "Capsula TAU",
+        "operator": "Capsula TAU",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://www.capsula-tau.com/apply-new"
+      },
+      {
+        "name": "CityZone Startup Program",
+        "operator": "CityZone",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://www.city-zone.co/"
+      },
+      {
+        "name": "Startup Path",
+        "operator": "CityZone",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://www.city-zone.co/application"
+      },
+      {
+        "name": "CivicLabs Program",
+        "operator": "CivicLabs",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://civic-labs.com/program"
+      },
+      {
+        "name": "Climate First Program",
+        "operator": "Climate First",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://climatefirst.vc/program"
+      }
+    ]
+  }
+}
