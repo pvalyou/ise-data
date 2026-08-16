@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "accelerators",
-  "generatedAt": "2026-08-16T12:47:58Z",
+  "generatedAt": "2026-08-16T16:06:21Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -58,12 +58,12 @@
     }
   },
   "coverage": {
-    "orgs": 263,
-    "israeliOrgs": 214,
+    "orgs": 266,
+    "israeliOrgs": 217,
     "programs": 222,
     "israeliPrograms": 168,
-    "equityFreePrograms": 104,
-    "knownTermsPrograms": 158
+    "equityFreePrograms": 103,
+    "knownTermsPrograms": 157
   },
   "map": {
     "cities": [
@@ -276,6 +276,18 @@
         ]
       },
       {
+        "name": "Nof HaGalil",
+        "district": "Northern",
+        "lat": 32.705,
+        "lng": 35.317,
+        "count": 3,
+        "orgs": [
+          "Growon - Healthcare Startup Accelerator",
+          "Let-Lab",
+          "Let-Lab"
+        ]
+      },
+      {
         "name": "Caesarea",
         "district": "Haifa",
         "lat": 32.5167,
@@ -319,17 +331,6 @@
         "orgs": [
           "Eilat Tech Center",
           "SeaNovation"
-        ]
-      },
-      {
-        "name": "Nof HaGalil",
-        "district": "Northern",
-        "lat": 32.705,
-        "lng": 35.317,
-        "count": 2,
-        "orgs": [
-          "Growon - Healthcare Startup Accelerator",
-          "Let-Lab"
         ]
       },
       {
@@ -658,7 +659,7 @@
         ]
       }
     ],
-    "unresolved": 38,
+    "unresolved": 40,
     "foreign": 49
   },
   "programs": [
@@ -773,8 +774,8 @@
       "operator": "8200 Impact",
       "operatorDomain": null,
       "israeli": true,
-      "city": "Ramat Gan",
-      "place": "Ramat Gan",
+      "city": "Tel Aviv-Yafo",
+      "place": "Tel Aviv-Yafo",
       "type": "accelerator",
       "focus": [
         "Education & Impact",
@@ -1365,7 +1366,7 @@
       "description": "Eight-week accelerator for early-stage climate startups, connecting them with a global network of experts, investors, and corporate partners to facilitate international expansion, funding acquisition, and sales growth. Includes global roadshows across London, New York, Abu Dhabi, Tokyo, and beyond."
     },
     {
-      "name": "ClimateLaunchpad Accelerator",
+      "name": "ClimateLaunchpad Israel Accelerator",
       "operator": "Climate Launchpad",
       "operatorDomain": "clp.org.il",
       "israeli": true,
@@ -1381,14 +1382,14 @@
       "nonEquity": true,
       "batchSize": null,
       "link": {
-        "url": "https://clp.org.il",
+        "url": "https://clp.org.il/\u05d3\u05e3-\u05d4\u05d1\u05d9\u05ea",
         "kind": "apply"
       },
       "nextStartDate": null,
       "applicationDeadline": null,
       "applicationMode": null,
       "typicalOpenMonth": null,
-      "description": "Israel's first cleantech accelerator program, a 6-month program for early-stage projects with mentoring, workshops, networking, and access to investors, culminating in participation in the global ClimateLaunchpad competition."
+      "description": "A 6-month accelerator for early-stage cleantech projects, offering workshops, mentoring, networking, and access to investors, leading to participation in the global ClimateLaunchpad competition."
     },
     {
       "name": "Collective",
@@ -1773,7 +1774,7 @@
       "operatorDomain": "fi.co",
       "israeli": true,
       "city": null,
-      "place": "Palo Alto",
+      "place": "Ottawa",
       "type": "accelerator",
       "focus": [],
       "durationWeeks": 16,
@@ -2264,7 +2265,7 @@
       "operatorDomain": "hax.co",
       "israeli": false,
       "city": null,
-      "place": "San Francisco",
+      "place": "Newark",
       "type": "accelerator",
       "focus": [
         "Climate & Energy",
@@ -2292,7 +2293,7 @@
       "operatorDomain": "hax.co",
       "israeli": false,
       "city": null,
-      "place": "San Francisco",
+      "place": "Newark",
       "type": "accelerator",
       "focus": [
         "Climate & Energy",
@@ -2632,6 +2633,33 @@
       "applicationMode": null,
       "typicalOpenMonth": null,
       "description": "iHLS Security Accelerator is the first startup accelerator in the world in the security and homeland security field. It focuses on startups with security-oriented technologies, especially dual-purpose technologies, and offers exposure to defense industries, military, police, investors, and global\u2026"
+    },
+    {
+      "name": "InnoValley Accelerator",
+      "operator": "innovalley",
+      "operatorDomain": "innovalley.co.il",
+      "israeli": true,
+      "city": null,
+      "place": "Beit She'an",
+      "type": "accelerator",
+      "focus": [
+        "Food & Agri",
+        "Climate & Energy"
+      ],
+      "durationWeeks": null,
+      "fundingUsd": null,
+      "equityPct": null,
+      "nonEquity": null,
+      "batchSize": null,
+      "link": {
+        "url": "https://innovalley.co.il/accelerator",
+        "kind": "apply"
+      },
+      "nextStartDate": null,
+      "applicationDeadline": null,
+      "applicationMode": "rolling",
+      "typicalOpenMonth": null,
+      "description": "A 6-8 month accelerator program for early-stage startups in agriculture, aquaculture, water, and climate, operating in the Emek HaMaayanot and Jezreel Valley regions, providing free services such as fundraising support, business planning, grant assistance, office space, and mentoring, with a fina\u2026"
     },
     {
       "name": "The Israeli InsurTech Accelerator",
@@ -4092,29 +4120,6 @@
       "applicationMode": "dormant",
       "typicalOpenMonth": null,
       "description": "Three-month Techstars accelerator for early-stage Israeli startups, run as a hybrid Tel Aviv/London program with mentorship, a demo day and the standard Techstars investment. The most recent announced class was Fall 2023."
-    },
-    {
-      "name": "Galilee Accelerator",
-      "operator": "The Galil Accelerator",
-      "operatorDomain": "galil-accelerator.org.il",
-      "israeli": true,
-      "city": "Karmiel",
-      "place": "Karmiel",
-      "type": "accelerator",
-      "focus": [
-        "Deep Tech & Hardware"
-      ],
-      "durationWeeks": null,
-      "fundingUsd": null,
-      "equityPct": 0.0,
-      "nonEquity": true,
-      "batchSize": null,
-      "link": null,
-      "nextStartDate": null,
-      "applicationDeadline": null,
-      "applicationMode": null,
-      "typicalOpenMonth": null,
-      "description": "The first industrial accelerator in Israel, focusing on early-stage startups in IoT, Industry 4.0, robotics, and other fields relevant to factories. Connects entrepreneurs with industrial companies and provides mentorship and access to college resources."
     },
     {
       "name": "The Galil Accelerator",
@@ -5672,7 +5677,7 @@
       "operatorDomain": "qualcommventures.com",
       "israeli": false,
       "city": null,
-      "place": "San Diego",
+      "place": "San Francisco",
       "type": "competition",
       "focus": [
         "AI & Data",
@@ -5701,7 +5706,7 @@
       "operatorDomain": "qualcommventures.com",
       "israeli": false,
       "city": null,
-      "place": "San Diego",
+      "place": "San Francisco",
       "type": "competition",
       "focus": [
         "AI & Data",
@@ -6274,7 +6279,7 @@
       "operatorDomain": "firstround.com",
       "israeli": false,
       "city": null,
-      "place": "San Francisco",
+      "place": "Philadelphia",
       "type": "bootcamp",
       "focus": [
         "AI & Data",
@@ -6303,7 +6308,7 @@
       "operatorDomain": "fi.co",
       "israeli": true,
       "city": null,
-      "place": "Palo Alto",
+      "place": "Ottawa",
       "type": "bootcamp",
       "focus": [],
       "durationWeeks": null,
