@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "accelerators",
-  "generatedAt": "2026-08-17T01:57:29Z",
+  "generatedAt": "2026-08-17T03:15:57Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -63,7 +63,7 @@
     "programs": 223,
     "israeliPrograms": 169,
     "equityFreePrograms": 103,
-    "knownTermsPrograms": 157
+    "knownTermsPrograms": 158
   },
   "map": {
     "cities": [
@@ -1254,7 +1254,7 @@
       },
       "nextStartDate": null,
       "applicationDeadline": null,
-      "applicationMode": "rolling",
+      "applicationMode": null,
       "typicalOpenMonth": null,
       "description": "Full-year open innovation program for early-stage urban tech startups. Participants receive subsidized workspace at Atidim Park, mentorship from Tel Aviv Municipality departments and Tel Aviv University researchers, access to real-time urban data for product testing, and connections to partner ci\u2026"
     },
@@ -1271,10 +1271,10 @@
         "Mobility & Logistics",
         "Climate & Energy"
       ],
-      "durationWeeks": null,
-      "fundingUsd": null,
+      "durationWeeks": 8,
+      "fundingUsd": 500000,
       "equityPct": null,
-      "nonEquity": null,
+      "nonEquity": false,
       "batchSize": null,
       "link": {
         "url": "https://www.city-zone.co/projects-3",
@@ -5334,7 +5334,7 @@
       },
       "nextStartDate": null,
       "applicationDeadline": null,
-      "applicationMode": "one_off",
+      "applicationMode": null,
       "typicalOpenMonth": null,
       "description": "Rapid Applications for Transport (RAPTOR) competition funded by EIT Urban Mobility to create and test solutions to urban mobility challenges."
     },
