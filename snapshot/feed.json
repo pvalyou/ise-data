@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-08-16T23:36:15.904089Z",
+  "generatedAt": "2026-08-17T01:59:03.445228Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -90,7 +90,6 @@
   },
   "activity": {
     "days": [
-      "2026-07-18",
       "2026-07-19",
       "2026-07-20",
       "2026-07-21",
@@ -119,11 +118,11 @@
       "2026-08-13",
       "2026-08-14",
       "2026-08-15",
-      "2026-08-16"
+      "2026-08-16",
+      "2026-08-17"
     ],
     "fundingRounds": [
       0,
-      0,
       2,
       3,
       3,
@@ -148,13 +147,13 @@
       1,
       0,
       1,
+      0,
       0,
       0,
       0,
       0
     ],
     "newOrgs": [
-      514,
       358,
       716,
       517,
@@ -183,11 +182,11 @@
       123,
       297,
       484,
-      552
+      568,
+      39
     ],
     "exits": [
       0,
-      0,
       1,
       0,
       1,
@@ -198,11 +197,12 @@
       0,
       1,
       0,
-      0,
+      1,
       0,
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
@@ -232,8 +232,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       0,
       0,
       0,
@@ -250,7 +250,6 @@
       0
     ],
     "patentsIssued": [
-      4,
       0,
       0,
       32,
@@ -271,7 +270,7 @@
       0,
       0,
       16,
-      153,
+      152,
       425,
       67,
       0,
@@ -279,10 +278,10 @@
       0,
       78,
       62,
-      53
+      53,
+      0
     ],
     "jobsPosted": [
-      63,
       66,
       88,
       296,
@@ -297,24 +296,24 @@
       183,
       54,
       34,
-      181,
-      236,
+      183,
+      237,
       220,
       243,
       295,
       213,
       74,
       248,
-      439,
-      404,
-      295,
-      393,
+      440,
+      406,
+      297,
+      396,
       200,
       70,
-      21
+      24,
+      0
     ],
     "newFounders": [
-      286,
       225,
       445,
       415,
@@ -343,10 +342,10 @@
       103,
       130,
       193,
-      265
+      269,
+      15
     ],
     "investments": [
-      0,
       0,
       6,
       17,
@@ -375,10 +374,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "fundingStages": [
-      {},
       {},
       {
         "Seed": 1,
@@ -441,10 +440,10 @@
       {},
       {},
       {},
+      {},
       {}
     ],
     "fundingUsd": [
-      0,
       0,
       115000000,
       18000000,
@@ -473,24 +472,25 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 2,
+      "d7": 1,
       "d30": 24
     },
     "newOrgs": {
-      "d1": 563,
-      "d7": 2033,
-      "d30": 14320
+      "d1": 549,
+      "d7": 1730,
+      "d30": 13861
     },
     "exits": {
       "d1": 0,
       "d7": 0,
-      "d30": 4
+      "d30": 5
     },
     "firstChecks": {
       "d1": 0,
@@ -498,28 +498,28 @@
       "d30": 2
     },
     "patentsIssued": {
-      "d1": 53,
-      "d7": 260,
-      "d30": 1051
+      "d1": 0,
+      "d7": 193,
+      "d30": 1046
     },
     "jobsPosted": {
-      "d1": 21,
-      "d7": 1822,
-      "d30": 5463
+      "d1": 0,
+      "d7": 1393,
+      "d30": 5414
     },
     "newFounders": {
-      "d1": 275,
-      "d7": 1202,
-      "d30": 11328
+      "d1": 243,
+      "d7": 871,
+      "d30": 11061
     },
     "investments": {
       "d1": 0,
-      "d7": 15,
+      "d7": 12,
       "d30": 124
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 96000000,
+      "d7": 36000000,
       "d30": 2964000000
     }
   },
@@ -1408,6 +1408,14 @@
       "amountUsd": 2400000000
     },
     {
+      "ts": "2026-07-30",
+      "precision": "day",
+      "target": "Tabnine",
+      "acquirer": "Tricentis",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
       "ts": "2026-07-28",
       "precision": "day",
       "target": "Oasis Security",
@@ -1474,9 +1482,9 @@
     {
       "ts": "2026-07-08",
       "precision": "day",
-      "target": "Chemomab",
-      "acquirer": "Scipher Medicine Corporation",
-      "kind": "acquisition",
+      "target": "Cando Drones",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null
     },
     {
@@ -1490,9 +1498,9 @@
     {
       "ts": "2026-07-08",
       "precision": "day",
-      "target": "Cando Drones",
-      "acquirer": null,
-      "kind": "ipo",
+      "target": "Chemomab",
+      "acquirer": "Scipher Medicine Corporation",
+      "kind": "acquisition",
       "amountUsd": null
     },
     {
@@ -1514,22 +1522,6 @@
     {
       "ts": "2026-07-01",
       "precision": "month",
-      "target": "PayEm",
-      "acquirer": "Top Group Software",
-      "kind": "acquisition",
-      "amountUsd": 500000
-    },
-    {
-      "ts": "2026-07-01",
-      "precision": "month",
-      "target": "Imagine Communications",
-      "acquirer": "Lumine Group",
-      "kind": "acquisition",
-      "amountUsd": null
-    },
-    {
-      "ts": "2026-07-01",
-      "precision": "month",
       "target": "ai.work",
       "acquirer": "ServiceNow",
       "kind": "acquisition",
@@ -1544,6 +1536,30 @@
       "amountUsd": 100000000
     },
     {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "PayEm",
+      "acquirer": "Top Group Software",
+      "kind": "acquisition",
+      "amountUsd": 500000
+    },
+    {
+      "ts": "2026-07-01",
+      "precision": "month",
+      "target": "Imagine Communications",
+      "acquirer": "Lumine Group",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
+      "ts": "2026-06-30",
+      "precision": "day",
+      "target": "Root.io",
+      "acquirer": "Aikido Security NV",
+      "kind": "acquisition",
+      "amountUsd": null
+    },
+    {
       "ts": "2026-06-30",
       "precision": "day",
       "target": "Meteor Aerospace",
@@ -1552,10 +1568,10 @@
       "amountUsd": 20400000
     },
     {
-      "ts": "2026-06-30",
+      "ts": "2026-06-25",
       "precision": "day",
-      "target": "Root.io",
-      "acquirer": "Aikido Security NV",
+      "target": "Identiq",
+      "acquirer": "Incode Technologies Inc.",
       "kind": "acquisition",
       "amountUsd": null
     },
@@ -1568,28 +1584,12 @@
       "amountUsd": null
     },
     {
-      "ts": "2026-06-25",
-      "precision": "day",
-      "target": "Identiq",
-      "acquirer": "Incode Technologies Inc.",
-      "kind": "acquisition",
-      "amountUsd": null
-    },
-    {
       "ts": "2026-06-24",
       "precision": "day",
       "target": "ClearCut Medical",
       "acquirer": "pfm medical gmbh",
       "kind": "acquisition",
       "amountUsd": null
-    },
-    {
-      "ts": "2026-06-22",
-      "precision": "day",
-      "target": "Rahan Meristem",
-      "acquirer": "Tropic Biosciences UK Limited",
-      "kind": "acquisition",
-      "amountUsd": 20000000
     },
     {
       "ts": "2026-06-22",
@@ -1985,10 +1985,6 @@
       "d1": [],
       "d7": [
         {
-          "label": "Seed",
-          "count": 1
-        },
-        {
           "label": "Series A",
           "count": 1
         }
@@ -2027,92 +2023,92 @@
     "industries": {
       "d1": [
         {
-          "label": "IT and Telecom",
-          "count": 170
+          "label": "Consumer Goods and Services",
+          "count": 169
         },
         {
-          "label": "Consumer Goods and Services",
-          "count": 166
+          "label": "IT and Telecom",
+          "count": 167
         },
         {
           "label": "Media and Entertainment",
-          "count": 80
+          "count": 77
         },
         {
           "label": "Unknown",
-          "count": 65
+          "count": 54
         },
         {
           "label": "Healthcare and Food",
-          "count": 40
+          "count": 42
         },
         {
           "label": "Financial Services",
-          "count": 32
+          "count": 29
         },
         {
           "label": "Energy and Utilities",
-          "count": 10
+          "count": 11
         }
       ],
       "d7": [
         {
           "label": "IT and Telecom",
-          "count": 745
+          "count": 585
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 506
+          "count": 465
         },
         {
           "label": "Media and Entertainment",
-          "count": 241
+          "count": 211
         },
         {
           "label": "Unknown",
-          "count": 203
+          "count": 169
         },
         {
           "label": "Healthcare and Food",
-          "count": 183
+          "count": 159
         },
         {
           "label": "Financial Services",
-          "count": 95
+          "count": 82
         },
         {
           "label": "Energy and Utilities",
-          "count": 60
+          "count": 59
         }
       ],
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 5809
+          "count": 5611
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 2887
+          "count": 2813
         },
         {
           "label": "Healthcare and Food",
-          "count": 1979
+          "count": 1922
         },
         {
           "label": "Media and Entertainment",
-          "count": 1642
+          "count": 1569
         },
         {
           "label": "Financial Services",
-          "count": 797
+          "count": 766
         },
         {
           "label": "Energy and Utilities",
-          "count": 623
+          "count": 607
         },
         {
           "label": "Unknown",
-          "count": 583
+          "count": 573
         }
       ]
     }
@@ -2148,44 +2144,13 @@
     ]
   },
   "topHiring": {
-    "d1": [
-      {
-        "company": "cyber-hive",
-        "count": 12,
-        "city": "Petah Tikva",
-        "domain": "cyber-hive.io"
-      },
-      {
-        "company": "Astral Hotels",
-        "count": 1,
-        "city": "Eilat",
-        "domain": "astralhotels.co.il"
-      },
-      {
-        "company": "EMG-Soft",
-        "count": 1,
-        "city": "Nahariya",
-        "domain": "emg-soft.com"
-      },
-      {
-        "company": "Eternity IT",
-        "count": 1,
-        "city": null,
-        "domain": "eternity-it.co.il"
-      }
-    ],
+    "d1": [],
     "d7": [
       {
         "company": "Amazon",
-        "count": 129,
+        "count": 128,
         "city": "Tel Aviv",
         "domain": "amazon.com"
-      },
-      {
-        "company": "Google",
-        "count": 81,
-        "city": "Tel Aviv",
-        "domain": "google.com"
       },
       {
         "company": "Leket Israel",
@@ -2194,10 +2159,16 @@
         "domain": "leket.org"
       },
       {
-        "company": "Nvidia",
-        "count": 33,
-        "city": "Yokneam",
-        "domain": "nvidia.com"
+        "company": "Google",
+        "count": 62,
+        "city": "Tel Aviv",
+        "domain": "google.com"
+      },
+      {
+        "company": "Oracle",
+        "count": 28,
+        "city": "Petah Tikva",
+        "domain": "oracle.com"
       }
     ],
     "d30": [
@@ -2209,7 +2180,7 @@
       },
       {
         "company": "Nvidia",
-        "count": 152,
+        "count": 151,
         "city": "Yokneam",
         "domain": "nvidia.com"
       },
@@ -2221,7 +2192,7 @@
       },
       {
         "company": "Israel Aerospace Industries",
-        "count": 139,
+        "count": 138,
         "city": "Lod",
         "domain": "iai.co.il"
       }
