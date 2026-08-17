@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "angels",
-  "generatedAt": "2026-08-17T13:03:28.939Z",
+  "generatedAt": "2026-08-17T20:42:18.123Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -49,7 +49,7 @@
       },
       "angels:profile": {
         "title": "Startup Experience",
-        "description": "What these people did before they started writing checks. The donut splits every angel into three tiers by founder background \u2014 never founded a company, founded but no exit, founded and exited. The centre of the donut reads the founded share at rest, and on hover names the tier under the cursor and gives the mean number of investments per angel in it, which is what shows whether founding and exiting changes how much someone invests. The exited tier is deliberately not split by whether investing started before or after the exit, because that split key correlates with portfolio size and the comparison would be circular; the count of angels already investing before their exit is carried in the data as a note.",
+        "description": "What these people did before they started writing cheques. The donut splits every angel into three tiers by founder background: never founded, founded without an exit, founded and exited. The centre reads the founded share at rest, and on hover names the tier under the cursor with its mean investments per angel, which is what shows whether founding and exiting changes how much someone invests.",
         "dataPaths": [
           "profile.tiers",
           "profile.angelBeforeExit"
@@ -66,12 +66,19 @@
       },
       "angels:geography": {
         "title": "Where Angels Are Based",
-        "description": "Where the angels backing Israeli startups are located, split into Israel, the United States and the rest of the world, with the angel count, the mean investments per angel and the number of companies each group reaches. Country aliases are folded together first. Angels with no recorded country are excluded from the split rather than folded into the rest, because a missing country could be either, and are reported separately in the data. A large share sit outside Israel, which is diaspora and foreign capital reaching Israeli companies.",
+        "description": "Where the angels backing Israeli startups are based, split into Israel, the United States and the rest of the world, each with its angel count, mean investments per angel and the number of companies it reaches. Country aliases are folded together first. A large share sit outside Israel, which is diaspora and foreign capital reaching Israeli companies. Angels with no recorded country are reported separately rather than folded into the rest.",
         "dataPaths": [
           "geography.groups",
           "geography.known",
           "geography.unknown",
           "geography.countries"
+        ]
+      },
+      "angels:top-backed": {
+        "title": "Most Angel-Backed Startups",
+        "description": "The startups that convinced the most angels, counted as distinct individual investors per company across the whole angel population this page describes. One angel backing a company across several rounds still counts once. Ties sit alphabetically so the board is stable between updates. This board replaced a list of named individual angels: the same concentration story, told from the company side.",
+        "dataPaths": [
+          "topBacked"
         ]
       },
       "angels:employers": {
@@ -97,13 +104,6 @@
           "gender"
         ]
       },
-      "angels:leaderboard": {
-        "title": "Most Active Angels",
-        "description": "Angels ranked by how many distinct companies in the Israeli startup population they backed. Bars are scaled to the top angel. Each row shows the portfolio count and the span of years between the first and most recent recorded round, with a marker for angels who founded a company that exited. Hovering a row names the companies they founded and the most recent companies they backed. Follow-on rounds into the same company count once toward the portfolio, so the round count can exceed it.",
-        "dataPaths": [
-          "leaderboard"
-        ]
-      },
       "angels:portfolio-distribution": {
         "title": "Investments per Angel",
         "description": "How concentrated angel activity is: the number of angels who made 1, 2, 3-4, 5-9, or 10 or more investments, with the share of all investments each group accounts for. Reads as a power law, where most identified angels appear once and a small group carries a disproportionate share of the deals.",
@@ -113,14 +113,14 @@
       },
       "angels:stage-mix": {
         "title": "Where Angels Enter",
-        "description": "The funding stage of every equity round an angel participated in, drawn as a centred funnel read top to bottom in ladder order, from pre-seed through seed and up. Rounds labelled Angel are counted as pre-seed: the two are one rung under two names, and the evidence is that they almost never appear at the same company, that neither consistently precedes the other when they do, that both sit about the same distance before that company own seed round, that the same investors write both, and that Angel was the common label until roughly 2016 and pre-seed has been the common label since. Band width and fill depth both carry the number of rounds. SAFEs, convertible notes and bridges are financing instruments rather than stages, so they are grouped under Other instead of being folded into a seed bucket; Other has no place on a ladder and is left off the chart, though it stays in the data. A round with several identified angels counts once per angel.",
+        "description": "The funding stage of every equity round an angel joined, drawn as a centred funnel in ladder order from pre-seed upward, with band width and fill depth both carrying the number of rounds. Rounds labelled Angel are counted as pre-seed: they are one rung under two names, rarely appear at the same company, sit the same distance before that company's seed, and draw the same investors. SAFEs, convertible notes and bridges are instruments rather than stages, so they group under Other and stay off the ladder. A round with several identified angels counts once per angel.",
         "dataPaths": [
           "stageMix"
         ]
       },
       "angels:sectors": {
         "title": "Where Angels Invest",
-        "description": "Angel-backed companies grouped by subindustry, drawn as a circle-pack bubble chart: each bubble is a subindustry sized by how many angel investments went into it and colored by its parent industry. Counted at the angel-company pair level, so a company backed by three angels contributes three. Hovering a bubble shows that subindustry\u2019s share of all angel investments, angels and backed companies, plus outcomes for those companies: the median total they have raised (over the ones that disclose funding) and how many reached a completed acquisition or listing. Colors match the industry palette used across the dashboard.",
+        "description": "Angel-backed companies grouped by subindustry as a circle pack, each bubble sized by the angel investments that went into it and coloured by its parent industry. Counted per angel and company pair, so a company backed by three angels contributes three. Hovering a bubble gives that subindustry's share of all angel investments, its angels and backed companies, and how those companies turned out: median raised among those that disclose, and how many reached an acquisition or listing.",
         "dataPaths": [
           "sectors"
         ]
@@ -142,7 +142,7 @@
     "startupsBacked": 1091,
     "investments": 1958,
     "rounds": 2298,
-    "populationStartups": 33258,
+    "populationStartups": 33456,
     "firstYear": 1989,
     "lastYear": 2026
   },
@@ -284,454 +284,81 @@
       }
     ]
   },
-  "leaderboard": [
+  "topBacked": [
     {
-      "id": "43b1b86c-2a31-49a4-99a0-51d56efa3c0c",
-      "name": "Ariel Maislos",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/43b1b86c-2a31-49a4-99a0-51d56efa3c0c_20260505_1011.jpg",
-      "portfolio": 32,
-      "rounds": 38,
-      "firstYear": 2001,
-      "lastYear": 2026,
-      "founded": [
-        "Anobit",
-        "Stratoscale",
-        "Pudding Media"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Huskeys",
-        "Parter",
-        "GeoX",
-        "BeWith",
-        "Monto",
-        "Salvador Technologies"
-      ]
+      "name": "Aryon Security",
+      "domain": "aryon.security",
+      "angels": 16
     },
     {
-      "id": "c1876da5-2a73-4444-910f-ab31b8686903",
-      "name": "Gigi Levy-Weiss",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/c1876da5-2a73-4444-910f-ab31b8686903_20260531_1238.jpg",
-      "portfolio": 26,
-      "rounds": 33,
-      "firstYear": 2011,
-      "lastYear": 2025,
-      "founded": [
-        "NFX",
-        "Tectonic Labs",
-        "GivingWay"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Faireez",
-        "PVML",
-        "Everybuddy Games",
-        "Silo",
-        "Barrel Protocol",
-        "Spacemesh"
-      ]
+      "name": "Daylight",
+      "domain": "daylight.ai",
+      "angels": 9
     },
     {
-      "id": "a11af248-04da-48e3-9a73-32c8a3914446",
-      "name": "Marius Nacht",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/a11af248-04da-48e3-9a73-32c8a3914446_20260701_0336.jpg",
-      "portfolio": 25,
-      "rounds": 35,
-      "firstYear": 2006,
-      "lastYear": 2023,
-      "founded": [
-        "Check Point",
-        "aMoon Fund",
-        "DayTwo"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "WaveBL",
-        "TrueMeeting",
-        "Ultima Genomics",
-        "GrayMatters Health",
-        "Wint Water Intelligence",
-        "1E Therapeutics"
-      ]
+      "name": "PointFive",
+      "domain": "pointfive.co",
+      "angels": 9
     },
     {
-      "id": "83d9c9e6-5847-476f-aff6-4cf461280091",
-      "name": "Shlomo Kramer",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/83d9c9e6-5847-476f-aff6-4cf461280091_20260724_054628.jpg",
-      "portfolio": 24,
-      "rounds": 36,
-      "firstYear": 2006,
-      "lastYear": 2025,
-      "founded": [
-        "Cato Networks",
-        "Check Point",
-        "WatchDox"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Opti",
-        "Aryon Security",
-        "Clutch Security",
-        "Nagomi",
-        "PhaseV Trials",
-        "Silk Security"
-      ]
+      "name": "Routable",
+      "domain": "routable.com",
+      "angels": 9
     },
     {
-      "id": "22ce58bc-d37c-447d-b435-384d1686f76d",
-      "name": "Zohar Gilon",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/22ce58bc-d37c-447d-b435-384d1686f76d_20260720_232334.jpg",
-      "portfolio": 19,
-      "rounds": 24,
-      "firstYear": 2009,
-      "lastYear": 2025,
-      "founded": [
-        "Tamar Technology Ventures"
-      ],
-      "hasFounderExit": false,
-      "backed": [
-        "Linguana",
-        "Annabella",
-        "RealView Imaging",
-        "EverAfter AI",
-        "Hoopo",
-        "Galil Software"
-      ]
+      "name": "Amplication",
+      "domain": "amplication.com",
+      "angels": 8
     },
     {
-      "id": "20df7414-9bed-43f1-a256-937b171b5ab2",
-      "name": "Yossi Vardi",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/20df7414-9bed-43f1-a256-937b171b5ab2_20260723_044719.jpg",
-      "portfolio": 18,
-      "rounds": 24,
-      "firstYear": 1999,
-      "lastYear": 2014,
-      "founded": [
-        "Emmunet",
-        "ICQ",
-        "SafeRide Technologies"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Sensiya",
-        "Dex Technologies",
-        "Wibiya",
-        "The Gifts Project",
-        "Overwolf",
-        "Similarweb"
-      ]
+      "name": "Laminate Medical Technologies",
+      "domain": "laminatemedical.com",
+      "angels": 8
     },
     {
-      "id": "bfd857b9-155a-460b-883a-d6ff06346fc1",
-      "name": "Eyal Waldman",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/bfd857b9-155a-460b-883a-d6ff06346fc1_20260419_1659.jpg",
-      "portfolio": 15,
-      "rounds": 18,
-      "firstYear": 2015,
-      "lastYear": 2026,
-      "founded": [
-        "Mellanox Technologies",
-        "Waldo Holdings"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Oligo",
-        "Regatta Data",
-        "Airis Labs",
-        "Linguana",
-        "Volta Solar",
-        "Pick a Pier"
-      ]
+      "name": "Next Silicon",
+      "domain": "nextsilicon.com",
+      "angels": 8
     },
     {
-      "id": "d74df9d4-8745-4403-b844-2f4115ebf6c9",
-      "name": "Assaf Rappaport",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/d74df9d4-8745-4403-b844-2f4115ebf6c9_20260521_1822.jpg",
-      "portfolio": 14,
-      "rounds": 15,
-      "firstYear": 2020,
-      "lastYear": 2026,
-      "founded": [
-        "Wiz",
-        "Adallom"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Enigma AI Labs",
-        "NewCore",
-        "Litt",
-        "ZyG",
-        "Daylight",
-        "Genie Security"
-      ]
+      "name": "Vorlon",
+      "domain": "vorlonsecurity.com",
+      "angels": 8
     },
     {
-      "id": "cd42fefb-4d31-4549-95e7-a948881ef575",
-      "name": "Michael Boodaei",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/cd42fefb-4d31-4549-95e7-a948881ef575_20260506_0401.jpg",
-      "portfolio": 13,
-      "rounds": 18,
-      "firstYear": 2012,
-      "lastYear": 2026,
-      "founded": [
-        "Transmit Security",
-        "Trusteer"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "PointFive",
-        "Linx Security",
-        "Entro Security",
-        "Silk Security",
-        "Neosec",
-        "Laminate Medical Technologies"
-      ]
+      "name": "Zirra.co",
+      "domain": "zirra.com",
+      "angels": 8
     },
     {
-      "id": "c8a5c83d-b406-4064-a9c0-3457bcb6575d",
-      "name": "Zohar Zisapel",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/c8a5c83d-b406-4064-a9c0-3457bcb6575d_20260720_230919.png",
-      "portfolio": 12,
-      "rounds": 15,
-      "firstYear": 1999,
-      "lastYear": 2024,
-      "founded": [
-        "PlaxidityX",
-        "RAD Negev",
-        "RADLAN"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Carteav",
-        "Nucleix",
-        "Hailo Technologies",
-        "DriveU.auto",
-        "Hi Auto",
-        "Galil Software"
-      ]
+      "name": "Axiom Security",
+      "domain": "axiom.security",
+      "angels": 7
     },
     {
-      "id": "384c5194-c4e6-4fbb-b681-0d409dd521e7",
-      "name": "Oren Zeev",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/384c5194-c4e6-4fbb-b681-0d409dd521e7_20260507_0115.jpg",
-      "portfolio": 11,
-      "rounds": 20,
-      "firstYear": 2011,
-      "lastYear": 2025,
-      "founded": [
-        "Tipalti",
-        "Wondermall",
-        "Zeev Ventures"
-      ],
-      "hasFounderExit": false,
-      "backed": [
-        "Venn",
-        "Linguana",
-        "HoneyBook",
-        "Riverside",
-        "Silo",
-        "Galil Software"
-      ]
+      "name": "Huskeys",
+      "domain": "huskeys.io",
+      "angels": 7
     },
     {
-      "id": "fa463928-b60f-4543-8ee3-9ef079c2c4b0",
-      "name": "Avishai Abrahami",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/fa463928-b60f-4543-8ee3-9ef079c2c4b0_20260526_1438.jpg",
-      "portfolio": 11,
-      "rounds": 16,
-      "firstYear": 2014,
-      "lastYear": 2026,
-      "founded": [
-        "Wix.com",
-        "Oporto Carbon",
-        "AIT"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Willow",
-        "Marquee",
-        "CustoMed",
-        "Era",
-        "SpotitEarly",
-        "Deshe Funds"
-      ]
+      "name": "Localbird",
+      "domain": "localbird.io",
+      "angels": 7
     },
     {
-      "id": "57dc7347-9e65-42f6-b782-4141b3f931aa",
-      "name": "Eyal Gura",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/57dc7347-9e65-42f6-b782-4141b3f931aa_20260502_2258.jpg",
-      "portfolio": 11,
-      "rounds": 15,
-      "firstYear": 2009,
-      "lastYear": 2026,
-      "founded": [
-        "Nanox AI",
-        "PicApp",
-        "KolGene"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "MSICS Pharma",
-        "Imagene AI",
-        "Theator",
-        "Dataloop",
-        "Taranis",
-        "KolGene"
-      ]
+      "name": "UNIPaaS",
+      "domain": "unipaas.com",
+      "angels": 7
     },
     {
-      "id": "f906e5c6-3f42-44e4-9dae-aa7e92ba6d18",
-      "name": "Avigdor Willenz",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/f906e5c6-3f42-44e4-9dae-aa7e92ba6d18_20260529_0746.jpg",
-      "portfolio": 11,
-      "rounds": 14,
-      "firstYear": 2004,
-      "lastYear": 2026,
-      "founded": [
-        "Element Labs",
-        "Banias Labs",
-        "Annapurna Labs"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "ProteanTecs",
-        "Lyte",
-        "buildots",
-        "VDOO",
-        "Xsight Labs",
-        "Madlan"
-      ]
+      "name": "Voicy",
+      "domain": "voicy.co",
+      "angels": 7
     },
     {
-      "id": "841b6227-0469-4cf1-87df-c446eb7e6a91",
-      "name": "Moshe Lichtman",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/841b6227-0469-4cf1-87df-c446eb7e6a91_20260720_130434.jpg",
-      "portfolio": 10,
-      "rounds": 13,
-      "firstYear": 2012,
-      "lastYear": 2023,
-      "founded": [
-        "Israel Growth Partners",
-        "NGR Ltd"
-      ],
-      "hasFounderExit": false,
-      "backed": [
-        "Lunar.dev",
-        "Data Blanket",
-        "Plannie",
-        "BitDam",
-        "Zirra.co",
-        "Crosswise"
-      ]
-    },
-    {
-      "id": "37daeaea-155a-4224-bb8e-26be9abcf9fe",
-      "name": "Rakesh Loonkar",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/37daeaea-155a-4224-bb8e-26be9abcf9fe_20260506_0401.jpg",
-      "portfolio": 10,
-      "rounds": 12,
-      "firstYear": 2006,
-      "lastYear": 2024,
-      "founded": [
-        "Transmit Security",
-        "Trusteer"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Linx Security",
-        "Silk Security",
-        "Entro Security",
-        "Neosec",
-        "Zirra.co",
-        "Preempt, A CrowdStrike Company"
-      ]
-    },
-    {
-      "id": "5a1301f2-8422-4cab-b658-2bb286d5d497",
-      "name": "Jeff Pulver",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/5a1301f2-8422-4cab-b658-2bb286d5d497_20260724_111527.jpg",
-      "portfolio": 9,
-      "rounds": 15,
-      "firstYear": 2007,
-      "lastYear": 2013,
-      "founded": [
-        "Vonage",
-        "Zula"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Geev. Me Tech",
-        "Stevie",
-        "Serendip",
-        "Adventure Mob",
-        "Livetune Ltd.",
-        "Wibiya"
-      ]
-    },
-    {
-      "id": "6e48164e-0466-41fa-a820-d810d1476825",
-      "name": "Yuval Tal",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/6e48164e-0466-41fa-a820-d810d1476825_20260529_0642.jpg",
-      "portfolio": 9,
-      "rounds": 12,
-      "firstYear": 2005,
-      "lastYear": 2025,
-      "founded": [
-        "Payoneer",
-        "Borderfree",
-        "Linguana"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Humanz",
-        "Ledge",
-        "Nilos",
-        "Qira",
-        "Rentigo",
-        "Cymbio"
-      ]
-    },
-    {
-      "id": "152a2f05-8521-491c-aa3c-5ccad643c3c5",
-      "name": "Ronald Cohen",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/152a2f05-8521-491c-aa3c-5ccad643c3c5_20260720_232334.png",
-      "portfolio": 9,
-      "rounds": 11,
-      "firstYear": 2008,
-      "lastYear": 2024,
-      "founded": [],
-      "hasFounderExit": false,
-      "backed": [
-        "Glide Identity",
-        "OPMED PLATFORM",
-        "Masterschool",
-        "RiseUp",
-        "Circles",
-        "First Digital Assets"
-      ]
-    },
-    {
-      "id": "6513c13c-1ae7-454e-bce0-17866282ec39",
-      "name": "Yair Goldfinger",
-      "pictureUrl": "https://kolkore.pvalyou.com/assets/6513c13c-1ae7-454e-bce0-17866282ec39_20260722_113517.jpg",
-      "portfolio": 9,
-      "rounds": 10,
-      "firstYear": 2000,
-      "lastYear": 2021,
-      "founded": [
-        "Odysii",
-        "AppCard",
-        "Dotomi"
-      ],
-      "hasFounderExit": true,
-      "backed": [
-        "Joyned",
-        "Keepy",
-        "PicApp",
-        "WEbook",
-        "WhiteSmoke",
-        "Jajah"
-      ]
+      "name": "AppsFire",
+      "domain": "appsfire.com",
+      "angels": 6
     }
   ],
   "portfolioDistribution": [
