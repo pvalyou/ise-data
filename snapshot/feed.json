@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-08-17T21:37:39.603239Z",
+  "generatedAt": "2026-08-17T22:37:48.607854Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -131,7 +131,7 @@
       0,
       0,
       2,
-      0,
+      1,
       3,
       2,
       0,
@@ -157,7 +157,7 @@
       358,
       715,
       517,
-      549,
+      548,
       442,
       632,
       168,
@@ -183,7 +183,7 @@
       297,
       485,
       568,
-      622
+      644
     ],
     "exits": [
       0,
@@ -292,7 +292,7 @@
       116,
       165,
       196,
-      177,
+      175,
       185,
       54,
       34,
@@ -300,9 +300,9 @@
       223,
       220,
       239,
-      276,
+      270,
       202,
-      76,
+      34,
       241,
       422,
       394,
@@ -318,9 +318,9 @@
       445,
       415,
       839,
-      724,
+      721,
       403,
-      43,
+      40,
       355,
       863,
       1085,
@@ -343,7 +343,7 @@
       130,
       193,
       270,
-      228
+      238
     ],
     "investments": [
       0,
@@ -355,7 +355,7 @@
       0,
       0,
       8,
-      0,
+      4,
       17,
       11,
       0,
@@ -401,7 +401,9 @@
       {
         "Seed": 2
       },
-      {},
+      {
+        "Series A": 1
+      },
       {
         "Series A": 1,
         "Series B": 1,
@@ -453,7 +455,7 @@
       0,
       0,
       91000000,
-      0,
+      35000000,
       243000000,
       24000000,
       0,
@@ -480,12 +482,12 @@
     "fundingRounds": {
       "d1": 0,
       "d7": 1,
-      "d30": 24
+      "d30": 25
     },
     "newOrgs": {
-      "d1": 676,
-      "d7": 2314,
-      "d30": 14445
+      "d1": 673,
+      "d7": 2336,
+      "d30": 14466
     },
     "exits": {
       "d1": 1,
@@ -505,27 +507,57 @@
     "jobsPosted": {
       "d1": 611,
       "d7": 2063,
-      "d30": 5946
+      "d30": 5896
     },
     "newFounders": {
-      "d1": 247,
-      "d7": 1085,
-      "d30": 11279
+      "d1": 252,
+      "d7": 1095,
+      "d30": 11283
     },
     "investments": {
       "d1": 0,
       "d7": 12,
-      "d30": 124
+      "d30": 128
     },
     "fundingUsd": {
       "d1": 0,
       "d7": 36000000,
-      "d30": 2964000000
+      "d30": 2999000000
     }
   },
   "news": {
-    "sweptOn": "2026-08-17",
+    "sweptOn": "2026-08-18",
     "israel": [
+      {
+        "company": "Xpander",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Samsung",
+        "status": "rumored",
+        "tie": "\u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4 \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9 \u05d7\u05d3\u05e9 \u05e9\u05dc \u05d9\u05d5\u05e6\u05d0\u05d9 \u05d0\u05de\u05d6\u05d5\u05df",
+        "url": "https://www.geektime.co.il/xpander-raises-seed-round/",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/xpander-raises-seed-round/"
+          },
+          {
+            "label": "geektime-startups",
+            "url": "https://www.geektime.co.il/xpander-raises-seed-round/"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/nitzan_cohen/status/2089349451634598112"
+          }
+        ],
+        "amount": null,
+        "publishedAt": null,
+        "seenOn": "2026-08-18"
+      },
       {
         "company": "Attribute",
         "event": "acquisition",
@@ -549,17 +581,61 @@
         "seenOn": "2026-08-17"
       },
       {
+        "company": "Microsoft",
+        "event": "leadership_change",
+        "round": null,
+        "counterparty": "Nati Amsterdam",
+        "status": "reported",
+        "tie": "Israel general manager",
+        "url": "https://en.globes.co.il/en/article-1001552523#utm_source=RSS",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001552523#utm_source=RSS"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "Microsoft Israel",
+        "event": "leadership_change",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+        "url": "https://www.geektime.co.il/microsoft-israel-has-a-new-ceo/",
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/microsoft-israel-has-a-new-ceo/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
         "company": "Pentera",
         "event": "layoffs",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": "including 30 in Israel",
-        "url": null,
+        "url": "https://www.geektime.co.il/pentera-israel-layoffs-aug-2026/",
         "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/pentera-israel-layoffs-aug-2026/"
+          },
           {
             "label": "CTech",
             "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "geektime-startups",
+            "url": "https://www.geektime.co.il/pentera-israel-layoffs-aug-2026/"
           }
         ],
         "amount": null,
@@ -610,12 +686,12 @@
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOTMzRnJ0ZGhiTHp2QnNHbVY1eVJVTE42RjVObldVaHN6dG96aHJ0YVF2ckQ0V1hRc1VlaHVNd3BhRWhaOWpQRXJNRG1UUF93LWpKbFRnck1NRE9PclNOVTRhcENRYXNKUUZKbGlkSk9yYjFiMlYwb1UtVVhzak1VQWRIR25jZw?oc=5"
           },
           {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001552501#utm_source=RSS"
-          },
-          {
             "label": "X",
             "url": "https://twitter.com/financespotnews/status/2089263460538278312"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001552501#utm_source=RSS"
           }
         ],
         "amount": "about $6bn",
@@ -953,22 +1029,112 @@
     ],
     "global": [
       {
-        "company": "amber",
+        "company": "Maytronics",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "FIMI",
+        "status": "rumored",
+        "tie": null,
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "Gravis Robotics",
         "event": "funding",
         "round": "Series A",
-        "counterparty": "Ventech and NRW.Venture",
+        "counterparty": "SoftBank",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/aachen-based-amber-raises-e7-million-series-a-to-build-the-infrastructure-for-autonomous-business-ai/",
+        "url": "https://www.eu-startups.com/2026/08/gravis-robotics-becomes-europes-latest-robotics-unicorn-after-e172-million-series-a/",
         "sources": [
           {
             "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/aachen-based-amber-raises-e7-million-series-a-to-build-the-infrastructure-for-autonomous-business-ai/"
+            "url": "https://www.eu-startups.com/2026/08/gravis-robotics-becomes-europes-latest-robotics-unicorn-after-e172-million-series-a/"
           }
         ],
-        "amount": "\u20ac7 million",
+        "amount": "\u20ac172 million",
         "publishedAt": "2026-08-17",
-        "seenOn": "2026-08-17"
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "Groq",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Disruptive",
+        "status": "reported",
+        "tie": null,
+        "url": "https://twitter.com/NWPhotograph/status/2089464434255134828",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/NWPhotograph/status/2089464434255134828"
+          }
+        ],
+        "amount": "$350 million",
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "SpaceAM",
+        "event": "funding",
+        "round": "Seed",
+        "counterparty": "Foresight",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/uk-based-spaceam-closes-seed-round-to-scale-ai-powered-sensing-technology-for-defence-and-space/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/uk-based-spaceam-closes-seed-round-to-scale-ai-powered-sensing-technology-for-defence-and-space/"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "Castro",
+        "event": "partnership",
+        "round": null,
+        "counterparty": "Renuar",
+        "status": "reported",
+        "tie": null,
+        "url": "https://en.globes.co.il/en/article-1001552584#utm_source=RSS",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001552584#utm_source=RSS"
+          }
+        ],
+        "amount": null,
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
+      },
+      {
+        "company": "Birdsview",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/norways-birdsview-raises-e3-7-million-to-scale-its-mri-for-concrete-technology-and-protect-infrastructure/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/norways-birdsview-raises-e3-7-million-to-scale-its-mri-for-concrete-technology-and-protect-infrastructure/"
+          }
+        ],
+        "amount": "\u20ac3.7 million",
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-18"
       },
       {
         "company": "Versatile RobotX",
@@ -985,6 +1151,24 @@
           }
         ],
         "amount": "over \u20ac1.17 million",
+        "publishedAt": "2026-08-17",
+        "seenOn": "2026-08-17"
+      },
+      {
+        "company": "amber",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": "Ventech and NRW.Venture",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/aachen-based-amber-raises-e7-million-series-a-to-build-the-infrastructure-for-autonomous-business-ai/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/aachen-based-amber-raises-e7-million-series-a-to-build-the-infrastructure-for-autonomous-business-ai/"
+          }
+        ],
+        "amount": "\u20ac7 million",
         "publishedAt": "2026-08-17",
         "seenOn": "2026-08-17"
       },
@@ -1021,7 +1205,7 @@
           }
         ],
         "amount": "$50 million-plus",
-        "publishedAt": null,
+        "publishedAt": "2026-08-17",
         "seenOn": "2026-08-16"
       },
       {
@@ -1079,6 +1263,24 @@
         "seenOn": "2026-08-14"
       },
       {
+        "company": "LORILLION",
+        "event": "funding",
+        "round": null,
+        "counterparty": "SubSea Craft",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/"
+          }
+        ],
+        "amount": "multi-million-euro",
+        "publishedAt": "2026-08-14",
+        "seenOn": "2026-08-14"
+      },
+      {
         "company": "Tap & Go",
         "event": "funding",
         "round": null,
@@ -1115,21 +1317,21 @@
         "seenOn": "2026-08-14"
       },
       {
-        "company": "LORILLION",
+        "company": "Entravel Group",
         "event": "funding",
         "round": null,
-        "counterparty": "SubSea Craft",
+        "counterparty": "Ethereal Ventures and Finality Capital",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/",
+        "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/",
         "sources": [
           {
             "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/subsea-craft-makes-multi-million-euro-investment-in-uk-battery-specialist-lorillion-acquiring-40-stake/"
+            "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/"
           }
         ],
-        "amount": "multi-million-euro",
-        "publishedAt": "2026-08-14",
+        "amount": "\u20ac6.5 million",
+        "publishedAt": null,
         "seenOn": "2026-08-14"
       },
       {
@@ -1147,24 +1349,6 @@
           }
         ],
         "amount": "\u20ac6 million",
-        "publishedAt": null,
-        "seenOn": "2026-08-14"
-      },
-      {
-        "company": "Entravel Group",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Ethereal Ventures and Finality Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/entravel-group-raises-e6-5-million-to-secure-larger-supplier-credit-facilities/"
-          }
-        ],
-        "amount": "\u20ac6.5 million",
         "publishedAt": null,
         "seenOn": "2026-08-14"
       },
@@ -1195,21 +1379,21 @@
         "seenOn": "2026-08-13"
       },
       {
-        "company": "Animade",
+        "company": "TrainingPeaks",
         "event": "acquisition",
         "round": null,
-        "counterparty": "Duolingo",
+        "counterparty": "Garmin",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/",
+        "url": "https://news.crunchbase.com",
         "sources": [
           {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/"
+            "label": "Crunchbase",
+            "url": "https://news.crunchbase.com"
           }
         ],
         "amount": null,
-        "publishedAt": "2026-08-13",
+        "publishedAt": null,
         "seenOn": "2026-08-13"
       },
       {
@@ -1231,21 +1415,21 @@
         "seenOn": "2026-08-13"
       },
       {
-        "company": "TrainingPeaks",
+        "company": "Animade",
         "event": "acquisition",
         "round": null,
-        "counterparty": "Garmin",
+        "counterparty": "Duolingo",
         "status": "reported",
         "tie": null,
-        "url": "https://news.crunchbase.com",
+        "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/",
         "sources": [
           {
-            "label": "Crunchbase",
-            "url": "https://news.crunchbase.com"
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/08/duolingo-acquires-london-animation-studio-animade-to-strengthen-its-creative-capabilities/"
           }
         ],
         "amount": null,
-        "publishedAt": null,
+        "publishedAt": "2026-08-13",
         "seenOn": "2026-08-13"
       },
       {
@@ -1267,146 +1451,38 @@
         "seenOn": "2026-08-16"
       },
       {
-        "company": "Eight Sleep",
-        "event": "funding",
-        "round": "Series D",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.crunchbase.com",
-        "sources": [
-          {
-            "label": "Crunchbase",
-            "url": "https://news.crunchbase.com"
-          }
-        ],
-        "amount": "$50 million",
-        "publishedAt": null,
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "Ultrahuman",
-        "event": "funding",
-        "round": "Series C",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.crunchbase.com",
-        "sources": [
-          {
-            "label": "Crunchbase",
-            "url": "https://news.crunchbase.com"
-          }
-        ],
-        "amount": "$44 million",
-        "publishedAt": null,
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "Temple",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.crunchbase.com",
-        "sources": [
-          {
-            "label": "Crunchbase",
-            "url": "https://news.crunchbase.com"
-          }
-        ],
-        "amount": "$54 million",
-        "publishedAt": null,
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "Mindgard",
-        "event": "funding",
-        "round": "Series A",
-        "counterparty": "Album VC",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/lancaster-university-spinout-mindgard-lands-e26-million-to-secure-enterprise-ai-systems/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/lancaster-university-spinout-mindgard-lands-e26-million-to-secure-enterprise-ai-systems/"
-          }
-        ],
-        "amount": "\u20ac26 million",
-        "publishedAt": null,
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "Millow",
+        "company": "Makalu Optics",
         "event": "funding",
         "round": null,
-        "counterparty": "Magnus Emilson",
+        "counterparty": "Ashdod Port",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/gothenburgs-millow-secures-e2-million-to-scale-clean-label-protein-made-from-oats-and-mycelium/",
+        "url": "https://nocamels.com",
         "sources": [
           {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/gothenburgs-millow-secures-e2-million-to-scale-clean-label-protein-made-from-oats-and-mycelium/"
+            "label": "NoCamels",
+            "url": "https://nocamels.com"
           }
         ],
-        "amount": "\u20ac2 million",
+        "amount": null,
         "publishedAt": null,
         "seenOn": "2026-08-13"
       },
       {
-        "company": "AMDB Security Pro",
+        "company": "CodeRabbit",
         "event": "funding",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/08/lyons-amdb-security-pro-locks-in-e2-68-million-to-take-its-excavator-anti-theft-systems-to-the-us/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/08/lyons-amdb-security-pro-locks-in-e2-68-million-to-take-its-excavator-anti-theft-systems-to-the-us/"
-          }
-        ],
-        "amount": "\u20ac2.68 million",
-        "publishedAt": "2026-08-13",
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "River AI",
-        "event": "funding",
-        "round": "seed/Series A",
-        "counterparty": "General Catalyst and AMP PBC",
-        "status": "reported",
-        "tie": null,
-        "url": "https://theaiinsider.tech/2026/08/12/ai-startup-river-ai-raises-1-1b-to-build-personally-trainable-ai-agents/",
+        "url": "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/",
         "sources": [
           {
             "label": "News",
-            "url": "https://theaiinsider.tech/2026/08/12/ai-startup-river-ai-raises-1-1b-to-build-personally-trainable-ai-agents/"
+            "url": "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/"
           }
         ],
-        "amount": "$1.1B",
-        "publishedAt": null,
-        "seenOn": "2026-08-13"
-      },
-      {
-        "company": "Devoted Health",
-        "event": "funding",
-        "round": "Series F",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.crunchbase.com",
-        "sources": [
-          {
-            "label": "Crunchbase",
-            "url": "https://news.crunchbase.com"
-          }
-        ],
-        "amount": "$366 million",
+        "amount": "$143 million",
         "publishedAt": null,
         "seenOn": "2026-08-13"
       }
@@ -1868,6 +1944,14 @@
     {
       "ts": "2026-08-04",
       "kind": "granted",
+      "org": "Azura Ophthalmics",
+      "title": "Instructions for composition and sensitivity",
+      "number": "12697352",
+      "url": "https://patents.google.com/patent/US12697352B2/en"
+    },
+    {
+      "ts": "2026-08-04",
+      "kind": "granted",
       "org": "Mavvrik",
       "title": "Artificial intelligence based system and method for adaptively executing tasks based on cost data analysis and budgetary constraints",
       "number": "12699595",
@@ -1882,14 +1966,6 @@
       "url": "https://patents.google.com/patent/USD1139419S/en"
     },
     {
-      "ts": "2026-08-04",
-      "kind": "granted",
-      "org": "Azura Ophthalmics",
-      "title": "Instructions for composition and sensitivity",
-      "number": "12697352",
-      "url": "https://patents.google.com/patent/US12697352B2/en"
-    },
-    {
       "ts": "2026-08-03",
       "kind": "granted",
       "org": "Prilenia",
@@ -1900,26 +1976,26 @@
     {
       "ts": "2026-08-01",
       "kind": "granted",
-      "org": "Cirotta",
-      "title": "Camera lock case",
-      "number": "300421",
-      "url": "https://patents.google.com/patent/IL300421B1/en"
-    },
-    {
-      "ts": "2026-08-01",
-      "kind": "granted",
       "org": "NIART Systems",
       "title": "Antenna module and antenna element",
       "number": "326729",
       "url": "https://patents.google.com/patent/IL326729B1/en"
     },
     {
+      "ts": "2026-08-01",
+      "kind": "granted",
+      "org": "Cirotta",
+      "title": "Camera lock case",
+      "number": "300421",
+      "url": "https://patents.google.com/patent/IL300421B1/en"
+    },
+    {
       "ts": "2026-07-30",
       "kind": "granted",
       "org": "Alpha Tau",
-      "title": "Radiotherapy seeds and applicators",
-      "number": "2024213162",
-      "url": "https://patents.google.com/patent/AU2024213162B2/en"
+      "title": "Radiotherapy sheet",
+      "number": "2023336228",
+      "url": "https://patents.google.com/patent/AU2023336228B2/en"
     }
   ],
   "jobs": [
@@ -2014,7 +2090,7 @@
         },
         {
           "label": "Series A",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Series B",
@@ -2038,11 +2114,11 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 189
+          "count": 192
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 171
+          "count": 173
         },
         {
           "label": "Unknown",
@@ -2050,37 +2126,37 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 92
+          "count": 88
         },
         {
           "label": "Healthcare and Food",
-          "count": 59
+          "count": 57
         },
         {
           "label": "Financial Services",
-          "count": 43
+          "count": 42
         },
         {
           "label": "Energy and Utilities",
-          "count": 24
+          "count": 23
         }
       ],
       "d7": [
         {
           "label": "IT and Telecom",
-          "count": 752
+          "count": 758
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 609
+          "count": 618
         },
         {
           "label": "Media and Entertainment",
-          "count": 287
+          "count": 289
         },
         {
           "label": "Unknown",
-          "count": 255
+          "count": 258
         },
         {
           "label": "Healthcare and Food",
@@ -2088,21 +2164,21 @@
         },
         {
           "label": "Financial Services",
-          "count": 120
+          "count": 121
         },
         {
           "label": "Energy and Utilities",
-          "count": 81
+          "count": 82
         }
       ],
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 5777
+          "count": 5782
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 2957
+          "count": 2966
         },
         {
           "label": "Healthcare and Food",
@@ -2110,19 +2186,19 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 1645
+          "count": 1647
         },
         {
           "label": "Financial Services",
-          "count": 805
+          "count": 806
         },
         {
           "label": "Unknown",
-          "count": 659
+          "count": 662
         },
         {
           "label": "Energy and Utilities",
-          "count": 629
+          "count": 630
         }
       ]
     }
