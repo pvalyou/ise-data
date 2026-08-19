@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T09:45:02.618Z",
+  "generatedAt": "2026-08-19T10:40:39.153Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 34159,
-      "delta24h": 385
+      "delta24h": 365
     },
     "totalFunding": {
       "valueUsd": 211048451342,
@@ -2231,6 +2231,16 @@
       },
       {
         "ts": "2026-07-30T00:00:00.000Z",
+        "org": "Marquee",
+        "stage": "Seed",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-07-30T00:00:00.000Z",
         "org": "Bloom Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2239,16 +2249,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
-        "org": "Marquee",
-        "stage": "Seed",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
@@ -2294,17 +2294,6 @@
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
-        "org": "Entera Bio",
-        "stage": "Post-IPO",
-        "amountUsd": 275000000,
-        "investors": [],
-        "investorCount": 11,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement"
-      },
-      {
-        "ts": "2026-07-27T00:00:00.000Z",
         "org": "Way Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2313,6 +2302,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-27T00:00:00.000Z",
+        "org": "Entera Bio",
+        "stage": "Post-IPO",
+        "amountUsd": 275000000,
+        "investors": [],
+        "investorCount": 11,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement"
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
@@ -2759,16 +2759,16 @@
       {
         "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "GlucoTrack",
-        "summary": "Regained compliance with Nasdaq's stockholders' equity requirement; the Nasdaq Hearings Panel granted continued listing, subject to conditions."
+        "rawKind": "Product Launch",
+        "org": "Xpander",
+        "summary": "Introduced Omni, an enterprise AI agent that scored 90.9% on GAIA benchmark."
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Xpander",
-        "summary": "Introduced Omni, an enterprise AI agent that scored 90.9% on GAIA benchmark."
+        "rawKind": "Regulatory and Compliance",
+        "org": "GlucoTrack",
+        "summary": "Regained compliance with Nasdaq's stockholders' equity requirement; the Nasdaq Hearings Panel granted continued listing, subject to conditions."
       },
       {
         "ts": "2026-08-14T00:00:00.000Z",
@@ -2808,16 +2808,23 @@
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Global-e",
-        "summary": "Expanded Shopify Managed Markets Version 2.0 to Canada and the UK, the first availability beyond the US, and migrated the remaining merchants from Version 1.0 to Version 2.0."
+        "rawKind": "Strategic Partnership",
+        "org": "Clinch",
+        "summary": "Expanded partnership with Yahoo DSP, introducing a creative trafficking API and audience-driven creative decisioning."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Clinch",
-        "summary": "Expanded partnership with Yahoo DSP, introducing a creative trafficking API and audience-driven creative decisioning."
+        "rawKind": "Report Release",
+        "org": "BioCatch",
+        "summary": "Published new data showing US impersonation scam attempts surged 130% in a year, and stating that impersonation scams have more than doubled as Wall Street faces targeted attacks and turnkey scam kits lower barriers for fraud."
+      },
+      {
+        "ts": "2026-08-12T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Global-e",
+        "summary": "Expanded Shopify Managed Markets Version 2.0 to Canada and the UK, the first availability beyond the US, and migrated the remaining merchants from Version 1.0 to Version 2.0."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
@@ -2827,11 +2834,18 @@
         "summary": "Lemonade presented at the Oppenheimer 29th Annual Technology, Internet & Communications Conference."
       },
       {
-        "ts": "2026-08-12T00:00:00.000Z",
+        "ts": "2026-08-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "BioCatch",
-        "summary": "Published new data showing US impersonation scam attempts surged 130% in a year, and stating that impersonation scams have more than doubled as Wall Street faces targeted attacks and turnkey scam kits lower barriers for fraud."
+        "rawKind": "Award Recognition",
+        "org": "HoneyBook",
+        "summary": "Included in CNBC's 2026 list of the World's Top Fintech Companies, recognizing HoneyBook as a leading fintech company for independent businesses."
+      },
+      {
+        "ts": "2026-08-11T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Nitinotes",
+        "summary": "Activated Weill Cornell Medicine and NewYork-Presbyterian/Weill Cornell Medical Center as clinical sites in the EASE IDE trial, with the first study procedure completed by Dr. Reem Sharaiha."
       },
       {
         "ts": "2026-08-11T00:00:00.000Z",
@@ -2849,24 +2863,10 @@
       },
       {
         "ts": "2026-08-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "HoneyBook",
-        "summary": "Included in CNBC's 2026 list of the World's Top Fintech Companies, recognizing HoneyBook as a leading fintech company for independent businesses."
-      },
-      {
-        "ts": "2026-08-11T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "BLUEYE AI",
         "summary": "Acquired by DB Group Investments (49% equity stake). DB Group Investments, a Dubai-based venture capital and investment group, acquired a 49% stake in Blueye AI to support the company's product development and commercial growth. Blueye AI will continue to operate independently under CEO Natali Yaacbson."
-      },
-      {
-        "ts": "2026-08-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Nitinotes",
-        "summary": "Activated Weill Cornell Medicine and NewYork-Presbyterian/Weill Cornell Medical Center as clinical sites in the EASE IDE trial, with the first study procedure completed by Dr. Reem Sharaiha."
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
@@ -2878,16 +2878,16 @@
       {
         "ts": "2026-08-10T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Varonis",
-        "summary": "Varonis announced it will present at an upcoming investor conference."
+        "rawKind": "Strategic Partnership",
+        "org": "Nanox AI",
+        "summary": "Nanox.AI optimized its medical imaging AI application framework for Intel Core Ultra processors using OpenVINO."
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Scinai Immunotherapeutics",
-        "summary": "Appointed Eran Kuratz as Head of Supply Chain and Business Process Administration at subsidiary Scinai Biopharma Services Ltd."
+        "rawKind": "Conference Presentation",
+        "org": "Varonis",
+        "summary": "Varonis announced it will present at an upcoming investor conference."
       }
     ]
   }
