@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:40:39.153Z",
+  "generatedAt": "2026-08-19T11:35:46.628Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 34159,
-      "delta24h": 365
+      "delta24h": 337
     },
     "totalFunding": {
       "valueUsd": 211048451342,
@@ -2166,16 +2166,6 @@
       },
       {
         "ts": "2026-08-05T00:00:00.000Z",
-        "org": "Faye",
-        "stage": "Series C",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-08-05T00:00:00.000Z",
         "org": "GlucoTrack",
         "stage": "Post-IPO",
         "amountUsd": 5500000,
@@ -2184,6 +2174,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Private Placement"
+      },
+      {
+        "ts": "2026-08-05T00:00:00.000Z",
+        "org": "Faye",
+        "stage": "Series C",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-08-04T00:00:00.000Z",
@@ -2231,16 +2231,6 @@
       },
       {
         "ts": "2026-07-30T00:00:00.000Z",
-        "org": "Marquee",
-        "stage": "Seed",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
         "org": "Bloom Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2251,12 +2241,22 @@
         "roundTitle": "Seed"
       },
       {
-        "ts": "2026-07-29T00:00:00.000Z",
-        "org": "Groundcover",
-        "stage": "Series C",
-        "amountUsd": 100000000,
+        "ts": "2026-07-30T00:00:00.000Z",
+        "org": "Marquee",
+        "stage": "Seed",
+        "amountUsd": 4000000,
         "investors": [],
         "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-07-29T00:00:00.000Z",
+        "org": "Onyx Security",
+        "stage": "Series B",
+        "amountUsd": 113000000,
+        "investors": [],
+        "investorCount": 8,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2273,11 +2273,11 @@
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
-        "org": "Onyx Security",
-        "stage": "Series B",
-        "amountUsd": 113000000,
+        "org": "Groundcover",
+        "stage": "Series C",
+        "amountUsd": 100000000,
         "investors": [],
-        "investorCount": 8,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2291,6 +2291,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A - Mate"
+      },
+      {
+        "ts": "2026-07-27T00:00:00.000Z",
+        "org": "Enigma AI Labs",
+        "stage": "Seed",
+        "amountUsd": 71000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
@@ -2313,17 +2324,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Private Placement"
-      },
-      {
-        "ts": "2026-07-27T00:00:00.000Z",
-        "org": "Enigma AI Labs",
-        "stage": "Seed",
-        "amountUsd": 71000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
       },
       {
         "ts": "2026-07-23T00:00:00.000Z",
@@ -2751,17 +2751,17 @@
     "notable": [
       {
         "ts": "2026-08-17T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Attribute",
-        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
-      },
-      {
-        "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Xpander",
         "summary": "Introduced Omni, an enterprise AI agent that scored 90.9% on GAIA benchmark."
+      },
+      {
+        "ts": "2026-08-17T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Attribute",
+        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
@@ -2775,14 +2775,14 @@
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Lifeward",
-        "summary": "Chairman of the Board Bob Marshall and Directors Mike Swinford and William Sigsbee stepped down from the board, effective August 13, 2026."
+        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
       },
       {
         "ts": "2026-08-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Lifeward",
-        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
+        "summary": "Chairman of the Board Bob Marshall and Directors Mike Swinford and William Sigsbee stepped down from the board, effective August 13, 2026."
       },
       {
         "ts": "2026-08-13T00:00:00.000Z",
@@ -2808,16 +2808,16 @@
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Clinch",
-        "summary": "Expanded partnership with Yahoo DSP, introducing a creative trafficking API and audience-driven creative decisioning."
+        "rawKind": "Report Release",
+        "org": "BioCatch",
+        "summary": "Published new data showing US impersonation scam attempts surged 130% in a year, and stating that impersonation scams have more than doubled as Wall Street faces targeted attacks and turnkey scam kits lower barriers for fraud."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "BioCatch",
-        "summary": "Published new data showing US impersonation scam attempts surged 130% in a year, and stating that impersonation scams have more than doubled as Wall Street faces targeted attacks and turnkey scam kits lower barriers for fraud."
+        "rawKind": "Conference Presentation",
+        "org": "Lemonade",
+        "summary": "Lemonade presented at the Oppenheimer 29th Annual Technology, Internet & Communications Conference."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
@@ -2829,16 +2829,9 @@
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Lemonade",
-        "summary": "Lemonade presented at the Oppenheimer 29th Annual Technology, Internet & Communications Conference."
-      },
-      {
-        "ts": "2026-08-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "HoneyBook",
-        "summary": "Included in CNBC's 2026 list of the World's Top Fintech Companies, recognizing HoneyBook as a leading fintech company for independent businesses."
+        "rawKind": "Strategic Partnership",
+        "org": "Clinch",
+        "summary": "Expanded partnership with Yahoo DSP, introducing a creative trafficking API and audience-driven creative decisioning."
       },
       {
         "ts": "2026-08-11T00:00:00.000Z",
@@ -2850,16 +2843,16 @@
       {
         "ts": "2026-08-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "SCRT Labs",
-        "summary": "AITECH Cloud Network and Secret Network, developed by SCRT Labs, announced a strategic partnership to bring confidential computing and AI to Agent Forge."
+        "rawKind": "Award Recognition",
+        "org": "HoneyBook",
+        "summary": "Included in CNBC's 2026 list of the World's Top Fintech Companies, recognizing HoneyBook as a leading fintech company for independent businesses."
       },
       {
         "ts": "2026-08-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Aidoc",
-        "summary": "Twelve U.S. health systems and Aidoc announced a collaborative initiative to confront America's diagnostic capacity crisis, uniting to enhance diagnostic access and efficiency through clinical AI."
+        "org": "SCRT Labs",
+        "summary": "AITECH Cloud Network and Secret Network, developed by SCRT Labs, announced a strategic partnership to bring confidential computing and AI to Agent Forge."
       },
       {
         "ts": "2026-08-11T00:00:00.000Z",
@@ -2869,25 +2862,32 @@
         "summary": "Acquired by DB Group Investments (49% equity stake). DB Group Investments, a Dubai-based venture capital and investment group, acquired a 49% stake in Blueye AI to support the company's product development and commercial growth. Blueye AI will continue to operate independently under CEO Natali Yaacbson."
       },
       {
-        "ts": "2026-08-10T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Doral Group Renewable Energy Resources",
-        "summary": "Doral Group signed a $400 million common equity investment in its US subsidiary Doral Renewables LLC, increasing its ownership stake; Clean Air Generation LLC, owned by Doral Renewables CEO Nick Cohen, exchanged its membership interests for cash and Doral Group stock."
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
+        "ts": "2026-08-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Nanox AI",
-        "summary": "Nanox.AI optimized its medical imaging AI application framework for Intel Core Ultra processors using OpenVINO."
+        "org": "Aidoc",
+        "summary": "Twelve U.S. health systems and Aidoc announced a collaborative initiative to confront America's diagnostic capacity crisis, uniting to enhance diagnostic access and efficiency through clinical AI."
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Varonis",
-        "summary": "Varonis announced it will present at an upcoming investor conference."
+        "rawKind": "Product Launch",
+        "org": "HiveWare",
+        "summary": "Emerged from stealth at DAC 2026, launching its next-generation SystemVerilog simulator for chip design verification built from the ground up, with a patent-pending engine designed to accelerate full-chip simulation."
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Scinai Immunotherapeutics",
+        "summary": "Appointed Eran Kuratz as Head of Supply Chain and Business Process Administration at subsidiary Scinai Biopharma Services Ltd."
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Corma Labs",
+        "summary": "Corma launched its defensive cybersecurity AI foundation model and agents, with deployments at Fortune 100 and Fortune 500 companies."
       }
     ]
   }
