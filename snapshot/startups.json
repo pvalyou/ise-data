@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T20:36:17.066Z",
+  "generatedAt": "2026-08-21T21:35:23.074Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 34819,
-      "delta24h": 152
+      "delta24h": 142
     },
     "totalFunding": {
       "valueUsd": 210994370219,
@@ -2263,11 +2263,11 @@
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
-        "org": "Onyx Security",
-        "stage": "Series B",
-        "amountUsd": 113000000,
+        "org": "Groundcover",
+        "stage": "Series C",
+        "amountUsd": 100000000,
         "investors": [],
-        "investorCount": 8,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2284,11 +2284,11 @@
       },
       {
         "ts": "2026-07-29T00:00:00.000Z",
-        "org": "Groundcover",
-        "stage": "Series C",
-        "amountUsd": 100000000,
+        "org": "Onyx Security",
+        "stage": "Series B",
+        "amountUsd": 113000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 8,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2316,17 +2316,6 @@
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
-        "org": "Enigma AI Labs",
-        "stage": "Seed",
-        "amountUsd": 71000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - Extended"
-      },
-      {
-        "ts": "2026-07-27T00:00:00.000Z",
         "org": "Way Security",
         "stage": "Seed",
         "amountUsd": 20000000,
@@ -2335,6 +2324,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-07-27T00:00:00.000Z",
+        "org": "Enigma AI Labs",
+        "stage": "Seed",
+        "amountUsd": 71000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended"
       }
     ],
     "todayStats": {
@@ -2761,17 +2761,17 @@
       },
       {
         "ts": "2026-08-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Intragel Therapeutics",
-        "summary": "IntraGel Therapeutics and UroGen Pharma signed strategic collaboration and investment agreements, including an equity investment of up to $7 million to support Phase 2 development of TumoCure, and an exclusive option for UroGen to obtain worldwide rights to TumoCure and access to the SRGel platform for up to three additional oncology products."
-      },
-      {
-        "ts": "2026-08-20T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Meckano",
         "summary": "Acquired by Mikap Technologies (70% stake) for approximately NIS 66 million, valuing Meckano at about NIS 94 million."
+      },
+      {
+        "ts": "2026-08-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Intragel Therapeutics",
+        "summary": "IntraGel Therapeutics and UroGen Pharma signed strategic collaboration and investment agreements, including an equity investment of up to $7 million to support Phase 2 development of TumoCure, and an exclusive option for UroGen to obtain worldwide rights to TumoCure and access to the SRGel platform for up to three additional oncology products."
       },
       {
         "ts": "2026-08-19T00:00:00.000Z",
@@ -2789,17 +2789,17 @@
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Attribute",
-        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
-      },
-      {
-        "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Regulatory and Compliance",
         "org": "GlucoTrack",
         "summary": "Regained compliance with Nasdaq's stockholders' equity requirement; the Nasdaq Hearings Panel granted continued listing, subject to conditions."
+      },
+      {
+        "ts": "2026-08-17T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Attribute",
+        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
@@ -2811,16 +2811,23 @@
       {
         "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Kamada",
+        "summary": "Declared cash dividend of $0.17 per share, totaling approximately $9.8 million."
+      },
+      {
+        "ts": "2026-08-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Xpander",
         "summary": "Introduced Omni, an enterprise AI agent that scored 90.9% on GAIA benchmark."
       },
       {
-        "ts": "2026-08-17T00:00:00.000Z",
+        "ts": "2026-08-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
-        "org": "Kamada",
-        "summary": "Declared cash dividend of $0.17 per share, totaling approximately $9.8 million."
+        "org": "Lifeward",
+        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
       },
       {
         "ts": "2026-08-14T00:00:00.000Z",
@@ -2830,11 +2837,11 @@
         "summary": "Chairman of the Board Bob Marshall and Directors Mike Swinford and William Sigsbee stepped down from the board, effective August 13, 2026."
       },
       {
-        "ts": "2026-08-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Lifeward",
-        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
+        "ts": "2026-08-13T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Firmus Technologies",
+        "summary": "Acquired Benmax's fabrication, design and projects businesses for A$300 million, bringing HyperCube AI Factory manufacturing in-house."
       },
       {
         "ts": "2026-08-13T00:00:00.000Z",
@@ -2852,13 +2859,6 @@
       },
       {
         "ts": "2026-08-13T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Firmus Technologies",
-        "summary": "Acquired Benmax's fabrication, design and projects businesses for A$300 million, bringing HyperCube AI Factory manufacturing in-house."
-      },
-      {
-        "ts": "2026-08-13T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Brenmiller Energy",
@@ -2867,16 +2867,23 @@
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Kamada",
-        "summary": "Announced planned transition of Chief Financial Officer Chaime Orlev, effective December 31, 2026."
+        "rawKind": "Conference Presentation",
+        "org": "Lemonade",
+        "summary": "Lemonade presented at the Oppenheimer 29th Annual Technology, Internet & Communications Conference."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Kamada",
-        "summary": "Reported record-high first half and second quarter 2026 financial results, with H1 revenues of $100.2 million, up 13% YoY, and affirmed 2026 annual guidance."
+        "rawKind": "Conference Presentation",
+        "org": "Tower Semiconductor",
+        "summary": "Announced participation in August and September investor conferences."
+      },
+      {
+        "ts": "2026-08-12T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Clinch",
+        "summary": "Expanded partnership with Yahoo DSP, introducing a creative trafficking API and audience-driven creative decisioning."
       },
       {
         "ts": "2026-08-12T00:00:00.000Z",
@@ -2884,13 +2891,6 @@
         "rawKind": "Report Release",
         "org": "BioCatch",
         "summary": "Published new data showing US impersonation scam attempts surged 130% in a year, and stating that impersonation scams have more than doubled as Wall Street faces targeted attacks and turnkey scam kits lower barriers for fraud."
-      },
-      {
-        "ts": "2026-08-12T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Global-e",
-        "summary": "Expanded Shopify Managed Markets Version 2.0 to Canada and the UK, the first availability beyond the US, and migrated the remaining merchants from Version 1.0 to Version 2.0."
       }
     ]
   }
