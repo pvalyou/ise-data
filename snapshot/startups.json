@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:38:32.592Z",
+  "generatedAt": "2026-08-24T20:44:04.040Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 35092,
-      "delta24h": 56
+      "value": 35094,
+      "delta24h": 44
     },
     "totalFunding": {
       "valueUsd": 211593601219,
-      "rounds": 29020
+      "rounds": 29022
     },
     "exits": {
       "count": 3336,
       "valueUsd": 312429183200
     },
     "employees": {
-      "total": 778093,
+      "total": 778122,
       "avgPerStartup": 28
     },
     "patents": {
@@ -975,22 +975,22 @@
         807,
         916,
         1036,
-        1129,
+        1128,
         1421,
         1463,
         1753,
         1819,
         1735,
         1812,
-        1763,
-        1691,
+        1764,
+        1692,
         1835,
         1676,
         1466,
         1325,
         1254,
         1163,
-        542
+        543
       ],
       "closed": [
         0,
@@ -1051,7 +1051,7 @@
         410,
         487,
         504,
-        635,
+        634,
         864,
         846,
         966,
@@ -1070,9 +1070,9 @@
       ],
       "statusMix": {
         "inactive": 426,
-        "active": 17524,
-        "unknown": 3681,
-        "closed": 13461
+        "active": 17526,
+        "unknown": 3682,
+        "closed": 13460
       }
     },
     "funding": {
@@ -1167,7 +1167,7 @@
         1965,
         1500,
         1427,
-        1353,
+        1355,
         549
       ],
       "raisedUsd": [
@@ -1218,8 +1218,8 @@
         19268325234
       ],
       "stageMix": {
-        "Seed": 13538,
-        "Series A": 4485,
+        "Seed": 13539,
+        "Series A": 4486,
         "Other": 3494,
         "Series B": 1875,
         "Series C": 1737,
@@ -1437,17 +1437,90 @@
   },
   "survivability": {
     "composition": {
-      "active": 19396,
-      "closed": 12360,
+      "active": 19399,
+      "closed": 12359,
       "exited": 3336
     },
     "funnel": {
-      "all": 35092,
+      "all": 35094,
       "funded": 15326,
-      "over1m": 6081,
-      "over10m": 3005,
+      "over1m": 6080,
+      "over10m": 3006,
+      "over100m": 547,
       "exited": 3336
     },
+    "cohorts": [
+      {
+        "year": 2017,
+        "total": 1812,
+        "exited": 133,
+        "closed": 690,
+        "active": 989
+      },
+      {
+        "year": 2018,
+        "total": 1764,
+        "exited": 110,
+        "closed": 620,
+        "active": 1034
+      },
+      {
+        "year": 2019,
+        "total": 1692,
+        "exited": 104,
+        "closed": 538,
+        "active": 1050
+      },
+      {
+        "year": 2020,
+        "total": 1835,
+        "exited": 86,
+        "closed": 460,
+        "active": 1289
+      },
+      {
+        "year": 2021,
+        "total": 1676,
+        "exited": 87,
+        "closed": 401,
+        "active": 1188
+      },
+      {
+        "year": 2022,
+        "total": 1466,
+        "exited": 63,
+        "closed": 288,
+        "active": 1115
+      },
+      {
+        "year": 2023,
+        "total": 1325,
+        "exited": 29,
+        "closed": 164,
+        "active": 1132
+      },
+      {
+        "year": 2024,
+        "total": 1254,
+        "exited": 30,
+        "closed": 76,
+        "active": 1148
+      },
+      {
+        "year": 2025,
+        "total": 1163,
+        "exited": 14,
+        "closed": 33,
+        "active": 1116
+      },
+      {
+        "year": 2026,
+        "total": 543,
+        "exited": 3,
+        "closed": 4,
+        "active": 536
+      }
+    ],
     "timeToExit": {
       "overall": {
         "avgYears": 9.3,
@@ -1571,10 +1644,10 @@
       },
       {
         "year": 2018,
-        "total": 1733,
+        "total": 1734,
         "unknown": 30,
         "counts": {
-          "it-telecom": 648,
+          "it-telecom": 649,
           "healthcare-food": 376,
           "consumer-goods-services": 332,
           "energy-utilities": 45,
@@ -1582,33 +1655,33 @@
           "media-entertainment": 164
         },
         "shares": {
-          "it-telecom": 0.3739180611656088,
-          "healthcare-food": 0.21696480092325446,
-          "consumer-goods-services": 0.19157530294287364,
-          "energy-utilities": 0.025966532025389497,
-          "financial-services": 0.09694171956145413,
-          "media-entertainment": 0.0946335833814195
+          "it-telecom": 0.3742791234140715,
+          "healthcare-food": 0.21683967704728951,
+          "consumer-goods-services": 0.1914648212226067,
+          "energy-utilities": 0.025951557093425604,
+          "financial-services": 0.09688581314878893,
+          "media-entertainment": 0.09457900807381776
         }
       },
       {
         "year": 2019,
-        "total": 1642,
+        "total": 1643,
         "unknown": 49,
         "counts": {
           "it-telecom": 621,
           "healthcare-food": 383,
           "consumer-goods-services": 302,
           "energy-utilities": 54,
-          "financial-services": 106,
+          "financial-services": 107,
           "media-entertainment": 176
         },
         "shares": {
-          "it-telecom": 0.3781973203410475,
-          "healthcare-food": 0.23325213154689403,
-          "consumer-goods-services": 0.18392204628501826,
-          "energy-utilities": 0.03288672350791717,
-          "financial-services": 0.06455542021924482,
-          "media-entertainment": 0.1071863580998782
+          "it-telecom": 0.37796713329275716,
+          "healthcare-food": 0.2331101643335362,
+          "consumer-goods-services": 0.18381010346926355,
+          "energy-utilities": 0.032866707242848445,
+          "financial-services": 0.06512477175897748,
+          "media-entertainment": 0.10712111990261716
         }
       },
       {
@@ -1739,23 +1812,23 @@
       },
       {
         "year": 2026,
-        "total": 507,
+        "total": 508,
         "unknown": 35,
         "counts": {
           "it-telecom": 301,
           "healthcare-food": 52,
-          "consumer-goods-services": 66,
+          "consumer-goods-services": 67,
           "energy-utilities": 19,
           "financial-services": 31,
           "media-entertainment": 38
         },
         "shares": {
-          "it-telecom": 0.5936883629191322,
-          "healthcare-food": 0.10256410256410256,
-          "consumer-goods-services": 0.1301775147928994,
-          "energy-utilities": 0.03747534516765286,
-          "financial-services": 0.0611439842209073,
-          "media-entertainment": 0.07495069033530571
+          "it-telecom": 0.59251968503937,
+          "healthcare-food": 0.10236220472440945,
+          "consumer-goods-services": 0.13188976377952755,
+          "energy-utilities": 0.03740157480314961,
+          "financial-services": 0.0610236220472441,
+          "media-entertainment": 0.07480314960629922
         }
       }
     ],
@@ -1763,42 +1836,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 13993,
-        "share": 0.4073179251324445
+        "count": 13994,
+        "share": 0.40732332052625453
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6647,
-        "share": 0.19348547476276415
+        "count": 6646,
+        "share": 0.19344510420305042
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 5956,
-        "share": 0.17337136869069103
+        "count": 5957,
+        "share": 0.17339038304808477
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1533,
-        "share": 0.04462362461430983
+        "share": 0.04462102689486552
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 2030,
-        "share": 0.05909064446643768
+        "count": 2031,
+        "share": 0.05911631156129934
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4195,
-        "share": 0.12211096233335274
+        "share": 0.12210385376644545
       }
     ],
     "mixSummary": {
-      "totalVisible": 14148,
+      "totalVisible": 14151,
       "totalUnknown": 379
     },
     "subTrendYears": [
@@ -1833,15 +1906,15 @@
         ],
         "shares": [
           0.03492957746478873,
-          0.02424942263279446,
-          0.0364741641337386,
+          0.024235429890363532,
+          0.03645200486026731,
           0.027793218454697052,
           0.03190184049079755,
           0.035416666666666666,
           0.06471494607087827,
           0.07648026315789473,
           0.10126582278481013,
-          0.1301775147928994
+          0.12992125984251968
         ]
       },
       {
@@ -1863,15 +1936,15 @@
         ],
         "shares": [
           0.13802816901408452,
-          0.14722863741339492,
-          0.15015197568389058,
+          0.14714368147720716,
+          0.1500607533414338,
           0.16342412451361868,
           0.15950920245398773,
           0.1597222222222222,
           0.1926040061633282,
           0.16036184210526316,
           0.18354430379746836,
-          0.20512820512820512
+          0.2047244094488189
         ]
       },
       {
@@ -1893,15 +1966,15 @@
         ],
         "shares": [
           0.049577464788732394,
-          0.059468822170900694,
-          0.04802431610942249,
+          0.05943450663589152,
+          0.0479951397326853,
           0.0500277932184547,
           0.05705521472392638,
           0.06527777777777778,
           0.05855161787365177,
           0.08717105263157894,
           0.07866184448462929,
-          0.06903353057199212
+          0.0688976377952756
         ]
       },
       {
@@ -1923,15 +1996,15 @@
         ],
         "shares": [
           0.016901408450704224,
-          0.014434180138568129,
-          0.01762917933130699,
+          0.014425851125216388,
+          0.01761846901579587,
           0.013340744858254585,
           0.011042944785276074,
           0.017361111111111112,
           0.023112480739599383,
           0.02138157894736842,
           0.0406871609403255,
-          0.055226824457593686
+          0.05511811023622047
         ]
       },
       {
@@ -1953,15 +2026,15 @@
         ],
         "shares": [
           0.007887323943661971,
-          0.009237875288683603,
-          0.011550151975683891,
+          0.009232544720138488,
+          0.011543134872417983,
           0.013896609227348526,
           0.01717791411042945,
           0.027083333333333334,
           0.02234206471494607,
           0.023026315789473683,
           0.0162748643761302,
-          0.015779092702169626
+          0.015748031496062992
         ]
       }
     ],
@@ -1985,15 +2058,15 @@
         ],
         "shares": [
           0.036056338028169016,
-          0.03002309468822171,
-          0.00911854103343465,
+          0.030005770340450086,
+          0.009113001215066828,
           0.010561423012784881,
           0.017791411042944787,
           0.018055555555555554,
           0.00847457627118644,
           0.004111842105263158,
           0.009041591320072333,
-          0.005917159763313609
+          0.005905511811023622
         ]
       },
       {
@@ -2015,15 +2088,15 @@
         ],
         "shares": [
           0.024225352112676058,
-          0.027136258660508082,
-          0.03768996960486322,
+          0.027120600115406807,
+          0.03766707168894289,
           0.032240133407448586,
           0.02638036809815951,
           0.03680555555555556,
           0.02234206471494607,
           0.018914473684210526,
           0.009041591320072333,
-          0.0039447731755424065
+          0.003937007874015748
         ]
       },
       {
@@ -2045,15 +2118,15 @@
         ],
         "shares": [
           0.04338028169014085,
-          0.024826789838337183,
-          0.02796352583586626,
+          0.024812463935372186,
+          0.027946537059538274,
           0.02501389660922735,
           0.02147239263803681,
           0.013194444444444444,
           0.017719568567026195,
           0.02055921052631579,
           0.020795660036166366,
-          0.0019723865877712033
+          0.001968503937007874
         ]
       },
       {
@@ -2075,15 +2148,15 @@
         ],
         "shares": [
           0.01915492957746479,
-          0.023094688221709007,
-          0.019452887537993922,
+          0.02308136180034622,
+          0.019441069258809233,
           0.014452473596442469,
           0.007361963190184049,
           0.0125,
           0.007704160246533128,
           0.009868421052631578,
           0.009041591320072333,
-          0.009861932938856016
+          0.00984251968503937
         ]
       },
       {
@@ -2105,22 +2178,22 @@
         ],
         "shares": [
           0.0647887323943662,
-          0.05196304849884527,
-          0.05714285714285714,
+          0.05193306405077899,
+          0.05710814094775213,
           0.06837131739855476,
           0.051533742331288344,
           0.05625,
           0.05084745762711865,
           0.05263157894736842,
           0.0406871609403255,
-          0.02564102564102564
+          0.025590551181102362
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 9942,
+      "deeptechCount": 9941,
       "deeptechPct": 28.3,
-      "globalCount": 14915,
+      "globalCount": 14917,
       "globalPct": 42.5
     }
   },
@@ -2161,17 +2234,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Corma Labs",
-        "stage": "Seed",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Doral Renewables",
         "stage": "Private Equity",
         "amountUsd": 400000000,
@@ -2180,6 +2242,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Common Equity Investment - Doral Group"
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Corma Labs",
+        "stage": "Seed",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-08-07T00:00:00.000Z",
@@ -2225,17 +2298,6 @@
       },
       {
         "ts": "2026-08-03T00:00:00.000Z",
-        "org": "Steakholder Foods",
-        "stage": "Post-IPO",
-        "amountUsd": 3500000,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement"
-      },
-      {
-        "ts": "2026-08-03T00:00:00.000Z",
         "org": "Benivo",
         "stage": "Series C",
         "amountUsd": 7000000,
@@ -2257,23 +2319,23 @@
         "roundTitle": "Series C"
       },
       {
+        "ts": "2026-08-03T00:00:00.000Z",
+        "org": "Steakholder Foods",
+        "stage": "Post-IPO",
+        "amountUsd": 3500000,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement"
+      },
+      {
         "ts": "2026-08-02T00:00:00.000Z",
         "org": "Arrakis Security",
         "stage": "Seed",
         "amountUsd": 8000000,
         "investors": [],
         "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-07-30T00:00:00.000Z",
-        "org": "Bloom Security",
-        "stage": "Seed",
-        "amountUsd": 20000000,
-        "investors": [],
-        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
@@ -2289,22 +2351,23 @@
         "isNonEquity": false
       },
       {
+        "ts": "2026-07-30T00:00:00.000Z",
+        "org": "Bloom Security",
+        "stage": "Seed",
+        "amountUsd": 20000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
         "ts": "2026-07-29T00:00:00.000Z",
         "org": "Groundcover",
         "stage": "Series C",
         "amountUsd": 100000000,
         "investors": [],
         "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-07-29T00:00:00.000Z",
-        "org": "Onyx Security",
-        "stage": "Series B",
-        "amountUsd": 113000000,
-        "investors": [],
-        "investorCount": 8,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2320,6 +2383,16 @@
         "roundTitle": "Series A"
       },
       {
+        "ts": "2026-07-29T00:00:00.000Z",
+        "org": "Onyx Security",
+        "stage": "Series B",
+        "amountUsd": 113000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
         "ts": "2026-07-28T00:00:00.000Z",
         "org": "Mate Security",
         "stage": "Series A",
@@ -2332,14 +2405,14 @@
       },
       {
         "ts": "2026-07-27T00:00:00.000Z",
-        "org": "Way Security",
+        "org": "Enigma AI Labs",
         "stage": "Seed",
-        "amountUsd": 20000000,
+        "amountUsd": 71000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Seed - Extended"
       }
     ],
     "todayStats": {
@@ -2348,6 +2421,44 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-08-24T20:26:34.920Z",
+        "org": "ReflectIt.app",
+        "industry": "Consumer Goods and Services",
+        "city": "",
+        "subIndustry": "Consumer Software",
+        "description": "AI-powered platform for guided self-reflection that combines psychological frameworks with interactive chat experiences to help users explore their thoughts and emotions.",
+        "keywords": [
+          "Guided self-reflection",
+          "AI chat",
+          "Psychological frameworks",
+          "Personal development",
+          "Mental wellness",
+          "Self-improvement app",
+          "Interactive conversations"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false,
+        "businessModel": "Subscription-based"
+      },
+      {
+        "ts": "2026-08-24T20:26:03.562Z",
+        "org": "WithKids",
+        "industry": "IT and Telecom",
+        "city": "",
+        "subIndustry": "Consumer Software",
+        "description": "Family trip planning web application that uses algorithms to generate optimized travel itineraries.",
+        "keywords": [
+          "Family trip planner",
+          "Travel itinerary generator",
+          "Vacation planning",
+          "Trip planning software",
+          "Family travel",
+          "Itinerary optimizer"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false
+      },
       {
         "ts": "2026-08-24T18:26:57.632Z",
         "org": "Accuramed",
@@ -2701,47 +2812,6 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2B SaaS platform"
-      },
-      {
-        "ts": "2026-08-24T06:15:49.870Z",
-        "org": "EventMagix",
-        "industry": "IT and Telecom",
-        "city": "Istanbul",
-        "subIndustry": "Enterprise Software",
-        "description": "Cloud-based event technology platform providing registration, ticketing, abstract management, live engagement, and AI-driven automation for onsite, virtual, and hybrid events.",
-        "domain": "eventmagix.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/b2fc369b-6eb9-46fe-8790-727095b48b8a.jpg",
-        "keywords": [
-          "Event management software",
-          "Virtual event platform",
-          "Hybrid event technology",
-          "Conference registration",
-          "Audience engagement tools",
-          "Event analytics"
-        ],
-        "exactEmployees": 4,
-        "isDeeptech": false,
-        "businessModel": "SaaS"
-      },
-      {
-        "ts": "2026-08-24T06:04:45.152Z",
-        "org": "APEX PCB",
-        "industry": "IT and Telecom",
-        "city": "Pardesiya",
-        "subIndustry": "Hardware & Semiconductors",
-        "description": "Manufacturer of custom printed circuit boards providing prototyping and small-batch production services, with capabilities in multilayer, rigid-flex, HDI, and high-frequency technologies.",
-        "domain": "apexpcb.co.il",
-        "keywords": [
-          "PCB manufacturing",
-          "PCB prototyping",
-          "Multilayer PCB",
-          "HDI circuit boards",
-          "Rigid-flex PCB",
-          "Small-batch PCB production",
-          "Electronic manufacturing services"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B Manufacturing"
       }
     ],
     "notable": [
@@ -2749,8 +2819,8 @@
         "ts": "2026-08-20T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Intragel Therapeutics",
-        "summary": "IntraGel Therapeutics and UroGen Pharma signed strategic collaboration and investment agreements, including an equity investment of up to $7 million to support Phase 2 development of TumoCure, and an exclusive option for UroGen to obtain worldwide rights to TumoCure and access to the SRGel platform for up to three additional oncology products."
+        "org": "Awager",
+        "summary": "Awager announced a partnership with BetMGM making its live-streamed real slot machine experience available to BetMGM and Borgata Online players in New Jersey, with 50 cabinets and more than 30 game titles at launch."
       },
       {
         "ts": "2026-08-20T00:00:00.000Z",
@@ -2763,8 +2833,8 @@
         "ts": "2026-08-20T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Awager",
-        "summary": "Awager announced a partnership with BetMGM making its live-streamed real slot machine experience available to BetMGM and Borgata Online players in New Jersey, with 50 cabinets and more than 30 game titles at launch."
+        "org": "Intragel Therapeutics",
+        "summary": "IntraGel Therapeutics and UroGen Pharma signed strategic collaboration and investment agreements, including an equity investment of up to $7 million to support Phase 2 development of TumoCure, and an exclusive option for UroGen to obtain worldwide rights to TumoCure and access to the SRGel platform for up to three additional oncology products."
       },
       {
         "ts": "2026-08-19T00:00:00.000Z",
@@ -2776,16 +2846,16 @@
       {
         "ts": "2026-08-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
+        "rawKind": "Customer Milestone",
         "org": "SofWave Medical",
-        "summary": "Recognized with the 2026 Korea First Brand Award in the Lifting Medical Device category."
+        "summary": "Surpassed one million Sofwave treatments worldwide; milestone treatment performed in South Korea."
       },
       {
         "ts": "2026-08-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
+        "rawKind": "Award Recognition",
         "org": "SofWave Medical",
-        "summary": "Surpassed one million Sofwave treatments worldwide; milestone treatment performed in South Korea."
+        "summary": "Recognized with the 2026 Korea First Brand Award in the Lifting Medical Device category."
       },
       {
         "ts": "2026-08-18T00:00:00.000Z",
@@ -2810,17 +2880,17 @@
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Attribute",
-        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
-      },
-      {
-        "ts": "2026-08-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Regulatory and Compliance",
         "org": "GlucoTrack",
         "summary": "Regained compliance with Nasdaq's stockholders' equity requirement; the Nasdaq Hearings Panel granted continued listing, subject to conditions."
+      },
+      {
+        "ts": "2026-08-17T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Attribute",
+        "summary": "Acquired by DoiT for an estimated $65 million. DoiT is a multicloud cloud management and FinOps provider; the deal brings Attribute's kernel-level eBPF cost-attribution technology, which DoiT has referenced as the foundation for its Tokenomics Foundation involvement."
       },
       {
         "ts": "2026-08-17T00:00:00.000Z",
@@ -2841,28 +2911,14 @@
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Lifeward",
-        "summary": "Chairman of the Board Bob Marshall and Directors Mike Swinford and William Sigsbee stepped down from the board, effective August 13, 2026."
+        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
       },
       {
         "ts": "2026-08-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Lifeward",
-        "summary": "Chief Financial Officer Almog Adar decided to depart, effective September 30, 2026."
-      },
-      {
-        "ts": "2026-08-13T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Firmus Technologies",
-        "summary": "Acquired Benmax's fabrication, design and projects businesses for A$300 million, bringing HyperCube AI Factory manufacturing in-house."
-      },
-      {
-        "ts": "2026-08-13T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "MediWound",
-        "summary": "Entered into a Master Services Agreement (MSA) with Vericel under its BARDA contract covering NexoBrid and next-generation product development activities."
+        "summary": "Chairman of the Board Bob Marshall and Directors Mike Swinford and William Sigsbee stepped down from the board, effective August 13, 2026."
       },
       {
         "ts": "2026-08-13T00:00:00.000Z",
@@ -2874,9 +2930,9 @@
       {
         "ts": "2026-08-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Semperis",
-        "summary": "Announced the 'Midnight in the War Room' world screening tour."
+        "rawKind": "Strategic Partnership",
+        "org": "MediWound",
+        "summary": "Entered into a Master Services Agreement (MSA) with Vericel under its BARDA contract covering NexoBrid and next-generation product development activities."
       },
       {
         "ts": "2026-08-13T00:00:00.000Z",
@@ -2884,6 +2940,20 @@
         "rawKind": "Other",
         "org": "Brenmiller Energy",
         "summary": "Corporate name changed from Brenmiller Energy Ltd. to BrenX Ltd. following registration with the Israeli Registrar of Companies."
+      },
+      {
+        "ts": "2026-08-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Semperis",
+        "summary": "Announced the 'Midnight in the War Room' world screening tour."
+      },
+      {
+        "ts": "2026-08-13T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Firmus Technologies",
+        "summary": "Acquired Benmax's fabrication, design and projects businesses for A$300 million, bringing HyperCube AI Factory manufacturing in-house."
       }
     ]
   }
