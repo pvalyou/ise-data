@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-04T08:34:03.833201Z",
+  "generatedAt": "2026-09-04T09:34:26.445215Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0
     ],
     "newOrgs": [
@@ -290,13 +290,13 @@
       163,
       165,
       186,
-      159,
+      156,
       38,
       83,
       400,
-      191,
+      190,
       356,
-      245,
+      243,
       68,
       25,
       243,
@@ -308,10 +308,10 @@
       82,
       213,
       201,
-      358,
-      344,
-      408,
-      98
+      357,
+      342,
+      406,
+      104
     ],
     "newFounders": [
       625,
@@ -343,7 +343,7 @@
       0,
       0,
       12,
-      12
+      17
     ],
     "investments": [
       0,
@@ -374,7 +374,7 @@
       0,
       0,
       0,
-      0,
+      6,
       0
     ],
     "fundingStages": [
@@ -417,7 +417,9 @@
       {},
       {},
       {},
-      {},
+      {
+        "Series C": 1
+      },
       {}
     ],
     "fundingUsd": [
@@ -449,15 +451,15 @@
       0,
       0,
       0,
-      0,
+      40000000,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 0,
-      "d30": 6
+      "d7": 1,
+      "d30": 7
     },
     "newOrgs": {
       "d1": 24,
@@ -480,24 +482,24 @@
       "d30": 3
     },
     "jobsPosted": {
-      "d1": 98,
-      "d7": 1704,
-      "d30": 5932
+      "d1": 104,
+      "d7": 1705,
+      "d30": 5927
     },
     "newFounders": {
-      "d1": 24,
-      "d7": 24,
-      "d30": 4522
+      "d1": 29,
+      "d7": 29,
+      "d30": 4527
     },
     "investments": {
       "d1": 0,
-      "d7": 0,
-      "d30": 25
+      "d7": 6,
+      "d30": 31
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 0,
-      "d30": 2511000000
+      "d7": 40000000,
+      "d30": 2551000000
     }
   },
   "news": {
@@ -1985,6 +1987,54 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-03",
+      "investor": "Assaf Rappaport",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-03",
+      "investor": "Cerca Partners",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "cerca-partners.com"
+    },
+    {
+      "ts": "2026-09-03",
+      "investor": "Emerge Ventures",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-03",
+      "investor": "ION Crossover Partners",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "ion-am.com"
+    },
+    {
+      "ts": "2026-09-03",
+      "investor": "Union Tech Ventures",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "uniontech.vc"
+    },
+    {
+      "ts": "2026-09-03",
+      "investor": "Vintage Investment Partners",
+      "company": "Guardio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "vintage-ip.com"
+    },
+    {
       "ts": "2026-08-20",
       "investor": "UroGen Pharma",
       "company": "Intragel Therapeutics",
@@ -2095,54 +2145,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "Qumra Capital",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "qumracapital.com"
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "Tadmor Group",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "TechAviv",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "Vine Ventures",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-10",
-      "investor": "Coatue",
-      "company": "Corma Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "coatue.com"
-    },
-    {
-      "ts": "2026-08-10",
-      "investor": "Coatue Management",
-      "company": "Corma Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
     }
   ],
   "patents": [
@@ -2172,6 +2174,13 @@
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-09-04",
+      "title": "VP Projects & Business Development- Enlight Local",
+      "company": "Enlight Renewable Energy",
+      "city": "Rosh HaAyin",
+      "url": "https://www.comeet.com/jobs/enlightenergy/99.006/vp-projects--business-development--enlight-local/F3.274"
+    },
     {
       "ts": "2026-09-04",
       "title": "Drone Lab Technician",
@@ -2234,19 +2243,17 @@
       "company": "XTEND",
       "city": "Tel Aviv",
       "url": "https://xtend.me/careers/backend-team-lead-c"
-    },
-    {
-      "ts": "2026-09-04",
-      "title": "Flight Test & Evaluation",
-      "company": "XTEND",
-      "city": "Tel Aviv",
-      "url": "https://xtend.me/careers/flight-test-qa"
     }
   ],
   "mix": {
     "stages": {
       "d1": [],
-      "d7": [],
+      "d7": [
+        {
+          "label": "Series C",
+          "count": 1
+        }
+      ],
       "d30": [
         {
           "label": "Seed",
@@ -2257,11 +2264,11 @@
           "count": 2
         },
         {
-          "label": "Private Equity",
-          "count": 1
+          "label": "Series C",
+          "count": 2
         },
         {
-          "label": "Series C",
+          "label": "Private Equity",
           "count": 1
         }
       ]
@@ -2362,19 +2369,19 @@
         "domain": "coatue.com"
       },
       {
+        "name": "Emerge Ventures",
+        "kind": "fund",
+        "count": 2,
+        "domain": null
+      },
+      {
         "name": "97212 Ventures",
         "kind": "fund",
         "count": 1,
         "domain": "97212.vc"
       },
       {
-        "name": "Blackstone",
-        "kind": "fund",
-        "count": 1,
-        "domain": "blackstone.com"
-      },
-      {
-        "name": "Coatue Management",
+        "name": "Assaf Rappaport",
         "kind": "fund",
         "count": 1,
         "domain": null
@@ -2402,10 +2409,10 @@
         "domain": "spotower.com"
       },
       {
-        "company": "Check Point",
-        "count": 3,
-        "city": "Tel Aviv",
-        "domain": "checkpoint.com"
+        "company": "Coralogix",
+        "count": 4,
+        "city": "Ramat Gan",
+        "domain": "coralogix.com"
       }
     ],
     "d7": [
