@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-04T11:03:15.656721Z",
+  "generatedAt": "2026-09-04T12:03:19.074524Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -148,8 +148,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      2,
       1,
       0
     ],
@@ -211,7 +211,7 @@
       0,
       0,
       0,
-      1,
+      2,
       0,
       0,
       0,
@@ -245,7 +245,7 @@
       0,
       0,
       0,
-      0,
+      2,
       0,
       0
     ],
@@ -288,30 +288,30 @@
       150,
       250,
       163,
-      165,
-      185,
+      163,
+      183,
       155,
       38,
       83,
       400,
-      190,
-      356,
-      243,
+      189,
+      357,
+      245,
       68,
-      25,
+      23,
       243,
       184,
       344,
-      390,
-      174,
+      391,
+      173,
       128,
       82,
       213,
-      201,
-      357,
-      341,
-      406,
-      108
+      202,
+      356,
+      342,
+      410,
+      113
     ],
     "newFounders": [
       625,
@@ -343,7 +343,7 @@
       0,
       0,
       12,
-      21
+      23
     ],
     "investments": [
       0,
@@ -372,8 +372,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      2,
+      14,
       6,
       0
     ],
@@ -415,8 +415,12 @@
       {},
       {},
       {},
-      {},
-      {},
+      {
+        "Series F": 1
+      },
+      {
+        "Series A": 2
+      },
       {
         "Series C": 1
       },
@@ -449,8 +453,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      166000000,
+      57000000,
       40000000,
       0
     ]
@@ -458,8 +462,8 @@
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 1,
-      "d30": 7
+      "d7": 4,
+      "d30": 10
     },
     "newOrgs": {
       "d1": 24,
@@ -468,13 +472,13 @@
     },
     "exits": {
       "d1": 0,
-      "d7": 1,
-      "d30": 4
+      "d7": 2,
+      "d30": 5
     },
     "firstChecks": {
       "d1": 0,
-      "d7": 0,
-      "d30": 2
+      "d7": 2,
+      "d30": 4
     },
     "patentsIssued": {
       "d1": 0,
@@ -482,24 +486,24 @@
       "d30": 3
     },
     "jobsPosted": {
-      "d1": 108,
-      "d7": 1708,
-      "d30": 5927
+      "d1": 113,
+      "d7": 1718,
+      "d30": 5933
     },
     "newFounders": {
-      "d1": 33,
-      "d7": 33,
-      "d30": 4531
+      "d1": 35,
+      "d7": 35,
+      "d30": 4533
     },
     "investments": {
       "d1": 0,
-      "d7": 6,
-      "d30": 31
+      "d7": 22,
+      "d30": 47
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 40000000,
-      "d30": 2551000000
+      "d7": 263000000,
+      "d30": 2774000000
     }
   },
   "news": {
@@ -1647,6 +1651,16 @@
     {
       "ts": "2026-08-31",
       "precision": "day",
+      "target": "LightSolver",
+      "acquirer": "CollPlant Biotechnologies Ltd.",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "lightsolver.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
+    },
+    {
+      "ts": "2026-08-31",
+      "precision": "day",
       "target": "Lanir",
       "acquirer": null,
       "kind": "ipo",
@@ -1722,6 +1736,16 @@
       "amountUsd": 1000000000,
       "domain": "oasis.security",
       "logoUrl": "https://kolkore.pvalyou.com/assets/8e39a6e5-272c-48dd-8bb6-0203a849fc4a.png"
+    },
+    {
+      "ts": "2026-07-24",
+      "precision": "day",
+      "target": "Hailo Technologies",
+      "acquirer": "Microchip Technology Incorporated",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "hailo.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/c66aa709-33c5-4a34-b357-74bf0ee44674.jpg"
     },
     {
       "ts": "2026-07-22",
@@ -1834,6 +1858,16 @@
     {
       "ts": "2026-07-02",
       "precision": "day",
+      "target": "LayerX",
+      "acquirer": "Akamai Technologies",
+      "kind": "acquisition",
+      "amountUsd": 205000000,
+      "domain": "layerxsecurity.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4e9da7b7-1b62-421d-878e-b5a5afe648b6.avif"
+    },
+    {
+      "ts": "2026-07-02",
+      "precision": "day",
       "target": "AnyClip",
       "acquirer": "Edge226",
       "kind": "acquisition",
@@ -1859,36 +1893,6 @@
       "amountUsd": 500000,
       "domain": "payem.co",
       "logoUrl": "https://kolkore.pvalyou.com/assets/cc19c598-fab7-416b-8eb9-a35a3fe7dd92.avif"
-    },
-    {
-      "ts": "2026-07-01",
-      "precision": "month",
-      "target": "ai.work",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "ai.work",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/8290019a-fd99-4936-9501-18f0c97e13f5.jpg"
-    },
-    {
-      "ts": "2026-07-01",
-      "precision": "month",
-      "target": "Imagine Communications",
-      "acquirer": "Lumine Group",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "imaginecommunications.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/b6c7d6fb-6abf-460c-bf35-6c3f5c24a19c.png"
-    },
-    {
-      "ts": "2026-06-30",
-      "precision": "day",
-      "target": "Meteor Aerospace",
-      "acquirer": "VisionWave Holdings, Inc.",
-      "kind": "acquisition",
-      "amountUsd": 20400000,
-      "domain": "m-aerospace.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/e6f68770-ef3c-484d-b927-fc00e7024f45.png"
     },
     {
       "ts": "2026-09-02",
@@ -1973,6 +1977,18 @@
   ],
   "firstChecks": [
     {
+      "ts": "2026-09-02",
+      "investor": "Zscaler Ventures",
+      "kind": "fund",
+      "company": "Huskeys"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": null,
+      "kind": "angel",
+      "company": "Huskeys"
+    },
+    {
       "ts": "2026-08-20",
       "investor": "UroGen Pharma",
       "kind": "fund",
@@ -2035,115 +2051,115 @@
       "domain": "vintage-ip.com"
     },
     {
-      "ts": "2026-08-20",
-      "investor": "UroGen Pharma",
-      "company": "Intragel Therapeutics",
+      "ts": "2026-09-02",
+      "investor": "ClearSky",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "clearskysec.com"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Entr\u00e9e Capital",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "entreecap.com"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "iAngels",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "iangels.com"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Mindset Ventures",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "mindset.ventures"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Singtel Innov8",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "SwishData",
+      "company": "Lasso Security",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Blackstone Innovations Investments",
+      "company": "Huskeys",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Bright Pixel Capital",
+      "company": "Huskeys",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Eran Reshef",
+      "company": "Huskeys",
       "kind": "fund",
       "isFirst": true,
-      "domain": "urogen.com"
+      "domain": null
     },
     {
-      "ts": "2026-08-17",
-      "investor": "Emerge Ventures",
-      "company": "Xpander",
+      "ts": "2026-09-02",
+      "investor": "Merlin Ventures",
+      "company": "Huskeys",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "merlin.vc"
+    },
+    {
+      "ts": "2026-09-02",
+      "investor": "Okta Ventures",
+      "company": "Huskeys",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-08-17",
-      "investor": "Pico Venture Partners",
-      "company": "Xpander",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "pico.partners"
-    },
-    {
-      "ts": "2026-08-17",
-      "investor": "Samsung Next",
-      "company": "Xpander",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "samsungnext.com"
-    },
-    {
-      "ts": "2026-08-17",
-      "investor": "SeedIL",
-      "company": "Xpander",
+      "ts": "2026-09-02",
+      "investor": "Skinos Ventures",
+      "company": "Huskeys",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-08-17",
-      "investor": "SeedIL Ventures",
-      "company": "Xpander",
+      "ts": "2026-09-02",
+      "investor": "SV Angel",
+      "company": "Huskeys",
       "kind": "fund",
       "isFirst": false,
-      "domain": "seedil.com"
+      "domain": "svangel.com"
     },
     {
-      "ts": "2026-08-12",
-      "investor": "97212 Ventures",
-      "company": "Remepy",
+      "ts": "2026-09-02",
+      "investor": "Zscaler Ventures",
+      "company": "Huskeys",
       "kind": "fund",
-      "isFirst": false,
-      "domain": "97212.vc"
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "Fresh Fund",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "IT-Farm Corp",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "Key1 Capital",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "M Ventures",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "m-ventures.com"
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "NFX",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "nfx.com"
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "O.G. Venture Partners",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "og-vp.com"
-    },
-    {
-      "ts": "2026-08-12",
-      "investor": "PsyMed Ventures",
-      "company": "Remepy",
-      "kind": "fund",
-      "isFirst": false,
+      "isFirst": true,
       "domain": null
     }
   ],
@@ -2176,10 +2192,38 @@
   "jobs": [
     {
       "ts": "2026-09-04",
+      "title": "Assistant Controller",
+      "company": "Kela",
+      "city": "Tel Aviv",
+      "url": "https://www.comeet.com/jobs/kelatechnologies/2A.007/assistant-controller/14.27B"
+    },
+    {
+      "ts": "2026-09-04",
+      "title": "\u05e0\u05e6\u05d9\u05d2/\u05ea \u05de\u05db\u05d9\u05e8\u05d5\u05ea",
+      "company": "Indocs",
+      "city": "Tel Aviv",
+      "url": "https://indocs.co.il/careers"
+    },
+    {
+      "ts": "2026-09-04",
+      "title": "\u05d3\u05e8\u05d5\u05e9\u05d4 \u05de\u05e8\u05e4\u05d0.\u05d4 \u05d1\u05e2\u05d9\u05e1\u05d5\u05e7 \u05dc\u05d2\u05e0\u05d9 \u05ea\u05e7\u05e9\u05d5\u05e8\u05ea \u05e7\u05e8\u05d9\u05d5\u05ea",
+      "company": "\u05d0\u05d5\u05ea\u05d9 - \u05e2\u05de\u05d5\u05ea\u05d4 \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea \u05dc\u05d0\u05d5\u05d8\u05d9\u05d6\u05dd",
+      "city": "Givat Shmuel",
+      "url": "https://oti.org.il/job/226"
+    },
+    {
+      "ts": "2026-09-04",
       "title": "VP Projects & Business Development- Enlight Local",
       "company": "Enlight Renewable Energy",
       "city": "Rosh HaAyin",
       "url": "https://www.comeet.com/jobs/enlightenergy/99.006/vp-projects--business-development--enlight-local/F3.274"
+    },
+    {
+      "ts": "2026-09-04",
+      "title": "Sales Development Representative (SDR) Full-time \u00b7 Entry-level",
+      "company": "Cynomi",
+      "city": "Herzliya",
+      "url": "https://cynomi.com/careers/co/orlando-office/14.860/sales-development-representative-sdr/all"
     },
     {
       "ts": "2026-09-04",
@@ -2215,34 +2259,6 @@
       "company": "XTEND",
       "city": "Tel Aviv",
       "url": "https://xtend.me/careers/employee-experience-office-manager"
-    },
-    {
-      "ts": "2026-09-04",
-      "title": "Warehouse Worker",
-      "company": "XTEND",
-      "city": "Tel Aviv",
-      "url": "https://xtend.me/careers/warehouse-worker"
-    },
-    {
-      "ts": "2026-09-04",
-      "title": "Facilities Manager",
-      "company": "XTEND",
-      "city": "Herzliya",
-      "url": "https://xtend.me/careers/facilities-manager"
-    },
-    {
-      "ts": "2026-09-04",
-      "title": "Head of C-UAS Product Line",
-      "company": "XTEND",
-      "city": "Tel Aviv",
-      "url": "https://xtend.me/careers/head-of-c-uas-product-line"
-    },
-    {
-      "ts": "2026-09-04",
-      "title": "Backend Team Lead (C++)",
-      "company": "XTEND",
-      "city": "Tel Aviv",
-      "url": "https://xtend.me/careers/backend-team-lead-c"
     }
   ],
   "mix": {
@@ -2250,17 +2266,25 @@
       "d1": [],
       "d7": [
         {
+          "label": "Series A",
+          "count": 2
+        },
+        {
           "label": "Series C",
+          "count": 1
+        },
+        {
+          "label": "Series F",
           "count": 1
         }
       ],
       "d30": [
         {
-          "label": "Seed",
-          "count": 2
+          "label": "Series A",
+          "count": 4
         },
         {
-          "label": "Series A",
+          "label": "Seed",
           "count": 2
         },
         {
@@ -2269,6 +2293,10 @@
         },
         {
           "label": "Private Equity",
+          "count": 1
+        },
+        {
+          "label": "Series F",
           "count": 1
         }
       ]
@@ -2436,7 +2464,7 @@
       },
       {
         "company": "Agoda",
-        "count": 21,
+        "count": 23,
         "city": "Tel Aviv",
         "domain": "agoda.com"
       }
@@ -2462,7 +2490,7 @@
       },
       {
         "company": "Amazon",
-        "count": 143,
+        "count": 144,
         "city": "Tel Aviv",
         "domain": "amazon.com"
       }
