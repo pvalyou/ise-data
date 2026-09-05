@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T23:59:00.738Z",
+  "generatedAt": "2026-09-05T01:03:11.872Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35166,
-      "delta24h": 18
+      "delta24h": 15
     },
     "totalFunding": {
       "valueUsd": 218081711309,
@@ -175,7 +175,7 @@
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 147192,
+      "total": 147396,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -2223,33 +2223,11 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Upwind",
         "stage": "Series C",
         "amountUsd": 300000000,
         "investors": [],
         "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2266,15 +2244,26 @@
         "roundTitle": "Series C"
       },
       {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2286,6 +2275,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series F"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2333,17 +2333,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Corma Labs",
-        "stage": "Seed",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Doral Renewables",
         "stage": "Private Equity",
         "amountUsd": 400000000,
@@ -2352,6 +2341,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Common Equity Investment - Doral Group"
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Corma Labs",
+        "stage": "Seed",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-08-07T00:00:00.000Z",
@@ -2365,16 +2365,6 @@
       },
       {
         "ts": "2026-08-05T00:00:00.000Z",
-        "org": "Faye",
-        "stage": "Series C",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-08-05T00:00:00.000Z",
         "org": "GlucoTrack",
         "stage": "Post-IPO",
         "amountUsd": 5500000,
@@ -2383,6 +2373,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Private Placement"
+      },
+      {
+        "ts": "2026-08-05T00:00:00.000Z",
+        "org": "Faye",
+        "stage": "Series C",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-08-04T00:00:00.000Z",
@@ -2408,11 +2408,11 @@
       },
       {
         "ts": "2026-08-03T00:00:00.000Z",
-        "org": "Zenity",
+        "org": "Benivo",
         "stage": "Series C",
-        "amountUsd": 125000000,
+        "amountUsd": 7000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2860,9 +2860,9 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Huskeys",
-        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
+        "rawKind": "Product Launch",
+        "org": "Lasso Security",
+        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2874,9 +2874,9 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2888,16 +2888,16 @@
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "SofWave Medical",
-        "summary": "Announced participation in the Wells Fargo 21st Annual Healthcare Conference."
+        "rawKind": "Product Launch",
+        "org": "DataAgent",
+        "summary": "DataAgent emerged from stealth with the launch of its remediation-first Digital Immune System platform \u2014 an AI-native autonomous SRE for Kubernetes and connected infrastructure that deploys open-source agents inside the customer's cluster to autonomously remediate production faults and reduce observability costs. Announced alongside a $10M pre-seed round (funding tracked separately), led by MizMaa Ventures and Alicorn Venture Partners, with go-to-market expansion planned for North America."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HiBob",
-        "summary": "Annualized revenue surpassed $400 million, announced alongside the $166M Salesforce-led funding round at a $3.2B valuation."
+        "rawKind": "Conference Presentation",
+        "org": "SofWave Medical",
+        "summary": "Announced participation in the Wells Fargo 21st Annual Healthcare Conference."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2916,9 +2916,9 @@
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "DataAgent",
-        "summary": "DataAgent emerged from stealth with the launch of its remediation-first Digital Immune System platform \u2014 an AI-native autonomous SRE for Kubernetes and connected infrastructure that deploys open-source agents inside the customer's cluster to autonomously remediate production faults and reduce observability costs. Announced alongside a $10M pre-seed round (funding tracked separately), led by MizMaa Ventures and Alicorn Venture Partners, with go-to-market expansion planned for North America."
+        "rawKind": "Revenue Milestone",
+        "org": "HiBob",
+        "summary": "Annualized revenue surpassed $400 million, announced alongside the $166M Salesforce-led funding round at a $3.2B valuation."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2929,10 +2929,10 @@
       },
       {
         "ts": "2026-08-31T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "LightSolver",
-        "summary": "Acquired by CollPlant Biotechnologies (Nasdaq: CLGN), which signed a definitive agreement to acquire LightSolver Ltd., entering the supercomputing and photonic computing markets; deal expected to close that week."
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "SofWave Medical",
+        "summary": "Announced publication of data from a randomized controlled study of its Pure Impact VIP platform utilizing PlyoPulse EMS technology in the Aesthetic Surgery Journal."
       },
       {
         "ts": "2026-08-31T00:00:00.000Z",
@@ -2943,10 +2943,10 @@
       },
       {
         "ts": "2026-08-31T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "SofWave Medical",
-        "summary": "Announced publication of data from a randomized controlled study of its Pure Impact VIP platform utilizing PlyoPulse EMS technology in the Aesthetic Surgery Journal."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "LightSolver",
+        "summary": "Acquired by CollPlant Biotechnologies (Nasdaq: CLGN), which signed a definitive agreement to acquire LightSolver Ltd., entering the supercomputing and photonic computing markets; deal expected to close that week."
       },
       {
         "ts": "2026-08-28T00:00:00.000Z",
@@ -2957,17 +2957,17 @@
       },
       {
         "ts": "2026-08-26T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SCiO",
-        "summary": "Acquired by CropX Technologies. CropX's eighth and largest acquisition to date; SCIO (formerly Consumer Physics) brings portable NIR spectroscopy, 44 granted patents, enterprise customers, and a growing SaaS business. Purchase price reportedly below the $64M SCIO had raised, making it a below-cost exit."
-      },
-      {
-        "ts": "2026-08-26T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Xsight Labs",
         "summary": "Netberg launched its Aurora X2 Series switches (12.8 Tbps spine and 3.2 Tbps access) built on Xsight Labs' X2 programmable silicon, sharing one architecture and software stack."
+      },
+      {
+        "ts": "2026-08-26T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SCiO",
+        "summary": "Acquired by CropX Technologies. CropX's eighth and largest acquisition to date; SCIO (formerly Consumer Physics) brings portable NIR spectroscopy, 44 granted patents, enterprise customers, and a growing SaaS business. Purchase price reportedly below the $64M SCIO had raised, making it a below-cost exit."
       },
       {
         "ts": "2026-08-26T00:00:00.000Z",
