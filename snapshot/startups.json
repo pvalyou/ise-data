@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T07:48:44.143Z",
+  "generatedAt": "2026-09-06T09:01:23.271Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,22 +160,22 @@
   "kpis": {
     "startups": {
       "value": 35204,
-      "delta24h": 28
+      "delta24h": 27
     },
     "totalFunding": {
-      "valueUsd": 218369711309,
-      "rounds": 29105
+      "valueUsd": 218389711309,
+      "rounds": 29106
     },
     "exits": {
       "count": 3349,
       "valueUsd": 319998493200
     },
     "employees": {
-      "total": 778208,
+      "total": 778207,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 151090,
+      "total": 151234,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -1162,7 +1162,7 @@
         1295,
         1535,
         1547,
-        1609,
+        1610,
         2076,
         1969,
         1506,
@@ -1209,7 +1209,7 @@
         6663896636,
         7702812924,
         12428989972,
-        14020161821,
+        14040161821,
         38358393010,
         23105452702,
         11984665063,
@@ -2212,17 +2212,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lasso Security",
         "stage": "Series A",
         "amountUsd": 30000000,
@@ -2231,6 +2220,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2267,6 +2267,17 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
+        "org": "HiBob",
+        "stage": "Series F",
+        "amountUsd": 166000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series F"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
         "amountUsd": 15000000,
@@ -2286,17 +2297,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "HiBob",
-        "stage": "Series F",
-        "amountUsd": 166000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series F"
       },
       {
         "ts": "2026-08-20T00:00:00.000Z",
@@ -2333,17 +2333,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Corma Labs",
-        "stage": "Seed",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Doral Renewables",
         "stage": "Private Equity",
         "amountUsd": 400000000,
@@ -2354,12 +2343,33 @@
         "roundTitle": "Common Equity Investment - Doral Group"
       },
       {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Corma Labs",
+        "stage": "Seed",
+        "amountUsd": 60000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
         "ts": "2026-08-07T00:00:00.000Z",
         "org": "Firmus Technologies",
         "stage": "Series C",
         "amountUsd": 2000000000,
         "investors": [],
         "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-08-05T00:00:00.000Z",
+        "org": "Faye",
+        "stage": "Series C",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false
       },
@@ -2375,33 +2385,12 @@
         "roundTitle": "Private Placement"
       },
       {
-        "ts": "2026-08-05T00:00:00.000Z",
-        "org": "Faye",
-        "stage": "Series C",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
         "ts": "2026-08-04T00:00:00.000Z",
         "org": "Oligo",
         "stage": "Series B",
         "amountUsd": 60000000,
         "investors": [],
         "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-08-03T00:00:00.000Z",
-        "org": "Zenity",
-        "stage": "Series C",
-        "amountUsd": 125000000,
-        "investors": [],
-        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2416,6 +2405,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Private Placement"
+      },
+      {
+        "ts": "2026-08-03T00:00:00.000Z",
+        "org": "Benivo",
+        "stage": "Series C",
+        "amountUsd": 7000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       }
     ],
     "todayStats": {
@@ -2867,6 +2867,13 @@
     "notable": [
       {
         "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Guardio",
+        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Sweep.io",
@@ -2880,11 +2887,11 @@
         "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
       },
       {
-        "ts": "2026-09-03T00:00:00.000Z",
+        "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Guardio",
-        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
+        "rawKind": "Product Launch",
+        "org": "Lasso Security",
+        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2896,51 +2903,16 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Huskeys",
-        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Huskeys",
         "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
       },
       {
-        "ts": "2026-09-01T00:00:00.000Z",
+        "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cato Networks",
-        "summary": "Launched SMB FlexPool to help managed service providers (MSPs) scale managed SASE for small and midsize businesses."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lumus",
-        "summary": "Expanded manufacturing partnership with Quanta Computer via a new licensing agreement under which Quanta will manufacture Lumus' next-generation waveguides (Z-30 2.0 and the A-Lens family), thinner, lighter and lower-cost for high-volume consumer AR/AI glasses production; combined capacity with SCHOTT exceeds six million units."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "VAST Data",
-        "summary": "VAST Data and CrowdStrike delivered first-of-its-kind cybersecurity across the AI Operating System, with native CrowdStrike Falcon support integrating protection across AI infrastructure, enterprise data access and AI pipelines."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "XTEND",
-        "summary": "Expanded XOS-powered robotics ecosystem into the ground domain with AtlasROVER, the first deployment since XTEND's acquisition of Atlas, extending XOS-powered systems from air into ground robotics."
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2959,9 +2931,30 @@
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Cato Networks",
+        "summary": "Launched SMB FlexPool to help managed service providers (MSPs) scale managed SASE for small and midsize businesses."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "XTEND",
+        "summary": "Expanded XOS-powered robotics ecosystem into the ground domain with AtlasROVER, the first deployment since XTEND's acquisition of Atlas, extending XOS-powered systems from air into ground robotics."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Customer Milestone",
         "org": "Ultra Red",
         "summary": "JST deployed ULTRA RED's automated penetration testing to meet government compliance requirements, cutting testing cycles from years to days."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Lumus",
+        "summary": "Expanded manufacturing partnership with Quanta Computer via a new licensing agreement under which Quanta will manufacture Lumus' next-generation waveguides (Z-30 2.0 and the A-Lens family), thinner, lighter and lower-cost for high-volume consumer AR/AI glasses production; combined capacity with SCHOTT exceeds six million units."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2971,11 +2964,11 @@
         "summary": "Announced participation in the Wells Fargo 21st Annual Healthcare Conference."
       },
       {
-        "ts": "2026-08-31T00:00:00.000Z",
+        "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "SofWave Medical",
-        "summary": "Announced publication of data from a randomized controlled study of its Pure Impact VIP platform utilizing PlyoPulse EMS technology in the Aesthetic Surgery Journal."
+        "rawKind": "Strategic Partnership",
+        "org": "VAST Data",
+        "summary": "VAST Data and CrowdStrike delivered first-of-its-kind cybersecurity across the AI Operating System, with native CrowdStrike Falcon support integrating protection across AI infrastructure, enterprise data access and AI pipelines."
       },
       {
         "ts": "2026-08-31T00:00:00.000Z",
@@ -2983,6 +2976,13 @@
         "rawKind": "Acquisition",
         "org": "LightSolver",
         "summary": "Acquired by CollPlant Biotechnologies (Nasdaq: CLGN), which signed a definitive agreement to acquire LightSolver Ltd., entering the supercomputing and photonic computing markets; deal expected to close that week."
+      },
+      {
+        "ts": "2026-08-31T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "SofWave Medical",
+        "summary": "Announced publication of data from a randomized controlled study of its Pure Impact VIP platform utilizing PlyoPulse EMS technology in the Aesthetic Surgery Journal."
       },
       {
         "ts": "2026-08-31T00:00:00.000Z",
@@ -3000,10 +3000,10 @@
       },
       {
         "ts": "2026-08-26T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "HiBob",
-        "summary": "A new Brandon Hall Group HCM Platform Review affirmed HiBob's vision for a new generation of unified workforce platforms."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SCiO",
+        "summary": "Acquired by CropX Technologies. CropX's eighth and largest acquisition to date; SCIO (formerly Consumer Physics) brings portable NIR spectroscopy, 44 granted patents, enterprise customers, and a growing SaaS business. Purchase price reportedly below the $64M SCIO had raised, making it a below-cost exit."
       }
     ]
   }
