@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-09T12:35:31.810176Z",
+  "generatedAt": "2026-09-09T13:38:02.502777Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0
     ],
     "newOrgs": [
@@ -282,36 +282,36 @@
       0
     ],
     "jobsPosted": [
-      152,
+      151,
       145,
       135,
       122,
       19,
       86,
       338,
-      174,
-      341,
-      220,
-      61,
-      23,
+      178,
+      340,
+      219,
+      63,
+      22,
       220,
       173,
       315,
-      367,
+      368,
       163,
       120,
       83,
       195,
-      186,
-      317,
+      185,
+      316,
       313,
       305,
-      152,
+      151,
       40,
-      304,
-      382,
-      450,
-      123
+      303,
+      379,
+      446,
+      158
     ],
     "newFounders": [
       117,
@@ -343,7 +343,7 @@
       56,
       82,
       102,
-      54
+      57
     ],
     "investments": [
       0,
@@ -374,7 +374,7 @@
       0,
       0,
       0,
-      0,
+      3,
       0
     ],
     "fundingStages": [
@@ -423,7 +423,9 @@
       {},
       {},
       {},
-      {},
+      {
+        "Convertible Note": 1
+      },
       {}
     ],
     "fundingUsd": [
@@ -455,18 +457,18 @@
       0,
       0,
       0,
-      0,
+      245000000,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 1,
-      "d30": 13
+      "d7": 2,
+      "d30": 14
     },
     "newOrgs": {
-      "d1": 30,
+      "d1": 29,
       "d7": 175,
       "d30": 4134
     },
@@ -486,24 +488,24 @@
       "d30": 16
     },
     "jobsPosted": {
-      "d1": 123,
-      "d7": 1756,
-      "d30": 6024
+      "d1": 158,
+      "d7": 1782,
+      "d30": 6051
     },
     "newFounders": {
-      "d1": 103,
-      "d7": 401,
-      "d30": 2927
+      "d1": 88,
+      "d7": 404,
+      "d30": 2930
     },
     "investments": {
       "d1": 0,
-      "d7": 6,
-      "d30": 79
+      "d7": 9,
+      "d30": 82
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 40000000,
-      "d30": 1494000000
+      "d7": 285000000,
+      "d30": 1739000000
     }
   },
   "news": {
@@ -1996,6 +1998,30 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-08",
+      "investor": "Lightspeed Venture Partners",
+      "company": "Cylake",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "lsvp.com"
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Picture Capital",
+      "company": "Cylake",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "picture.capital"
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Redpoint Ventures",
+      "company": "Cylake",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "redpoint.com"
+    },
+    {
       "ts": "2026-09-03",
       "investor": "Assaf Rappaport",
       "company": "Guardio",
@@ -2130,30 +2156,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "greylock.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Leaders Fund",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Penny Jar Capital",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Salesforce Ventures",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "salesforceventures.com"
     }
   ],
   "patents": [
@@ -2184,26 +2186,10 @@
     {
       "ts": "2026-08-18",
       "kind": "granted",
-      "org": "Synthesis",
-      "title": "Intelligent agent real-time decision-making method and system based on riemannian manifold and medium",
-      "number": "122311474",
-      "url": "https://patents.google.com/patent/CN122311474B/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
       "org": "Minerva",
       "title": "Handle assembly for tissue resection device",
       "number": "12708398",
       "url": "https://patents.google.com/patent/US12708398B2/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
-      "org": "Focus",
-      "title": "Low-voltage high-brightness reversed-polarity red light led chip and preparation method thereof",
-      "number": "122340983",
-      "url": "https://patents.google.com/patent/CN122340983B/en"
     },
     {
       "ts": "2026-08-18",
@@ -2217,9 +2203,9 @@
       "ts": "2026-08-18",
       "kind": "granted",
       "org": "Synthesis",
-      "title": "Secondary network unbalance detection method, system and equipment for heat supply system",
-      "number": "120926486",
-      "url": "https://patents.google.com/patent/CN120926486B/en"
+      "title": "Intelligent agent real-time decision-making method and system based on riemannian manifold and medium",
+      "number": "122311474",
+      "url": "https://patents.google.com/patent/CN122311474B/en"
     },
     {
       "ts": "2026-08-18",
@@ -2228,6 +2214,22 @@
       "title": "Video generation method and device for sideway walking digital person, and medium",
       "number": "120529140",
       "url": "https://patents.google.com/patent/CN120529140B/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
+      "org": "Focus",
+      "title": "Low-voltage high-brightness reversed-polarity red light led chip and preparation method thereof",
+      "number": "122340983",
+      "url": "https://patents.google.com/patent/CN122340983B/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
+      "org": "Synthesis",
+      "title": "Secondary network unbalance detection method, system and equipment for heat supply system",
+      "number": "120926486",
+      "url": "https://patents.google.com/patent/CN120926486B/en"
     },
     {
       "ts": "2026-08-18",
@@ -2241,79 +2243,83 @@
   "jobs": [
     {
       "ts": "2026-09-09",
-      "title": "AI Agent Research Engineer Advance agent reasoning, memory, and tool use while ensuring they work across real-world codebases and teams.",
-      "company": "AutonomyAI",
-      "city": "Tel Aviv",
-      "url": "https://autonomyai.io/careers/ai-agent-engineer-data-scientist2"
+      "title": "\u05de\u05e0\u05d4\u05dc/\u05ea \u05de\u05d9\u05e0\u05d4\u05dc \u05de\u05e8\u05d7\u05d1\u05d9\u05ea \u05d1\u05d9\u05d1\u05e0\u05d4",
+      "company": "Maccabi Healthcare Services",
+      "city": null,
+      "url": "https://www.maccabi4u.co.il/careers/all-positions/\u05de\u05e0\u05d4\u05dc\u05ea-\u05e9\u05e8\u05d5\u05ea\u05d9-\u05de\u05d9\u05e0\u05d4\u05dc-\u05d1\u05de\u05e8\u05d7\u05d1-5967"
     },
     {
       "ts": "2026-09-09",
-      "title": "Senior Full Stack Developer Build scalable systems and UIs, bridging backend, frontend, and AI to power next-gen developer tools.",
-      "company": "AutonomyAI",
-      "city": "Tel Aviv",
-      "url": "https://autonomyai.io/careers/senior-full-stack-engineer"
+      "title": "\u05e4\u05e1\u05d9\u05db\u05d5\u05dc\u05d5\u05d2/\u05d9\u05ea \u05dc\u05de\u05e8\u05e4\u05d0\u05d5\u05ea \u05d1\u05e8\u05d9\u05d0\u05d5\u05ea \u05d4\u05e0\u05e4\u05e9 \u05d1\u05de\u05d7\u05d5\u05d6 \u05de\u05e8\u05db\u05d6",
+      "company": "Maccabi Healthcare Services",
+      "city": null,
+      "url": "https://www.maccabi4u.co.il/careers/all-positions/\u05e4\u05e1\u05d9\u05db\u05d5\u05dc\u05d5\u05d2\u05d9\u05ea-\u05e7\u05dc\u05d9\u05e0\u05d9\u05ea-3457"
     },
     {
       "ts": "2026-09-09",
-      "title": "Senior DevOps Engineer \u2014 Cybersecurity business unit",
-      "company": "DriveNets",
-      "city": "Tel Aviv",
-      "url": "https://drivenets.com/careers"
+      "title": "\u05e2\u05d5\"\u05e1 \u05e8\u05db\u05d6/\u05ea \u05d0\u05d5\u05d8\u05d9\u05d6\u05dd \u05d0\u05e8\u05e6\u05d9/\u05ea",
+      "company": "Maccabi Healthcare Services",
+      "city": null,
+      "url": "https://www.maccabi4u.co.il/careers/all-positions/\u05e2\u05d5\u05e1-5956"
     },
     {
       "ts": "2026-09-09",
-      "title": "AI Research Team Lead",
-      "company": "Cyera",
-      "city": "Tel Aviv",
-      "url": "https://www.comeet.com/jobs/cyera/17.008/ai-research-team-lead/75.277"
+      "title": "\u05e2\u05d5\u05d1\u05d3/\u05ea \u05e1\u05d5\u05e6\u05d9\u05d0\u05dc\u05d9/\u05ea \u05dc\u05d4\u05ea\u05e4\u05ea\u05d7\u05d5\u05ea \u05d4\u05d9\u05dc\u05d3 \u05de\u05d7\u05d5\u05d6 \u05d3\u05e8\u05d5\u05dd",
+      "company": "Maccabi Healthcare Services",
+      "city": null,
+      "url": "https://www.maccabi4u.co.il/careers/all-positions/\u05e2\u05d5\u05e1-5742"
     },
     {
       "ts": "2026-09-09",
-      "title": "Technical Competitive Intelligence Analyst",
-      "company": "Cyera",
-      "city": "Tel Aviv",
-      "url": "https://www.comeet.com/jobs/cyera/17.008/technical-competitive-intelligence-analyst/75.279"
+      "title": "Tax Operation Analyst - Temporary position",
+      "company": "Global-e",
+      "city": "Petah Tikva",
+      "url": "https://www.global-e.com/careers"
     },
     {
       "ts": "2026-09-09",
-      "title": "\u05d8\u05db\u05e0\u05d0\u05d9/\u05ea \u05d4\u05e8\u05db\u05d1\u05d5\u05ea \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5-\u05de\u05db\u05d0\u05e0\u05d9\u05d5\u05ea \u2013 \u05de\u05e9\u05e8\u05d4 \u05d6\u05de\u05e0\u05d9\u05ea",
-      "company": "Cardo",
-      "city": "Ra'anana",
-      "url": "https://www.comeet.com/jobs/cardosystems/F2.003/------/05.27E"
+      "title": "\u05e8\u05db\u05d6.\u05ea \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9.\u05ea \u05d9\u05d0\u05dc\u05dc\u05d4 \u05d0\u05e9\u05d3\u05d5\u05d3",
+      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+      "city": null,
+      "url": "https://allgood.org.il/job?position=2264"
     },
     {
       "ts": "2026-09-09",
-      "title": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05d2\u05d5\u05dc\u05e3 \u05de\u05d2\u05d9\u05d9\u05e1\u05ea \u05de\u05ea\u05d0\u05dd/\u05ea \u05dc\u05de\u05d7\u05dc\u05e7\u05ea \u05d4\u05e8\u05db\u05e9 \u05d5\u05d4\u05dc\u05d5\u05d2\u05d9\u05e1\u05d8\u05d9\u05e7\u05d4",
-      "company": "Golf Group",
-      "city": "Netanya",
-      "url": "https://www.golfgroup.co.il/jobs"
+      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05e9\u05d9\u05e7\u05d5\u05dd \u05dc\u05d0\u05d9\u05d6\u05d5\u05e8 \u05d4\u05e9\u05e8\u05d5\u05df",
+      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+      "city": null,
+      "url": "https://allgood.org.il/job?position=2275"
     },
     {
       "ts": "2026-09-09",
-      "title": "Global Recruiter - Talent Acquisition Team",
-      "company": "Alice",
-      "city": "Ramat Gan",
-      "url": "https://alice.io/positions/position-66_27b?-updates="
+      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05d9\u05d7\u05d9\u05d3\u05d4 \u05de\u05e8\u05db\u05d6 \u05d9\u05d5\u05dd \u05d8\u05d9\u05e4\u05d5\u05dc\u05d9 \u05d1\u05e8\u05d0\u05e9\u05d5\u05df \u05dc\u05e6\u05d9\u05d5\u05df",
+      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+      "city": null,
+      "url": "https://allgood.org.il/job?position=2277"
     },
     {
       "ts": "2026-09-09",
-      "title": "Application Engineer",
-      "company": "Nova",
-      "city": "Rehovot",
-      "url": "https://www.novami.com/comeetitem/15279-2"
+      "title": "\u05e8\u05db\u05d6.\u05ea \u05de\u05e7\u05e6\u05d5\u05e2\u05d9.\u05ea \u05e1\u05d1\u05d1\u05d4 \u05d0\u05e9\u05db\u05d5\u05dc \u05d4\u05d7\u05d5\u05e3",
+      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+      "city": null,
+      "url": "https://allgood.org.il/job?position=2259"
     },
     {
       "ts": "2026-09-09",
-      "title": "Application Engineer",
-      "company": "Nova",
-      "city": "Rehovot",
-      "url": "https://www.novami.com/comeetitem/5627a"
+      "title": "\u05e8\u05db\u05d6.\u05ea \u05d7\u05de\u05de\u05d4 \u05d0\u05e0\u05d8\u05e8 \u05e7\u05d9\u05e1\u05e8\u05d9\u05d4",
+      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+      "city": null,
+      "url": "https://allgood.org.il/job?position=2261"
     }
   ],
   "mix": {
     "stages": {
       "d1": [],
       "d7": [
+        {
+          "label": "Convertible Note",
+          "count": 1
+        },
         {
           "label": "Series C",
           "count": 1
@@ -2327,6 +2333,10 @@
         {
           "label": "Series A",
           "count": 4
+        },
+        {
+          "label": "Convertible Note",
+          "count": 1
         },
         {
           "label": "Pre-seed",
@@ -2362,7 +2372,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 2
+          "count": 1
         },
         {
           "label": "Media and Entertainment",
@@ -2470,22 +2480,22 @@
         "domain": "co-impact.org.il"
       },
       {
+        "company": "Cellebrite",
+        "count": 6,
+        "city": "Petah Tikva",
+        "domain": "cellebrite.com"
+      },
+      {
+        "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
+        "count": 6,
+        "city": null,
+        "domain": "allgood.org.il"
+      },
+      {
         "company": "Leaders",
         "count": 5,
         "city": "Tel Aviv",
         "domain": "ldrsgroup.com"
-      },
-      {
-        "company": "SpoTower",
-        "count": 5,
-        "city": "Tel Aviv",
-        "domain": "spotower.com"
-      },
-      {
-        "company": "Team 3 Group",
-        "count": 4,
-        "city": "Rehovot",
-        "domain": "team3.co.il"
       }
     ],
     "d7": [
@@ -2508,10 +2518,10 @@
         "domain": "peak-innovation.co"
       },
       {
-        "company": "TripleTen (Israel)",
-        "count": 34,
-        "city": "Tel Aviv",
-        "domain": "tripleten.co.il"
+        "company": "Nvidia",
+        "count": 35,
+        "city": "Yokneam",
+        "domain": "nvidia.com"
       }
     ],
     "d30": [
@@ -2535,7 +2545,7 @@
       },
       {
         "company": "Nvidia",
-        "count": 113,
+        "count": 116,
         "city": "Yokneam",
         "domain": "nvidia.com"
       }
