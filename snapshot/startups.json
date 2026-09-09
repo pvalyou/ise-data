@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:57:57.900Z",
+  "generatedAt": "2026-09-09T06:26:17.772Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35307,
-      "delta24h": 29
+      "delta24h": 28
     },
     "totalFunding": {
       "valueUsd": 220155795309,
@@ -2212,22 +2212,44 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
+        "org": "Upwind",
         "stage": "Series C",
-        "amountUsd": 550000000,
+        "amountUsd": 300000000,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
+        "org": "Lyte",
         "stage": "Series C",
-        "amountUsd": 300000000,
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
+        "investors": [],
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2244,28 +2266,6 @@
         "roundTitle": "Series A"
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
         "ts": "2026-09-01T00:00:00.000Z",
         "org": "DataAgent",
         "stage": "Pre-seed",
@@ -2278,17 +2278,6 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "HiBob",
-        "stage": "Series F",
-        "amountUsd": 166000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series F"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
         "amountUsd": 15000000,
@@ -2297,6 +2286,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round (Series C)"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "HiBob",
+        "stage": "Series F",
+        "amountUsd": 166000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series F"
       },
       {
         "ts": "2026-08-20T00:00:00.000Z",
@@ -2397,17 +2397,6 @@
       },
       {
         "ts": "2026-08-03T00:00:00.000Z",
-        "org": "Benivo",
-        "stage": "Series C",
-        "amountUsd": 7000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-08-03T00:00:00.000Z",
         "org": "Steakholder Foods",
         "stage": "Post-IPO",
         "amountUsd": 3500000,
@@ -2416,6 +2405,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Private Placement"
+      },
+      {
+        "ts": "2026-08-03T00:00:00.000Z",
+        "org": "Benivo",
+        "stage": "Series C",
+        "amountUsd": 7000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       }
     ],
     "todayStats": {
@@ -2879,13 +2879,6 @@
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Guardio",
-        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "IPO and Public Listing",
         "org": "XTEND",
@@ -2899,11 +2892,39 @@
         "summary": "Acquired by ServiceNow in a deal estimated at hundreds of millions of dollars (reported ~$400M, not officially announced or disclosed by either company). Sweep's technology works across enterprise platforms including ServiceNow, Salesforce and HubSpot; it was founded in 2021 by Ido Gaver and Eran Kirshenboim and had raised $46M in disclosed funding."
       },
       {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Guardio",
+        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Huskeys",
+        "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
+      },
+      {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Lyte",
         "summary": "Andrew Homan, managing partner at Maverick Silicon, joined Lyte's board of directors, announced alongside the company's $165M Series C led by Maverick Silicon."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Lasso Security",
+        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2920,39 +2941,18 @@
         "summary": "Signed a go-to-market agreement with Scientek Corporation (a Zen Voce company) to expand access to the Classiq hardware-agnostic quantum software platform across Taiwan's semiconductor, research and academic communities."
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Lemonade",
+        "summary": "Expanded Lemonade renters insurance to Kansas."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Huskeys",
-        "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Huskeys",
-        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cato Networks",
-        "summary": "Launched SMB FlexPool to help managed service providers (MSPs) scale managed SASE for small and midsize businesses."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HiBob",
-        "summary": "Annualized revenue surpassed $400 million, announced alongside the $166M Salesforce-led funding round at a $3.2B valuation."
+        "org": "Varonis",
+        "summary": "Varonis achieved Snowflake Premier Partner status, deepening its integration with Snowflake's data cloud for data security."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2960,20 +2960,6 @@
         "rawKind": "Conference Presentation",
         "org": "SofWave Medical",
         "summary": "Announced participation in the Wells Fargo 21st Annual Healthcare Conference."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Ultra Red",
-        "summary": "JST deployed ULTRA RED's automated penetration testing to meet government compliance requirements, cutting testing cycles from years to days."
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Formation",
-        "org": "SINC SECURITY IO",
-        "summary": "SINC SECURITY IO LTD was incorporated as an Israeli private company (reg. no. 517401451), registered in Tel Aviv-Yafo (Lipski Louis 10); legal status: active."
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2992,6 +2978,13 @@
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Company Formation",
+        "org": "SINC SECURITY IO",
+        "summary": "SINC SECURITY IO LTD was incorporated as an Israeli private company (reg. no. 517401451), registered in Tel Aviv-Yafo (Lipski Louis 10); legal status: active."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "VAST Data",
         "summary": "VAST Data and CrowdStrike delivered first-of-its-kind cybersecurity across the AI Operating System, with native CrowdStrike Falcon support integrating protection across AI infrastructure, enterprise data access and AI pipelines."
@@ -2999,9 +2992,16 @@
       {
         "ts": "2026-09-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Lemonade",
-        "summary": "Expanded Lemonade renters insurance to Kansas."
+        "rawKind": "Revenue Milestone",
+        "org": "HiBob",
+        "summary": "Annualized revenue surpassed $400 million, announced alongside the $166M Salesforce-led funding round at a $3.2B valuation."
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Ultra Red",
+        "summary": "JST deployed ULTRA RED's automated penetration testing to meet government compliance requirements, cutting testing cycles from years to days."
       }
     ]
   }
