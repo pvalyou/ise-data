@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-09T13:38:02.502777Z",
+  "generatedAt": "2026-09-09T14:35:11.674375Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,8 +150,8 @@
       0,
       0,
       0,
-      1,
-      0
+      2,
+      1
     ],
     "newOrgs": [
       119,
@@ -288,9 +288,9 @@
       122,
       19,
       86,
-      338,
-      178,
-      340,
+      337,
+      174,
+      339,
       219,
       63,
       22,
@@ -301,17 +301,17 @@
       163,
       120,
       83,
-      195,
+      194,
       185,
-      316,
+      315,
       313,
       305,
       151,
       40,
       303,
       379,
-      446,
-      158
+      443,
+      173
     ],
     "newFounders": [
       117,
@@ -343,7 +343,7 @@
       56,
       82,
       102,
-      57
+      58
     ],
     "investments": [
       0,
@@ -374,8 +374,8 @@
       0,
       0,
       0,
-      3,
-      0
+      10,
+      2
     ],
     "fundingStages": [
       {},
@@ -424,9 +424,12 @@
       {},
       {},
       {
-        "Convertible Note": 1
+        "Convertible Note": 1,
+        "Series A": 1
       },
-      {}
+      {
+        "Series A": 1
+      }
     ],
     "fundingUsd": [
       0,
@@ -457,18 +460,18 @@
       0,
       0,
       0,
-      245000000,
-      0
+      268000000,
+      30000000
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 0,
-      "d7": 2,
-      "d30": 14
+      "d1": 1,
+      "d7": 4,
+      "d30": 16
     },
     "newOrgs": {
-      "d1": 29,
+      "d1": 25,
       "d7": 175,
       "d30": 4134
     },
@@ -488,29 +491,109 @@
       "d30": 16
     },
     "jobsPosted": {
-      "d1": 158,
-      "d7": 1782,
-      "d30": 6051
+      "d1": 173,
+      "d7": 1794,
+      "d30": 6055
     },
     "newFounders": {
       "d1": 88,
-      "d7": 404,
-      "d30": 2930
+      "d7": 405,
+      "d30": 2931
     },
     "investments": {
-      "d1": 0,
-      "d7": 9,
-      "d30": 82
+      "d1": 2,
+      "d7": 18,
+      "d30": 91
     },
     "fundingUsd": {
-      "d1": 0,
-      "d7": 285000000,
-      "d30": 1739000000
+      "d1": 30000000,
+      "d7": 338000000,
+      "d30": 1792000000
     }
   },
   "news": {
     "sweptOn": "2026-09-09",
     "israel": [
+      {
+        "company": "Euno",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05d4\u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4 \u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9 Euno",
+        "url": "https://www.geektime.co.il/euno-raises-a-round/",
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/euno-raises-a-round/"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "$23 million",
+        "detail": "Israeli startup Euno emerges with $23M round backed by Cyera, Wiz and Eon founders",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Cyera",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Lightspeed",
+        "status": "reported",
+        "tie": "\u05d7\u05d1\u05e8\u05ea \u05d4\u05e1\u05d9\u05d9\u05d1\u05e8 \u05d4\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea \u05e9\u05dc \u05e0\u05d9\u05e8 \u05e6\u05d5\u05e7",
+        "url": "https://www.themarker.com/technation/2026-09-08/ty-article/.highlight/000001a0-8254-d3bd-adf3-92f502270000",
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-09-08/ty-article/.highlight/000001a0-8254-d3bd-adf3-92f502270000"
+          }
+        ],
+        "amount": "$245 million",
+        "detail": "Nir Zuk's cyber company Cyera raises $245M convertible loan led by Lightspeed",
+        "publishedAt": "2026-09-08",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Orilion Capital",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Volkswagen",
+        "status": "reported",
+        "tie": "\u05d4\u05de\u05e4\u05e2\u05dc \u05d1\u05d0\u05d5\u05e1\u05e0\u05d1\u05e8\u05d9\u05e7 \u05e6\u05e4\u05d5\u05d9 \u05dc\u05d4\u05d9\u05d5\u05ea \u05de\u05d5\u05e1\u05d1 \u05de\u05d9\u05d9\u05e6\u05d5\u05e8 \u05db\u05dc\u05d9 \u05e8\u05db\u05d1 \u05dc\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05db\u05d9\u05e4\u05ea \u05d1\u05e8\u05d6\u05dc",
+        "url": "https://www.themarker.com/news/2026-09-07/ty-article/.highlight/000001a0-7b5d-da8b-afbe-7f7dee7a0000",
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/news/2026-09-07/ty-article/.highlight/000001a0-7b5d-da8b-afbe-7f7dee7a0000"
+          }
+        ],
+        "amount": null,
+        "detail": "Israeli fund Orilion and Saxony buy Volkswagen's Osnabr\u00fcck plant to produce Iron Dome systems",
+        "publishedAt": "2026-09-07",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Decart",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05d9\u05d6\u05dd \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9 \u05d1\u05e9\u05dd \u05d3\u05d9\u05df \u05dc\u05d9\u05d9\u05d8\u05e8\u05e1\u05d3\u05d5\u05e8\u05e3 \u05d9\u05d5\u05e6\u05d0 \u05e2\u05dd \u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4 \u05d7\u05d3\u05e9 \u05d1\u05e9\u05dd Decart",
+        "url": "https://twitter.com/Parzival_1991/status/2096662297464754334",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/Parzival_1991/status/2096662297464754334"
+          }
+        ],
+        "amount": "$21 million",
+        "detail": "Dean Leitersdorf's Israeli AI startup Decart raised $21M at its October 2024 launch",
+        "publishedAt": "2026-09-06",
+        "seenOn": "2026-09-09"
+      },
       {
         "company": "Zeekr",
         "event": "product_launch",
@@ -581,21 +664,33 @@
         "seenOn": "2026-09-08"
       },
       {
-        "company": "Exodigo",
+        "company": "Catch",
         "event": "funding",
-        "round": "series a",
+        "round": "seed",
         "counterparty": null,
         "status": "reported",
-        "tie": "an Israeli company using artificial intelligence to map what lies underground",
-        "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel",
+        "tie": "a Tel Aviv, Israel-based artificial intelligence and enterprise productivity startup",
+        "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html",
         "sources": [
           {
-            "label": "App",
-            "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel"
+            "label": "Finsmes",
+            "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/bjtzojrofg"
+          },
+          {
+            "label": "TechFundingNews",
+            "url": "https://techfundingnews.com/catch-ai-agent-raises-5m-entree-pitango/"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/Calcalistech/status/2095149902409990619"
           }
         ],
-        "amount": "$105 million",
-        "detail": "Israeli underground-mapping AI company Exodigo closes $105M Series A, a top-percentile round in Israel",
+        "amount": "$5M",
+        "detail": "Tel Aviv AI productivity startup Catch raises $5M in seed funding",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
@@ -674,37 +769,25 @@
         "seenOn": "2026-09-04"
       },
       {
-        "company": "Guardio",
+        "company": "DataAgent",
         "event": "funding",
-        "round": null,
+        "round": "pre-seed",
         "counterparty": null,
         "status": "reported",
-        "tie": "Israeli cybersecurity startup Guardio Ltd.",
-        "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/",
+        "tie": "Israeli startup DataAgent",
+        "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/",
         "sources": [
           {
-            "label": "Siliconangle",
-            "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/"
-          },
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
+            "label": "Customerthink",
+            "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/"
           },
           {
             "label": "Geektime",
-            "url": "https://www.geektime.co.il/guardio-raises-40m-unicorn/"
-          },
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation/2026-09-03/ty-article/.highlight/000001a0-66d0-def7-a7f7-6ef7f7df0000"
-          },
-          {
-            "label": "X",
-            "url": "https://twitter.com/Techmeme/status/2095473352077193612"
+            "url": "https://www.geektime.co.il/dataagent-stealth-10m-seed/"
           }
         ],
-        "amount": "$40 million",
-        "detail": "Israeli consumer cybersecurity firm Guardio raises $40M at $1.1B valuation, with Wiz founder Assaf Rappaport joining the round",
+        "amount": "$10 million",
+        "detail": "Israeli startup DataAgent emerges from stealth with $10M pre-seed for AI Kubernetes fault remediation",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
@@ -746,10 +829,6 @@
             "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
           },
           {
-            "label": "The AI Insider",
-            "url": "https://theaiinsider.tech/2026/09/03/wonderful-raises-550m-series-c-at-5b-valuation-to-scale-ai-operating-system/"
-          },
-          {
             "label": "TheMarker",
             "url": "https://www.themarker.com/technation/2026-09-02/ty-article/.highlight/000001a0-61d4-d822-a3b8-73dfec1c0000"
           },
@@ -764,56 +843,56 @@
         "seenOn": "2026-09-04"
       },
       {
-        "company": "DataAgent",
+        "company": "Guardio",
         "event": "funding",
-        "round": "pre-seed",
+        "round": null,
         "counterparty": null,
         "status": "reported",
-        "tie": "Israeli startup DataAgent",
-        "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/",
+        "tie": "Israeli cybersecurity startup Guardio Ltd.",
+        "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/",
         "sources": [
           {
-            "label": "Customerthink",
-            "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/"
+            "label": "Siliconangle",
+            "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
           },
           {
             "label": "Geektime",
-            "url": "https://www.geektime.co.il/dataagent-stealth-10m-seed/"
+            "url": "https://www.geektime.co.il/guardio-raises-40m-unicorn/"
+          },
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-09-03/ty-article/.highlight/000001a0-66d0-def7-a7f7-6ef7f7df0000"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/Techmeme/status/2095473352077193612"
           }
         ],
-        "amount": "$10 million",
-        "detail": "Israeli startup DataAgent emerges from stealth with $10M pre-seed for AI Kubernetes fault remediation",
+        "amount": "$40 million",
+        "detail": "Israeli consumer cybersecurity firm Guardio raises $40M at $1.1B valuation, with Wiz founder Assaf Rappaport joining the round",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
       {
-        "company": "Catch",
+        "company": "Exodigo",
         "event": "funding",
-        "round": "seed",
+        "round": "series a",
         "counterparty": null,
         "status": "reported",
-        "tie": "a Tel Aviv, Israel-based artificial intelligence and enterprise productivity startup",
-        "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html",
+        "tie": "an Israeli company using artificial intelligence to map what lies underground",
+        "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel",
         "sources": [
           {
-            "label": "Finsmes",
-            "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html"
-          },
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/bjtzojrofg"
-          },
-          {
-            "label": "TechFundingNews",
-            "url": "https://techfundingnews.com/catch-ai-agent-raises-5m-entree-pitango/"
-          },
-          {
-            "label": "X",
-            "url": "https://twitter.com/Calcalistech/status/2095149902409990619"
+            "label": "App",
+            "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel"
           }
         ],
-        "amount": "$5M",
-        "detail": "Tel Aviv AI productivity startup Catch raises $5M in seed funding",
+        "amount": "$105 million",
+        "detail": "Israeli underground-mapping AI company Exodigo closes $105M Series A, a top-percentile round in Israel",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
@@ -851,7 +930,7 @@
           }
         ],
         "amount": null,
-        "detail": "Flexiditity (formerly Argus) lays off 80 employees",
+        "detail": "FlexDility, formerly Argus, lays off 80 employees",
         "publishedAt": "2026-09-02",
         "seenOn": "2026-09-09"
       },
@@ -982,29 +1061,6 @@
         "seenOn": "2026-09-04"
       },
       {
-        "company": "XTEND",
-        "event": "ipo_listing",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": "Israeli drone maker",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjbUVMeXdQUXdVd2RnNmNZSHJxaEk0Sk1oZEZlUGxqQVlERUJJS1Z2d3RLdlY2Wmp6Q1YyMUJ3SEszZWk3bUhWWGRHck04NGJ4R2JTTUo4bUNURTNnVzgwSnhHZ1FoSnM?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/38443knhl"
-          },
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001554052#utm_source=RSS"
-          }
-        ],
-        "amount": null,
-        "detail": "Israeli drone maker XTEND hits NYSE this week at $1.5 billion valuation",
-        "publishedAt": "2026-09-01",
-        "seenOn": "2026-09-04"
-      },
-      {
         "company": "HiBob",
         "event": "funding",
         "round": null,
@@ -1032,6 +1088,29 @@
         "seenOn": "2026-09-04"
       },
       {
+        "company": "XTEND",
+        "event": "ipo_listing",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli drone maker",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjbUVMeXdQUXdVd2RnNmNZSHJxaEk0Sk1oZEZlUGxqQVlERUJJS1Z2d3RLdlY2Wmp6Q1YyMUJ3SEszZWk3bUhWWGRHck04NGJ4R2JTTUo4bUNURTNnVzgwSnhHZ1FoSnM?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/38443knhl"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001554052#utm_source=RSS"
+          }
+        ],
+        "amount": null,
+        "detail": "Israeli drone maker XTEND hits NYSE this week at $1.5 billion valuation",
+        "publishedAt": "2026-09-01",
+        "seenOn": "2026-09-04"
+      },
+      {
         "company": "Rafael Advanced Defense Systems",
         "event": "contract_win",
         "round": null,
@@ -1049,102 +1128,313 @@
         "detail": "Israel set to sign biggest-ever $3.6 billion air defense deal with Greece, to be signed in Tel Aviv",
         "publishedAt": "2026-08-31",
         "seenOn": "2026-09-05"
-      },
-      {
-        "company": "Particula",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Ella",
-        "status": "reported",
-        "tie": "\u05d2\u05d9\u05d5\u05e1 \u05d1\u05d4\u05d5\u05d1\u05dc\u05ea \u05e7\u05e8\u05df \u05d0\u05dc\u05d4 \u05d4\u05d7\u05d9\u05e4\u05d0\u05d9\u05ea",
-        "url": "https://www.themarker.com/technation/2026-08-31/ty-article/.highlight/000001a0-5215-d649-a7be-df77053e0000",
-        "sources": [
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation/2026-08-31/ty-article/.highlight/000001a0-5215-d649-a7be-df77053e0000"
-          }
-        ],
-        "amount": "$15 million",
-        "detail": "Smart games company Particula raises $15M led by Haifa-based fund Ella",
-        "publishedAt": "2026-08-31",
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "Egged",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "CRRC",
-        "status": "reported",
-        "tie": "Egged, Auto Chen Mobility and CRRC, which is blacklisted by the US government, will market the buses in Israel and other countries.",
-        "url": "https://en.globes.co.il/en/article-1001553642#utm_source=RSS",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001553642#utm_source=RSS"
-          }
-        ],
-        "amount": null,
-        "detail": "Egged teams with China's CRRC and Auto Chen Mobility to produce and market buses.",
-        "publishedAt": "2026-08-27",
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "SCiO",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "CropX",
-        "status": "reported",
-        "tie": "\u05d4\u05e1\u05d8\u05d0\u05e8\u05d8-\u05d0\u05e4 \u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9 \u05e1\u05d0\u05d9\u05d5 (SCiO)",
-        "url": "https://twitter.com/calcalist/status/2092620901804056897",
-        "sources": [
-          {
-            "label": "X",
-            "url": "https://twitter.com/calcalist/status/2092620901804056897"
-          }
-        ],
-        "amount": null,
-        "detail": "Agrotech firm CropX acquires Israeli startup SCiO, whose $64M total raised reportedly exceeds the price",
-        "publishedAt": "2026-08-26",
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "Papaya Gaming",
-        "event": "shutdown",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": "\u05e4\u05d0\u05e4\u05d0\u05d9\u05d4 \u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea",
-        "url": "https://www.themarker.com/technation/2026-08-26/ty-article/.highlight/000001a0-3e38-d02f-a9ed-7e7b735e0000",
-        "sources": [
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation/2026-08-26/ty-article/.highlight/000001a0-3e38-d02f-a9ed-7e7b735e0000"
-          }
-        ],
-        "amount": "$700 million",
-        "detail": "Israeli gaming firm Papaya in cash-flow insolvency; administrator to craft $700M creditor arrangement",
-        "publishedAt": "2026-08-26",
-        "seenOn": "2026-09-06"
       }
     ],
     "global": [
       {
-        "company": "Praven Intelekt",
+        "company": "Scanovate",
         "event": "acquisition",
         "round": null,
-        "counterparty": "Lexroom",
+        "counterparty": "Prytek",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/09/08/lexroom-makes-first-acquisitions-with-query-juriste-and-praven-intelekt-deals/",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sSEs5NGlTZHVHcjA5MFZldzhqSTFNZ0tybDM5NTlWRFZpc0lVTTJKSldWTXFodVBpMTVUeU5CajkwR19HTjJPQnBsRnE0SWo0bXpKVGlCUlpvUUs5OFg0QndRYXpwRUhl?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/h1yq0r0ofx"
+          }
+        ],
+        "amount": "$50 million",
+        "detail": "Prytek acquires Scanovate for $50 million to expand its financial infrastructure business",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "FRYTE Mobility",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "4impact capital",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/munich-based-fryte-mobility-raises-e3-5-million-to-connect-etruck-fleets-with-charging-infrastructure-across-europe/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/munich-based-fryte-mobility-raises-e3-5-million-to-connect-etruck-fleets-with-charging-infrastructure-across-europe/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/fryte-mobility-lands-eur35m-to-build-the-coordination-layer-for-etruck-charging/"
+          }
+        ],
+        "amount": "\u20ac3.5 million",
+        "detail": "Munich-based FRYTE Mobility raises \u20ac3.5M Seed co-led by 4impact capital and Rethink Ventures",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Covenant",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jQ2w1M3JqbzMtNWRxRmVEcEM4VC03WE00YlVpN2lURWVobHdwUjFOdDFsTlY0YV90RHhIcVlSLXc2WFVueDhiODZTazJkVVVWMFV2Rm9STE1FYVpScFlIdTFYN0xkcGdoemdN?oc=5",
+        "sources": [
+          {
+            "label": "Calcalist",
+            "url": "https://www.calcalist.co.il/calcalistech/article/hyh28oaufg"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/covenant-exits-stealth-with-250m-funding/"
+          },
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-09-09/ty-article/.highlight/000001a0-8544-d4aa-a7fd-f7461c800000"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/calcalist/status/2097629838509240714"
+          }
+        ],
+        "amount": "$250 million",
+        "detail": "Missile startup Covenant emerges from stealth with $250 million raise, holding $150 million in contracts",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Cymphony",
+        "event": "funding",
+        "round": "series a",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHS2ZYUDN3cWFXRHQxaVVrUVVfWDVocjRsNE5zVGE2aHRUVUJ5T3kyN0NxV2M4U0o0WXVYSTNNR1dOcWo2QTgwS2N4bTJKVEJPUVdBQXFSSS1OMUVNeHBoZTZkLVBUZ0RtNGc?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/hjpi110rozg"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/cymphony-raised-30m-in-seed-and-a-rounds/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+          }
+        ],
+        "amount": "$25 million",
+        "detail": "Cymphony raises $25M Series A to secure the overlap between employees and AI agents",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "HelmGuard",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/helmguard-raises-73m-to-move-compliance-beyond-paperwork/",
         "sources": [
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/lexroom-makes-first-acquisitions-with-query-juriste-and-praven-intelekt-deals/"
+            "url": "https://tech.eu/2026/09/09/helmguard-raises-73m-to-move-compliance-beyond-paperwork/"
+          }
+        ],
+        "amount": "$7.3M",
+        "detail": "London GRC startup HelmGuard raises $7.3M seed to automate risk and compliance assessments",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Ostrich",
+        "event": "shutdown",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/harry-stebbings-backed-proptech-ostrich-shuts/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/harry-stebbings-backed-proptech-ostrich-shuts/"
           }
         ],
         "amount": null,
-        "detail": "Legaltech Lexroom acquires Bulgarian firm Praven Intelekt in its first M&A deal",
-        "publishedAt": "2026-09-08",
+        "detail": "London proptech Ostrich, backed by Harry Stebbings, shuts down after raising nearly $4m",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Strong by Form",
+        "event": "funding",
+        "round": "series a",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/strong-by-form-raises-eur58m-to-take-on-concrete-with-less-wood/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/strong-by-form-raises-eur58m-to-take-on-concrete-with-less-wood/"
+          }
+        ],
+        "amount": "\u20ac5.8 million",
+        "detail": "Madrid-based wood-engineering deeptech Strong by Form raises \u20ac5.8M Series A",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Rebaba",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/rebaba-closes-46m-seed-to-scale-second-life-battery-storage-across-europe/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/rebaba-closes-46m-seed-to-scale-second-life-battery-storage-across-europe/"
+          }
+        ],
+        "amount": "$4.6 million",
+        "detail": "Swedish energy startup Rebaba closes $4.6M oversubscribed seed for second-life battery storage",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Fundcraft",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/digital-fund-operations-platform-fundcraft-secures-eur12m-growth-financing/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/digital-fund-operations-platform-fundcraft-secures-eur12m-growth-financing/"
+          }
+        ],
+        "amount": "\u20ac12 million",
+        "detail": "Fundcraft secures \u20ac12M strategic growth financing to expand digital fund operations in Europe",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Implicity",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/french-cardiac-monitoring-startup-implicity-reports-26-lower-mortality-as-it-raises-e35-million/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/french-cardiac-monitoring-startup-implicity-reports-26-lower-mortality-as-it-raises-e35-million/"
+          }
+        ],
+        "amount": "\u20ac35 million",
+        "detail": "French cardiac remote monitoring startup Implicity raises \u20ac35 million to expand in the USA",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "CloudNC",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Nimble Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/london-based-cloudnc-raises-e17-2-million-to-scale-ai-powered-precision-machining/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/london-based-cloudnc-raises-e17-2-million-to-scale-ai-powered-precision-machining/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/cloudnc-lands-20m-to-expand-its-ai-software-for-precision-manufacturing/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/"
+          }
+        ],
+        "amount": "\u20ac17.2 million",
+        "detail": "London-based CloudNC raises \u20ac17.2 million ($20M) led by Nimble Ventures for AI precision machining",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Actionable",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Hi inov",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/paris-based-actionable-raises-e8-6-million-to-scale-its-predictive-customer-experience-platform/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/paris-based-actionable-raises-e8-6-million-to-scale-its-predictive-customer-experience-platform/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/actionable-raises-10m-to-turn-customer-data-into-behavioural-predictions/"
+          }
+        ],
+        "amount": "\u20ac8.5 million",
+        "detail": "Paris-based Actionable raises \u20ac8.5 million ($10M) led by Hi inov for predictive CX platform",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Anemo Labs",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Zinc",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/09/anemo-labs-lands-ps700k-to-give-ai-a-sense-of-smell/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/09/anemo-labs-lands-ps700k-to-give-ai-a-sense-of-smell/"
+          }
+        ],
+        "amount": "\u00a3700,000",
+        "detail": "London deeptech Anemo Labs raises \u00a3700K pre-seed led by Zinc for smell-based disease detection",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Limetax",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Motive Partners",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/limetax-lands-e36-million-to-build-an-ai-powered-group-of-german-tax-and-accounting-firms/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/limetax-lands-e36-million-to-build-an-ai-powered-group-of-german-tax-and-accounting-firms/"
+          }
+        ],
+        "amount": "\u20ac36 million",
+        "detail": "Berlin-based Limetax raises \u20ac36 million (\u20ac6M pre-Seed led by Motive Partners plus \u20ac30M credit facility)",
+        "publishedAt": "2026-09-09",
         "seenOn": "2026-09-09"
       },
       {
@@ -1167,40 +1457,21 @@
         "seenOn": "2026-09-09"
       },
       {
-        "company": "Ground A",
-        "event": "funding",
-        "round": "pre-seed",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market/"
-          }
-        ],
-        "amount": "\u20ac9M+",
-        "detail": "German defence tech startup Ground A exits stealth with \u20ac9M+ pre-seed for laser counter-drone systems",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-09"
-      },
-      {
-        "company": "Green Eagle Solutions",
-        "event": "funding",
+        "company": "Praven Intelekt",
+        "event": "acquisition",
         "round": null,
-        "counterparty": "Copilot Capital",
+        "counterparty": "Lexroom",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/09/08/green-eagle-solutions-lands-copilot-capital-backing-to-take-renewable-energy-autopilot-global/",
+        "url": "https://tech.eu/2026/09/08/lexroom-makes-first-acquisitions-with-query-juriste-and-praven-intelekt-deals/",
         "sources": [
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/green-eagle-solutions-lands-copilot-capital-backing-to-take-renewable-energy-autopilot-global/"
+            "url": "https://tech.eu/2026/09/08/lexroom-makes-first-acquisitions-with-query-juriste-and-praven-intelekt-deals/"
           }
         ],
         "amount": null,
-        "detail": "Spanish renewable energy automation firm Green Eagle Solutions raises majority investment from Copilot Capital",
+        "detail": "Legaltech Lexroom acquires Bulgarian firm Praven Intelekt in its first M&A deal",
         "publishedAt": "2026-09-08",
         "seenOn": "2026-09-09"
       },
@@ -1224,44 +1495,101 @@
         "seenOn": "2026-09-09"
       },
       {
-        "company": "Seclake",
+        "company": "Poseidon Aerospace",
         "event": "funding",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": null,
+        "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/",
         "sources": [
           {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          },
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation/2026-09-08/ty-article/.highlight/000001a0-8254-d3bd-adf3-92f502270000"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/"
           }
         ],
-        "amount": "$245 million",
-        "detail": "Nir Zuk's cybersecurity startup Cylake raises $245M, reaching $290M total less than a year after founding",
+        "amount": "$60M",
+        "detail": "Pilotless cargo aircraft startup Poseidon Aerospace raises $60M ahead of first test flight",
         "publishedAt": "2026-09-08",
         "seenOn": "2026-09-09"
       },
       {
-        "company": "Ten Bis",
-        "event": "shutdown",
-        "round": null,
+        "company": "Bluecore Energy",
+        "event": "funding",
+        "round": "seed",
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.geektime.co.il/ten-bis-is-pulling-out-of-b2c-deliveries/",
+        "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
         "sources": [
           {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/ten-bis-is-pulling-out-of-b2c-deliveries/"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/"
           }
         ],
-        "amount": null,
-        "detail": "Ten Bis scraps Just Eat consumer-delivery subsidiary launched in February, abandoning B2C expansion",
+        "amount": "$50 million",
+        "detail": "Nuclear startup Bluecore Energy raises $50 million oversubscribed seed round two months after launch",
+        "publishedAt": "2026-09-08",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Ground A",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market/"
+          }
+        ],
+        "amount": "\u20ac9M+",
+        "detail": "German defence tech startup Ground A exits stealth with \u20ac9M+ pre-seed for laser counter-drone systems",
+        "publishedAt": "2026-09-08",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "Tellia",
+        "event": "funding",
+        "round": "pre-Seed",
+        "counterparty": "Revent",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/french-agtech-startup-tellia-raises-e4-3-million-to-scale-voice-enabled-data-capture/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/french-agtech-startup-tellia-raises-e4-3-million-to-scale-voice-enabled-data-capture/"
+          }
+        ],
+        "amount": "\u20ac4.3 million",
+        "detail": "Paris-based voice AI agtech startup Tellia raises \u20ac4.3 million ($5M) pre-Seed led by Revent",
+        "publishedAt": "2026-09-08",
+        "seenOn": "2026-09-09"
+      },
+      {
+        "company": "The Exploration Company",
+        "event": "funding",
+        "round": "Series C",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/the-exploration-company-secures-e387-million-to-accelerate-development-of-reusable-high-thrust-rocket-engine/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/the-exploration-company-secures-e387-million-to-accelerate-development-of-reusable-high-thrust-rocket-engine/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/08/the-exploration-company-raises-450m-series-c-to-scale-reusable-space-transport/"
+          }
+        ],
+        "amount": "\u20ac387 million",
+        "detail": "European space company The Exploration Company raises \u20ac387 million ($450M) Series C for reusable Nyx capsule and rocket engine",
         "publishedAt": "2026-09-08",
         "seenOn": "2026-09-09"
       },
@@ -1297,359 +1625,42 @@
         "seenOn": "2026-09-09"
       },
       {
-        "company": "The Exploration Company",
-        "event": "funding",
-        "round": "Series C",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/the-exploration-company-secures-e387-million-to-accelerate-development-of-reusable-high-thrust-rocket-engine/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/the-exploration-company-secures-e387-million-to-accelerate-development-of-reusable-high-thrust-rocket-engine/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/the-exploration-company-raises-450m-series-c-to-scale-reusable-space-transport/"
-          }
-        ],
-        "amount": "\u20ac387 million",
-        "detail": "European space company The Exploration Company raises \u20ac387 million ($450M) Series C for reusable Nyx capsule and rocket engine",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-09"
-      },
-      {
-        "company": "Bluecore Energy",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/"
-          }
-        ],
-        "amount": "$50 million",
-        "detail": "Nuclear startup Bluecore Energy raises $50 million oversubscribed seed round two months after launch",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-09"
-      },
-      {
-        "company": "Tellia",
-        "event": "funding",
-        "round": "pre-Seed",
-        "counterparty": "Revent",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/french-agtech-startup-tellia-raises-e4-3-million-to-scale-voice-enabled-data-capture/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/french-agtech-startup-tellia-raises-e4-3-million-to-scale-voice-enabled-data-capture/"
-          }
-        ],
-        "amount": "\u20ac4.3 million",
-        "detail": "Paris-based voice AI agtech startup Tellia raises \u20ac4.3 million ($5M) pre-Seed led by Revent",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-09"
-      },
-      {
-        "company": "Poseidon Aerospace",
-        "event": "funding",
+        "company": "Ten Bis",
+        "event": "shutdown",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/",
+        "url": "https://www.geektime.co.il/ten-bis-is-pulling-out-of-b2c-deliveries/",
         "sources": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/"
-          }
-        ],
-        "amount": "$60M",
-        "detail": "Pilotless cargo aircraft startup Poseidon Aerospace raises $60M ahead of first test flight",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-09"
-      },
-      {
-        "company": "Veridue",
-        "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Episode 1 Ventures",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/uk-based-veridue-secures-e3-44-million-to-accelerate-investment-and-project-financing-for-renewable-energy-and-data-centres/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/uk-based-veridue-secures-e3-44-million-to-accelerate-investment-and-project-financing-for-renewable-energy-and-data-centres/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/veridue-secures-4m-pre-seed-to-streamline-energy-infrastructure-due-diligence/"
-          }
-        ],
-        "amount": "\u20ac3.44 million",
-        "detail": "London-based AI due diligence platform Veridue raises \u20ac3.44M pre-Seed led by Episode 1 Ventures",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "sci2sci",
-        "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Heliad",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/08/sci2sci-raises-eur12m-to-build-trusted-ai-infrastructure-for-regulated-industries/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/sci2sci-raises-eur12m-to-build-trusted-ai-infrastructure-for-regulated-industries/"
-          }
-        ],
-        "amount": "\u20ac1.2 million",
-        "detail": "Berlin AI data-infrastructure startup sci2sci raises \u20ac1.2M pre-seed co-led by Heliad and IBB Ventures",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Hope Care",
-        "event": "funding",
-        "round": "series a",
-        "counterparty": "Iberis Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/portugals-hope-care-closes-e6-million-series-a-to-expand-remote-patient-monitoring-across-europe/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/portugals-hope-care-closes-e6-million-series-a-to-expand-remote-patient-monitoring-across-europe/"
-          }
-        ],
-        "amount": "\u20ac6 million",
-        "detail": "Portuguese digital health firm Hope Care closes \u20ac6M Series A led by Iberis Capital to expand remote patient monitoring across Europe",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Pixxel",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://twitter.com/Tamishsh/status/2097190694687228349",
-        "sources": [
-          {
-            "label": "X",
-            "url": "https://twitter.com/Tamishsh/status/2097190694687228349"
-          }
-        ],
-        "amount": "$100 million",
-        "detail": "Pixxel raises $100 million for a new generation of satellites.",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Mistral AI",
-        "event": "funding",
-        "round": "series d",
-        "counterparty": "Samsung Electronics",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/french-ai-company-mistral-raises-e3-billion-series-d-led-by-samsung-at-over-e21-billion-valuation/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/french-ai-company-mistral-raises-e3-billion-series-d-led-by-samsung-at-over-e21-billion-valuation/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/08/mistral-secures-eur3b-series-d-to-push-sovereign-ai-into-its-next-phase/"
-          }
-        ],
-        "amount": "\u20ac3 billion",
-        "detail": "Paris-based Mistral AI raises \u20ac3B Series D led by Samsung at over \u20ac21B valuation, largest European tech equity round",
-        "publishedAt": "2026-09-08",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Flex IT",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "T1A Group",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/07/flex-it-and-t1a-combine-to-create-e150m-revenue-european-circular-it-platform/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/07/flex-it-and-t1a-combine-to-create-e150m-revenue-european-circular-it-platform/"
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/ten-bis-is-pulling-out-of-b2c-deliveries/"
           }
         ],
         "amount": null,
-        "detail": "Flex IT and T1A Group combine to create \u20ac150M-revenue European circular IT platform",
-        "publishedAt": "2026-09-07",
+        "detail": "Ten Bis scraps Just Eat consumer-delivery subsidiary launched in February, abandoning B2C expansion",
+        "publishedAt": "2026-09-08",
         "seenOn": "2026-09-09"
       },
       {
-        "company": "Cato",
-        "event": "funding",
-        "round": "Seed",
-        "counterparty": "Keen Venture Partners",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/milan-based-cato-raises-e6-million-to-help-companies-find-and-win-public-tenders-with-ai/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/milan-based-cato-raises-e6-million-to-help-companies-find-and-win-public-tenders-with-ai/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/07/cato-raises-eur6m-to-expand-its-ai-platform-for-public-sector-sales/"
-          }
-        ],
-        "amount": "\u20ac6 million",
-        "detail": "Milan-based AI tender platform Cato raises \u20ac6 million Seed round led by Keen Venture Partners",
-        "publishedAt": "2026-09-07",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Jaipur Robotics",
-        "event": "funding",
-        "round": "Seed",
-        "counterparty": "EquityPitcher",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/swiss-startup-jaipur-robotics-raises-e4-3-million-to-expand-its-ai-operating-system-across-more-waste-to-energy-and-industrial-plants/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/swiss-startup-jaipur-robotics-raises-e4-3-million-to-expand-its-ai-operating-system-across-more-waste-to-energy-and-industrial-plants/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/07/jaipur-robotics-raises-eur43m-to-bring-computer-vision-to-waste-plants/"
-          }
-        ],
-        "amount": "\u20ac4.3 million",
-        "detail": "Swiss AI waste-plant startup Jaipur Robotics raises \u20ac4.3 million Seed round to expand across more plants",
-        "publishedAt": "2026-09-07",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Fluencify",
-        "event": "funding",
-        "round": "pre-Seed",
-        "counterparty": "byFounders",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/stockholm-based-fluencify-raises-e3-7-million-to-scale-its-end-to-end-creator-marketing-platform/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/stockholm-based-fluencify-raises-e3-7-million-to-scale-its-end-to-end-creator-marketing-platform/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/07/fluencify-secures-43m-to-scale-its-creator-campaign-platform/"
-          }
-        ],
-        "amount": "\u20ac3.7 million",
-        "detail": "Stockholm-based creator marketing platform Fluencify raises oversubscribed \u20ac3.7 million pre-Seed led by byFounders",
-        "publishedAt": "2026-09-07",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Tickets for Good",
+        "company": "Green Eagle Solutions",
         "event": "funding",
         "round": null,
-        "counterparty": "NPIF II \u2013 Mercia Equity",
+        "counterparty": "Copilot Capital",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/robbie-williams-backed-tickets-for-good-raises-e4-5-million-for-international-expansion/",
+        "url": "https://tech.eu/2026/09/08/green-eagle-solutions-lands-copilot-capital-backing-to-take-renewable-energy-autopilot-global/",
         "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/robbie-williams-backed-tickets-for-good-raises-e4-5-million-for-international-expansion/"
-          },
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/07/tickets-for-good-raises-ps39m-to-expand-low-cost-access-to-live-events-globally/"
-          }
-        ],
-        "amount": "\u20ac4.5 million",
-        "detail": "UK ticketing startup Tickets for Good raises \u20ac4.5 million led by NPIF II \u2013 Mercia Equity for international expansion",
-        "publishedAt": "2026-09-07",
-        "seenOn": "2026-09-08"
-      },
-      {
-        "company": "Anthropic",
-        "event": "ipo_listing",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          },
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/wallstreet/2026-08-28/ty-article/.premium/000001a0-4707-d6dd-a1ad-e76721f70000"
+            "url": "https://tech.eu/2026/09/08/green-eagle-solutions-lands-copilot-capital-backing-to-take-renewable-energy-autopilot-global/"
           }
         ],
         "amount": null,
-        "detail": "Anthropic pushes back IPO; now expected to file prospectus in late September and market the offering from mid-October",
-        "publishedAt": "2026-09-05",
-        "seenOn": "2026-09-06"
-      },
-      {
-        "company": "BlueBird Aerosystems",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "IAI",
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YTE1ZSkhfd1N4YmxQTVhFOUFvN0kwcmlNeFk0cTZrSW5JZXc0NWZJZlp0dzJrWXd4QlZjV0JhSEFtMW1hNmhu",
-        "sources": [
-          {
-            "label": "Google News",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YTE1ZSkhfd1N4YmxQTVhFOUFvN0kwcmlNeFk0cTZrSW5JZXc0NWZJZlp0dzJrWXd4QlZjV0JhSEFtMW1hNmhu"
-          }
-        ],
-        "amount": null,
-        "detail": "IAI acquires tactical drone maker BlueBird Aerosystems",
-        "publishedAt": null,
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "Pirkx",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Pri0r1ty Intelligence",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/pirkx-joins-pri0r1ty-intelligence-as-ai-company-expands-into-employee-wellbeing-and-benefits/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/pirkx-joins-pri0r1ty-intelligence-as-ai-company-expands-into-employee-wellbeing-and-benefits/"
-          }
-        ],
-        "amount": null,
-        "detail": "UK wellness startup Pirkx acquired by publicly-listed Pri0r1ty Intelligence to expand into employee wellbeing",
-        "publishedAt": "2026-09-04",
-        "seenOn": "2026-09-04"
+        "detail": "Spanish renewable energy automation firm Green Eagle Solutions raises majority investment from Copilot Capital",
+        "publishedAt": "2026-09-08",
+        "seenOn": "2026-09-09"
       }
     ]
   },
@@ -1998,6 +2009,78 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-09",
+      "investor": "Fin Capital",
+      "company": "CYMPHONY SECURITY",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-09",
+      "investor": "Sequoia Capital",
+      "company": "CYMPHONY SECURITY",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "sequoiacap.com"
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "10D",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "10d.vc"
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Mark Nelson",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "N47",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "n47.com"
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Ofir Ehrlich",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Rotem Weiss",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Yinon Costica",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-08",
+      "investor": "Yotam Segev",
+      "company": "Euno",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
       "ts": "2026-09-08",
       "investor": "Lightspeed Venture Partners",
       "company": "Cylake",
@@ -2084,78 +2167,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "entreecap.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "iAngels",
-      "company": "Lasso Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "iangels.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Mindset Ventures",
-      "company": "Lasso Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "mindset.ventures"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Singtel Innov8",
-      "company": "Lasso Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "SwishData",
-      "company": "Lasso Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Alta Park Capital",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Bessemer Venture Partners",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "bvp.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Craft Ventures",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "craftventures.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Cyberstarts",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "cyberstarts.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "Greylock",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "greylock.com"
     }
   ],
   "patents": [
@@ -2186,6 +2197,14 @@
     {
       "ts": "2026-08-18",
       "kind": "granted",
+      "org": "Focus",
+      "title": "Low-voltage high-brightness reversed-polarity red light led chip and preparation method thereof",
+      "number": "122340983",
+      "url": "https://patents.google.com/patent/CN122340983B/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
       "org": "Minerva",
       "title": "Handle assembly for tissue resection device",
       "number": "12708398",
@@ -2198,6 +2217,14 @@
       "title": "Folding bicycle lock",
       "number": "D1141845",
       "url": "https://patents.google.com/patent/USD1141845S/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
+      "org": "Synthesis",
+      "title": "Secondary network unbalance detection method, system and equipment for heat supply system",
+      "number": "120926486",
+      "url": "https://patents.google.com/patent/CN120926486B/en"
     },
     {
       "ts": "2026-08-18",
@@ -2218,22 +2245,6 @@
     {
       "ts": "2026-08-18",
       "kind": "granted",
-      "org": "Focus",
-      "title": "Low-voltage high-brightness reversed-polarity red light led chip and preparation method thereof",
-      "number": "122340983",
-      "url": "https://patents.google.com/patent/CN122340983B/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
-      "org": "Synthesis",
-      "title": "Secondary network unbalance detection method, system and equipment for heat supply system",
-      "number": "120926486",
-      "url": "https://patents.google.com/patent/CN120926486B/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
       "org": "Ubi",
       "title": "Method of online shopping and system therefor",
       "number": "12711541",
@@ -2241,6 +2252,48 @@
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-09-09",
+      "title": "Full Stack Developer",
+      "company": "GIV-Solutions",
+      "city": "Ra'anana",
+      "url": "https://giv-solutions.com/careers"
+    },
+    {
+      "ts": "2026-09-09",
+      "title": "Purchasing Material Buyer",
+      "company": "Kornit Digital",
+      "city": "Rosh HaAyin",
+      "url": "https://careers.kornit.com"
+    },
+    {
+      "ts": "2026-09-09",
+      "title": "Senior Community Manager",
+      "company": "GoodWord.io",
+      "city": "Tel Aviv",
+      "url": "https://job.goodword.io/JobDetails/2/78277d0e-d367-4f01-b2b2-ad6100f306d5"
+    },
+    {
+      "ts": "2026-09-09",
+      "title": "MRI Systems Protocols Implementation & Support",
+      "company": "Insightec",
+      "city": "Kiryat Ono",
+      "url": "https://www.comeet.com/jobs/insightec/4A.004/mri-systems-protocols-implementation--support/A6.27A"
+    },
+    {
+      "ts": "2026-09-09",
+      "title": "Senior Game Designer",
+      "company": "Ilyon",
+      "city": null,
+      "url": "https://www.comeet.com/jobs/ilyon/42.00A/senior-game-designer/FB.F6C"
+    },
+    {
+      "ts": "2026-09-09",
+      "title": "\u05de\u05e0\u05d4\u05dc \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05d9\u05d3\u05e2",
+      "company": "teperberg winery",
+      "city": null,
+      "url": "https://teperbergwinery.co.il/open-positions"
+    },
     {
       "ts": "2026-09-09",
       "title": "\u05de\u05e0\u05d4\u05dc/\u05ea \u05de\u05d9\u05e0\u05d4\u05dc \u05de\u05e8\u05d7\u05d1\u05d9\u05ea \u05d1\u05d9\u05d1\u05e0\u05d4",
@@ -2268,54 +2321,21 @@
       "company": "Maccabi Healthcare Services",
       "city": null,
       "url": "https://www.maccabi4u.co.il/careers/all-positions/\u05e2\u05d5\u05e1-5742"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "Tax Operation Analyst - Temporary position",
-      "company": "Global-e",
-      "city": "Petah Tikva",
-      "url": "https://www.global-e.com/careers"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "\u05e8\u05db\u05d6.\u05ea \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9.\u05ea \u05d9\u05d0\u05dc\u05dc\u05d4 \u05d0\u05e9\u05d3\u05d5\u05d3",
-      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
-      "city": null,
-      "url": "https://allgood.org.il/job?position=2264"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05e9\u05d9\u05e7\u05d5\u05dd \u05dc\u05d0\u05d9\u05d6\u05d5\u05e8 \u05d4\u05e9\u05e8\u05d5\u05df",
-      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
-      "city": null,
-      "url": "https://allgood.org.il/job?position=2275"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05d9\u05d7\u05d9\u05d3\u05d4 \u05de\u05e8\u05db\u05d6 \u05d9\u05d5\u05dd \u05d8\u05d9\u05e4\u05d5\u05dc\u05d9 \u05d1\u05e8\u05d0\u05e9\u05d5\u05df \u05dc\u05e6\u05d9\u05d5\u05df",
-      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
-      "city": null,
-      "url": "https://allgood.org.il/job?position=2277"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "\u05e8\u05db\u05d6.\u05ea \u05de\u05e7\u05e6\u05d5\u05e2\u05d9.\u05ea \u05e1\u05d1\u05d1\u05d4 \u05d0\u05e9\u05db\u05d5\u05dc \u05d4\u05d7\u05d5\u05e3",
-      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
-      "city": null,
-      "url": "https://allgood.org.il/job?position=2259"
-    },
-    {
-      "ts": "2026-09-09",
-      "title": "\u05e8\u05db\u05d6.\u05ea \u05d7\u05de\u05de\u05d4 \u05d0\u05e0\u05d8\u05e8 \u05e7\u05d9\u05e1\u05e8\u05d9\u05d4",
-      "company": "\u05e7\u05d1\u05d5\u05e6\u05ea \u05e9\u05db\u05d5\u05dc\u05d5 \u05d8\u05d5\u05d1 - shekulo tov group",
-      "city": null,
-      "url": "https://allgood.org.il/job?position=2261"
     }
   ],
   "mix": {
     "stages": {
-      "d1": [],
+      "d1": [
+        {
+          "label": "Series A",
+          "count": 1
+        }
+      ],
       "d7": [
+        {
+          "label": "Series A",
+          "count": 2
+        },
         {
           "label": "Convertible Note",
           "count": 1
@@ -2327,12 +2347,12 @@
       ],
       "d30": [
         {
-          "label": "Series C",
+          "label": "Series A",
           "count": 6
         },
         {
-          "label": "Series A",
-          "count": 4
+          "label": "Series C",
+          "count": 6
         },
         {
           "label": "Convertible Note",
@@ -2356,7 +2376,7 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 15
+          "count": 13
         },
         {
           "label": "Consumer Goods and Services",
@@ -2367,11 +2387,11 @@
           "count": 3
         },
         {
-          "label": "Healthcare and Food",
-          "count": 3
+          "label": "Financial Services",
+          "count": 1
         },
         {
-          "label": "Financial Services",
+          "label": "Healthcare and Food",
           "count": 1
         },
         {
