@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T19:00:56.990Z",
+  "generatedAt": "2026-09-09T19:43:35.198Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35316,
-      "delta24h": 22
+      "delta24h": 21
     },
     "totalFunding": {
       "valueUsd": 220913295309,
@@ -2245,6 +2245,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lasso Security",
         "stage": "Series A",
         "amountUsd": 30000000,
@@ -2256,14 +2267,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 8,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2288,15 +2299,15 @@
         "roundTitle": "Series C"
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
-        "stage": "Series A",
-        "amountUsd": 27000000,
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 8,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2308,17 +2319,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series F"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2864,24 +2864,17 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Covenant",
         "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
       },
       {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -2898,25 +2891,18 @@
         "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
       },
       {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+      },
+      {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Customer Milestone",
         "org": "Guardio",
         "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Entered a market development partnership with Kensho to expand access to the Classiq quantum software platform in Taiwan, focusing on chemical and materials companies, defense organizations, and academia; to be introduced at SEMICON Taiwan 2026."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2934,10 +2920,31 @@
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Quantum X Labs",
+        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Entered a market development partnership with Kensho to expand access to the Classiq quantum software platform in Taiwan, focusing on chemical and materials companies, defense organizations, and academia; to be introduced at SEMICON Taiwan 2026."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "IPO and Public Listing",
         "org": "ALZAI Health",
         "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Jeen AI",
+        "summary": "Announced real-time cost governance (FinOps) capability across its enterprise platform, giving finance and IT teams live visibility into AI spending attributed by department, user and individual agent, with budgets managed inside the same governance layer; available across cloud, on-premise, hybrid and air-gapped environments."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2956,9 +2963,9 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Huskeys",
-        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
+        "rawKind": "Executive Appointment",
+        "org": "Lyte",
+        "summary": "Andrew Homan, managing partner at Maverick Silicon, joined Lyte's board of directors, announced alongside the company's $165M Series C led by Maverick Silicon."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2970,9 +2977,9 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Lyte",
-        "summary": "Andrew Homan, managing partner at Maverick Silicon, joined Lyte's board of directors, announced alongside the company's $165M Series C led by Maverick Silicon."
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2987,13 +2994,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Classiq Technologies",
         "summary": "Signed a go-to-market agreement with Scientek Corporation (a Zen Voce company) to expand access to the Classiq hardware-agnostic quantum software platform across Taiwan's semiconductor, research and academic communities."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Jeen AI",
-        "summary": "Announced real-time cost governance (FinOps) capability across its enterprise platform, giving finance and IT teams live visibility into AI spending attributed by department, user and individual agent, with budgets managed inside the same governance layer; available across cloud, on-premise, hybrid and air-gapped environments."
       }
     ]
   }
