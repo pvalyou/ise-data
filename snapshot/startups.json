@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T00:59:54.032Z",
+  "generatedAt": "2026-09-11T02:03:23.094Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 35372,
-      "delta24h": 40
+      "value": 35376,
+      "delta24h": 44
     },
     "totalFunding": {
       "valueUsd": 221038053309,
       "rounds": 29175
     },
     "exits": {
-      "count": 3356,
+      "count": 3357,
       "valueUsd": 312601693200
     },
     "employees": {
-      "total": 779500,
+      "total": 779511,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6140
+        "count": 6143
       },
       {
         "name": "Central",
-        "count": 3500
+        "count": 3502
       },
       {
         "name": "Haifa",
@@ -217,14 +217,14 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 3893
+        "count": 3895
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 697
+        "count": 698
       },
       {
         "name": "Ramat Gan",
@@ -245,7 +245,7 @@
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 556
+        "count": 557
       },
       {
         "name": "Haifa",
@@ -444,17 +444,17 @@
         "count": 50
       },
       {
-        "name": "Shoham",
-        "district": "Central",
-        "lat": 32.0014,
-        "lng": 34.937,
-        "count": 46
-      },
-      {
         "name": "Yehud-Monoson",
         "district": "Central",
         "lat": 32.0333,
         "lng": 34.8833,
+        "count": 47
+      },
+      {
+        "name": "Shoham",
+        "district": "Central",
+        "lat": 32.0014,
+        "lng": 34.937,
         "count": 46
       },
       {
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1938
+    "unresolvedCount": 1939
   },
   "overTime": {
     "foundedClosed": {
@@ -979,7 +979,7 @@
         1422,
         1465,
         1759,
-        1824,
+        1825,
         1741,
         1818,
         1768,
@@ -987,10 +987,10 @@
         1847,
         1683,
         1470,
-        1444,
-        1267,
+        1446,
+        1268,
         1169,
-        617
+        618
       ],
       "closed": [
         0,
@@ -1070,7 +1070,7 @@
       ],
       "statusMix": {
         "inactive": 422,
-        "active": 17781,
+        "active": 17785,
         "unknown": 3689,
         "closed": 13480
       }
@@ -1307,7 +1307,7 @@
         144,
         174,
         236,
-        425
+        426
       ],
       "acquisitions": [
         0,
@@ -1347,7 +1347,7 @@
         136,
         166,
         216,
-        368
+        369
       ],
       "ipos": [
         3,
@@ -1430,24 +1430,24 @@
         17287202100
       ],
       "typeMix": {
-        "acquisition": 3040,
+        "acquisition": 3041,
         "ipo": 395
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 19642,
+      "active": 19645,
       "closed": 12374,
-      "exited": 3356
+      "exited": 3357
     },
     "funnel": {
-      "all": 35372,
+      "all": 35376,
       "funded": 15387,
       "over1m": 6115,
       "over10m": 3033,
       "over100m": 555,
-      "exited": 3356
+      "exited": 3357
     },
     "cohorts": [
       {
@@ -1494,15 +1494,15 @@
       },
       {
         "year": 2023,
-        "total": 1444,
+        "total": 1446,
         "exited": 31,
         "closed": 164,
-        "active": 1249
+        "active": 1251
       },
       {
         "year": 2024,
-        "total": 1267,
-        "exited": 31,
+        "total": 1268,
+        "exited": 32,
         "closed": 77,
         "active": 1159
       },
@@ -1515,23 +1515,23 @@
       },
       {
         "year": 2026,
-        "total": 617,
+        "total": 618,
         "exited": 3,
         "closed": 4,
-        "active": 610
+        "active": 611
       }
     ],
     "timeToExit": {
       "overall": {
         "avgYears": 9.3,
         "medianYears": 7.0,
-        "avgValueUsd": 90951029,
+        "avgValueUsd": 90923376,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.3,
         "medianYears": 7.0,
-        "avgValueUsd": 96495949,
+        "avgValueUsd": 96463601,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1543,7 +1543,7 @@
       "distribution": [
         53,
         116,
-        230,
+        231,
         268,
         300,
         245,
@@ -1749,31 +1749,31 @@
       },
       {
         "year": 2023,
-        "total": 1414,
+        "total": 1416,
         "unknown": 30,
         "counts": {
           "it-telecom": 610,
           "healthcare-food": 280,
-          "consumer-goods-services": 252,
-          "energy-utilities": 72,
+          "consumer-goods-services": 253,
+          "energy-utilities": 73,
           "financial-services": 77,
           "media-entertainment": 123
         },
         "shares": {
-          "it-telecom": 0.4314002828854314,
-          "healthcare-food": 0.19801980198019803,
-          "consumer-goods-services": 0.1782178217821782,
-          "energy-utilities": 0.05091937765205092,
-          "financial-services": 0.054455445544554455,
-          "media-entertainment": 0.086987270155587
+          "it-telecom": 0.4307909604519774,
+          "healthcare-food": 0.1977401129943503,
+          "consumer-goods-services": 0.1786723163841808,
+          "energy-utilities": 0.05155367231638418,
+          "financial-services": 0.054378531073446326,
+          "media-entertainment": 0.08686440677966102
         }
       },
       {
         "year": 2024,
-        "total": 1230,
+        "total": 1231,
         "unknown": 37,
         "counts": {
-          "it-telecom": 579,
+          "it-telecom": 580,
           "healthcare-food": 229,
           "consumer-goods-services": 206,
           "energy-utilities": 59,
@@ -1781,12 +1781,12 @@
           "media-entertainment": 91
         },
         "shares": {
-          "it-telecom": 0.47073170731707314,
-          "healthcare-food": 0.1861788617886179,
-          "consumer-goods-services": 0.16747967479674797,
-          "energy-utilities": 0.04796747967479675,
-          "financial-services": 0.05365853658536585,
-          "media-entertainment": 0.07398373983739838
+          "it-telecom": 0.471161657189277,
+          "healthcare-food": 0.18602761982128352,
+          "consumer-goods-services": 0.16734362307067424,
+          "energy-utilities": 0.0479285134037368,
+          "financial-services": 0.05361494719740049,
+          "media-entertainment": 0.07392363931762795
         }
       },
       {
@@ -1812,10 +1812,10 @@
       },
       {
         "year": 2026,
-        "total": 582,
+        "total": 583,
         "unknown": 35,
         "counts": {
-          "it-telecom": 340,
+          "it-telecom": 341,
           "healthcare-food": 57,
           "consumer-goods-services": 83,
           "energy-utilities": 24,
@@ -1823,12 +1823,12 @@
           "media-entertainment": 43
         },
         "shares": {
-          "it-telecom": 0.584192439862543,
-          "healthcare-food": 0.0979381443298969,
-          "consumer-goods-services": 0.14261168384879724,
-          "energy-utilities": 0.041237113402061855,
-          "financial-services": 0.06013745704467354,
-          "media-entertainment": 0.07388316151202749
+          "it-telecom": 0.5849056603773585,
+          "healthcare-food": 0.09777015437392796,
+          "consumer-goods-services": 0.1423670668953688,
+          "energy-utilities": 0.0411663807890223,
+          "financial-services": 0.060034305317324184,
+          "media-entertainment": 0.07375643224699828
         }
       }
     ],
@@ -1836,42 +1836,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14119,
-        "share": 0.4077100779670806
+        "count": 14121,
+        "share": 0.4077207368481839
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6674,
-        "share": 0.19272307248050824
+        "share": 0.1927008142287925
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6021,
-        "share": 0.17386658966214266
+        "count": 6022,
+        "share": 0.17387538257203905
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1553,
-        "share": 0.04484550967369333
+        "count": 1554,
+        "share": 0.04486920367269157
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2049,
-        "share": 0.05916835114062951
+        "share": 0.05916151758387712
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4214,
-        "share": 0.12168639907594571
+        "share": 0.12167234509441589
       }
     ],
     "mixSummary": {
-      "totalVisible": 14394,
+      "totalVisible": 14398,
       "totalUnknown": 383
     },
     "subTrendYears": [
@@ -1911,17 +1911,17 @@
           0.027624309392265192,
           0.032376298106292,
           0.036011080332409975,
-          0.06082036775106082,
-          0.07723577235772358,
+          0.06073446327683616,
+          0.07717303005686434,
           0.10161870503597123,
-          0.12371134020618557
+          0.1234991423670669
         ]
       },
       {
         "name": "Enterprise Software",
         "parent": "Unknown",
-        "total": 2317,
-        "shareDelta": 0.033,
+        "total": 2318,
+        "shareDelta": 0.032,
         "counts": [
           246,
           255,
@@ -1932,7 +1932,7 @@
           262,
           200,
           204,
-          120
+          121
         ],
         "shares": [
           0.13820224719101123,
@@ -1941,17 +1941,17 @@
           0.16243093922651933,
           0.1588271227855834,
           0.15997229916897507,
-          0.18528995756718528,
-          0.16260162601626016,
+          0.1850282485875706,
+          0.16246953696181965,
           0.18345323741007194,
-          0.20618556701030927
+          0.20754716981132076
         ]
       },
       {
         "name": "Cybersecurity",
         "parent": "IT and Telecom",
         "total": 862,
-        "shareDelta": 0.022,
+        "shareDelta": 0.021,
         "counts": [
           88,
           103,
@@ -1959,8 +1959,8 @@
           90,
           93,
           94,
-          79,
-          106,
+          78,
+          107,
           88,
           42
         ],
@@ -1971,17 +1971,17 @@
           0.049723756906077346,
           0.056811240073304826,
           0.06509695290858726,
-          0.05586987270155587,
-          0.08617886178861789,
+          0.05508474576271186,
+          0.08692120227457352,
           0.07913669064748201,
-          0.07216494845360824
+          0.07204116638078903
         ]
       },
       {
         "name": "Marketing Technology",
         "parent": "IT and Telecom",
         "total": 286,
-        "shareDelta": 0.013,
+        "shareDelta": 0.012,
         "counts": [
           30,
           25,
@@ -2001,10 +2001,10 @@
           0.013812154696132596,
           0.010995723885155772,
           0.01731301939058172,
-          0.024752475247524754,
-          0.02113821138211382,
+          0.024717514124293787,
+          0.021121039805036556,
           0.040467625899280574,
-          0.048109965635738834
+          0.048027444253859346
         ]
       },
       {
@@ -2031,10 +2031,10 @@
           0.01270718232044199,
           0.010384850335980453,
           0.01038781163434903,
-          0.011315417256011316,
-          0.01951219512195122,
+          0.011299435028248588,
+          0.01949634443541836,
           0.02787769784172662,
-          0.018900343642611683
+          0.018867924528301886
         ]
       }
     ],
@@ -2063,10 +2063,10 @@
           0.010497237569060774,
           0.0177153329260843,
           0.018005540166204988,
-          0.008486562942008486,
-          0.0040650406504065045,
+          0.00847457627118644,
+          0.004061738424045491,
           0.008992805755395683,
-          0.005154639175257732
+          0.005145797598627788
         ]
       },
       {
@@ -2093,10 +2093,10 @@
           0.032044198895027624,
           0.02626756261453879,
           0.036703601108033244,
-          0.021216407355021217,
-          0.01869918699186992,
+          0.0211864406779661,
+          0.01868399675060926,
           0.008992805755395683,
-          0.005154639175257732
+          0.005145797598627788
         ]
       },
       {
@@ -2123,10 +2123,10 @@
           0.024861878453038673,
           0.021991447770311544,
           0.013157894736842105,
-          0.018387553041018388,
-          0.02032520325203252,
+          0.018361581920903956,
+          0.020308692120227456,
           0.02068345323741007,
-          0.001718213058419244
+          0.0017152658662092624
         ]
       },
       {
@@ -2153,10 +2153,10 @@
           0.014364640883977901,
           0.007330482590103849,
           0.012465373961218837,
-          0.009193776520509194,
-          0.00975609756097561,
+          0.009180790960451978,
+          0.00974817221770918,
           0.008992805755395683,
-          0.010309278350515464
+          0.010291595197255575
         ]
       },
       {
@@ -2183,17 +2183,17 @@
           0.06795580110497237,
           0.05131337813072694,
           0.05609418282548476,
-          0.04950495049504951,
-          0.05203252032520325,
+          0.04943502824858757,
+          0.05199025182778229,
           0.04136690647482014,
-          0.024054982817869417
+          0.024013722126929673
         ]
       }
     ],
     "signals": {
       "deeptechCount": 9960,
       "deeptechPct": 28.2,
-      "globalCount": 15036,
+      "globalCount": 15038,
       "globalPct": 42.5
     }
   },
@@ -2245,14 +2245,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
-        "stage": "Series A",
-        "amountUsd": 27000000,
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
         "investors": [],
-        "investorCount": 8,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2267,17 +2267,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Upwind",
         "stage": "Series C",
         "amountUsd": 300000000,
@@ -2289,14 +2278,25 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
+        "org": "Lyte",
         "stage": "Series C",
-        "amountUsd": 550000000,
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2388,17 +2388,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Doral Renewables",
-        "stage": "Private Equity",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Common Equity Investment - Doral Group"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Corma Labs",
         "stage": "Seed",
         "amountUsd": 60000000,
@@ -2407,6 +2396,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Doral Renewables",
+        "stage": "Private Equity",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Common Equity Investment - Doral Group"
       },
       {
         "ts": "2026-08-07T00:00:00.000Z",
@@ -2425,6 +2425,97 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-11T01:58:24.135Z",
+        "org": "VIBEZ AI",
+        "industry": "Energy and Utilities",
+        "city": "Tel Aviv",
+        "subIndustry": "Energy Trading & Management",
+        "description": "AI-powered energy platform that converts asset data into accurate day-ahead generation and demand forecasts and autonomous trading decisions for solar, battery storage, and conventional generation assets, including PPA management and storage dispatch optimization",
+        "domain": "vibez.energy",
+        "logoUrl": "https://i.tracxn.com/logo/company/Screenshot_from_2024-06-27_16-31-22_a84f26fe-fe94-4900-9bcf-ff2266045bb5.png",
+        "keywords": [
+          "Energy forecasting",
+          "Renewable energy trading",
+          "Battery storage optimization",
+          "Day-ahead power forecast",
+          "Autonomous energy trading",
+          "Power purchase agreements",
+          "Solar asset management",
+          "Energy analytics",
+          "Grid balancing",
+          "Demand forecasting"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B SaaS platform sold to energy asset owners, generators, and traders"
+      },
+      {
+        "ts": "2026-09-11T01:47:19.079Z",
+        "org": "NEXFINITY GLOBAL",
+        "industry": "IT and Telecom",
+        "city": "Petah Tikva",
+        "subIndustry": "Logistics and Supply Chain Software",
+        "description": "B2B digital platform for managing, evaluating, and selling excess electronics component inventory, using an AI-powered matching engine, real-time market data, and a global buyer network. Operates on a success-based fee model and handles the full lifecycle including warehousing, compliance, and shipping for electronics manufacturers.",
+        "domain": "nexfinity-global.com",
+        "keywords": [
+          "excess inventory management",
+          "surplus electronic components",
+          "inventory liquidation",
+          "AI component matching",
+          "electronics supply chain",
+          "excess inventory monetization",
+          "dead stock management",
+          "component valuation",
+          "recommerce platform",
+          "supply chain analytics"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Success-based B2B platform: no upfront or monthly fees; earns a commission only when client surplus inventory is sold, with end-to-end managed services (cataloging, marketing, sales, warehousing, logistics, compliance) plus a regional partner/distributor model with revenue sharing"
+      },
+      {
+        "ts": "2026-09-11T01:36:15.805Z",
+        "org": "REEV VEHICLE",
+        "industry": "Consumer Goods and Services",
+        "city": "\u05d9\u05d4\u05d5\u05d3-\u05de\u05d5\u05e0\u05d5\u05e1\u05d5\u05df",
+        "subIndustry": "Automotive & Transportation",
+        "description": "Developer of smart electric scooters for urban commuting and off-road riding, combining durable design, customizable components and smart safety technology for light urban mobility",
+        "domain": "reev.co.il",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGq1RKUDOQbBA/company-logo_200_200/company-logo_200_200/0/1664376320219?e=2147483647&v=beta&t=uNSBpMzyPDk_TUmYs02CNvHfOi_psvAtS3mNEuv7-PE",
+        "keywords": [
+          "Electric scooter",
+          "Smart electric scooter",
+          "Urban mobility",
+          "Light electric vehicle",
+          "Off-road scooter",
+          "Electric commuter vehicle",
+          "Micromobility"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 4,
+        "isDeeptech": false,
+        "businessModel": "B2C sales of customizable electric scooters directly to consumers through an online store"
+      },
+      {
+        "ts": "2026-09-11T01:01:52.799Z",
+        "org": "LINKRAZE TECHNOLOGIES",
+        "industry": "IT and Telecom",
+        "city": "Alfei Menashe",
+        "subIndustry": "Enterprise Software",
+        "description": "Low-latency remote access platform that streams a user's own Windows PC or Mac to any browser-based device, enabling gaming and remote desktop use with end-to-end encryption and no client installation.",
+        "domain": "linkraze.com",
+        "keywords": [
+          "game streaming",
+          "remote desktop",
+          "remote access",
+          "browser-based streaming",
+          "low-latency streaming",
+          "play PC games on mobile",
+          "PC remote control",
+          "cloud gaming alternative"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C SaaS with free tier during early access; paid plans to be announced"
+      },
       {
         "ts": "2026-09-11T00:52:13.618Z",
         "org": "NAVITAS PETROLEUM LUX SARL",
@@ -2783,98 +2874,23 @@
         ],
         "isDeeptech": false,
         "businessModel": "Coordinates access to accredited reference laboratories, managing sample logistics and report delivery between local patients and international testing providers"
-      },
-      {
-        "ts": "2026-09-10T17:02:10.825Z",
-        "org": "BRINGITS DATA",
-        "industry": "IT and Telecom",
-        "city": "Ashkelon",
-        "subIndustry": "Data & Analytics",
-        "description": "AI-driven web data scraping platform providing real-time access to public web data through anti-bot bypass technology, automated data pipeline orchestration, and AI-powered parsing of unstructured web content into structured, production-ready datasets",
-        "domain": "bringits.com",
-        "keywords": [
-          "Web scraping API",
-          "Data extraction",
-          "Anti-bot bypass",
-          "Real-time data pipelines",
-          "AI data parsing",
-          "E-commerce data feeds",
-          "LLM training data",
-          "Web unblocking",
-          "Structured data delivery",
-          "Proxy management"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS with usage-based data delivery and enterprise contracts"
-      },
-      {
-        "ts": "2026-09-10T17:01:40.525Z",
-        "org": "DOPPIO SECURITY",
-        "industry": "IT and Telecom",
-        "city": "Tel Aviv",
-        "subIndustry": "DevOps & Development Tools",
-        "description": "Platform for discovering and browsing agent skills that extend AI coding assistants, helping developers find and manage capabilities for agentic coding tools",
-        "domain": "doppio.ai",
-        "logoUrl": "https://cdn.startuphub.ai/storage/v1/object/public/entity-images/logos/d19a7fc7-3da0-46fa-9843-d76c470f984d-square.webp",
-        "keywords": [
-          "AI coding assistants",
-          "Agent skills",
-          "Developer tools",
-          "Agentic AI",
-          "Code generation",
-          "Developer productivity",
-          "AI agents",
-          "Skill discovery"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS"
-      },
-      {
-        "ts": "2026-09-10T16:37:14.754Z",
-        "org": "DEVEXPERTS SOLUTIONS ISRAEL",
-        "industry": "Financial Services",
-        "city": "Jersey City",
-        "subIndustry": "Financial Data & Analytics",
-        "description": "Fintech software provider developing white-label trading platforms, matching engines, charting libraries, market data services, and wealth-management software for capital markets firms.",
-        "domain": "devexperts.com",
-        "logoUrl": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_4/ebff1e52209d47f083df001e9b2cf941",
-        "keywords": [
-          "Trading platforms",
-          "White-label brokerage software",
-          "Matching engine",
-          "Market data",
-          "Charting library",
-          "Risk management software",
-          "Wealth management software",
-          "Options trading platform",
-          "Futures trading platform",
-          "FX/CFD trading"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS licensing of white-label trading platforms plus custom software development and consulting for financial institutions"
-      },
-      {
-        "ts": "2026-09-10T16:27:36.671Z",
-        "org": "FICE COMPACT WELLNESS",
-        "industry": "Consumer Goods and Services",
-        "city": "Kfar Vitkin",
-        "subIndustry": "Personal Care & Beauty",
-        "description": "Beauty and wellness company developing botanical skincare products for personal care routines",
-        "domain": "getfice.com",
-        "keywords": [
-          "Botanical skincare",
-          "Natural beauty products",
-          "Skin care",
-          "Wellness",
-          "Personal care",
-          "Clean beauty",
-          "Plant-based cosmetics"
-        ],
-        "isDeeptech": false,
-        "businessModel": "D2C e-commerce sales of skincare products"
       }
     ],
     "notable": [
+      {
+        "ts": "2026-09-10T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Bonfy",
+        "summary": "Acquired by Kiteworks in a deal estimated at tens of millions of dollars (terms undisclosed). Bonfy.AI's runtime data classification and policy enforcement technology is being integrated into the Kiteworks Data Control Plane; Bonfy.AI will continue to be offered as a separate solution during integration."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
+      },
       {
         "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
@@ -2890,11 +2906,18 @@
         "summary": "Acquired by Prytek Group. Prytek announced a merger/acquisition of Scanovate's activity and two subsidiaries (Cellosign, Israel; ADO Technologies, Colombia) in a deal valued at about $50 million in its first phase, expected to generate shareholder value of up to $100 million. Scanovate will lead Prytek's customer lifecycle management (CLM) segment. Scanovate, founded 2014 by CEO Amir Fishman with CTOs Roy Fishman and Irad Gilboa, serves 250+ customers including ~120 financial institutions across North America, South America, Western Europe and Israel."
       },
       {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "NAVITAS PETROLEUM LUX SARL",
+        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -2911,34 +2934,6 @@
         "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
       },
       {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "NAVITAS PETROLEUM LUX SARL",
-        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Sweep.io",
-        "summary": "Acquired by ServiceNow in a deal estimated at hundreds of millions of dollars (reported ~$400M, not officially announced or disclosed by either company). Sweep's technology works across enterprise platforms including ServiceNow, Salesforce and HubSpot; it was founded in 2021 by Ido Gaver and Eran Kirshenboim and had raised $46M in disclosed funding."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
-      },
-      {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Customer Milestone",
@@ -2947,10 +2942,10 @@
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "XTEND",
-        "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Quantum X Labs",
+        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2967,39 +2962,18 @@
         "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Huskeys",
-        "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Sweep.io",
+        "summary": "Acquired by ServiceNow in a deal estimated at hundreds of millions of dollars (reported ~$400M, not officially announced or disclosed by either company). Sweep's technology works across enterprise platforms including ServiceNow, Salesforce and HubSpot; it was founded in 2021 by Ido Gaver and Eran Kirshenboim and had raised $46M in disclosed funding."
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Jeen AI",
-        "summary": "Announced real-time cost governance (FinOps) capability across its enterprise platform, giving finance and IT teams live visibility into AI spending attributed by department, user and individual agent, with budgets managed inside the same governance layer; available across cloud, on-premise, hybrid and air-gapped environments."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Signed a go-to-market agreement with Scientek Corporation (a Zen Voce company) to expand access to the Classiq hardware-agnostic quantum software platform across Taiwan's semiconductor, research and academic communities."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Huskeys",
-        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "XTEND",
+        "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -3014,6 +2988,34 @@
         "rawKind": "Executive Appointment",
         "org": "Lyte",
         "summary": "Andrew Homan, managing partner at Maverick Silicon, joined Lyte's board of directors, announced alongside the company's $165M Series C led by Maverick Silicon."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Lemonade",
+        "summary": "Launched Lemonade Car and Lemonade Autonomous Car insurance in Missouri, including Tesla FSD (Supervised) pricing with 50% off every mile driven on FSD."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Lasso Security",
+        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Huskeys",
+        "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
       }
     ]
   }
