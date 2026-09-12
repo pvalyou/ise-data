@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-12T03:33:10.846667Z",
+  "generatedAt": "2026-09-12T04:33:19.133207Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       28,
       38,
       75,
-      5
+      10
     ],
     "exits": [
       0,
@@ -472,8 +472,8 @@
     },
     "newOrgs": {
       "d1": 68,
-      "d7": 237,
-      "d30": 3919
+      "d7": 242,
+      "d30": 3924
     },
     "exits": {
       "d1": 0,
@@ -496,7 +496,7 @@
       "d30": 5588
     },
     "newFounders": {
-      "d1": 49,
+      "d1": 44,
       "d7": 490,
       "d30": 2861
     },
@@ -512,7 +512,7 @@
     }
   },
   "news": {
-    "sweptOn": "2026-09-11",
+    "sweptOn": "2026-09-12",
     "israel": [
       {
         "company": "Deepdub",
@@ -532,6 +532,25 @@
         "detail": "Israeli AI dubbing startup Deepdub launches a new Hebrew-focused TTS model",
         "publishedAt": "2026-09-11",
         "seenOn": "2026-09-11"
+      },
+      {
+        "company": "Bonfire",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Cato Networks",
+        "status": "reported",
+        "tie": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d5\u05ea \u05d1\u05d4\u05e0\u05d4\u05dc\u05d4 \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea",
+        "url": "https://www.themarker.com/markets/2026-09-10/ty-article/.highlight/000001a0-8a74-d9dc-a9a9-8af625880000",
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/markets/2026-09-10/ty-article/.highlight/000001a0-8a74-d9dc-a9a9-8af625880000"
+          }
+        ],
+        "amount": null,
+        "detail": "Cato Networks acquires Gidi Cohen and Danny Kibel's security startup Bonfyre, estimated in tens of millions of dollars",
+        "publishedAt": "2026-09-10",
+        "seenOn": "2026-09-12"
       },
       {
         "company": "Bonpay",
@@ -572,23 +591,23 @@
         "seenOn": "2026-09-11"
       },
       {
-        "company": "Bonfyre",
-        "event": "acquisition",
+        "company": "Energean",
+        "event": "contract_win",
         "round": null,
-        "counterparty": "Cato Networks",
+        "counterparty": "Sorek power plant",
         "status": "reported",
-        "tie": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d5\u05ea \u05d1\u05d4\u05e0\u05d4\u05dc\u05d4 \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea",
-        "url": "https://www.themarker.com/markets/2026-09-10/ty-article/.highlight/000001a0-8a74-d9dc-a9a9-8af625880000",
+        "tie": "Israeli energy company",
+        "url": null,
         "sources": [
           {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/markets/2026-09-10/ty-article/.highlight/000001a0-8a74-d9dc-a9a9-8af625880000"
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
           }
         ],
-        "amount": null,
-        "detail": "Cato Networks acquires Gidi Cohen and Danny Kibel's security startup Bonfyre, estimated in tens of millions of dollars",
-        "publishedAt": "2026-09-10",
-        "seenOn": "2026-09-11"
+        "amount": "$1.4 billion",
+        "detail": "Energean signs $1.4 billion gas deal with new Sorek power plant",
+        "publishedAt": "2026-09-09",
+        "seenOn": "2026-09-10"
       },
       {
         "company": "Elbit",
@@ -606,25 +625,6 @@
         ],
         "amount": null,
         "detail": "Elbit unveils FUSE to coordinate swarms of autonomous systems",
-        "publishedAt": "2026-09-09",
-        "seenOn": "2026-09-10"
-      },
-      {
-        "company": "Energean",
-        "event": "contract_win",
-        "round": null,
-        "counterparty": "Sorek power plant",
-        "status": "reported",
-        "tie": "Israeli energy company",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": "$1.4 billion",
-        "detail": "Energean signs $1.4 billion gas deal with new Sorek power plant",
         "publishedAt": "2026-09-09",
         "seenOn": "2026-09-10"
       },
@@ -850,68 +850,75 @@
         "seenOn": "2026-09-08"
       },
       {
-        "company": "Guardio",
+        "company": "Exodigo",
         "event": "funding",
-        "round": null,
+        "round": "series a",
         "counterparty": null,
         "status": "reported",
-        "tie": "Israeli cybersecurity startup Guardio Ltd.",
-        "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/",
+        "tie": "an Israeli company using artificial intelligence to map what lies underground",
+        "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel",
         "sources": [
           {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/hy5rf0lofg"
-          },
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/guardio-raises-40m-unicorn/"
-          },
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation/2026-09-03/ty-article/.highlight/000001a0-66d0-def7-a7f7-6ef7f7df0000"
-          },
-          {
-            "label": "X",
-            "url": "https://twitter.com/Techmeme/status/2095473352077193612"
+            "label": "App",
+            "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel"
           }
         ],
-        "amount": "$40 million",
-        "detail": "Israeli consumer cybersecurity firm Guardio raises $40M at $1.1B valuation, with Wiz founder Assaf Rappaport joining the round",
+        "amount": "$105 million",
+        "detail": "Israeli underground-mapping AI company Exodigo closes $105M Series A, a top-percentile round in Israel",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
       {
-        "company": "Huskeys",
+        "company": "Catch",
         "event": "funding",
-        "round": "series a",
-        "counterparty": "Blackstone",
+        "round": "seed",
+        "counterparty": null,
         "status": "reported",
-        "tie": "Israeli cybersecurity start-up",
-        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907494",
+        "tie": "a Tel Aviv, Israel-based artificial intelligence and enterprise productivity startup",
+        "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html",
         "sources": [
           {
-            "label": "JPost",
-            "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907494"
+            "label": "Finsmes",
+            "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html"
           },
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/z6p9lwa7b"
+            "url": "https://www.calcalistech.com/ctechnews/article/bjtzojrofg"
           },
           {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/huskeys-raises-27m-series-a/"
-          },
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001554225#utm_source=RSS"
+            "label": "TechFundingNews",
+            "url": "https://techfundingnews.com/catch-ai-agent-raises-5m-entree-pitango/"
           },
           {
             "label": "X",
-            "url": "https://twitter.com/tv10israel/status/2095180284643664330"
+            "url": "https://twitter.com/Calcalistech/status/2095149902409990619"
           }
         ],
-        "amount": "$27 million",
-        "detail": "Israeli cybersecurity startup Huskeys raises $27M Series A led by Blackstone to fight AI traffic threats",
+        "amount": "$5M",
+        "detail": "Tel Aviv AI productivity startup Catch raises $5M in seed funding",
+        "publishedAt": "2026-09-03",
+        "seenOn": "2026-09-04"
+      },
+      {
+        "company": "DataAgent",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israeli startup DataAgent",
+        "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/",
+        "sources": [
+          {
+            "label": "Customerthink",
+            "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/dataagent-stealth-10m-seed/"
+          }
+        ],
+        "amount": "$10 million",
+        "detail": "Israeli startup DataAgent emerges from stealth with $10M pre-seed for AI Kubernetes fault remediation",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
@@ -955,44 +962,37 @@
         "seenOn": "2026-09-04"
       },
       {
-        "company": "DataAgent",
+        "company": "Huskeys",
         "event": "funding",
-        "round": "pre-seed",
-        "counterparty": null,
+        "round": "series a",
+        "counterparty": "Blackstone",
         "status": "reported",
-        "tie": "Israeli startup DataAgent",
-        "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/",
+        "tie": "Israeli cybersecurity start-up",
+        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907494",
         "sources": [
           {
-            "label": "Customerthink",
-            "url": "https://customerthink.com/dataagent-emerges-from-stealth-and-launches-remediation-first-platform-with-10-million-pre-seed-funding/"
+            "label": "JPost",
+            "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907494"
+          },
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/z6p9lwa7b"
           },
           {
             "label": "Geektime",
-            "url": "https://www.geektime.co.il/dataagent-stealth-10m-seed/"
-          }
-        ],
-        "amount": "$10 million",
-        "detail": "Israeli startup DataAgent emerges from stealth with $10M pre-seed for AI Kubernetes fault remediation",
-        "publishedAt": "2026-09-03",
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "Exodigo",
-        "event": "funding",
-        "round": "series a",
-        "counterparty": null,
-        "status": "reported",
-        "tie": "an Israeli company using artificial intelligence to map what lies underground",
-        "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel",
-        "sources": [
+            "url": "https://www.geektime.co.il/huskeys-raises-27m-series-a/"
+          },
           {
-            "label": "App",
-            "url": "https://app.dealroom.co/news/note/exodigo-raises-105m-series-a-a-top-percentile-ai-round-in-israel"
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001554225#utm_source=RSS"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/tv10israel/status/2095180284643664330"
           }
         ],
-        "amount": "$105 million",
-        "detail": "Israeli underground-mapping AI company Exodigo closes $105M Series A, a top-percentile round in Israel",
+        "amount": "$27 million",
+        "detail": "Israeli cybersecurity startup Huskeys raises $27M Series A led by Blackstone to fight AI traffic threats",
         "publishedAt": "2026-09-03",
         "seenOn": "2026-09-04"
       },
@@ -1052,57 +1052,103 @@
         "seenOn": "2026-09-04"
       },
       {
-        "company": "Catch",
+        "company": "Guardio",
         "event": "funding",
-        "round": "seed",
+        "round": null,
         "counterparty": null,
         "status": "reported",
-        "tie": "a Tel Aviv, Israel-based artificial intelligence and enterprise productivity startup",
-        "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html",
+        "tie": "Israeli cybersecurity startup Guardio Ltd.",
+        "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/",
         "sources": [
           {
-            "label": "Finsmes",
-            "url": "https://www.finsmes.com/2026/09/catch-raises-5m-in-seed-funding.html"
+            "label": "Siliconangle",
+            "url": "https://siliconangle.com/2026/09/03/guardio-raises-40m-at-1-1b-valuation-to-enhance-consumer-cybersecurity/"
           },
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/bjtzojrofg"
+            "url": "https://www.calcalistech.com/ctechnews"
           },
           {
-            "label": "TechFundingNews",
-            "url": "https://techfundingnews.com/catch-ai-agent-raises-5m-entree-pitango/"
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/guardio-raises-40m-unicorn/"
+          },
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-09-03/ty-article/.highlight/000001a0-66d0-def7-a7f7-6ef7f7df0000"
           },
           {
             "label": "X",
-            "url": "https://twitter.com/Calcalistech/status/2095149902409990619"
+            "url": "https://twitter.com/business/status/2095522237742801276"
           }
         ],
-        "amount": "$5M",
-        "detail": "Tel Aviv AI productivity startup Catch raises $5M in seed funding",
+        "amount": "$40 million",
+        "detail": "Israeli consumer cybersecurity firm Guardio raises $40M at $1.1B valuation, with Wiz founder Assaf Rappaport joining the round",
         "publishedAt": "2026-09-03",
-        "seenOn": "2026-09-04"
-      },
-      {
-        "company": "Varonis",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Proofpoint",
-        "status": "rumored",
-        "tie": "Israeli cybersecurity company",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QYXdIclVkRkJLZUIwY3dsT1ZWZ29zc3FlSW5kb1pGLWxZUS1Nbml2NEl3dzRVdHR3TktZNDV3Q3FVY05oOHkzM3A4NzFBVHRyMmRmX05CN2ZRaVZJNXRfcmUwdmcwS2s?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/ygrlfhjfe"
-          }
-        ],
-        "amount": null,
-        "detail": "Proofpoint reportedly in talks to acquire Israeli cybersecurity firm Varonis",
-        "publishedAt": "2026-09-02",
         "seenOn": "2026-09-04"
       }
     ],
     "global": [
+      {
+        "company": "Motive",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/",
+        "sources": [
+          {
+            "label": "Crunchbase News",
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+          }
+        ],
+        "amount": "$1.3 billion",
+        "detail": "Fleet management software provider Motive raised $1.3 billion.",
+        "publishedAt": "2026-09-11",
+        "seenOn": "2026-09-12"
+      },
+      {
+        "company": "The Boring Co.",
+        "event": "funding",
+        "round": "Series D",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/",
+        "sources": [
+          {
+            "label": "Crunchbase News",
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+          }
+        ],
+        "amount": "$3 billion",
+        "detail": "The Boring Co. led the week's biggest rounds with a $3 billion Series D.",
+        "publishedAt": "2026-09-11",
+        "seenOn": "2026-09-12"
+      },
+      {
+        "company": "Cognition",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/",
+        "sources": [
+          {
+            "label": "Crunchbase News",
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+          }
+        ],
+        "amount": "$2 billion",
+        "detail": "AI coding startup Cognition raised $2 billion in the week's second-largest round.",
+        "publishedAt": "2026-09-11",
+        "seenOn": "2026-09-12"
+      },
       {
         "company": "June AI",
         "event": "funding",
@@ -1119,25 +1165,6 @@
         ],
         "amount": "$20 million",
         "detail": "Efrat Rapoport's AI startup June AI raises $20 million pre-seed from Marc Benioff, Michael Dell, and George Kurtz",
-        "publishedAt": null,
-        "seenOn": "2026-09-11"
-      },
-      {
-        "company": "The Exploration Company",
-        "event": "contract_win",
-        "round": null,
-        "counterparty": "European Space Agency (ESA)",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/after-e387-million-raise-the-exploration-company-wins-esas-aladdin-cargo-capsule-contract-worth-e760-million/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/after-e387-million-raise-the-exploration-company-wins-esas-aladdin-cargo-capsule-contract-worth-e760-million/"
-          }
-        ],
-        "amount": "\u20ac760 million",
-        "detail": "The Exploration Company wins \u20ac760M ESA contract to build Europe's first commercial cargo capsule for the ISS",
         "publishedAt": "2026-09-11",
         "seenOn": "2026-09-11"
       },
@@ -1165,25 +1192,6 @@
         "seenOn": "2026-09-11"
       },
       {
-        "company": "Gravity Gardens",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/dutch-agtech-gravity-gardens-secures-e2-6-million-to-scale-its-dry-chemical-free-seed-activation-technology/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/dutch-agtech-gravity-gardens-secures-e2-6-million-to-scale-its-dry-chemical-free-seed-activation-technology/"
-          }
-        ],
-        "amount": "\u20ac2.6 million",
-        "detail": "Dutch AgTech Gravity Gardens raises \u20ac2.6M Seed for chemical-free dry seed activation technology",
-        "publishedAt": "2026-09-11",
-        "seenOn": "2026-09-11"
-      },
-      {
         "company": "Furo",
         "event": "funding",
         "round": null,
@@ -1203,6 +1211,44 @@
         ],
         "amount": "\u20ac3.44 million",
         "detail": "Munich-based Furo raises \u20ac3.44M led by TQ Ventures for industrial battery storage software",
+        "publishedAt": "2026-09-11",
+        "seenOn": "2026-09-11"
+      },
+      {
+        "company": "Gravity Gardens",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/dutch-agtech-gravity-gardens-secures-e2-6-million-to-scale-its-dry-chemical-free-seed-activation-technology/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/dutch-agtech-gravity-gardens-secures-e2-6-million-to-scale-its-dry-chemical-free-seed-activation-technology/"
+          }
+        ],
+        "amount": "\u20ac2.6 million",
+        "detail": "Dutch AgTech Gravity Gardens raises \u20ac2.6M Seed for chemical-free dry seed activation technology",
+        "publishedAt": "2026-09-11",
+        "seenOn": "2026-09-11"
+      },
+      {
+        "company": "The Exploration Company",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": "European Space Agency (ESA)",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/after-e387-million-raise-the-exploration-company-wins-esas-aladdin-cargo-capsule-contract-worth-e760-million/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/after-e387-million-raise-the-exploration-company-wins-esas-aladdin-cargo-capsule-contract-worth-e760-million/"
+          }
+        ],
+        "amount": "\u20ac760 million",
+        "detail": "The Exploration Company wins \u20ac760M ESA contract to build Europe's first commercial cargo capsule for the ISS",
         "publishedAt": "2026-09-11",
         "seenOn": "2026-09-11"
       },
@@ -1268,21 +1314,21 @@
         "seenOn": "2026-09-11"
       },
       {
-        "company": "Mitti Labs",
-        "event": "partnership",
+        "company": "Robutler",
+        "event": "funding",
         "round": null,
-        "counterparty": "Google",
+        "counterparty": "ZAS Ventures",
         "status": "reported",
         "tie": null,
-        "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/",
+        "url": "https://tech.eu/2026/09/10/robutler-raises-400k-from-zas-ventures-to-build-the-youtube-of-software/",
         "sources": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/"
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/10/robutler-raises-400k-from-zas-ventures-to-build-the-youtube-of-software/"
           }
         ],
-        "amount": null,
-        "detail": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
+        "amount": "$400K",
+        "detail": "Robutler raises $400K from ZAS Ventures to build the 'YouTube of software'",
         "publishedAt": "2026-09-10",
         "seenOn": "2026-09-11"
       },
@@ -1302,44 +1348,6 @@
         ],
         "amount": "$4 million",
         "detail": "German energy startup Furo secures $4 million from mostly U.S. backers after founders left Silicon Valley",
-        "publishedAt": "2026-09-10",
-        "seenOn": "2026-09-11"
-      },
-      {
-        "company": "Maven Robotics",
-        "event": "funding",
-        "round": "series a",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
-          }
-        ],
-        "amount": "$100 million",
-        "detail": "Maven Robotics emerges from stealth with a $100 million Series A and active robot deployments",
-        "publishedAt": "2026-09-10",
-        "seenOn": "2026-09-11"
-      },
-      {
-        "company": "Robutler",
-        "event": "funding",
-        "round": null,
-        "counterparty": "ZAS Ventures",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/10/robutler-raises-400k-from-zas-ventures-to-build-the-youtube-of-software/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/10/robutler-raises-400k-from-zas-ventures-to-build-the-youtube-of-software/"
-          }
-        ],
-        "amount": "$400K",
-        "detail": "Robutler raises $400K from ZAS Ventures to build the 'YouTube of software'",
         "publishedAt": "2026-09-10",
         "seenOn": "2026-09-11"
       },
@@ -1382,6 +1390,63 @@
         "seenOn": "2026-09-11"
       },
       {
+        "company": "Maven Robotics",
+        "event": "funding",
+        "round": "series a",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+          }
+        ],
+        "amount": "$100 million",
+        "detail": "Maven Robotics emerges from stealth with a $100 million Series A and active robot deployments",
+        "publishedAt": "2026-09-10",
+        "seenOn": "2026-09-11"
+      },
+      {
+        "company": "Mitti Labs",
+        "event": "partnership",
+        "round": null,
+        "counterparty": "Google",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/"
+          }
+        ],
+        "amount": null,
+        "detail": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
+        "publishedAt": "2026-09-10",
+        "seenOn": "2026-09-11"
+      },
+      {
+        "company": "Arlequin AI",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/09/10/arlequin-ai-lands-eur28m-to-scale-topological-neural-network-technology/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/09/10/arlequin-ai-lands-eur28m-to-scale-topological-neural-network-technology/"
+          }
+        ],
+        "amount": "\u20ac28M",
+        "detail": "Paris-based AI company Arlequin AI raises \u20ac28M Series A to scale its topological neural network technology",
+        "publishedAt": "2026-09-10",
+        "seenOn": "2026-09-10"
+      },
+      {
         "company": "Listen Labs",
         "event": "funding",
         "round": "series c",
@@ -1397,6 +1462,25 @@
         ],
         "amount": "$1.5B",
         "detail": "AI research startup Listen Labs walked away from a signed $1.5B Series C term sheet with Menlo Ventures amid Salesforce talks.",
+        "publishedAt": "2026-09-10",
+        "seenOn": "2026-09-10"
+      },
+      {
+        "company": "Grubel",
+        "event": "funding",
+        "round": "pre-Seed",
+        "counterparty": "Point Nine",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/09/new-german-ai-research-lab-grubel-raises-e3-million-to-build-systems-that-adapt-to-individual-legal-cases/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/09/new-german-ai-research-lab-grubel-raises-e3-million-to-build-systems-that-adapt-to-individual-legal-cases/"
+          }
+        ],
+        "amount": "\u20ac3 million",
+        "detail": "Munich- and T\u00fcbingen-based AI legal research lab Grubel raises \u20ac3M pre-Seed led by Point Nine",
         "publishedAt": "2026-09-10",
         "seenOn": "2026-09-10"
       },
@@ -1420,25 +1504,6 @@
         "seenOn": "2026-09-10"
       },
       {
-        "company": "Arlequin AI",
-        "event": "funding",
-        "round": "Series A",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/10/arlequin-ai-lands-eur28m-to-scale-topological-neural-network-technology/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/10/arlequin-ai-lands-eur28m-to-scale-topological-neural-network-technology/"
-          }
-        ],
-        "amount": "\u20ac28M",
-        "detail": "Paris-based AI company Arlequin AI raises \u20ac28M Series A to scale its topological neural network technology",
-        "publishedAt": "2026-09-10",
-        "seenOn": "2026-09-10"
-      },
-      {
         "company": "Bynario",
         "event": "funding",
         "round": "pre-Seed",
@@ -1458,25 +1523,6 @@
         ],
         "amount": "\u20ac2.1 million",
         "detail": "Milan-based cybersecurity startup Bynario raises \u20ac2.1M pre-Seed led by 360 Capital Partners",
-        "publishedAt": "2026-09-10",
-        "seenOn": "2026-09-10"
-      },
-      {
-        "company": "Grubel",
-        "event": "funding",
-        "round": "pre-Seed",
-        "counterparty": "Point Nine",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/09/new-german-ai-research-lab-grubel-raises-e3-million-to-build-systems-that-adapt-to-individual-legal-cases/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/new-german-ai-research-lab-grubel-raises-e3-million-to-build-systems-that-adapt-to-individual-legal-cases/"
-          }
-        ],
-        "amount": "\u20ac3 million",
-        "detail": "Munich- and T\u00fcbingen-based AI legal research lab Grubel raises \u20ac3M pre-Seed led by Point Nine",
         "publishedAt": "2026-09-10",
         "seenOn": "2026-09-10"
       },
@@ -1521,82 +1567,6 @@
         "detail": "UK manufacturing software startup CloudNC raises $20M Series B extension, lifting total raised to $128M",
         "publishedAt": "2026-09-09",
         "seenOn": "2026-09-11"
-      },
-      {
-        "company": "Actionable",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/09/actionable-raises-10m-to-turn-customer-data-into-behavioural-predictions/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/09/actionable-raises-10m-to-turn-customer-data-into-behavioural-predictions/"
-          }
-        ],
-        "amount": "$10M",
-        "detail": "French customer intelligence startup Actionable raises $10M led by Hi Inovia for behavioural prediction platform",
-        "publishedAt": "2026-09-09",
-        "seenOn": "2026-09-10"
-      },
-      {
-        "company": "Harvey",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/"
-          }
-        ],
-        "amount": null,
-        "detail": "Legal AI startup Harvey hits $15.5B valuation, nearly doubling from $11B in nine months",
-        "publishedAt": "2026-09-09",
-        "seenOn": "2026-09-10"
-      },
-      {
-        "company": "SCI Semiconductor",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/09/09/sci-semiconductor-raises-ps5m-to-ramp-up-production-of-memory-safe-chips/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/09/09/sci-semiconductor-raises-ps5m-to-ramp-up-production-of-memory-safe-chips/"
-          }
-        ],
-        "amount": "\u00a35M",
-        "detail": "Sheffield chipmaker SCI Semiconductor raises oversubscribed \u00a35M round to ramp production of memory-safe chips",
-        "publishedAt": "2026-09-09",
-        "seenOn": "2026-09-10"
-      },
-      {
-        "company": "Carrum Mobility",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Uber",
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/"
-          }
-        ],
-        "amount": "$10M",
-        "detail": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
-        "publishedAt": "2026-09-09",
-        "seenOn": "2026-09-10"
       }
     ]
   },
@@ -1624,6 +1594,16 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
+      "target": "Sweep.io",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "sweep.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
+    },
+    {
+      "ts": "2026-09-03",
+      "precision": "day",
       "target": "XTEND",
       "acquirer": null,
       "kind": "ipo",
@@ -1640,16 +1620,6 @@
       "amountUsd": null,
       "domain": "alzaihealth.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
-      "target": "Sweep.io",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "sweep.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
     },
     {
       "ts": "2026-08-31",
@@ -2116,17 +2086,17 @@
       "ts": "2026-09-03",
       "kind": "granted",
       "org": "Quanterix Spatial",
-      "title": "Analyte detection by selective labeling of biological samples",
-      "number": "7915262",
-      "url": "https://patents.google.com/patent/JP7915262B2/en"
+      "title": "Multispectral sample imaging",
+      "number": "7915199",
+      "url": "https://patents.google.com/patent/JP7915199B2/en"
     },
     {
       "ts": "2026-09-03",
       "kind": "granted",
       "org": "Quanterix Spatial",
-      "title": "Multispectral sample imaging",
-      "number": "7915199",
-      "url": "https://patents.google.com/patent/JP7915199B2/en"
+      "title": "Analyte detection by selective labeling of biological samples",
+      "number": "7915262",
+      "url": "https://patents.google.com/patent/JP7915262B2/en"
     },
     {
       "ts": "2026-08-25",
@@ -2155,18 +2125,18 @@
     {
       "ts": "2026-08-18",
       "kind": "granted",
-      "org": "Ubi",
-      "title": "Method of online shopping and system therefor",
-      "number": "12711541",
-      "url": "https://patents.google.com/patent/US12711541B2/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
       "org": "SeatyLock",
       "title": "Folding bicycle lock",
       "number": "D1141845",
       "url": "https://patents.google.com/patent/USD1141845S/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
+      "org": "Ubi",
+      "title": "Method of online shopping and system therefor",
+      "number": "12711541",
+      "url": "https://patents.google.com/patent/US12711541B2/en"
     },
     {
       "ts": "2026-08-18",
@@ -2313,27 +2283,27 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 26
+          "count": 27
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 21
-        },
-        {
-          "label": "Media and Entertainment",
-          "count": 6
+          "count": 23
         },
         {
           "label": "Financial Services",
           "count": 5
         },
         {
-          "label": "Healthcare and Food",
+          "label": "Media and Entertainment",
           "count": 5
         },
         {
           "label": "Energy and Utilities",
           "count": 4
+        },
+        {
+          "label": "Healthcare and Food",
+          "count": 3
         },
         {
           "label": "Unknown",
@@ -2343,11 +2313,11 @@
       "d7": [
         {
           "label": "IT and Telecom",
-          "count": 103
+          "count": 105
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 64
+          "count": 67
         },
         {
           "label": "Media and Entertainment",
@@ -2373,11 +2343,11 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 1367
+          "count": 1369
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 1043
+          "count": 1046
         },
         {
           "label": "Media and Entertainment",
