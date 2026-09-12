@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:32:40.056Z",
+  "generatedAt": "2026-09-12T05:42:58.354Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35457,
-      "delta24h": 64
+      "delta24h": 63
     },
     "totalFunding": {
       "valueUsd": 221719365309,
@@ -188,7 +188,7 @@
       },
       {
         "name": "Central",
-        "count": 3514
+        "count": 3513
       },
       {
         "name": "Haifa",
@@ -738,18 +738,18 @@
         "count": 10
       },
       {
-        "name": "Be'er Ya'akov",
-        "district": "Central",
-        "lat": 31.9425,
-        "lng": 34.8344,
-        "count": 9
-      },
-      {
         "name": "Ramla",
         "district": "Central",
         "lat": 31.9281,
         "lng": 34.8714,
         "count": 9
+      },
+      {
+        "name": "Be'er Ya'akov",
+        "district": "Central",
+        "lat": 31.9425,
+        "lng": 34.8344,
+        "count": 8
       },
       {
         "name": "Safed",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1957
+    "unresolvedCount": 1955
   },
   "overTime": {
     "foundedClosed": {
@@ -2256,17 +2256,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2275,6 +2264,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2289,14 +2289,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2311,17 +2311,6 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
         "amountUsd": 15000000,
@@ -2330,6 +2319,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round (Series C)"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-08-25T00:00:00.000Z",
@@ -2388,17 +2388,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Doral Renewables",
-        "stage": "Private Equity",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Common Equity Investment - Doral Group"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Corma Labs",
         "stage": "Seed",
         "amountUsd": 60000000,
@@ -2407,6 +2396,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Doral Renewables",
+        "stage": "Private Equity",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Common Equity Investment - Doral Group"
       },
       {
         "ts": "2026-08-07T00:00:00.000Z",
@@ -2933,6 +2933,13 @@
       {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Decart",
+        "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Cylake",
         "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
@@ -2945,11 +2952,11 @@
         "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
-        "ts": "2026-09-08T00:00:00.000Z",
+        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Decart",
-        "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
+        "rawKind": "R&D Milestone",
+        "org": "Quantum X Labs",
+        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2975,13 +2982,6 @@
       {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Customer Milestone",
         "org": "Guardio",
         "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
@@ -3003,9 +3003,9 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Jeen AI",
-        "summary": "Announced real-time cost governance (FinOps) capability across its enterprise platform, giving finance and IT teams live visibility into AI spending attributed by department, user and individual agent, with budgets managed inside the same governance layer; available across cloud, on-premise, hybrid and air-gapped environments."
+        "rawKind": "Award Recognition",
+        "org": "Euno",
+        "summary": "Euno announced it was named a Cool Vendor in the 2026 Gartner Coolest Vendor Innovations in Data Management (report dated July 29, 2026)."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -3024,16 +3024,16 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Lyte",
-        "summary": "Andrew Homan, managing partner at Maverick Silicon, joined Lyte's board of directors, announced alongside the company's $165M Series C led by Maverick Silicon."
+        "rawKind": "Product Launch",
+        "org": "Lasso Security",
+        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       }
     ]
   }
