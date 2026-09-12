@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:01:36.707Z",
+  "generatedAt": "2026-09-12T14:03:52.449Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35486,
-      "delta24h": 69
+      "delta24h": 68
     },
     "totalFunding": {
       "valueUsd": 221722075309,
@@ -2245,6 +2245,28 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Upwind",
         "stage": "Series C",
         "amountUsd": 300000000,
@@ -2267,17 +2289,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2286,17 +2297,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2388,17 +2388,6 @@
       },
       {
         "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Doral Renewables",
-        "stage": "Private Equity",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Common Equity Investment - Doral Group"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
         "org": "Corma Labs",
         "stage": "Seed",
         "amountUsd": 60000000,
@@ -2407,6 +2396,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-08-10T00:00:00.000Z",
+        "org": "Doral Renewables",
+        "stage": "Private Equity",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Common Equity Investment - Doral Group"
       },
       {
         "ts": "2026-08-07T00:00:00.000Z",
@@ -2898,10 +2898,10 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Covenant",
+        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2912,10 +2912,17 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Covenant",
-        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+        "rawKind": "Legal Case",
+        "org": "NAVITAS PETROLEUM LUX SARL",
+        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -2928,22 +2935,15 @@
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "NAVITAS PETROLEUM LUX SARL",
-        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
+        "org": "Quantum X Labs",
+        "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "Quantum X Labs",
-        "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2955,9 +2955,9 @@
       {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+        "rawKind": "Customer Milestone",
+        "org": "Guardio",
+        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2965,13 +2965,6 @@
         "rawKind": "Acquisition",
         "org": "Sweep.io",
         "summary": "Acquired by ServiceNow in a deal estimated at hundreds of millions of dollars (reported ~$400M, not officially announced or disclosed by either company). Sweep's technology works across enterprise platforms including ServiceNow, Salesforce and HubSpot; it was founded in 2021 by Ido Gaver and Eran Kirshenboim and had raised $46M in disclosed funding."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2983,9 +2976,16 @@
       {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Guardio",
-        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
+        "rawKind": "R&D Milestone",
+        "org": "Quantum X Labs",
+        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "ALZAI Health",
+        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2997,23 +2997,16 @@
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lasso Security",
-        "summary": "Lasso Security announced LEAP, a transformer-free CPU-based AI guardrail delivering GPU-class detection accuracy at under five milliseconds per decision with no context cap, paired with the patent-pending RAPID self-hosted LLM-as-a-judge engine; announcement also disclosed $30M funding led by ClearSky."
+        "rawKind": "Award Recognition",
+        "org": "Euno",
+        "summary": "Euno announced it was named a Cool Vendor in the 2026 Gartner Coolest Vendor Innovations in Data Management (report dated July 29, 2026)."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Lemonade",
-        "summary": "Launched Lemonade Car and Lemonade Autonomous Car insurance in Missouri, including Tesla FSD (Supervised) pricing with 50% off every mile driven on FSD."
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Bizzabo",
-        "summary": "Laid off dozens of employees, including several in Israel and others across its global operations, as the event tech company restructures."
+        "rawKind": "Award Recognition",
+        "org": "Huskeys",
+        "summary": "Founders Itai Gafni (CEO) and Roy Weisfeld (CTO) were named to Forbes Israel's 30Under30 list; the company also reported doubling its headcount."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -3021,6 +3014,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Huskeys",
         "summary": "Huskeys announced strategic partnerships with Okta and Zscaler (via Okta Ventures and Zscaler Ventures participation and integrations) to combine identity and network data for analyzing the behavior of AI agents across the internet, announced alongside its $27M Series A led by Blackstone Innovations Investments."
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Jeen AI",
+        "summary": "Announced real-time cost governance (FinOps) capability across its enterprise platform, giving finance and IT teams live visibility into AI spending attributed by department, user and individual agent, with budgets managed inside the same governance layer; available across cloud, on-premise, hybrid and air-gapped environments."
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
