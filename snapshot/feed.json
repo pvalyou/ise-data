@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-14T22:32:42.147875Z",
+  "generatedAt": "2026-09-14T23:06:59.799663Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -151,7 +151,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "newOrgs": [
       567,
@@ -183,7 +183,7 @@
       75,
       69,
       51,
-      20
+      21
     ],
     "exits": [
       0,
@@ -215,7 +215,7 @@
       0,
       0,
       0,
-      0
+      2
     ],
     "firstChecks": [
       0,
@@ -343,7 +343,7 @@
       66,
       40,
       22,
-      14
+      15
     ],
     "investments": [
       0,
@@ -375,7 +375,7 @@
       0,
       0,
       0,
-      0
+      9
     ],
     "fundingStages": [
       {},
@@ -430,7 +430,9 @@
       {},
       {},
       {},
-      {}
+      {
+        "Series Unknown": 1
+      }
     ],
     "fundingUsd": [
       0,
@@ -462,24 +464,24 @@
       0,
       0,
       0,
-      0
+      130000000
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 0,
-      "d7": 3,
-      "d30": 17
+      "d1": 1,
+      "d7": 4,
+      "d30": 18
     },
     "newOrgs": {
-      "d1": 24,
-      "d7": 311,
-      "d30": 3277
+      "d1": 23,
+      "d7": 312,
+      "d30": 3278
     },
     "exits": {
-      "d1": 0,
-      "d7": 2,
-      "d30": 11
+      "d1": 2,
+      "d7": 4,
+      "d30": 13
     },
     "firstChecks": {
       "d1": 0,
@@ -497,19 +499,19 @@
       "d30": 5329
     },
     "newFounders": {
-      "d1": 18,
-      "d7": 426,
-      "d30": 2612
+      "d1": 15,
+      "d7": 427,
+      "d30": 2613
     },
     "investments": {
-      "d1": 0,
-      "d7": 13,
-      "d30": 83
+      "d1": 9,
+      "d7": 22,
+      "d30": 92
     },
     "fundingUsd": {
-      "d1": 0,
-      "d7": 293000000,
-      "d30": 1751000000
+      "d1": 130000000,
+      "d7": 423000000,
+      "d30": 1881000000
     }
   },
   "news": {
@@ -1571,6 +1573,26 @@
   },
   "exits": [
     {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Gate Technologies",
+      "acquirer": "Ondas Inc.",
+      "kind": "acquisition",
+      "amountUsd": 205000000,
+      "domain": "gatetech.co.il",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
+    },
+    {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Glass Imaging",
+      "acquirer": "OpenAI",
+      "kind": "acquisition",
+      "amountUsd": 300000000,
+      "domain": "glass-imaging.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c.png"
+    },
+    {
       "ts": "2026-09-10",
       "precision": "day",
       "target": "Bonfy",
@@ -1593,22 +1615,22 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "XTEND",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "xtend.me",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/35f207f2-69c4-4649-bfab-22f3a248ae5c.avif"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
       "amountUsd": null,
       "domain": "alzaihealth.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
+    },
+    {
+      "ts": "2026-09-03",
+      "precision": "day",
+      "target": "XTEND",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "xtend.me",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/35f207f2-69c4-4649-bfab-22f3a248ae5c.avif"
     },
     {
       "ts": "2026-09-03",
@@ -1798,26 +1820,6 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/a6771fe6-5dc2-4f4d-ba9a-2742ef46e0e2.webp"
     },
     {
-      "ts": "2026-07-08",
-      "precision": "day",
-      "target": "Wonder Care",
-      "acquirer": "Movement Group",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "wonder.care",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/c08962a4-0add-42ec-a7a5-46b80f28b996.jpg"
-    },
-    {
-      "ts": "2026-07-08",
-      "precision": "day",
-      "target": "Chemomab",
-      "acquirer": "Scipher Medicine Corporation",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "chemomab.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/61fcf769-2224-4b30-8787-537ff2886f5d-ink-1.png"
-    },
-    {
       "ts": "2026-09-02",
       "precision": "day",
       "target": "Varonis",
@@ -1908,6 +1910,78 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-14",
+      "investor": "Avigdor Willenz",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Human Capital",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Intel Capital",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "intelcapital.com"
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Lightspeed Venture Partners",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "lsvp.com"
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Mohari Ventures",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "O.G. Venture Partners",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "og-vp.com"
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Poalim Equity",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Qumra Capital",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "qumracapital.com"
+    },
+    {
+      "ts": "2026-09-14",
+      "investor": "Viola Growth",
+      "company": "buildots",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "violagrowth.com"
+    },
+    {
       "ts": "2026-09-09",
       "investor": "Fin Capital",
       "company": "CYMPHONY SECURITY",
@@ -1994,78 +2068,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "lsvp.com"
-    },
-    {
-      "ts": "2026-09-08",
-      "investor": "Picture Capital",
-      "company": "Cylake",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "picture.capital"
-    },
-    {
-      "ts": "2026-09-08",
-      "investor": "Redpoint Ventures",
-      "company": "Cylake",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "redpoint.com"
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "Assaf Rappaport",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "Cerca Partners",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "cerca-partners.com"
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "Emerge Ventures",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "ION Crossover Partners",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "ion-am.com"
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "Union Tech Ventures",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "uniontech.vc"
-    },
-    {
-      "ts": "2026-09-03",
-      "investor": "Vintage Investment Partners",
-      "company": "Guardio",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "vintage-ip.com"
-    },
-    {
-      "ts": "2026-09-02",
-      "investor": "ClearSky",
-      "company": "Lasso Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "clearskysec.com"
     }
   ],
   "patents": [
@@ -2120,18 +2122,18 @@
     {
       "ts": "2026-08-18",
       "kind": "granted",
-      "org": "SeatyLock",
-      "title": "Folding bicycle lock",
-      "number": "D1141845",
-      "url": "https://patents.google.com/patent/USD1141845S/en"
-    },
-    {
-      "ts": "2026-08-18",
-      "kind": "granted",
       "org": "Focus",
       "title": "Low-voltage high-brightness reversed-polarity red light led chip and preparation method thereof",
       "number": "122340983",
       "url": "https://patents.google.com/patent/CN122340983B/en"
+    },
+    {
+      "ts": "2026-08-18",
+      "kind": "granted",
+      "org": "Synthesis",
+      "title": "Video generation method and device for sideway walking digital person, and medium",
+      "number": "120529140",
+      "url": "https://patents.google.com/patent/CN120529140B/en"
     },
     {
       "ts": "2026-08-18",
@@ -2224,7 +2226,12 @@
   ],
   "mix": {
     "stages": {
-      "d1": [],
+      "d1": [
+        {
+          "label": "Series Unknown",
+          "count": 1
+        }
+      ],
       "d7": [
         {
           "label": "Series A",
@@ -2232,6 +2239,10 @@
         },
         {
           "label": "Convertible Note",
+          "count": 1
+        },
+        {
+          "label": "Series Unknown",
           "count": 1
         }
       ],
@@ -2263,6 +2274,10 @@
         {
           "label": "Series F",
           "count": 1
+        },
+        {
+          "label": "Series Unknown",
+          "count": 1
         }
       ]
     },
@@ -2277,19 +2292,23 @@
           "count": 4
         },
         {
-          "label": "Healthcare and Food",
-          "count": 3
-        },
-        {
           "label": "Media and Entertainment",
           "count": 3
         },
         {
-          "label": "Unknown",
+          "label": "Healthcare and Food",
           "count": 2
         },
         {
+          "label": "Energy and Utilities",
+          "count": 1
+        },
+        {
           "label": "Financial Services",
+          "count": 1
+        },
+        {
+          "label": "Unknown",
           "count": 1
         }
       ],
@@ -2312,7 +2331,7 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 20
+          "count": 21
         },
         {
           "label": "Financial Services",
@@ -2350,14 +2369,39 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 126
+          "count": 127
         }
       ]
     }
   },
   "mostActive": {
     "d1": [],
-    "d7": [],
+    "d7": [
+      {
+        "name": "Lightspeed Venture Partners",
+        "kind": "fund",
+        "count": 2,
+        "domain": "lsvp.com"
+      },
+      {
+        "name": "10D",
+        "kind": "fund",
+        "count": 1,
+        "domain": "10d.vc"
+      },
+      {
+        "name": "Avigdor Willenz",
+        "kind": "fund",
+        "count": 1,
+        "domain": null
+      },
+      {
+        "name": "Fin Capital",
+        "kind": "fund",
+        "count": 1,
+        "domain": null
+      }
+    ],
     "d30": [
       {
         "name": "Bessemer Venture Partners",
@@ -2378,10 +2422,10 @@
         "domain": "grovevc.com"
       },
       {
-        "name": "Salesforce",
+        "name": "Lightspeed Venture Partners",
         "kind": "fund",
         "count": 2,
-        "domain": "salesforce.com"
+        "domain": "lsvp.com"
       }
     ]
   },
