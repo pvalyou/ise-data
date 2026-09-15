@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:16:12.094Z",
+  "generatedAt": "2026-09-15T23:31:01.682Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 35614,
-      "delta24h": 24
+      "value": 35619,
+      "delta24h": 28
     },
     "totalFunding": {
       "valueUsd": 221931431052,
-      "rounds": 29217
+      "rounds": 29218
     },
     "exits": {
       "count": 3367,
       "valueUsd": 313268543200
     },
     "employees": {
-      "total": 779980,
+      "total": 779992,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,7 +184,7 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6240
+        "count": 6242
       },
       {
         "name": "Central",
@@ -196,7 +196,7 @@
       },
       {
         "name": "Jerusalem",
-        "count": 725
+        "count": 726
       },
       {
         "name": "Southern",
@@ -217,14 +217,14 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 3948
+        "count": 3949
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 709
+        "count": 710
       },
       {
         "name": "Ramat Gan",
@@ -238,7 +238,7 @@
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 666
+        "count": 667
       },
       {
         "name": "Petah Tikva",
@@ -273,7 +273,7 @@
         "district": "Central",
         "lat": 31.8944,
         "lng": 34.8097,
-        "count": 329
+        "count": 328
       },
       {
         "name": "Kfar Saba",
@@ -563,6 +563,13 @@
         "count": 29
       },
       {
+        "name": "Ganei Tikva",
+        "district": "Central",
+        "lat": 32.0564,
+        "lng": 34.8733,
+        "count": 28
+      },
+      {
         "name": "Kadima-Zoran",
         "district": "Central",
         "lat": 32.2789,
@@ -582,13 +589,6 @@
         "lat": 33.2075,
         "lng": 35.5697,
         "count": 28
-      },
-      {
-        "name": "Ganei Tikva",
-        "district": "Central",
-        "lat": 32.0564,
-        "lng": 34.8733,
-        "count": 27
       },
       {
         "name": "Omer",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1983
+    "unresolvedCount": 1986
   },
   "overTime": {
     "foundedClosed": {
@@ -986,11 +986,11 @@
         1696,
         1849,
         1684,
-        1497,
+        1501,
         1518,
         1271,
         1167,
-        743
+        745
       ],
       "closed": [
         0,
@@ -1070,7 +1070,7 @@
       ],
       "statusMix": {
         "inactive": 422,
-        "active": 18195,
+        "active": 18200,
         "unknown": 3473,
         "closed": 13524
       }
@@ -1168,7 +1168,7 @@
         1517,
         1439,
         1380,
-        582
+        583
       ],
       "raisedUsd": [
         0,
@@ -1218,7 +1218,7 @@
         26046625234
       ],
       "stageMix": {
-        "Seed": 13605,
+        "Seed": 13606,
         "Series A": 3847,
         "Other": 3397,
         "Series B": 1918,
@@ -1437,12 +1437,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 19831,
+      "active": 19836,
       "closed": 12416,
       "exited": 3367
     },
     "funnel": {
-      "all": 35614,
+      "all": 35619,
       "funded": 15412,
       "over1m": 6124,
       "over10m": 3041,
@@ -1487,10 +1487,10 @@
       },
       {
         "year": 2022,
-        "total": 1497,
+        "total": 1501,
         "exited": 64,
         "closed": 291,
-        "active": 1142
+        "active": 1146
       },
       {
         "year": 2023,
@@ -1515,10 +1515,10 @@
       },
       {
         "year": 2026,
-        "total": 743,
+        "total": 745,
         "exited": 4,
         "closed": 4,
-        "active": 735
+        "active": 737
       }
     ],
     "timeToExit": {
@@ -1728,23 +1728,23 @@
       },
       {
         "year": 2022,
-        "total": 1470,
+        "total": 1474,
         "unknown": 27,
         "counts": {
-          "it-telecom": 581,
-          "healthcare-food": 304,
+          "it-telecom": 584,
+          "healthcare-food": 305,
           "consumer-goods-services": 233,
           "energy-utilities": 84,
           "financial-services": 129,
           "media-entertainment": 139
         },
         "shares": {
-          "it-telecom": 0.3952380952380952,
-          "healthcare-food": 0.20680272108843537,
-          "consumer-goods-services": 0.15850340136054422,
-          "energy-utilities": 0.05714285714285714,
-          "financial-services": 0.08775510204081632,
-          "media-entertainment": 0.0945578231292517
+          "it-telecom": 0.39620081411126185,
+          "healthcare-food": 0.20691994572591588,
+          "consumer-goods-services": 0.15807327001356852,
+          "energy-utilities": 0.05698778833107191,
+          "financial-services": 0.08751696065128901,
+          "media-entertainment": 0.09430122116689281
         }
       },
       {
@@ -1812,23 +1812,23 @@
       },
       {
         "year": 2026,
-        "total": 705,
+        "total": 707,
         "unknown": 38,
         "counts": {
           "it-telecom": 394,
           "healthcare-food": 66,
-          "consumer-goods-services": 114,
+          "consumer-goods-services": 116,
           "energy-utilities": 33,
           "financial-services": 44,
           "media-entertainment": 54
         },
         "shares": {
-          "it-telecom": 0.5588652482269504,
-          "healthcare-food": 0.09361702127659574,
-          "consumer-goods-services": 0.16170212765957448,
-          "energy-utilities": 0.04680851063829787,
-          "financial-services": 0.062411347517730496,
-          "media-entertainment": 0.07659574468085106
+          "it-telecom": 0.5572842998585573,
+          "healthcare-food": 0.09335219236209336,
+          "consumer-goods-services": 0.16407355021216408,
+          "energy-utilities": 0.04667609618104668,
+          "financial-services": 0.06223479490806223,
+          "media-entertainment": 0.07637906647807638
         }
       }
     ],
@@ -1836,42 +1836,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14212,
-        "share": 0.4075943558563726
+        "count": 14215,
+        "share": 0.40761025405746404
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6694,
-        "share": 0.1919811861879087
+        "count": 6695,
+        "share": 0.19197683087687104
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6094,
-        "share": 0.17477343122633934
+        "count": 6096,
+        "share": 0.17480071113150197
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1568,
-        "share": 0.04496959963290123
+        "share": 0.044961862705740666
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2063,
-        "share": 0.05916599747619594
+        "share": 0.05915581808797385
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4237,
-        "share": 0.12151542962028221
+        "share": 0.12149452314044847
       }
     ],
     "mixSummary": {
-      "totalVisible": 14628,
+      "totalVisible": 14634,
       "totalUnknown": 386
     },
     "subTrendYears": [
@@ -1910,11 +1910,11 @@
           0.036385688295936934,
           0.02759381898454746,
           0.03235653235653236,
-          0.035398230088495575,
+          0.035302104548540394,
           0.05913978494623656,
           0.07779578606158834,
           0.10261026102610261,
-          0.12198581560283688
+          0.12164073550212164
         ]
       },
       {
@@ -1940,11 +1940,11 @@
           0.14918132201334142,
           0.16225165562913907,
           0.1581196581196581,
-          0.15861130020422057,
+          0.1581805838424983,
           0.17943548387096775,
           0.16288492706645058,
           0.18361836183618363,
-          0.18439716312056736
+          0.18387553041018387
         ]
       },
       {
@@ -1970,17 +1970,17 @@
           0.04790782292298363,
           0.04966887417218543,
           0.056776556776556776,
-          0.06398910823689585,
+          0.06381534283774609,
           0.053763440860215055,
           0.08670988654781199,
           0.07920792079207921,
-          0.06950354609929078
+          0.06930693069306931
         ]
       },
       {
         "name": "Marketing Technology",
         "parent": "IT and Telecom",
-        "total": 290,
+        "total": 291,
         "shareDelta": 0.012,
         "counts": [
           30,
@@ -1988,7 +1988,7 @@
           30,
           25,
           18,
-          25,
+          26,
           36,
           26,
           45,
@@ -2000,11 +2000,11 @@
           0.018192844147968467,
           0.01379690949227373,
           0.01098901098901099,
-          0.01701837985023826,
+          0.017651052274270197,
           0.024193548387096774,
           0.02106969205834684,
           0.0405040504050405,
-          0.0425531914893617
+          0.042432814710042434
         ]
       },
       {
@@ -2030,11 +2030,11 @@
           0.0072771376591873865,
           0.012693156732891833,
           0.010378510378510378,
-          0.010211027910142955,
+          0.010183299389002037,
           0.0114247311827957,
           0.019448946515397084,
           0.027002700270027002,
-          0.019858156028368795
+          0.019801980198019802
         ]
       }
     ],
@@ -2062,11 +2062,11 @@
           0.009096422073984234,
           0.010485651214128035,
           0.018315018315018316,
-          0.017699115044247787,
+          0.017651052274270197,
           0.008064516129032258,
           0.004051863857374392,
           0.009000900090009001,
-          0.00425531914893617
+          0.004243281471004243
         ]
       },
       {
@@ -2092,11 +2092,11 @@
           0.03759854457246816,
           0.03200883002207505,
           0.026251526251526252,
-          0.03607896528250511,
+          0.03598099117447386,
           0.020161290322580645,
           0.019448946515397084,
           0.009000900090009001,
-          0.00425531914893617
+          0.004243281471004243
         ]
       },
       {
@@ -2122,11 +2122,11 @@
           0.02850212249848393,
           0.024834437086092714,
           0.02197802197802198,
-          0.013614703880190605,
+          0.013577732518669382,
           0.019489247311827957,
           0.02025931928687196,
           0.020702070207020702,
-          0.0028368794326241137
+          0.002828854314002829
         ]
       },
       {
@@ -2152,17 +2152,17 @@
           0.019405700424499697,
           0.01434878587196468,
           0.007326007326007326,
-          0.013614703880190605,
+          0.013577732518669382,
           0.008064516129032258,
           0.009724473257698542,
           0.009000900090009001,
-          0.00851063829787234
+          0.008486562942008486
         ]
       },
       {
         "name": "Medical Devices",
         "parent": "Healthcare and Food",
-        "total": 789,
+        "total": 790,
         "shareDelta": -0.01,
         "counts": [
           116,
@@ -2170,7 +2170,7 @@
           94,
           123,
           84,
-          82,
+          83,
           75,
           64,
           46,
@@ -2182,23 +2182,34 @@
           0.05700424499696786,
           0.06788079470198675,
           0.05128205128205128,
-          0.055820285908781485,
+          0.05634758995247793,
           0.05040322580645161,
           0.05186385737439222,
           0.041404140414041404,
-          0.02127659574468085
+          0.021216407355021217
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 9973,
+      "deeptechCount": 9974,
       "deeptechPct": 28.0,
-      "globalCount": 15129,
+      "globalCount": 15131,
       "globalPct": 42.5
     }
   },
   "feeds": {
     "funding": [
+      {
+        "ts": "2026-09-15T00:00:00.000Z",
+        "org": "Keewano",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - Extended (2026)"
+      },
       {
         "ts": "2026-09-14T00:00:00.000Z",
         "org": "buildots",
@@ -2223,17 +2234,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2242,6 +2242,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2253,6 +2264,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2275,17 +2297,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
-        "stage": "Series A",
-        "amountUsd": 27000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2322,17 +2333,6 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "HiBob",
-        "stage": "Series F",
-        "amountUsd": 166000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series F"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
         "amountUsd": 15000000,
@@ -2341,6 +2341,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round (Series C)"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "HiBob",
+        "stage": "Series F",
+        "amountUsd": 166000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series F"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2407,25 +2418,130 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-08-10T00:00:00.000Z",
-        "org": "Corma Labs",
-        "stage": "Seed",
-        "amountUsd": 60000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
       }
     ],
     "todayStats": {
-      "fundingRounds": 0,
+      "fundingRounds": 1,
       "fundingAmountUsd": 0,
-      "notableEvents": 0
+      "notableEvents": 1
     },
     "newStartups": [
+      {
+        "ts": "2026-09-15T22:53:56.135Z",
+        "org": "SPARKS COMMUNICATIONS",
+        "industry": "IT and Telecom",
+        "city": "Ganei Tikva",
+        "subIndustry": "Telecommunications",
+        "description": "Telecommunications company providing eSIM-based mobile data plans for international travelers and customized connectivity solutions for businesses.",
+        "domain": "sparks.travel",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGBZITbodeSig/company-logo_200_200/company-logo_200_200/0/1673379104274?e=2147483647&v=beta&t=DRygdH_qD_GNhd2p_f0BimT-5wHy10aeY3h35vO0Dkw",
+        "keywords": [
+          "eSIM data plans",
+          "Travel connectivity",
+          "Mobile data",
+          "International roaming",
+          "Business connectivity solutions",
+          "Prepaid eSIM",
+          "Traveler internet access"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2C and B2B sales of eSIM data plans and connectivity solutions"
+      },
+      {
+        "ts": "2026-09-15T22:51:26.245Z",
+        "org": "SERPUP",
+        "industry": "IT and Telecom",
+        "city": "Bat Shlomo",
+        "subIndustry": "Marketing Technology",
+        "description": "SEO services platform offering off-page search optimization and link building services through a single managed platform",
+        "domain": "serpup.io",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHRGy_ZFlQiGA/company-logo_200_200/company-logo_200_200/0/1689107140475/serpup_ltd_logo?e=2147483647&v=beta&t=0STYbkp8dsQP6HPP_Hj1lUXUK9DD5uS_NguGn3D7t7k",
+        "keywords": [
+          "Link building",
+          "Off-page SEO",
+          "Search engine optimization",
+          "Backlink services",
+          "SEO services",
+          "Digital marketing",
+          "Organic search rankings"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2B services delivered through a digital platform"
+      },
+      {
+        "ts": "2026-09-15T22:41:45.023Z",
+        "org": "SIM KEHILOT",
+        "industry": "IT and Telecom",
+        "city": "El'ad",
+        "subIndustry": "Telecommunications",
+        "description": "Kosher mobile virtual network operator serving ultra-Orthodox communities, providing community-managed phone lines with content filtering, number blocking, and AI-based blocking of automated calls.",
+        "domain": "simkehilot.co.il",
+        "keywords": [
+          "Kosher phone service",
+          "Mobile virtual network operator",
+          "Content filtering",
+          "Call blocking",
+          "Community-managed phone lines",
+          "Kosher mobile plans",
+          "Automated call blocking",
+          "Telecom services"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Mobile virtual network operator offering kosher-filtered mobile subscriptions managed through community administrators"
+      },
+      {
+        "ts": "2026-09-15T22:32:50.516Z",
+        "org": "ENTIRE MEDICAL",
+        "industry": "Healthcare and Food",
+        "city": "Richardson",
+        "subIndustry": "Medical Devices",
+        "description": "Medical device company developing a non-thermal irreversible electroporation (IRE/PFA) tissue ablation system for treating tonsil and nasal turbinate hypertrophy, enabling precise soft tissue ablation with minimal bleeding, pain, and recovery time",
+        "domain": "ent-ire.com",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGgVdLCZXZL3A/company-logo_200_200/B4DZxhFEJZGkAI-/0/1771155244271/entire_medical_logo?e=2147483647&v=beta&t=3nee6YptioYgYZm_2jUjJg1Ro_xy0WXtCBSfssuCr7U",
+        "keywords": [
+          "Irreversible electroporation",
+          "Pulsed field ablation",
+          "Tissue ablation",
+          "ENT medical devices",
+          "Tonsillectomy alternative",
+          "Turbinate hypertrophy treatment",
+          "Non-thermal ablation",
+          "Soft tissue ablation",
+          "Otolaryngology devices",
+          "Pediatric ENT procedures"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 5,
+        "isDeeptech": true,
+        "businessModel": "Development and sale of medical devices (ablation system, generator, and disposable handpieces) to hospitals and ENT clinics"
+      },
+      {
+        "ts": "2026-09-15T22:18:02.692Z",
+        "org": "GROOPIT",
+        "industry": "Consumer Goods and Services",
+        "city": "Jerusalem",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Group-buying e-commerce platform where prices drop as more consumers join a purchase group, connecting buyers with verified suppliers and enabling organizations to run member clubs for wholesale-priced purchases",
+        "domain": "groopit.co.il",
+        "keywords": [
+          "Group buying",
+          "Group purchasing",
+          "Collective buying platform",
+          "Volume discounts",
+          "Wholesale prices for consumers",
+          "Purchase groups",
+          "Community buying club",
+          "Supplier marketplace",
+          "Bulk purchase discounts",
+          "E-commerce marketplace"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Operates a marketplace platform connecting consumers, community organizations, and verified suppliers for group purchases; earns revenue from transaction commissions on completed purchase groups"
+      },
       {
         "ts": "2026-09-15T22:08:56.964Z",
         "org": "OWLYTIC I.O",
@@ -2754,127 +2870,15 @@
         ],
         "isDeeptech": false,
         "businessModel": "Develops and manufactures robotic systems, smart kiosks, AI solutions and software platforms, selling integrated hardware-software solutions to public and governmental organizations"
-      },
-      {
-        "ts": "2026-09-15T05:23:20.693Z",
-        "org": "AURALIS CARE",
-        "industry": "Unknown",
-        "city": "Pardes Hanna-Karkur",
-        "description": "Auralis Care is an Israeli research-stage startup developing personalized infant nutrition. It combines microbiome science, infant host genetic insights, and AI-guided adaptive formulation to create individualized formulas, with GMP-aligned small-batch manufacturing and a clinical validation pathway aligned with FDA and EMA frameworks.",
-        "domain": "auralis.care",
-        "keywords": [
-          "personalized infant nutrition",
-          "microbiome",
-          "AI formulation",
-          "infant formula",
-          "biotech"
-        ]
-      },
-      {
-        "ts": "2026-09-15T03:26:28.814Z",
-        "org": "LOGISTIFREE",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Logistics and Supply Chain Software",
-        "description": "Online marketplace platform connecting warehouse owners with free storage capacity to goods owners and importers seeking storage, matching warehouses to goods by location, cost per pallet, goods type and storage duration, with online inventory management",
-        "domain": "logistifree.com",
-        "keywords": [
-          "Warehouse storage marketplace",
-          "Warehousing services",
-          "Storage space rental",
-          "Pallet storage",
-          "Logistics platform",
-          "Inventory management",
-          "Goods storage booking",
-          "Supply chain services",
-          "Import storage"
-        ],
-        "isDeeptech": false,
-        "businessModel": "Two-sided online marketplace connecting warehouse operators with goods owners, charging warehouses a commission on transactions facilitated through the platform"
-      },
-      {
-        "ts": "2026-09-15T03:18:34.306Z",
-        "org": "Fressence",
-        "industry": "Consumer Goods and Services",
-        "city": "Tel Aviv",
-        "subIndustry": "Personal Care & Beauty",
-        "description": "Consumer products company developing plant-based enzyme body mists that neutralize sweat and body odor for up to 12 hours, formulated without aluminum or harsh chemicals and clinically tested with physicians and biochemists.",
-        "domain": "fressence.pro",
-        "keywords": [
-          "Body mist deodorizer",
-          "Odor neutralizing spray",
-          "Natural deodorant",
-          "Plant-based enzyme formula",
-          "Aluminum-free deodorant",
-          "Personal care products",
-          "Sweat odor control",
-          "Fragrance body spray"
-        ],
-        "isDeeptech": false,
-        "businessModel": "D2C e-commerce sales of personal care products"
-      },
-      {
-        "ts": "2026-09-15T01:53:28.254Z",
-        "org": "Wise Academy",
-        "industry": "Consumer Goods and Services",
-        "city": "Petah Tikva",
-        "subIndustry": "Education & Training",
-        "description": "Trading education school offering in-person, practitioner-led courses in capital markets and cryptocurrency trading, covering technical and fundamental analysis and trading psychology for retail students.",
-        "domain": "wiseacademy.co.il",
-        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGZVBJo5Ew8QA/company-logo_200_200/B4DZ1Z39APIgAI-/0/1775329333642?e=2147483647&v=beta&t=1oHOpwkPsWwWRuJkX1MQsA7h7DtIZUTP4BNtW3QnJaU",
-        "keywords": [
-          "trading courses",
-          "capital markets education",
-          "crypto trading",
-          "technical analysis",
-          "fundamental analysis",
-          "trading psychology",
-          "stock market training",
-          "investment education"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "Paid in-person trading education courses taught by market practitioners"
-      },
-      {
-        "ts": "2026-09-15T01:09:46.724Z",
-        "org": "ZOOM OUT AERIAL MAPPING",
-        "industry": "IT and Telecom",
-        "city": "Moshav Rihan",
-        "subIndustry": "Location & Mapping",
-        "description": "Drone-based aerial mapping and measurement services company producing photogrammetry deliverables such as orthophotos, digital elevation models, 3D models, and surveys for planning, engineering, remote sensing, and urban building applications",
-        "domain": "zoomout-am.co.il",
-        "keywords": [
-          "Aerial mapping",
-          "Drone surveying",
-          "Photogrammetry",
-          "Orthophoto",
-          "3D modeling",
-          "Digital elevation model",
-          "Remote sensing",
-          "Land surveying",
-          "GIS data",
-          "Quantity calculations"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B drone-based aerial mapping and measurement services sold per project to engineering, construction, infrastructure, and municipal clients"
       }
     ],
     "notable": [
       {
-        "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Glass Imaging",
-        "summary": "Acquired by OpenAI for over $300 million, per a Wall Street Journal report; deal values Glass Imaging at a significant premium to its ~$100 million valuation in its May 2025 Series A. OpenAI's exact plans for the company are not yet clear."
-      },
-      {
-        "ts": "2026-09-14T00:00:00.000Z",
+        "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "rawKind": "Product Launch",
+        "org": "Keewano",
+        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2887,8 +2891,22 @@
         "ts": "2026-09-14T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
+        "org": "Glass Imaging",
+        "summary": "Acquired by OpenAI for over $300 million, per a Wall Street Journal report; deal values Glass Imaging at a significant premium to its ~$100 million valuation in its May 2025 Series A. OpenAI's exact plans for the company are not yet clear."
+      },
+      {
+        "ts": "2026-09-14T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
         "org": "Gate Technologies",
         "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
+      },
+      {
+        "ts": "2026-09-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-10T00:00:00.000Z",
@@ -2901,15 +2919,15 @@
         "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
-        "org": "Covenant",
-        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+        "org": "ENvue Medical",
+        "summary": "Resumed U.S. commercial shipments of NanoVibronix PainShield\u00ae and began fulfilling open distributor orders."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "ENvue Medical",
-        "summary": "Resumed U.S. commercial shipments of NanoVibronix PainShield\u00ae and began fulfilling open distributor orders."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2920,10 +2938,17 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Covenant",
+        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "NAVITAS PETROLEUM LUX SARL",
+        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -2935,13 +2960,6 @@
       {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Other",
         "org": "Decart",
         "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
@@ -2949,37 +2967,9 @@
       {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "NAVITAS PETROLEUM LUX SARL",
-        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Entered a market development partnership with Kensho to expand access to the Classiq quantum software platform in Taiwan, focusing on chemical and materials companies, defense organizations, and academia; to be introduced at SEMICON Taiwan 2026."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "ENvue Medical",
-        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
+        "rawKind": "Executive Appointment",
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2997,10 +2987,31 @@
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "ENvue Medical",
+        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Quantum X Labs",
+        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "IPO and Public Listing",
         "org": "XTEND",
         "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Entered a market development partnership with Kensho to expand access to the Classiq quantum software platform in Taiwan, focusing on chemical and materials companies, defense organizations, and academia; to be introduced at SEMICON Taiwan 2026."
       }
     ]
   }
