@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:02:18.520Z",
+  "generatedAt": "2026-09-16T12:23:25.364Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 35633,
-      "delta24h": 30
+      "value": 35637,
+      "delta24h": 34
     },
     "totalFunding": {
-      "valueUsd": 221931431052,
-      "rounds": 29219
+      "valueUsd": 221969431052,
+      "rounds": 29220
     },
     "exits": {
       "count": 3367,
       "valueUsd": 313069543200
     },
     "employees": {
-      "total": 781032,
+      "total": 781055,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,15 +184,15 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6248
+        "count": 6249
       },
       {
         "name": "Central",
-        "count": 3569
+        "count": 3570
       },
       {
         "name": "Haifa",
-        "count": 1258
+        "count": 1259
       },
       {
         "name": "Jerusalem",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 3955
+        "count": 3956
       },
       {
         "name": "Herzliya",
@@ -245,7 +245,7 @@
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 567
+        "count": 568
       },
       {
         "name": "Haifa",
@@ -682,6 +682,13 @@
         "count": 15
       },
       {
+        "name": "Kiryat Ata",
+        "district": "Haifa",
+        "lat": 32.8111,
+        "lng": 35.105,
+        "count": 14
+      },
+      {
         "name": "Kiryat Motzkin",
         "district": "Haifa",
         "lat": 32.8359,
@@ -701,13 +708,6 @@
         "lat": 31.7986,
         "lng": 35.15,
         "count": 14
-      },
-      {
-        "name": "Kiryat Ata",
-        "district": "Haifa",
-        "lat": 32.8111,
-        "lng": 35.105,
-        "count": 13
       },
       {
         "name": "Rosh Pina",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 1988
+    "unresolvedCount": 1989
   },
   "overTime": {
     "foundedClosed": {
@@ -986,11 +986,11 @@
         1696,
         1849,
         1684,
-        1509,
+        1511,
         1518,
         1271,
         1166,
-        752
+        754
       ],
       "closed": [
         0,
@@ -1070,7 +1070,7 @@
       ],
       "statusMix": {
         "inactive": 422,
-        "active": 18214,
+        "active": 18218,
         "unknown": 3472,
         "closed": 13525
       }
@@ -1222,7 +1222,7 @@
         "Series A": 3847,
         "Other": 3397,
         "Series B": 1918,
-        "Series Unknown": 1294,
+        "Series Unknown": 1295,
         "Series C": 1254,
         "Unknown": 859,
         "Angel": 835
@@ -1437,15 +1437,15 @@
   },
   "survivability": {
     "composition": {
-      "active": 19849,
+      "active": 19853,
       "closed": 12417,
       "exited": 3367
     },
     "funnel": {
-      "all": 35633,
-      "funded": 15414,
-      "over1m": 6124,
-      "over10m": 3041,
+      "all": 35637,
+      "funded": 15415,
+      "over1m": 6125,
+      "over10m": 3042,
       "over100m": 558,
       "exited": 3367
     },
@@ -1487,10 +1487,10 @@
       },
       {
         "year": 2022,
-        "total": 1509,
+        "total": 1511,
         "exited": 64,
         "closed": 291,
-        "active": 1154
+        "active": 1156
       },
       {
         "year": 2023,
@@ -1515,10 +1515,10 @@
       },
       {
         "year": 2026,
-        "total": 752,
+        "total": 754,
         "exited": 4,
         "closed": 4,
-        "active": 744
+        "active": 746
       }
     ],
     "timeToExit": {
@@ -1728,23 +1728,23 @@
       },
       {
         "year": 2022,
-        "total": 1481,
+        "total": 1483,
         "unknown": 28,
         "counts": {
           "it-telecom": 587,
-          "healthcare-food": 306,
-          "consumer-goods-services": 235,
+          "healthcare-food": 307,
+          "consumer-goods-services": 236,
           "energy-utilities": 84,
           "financial-services": 129,
           "media-entertainment": 140
         },
         "shares": {
-          "it-telecom": 0.3963538149898717,
-          "healthcare-food": 0.20661715057393654,
-          "consumer-goods-services": 0.1586765698852127,
-          "energy-utilities": 0.05671843349088454,
-          "financial-services": 0.08710330857528698,
-          "media-entertainment": 0.09453072248480757
+          "it-telecom": 0.39581928523263654,
+          "healthcare-food": 0.20701281186783546,
+          "consumer-goods-services": 0.15913688469318948,
+          "energy-utilities": 0.056641942009440324,
+          "financial-services": 0.08698583951449763,
+          "media-entertainment": 0.09440323668240054
         }
       },
       {
@@ -1812,23 +1812,23 @@
       },
       {
         "year": 2026,
-        "total": 714,
+        "total": 716,
         "unknown": 38,
         "counts": {
           "it-telecom": 397,
           "healthcare-food": 67,
-          "consumer-goods-services": 117,
+          "consumer-goods-services": 119,
           "energy-utilities": 33,
           "financial-services": 45,
           "media-entertainment": 55
         },
         "shares": {
-          "it-telecom": 0.5560224089635855,
-          "healthcare-food": 0.0938375350140056,
-          "consumer-goods-services": 0.1638655462184874,
-          "energy-utilities": 0.046218487394957986,
-          "financial-services": 0.06302521008403361,
-          "media-entertainment": 0.07703081232492998
+          "it-telecom": 0.5544692737430168,
+          "healthcare-food": 0.0935754189944134,
+          "consumer-goods-services": 0.16620111731843576,
+          "energy-utilities": 0.046089385474860335,
+          "financial-services": 0.06284916201117319,
+          "media-entertainment": 0.07681564245810056
         }
       }
     ],
@@ -1837,41 +1837,41 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 14220,
-        "share": 0.4076016854415685
+        "share": 0.40755495686566734
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6697,
-        "share": 0.19196262218018173
+        "count": 6698,
+        "share": 0.19196927574446132
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6099,
-        "share": 0.17482156677272337
+        "count": 6102,
+        "share": 0.17488750680691295
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1568,
-        "share": 0.04494510849313498
+        "share": 0.044939955862543346
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2064,
-        "share": 0.05916243873075931
+        "share": 0.059155656186409104
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4239,
-        "share": 0.12150657838163213
+        "share": 0.1214926485340059
       }
     ],
     "mixSummary": {
-      "totalVisible": 14647,
+      "totalVisible": 14651,
       "totalUnknown": 387
     },
     "subTrendYears": [
@@ -1910,11 +1910,11 @@
           0.036385688295936934,
           0.02759381898454746,
           0.03235653235653236,
-          0.03581081081081081,
+          0.03576248313090418,
           0.05913978494623656,
           0.07779578606158834,
           0.10270270270270271,
-          0.12044817927170869
+          0.12011173184357542
         ]
       },
       {
@@ -1940,11 +1940,11 @@
           0.14918132201334142,
           0.16225165562913907,
           0.1581196581196581,
-          0.1581081081081081,
+          0.15789473684210525,
           0.17943548387096775,
           0.16288492706645058,
           0.18288288288288287,
-          0.18627450980392157
+          0.1857541899441341
         ]
       },
       {
@@ -1970,11 +1970,11 @@
           0.04790782292298363,
           0.04966887417218543,
           0.056776556776556776,
-          0.06351351351351352,
+          0.06342780026990553,
           0.053763440860215055,
           0.08670988654781199,
           0.07927927927927927,
-          0.06862745098039216
+          0.06843575418994413
         ]
       },
       {
@@ -2000,11 +2000,11 @@
           0.018192844147968467,
           0.01379690949227373,
           0.01098901098901099,
-          0.01756756756756757,
+          0.017543859649122806,
           0.024193548387096774,
           0.02106969205834684,
           0.04054054054054054,
-          0.04201680672268908
+          0.04189944134078212
         ]
       },
       {
@@ -2030,11 +2030,11 @@
           0.0072771376591873865,
           0.012693156732891833,
           0.010378510378510378,
-          0.010135135135135136,
+          0.010121457489878543,
           0.0114247311827957,
           0.019448946515397084,
           0.02702702702702703,
-          0.0196078431372549
+          0.019553072625698324
         ]
       }
     ],
@@ -2062,11 +2062,11 @@
           0.009096422073984234,
           0.010485651214128035,
           0.018315018315018316,
-          0.01756756756756757,
+          0.017543859649122806,
           0.008064516129032258,
           0.004051863857374392,
           0.009009009009009009,
-          0.004201680672268907
+          0.004189944134078212
         ]
       },
       {
@@ -2092,11 +2092,11 @@
           0.03759854457246816,
           0.03200883002207505,
           0.026251526251526252,
-          0.03581081081081081,
+          0.03576248313090418,
           0.020161290322580645,
           0.019448946515397084,
           0.009009009009009009,
-          0.0056022408963585435
+          0.00558659217877095
         ]
       },
       {
@@ -2122,11 +2122,11 @@
           0.02850212249848393,
           0.024834437086092714,
           0.02197802197802198,
-          0.01418918918918919,
+          0.01417004048582996,
           0.019489247311827957,
           0.02025931928687196,
           0.02072072072072072,
-          0.0028011204481792717
+          0.002793296089385475
         ]
       },
       {
@@ -2152,11 +2152,11 @@
           0.019405700424499697,
           0.01434878587196468,
           0.007326007326007326,
-          0.013513513513513514,
+          0.01349527665317139,
           0.008064516129032258,
           0.009724473257698542,
           0.009009009009009009,
-          0.008403361344537815
+          0.008379888268156424
         ]
       },
       {
@@ -2182,11 +2182,11 @@
           0.05700424499696786,
           0.06788079470198675,
           0.05128205128205128,
-          0.056081081081081084,
+          0.05600539811066127,
           0.05040322580645161,
           0.05186385737439222,
           0.04144144144144144,
-          0.02100840336134454
+          0.02094972067039106
         ]
       }
     ],
@@ -2234,17 +2234,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Cylake",
-        "stage": "Convertible Note",
-        "amountUsd": 245000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Convertible Note"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Euno",
         "stage": "Series A",
         "amountUsd": 23000000,
@@ -2253,6 +2242,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Cylake",
+        "stage": "Convertible Note",
+        "amountUsd": 245000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Convertible Note"
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -2275,6 +2275,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2310,39 +2321,6 @@
         "roundTitle": "Series C"
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "Particula",
-        "stage": "Series C",
-        "amountUsd": 15000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round (Series C)"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
         "ts": "2026-09-01T00:00:00.000Z",
         "org": "HiBob",
         "stage": "Series F",
@@ -2363,6 +2341,28 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "Particula",
+        "stage": "Series C",
+        "amountUsd": 15000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Growth Round (Series C)"
       },
       {
         "ts": "2026-08-25T00:00:00.000Z",
@@ -2426,6 +2426,98 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-16T11:44:31.544Z",
+        "org": "D.A.DORAL-REAL ESTATE, ENTREPRENEURSHIP AND RENOVATION",
+        "industry": "Consumer Goods and Services",
+        "city": "Ramat Gan",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate development company specializing in urban renewal projects, redeveloping and strengthening existing residential buildings into modern, efficient and higher-density housing while improving residents' quality of life and property value.",
+        "domain": "drl-nadlan.com",
+        "keywords": [
+          "Urban renewal",
+          "Real estate development",
+          "Residential projects",
+          "Building reinforcement",
+          "Evacuation and reconstruction",
+          "Urban densification",
+          "Property development",
+          "Mixed-use development"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Develops residential urban renewal projects, typically in partnership with existing homeowners and construction groups, realizing value through completed and sold/occupied new housing units"
+      },
+      {
+        "ts": "2026-09-16T11:43:48.999Z",
+        "org": "Roligo Capital Dental Partners",
+        "industry": "Healthcare and Food",
+        "city": "Closter",
+        "subIndustry": "Digital Health",
+        "description": "Dental services organization (DSO/DPO) that acquires and partners with dental practices, providing centralized business management services such as recruiting, HR, marketing, payroll, accounting, IT and financing while practices retain their branding and clinical autonomy.",
+        "domain": "roligo-dental.com",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEFCUNFfrzSuw/company-logo_200_200/company-logo_200_200/0/1697644682286/roligo_capital_dental_partners_logo?e=2147483647&v=beta&t=auFHGer9wLjRr-u9qG5Y4SmAzkC5pwhQRxLyyaBXZS8",
+        "keywords": [
+          "Dental service organization",
+          "DSO",
+          "Dental practice acquisitions",
+          "Dental practice management",
+          "Dental implants",
+          "Full arch restoration",
+          "Digital dentistry",
+          "Dental practice partnerships",
+          "All-on-4 implants"
+        ],
+        "employeeRange": "51-200",
+        "exactEmployees": 24,
+        "isDeeptech": false,
+        "businessModel": "Acquires and partners with dental practices, providing centralized non-clinical business services and operating multi-location dental clinics offering general, restorative, cosmetic and implant dentistry"
+      },
+      {
+        "ts": "2026-09-16T11:25:10.214Z",
+        "org": "Zionist Investor",
+        "industry": "Consumer Goods and Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate advisory platform helping international buyers invest in property, combining brokerage expertise with AI-powered guidance to curate new-construction projects and support clients through the full purchase process",
+        "domain": "zionistinvestor.com",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGMvQANoyoRbQ/company-logo_200_200/B4DZyAmA5lJYAI-/0/1771683975263?e=2147483647&v=beta&t=0x-Ll8OwY7-3YE_DMsaX4duSSXQRsHTiWg6FHqnY5CE",
+        "keywords": [
+          "real estate advisory",
+          "property investment",
+          "real estate brokerage",
+          "new construction projects",
+          "international buyers",
+          "property purchase guidance",
+          "AI real estate platform",
+          "investment property curation"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false,
+        "businessModel": "Real estate advisory and brokerage services for international property buyers"
+      },
+      {
+        "ts": "2026-09-16T11:16:25.658Z",
+        "org": "VORIAH",
+        "industry": "Consumer Goods and Services",
+        "city": "Kiryat Ata",
+        "subIndustry": "Gig Economy Platforms",
+        "description": "Online lead-generation platform connecting private and business customers with vetted home services professionals such as renovation, flooring, electrical, plumbing and air conditioning contractors, forwarding each customer request to up to three matching professionals for free",
+        "domain": "voriah.co.il",
+        "keywords": [
+          "Home services marketplace",
+          "Contractor matching",
+          "Renovation services",
+          "Lead generation platform",
+          "Plumbing services",
+          "Electrical services",
+          "Air conditioning installation",
+          "Flooring contractors",
+          "Vetted professionals",
+          "Home improvement"
+        ],
+        "isDeeptech": false,
+        "businessModel": "Two-sided marketplace generating revenue from vetted professionals who receive customer leads, while the service is free for customers"
+      },
       {
         "ts": "2026-09-16T09:00:28.822Z",
         "org": "ONE PLATFORM",
@@ -2793,101 +2885,6 @@
         ],
         "isDeeptech": false,
         "businessModel": "Mobile virtual network operator offering kosher-filtered mobile subscriptions managed through community administrators"
-      },
-      {
-        "ts": "2026-09-15T22:32:50.516Z",
-        "org": "ENTIRE MEDICAL",
-        "industry": "Healthcare and Food",
-        "city": "Richardson",
-        "subIndustry": "Medical Devices",
-        "description": "Medical device company developing a non-thermal irreversible electroporation (IRE/PFA) tissue ablation system for treating tonsil and nasal turbinate hypertrophy, enabling precise soft tissue ablation with minimal bleeding, pain, and recovery time",
-        "domain": "ent-ire.com",
-        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGgVdLCZXZL3A/company-logo_200_200/B4DZxhFEJZGkAI-/0/1771155244271/entire_medical_logo?e=2147483647&v=beta&t=3nee6YptioYgYZm_2jUjJg1Ro_xy0WXtCBSfssuCr7U",
-        "keywords": [
-          "Irreversible electroporation",
-          "Pulsed field ablation",
-          "Tissue ablation",
-          "ENT medical devices",
-          "Tonsillectomy alternative",
-          "Turbinate hypertrophy treatment",
-          "Non-thermal ablation",
-          "Soft tissue ablation",
-          "Otolaryngology devices",
-          "Pediatric ENT procedures"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 5,
-        "isDeeptech": true,
-        "businessModel": "Development and sale of medical devices (ablation system, generator, and disposable handpieces) to hospitals and ENT clinics"
-      },
-      {
-        "ts": "2026-09-15T22:18:02.692Z",
-        "org": "GROOPIT",
-        "industry": "Consumer Goods and Services",
-        "city": "Jerusalem",
-        "subIndustry": "Retail & E-commerce",
-        "description": "Group-buying e-commerce platform where prices drop as more consumers join a purchase group, connecting buyers with verified suppliers and enabling organizations to run member clubs for wholesale-priced purchases",
-        "domain": "groopit.co.il",
-        "keywords": [
-          "Group buying",
-          "Group purchasing",
-          "Collective buying platform",
-          "Volume discounts",
-          "Wholesale prices for consumers",
-          "Purchase groups",
-          "Community buying club",
-          "Supplier marketplace",
-          "Bulk purchase discounts",
-          "E-commerce marketplace"
-        ],
-        "isDeeptech": false,
-        "businessModel": "Operates a marketplace platform connecting consumers, community organizations, and verified suppliers for group purchases; earns revenue from transaction commissions on completed purchase groups"
-      },
-      {
-        "ts": "2026-09-15T22:08:56.964Z",
-        "org": "OWLYTIC I.O",
-        "industry": "Financial Services",
-        "city": "Tel Aviv",
-        "subIndustry": "Accounting & Finance Software",
-        "description": "AI-powered finance hub that unifies financial systems, data, and workflows into a single real-time platform, aggregating data from banks, ERP, invoicing, and payroll systems via Open Banking connections to deliver live dashboards, AI insights, and workflow execution for finance teams",
-        "domain": "owlytic.io",
-        "keywords": [
-          "Financial data aggregation",
-          "Open Banking",
-          "Finance automation",
-          "AI financial insights",
-          "Accounting analytics",
-          "Real-time financial dashboards",
-          "ERP integration",
-          "Cash flow monitoring",
-          "Financial reporting",
-          "CFO platform"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B SaaS platform operating as a technology provider and financial data intermediary, selling access to its finance hub to companies and finance teams"
-      },
-      {
-        "ts": "2026-09-15T21:41:31.452Z",
-        "org": "PL LIGHT RAIL MAINTENANCE",
-        "industry": "Consumer Goods and Services",
-        "city": "Or Yehuda",
-        "subIndustry": "Transportation & Logistics",
-        "description": "Provider of rolling stock maintenance and depot operations for urban light rail systems, delivering preventive and corrective maintenance, fleet reliability engineering, and long-term operations and maintenance contracting for public transit operators.",
-        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGJ_l6ysq_dYw/company-logo_200_200/B4DaAyqBQ5K0AE-/0/1787556271475?e=2147483647&v=beta&t=YVpqDmI0Kz6hl0U1pPN-Fc17ffn_UyIF_jQQCpGa0CA",
-        "keywords": [
-          "Light rail maintenance",
-          "Rolling stock maintenance",
-          "Depot operations",
-          "Fleet reliability engineering",
-          "Preventive maintenance",
-          "Corrective maintenance",
-          "Rail transit operations",
-          "Tram fleet management",
-          "O&M contracting"
-        ],
-        "employeeRange": "51-200",
-        "isDeeptech": false,
-        "businessModel": "Long-term maintenance and depot operations services contract for public light rail transit"
       }
     ],
     "notable": [
@@ -2907,10 +2904,10 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Gate Technologies",
+        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2921,17 +2918,17 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Gate Technologies",
-        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
       },
       {
         "ts": "2026-09-10T00:00:00.000Z",
@@ -2939,6 +2936,13 @@
         "rawKind": "Acquisition",
         "org": "Bonfy",
         "summary": "Acquired by Kiteworks in a deal estimated at tens of millions of dollars (terms undisclosed). Bonfy.AI's runtime data classification and policy enforcement technology is being integrated into the Kiteworks Data Control Plane; Bonfy.AI will continue to be offered as a separate solution during integration."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2953,13 +2957,6 @@
         "rawKind": "Other",
         "org": "Covenant",
         "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2985,6 +2982,13 @@
       {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "NAVITAS PETROLEUM LUX SARL",
+        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Cylake",
         "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
@@ -2997,25 +3001,25 @@
         "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
       },
       {
-        "ts": "2026-09-08T00:00:00.000Z",
+        "ts": "2026-09-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "NAVITAS PETROLEUM LUX SARL",
-        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
+        "rawKind": "Regulatory and Compliance",
+        "org": "ENvue Medical",
+        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Guardio",
-        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "XTEND",
+        "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "ALZAI Health",
+        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -3023,13 +3027,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Classiq Technologies",
         "summary": "Entered a market development partnership with Kensho to expand access to the Classiq quantum software platform in Taiwan, focusing on chemical and materials companies, defense organizations, and academia; to be introduced at SEMICON Taiwan 2026."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "ENvue Medical",
-        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
       }
     ]
   }
