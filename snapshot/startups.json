@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:34:33.677Z",
+  "generatedAt": "2026-09-16T01:21:46.847Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 35624,
-      "delta24h": 30
+      "delta24h": 29
     },
     "totalFunding": {
       "valueUsd": 221931431052,
@@ -2267,11 +2267,22 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2289,17 +2300,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2311,25 +2311,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "HiBob",
-        "stage": "Series F",
-        "amountUsd": 166000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series F"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2341,6 +2330,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round (Series C)"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "HiBob",
+        "stage": "Series F",
+        "amountUsd": 166000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series F"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2896,17 +2896,17 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
-      },
-      {
-        "ts": "2026-09-14T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Glass Imaging",
         "summary": "Acquired by OpenAI for over $300 million, per a Wall Street Journal report; deal values Glass Imaging at a significant premium to its ~$100 million valuation in its May 2025 Series A. OpenAI's exact plans for the company are not yet clear."
+      },
+      {
+        "ts": "2026-09-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2920,7 +2920,7 @@
         "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Cellebrite",
-        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-10T00:00:00.000Z",
@@ -2931,10 +2931,10 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Covenant",
-        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Scanovate",
+        "summary": "Acquired by Prytek Group. Prytek announced a merger/acquisition of Scanovate's activity and two subsidiaries (Cellosign, Israel; ADO Technologies, Colombia) in a deal valued at about $50 million in its first phase, expected to generate shareholder value of up to $100 million. Scanovate will lead Prytek's customer lifecycle management (CLM) segment. Scanovate, founded 2014 by CEO Amir Fishman with CTOs Roy Fishman and Irad Gilboa, serves 250+ customers including ~120 financial institutions across North America, South America, Western Europe and Israel."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2952,24 +2952,10 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Scanovate",
-        "summary": "Acquired by Prytek Group. Prytek announced a merger/acquisition of Scanovate's activity and two subsidiaries (Cellosign, Israel; ADO Technologies, Colombia) in a deal valued at about $50 million in its first phase, expected to generate shareholder value of up to $100 million. Scanovate will lead Prytek's customer lifecycle management (CLM) segment. Scanovate, founded 2014 by CEO Amir Fishman with CTOs Roy Fishman and Irad Gilboa, serves 250+ customers including ~120 financial institutions across North America, South America, Western Europe and Israel."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Quantum X Labs",
-        "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+        "rawKind": "Other",
+        "org": "Covenant",
+        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -2986,25 +2972,18 @@
         "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
       },
       {
-        "ts": "2026-09-03T00:00:00.000Z",
+        "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "ENvue Medical",
-        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
+        "rawKind": "Executive Appointment",
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
       },
       {
-        "ts": "2026-09-03T00:00:00.000Z",
+        "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Guardio",
-        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
+        "rawKind": "Executive Appointment",
         "org": "Quantum X Labs",
-        "summary": "Achieved efficient geometric encoding of complex nuclear environments, addressing a central computational challenge in applying quantum algorithms to realistic nuclear simulations."
+        "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
@@ -3017,15 +2996,36 @@
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
+        "org": "XTEND",
+        "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Sweep.io",
+        "summary": "Acquired by ServiceNow in a deal estimated at hundreds of millions of dollars (reported ~$400M, not officially announced or disclosed by either company). Sweep's technology works across enterprise platforms including ServiceNow, Salesforce and HubSpot; it was founded in 2021 by Ido Gaver and Eran Kirshenboim and had raised $46M in disclosed funding."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "IPO and Public Listing",
-        "org": "XTEND",
-        "summary": "Completed business combination with JFB Construction Holdings, raising $110 million in total capital; combined company renamed XTEND AI Robotics, Inc. and began trading on the NYSE under ticker 'XTND' on September 4, 2026, with XTEND shareholders owning ~70.5% of the combined company (~$1.5B valuation)."
+        "org": "ALZAI Health",
+        "summary": "ALZAI Health Corp. posted for trading on the Frankfurt Stock Exchange, adding a European listing alongside its existing TSX Venture Exchange listing (ALZI)."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "ENvue Medical",
+        "summary": "SEC declared the company's Form S-3 resale registration statement (File No. 333-298188) effective, supporting the $50M committed equity facility with Alpha."
+      },
+      {
+        "ts": "2026-09-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Guardio",
+        "summary": "Guardio announced it surpassed one million paying customers and $150 million ARR after four consecutive years of triple-digit revenue growth."
       }
     ]
   }
