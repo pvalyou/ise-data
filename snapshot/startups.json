@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:01:23.534Z",
+  "generatedAt": "2026-09-17T14:01:56.461Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,18 +160,18 @@
   "kpis": {
     "startups": {
       "value": 35667,
-      "delta24h": 29
+      "delta24h": 28
     },
     "totalFunding": {
       "valueUsd": 222080806052,
-      "rounds": 29224
+      "rounds": 29228
     },
     "exits": {
       "count": 3368,
       "valueUsd": 313069543200
     },
     "employees": {
-      "total": 790110,
+      "total": 790112,
       "avgPerStartup": 29
     },
     "patents": {
@@ -184,7 +184,7 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6268
+        "count": 6269
       },
       {
         "name": "Central",
@@ -204,7 +204,7 @@
       },
       {
         "name": "Northern",
-        "count": 419
+        "count": 420
       },
       {
         "name": "Judea & Samaria",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 3965
+        "count": 3966
       },
       {
         "name": "Herzliya",
@@ -577,17 +577,17 @@
         "count": 29
       },
       {
-        "name": "Ganei Tikva",
-        "district": "Central",
-        "lat": 32.0564,
-        "lng": 34.8733,
-        "count": 28
-      },
-      {
         "name": "Kiryat Shmona",
         "district": "Northern",
         "lat": 33.2075,
         "lng": 35.5697,
+        "count": 29
+      },
+      {
+        "name": "Ganei Tikva",
+        "district": "Central",
+        "lat": 32.0564,
+        "lng": 34.8733,
         "count": 28
       },
       {
@@ -942,12 +942,12 @@
         6,
         1,
         2,
-        2,
+        3,
         6,
         15,
         14,
         38,
-        30,
+        31,
         26,
         39,
         31,
@@ -1163,12 +1163,12 @@
         1539,
         1553,
         1615,
-        2088,
+        2089,
         1975,
-        1517,
-        1440,
+        1518,
+        1441,
         1379,
-        584
+        585
       ],
       "raisedUsd": [
         0,
@@ -1218,11 +1218,11 @@
         26047925234
       ],
       "stageMix": {
-        "Seed": 13606,
-        "Series A": 3849,
+        "Seed": 13608,
+        "Series A": 3850,
         "Other": 3394,
         "Series B": 1921,
-        "Series Unknown": 1297,
+        "Series Unknown": 1298,
         "Series C": 1254,
         "Unknown": 859,
         "Angel": 835
@@ -1525,13 +1525,13 @@
       "overall": {
         "avgYears": 9.2,
         "medianYears": 7.0,
-        "avgValueUsd": 90804983,
+        "avgValueUsd": 90777458,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.3,
         "medianYears": 7.0,
-        "avgValueUsd": 96308516,
+        "avgValueUsd": 96276327,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1547,7 +1547,7 @@
         268,
         302,
         245,
-        249,
+        250,
         255,
         195,
         178,
@@ -2193,7 +2193,7 @@
     "signals": {
       "deeptechCount": 9975,
       "deeptechPct": 28.0,
-      "globalCount": 15142,
+      "globalCount": 15143,
       "globalPct": 42.5
     }
   },
@@ -2278,6 +2278,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Wonderful",
         "stage": "Series C",
         "amountUsd": 550000000,
@@ -2286,17 +2297,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
-        "stage": "Series A",
-        "amountUsd": 27000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2322,25 +2322,25 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 8,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
+        "org": "CHEMPILOT",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2355,14 +2355,14 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "CHEMPILOT",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2921,14 +2921,14 @@
         "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Cellebrite",
-        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Gate Technologies",
+        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2939,10 +2939,10 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Gate Technologies",
-        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
       },
       {
         "ts": "2026-09-10T00:00:00.000Z",
@@ -2954,23 +2954,9 @@
       {
         "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "ENvue Medical",
-        "summary": "Resumed U.S. commercial shipments of NanoVibronix PainShield\u00ae and began fulfilling open distributor orders."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Covenant",
-        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+        "rawKind": "Conference Presentation",
+        "org": "AGEERA",
+        "summary": "AGEERA participated as a panelist in the \"Rewiring Argentina: Grid Expansion, Challenges and Opportunities\" panel at the 3rd Argentina Energy Week 2026, held September 9-10, 2026 in Buenos Aires, alongside leaders from EPEN, CAMMESA and Siemens Energy, discussing transmission capacity for new generation and industrial demand."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2981,10 +2967,10 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "AGEERA",
-        "summary": "AGEERA participated as a panelist in the \"Rewiring Argentina: Grid Expansion, Challenges and Opportunities\" panel at the 3rd Argentina Energy Week 2026, held September 9-10, 2026 in Buenos Aires, alongside leaders from EPEN, CAMMESA and Siemens Energy, discussing transmission capacity for new generation and industrial demand."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -2994,11 +2980,32 @@
         "summary": "Acquired by Prytek Group. Prytek announced a merger/acquisition of Scanovate's activity and two subsidiaries (Cellosign, Israel; ADO Technologies, Colombia) in a deal valued at about $50 million in its first phase, expected to generate shareholder value of up to $100 million. Scanovate will lead Prytek's customer lifecycle management (CLM) segment. Scanovate, founded 2014 by CEO Amir Fishman with CTOs Roy Fishman and Irad Gilboa, serves 250+ customers including ~120 financial institutions across North America, South America, Western Europe and Israel."
       },
       {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "ENvue Medical",
+        "summary": "Resumed U.S. commercial shipments of NanoVibronix PainShield\u00ae and began fulfilling open distributor orders."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Covenant",
+        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
+      },
+      {
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Cylake",
         "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "NAVITAS PETROLEUM LUX SARL",
+        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -3013,13 +3020,6 @@
         "rawKind": "Other",
         "org": "Decart",
         "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "NAVITAS PETROLEUM LUX SARL",
-        "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
