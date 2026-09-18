@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:04:27.653Z",
+  "generatedAt": "2026-09-18T09:19:09.278Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,11 +160,11 @@
   "kpis": {
     "startups": {
       "value": 35680,
-      "delta24h": 14
+      "delta24h": 11
     },
     "totalFunding": {
-      "valueUsd": 222183846052,
-      "rounds": 29232
+      "valueUsd": 222182771052,
+      "rounds": 29231
     },
     "exits": {
       "count": 3368,
@@ -1166,7 +1166,7 @@
         2090,
         1975,
         1518,
-        1441,
+        1440,
         1379,
         586
       ],
@@ -1213,7 +1213,7 @@
         38902403010,
         23238192702,
         12306735063,
-        15094070651,
+        15092995651,
         24281835518,
         26089925234
       ],
@@ -1222,7 +1222,7 @@
         "Series A": 3849,
         "Other": 3393,
         "Series B": 1922,
-        "Series Unknown": 1300,
+        "Series Unknown": 1299,
         "Series C": 1254,
         "Unknown": 859,
         "Angel": 835
@@ -2289,6 +2289,28 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
+        "investors": [],
+        "investorCount": 8,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lasso Security",
         "stage": "Series A",
         "amountUsd": 30000000,
@@ -2311,28 +2333,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
-        "stage": "Series A",
-        "amountUsd": 27000000,
-        "investors": [],
-        "investorCount": 8,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Upwind",
         "stage": "Series C",
         "amountUsd": 300000000,
@@ -2341,17 +2341,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
-        "org": "Particula",
-        "stage": "Series C",
-        "amountUsd": 15000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Growth Round (Series C)"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2366,14 +2355,14 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "CHEMPILOT",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Particula",
+        "stage": "Series C",
+        "amountUsd": 15000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Growth Round (Series C)"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2385,6 +2374,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "CHEMPILOT",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-08-25T00:00:00.000Z",
@@ -2901,13 +2901,6 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Lifeward",
-        "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
-      },
-      {
-        "ts": "2026-09-15T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Keewano",
         "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
@@ -2920,11 +2913,18 @@
         "summary": "Former Mossad chief Yossi Cohen, currently a strategic advisor to SoftBank, joined Quantum X Labs as President of its Scientific Advisory Board."
       },
       {
-        "ts": "2026-09-14T00:00:00.000Z",
+        "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "rawKind": "R&D Milestone",
+        "org": "Lifeward",
+        "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
+      },
+      {
+        "ts": "2026-09-14T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Gate Technologies",
+        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2935,10 +2935,10 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Gate Technologies",
-        "summary": "Acquired by Ondas Inc. (Nasdaq:ONDS) together with affiliated Poland-based manufacturer Bron Technologies. Ondas pays $205 million ($105M cash + $100M stock, plus working capital adjustment) and up to $185 million in performance-based earn-outs tied to financial targets through 2028. GATE Technologies Ltd., an Israeli defense technology company founded in 2006, develops Electronic Safe & Arm Devices (ESADs) and advanced electronic fuzing solutions (RUBI product line, LEEFI technology), integrated into dozens of weapon systems including UAVs, loitering munitions, missiles and rockets. Ondas expects GATE to generate $65 million revenue in 2026, rising to $180 million in 2028."
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2957,6 +2957,13 @@
       {
         "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Lumus",
+        "summary": "Partnered with Chinese precision-optics manufacturer Crystal-Optech, which joins Lumus' global supply chain to manufacture geometric waveguides in China, supporting growing demand for AR/AI glasses."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "AGEERA",
         "summary": "AGEERA participated as a panelist in the \"Rewiring Argentina: Grid Expansion, Challenges and Opportunities\" panel at the 3rd Argentina Energy Week 2026, held September 9-10, 2026 in Buenos Aires, alongside leaders from EPEN, CAMMESA and Siemens Energy, discussing transmission capacity for new generation and industrial demand."
@@ -2970,13 +2977,6 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "SHL Telemedicine",
-        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "ENvue Medical",
@@ -2984,10 +2984,10 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lumus",
-        "summary": "Partnered with Chinese precision-optics manufacturer Crystal-Optech, which joins Lumus' global supply chain to manufacture geometric waveguides in China, supporting growing demand for AR/AI glasses."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "SHL Telemedicine",
+        "summary": "Acquired additional 27.5% of Mediton shares and the remaining 30% of Medishur shares, completing full ownership of both subsidiaries."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -3000,22 +3000,8 @@
         "ts": "2026-09-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "Cylake",
-        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
         "org": "Quantum X Labs",
         "summary": "Professor Daniel Freedman, formerly a research scientist at Google, IBM, Microsoft and HP, joined Quantum X Labs as Distinguished Quantum Scientist."
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Decart",
-        "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
@@ -3023,6 +3009,20 @@
         "rawKind": "Legal Case",
         "org": "NAVITAS PETROLEUM LUX SARL",
         "summary": "Argentina's president Javier Milei announced his government would file criminal charges against Navitas Petroleum over its development of the Sea Lion field near the disputed Falkland Islands."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Cylake",
+        "summary": "Ravi Mhatre (Lightspeed Venture Partners) joined the Board of Directors and Rakesh Loonkar (Picture Capital) joined as Board Observer, in connection with the closing of the $245M convertible note round."
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Decart",
+        "summary": "Anthropic decided against acquiring Decart, walking away from a reported ~$6 billion acquisition after conducting due diligence; no final agreement had been reached and the companies may still explore other forms of cooperation."
       }
     ]
   }
