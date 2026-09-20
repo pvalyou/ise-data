@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:01:30.958Z",
+  "generatedAt": "2026-09-20T19:34:08.774Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,22 +160,22 @@
   "kpis": {
     "startups": {
       "value": 35736,
-      "delta24h": 21
+      "delta24h": 20
     },
     "totalFunding": {
       "valueUsd": 222588052052,
       "rounds": 29255
     },
     "exits": {
-      "count": 3370,
-      "valueUsd": 313485193200
+      "count": 3371,
+      "valueUsd": 314915193200
     },
     "employees": {
       "total": 794331,
       "avgPerStartup": 29
     },
     "patents": {
-      "total": 164377,
+      "total": 164381,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -1297,7 +1297,7 @@
         94,
         106,
         118,
-        121,
+        122,
         145,
         141,
         188,
@@ -1337,7 +1337,7 @@
         87,
         97,
         110,
-        113,
+        114,
         130,
         127,
         171,
@@ -1417,7 +1417,7 @@
         7069239700,
         4168670000,
         6113115000,
-        3734900000,
+        5164900000,
         32857233000,
         13335069000,
         20494231300,
@@ -1430,16 +1430,16 @@
         17593202100
       ],
       "typeMix": {
-        "acquisition": 3056,
+        "acquisition": 3057,
         "ipo": 396
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 19950,
+      "active": 19949,
       "closed": 12416,
-      "exited": 3370
+      "exited": 3371
     },
     "funnel": {
       "all": 35736,
@@ -1447,7 +1447,7 @@
       "over1m": 6133,
       "over10m": 3046,
       "over100m": 562,
-      "exited": 3370
+      "exited": 3371
     },
     "cohorts": [
       {
@@ -1525,13 +1525,13 @@
       "overall": {
         "avgYears": 9.2,
         "medianYears": 7.0,
-        "avgValueUsd": 90875116,
+        "avgValueUsd": 91280788,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.3,
         "medianYears": 7.0,
-        "avgValueUsd": 96274456,
+        "avgValueUsd": 96719477,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1548,7 +1548,7 @@
         302,
         247,
         248,
-        256,
+        257,
         196,
         177,
         143,
@@ -2311,11 +2311,11 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
+        "org": "Wonderful",
         "stage": "Series C",
-        "amountUsd": 165000000,
+        "amountUsd": 550000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2327,17 +2327,6 @@
         "amountUsd": 300000000,
         "investors": [],
         "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2365,6 +2354,17 @@
         "roundTitle": "$30M Funding Round"
       },
       {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
         "ts": "2026-09-01T00:00:00.000Z",
         "org": "HiBob",
         "stage": "Series F",
@@ -2377,17 +2377,6 @@
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "DataAgent",
-        "stage": "Pre-seed",
-        "amountUsd": 10000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
         "amountUsd": 15000000,
@@ -2396,6 +2385,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Growth Round (Series C)"
+      },
+      {
+        "ts": "2026-09-01T00:00:00.000Z",
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
@@ -2909,9 +2909,9 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Pagaya",
-        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+        "rawKind": "Product Launch",
+        "org": "Nofar Energy",
+        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2923,9 +2923,9 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
+        "rawKind": "Executive Appointment",
+        "org": "Pagaya",
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
@@ -2967,7 +2967,7 @@
         "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Cellebrite",
-        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2988,7 +2988,7 @@
         "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "summary": "Board of Directors authorized a corporate reorganization to redomicile Cellebrite DI Ltd., establishing a new United States corporation as the ultimate parent company, expected to be completed by H1 2027, subject to shareholder and regulatory approvals."
       },
       {
         "ts": "2026-09-11T00:00:00.000Z",
@@ -3007,30 +3007,9 @@
       {
         "ts": "2026-09-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Covenant",
-        "summary": "Covenant (Israeli developer of low-cost cruise missile systems) emerged from stealth, revealing the company and its missile technology publicly. The coverage also disclosed ~$250M raised across three rounds (funding itself tracked in the funding batch, not as an event)."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Customer Milestone",
         "org": "Tavily",
         "summary": "IBM selected Tavily to power web search in CUGA, IBM's open-source generalist agent, enabling reliable access to current web information; featured in a Tavily customer case study."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lumus",
-        "summary": "Partnered with Chinese precision-optics manufacturer Crystal-Optech, which joins Lumus' global supply chain to manufacture geometric waveguides in China, supporting growing demand for AR/AI glasses."
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "AGEERA",
-        "summary": "AGEERA participated as a panelist in the \"Rewiring Argentina: Grid Expansion, Challenges and Opportunities\" panel at the 3rd Argentina Energy Week 2026, held September 9-10, 2026 in Buenos Aires, alongside leaders from EPEN, CAMMESA and Siemens Energy, discussing transmission capacity for new generation and industrial demand."
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
@@ -3045,6 +3024,27 @@
         "rawKind": "Acquisition",
         "org": "Scanovate",
         "summary": "Acquired by Prytek Group. Prytek announced a merger/acquisition of Scanovate's activity and two subsidiaries (Cellosign, Israel; ADO Technologies, Colombia) in a deal valued at about $50 million in its first phase, expected to generate shareholder value of up to $100 million. Scanovate will lead Prytek's customer lifecycle management (CLM) segment. Scanovate, founded 2014 by CEO Amir Fishman with CTOs Roy Fishman and Irad Gilboa, serves 250+ customers including ~120 financial institutions across North America, South America, Western Europe and Israel."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "ENvue Medical",
+        "summary": "Resumed U.S. commercial shipments of NanoVibronix PainShield\u00ae and began fulfilling open distributor orders."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Lumus",
+        "summary": "Partnered with Chinese precision-optics manufacturer Crystal-Optech, which joins Lumus' global supply chain to manufacture geometric waveguides in China, supporting growing demand for AR/AI glasses."
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "AGEERA",
+        "summary": "AGEERA participated as a panelist in the \"Rewiring Argentina: Grid Expansion, Challenges and Opportunities\" panel at the 3rd Argentina Energy Week 2026, held September 9-10, 2026 in Buenos Aires, alongside leaders from EPEN, CAMMESA and Siemens Energy, discussing transmission capacity for new generation and industrial demand."
       }
     ]
   }
