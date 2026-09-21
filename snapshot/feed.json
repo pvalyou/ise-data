@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-21T09:32:48.455552Z",
+  "generatedAt": "2026-09-21T10:33:44.830155Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -172,15 +172,15 @@
       47,
       30,
       29,
-      38,
+      39,
       78,
       72,
-      77,
-      72,
-      80,
+      78,
+      74,
+      81,
       76,
-      51,
-      58,
+      52,
+      59,
       97,
       31,
       42
@@ -481,9 +481,9 @@
       "d30": 22
     },
     "newOrgs": {
-      "d1": 48,
-      "d7": 435,
-      "d30": 1234
+      "d1": 47,
+      "d7": 438,
+      "d30": 1241
     },
     "exits": {
       "d1": 0,
@@ -1511,22 +1511,22 @@
     {
       "ts": "2026-09-14",
       "precision": "day",
-      "target": "Gate Technologies",
-      "acquirer": "Ondas Inc.",
-      "kind": "acquisition",
-      "amountUsd": 205000000,
-      "domain": "gatetech.co.il",
-      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
-    },
-    {
-      "ts": "2026-09-14",
-      "precision": "day",
       "target": "Glass Imaging",
       "acquirer": "OpenAI",
       "kind": "acquisition",
       "amountUsd": 300000000,
       "domain": "glass-imaging.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c.png"
+    },
+    {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Gate Technologies",
+      "acquirer": "Ondas Inc.",
+      "kind": "acquisition",
+      "amountUsd": 205000000,
+      "domain": "gatetech.co.il",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
     },
     {
       "ts": "2026-09-10",
@@ -2037,6 +2037,14 @@
     {
       "ts": "2026-09-08",
       "kind": "granted",
+      "org": "Mobileye",
+      "title": "Methods, systems, and computer readable media for determining line representations of road features",
+      "number": "116929401",
+      "url": "https://patents.google.com/patent/CN116929401B/en"
+    },
+    {
+      "ts": "2026-09-08",
+      "kind": "granted",
       "org": "V-Armed",
       "title": "Base plate for tracking puck",
       "number": "D1146666",
@@ -2049,14 +2057,6 @@
       "title": "Systems and methods for navigating a vehicle among encroaching vehicles",
       "number": "12728861",
       "url": "https://patents.google.com/patent/US12728861B2/en"
-    },
-    {
-      "ts": "2026-09-08",
-      "kind": "granted",
-      "org": "Mobileye",
-      "title": "Methods, systems, and computer readable media for determining line representations of road features",
-      "number": "116929401",
-      "url": "https://patents.google.com/patent/CN116929401B/en"
     },
     {
       "ts": "2026-09-03",
@@ -2094,17 +2094,17 @@
       "ts": "2026-09-01",
       "kind": "granted",
       "org": "Mobileye",
-      "title": "Systems and methods for harvesting images for vehicle navigation",
-      "number": "12723891",
-      "url": "https://patents.google.com/patent/US12723891B2/en"
+      "title": "Map management using an electronic horizon",
+      "number": "12723893",
+      "url": "https://patents.google.com/patent/US12723893B2/en"
     },
     {
       "ts": "2026-09-01",
       "kind": "granted",
       "org": "Mobileye",
-      "title": "Non-transitory machine readable storage medium and computing device",
-      "number": "117022256",
-      "url": "https://patents.google.com/patent/CN117022256B/en"
+      "title": "Systems and methods for harvesting images for vehicle navigation",
+      "number": "12723891",
+      "url": "https://patents.google.com/patent/US12723891B2/en"
     }
   ],
   "jobs": [
@@ -2239,7 +2239,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 13
+          "count": 12
         },
         {
           "label": "Healthcare and Food",
@@ -2265,7 +2265,7 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 131
+          "count": 132
         },
         {
           "label": "Healthcare and Food",
@@ -2273,7 +2273,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 35
+          "count": 36
         },
         {
           "label": "Financial Services",
@@ -2281,7 +2281,7 @@
         },
         {
           "label": "Unknown",
-          "count": 18
+          "count": 19
         },
         {
           "label": "Energy and Utilities",
@@ -2295,7 +2295,7 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 347
+          "count": 348
         },
         {
           "label": "Healthcare and Food",
@@ -2303,7 +2303,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 105
+          "count": 106
         },
         {
           "label": "Financial Services",
@@ -2311,11 +2311,11 @@
         },
         {
           "label": "Unknown",
-          "count": 73
+          "count": 76
         },
         {
           "label": "Energy and Utilities",
-          "count": 59
+          "count": 61
         }
       ]
     }
