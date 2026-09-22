@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-22T20:03:26.101988Z",
+  "generatedAt": "2026-09-22T21:03:06.885300Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -151,7 +151,7 @@
       0,
       0,
       0,
-      1
+      3
     ],
     "newOrgs": [
       41,
@@ -183,7 +183,7 @@
       98,
       32,
       98,
-      58
+      59
     ],
     "exits": [
       0,
@@ -272,7 +272,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -375,7 +375,7 @@
       0,
       0,
       0,
-      4
+      6
     ],
     "fundingStages": [
       {
@@ -440,7 +440,9 @@
       {},
       {},
       {
-        "Series A": 1
+        "Series A": 1,
+        "Series C": 1,
+        "Series G": 1
       }
     ],
     "fundingUsd": [
@@ -473,19 +475,19 @@
       0,
       0,
       0,
-      26000000
+      450000000
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 1,
-      "d7": 4,
-      "d30": 23
+      "d1": 3,
+      "d7": 6,
+      "d30": 25
     },
     "newOrgs": {
-      "d1": 84,
-      "d7": 476,
-      "d30": 1165
+      "d1": 77,
+      "d7": 477,
+      "d30": 1166
     },
     "exits": {
       "d1": 0,
@@ -500,7 +502,7 @@
     "patentsIssued": {
       "d1": 0,
       "d7": 0,
-      "d30": 15
+      "d30": 16
     },
     "jobsPosted": {
       "d1": 299,
@@ -508,19 +510,19 @@
       "d30": 5184
     },
     "newFounders": {
-      "d1": 37,
+      "d1": 35,
       "d7": 234,
       "d30": 1512
     },
     "investments": {
-      "d1": 4,
-      "d7": 30,
-      "d30": 126
+      "d1": 6,
+      "d7": 32,
+      "d30": 128
     },
     "fundingUsd": {
-      "d1": 26000000,
-      "d7": 161000000,
-      "d30": 2038000000
+      "d1": 450000000,
+      "d7": 585000000,
+      "d30": 2462000000
     }
   },
   "news": {
@@ -1611,21 +1613,21 @@
     {
       "ts": "2026-08-31",
       "precision": "day",
-      "target": "Lanir",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "lanirgroup.com"
-    },
-    {
-      "ts": "2026-08-31",
-      "precision": "day",
       "target": "LightSolver",
       "acquirer": "CollPlant Biotechnologies Ltd.",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "lightsolver.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
+    },
+    {
+      "ts": "2026-08-31",
+      "precision": "day",
+      "target": "Lanir",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "lanirgroup.com"
     },
     {
       "ts": "2026-08-30",
@@ -1896,6 +1898,14 @@
   "investments": [
     {
       "ts": "2026-09-22",
+      "investor": "Alive HealthTech Growth Fund",
+      "company": "UltraSight",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-22",
       "investor": "Bright Pixel Capital",
       "company": "Chamelio",
       "kind": "fund",
@@ -1922,6 +1932,14 @@
       "ts": "2026-09-22",
       "investor": "Work-Bench",
       "company": "Chamelio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-22",
+      "investor": "Goldman Sachs Alternatives",
+      "company": "Cyera",
       "kind": "fund",
       "isFirst": false,
       "domain": null
@@ -2037,25 +2055,17 @@
       "kind": "fund",
       "isFirst": false,
       "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Mike Schroepfer",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": true,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Moshe Shalev",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": true,
-      "domain": null
     }
   ],
   "patents": [
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "UnifabriX",
+      "title": "Translating between cxl.mem and cxl.cache read transactions",
+      "number": "12737313",
+      "url": "https://patents.google.com/patent/US12737313B2/en"
+    },
     {
       "ts": "2026-09-10",
       "kind": "granted",
@@ -2075,18 +2085,18 @@
     {
       "ts": "2026-09-08",
       "kind": "granted",
-      "org": "Mobileye",
-      "title": "Systems and methods for navigating a vehicle among encroaching vehicles",
-      "number": "12728861",
-      "url": "https://patents.google.com/patent/US12728861B2/en"
-    },
-    {
-      "ts": "2026-09-08",
-      "kind": "granted",
       "org": "V-Armed",
       "title": "Base plate for tracking puck",
       "number": "D1146666",
       "url": "https://patents.google.com/patent/USD1146666S/en"
+    },
+    {
+      "ts": "2026-09-08",
+      "kind": "granted",
+      "org": "Mobileye",
+      "title": "Systems and methods for navigating a vehicle among encroaching vehicles",
+      "number": "12728861",
+      "url": "https://patents.google.com/patent/US12728861B2/en"
     },
     {
       "ts": "2026-09-03",
@@ -2115,10 +2125,10 @@
     {
       "ts": "2026-09-01",
       "kind": "granted",
-      "org": "SentinelOne",
-      "title": "Systems and methods for data management and query optimization",
-      "number": "12724771",
-      "url": "https://patents.google.com/patent/US12724771B2/en"
+      "org": "MYVISITO",
+      "title": "\u30d0\u30c3\u30af\u30d1\u30c3\u30af",
+      "number": "1834777",
+      "url": "https://patents.google.com/patent/JP1834777S/en"
     },
     {
       "ts": "2026-09-01",
@@ -2127,17 +2137,30 @@
       "title": "Systems and methods for harvesting images for vehicle navigation",
       "number": "12723891",
       "url": "https://patents.google.com/patent/US12723891B2/en"
-    },
-    {
-      "ts": "2026-09-01",
-      "kind": "granted",
-      "org": "MYVISITO",
-      "title": "\u30d0\u30c3\u30af\u30d1\u30c3\u30af",
-      "number": "1834777",
-      "url": "https://patents.google.com/patent/JP1834777S/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-09-22",
+      "title": "Business Development Specilaist Full-time Tel Aviv View role",
+      "company": "SpoTower",
+      "city": "Tel Aviv",
+      "url": "https://spotower.com/careers/business-development-specilaist-1"
+    },
+    {
+      "ts": "2026-09-22",
+      "title": "QA Specialist (Manual & Automation) Full-time Tel Aviv View role",
+      "company": "SpoTower",
+      "city": "Tel Aviv",
+      "url": "https://spotower.com/careers/qa-specialist-manual--automation"
+    },
+    {
+      "ts": "2026-09-22",
+      "title": "Business Development Manager Full-time Tel Aviv View role",
+      "company": "SpoTower",
+      "city": "Tel Aviv",
+      "url": "https://spotower.com/careers/business-development-manager"
+    },
     {
       "ts": "2026-09-22",
       "title": "\u05de\u05e0\u05d4\u05dc/\u05ea \u05e6\u05d5\u05d5\u05ea \u05de\u05d5\u05d3\u05d3\u05d9\u05dd \u05dc\u05d7\u05d1\u05e8\u05ea \u05de\u05d9\u05d3\u05d5\u05ea",
@@ -2186,27 +2209,6 @@
       "company": "Mertens",
       "city": "Petah Tikva",
       "url": "https://mertens.malam.com/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94-%d7%91%d7%9e%d7%a8%d7%98%d7%a0%d7%a1-%d7%a8%d7%92%d7%99%d7%9c/?jid=37396"
-    },
-    {
-      "ts": "2026-09-22",
-      "title": "Clinical Data Labeler",
-      "company": "Sensi.ai",
-      "city": "Tel Aviv",
-      "url": "https://www.comeet.com/jobs/sensi/E7.00F/clinical-data-labeler/DE.27E"
-    },
-    {
-      "ts": "2026-09-22",
-      "title": "\u05d1\u05e7\u05e8/\u05d9\u05ea \u05e4\u05e8\u05d5\u05d9\u05d9\u05e7\u05d8\u05d9\u05dd \u2013 \u05ea\u05d3\u05d4\u05e8 \u05d2\u05de\u05e8\u05d9\u05dd",
-      "company": "Tidhar Group Ltd.",
-      "city": "Ra'anana",
-      "url": "https://tidhar.co.il/careers/%d7%91%d7%a7%d7%a8-%d7%99%d7%aa-%d7%a4%d7%a8%d7%95%d7%99%d7%99%d7%a7%d7%98%d7%99%d7%9d-%d7%aa%d7%93%d7%94%d7%a8-%d7%92%d7%9e%d7%a8%d7%99%d7%9d/"
-    },
-    {
-      "ts": "2026-09-22",
-      "title": "\u05ea\u05d5\u05e9\u05d1\u05d9 \u05d8\u05d1\u05e8\u05d9\u05d4 \u05d4\u05e6\u05d8\u05e8\u05e4\u05d5 \u05dc\u05e6\u05d5\u05d5\u05ea \u05d4\u05de\u05e0\u05e6\u05d7!",
-      "company": "Pelephone",
-      "city": "Givatayim",
-      "url": "https://career.adamtotal.co.il/?token=OPY78QbFG53N63Em2UKTVQ4OPb1hiX9SxJtoMHssWX"
     }
   ],
   "mix": {
@@ -2214,6 +2216,14 @@
       "d1": [
         {
           "label": "Series A",
+          "count": 1
+        },
+        {
+          "label": "Series C",
+          "count": 1
+        },
+        {
+          "label": "Series G",
           "count": 1
         }
       ],
@@ -2229,12 +2239,20 @@
         {
           "label": "Series A",
           "count": 1
+        },
+        {
+          "label": "Series C",
+          "count": 1
+        },
+        {
+          "label": "Series G",
+          "count": 1
         }
       ],
       "d30": [
         {
           "label": "Series C",
-          "count": 6
+          "count": 7
         },
         {
           "label": "Seed",
@@ -2265,6 +2283,10 @@
           "count": 1
         },
         {
+          "label": "Series G",
+          "count": 1
+        },
+        {
           "label": "Series Unknown",
           "count": 1
         }
@@ -2274,11 +2296,11 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 29
+          "count": 28
         },
         {
           "label": "IT and Telecom",
-          "count": 27
+          "count": 23
         },
         {
           "label": "Financial Services",
@@ -2290,11 +2312,11 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 6
+          "count": 5
         },
         {
           "label": "Energy and Utilities",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Unknown",
@@ -2308,7 +2330,7 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 147
+          "count": 148
         },
         {
           "label": "Healthcare and Food",
@@ -2338,7 +2360,7 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 322
+          "count": 323
         },
         {
           "label": "Healthcare and Food",
