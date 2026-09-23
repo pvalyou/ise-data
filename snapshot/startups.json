@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:31:16.274Z",
+  "generatedAt": "2026-09-23T16:49:55.873Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 37018,
-      "delta24h": 90
+      "delta24h": 89
     },
     "totalFunding": {
       "valueUsd": 224074338652,
@@ -171,7 +171,7 @@
       "valueUsd": 320102680700
     },
     "employees": {
-      "total": 801097,
+      "total": 801747,
       "avgPerStartup": 28
     },
     "patents": {
@@ -2204,17 +2204,6 @@
     "funding": [
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2236,12 +2225,34 @@
         "roundTitle": "Series C"
       },
       {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+      },
+      {
         "ts": "2026-09-17T00:00:00.000Z",
         "org": "MIND",
         "stage": "Series B",
         "amountUsd": 72000000,
         "investors": [],
         "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
@@ -2256,17 +2267,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2369,17 +2369,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2388,6 +2377,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2402,25 +2402,25 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
+        "org": "Lyte",
         "stage": "Series C",
-        "amountUsd": 300000000,
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "CHEMPILOT",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Particula",
+        "stage": "Series C",
+        "amountUsd": 15000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Growth Round (Series C)"
       }
     ],
     "todayStats": {
@@ -2896,6 +2896,20 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EAZYDONE",
+        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "MIND",
+        "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Pagaya",
         "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
@@ -2910,23 +2924,9 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EAZYDONE",
-        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Nofar Energy",
         "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "MIND",
-        "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
@@ -2945,16 +2945,9 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Quantum X Labs",
-        "summary": "Former Mossad chief Yossi Cohen, currently a strategic advisor to SoftBank, joined Quantum X Labs as President of its Scientific Advisory Board."
-      },
-      {
-        "ts": "2026-09-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Keewano",
-        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
+        "rawKind": "Other",
+        "org": "Nofar Energy",
+        "summary": "Announced a \u20ac103 million investment to build battery energy storage facilities (total 1.09 GWh: 650 MWh at Valter Maracineanu and 440 MWh at Corbii Mari) alongside two of its solar projects in Romania."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2966,6 +2959,13 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Keewano",
+        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
+      },
+      {
+        "ts": "2026-09-15T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "R&D Milestone",
         "org": "Lifeward",
         "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
@@ -2973,16 +2973,16 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Nofar Energy",
-        "summary": "Announced a \u20ac103 million investment to build battery energy storage facilities (total 1.09 GWh: 650 MWh at Valter Maracineanu and 440 MWh at Corbii Mari) alongside two of its solar projects in Romania."
+        "rawKind": "Customer Milestone",
+        "org": "Nice",
+        "summary": "Merlin Entertainments elevated the guest experience across its global attractions with NiCE CXone."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Nice",
-        "summary": "Merlin Entertainments elevated the guest experience across its global attractions with NiCE CXone."
+        "rawKind": "Executive Appointment",
+        "org": "Quantum X Labs",
+        "summary": "Former Mossad chief Yossi Cohen, currently a strategic advisor to SoftBank, joined Quantum X Labs as President of its Scientific Advisory Board."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -2993,10 +2993,10 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Glass Imaging",
-        "summary": "Acquired by OpenAI for over $300 million, per a Wall Street Journal report; deal values Glass Imaging at a significant premium to its ~$100 million valuation in its May 2025 Series A. OpenAI's exact plans for the company are not yet clear."
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Cellebrite",
+        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
@@ -3014,10 +3014,10 @@
       },
       {
         "ts": "2026-09-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Cellebrite",
-        "summary": "Cellebrite Labs, the team behind core mobile access, extraction and decoding research, moved under the leadership of CTO Chris Wade within the company's Innovation Hub, with additional infrastructure, AI resources and talent committed to mobile research."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Glass Imaging",
+        "summary": "Acquired by OpenAI for over $300 million, per a Wall Street Journal report; deal values Glass Imaging at a significant premium to its ~$100 million valuation in its May 2025 Series A. OpenAI's exact plans for the company are not yet clear."
       },
       {
         "ts": "2026-09-13T00:00:00.000Z",
@@ -3030,8 +3030,8 @@
         "ts": "2026-09-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "FAZE",
-        "summary": "FAZE Security (formerly known as CYTRIX) emerged from stealth with its Offensive Security Orchestration platform built around an Agentic Red Team (ART) of autonomous agents trained on proprietary white-hat hacker data. At launch it had 50 enterprise customers including several Fortune 500 companies and ~20X ARR growth in 18 months; the announcement also covered a $6M seed round led by New Era Capital Partners with Lockstep VC (funding tracked separately)."
+        "org": "ZOHAR VANUNU PRODUCTIONS",
+        "summary": "Roll-up of Kolbo.AI platform feature and model integrations announced July-September 2026: Suno v6/v6 Mini/v6 Wild with song length control (2026-09-11), 3D Director blockout-to-video and GPT Image 2.5 (Flare/Sunburst) (2026-09-10), FLUX 3 video with draft workflow (2026-08-05), Color DNA palette locking (2026-07-27), Cartesia Sonic 3.5 TTS (2026-07-26), Multi-Shot nine camera angles (2026-07-23), Higgsfield Soul 2.0/Soul Cinema (2026-07-22), and VEED Lipsync v2 (2026-07-20)."
       }
     ]
   }
