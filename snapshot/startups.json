@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T22:14:59.371Z",
+  "generatedAt": "2026-09-25T23:34:38.753Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,23 +159,23 @@
   },
   "kpis": {
     "startups": {
-      "value": 37348,
-      "delta24h": 160
+      "value": 37354,
+      "delta24h": 154
     },
     "totalFunding": {
       "valueUsd": 224930762652,
-      "rounds": 29374
+      "rounds": 29376
     },
     "exits": {
       "count": 3400,
       "valueUsd": 319340781700
     },
     "employees": {
-      "total": 803329,
+      "total": 803358,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 178334,
+      "total": 178652,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6727
+        "count": 6729
       },
       {
         "name": "Central",
-        "count": 3845
+        "count": 3847
       },
       {
         "name": "Haifa",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4247
+        "count": 4249
       },
       {
         "name": "Herzliya",
@@ -465,17 +465,17 @@
         "count": 51
       },
       {
-        "name": "Pardes Hanna-Karkur",
-        "district": "Haifa",
-        "lat": 32.4718,
-        "lng": 34.972,
-        "count": 49
-      },
-      {
         "name": "Shoham",
         "district": "Central",
         "lat": 32.0014,
         "lng": 34.937,
+        "count": 50
+      },
+      {
+        "name": "Pardes Hanna-Karkur",
+        "district": "Haifa",
+        "lat": 32.4718,
+        "lng": 34.972,
         "count": 49
       },
       {
@@ -598,6 +598,13 @@
         "count": 29
       },
       {
+        "name": "Savyon",
+        "district": "Central",
+        "lat": 32.0369,
+        "lng": 34.8839,
+        "count": 28
+      },
+      {
         "name": "Gedera",
         "district": "Central",
         "lat": 31.8137,
@@ -609,13 +616,6 @@
         "district": "Northern",
         "lat": 33.0061,
         "lng": 35.0947,
-        "count": 27
-      },
-      {
-        "name": "Savyon",
-        "district": "Central",
-        "lat": 32.0369,
-        "lng": 34.8839,
         "count": 27
       },
       {
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2208
+    "unresolvedCount": 2210
   },
   "overTime": {
     "foundedClosed": {
@@ -987,11 +987,11 @@
         1794,
         1713,
         1875,
-        1912,
+        1915,
         1700,
         1539,
         1293,
-        1650,
+        1653,
         906
       ],
       "closed": [
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 19398,
+        "active": 19404,
         "closed": 13783,
         "unknown": 3746
       }
@@ -1167,7 +1167,7 @@
         1556,
         1622,
         2102,
-        1986,
+        1987,
         1516,
         1450,
         1406,
@@ -1225,7 +1225,7 @@
         "Series A": 3887,
         "Other": 3364,
         "Series B": 1942,
-        "Series Unknown": 1316,
+        "Series Unknown": 1317,
         "Series C": 1259,
         "Unknown": 844,
         "Angel": 837
@@ -1440,13 +1440,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 21284,
+      "active": 21290,
       "closed": 12664,
       "exited": 3400
     },
     "funnel": {
-      "all": 37348,
-      "funded": 15572,
+      "all": 37354,
+      "funded": 15573,
       "over1m": 6185,
       "over10m": 3079,
       "over100m": 564,
@@ -1483,10 +1483,10 @@
       },
       {
         "year": 2021,
-        "total": 1912,
+        "total": 1915,
         "exited": 93,
         "closed": 409,
-        "active": 1410
+        "active": 1413
       },
       {
         "year": 2022,
@@ -1511,10 +1511,10 @@
       },
       {
         "year": 2025,
-        "total": 1650,
+        "total": 1653,
         "exited": 20,
         "closed": 33,
-        "active": 1597
+        "active": 1600
       },
       {
         "year": 2026,
@@ -1710,23 +1710,23 @@
       },
       {
         "year": 2021,
-        "total": 1843,
+        "total": 1846,
         "unknown": 69,
         "counts": {
-          "it-telecom": 685,
+          "it-telecom": 686,
           "healthcare-food": 347,
           "consumer-goods-services": 348,
           "energy-utilities": 91,
           "financial-services": 172,
-          "media-entertainment": 200
+          "media-entertainment": 202
         },
         "shares": {
-          "it-telecom": 0.3716766142159523,
-          "healthcare-food": 0.18827997829625612,
-          "consumer-goods-services": 0.18882257189365165,
-          "energy-utilities": 0.049376017362995114,
-          "financial-services": 0.09332609875203472,
-          "media-entertainment": 0.10851871947911014
+          "it-telecom": 0.37161430119176597,
+          "healthcare-food": 0.18797399783315277,
+          "consumer-goods-services": 0.18851570964247022,
+          "energy-utilities": 0.04929577464788732,
+          "financial-services": 0.09317443120260022,
+          "media-entertainment": 0.1094257854821235
         }
       },
       {
@@ -1794,23 +1794,23 @@
       },
       {
         "year": 2025,
-        "total": 1553,
+        "total": 1556,
         "unknown": 97,
         "counts": {
           "it-telecom": 729,
           "healthcare-food": 223,
-          "consumer-goods-services": 295,
+          "consumer-goods-services": 298,
           "energy-utilities": 63,
           "financial-services": 108,
           "media-entertainment": 135
         },
         "shares": {
-          "it-telecom": 0.4694140373470702,
-          "healthcare-food": 0.14359304571796522,
-          "consumer-goods-services": 0.18995492594977462,
-          "energy-utilities": 0.04056664520283323,
-          "financial-services": 0.0695428203477141,
-          "media-entertainment": 0.08692852543464263
+          "it-telecom": 0.4685089974293059,
+          "healthcare-food": 0.14331619537275064,
+          "consumer-goods-services": 0.19151670951156813,
+          "energy-utilities": 0.04048843187660668,
+          "financial-services": 0.06940874035989718,
+          "media-entertainment": 0.08676092544987146
         }
       },
       {
@@ -1839,42 +1839,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14597,
-        "share": 0.4060700475700337
+        "count": 14598,
+        "share": 0.406030094846049
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6814,
-        "share": 0.18955684758116115
+        "share": 0.1895252134731455
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6443,
-        "share": 0.17923609758811584
+        "count": 6446,
+        "share": 0.17928962812560845
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1613,
-        "share": 0.04487161654658247
+        "share": 0.04486412816732957
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2145,
-        "share": 0.05967118257434557
+        "share": 0.059661224376269015
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 4335,
-        "share": 0.12059420813976132
+        "count": 4337,
+        "share": 0.12062971101159847
       }
     ],
     "mixSummary": {
-      "totalVisible": 15611,
+      "totalVisible": 15617,
       "totalUnknown": 615
     },
     "subTrendYears": [
@@ -1893,14 +1893,14 @@
       {
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
-        "total": 750,
+        "total": 751,
         "shareDelta": 0.043,
         "counts": [
           62,
           43,
           60,
           51,
-          58,
+          59,
           57,
           90,
           96,
@@ -1912,42 +1912,12 @@
           0.02469844916714532,
           0.03631961259079903,
           0.028083700440528634,
-          0.031487513572204126,
+          0.03197831978319783,
           0.03467153284671533,
           0.060362173038229376,
           0.07760711398544867,
-          0.08810289389067524,
+          0.08793324775353016,
           0.11294117647058824
-        ]
-      },
-      {
-        "name": "Cybersecurity",
-        "parent": "IT and Telecom",
-        "total": 914,
-        "shareDelta": 0.02,
-        "counts": [
-          87,
-          103,
-          79,
-          90,
-          98,
-          101,
-          79,
-          108,
-          115,
-          54
-        ],
-        "shares": [
-          0.04865771812080537,
-          0.0591614014933946,
-          0.04782082324455206,
-          0.04955947136563876,
-          0.053203040173724216,
-          0.06143552311435523,
-          0.05298457411133468,
-          0.08730800323362975,
-          0.07395498392282958,
-          0.06352941176470588
         ]
       },
       {
@@ -1972,12 +1942,42 @@
           0.14704192992533027,
           0.14891041162227603,
           0.1618942731277533,
-          0.1454940282301846,
+          0.14525745257452574,
           0.14963503649635038,
           0.1790744466800805,
           0.16248989490703314,
-          0.14919614147909968,
+          0.14890885750962773,
           0.17411764705882352
+        ]
+      },
+      {
+        "name": "Cybersecurity",
+        "parent": "IT and Telecom",
+        "total": 914,
+        "shareDelta": 0.019,
+        "counts": [
+          87,
+          103,
+          79,
+          90,
+          98,
+          101,
+          79,
+          108,
+          115,
+          54
+        ],
+        "shares": [
+          0.04865771812080537,
+          0.0591614014933946,
+          0.04782082324455206,
+          0.04955947136563876,
+          0.053116531165311655,
+          0.06143552311435523,
+          0.05298457411133468,
+          0.08730800323362975,
+          0.07381258023106547,
+          0.06352941176470588
         ]
       },
       {
@@ -2002,11 +2002,11 @@
           0.014359563469270534,
           0.018159806295399514,
           0.013766519823788546,
-          0.013029315960912053,
+          0.013008130081300813,
           0.0170316301703163,
           0.02481556002682763,
           0.021018593371059015,
-          0.04051446945337621,
+          0.04043645699614891,
           0.041176470588235294
         ]
       },
@@ -2032,11 +2032,11 @@
           0.010338885697874785,
           0.007263922518159807,
           0.012665198237885462,
-          0.011943539630836048,
+          0.011924119241192412,
           0.010340632603406326,
           0.011401743796109993,
           0.019401778496362168,
-          0.027009646302250803,
+          0.026957637997432605,
           0.02
         ]
       }
@@ -2064,11 +2064,11 @@
           0.02986789201608271,
           0.009079903147699757,
           0.010462555066079295,
-          0.01737242128121607,
+          0.017344173441734417,
           0.016423357664233577,
           0.008048289738430584,
           0.004042037186742118,
-          0.00964630225080386,
+          0.009627727856225931,
           0.004705882352941176
         ]
       },
@@ -2094,11 +2094,11 @@
           0.051694428489373924,
           0.05690072639225181,
           0.06773127753303965,
-          0.04723127035830619,
+          0.04715447154471545,
           0.0535279805352798,
           0.04896042924211938,
           0.05173807599029911,
-          0.03536977491961415,
+          0.03530166880616174,
           0.02
         ]
       },
@@ -2124,25 +2124,25 @@
           0.026995979322228605,
           0.03753026634382567,
           0.031938325991189426,
-          0.024429967426710098,
+          0.024390243902439025,
           0.03223844282238443,
           0.02012072434607646,
           0.02021018593371059,
-          0.010289389067524116,
+          0.010269576379974325,
           0.007058823529411765
         ]
       },
       {
         "name": "Advertising Technology",
         "parent": "Media and Entertainment",
-        "total": 376,
+        "total": 377,
         "shareDelta": -0.011,
         "counts": [
           77,
           43,
           47,
           44,
-          40,
+          41,
           28,
           29,
           26,
@@ -2154,11 +2154,11 @@
           0.02469844916714532,
           0.028450363196125907,
           0.024229074889867842,
-          0.021715526601520086,
+          0.022222222222222223,
           0.0170316301703163,
           0.019450033534540577,
           0.021018593371059015,
-          0.023794212218649517,
+          0.02374839537869063,
           0.0058823529411764705
         ]
       },
@@ -2184,11 +2184,11 @@
           0.023549684089603676,
           0.01937046004842615,
           0.01486784140969163,
-          0.01031487513572204,
+          0.010298102981029811,
           0.014598540145985401,
           0.008048289738430584,
           0.009700889248181084,
-          0.012218649517684888,
+          0.012195121951219513,
           0.009411764705882352
         ]
       }
@@ -2196,7 +2196,7 @@
     "signals": {
       "deeptechCount": 10062,
       "deeptechPct": 26.9,
-      "globalCount": 15487,
+      "globalCount": 15491,
       "globalPct": 41.5
     }
   },
@@ -2215,17 +2215,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2234,6 +2223,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2369,17 +2369,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
-        "stage": "Series C",
-        "amountUsd": 165000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2388,6 +2377,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2413,14 +2413,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
+        "roundTitle": "Series C"
       }
     ],
     "todayStats": {
@@ -2429,6 +2429,135 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-25T22:25:18.256Z",
+        "org": "WETALKMED",
+        "industry": "Media and Entertainment",
+        "city": "Savyon",
+        "subIndustry": "Publishing & Content",
+        "description": "Healthcare media and education company producing expert-led medical content, webinars, conferences, podcasts, films, and online courses for healthcare organizations, pharmaceutical companies, and consumers. It also provides rehabilitative Pilates instruction.",
+        "domain": "wetalkmed.com",
+        "keywords": [
+          "Medical content production",
+          "Healthcare webinars",
+          "Online medical conferences",
+          "Medical podcasts",
+          "Healthcare films",
+          "Online health courses",
+          "Rehabilitative Pilates"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T22:22:49.283Z",
+        "org": "MONITIE",
+        "industry": "Media and Entertainment",
+        "city": "Tel Aviv",
+        "subIndustry": "Advertising Technology",
+        "description": "Advertising monetization platform for mobile, web, and social publishers that uses AI-powered optimization and real-time analytics to improve advertising revenue.",
+        "domain": "monitie.com",
+        "keywords": [
+          "Ad monetization",
+          "Advertising optimization",
+          "Publisher advertising revenue",
+          "Real-time ad analytics",
+          "AI-powered advertising",
+          "Mobile advertising",
+          "Web advertising",
+          "Social media advertising"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T22:20:41.548Z",
+        "org": "Meaning",
+        "industry": "IT and Telecom",
+        "city": "Baltimore",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Voice AI deployment platform providing real-time voice conversion, privacy, accent softening, noise cancellation, and adversarial testing for secure, scalable production use in defense and enterprise environments.",
+        "domain": "meaning.team",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/5cb53d78-b95f-4d6b-b0d7-3c8a455a0f31.png",
+        "keywords": [
+          "Real-time voice conversion",
+          "Voice AI deployment",
+          "Voice privacy",
+          "Accent softening",
+          "Noise cancellation",
+          "Adversarial testing",
+          "Speech processing",
+          "Secure voice AI"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 29,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T22:16:31.147Z",
+        "org": "Zionist Investments",
+        "industry": "Consumer Goods and Services",
+        "city": "Eli'av",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate consulting and property brokerage serving individuals and investors seeking residential, rural, agricultural, hospitality, industrial, logistics, development, and mixed-use property opportunities. The firm provides curated listings, transaction support, financial and strategic analysis, legal coordination, financing assistance, translation, and rental management.",
+        "domain": "zionistinvestments.com",
+        "keywords": [
+          "Real estate consulting",
+          "Property investment",
+          "Foreign property buyers",
+          "Residential real estate",
+          "Commercial real estate",
+          "Rural property",
+          "Development land",
+          "Property transaction support"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T22:16:09.129Z",
+        "org": "GAMES LAND",
+        "industry": "Consumer Goods and Services",
+        "city": "\u05de\u05d9\u05e9\u05d5\u05e8 \u05d0\u05d3\u05d5\u05de\u05d9\u05dd",
+        "subIndustry": "Toys & Games",
+        "description": "Manufacturer and wholesaler of board games, educational games, puzzles, and craft kits for retailers, educational institutions, childcare organizations, municipalities, and other institutional buyers.",
+        "domain": "games-land.co.il",
+        "keywords": [
+          "Wholesale board games",
+          "Educational games",
+          "Children's puzzles",
+          "Craft kits",
+          "Family games",
+          "Kindergarten supplies",
+          "School games",
+          "Toy store inventory",
+          "Hebrew-language games"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T22:15:28.236Z",
+        "org": "OMG-TMS",
+        "industry": "Consumer Goods and Services",
+        "city": "Shoham",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Sells authenticated archaeological soil keepsakes, jewelry, religious art, and related gifts through an online store, with certificates of authenticity and a portion of proceeds supporting archaeological research.",
+        "domain": "templemountsoil.com",
+        "keywords": [
+          "religious keepsakes",
+          "archaeological soil",
+          "biblical gifts",
+          "certified religious gifts",
+          "faith-based jewelry",
+          "Christian home decor",
+          "religious art",
+          "gift sets"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-09-25T21:55:52.851Z",
         "org": "SAVEDRIVE",
@@ -2751,145 +2880,9 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T19:33:11.599Z",
-        "org": "PROTECTED SPACE YAVIL",
-        "industry": "Consumer Goods and Services",
-        "city": "Netanya",
-        "subIndustry": "Construction & Real Estate Technology",
-        "description": "Manufactures and installs engineered mobile protected spaces, security shelters, and reinforced-room solutions for homes, public institutions, and defense-related customers. The company provides physical protection systems designed to applicable civil-defense and government standards.",
-        "domain": "merhavmugan.co.il",
-        "keywords": [
-          "Mobile protected spaces",
-          "Security shelters",
-          "Reinforced rooms",
-          "Civil defense structures",
-          "Protective rooms",
-          "Residential security",
-          "Public-area protection",
-          "Defense infrastructure",
-          "Shelter installation",
-          "Protective construction"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T19:28:29.260Z",
-        "org": "ASTRAS NOVEI",
-        "industry": "IT and Telecom",
-        "city": "Tel Aviv",
-        "subIndustry": "Enterprise Software",
-        "description": "Software development provider focused on systems engineering, infrastructure-level software components, application development, and long-term technical maintenance.",
-        "domain": "getastrasnovei.com",
-        "keywords": [
-          "Systems engineering",
-          "Infrastructure software",
-          "Application development",
-          "Software architecture",
-          "Software components",
-          "Technical maintenance",
-          "Enterprise systems"
-        ],
-        "isDeeptech": false
-      },
-      {
-        "ts": "2026-09-25T19:24:14.874Z",
-        "org": "AGIR ENERGY STORAGE SOLUTIONS",
-        "industry": "Energy and Utilities",
-        "city": "\u05d1\u05d9\u05ea \u05e9\u05d0\u05df",
-        "subIndustry": "Renewable Energy",
-        "description": "Provides turnkey commercial energy storage and solar systems, including planning, permitting, installation, monitoring, and maintenance to reduce electricity costs and optimize energy use.",
-        "domain": "agir.co.il",
-        "keywords": [
-          "Commercial energy storage",
-          "Solar energy systems",
-          "Battery storage solutions",
-          "Solar system installation",
-          "Energy management",
-          "Renewable energy projects",
-          "Energy cost optimization",
-          "Turnkey energy solutions"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T19:20:45.943Z",
-        "org": "ARMON GENERATIONS",
-        "industry": "Consumer Goods and Services",
-        "city": "Jerusalem",
-        "subIndustry": "Education & Training",
-        "description": "Subscription-based online learning space offering recorded spiritual studies, live virtual classes, structured study materials, and a closed community for independent and group learning.",
-        "domain": "ravarmoni.com",
-        "keywords": [
-          "Online spiritual learning",
-          "Kabbalah studies",
-          "Hasidic teachings",
-          "Soul studies",
-          "Recorded lesson library",
-          "Live online classes",
-          "Study materials",
-          "Learner community"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T19:20:37.663Z",
-        "org": "LONG ROAD CONSULTANTS",
-        "industry": "Consumer Goods and Services",
-        "city": "Modi'in-Maccabim-Re'ut",
-        "subIndustry": "Business Services",
-        "description": "Business consulting and professional services provider offering strategic guidance and related support to business clients.",
-        "domain": "longroad.tech",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/875eab5b-c884-4192-aa74-8a364fc419e2.jpg",
-        "keywords": [
-          "Business consulting",
-          "Management consulting",
-          "Business strategy",
-          "Strategic advisory",
-          "Professional services"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 1,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T19:19:19.204Z",
-        "org": "DATAS SOLUTIONS",
-        "industry": "IT and Telecom",
-        "city": "Shefayim",
-        "subIndustry": "Telecommunications",
-        "description": "Provides advanced communication systems for defense, aviation, industrial, and transportation environments, including secure LiFi connectivity and IoT/IIoT integration solutions.",
-        "domain": "datas.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/f3d31f65-9a16-4a3d-be40-258d6a30d775.jpg",
-        "keywords": [
-          "LiFi communication",
-          "secure communications",
-          "critical environment connectivity",
-          "IoT integration",
-          "IIoT solutions",
-          "aviation communications",
-          "defense communications",
-          "industrial connectivity",
-          "transportation communications"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Island",
-        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
-      },
       {
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
@@ -2912,11 +2905,11 @@
         "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
-        "ts": "2026-09-23T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Upwind",
-        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Island",
+        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2927,6 +2920,13 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Upwind",
+        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Ottopia Technologies",
@@ -2934,17 +2934,17 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "RealSense",
         "summary": "Acquired by Cognex Corporation: Cognex (NASDAQ: CGNX) signed a definitive agreement to acquire RealSense for approximately $500 million in cash (total deal value ~$600 million including a $56.5M retention program and ~$50M in RSUs), expanding into robotic perception and Physical AI. Expected to close in Q4 2026; prior to closing, RealSense will spin out its Facial Authentication product line into an independent biometrics company. RealSense expects $80-90M revenue in 2026 (50%+ growth)."
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2964,22 +2964,8 @@
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EAZYDONE",
-        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Silynx Communications",
-        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+        "org": "HAHAMI CONNECT",
+        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2998,9 +2984,16 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Pagaya",
-        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+        "rawKind": "Customer Milestone",
+        "org": "Silynx Communications",
+        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EAZYDONE",
+        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -3013,15 +3006,22 @@
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "HAHAMI CONNECT",
-        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
+        "org": "Nofar Energy",
+        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Pagaya",
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Salt Security",
-        "summary": "Announced expanded integrations with CrowdStrike giving joint customers added visibility and control over AI agent activity across the full agentic path."
+        "org": "Pagaya",
+        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
       }
     ]
   }
