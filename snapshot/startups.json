@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:41:33.314Z",
+  "generatedAt": "2026-09-25T09:22:56.982Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 37248,
-      "delta24h": 160
+      "value": 37253,
+      "delta24h": 153
     },
     "totalFunding": {
       "valueUsd": 224379452652,
@@ -171,7 +171,7 @@
       "valueUsd": 318804781700
     },
     "employees": {
-      "total": 803012,
+      "total": 803018,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6695
+        "count": 6697
       },
       {
         "name": "Central",
-        "count": 3820
+        "count": 3822
       },
       {
         "name": "Haifa",
@@ -196,11 +196,11 @@
       },
       {
         "name": "Jerusalem",
-        "count": 785
+        "count": 786
       },
       {
         "name": "Southern",
-        "count": 482
+        "count": 483
       },
       {
         "name": "Northern",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4223
+        "count": 4225
       },
       {
         "name": "Herzliya",
@@ -238,7 +238,7 @@
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 716
+        "count": 717
       },
       {
         "name": "Petah Tikva",
@@ -262,6 +262,13 @@
         "count": 415
       },
       {
+        "name": "Netanya",
+        "district": "Central",
+        "lat": 32.3215,
+        "lng": 34.8532,
+        "count": 352
+      },
+      {
         "name": "Rehovot",
         "district": "Central",
         "lat": 31.8944,
@@ -269,24 +276,17 @@
         "count": 352
       },
       {
-        "name": "Netanya",
+        "name": "Rishon LeZion",
         "district": "Central",
-        "lat": 32.3215,
-        "lng": 34.8532,
-        "count": 351
+        "lat": 31.973,
+        "lng": 34.7925,
+        "count": 312
       },
       {
         "name": "Kfar Saba",
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 311
-      },
-      {
-        "name": "Rishon LeZion",
-        "district": "Central",
-        "lat": 31.973,
-        "lng": 34.7925,
         "count": 311
       },
       {
@@ -378,7 +378,7 @@
         "district": "Southern",
         "lat": 31.8044,
         "lng": 34.6553,
-        "count": 103
+        "count": 104
       },
       {
         "name": "Yavne",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2176
+    "unresolvedCount": 2177
   },
   "overTime": {
     "foundedClosed": {
@@ -981,13 +981,13 @@
         1440,
         1484,
         1779,
-        1847,
+        1848,
         1767,
         1844,
         1794,
         1713,
         1875,
-        1866,
+        1870,
         1700,
         1539,
         1294,
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 19296,
+        "active": 19301,
         "closed": 13784,
         "unknown": 3747
       }
@@ -1440,13 +1440,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 21187,
+      "active": 21192,
       "closed": 12665,
       "exited": 3396
     },
     "funnel": {
-      "all": 37248,
-      "funded": 15565,
+      "all": 37253,
+      "funded": 15566,
       "over1m": 6183,
       "over10m": 3077,
       "over100m": 563,
@@ -1483,10 +1483,10 @@
       },
       {
         "year": 2021,
-        "total": 1866,
+        "total": 1870,
         "exited": 92,
         "closed": 409,
-        "active": 1365
+        "active": 1369
       },
       {
         "year": 2022,
@@ -1710,23 +1710,23 @@
       },
       {
         "year": 2021,
-        "total": 1801,
+        "total": 1805,
         "unknown": 65,
         "counts": {
-          "it-telecom": 677,
+          "it-telecom": 678,
           "healthcare-food": 345,
-          "consumer-goods-services": 328,
+          "consumer-goods-services": 330,
           "energy-utilities": 89,
-          "financial-services": 164,
+          "financial-services": 165,
           "media-entertainment": 198
         },
         "shares": {
-          "it-telecom": 0.3759022765130483,
-          "healthcare-food": 0.19156024430871738,
-          "consumer-goods-services": 0.18212104386451972,
-          "energy-utilities": 0.049416990560799554,
-          "financial-services": 0.09106052193225986,
-          "media-entertainment": 0.10993892282065519
+          "it-telecom": 0.37562326869806095,
+          "healthcare-food": 0.19113573407202217,
+          "consumer-goods-services": 0.18282548476454294,
+          "energy-utilities": 0.049307479224376734,
+          "financial-services": 0.09141274238227147,
+          "media-entertainment": 0.10969529085872576
         }
       },
       {
@@ -1839,42 +1839,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14572,
-        "share": 0.4064487336829187
+        "count": 14573,
+        "share": 0.4064199458961988
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6813,
-        "share": 0.1900312395403325
+        "share": 0.19000474105474524
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6395,
-        "share": 0.1783721968091041
+        "count": 6398,
+        "share": 0.17843098976489946
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1608,
-        "share": 0.04485105433448622
+        "share": 0.044844800178486764
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 2134,
-        "share": 0.05952248131206069
+        "count": 2135,
+        "share": 0.05954206988872466
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4330,
-        "share": 0.12077429432109785
+        "share": 0.12075745321694509
       }
     ],
     "mixSummary": {
-      "totalVisible": 15515,
+      "totalVisible": 15519,
       "totalUnknown": 611
     },
     "subTrendYears": [
@@ -1912,7 +1912,7 @@
           0.02469844916714532,
           0.03634161114476075,
           0.028083700440528634,
-          0.032240133407448586,
+          0.03216860787576262,
           0.03467153284671533,
           0.059691482226693494,
           0.07754442649434572,
@@ -1942,7 +1942,7 @@
           0.14704192992533027,
           0.14900060569351908,
           0.1618942731277533,
-          0.14785992217898833,
+          0.14753189129229063,
           0.14963503649635038,
           0.1790744466800805,
           0.16235864297253635,
@@ -1972,7 +1972,7 @@
           0.0591614014933946,
           0.04784978800726832,
           0.04955947136563876,
-          0.05391884380211229,
+          0.05379922351636162,
           0.06143552311435523,
           0.05298457411133468,
           0.08723747980613894,
@@ -2002,7 +2002,7 @@
           0.014359563469270534,
           0.018170805572380374,
           0.013766519823788546,
-          0.012784880489160644,
+          0.012756516916250694,
           0.0170316301703163,
           0.02481556002682763,
           0.0210016155088853,
@@ -2032,7 +2032,7 @@
           0.010338885697874785,
           0.0072683222289521504,
           0.012665198237885462,
-          0.012229016120066704,
+          0.012201885745978924,
           0.010340632603406326,
           0.011401743796109993,
           0.01938610662358643,
@@ -2064,7 +2064,7 @@
           0.02986789201608271,
           0.009085402786190187,
           0.010462555066079295,
-          0.017231795441912175,
+          0.017193566278424846,
           0.016423357664233577,
           0.008048289738430584,
           0.004038772213247173,
@@ -2094,7 +2094,7 @@
           0.026995979322228605,
           0.03755299818291944,
           0.031938325991189426,
-          0.02501389660922735,
+          0.024958402662229616,
           0.03223844282238443,
           0.02012072434607646,
           0.020193861066235864,
@@ -2124,7 +2124,7 @@
           0.051694428489373924,
           0.05693519079345851,
           0.06773127753303965,
-          0.04724847137298499,
+          0.04714364947310039,
           0.0535279805352798,
           0.04896042924211938,
           0.051696284329563816,
@@ -2154,7 +2154,7 @@
           0.02469844916714532,
           0.028467595396729255,
           0.024229074889867842,
-          0.022234574763757644,
+          0.022185246810870772,
           0.0170316301703163,
           0.019450033534540577,
           0.0210016155088853,
@@ -2184,7 +2184,7 @@
           0.023549684089603676,
           0.019382192610539067,
           0.01486784140969163,
-          0.009449694274596998,
+          0.009428729894620078,
           0.014598540145985401,
           0.008048289738430584,
           0.009693053311793215,
@@ -2196,7 +2196,7 @@
     "signals": {
       "deeptechCount": 10059,
       "deeptechPct": 27.0,
-      "globalCount": 15457,
+      "globalCount": 15459,
       "globalPct": 41.5
     }
   },
@@ -2204,14 +2204,14 @@
     "funding": [
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2226,14 +2226,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2248,17 +2248,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2267,6 +2256,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2358,39 +2358,6 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lyte",
         "stage": "Series C",
         "amountUsd": 165000000,
@@ -2412,15 +2379,48 @@
         "roundTitle": "Series A"
       },
       {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
+      },
+      {
         "ts": "2026-09-01T00:00:00.000Z",
-        "org": "HiBob",
-        "stage": "Series F",
-        "amountUsd": 166000000,
+        "org": "DataAgent",
+        "stage": "Pre-seed",
+        "amountUsd": 10000000,
         "investors": [],
         "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series F"
+        "roundTitle": "Pre-Seed"
       }
     ],
     "todayStats": {
@@ -2429,6 +2429,116 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-25T08:00:48.638Z",
+        "org": "MNG Urban Renewal",
+        "industry": "Consumer Goods and Services",
+        "city": "Rishon LeZion",
+        "subIndustry": "Real Estate and Property",
+        "description": "Urban renewal real estate developer specializing in evacuation-reconstruction projects, managing the full redevelopment cycle from feasibility studies and resident engagement through planning, permitting, construction, and delivery of new residential buildings.",
+        "domain": "mng-group.co.il",
+        "keywords": [
+          "Urban renewal",
+          "Evacuation reconstruction",
+          "Pinui-binui",
+          "Residential redevelopment",
+          "Property development",
+          "Demolition and rebuilding",
+          "Real estate entrepreneurship",
+          "Apartment building renewal",
+          "Urban regeneration",
+          "Residential construction"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T07:48:52.611Z",
+        "org": "SDY Global Credit Fund",
+        "industry": "Financial Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Investment & Wealth Management",
+        "description": "Boutique investment fund manager specializing exclusively in global credit investments, offering a single managed fund open only to qualified investors and supported by in-house independent credit research.",
+        "domain": "sdy-credit.com",
+        "keywords": [
+          "Global credit fund",
+          "Credit investments",
+          "Debt securities",
+          "Fund management",
+          "Qualified investors",
+          "Credit research",
+          "Fixed income",
+          "Portfolio management"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T07:45:52.495Z",
+        "org": "FOODNSHAPE",
+        "industry": "Consumer Goods and Services",
+        "city": "Jerusalem",
+        "subIndustry": "Food & Beverage",
+        "description": "Weight-loss and wellness service delivering daily chef-prepared healthy meals to customers' homes, combined with personalized nutrition coaching and fitness program support.",
+        "domain": "foodnshape.com",
+        "keywords": [
+          "Healthy meal delivery",
+          "Weight loss program",
+          "Chef-prepared meals",
+          "Nutrition coaching",
+          "Diet meal plans",
+          "Wellness program",
+          "Kosher diet meals",
+          "Personalized fitness coaching"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T07:40:34.857Z",
+        "org": "Jacob's Mc",
+        "industry": "IT and Telecom",
+        "city": "Zagreb",
+        "subIndustry": "Industrial Technologies",
+        "description": "Manufacturer of water leak detection devices and pipe rehabilitation technologies, combining AI-based acoustic sensing and machine learning to accurately locate hidden water leaks",
+        "domain": "jacobs-mc.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/051d2e59-4ea6-4848-8c82-ff80cd5b5139.jpg",
+        "keywords": [
+          "Water leak detection",
+          "AI leak detection",
+          "Acoustic sensors",
+          "Machine learning",
+          "Pipe rehabilitation",
+          "Water damage restoration",
+          "Smart leak detectors",
+          "Infrastructure monitoring"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 6,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T07:40:33.756Z",
+        "org": "SHORASHIM NADLAN MEKOMI",
+        "industry": "Consumer Goods and Services",
+        "city": "\u05e2\u05dc\u05d9",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate development company managing the full project lifecycle in-house, from land sourcing and feasibility analysis through zoning changes, building permits, construction and handover, across residential, urban renewal, commercial and purchase-group projects",
+        "domain": "shorashim-nadlan.co.il",
+        "keywords": [
+          "Real estate development",
+          "Urban renewal",
+          "Residential construction",
+          "Zoning and permits",
+          "Purchase groups",
+          "Property development",
+          "Feasibility analysis",
+          "Commercial real estate"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-09-25T07:37:36.446Z",
         "org": "GINAT EGOZ NATURAL FORMULAS",
@@ -2777,91 +2887,6 @@
         "employeeRange": "2-10",
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T04:56:51.046Z",
-        "org": "RED MAMBA",
-        "industry": "IT and Telecom",
-        "city": "Kfar Malal",
-        "subIndustry": "Aerospace & Defense",
-        "description": "Provider of drone (UAV) pilot training using advanced flight simulators, with planned expansion into military-skills instruction subject to regulatory approval.",
-        "domain": "redmamba.co.il",
-        "keywords": [
-          "drone training",
-          "UAV simulator training",
-          "pilot instruction",
-          "flight simulation",
-          "military skills training",
-          "drone operator certification",
-          "tactical training"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T04:56:34.648Z",
-        "org": "G.S. TACTICAL ENTREPRENEURSHIP AND CONSULTING",
-        "industry": "Unknown",
-        "city": "Yavne",
-        "subIndustry": "Unknown",
-        "description": "Israeli private consulting company (G.S. Tactical Entrepreneurship and Consulting Ltd), incorporated in April 2025 and registered with the Israeli Registrar of Companies.",
-        "domain": "gs-tactical.com"
-      },
-      {
-        "ts": "2026-09-25T04:53:30.876Z",
-        "org": "GO PRACTICUM",
-        "industry": "Unknown",
-        "city": "Ramat Gan",
-        "description": "GO PRACTICUM LTD is an Israeli private company in the financial services sector, incorporated in Ramat Gan in April 2025.",
-        "domain": "gopracticum.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/ff758a1b-a5e1-459b-97a8-c6f3638ffd6f.jpg",
-        "employeeRange": "51-200"
-      },
-      {
-        "ts": "2026-09-25T04:49:13.989Z",
-        "org": "RYDIAN TECHNOLOGIES",
-        "industry": "Consumer Goods and Services",
-        "city": "Modi'in-Maccabim-Re'ut",
-        "subIndustry": "Consumer Electronics",
-        "description": "Developer and manufacturer of high-end consumer electronics and physical products, taking designs from concept through mass-market production",
-        "domain": "rydian-tech.com",
-        "keywords": [
-          "Consumer electronics",
-          "Product development",
-          "Hardware manufacturing",
-          "Electronic devices",
-          "Concept to production",
-          "Physical products",
-          "Mass-market electronics"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T04:48:04.562Z",
-        "org": "CAELUS.SPACE",
-        "industry": "IT and Telecom",
-        "city": "Wilmington",
-        "subIndustry": "AI & Machine Learning",
-        "description": "Satellite-based AI risk monitoring platform that uses synthetic aperture radar imagery, signal processing, and deep learning to detect ground and structural movement with millimeter accuracy, enabling prediction of subsidence, landslides, and sinkholes months or years before damage occurs.",
-        "domain": "caelus.space",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/8f7e73c2-1bde-435b-9952-5162d2747df5.jpg",
-        "keywords": [
-          "Satellite risk monitoring",
-          "Synthetic aperture radar",
-          "Geotechnical risk detection",
-          "Subsidence detection",
-          "Ground movement prediction",
-          "InsurTech analytics",
-          "Structural monitoring",
-          "Predictive risk modeling",
-          "Sinkhole detection",
-          "Portfolio risk intelligence"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 6,
-        "isDeeptech": true,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2869,15 +2894,15 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "MMDSmart",
-        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
+        "org": "Wand",
+        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Wand",
-        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+        "org": "MMDSmart",
+        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2924,6 +2949,20 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Nofar Energy",
+        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "QUANTUMQSECURITY",
+        "summary": "QuantumQ Security launched a multi-dimensional quantum cybersecurity architecture program built around three complementary dimensions: Detect (anomaly/attack identification), Encrypt (confidentiality) and Verify (authenticity, integrity and ownership), spanning technology programs LayerQake, Qatacomb and verification technologies at different stages of development and IP protection."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "EAZYDONE",
         "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
@@ -2938,23 +2977,16 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "QUANTUMQSECURITY",
-        "summary": "QuantumQ Security launched a multi-dimensional quantum cybersecurity architecture program built around three complementary dimensions: Detect (anomaly/attack identification), Encrypt (confidentiality) and Verify (authenticity, integrity and ownership), spanning technology programs LayerQake, Qatacomb and verification technologies at different stages of development and IP protection."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Revenue Milestone",
         "org": "MIND",
         "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Pagaya",
+        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
@@ -2964,11 +2996,18 @@
         "summary": "Announced expanded integrations with CrowdStrike giving joint customers added visibility and control over AI agent activity across the full agentic path."
       },
       {
-        "ts": "2026-09-16T00:00:00.000Z",
+        "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Pagaya",
-        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
+        "rawKind": "R&D Milestone",
+        "org": "Lifeward",
+        "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
+      },
+      {
+        "ts": "2026-09-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Keewano",
+        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2980,20 +3019,6 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Nofar Energy",
-        "summary": "Announced a \u20ac103 million investment to build battery energy storage facilities (total 1.09 GWh: 650 MWh at Valter Maracineanu and 440 MWh at Corbii Mari) alongside two of its solar projects in Romania."
-      },
-      {
-        "ts": "2026-09-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "ZOHAR VANUNU PRODUCTIONS",
-        "summary": "Kolbo.AI and AdArena announced 'The Fake Ad Challenge': a $10,000 contest to create a 20-60 second commercial for an invented product, with full rules and judging details published on the Kolbo.AI blog."
-      },
-      {
-        "ts": "2026-09-15T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Quantum X Labs",
         "summary": "Former Mossad chief Yossi Cohen, currently a strategic advisor to SoftBank, joined Quantum X Labs as President of its Scientific Advisory Board."
@@ -3001,9 +3026,9 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Keewano",
-        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
+        "rawKind": "Other",
+        "org": "ZOHAR VANUNU PRODUCTIONS",
+        "summary": "Kolbo.AI and AdArena announced 'The Fake Ad Challenge': a $10,000 contest to create a 20-60 second commercial for an invented product, with full rules and judging details published on the Kolbo.AI blog."
       }
     ]
   }
