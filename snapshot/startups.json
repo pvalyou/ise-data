@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T04:31:27.377Z",
+  "generatedAt": "2026-09-25T05:31:42.887Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,23 +159,23 @@
   },
   "kpis": {
     "startups": {
-      "value": 37232,
-      "delta24h": 148
+      "value": 37243,
+      "delta24h": 152
     },
     "totalFunding": {
       "valueUsd": 224379562652,
-      "rounds": 29353
+      "rounds": 29355
     },
     "exits": {
       "count": 3397,
       "valueUsd": 318809781700
     },
     "employees": {
-      "total": 803041,
+      "total": 803067,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 176874,
+      "total": 177374,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6690
+        "count": 6692
       },
       {
         "name": "Central",
-        "count": 3810
+        "count": 3818
       },
       {
         "name": "Haifa",
@@ -224,14 +224,14 @@
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 755
+        "count": 756
       },
       {
         "name": "Ramat Gan",
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 743
+        "count": 744
       },
       {
         "name": "Jerusalem",
@@ -273,7 +273,14 @@
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 350
+        "count": 351
+      },
+      {
+        "name": "Kfar Saba",
+        "district": "Central",
+        "lat": 32.175,
+        "lng": 34.907,
+        "count": 311
       },
       {
         "name": "Rishon LeZion",
@@ -281,13 +288,6 @@
         "lat": 31.973,
         "lng": 34.7925,
         "count": 311
-      },
-      {
-        "name": "Kfar Saba",
-        "district": "Central",
-        "lat": 32.175,
-        "lng": 34.907,
-        "count": 310
       },
       {
         "name": "Bnei Brak",
@@ -301,21 +301,21 @@
         "district": "Central",
         "lat": 32.15,
         "lng": 34.8833,
-        "count": 241
+        "count": 242
       },
       {
         "name": "Ness Ziona",
         "district": "Central",
         "lat": 31.9293,
         "lng": 34.7986,
-        "count": 226
+        "count": 228
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 211
+        "count": 212
       },
       {
         "name": "Caesarea",
@@ -385,7 +385,7 @@
         "district": "Central",
         "lat": 31.8781,
         "lng": 34.7381,
-        "count": 90
+        "count": 91
       },
       {
         "name": "Kiryat Ono",
@@ -434,7 +434,7 @@
         "district": "Central",
         "lat": 32.0333,
         "lng": 34.8833,
-        "count": 53
+        "count": 54
       },
       {
         "name": "Beit Shemesh",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2171
+    "unresolvedCount": 2173
   },
   "overTime": {
     "foundedClosed": {
@@ -983,15 +983,15 @@
         1779,
         1847,
         1767,
-        1843,
+        1845,
         1795,
         1713,
-        1877,
-        1861,
+        1875,
+        1865,
         1700,
         1539,
         1292,
-        1581,
+        1588,
         906
       ],
       "closed": [
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 19277,
+        "active": 19288,
         "closed": 13786,
         "unknown": 3748
       }
@@ -1170,7 +1170,7 @@
         1985,
         1515,
         1448,
-        1401,
+        1403,
         619
       ],
       "raisedUsd": [
@@ -1221,7 +1221,7 @@
         27008905234
       ],
       "stageMix": {
-        "Seed": 13674,
+        "Seed": 13676,
         "Series A": 3881,
         "Other": 3366,
         "Series B": 1940,
@@ -1440,13 +1440,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 21168,
+      "active": 21179,
       "closed": 12667,
       "exited": 3397
     },
     "funnel": {
-      "all": 37232,
-      "funded": 15565,
+      "all": 37243,
+      "funded": 15567,
       "over1m": 6184,
       "over10m": 3077,
       "over100m": 563,
@@ -1455,10 +1455,10 @@
     "cohorts": [
       {
         "year": 2017,
-        "total": 1843,
+        "total": 1845,
         "exited": 137,
         "closed": 704,
-        "active": 1002
+        "active": 1004
       },
       {
         "year": 2018,
@@ -1476,17 +1476,17 @@
       },
       {
         "year": 2020,
-        "total": 1877,
+        "total": 1875,
         "exited": 86,
         "closed": 471,
-        "active": 1320
+        "active": 1318
       },
       {
         "year": 2021,
-        "total": 1861,
+        "total": 1865,
         "exited": 92,
         "closed": 409,
-        "active": 1360
+        "active": 1364
       },
       {
         "year": 2022,
@@ -1511,10 +1511,10 @@
       },
       {
         "year": 2025,
-        "total": 1581,
+        "total": 1588,
         "exited": 19,
         "closed": 33,
-        "active": 1529
+        "active": 1536
       },
       {
         "year": 2026,
@@ -1626,23 +1626,23 @@
     "mixByYear": [
       {
         "year": 2017,
-        "total": 1786,
+        "total": 1788,
         "unknown": 57,
         "counts": {
           "it-telecom": 674,
-          "healthcare-food": 377,
-          "consumer-goods-services": 309,
+          "healthcare-food": 378,
+          "consumer-goods-services": 310,
           "energy-utilities": 53,
           "financial-services": 151,
           "media-entertainment": 222
         },
         "shares": {
-          "it-telecom": 0.37737961926091823,
-          "healthcare-food": 0.2110862262038074,
-          "consumer-goods-services": 0.17301231802911535,
-          "energy-utilities": 0.02967525195968645,
-          "financial-services": 0.0845464725643897,
-          "media-entertainment": 0.12430011198208286
+          "it-telecom": 0.3769574944071588,
+          "healthcare-food": 0.21140939597315436,
+          "consumer-goods-services": 0.17337807606263983,
+          "energy-utilities": 0.0296420581655481,
+          "financial-services": 0.08445190156599552,
+          "media-entertainment": 0.12416107382550336
         }
       },
       {
@@ -1689,44 +1689,44 @@
       },
       {
         "year": 2020,
-        "total": 1816,
+        "total": 1814,
         "unknown": 61,
         "counts": {
           "it-telecom": 665,
-          "healthcare-food": 428,
-          "consumer-goods-services": 348,
+          "healthcare-food": 427,
+          "consumer-goods-services": 347,
           "energy-utilities": 66,
           "financial-services": 133,
           "media-entertainment": 176
         },
         "shares": {
-          "it-telecom": 0.3661894273127753,
-          "healthcare-food": 0.2356828193832599,
-          "consumer-goods-services": 0.19162995594713655,
-          "energy-utilities": 0.03634361233480176,
-          "financial-services": 0.07323788546255507,
-          "media-entertainment": 0.09691629955947137
+          "it-telecom": 0.36659316427783906,
+          "healthcare-food": 0.23539140022050717,
+          "consumer-goods-services": 0.19128996692392503,
+          "energy-utilities": 0.03638368246968027,
+          "financial-services": 0.0733186328555678,
+          "media-entertainment": 0.0970231532524807
         }
       },
       {
         "year": 2021,
-        "total": 1796,
+        "total": 1800,
         "unknown": 65,
         "counts": {
-          "it-telecom": 676,
+          "it-telecom": 677,
           "healthcare-food": 344,
-          "consumer-goods-services": 326,
+          "consumer-goods-services": 328,
           "energy-utilities": 90,
           "financial-services": 163,
-          "media-entertainment": 197
+          "media-entertainment": 198
         },
         "shares": {
-          "it-telecom": 0.37639198218262804,
-          "healthcare-food": 0.1915367483296214,
-          "consumer-goods-services": 0.18151447661469933,
-          "energy-utilities": 0.05011135857461024,
-          "financial-services": 0.09075723830734966,
-          "media-entertainment": 0.10968819599109131
+          "it-telecom": 0.3761111111111111,
+          "healthcare-food": 0.19111111111111112,
+          "consumer-goods-services": 0.18222222222222223,
+          "energy-utilities": 0.05,
+          "financial-services": 0.09055555555555556,
+          "media-entertainment": 0.11
         }
       },
       {
@@ -1794,23 +1794,23 @@
       },
       {
         "year": 2025,
-        "total": 1487,
-        "unknown": 94,
+        "total": 1492,
+        "unknown": 96,
         "counts": {
-          "it-telecom": 705,
+          "it-telecom": 708,
           "healthcare-food": 223,
-          "consumer-goods-services": 268,
+          "consumer-goods-services": 270,
           "energy-utilities": 59,
           "financial-services": 103,
           "media-entertainment": 129
         },
         "shares": {
-          "it-telecom": 0.4741089441829186,
-          "healthcare-food": 0.14996637525218562,
-          "consumer-goods-services": 0.18022864828513785,
-          "energy-utilities": 0.03967720242098184,
-          "financial-services": 0.06926698049764626,
-          "media-entertainment": 0.08675184936112978
+          "it-telecom": 0.4745308310991957,
+          "healthcare-food": 0.14946380697050937,
+          "consumer-goods-services": 0.18096514745308312,
+          "energy-utilities": 0.039544235924932974,
+          "financial-services": 0.0690348525469169,
+          "media-entertainment": 0.08646112600536193
         }
       },
       {
@@ -1839,43 +1839,43 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14566,
-        "share": 0.4064514328766359
+        "count": 14570,
+        "share": 0.40646097193550185
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6810,
-        "share": 0.19002706699779556
+        "share": 0.18997935613457567
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6394,
-        "share": 0.1784189524792812
+        "count": 6398,
+        "share": 0.17848574457401103
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1608,
-        "share": 0.044869827273488296
+        "share": 0.044858561624728004
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2132,
-        "share": 0.05949158690738622
+        "share": 0.05947665011437817
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 4327,
-        "share": 0.12074113346541285
+        "count": 4328,
+        "share": 0.12073871561680523
       }
     ],
     "mixSummary": {
-      "totalVisible": 15498,
-      "totalUnknown": 609
+      "totalVisible": 15507,
+      "totalUnknown": 611
     },
     "subTrendYears": [
       2017,
@@ -1893,7 +1893,7 @@
       {
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
-        "total": 747,
+        "total": 748,
         "shareDelta": 0.044,
         "counts": [
           62,
@@ -1904,33 +1904,33 @@
           57,
           89,
           96,
-          135,
+          136,
           96
         ],
         "shares": [
-          0.03469501958589815,
+          0.03465623253214086,
           0.02468427095292767,
           0.03634161114476075,
-          0.028052805280528052,
-          0.032329988851727984,
+          0.028083700440528634,
+          0.03225806451612903,
           0.03467153284671533,
           0.059691482226693494,
           0.07766990291262135,
-          0.0907258064516129,
+          0.09103078982597054,
           0.11294117647058824
         ]
       },
       {
         "name": "Cybersecurity",
         "parent": "IT and Telecom",
-        "total": 912,
+        "total": 913,
         "shareDelta": 0.021,
         "counts": [
           87,
           103,
           79,
           90,
-          96,
+          97,
           101,
           79,
           108,
@@ -1938,15 +1938,15 @@
           54
         ],
         "shares": [
-          0.04868494683827644,
+          0.048630519843487985,
           0.05912743972445465,
           0.04784978800726832,
-          0.04950495049504951,
-          0.05351170568561873,
+          0.04955947136563876,
+          0.053948832035595105,
           0.06143552311435523,
           0.05298457411133468,
           0.08737864077669903,
-          0.07728494623655914,
+          0.07697456492637215,
           0.06352941176470588
         ]
       },
@@ -1968,15 +1968,15 @@
           148
         ],
         "shares": [
-          0.13766088416340236,
+          0.13750698714365567,
           0.14695752009184845,
           0.14900060569351908,
-          0.1617161716171617,
-          0.14827201783723523,
+          0.1618942731277533,
+          0.14794215795328142,
           0.14963503649635038,
           0.1790744466800805,
           0.16262135922330098,
-          0.15120967741935484,
+          0.15060240963855423,
           0.17411764705882352
         ]
       },
@@ -1998,22 +1998,22 @@
           35
         ],
         "shares": [
-          0.016787912702853944,
+          0.016769144773616546,
           0.014351320321469576,
           0.018170805572380374,
-          0.013751375137513752,
-          0.01282051282051282,
+          0.013766519823788546,
+          0.012791991101223582,
           0.0170316301703163,
           0.02481556002682763,
           0.021035598705501618,
-          0.041666666666666664,
+          0.041499330655957165,
           0.041176470588235294
         ]
       },
       {
         "name": "Aerospace & Defense",
         "parent": "IT and Telecom",
-        "total": 205,
+        "total": 206,
         "shareDelta": 0.011,
         "counts": [
           15,
@@ -2024,19 +2024,19 @@
           17,
           17,
           24,
-          40,
+          41,
           17
         ],
         "shares": [
-          0.008393956351426972,
+          0.008384572386808273,
           0.010332950631458095,
           0.0072683222289521504,
-          0.012651265126512651,
-          0.012263099219620958,
+          0.012665198237885462,
+          0.012235817575083427,
           0.010340632603406326,
           0.011401743796109993,
           0.019417475728155338,
-          0.026881720430107527,
+          0.02744310575635877,
           0.02
         ]
       }
@@ -2060,15 +2060,15 @@
           4
         ],
         "shares": [
-          0.03693340794627868,
+          0.0368921185019564,
           0.029850746268656716,
           0.009085402786190187,
-          0.010451045104510451,
-          0.017279821627647716,
+          0.010462555066079295,
+          0.017241379310344827,
           0.016423357664233577,
           0.008048289738430584,
           0.0040453074433656954,
-          0.009408602150537635,
+          0.009370816599732263,
           0.004705882352941176
         ]
       },
@@ -2090,15 +2090,15 @@
           6
         ],
         "shares": [
-          0.024622271964185788,
+          0.024594745667970933,
           0.0269804822043628,
           0.03755299818291944,
-          0.0319031903190319,
-          0.024526198439241916,
+          0.031938325991189426,
+          0.024471635150166853,
           0.03223844282238443,
           0.02012072434607646,
           0.019417475728155338,
-          0.010752688172043012,
+          0.0107095046854083,
           0.007058823529411765
         ]
       },
@@ -2120,15 +2120,15 @@
           17
         ],
         "shares": [
-          0.06547285954113038,
+          0.06539966461710453,
           0.05166475315729047,
           0.05693519079345851,
-          0.06765676567656766,
-          0.04738015607580825,
+          0.06773127753303965,
+          0.047274749721913235,
           0.0535279805352798,
           0.04896042924211938,
           0.05177993527508091,
-          0.03696236559139785,
+          0.03681392235609103,
           0.02
         ]
       },
@@ -2150,15 +2150,15 @@
           5
         ],
         "shares": [
-          0.04308897593732513,
+          0.043040804918949134,
           0.02468427095292767,
           0.028467595396729255,
-          0.0242024202420242,
-          0.022296544035674472,
+          0.024229074889867842,
+          0.02224694104560623,
           0.0170316301703163,
           0.019450033534540577,
           0.021035598705501618,
-          0.023521505376344086,
+          0.023427041499330656,
           0.0058823529411764705
         ]
       },
@@ -2180,23 +2180,23 @@
           8
         ],
         "shares": [
-          0.019585898153329603,
+          0.01956400223588597,
           0.023536165327210104,
           0.019382192610539067,
-          0.01485148514851485,
-          0.00947603121516165,
+          0.01486784140969163,
+          0.009454949944382647,
           0.014598540145985401,
           0.008048289738430584,
           0.009708737864077669,
-          0.0114247311827957,
+          0.011378848728246318,
           0.009411764705882352
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 10058,
+      "deeptechCount": 10059,
       "deeptechPct": 27.0,
-      "globalCount": 15457,
+      "globalCount": 15459,
       "globalPct": 41.5
     }
   },
@@ -2215,17 +2215,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Cyera",
         "stage": "Series G",
         "amountUsd": 400000000,
@@ -2234,6 +2223,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2248,17 +2248,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2267,6 +2256,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2314,17 +2314,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2333,6 +2322,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2358,6 +2358,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lyte",
         "stage": "Series C",
         "amountUsd": 165000000,
@@ -2369,14 +2380,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "$30M Funding Round"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2401,17 +2412,6 @@
         "roundTitle": "Series A"
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
         "ts": "2026-09-01T00:00:00.000Z",
         "org": "Particula",
         "stage": "Series C",
@@ -2429,6 +2429,231 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-25T05:11:58.297Z",
+        "org": "ANYCOMPLETE GLOBAL",
+        "industry": "IT and Telecom",
+        "city": "Wilmington",
+        "subIndustry": "Cybersecurity",
+        "description": "Identity verification and fraud prevention platform that enriches phone number insights to verify user identities and enhance KYC processes, offering APIs, bulk delivery, and real-time anti-spam and fraud detection.",
+        "domain": "anycomplete.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/83962c71-6fcd-4055-a133-5c31242e3b9a.jpg",
+        "keywords": [
+          "Identity verification",
+          "Fraud prevention",
+          "KYC compliance",
+          "Phone number intelligence",
+          "Anti-spam",
+          "Fraud detection API",
+          "Customer verification",
+          "Risk assessment"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 14,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T05:06:07.681Z",
+        "org": "VINTEL MALL REAL ESTATE",
+        "industry": "Consumer Goods and Services",
+        "city": "Netanya",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate investment company providing brokerage, investor accompaniment, and training services that help individuals acquire apartments below market value and build property portfolios",
+        "domain": "vintel.co.il",
+        "keywords": [
+          "real estate investing",
+          "apartment brokerage",
+          "below market value property",
+          "investor mentoring",
+          "real estate courses",
+          "property investment coaching",
+          "broker training",
+          "rental property acquisition"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T05:05:13.431Z",
+        "org": "HEROES OF LIBERTY",
+        "industry": "Media and Entertainment",
+        "city": "New York",
+        "subIndustry": "Publishing & Content",
+        "description": "Children's book publisher producing story-driven, illustrated biographies of historical figures to instill traditional values of freedom, faith and family in young readers, complemented by collectible toy figurines sold through an online store",
+        "domain": "heroesofliberty.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/9e00eaee-5939-46f9-b796-ba2e8270dfbb.jpg",
+        "keywords": [
+          "children's books",
+          "illustrated biographies",
+          "American history for kids",
+          "educational books for children",
+          "collectible figurines",
+          "character education",
+          "homeschool history books",
+          "story books ages 7-12",
+          "patriotic children's books",
+          "bedtime reading"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T04:59:52.535Z",
+        "org": "DR VITAMIN",
+        "industry": "Consumer Goods and Services",
+        "city": "Herzliya",
+        "subIndustry": "Consumer Products",
+        "description": "Developer, importer and manufacturer of dietary supplements sold direct-to-consumer, formulating science-based vitamin and mineral products with a panel of physician, naturopath and dietitian advisors and producing them in GMP-certified plants",
+        "domain": "drvitamin.co.il",
+        "keywords": [
+          "Dietary supplements",
+          "Vitamin supplements",
+          "Mineral supplements",
+          "Probiotics",
+          "Nutritional supplements",
+          "Supplement manufacturing",
+          "Chelated minerals",
+          "Health and wellness products",
+          "Direct-to-consumer supplements"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T04:57:59.639Z",
+        "org": "KOBI ELKAYAM REAL ESTATE",
+        "industry": "Consumer Goods and Services",
+        "city": "Yehud-Monosson",
+        "subIndustry": "Real Estate and Property",
+        "description": "Real estate development and construction company specializing in urban renewal and combination-deal projects, residential and commercial transactions, and co-investment opportunities for private and institutional investors.",
+        "domain": "kobielkayamrealestateltd.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/90a9dd7c-e194-4ffb-a17b-aff319057919.jpg",
+        "keywords": [
+          "Real estate development",
+          "Urban renewal",
+          "Evacuation and construction",
+          "Combination deals",
+          "Residential real estate",
+          "Commercial real estate",
+          "Income-producing properties",
+          "Property valuation",
+          "Real estate investment",
+          "Property management"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T04:56:51.046Z",
+        "org": "RED MAMBA",
+        "industry": "IT and Telecom",
+        "city": "Kfar Malal",
+        "subIndustry": "Aerospace & Defense",
+        "description": "Provider of drone (UAV) pilot training using advanced flight simulators, with planned expansion into military-skills instruction subject to regulatory approval.",
+        "domain": "redmamba.co.il",
+        "keywords": [
+          "drone training",
+          "UAV simulator training",
+          "pilot instruction",
+          "flight simulation",
+          "military skills training",
+          "drone operator certification",
+          "tactical training"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T04:56:34.648Z",
+        "org": "G.S. TACTICAL ENTREPRENEURSHIP AND CONSULTING",
+        "industry": "Unknown",
+        "city": "Yavne",
+        "subIndustry": "Unknown",
+        "description": "Israeli private consulting company (G.S. Tactical Entrepreneurship and Consulting Ltd), incorporated in April 2025 and registered with the Israeli Registrar of Companies.",
+        "domain": "gs-tactical.com"
+      },
+      {
+        "ts": "2026-09-25T04:53:30.876Z",
+        "org": "GO PRACTICUM",
+        "industry": "Unknown",
+        "city": "Ramat Gan",
+        "description": "GO PRACTICUM LTD is an Israeli private company in the financial services sector, incorporated in Ramat Gan in April 2025.",
+        "domain": "gopracticum.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/ff758a1b-a5e1-459b-97a8-c6f3638ffd6f.jpg",
+        "employeeRange": "51-200"
+      },
+      {
+        "ts": "2026-09-25T04:49:13.989Z",
+        "org": "RYDIAN TECHNOLOGIES",
+        "industry": "Consumer Goods and Services",
+        "city": "Modi'in-Maccabim-Re'ut",
+        "subIndustry": "Consumer Electronics",
+        "description": "Developer and manufacturer of high-end consumer electronics and physical products, taking designs from concept through mass-market production",
+        "domain": "rydian-tech.com",
+        "keywords": [
+          "Consumer electronics",
+          "Product development",
+          "Hardware manufacturing",
+          "Electronic devices",
+          "Concept to production",
+          "Physical products",
+          "Mass-market electronics"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-25T04:48:04.562Z",
+        "org": "CAELUS.SPACE",
+        "industry": "IT and Telecom",
+        "city": "Wilmington",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Satellite-based AI risk monitoring platform that uses synthetic aperture radar imagery, signal processing, and deep learning to detect ground and structural movement with millimeter accuracy, enabling prediction of subsidence, landslides, and sinkholes months or years before damage occurs.",
+        "domain": "caelus.space",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/8f7e73c2-1bde-435b-9952-5162d2747df5.jpg",
+        "keywords": [
+          "Satellite risk monitoring",
+          "Synthetic aperture radar",
+          "Geotechnical risk detection",
+          "Subsidence detection",
+          "Ground movement prediction",
+          "InsurTech analytics",
+          "Structural monitoring",
+          "Predictive risk modeling",
+          "Sinkhole detection",
+          "Portfolio risk intelligence"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 6,
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-09-25T04:46:26.328Z",
+        "org": "DATEPOOL",
+        "industry": "IT and Telecom",
+        "city": "Ness Ziona",
+        "subIndustry": "Mobile Applications",
+        "description": "Dating and matchmaking platform offering a website and mobile app for singles seeking serious relationships and marriage according to Jewish tradition, combining smart search, AI-assisted matchmaking, shared-contacts matching, and community groups and events.",
+        "domain": "datepool.io",
+        "keywords": [
+          "Jewish dating app",
+          "Matchmaking service",
+          "Serious relationships",
+          "Marriage-oriented dating",
+          "AI matchmaker",
+          "Community dating events",
+          "Shared contacts matching",
+          "Traditional Jewish singles",
+          "Online dating platform"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-09-25T03:53:54.070Z",
         "org": "Quantum Transportation",
@@ -2628,245 +2853,6 @@
         "exactEmployees": 2,
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T02:47:00.074Z",
-        "org": "NADAN CONSTRUCTION SUPERVISION",
-        "industry": "Consumer Goods and Services",
-        "city": "Oranit",
-        "subIndustry": "Construction & Real Estate Technology",
-        "description": "Construction supervision services firm specializing in overseeing building projects and urban renewal developments, ensuring compliance with plans, regulations, and quality standards on behalf of property owners",
-        "domain": "asafb106.sg-host.com",
-        "keywords": [
-          "Construction supervision",
-          "Urban renewal projects",
-          "Building inspection",
-          "Project oversight",
-          "Construction quality control",
-          "Building compliance",
-          "Contractor supervision"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T02:46:30.563Z",
-        "org": "BrizWel",
-        "industry": "Healthcare and Food",
-        "city": "Migdal HaEmek",
-        "subIndustry": "Medical Devices",
-        "description": "Medical-device startup developing a wearable respiratory monitoring device with companion software that enables at-home assessment of breathing patterns, real-time biofeedback, and monitoring of respiratory exchange metrics for metabolic, sleep, and cardiorespiratory health applications.",
-        "domain": "brizwel.com",
-        "keywords": [
-          "Wearable respiratory monitor",
-          "Breathing biofeedback",
-          "Respiratory exchange ratio",
-          "Home respiratory assessment",
-          "Breathing pattern analysis",
-          "Sleep apnea monitoring",
-          "Metabolic state tracking",
-          "Digital health wearable"
-        ],
-        "isDeeptech": true,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T02:46:13.039Z",
-        "org": "KSDD MODERN AND ENVIRONMENTALLY FRIENDLY SOLUTIONS",
-        "industry": "Consumer Goods and Services",
-        "city": "Holon",
-        "subIndustry": "Home & Garden",
-        "description": "Importer, marketer and installer of residential and commercial water treatment solutions, including limescale-prevention systems, anti-backflow valves, water filters, pressure regulators, reverse-osmosis drinking-water systems and waste disposers, serving private, business and institutional customers.",
-        "domain": "ksdd.co.il",
-        "keywords": [
-          "Water filtration systems",
-          "Limescale prevention",
-          "Reverse osmosis",
-          "Pressure regulators",
-          "Anti-backflow valves",
-          "Under-sink water systems",
-          "Water softeners",
-          "Waste disposers",
-          "Plumbing installation"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T02:43:36.575Z",
-        "org": "BUNDLEWALL",
-        "industry": "IT and Telecom",
-        "city": "Tel Aviv",
-        "subIndustry": "Marketing Technology",
-        "description": "Influencer monetization platform that lets creators build personalized product bundles with cashback rewards and exclusive bonuses, tracking qualifying purchases and sharing commissions with followers to boost engagement and sales.",
-        "domain": "bundlewall.com",
-        "keywords": [
-          "Influencer marketing",
-          "Product bundles",
-          "Cashback rewards",
-          "Affiliate commissions",
-          "Creator monetization",
-          "Referral links",
-          "Social commerce",
-          "Exclusive offers"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-09-25T02:42:20.683Z",
-        "org": "BAGRUWEB",
-        "industry": "Consumer Goods and Services",
-        "city": "Sakhnin",
-        "subIndustry": "Education & Training",
-        "description": "Online education platform offering matriculation exam preparation courses and intensive math study marathons, primarily in Arabic, delivered through video lessons, interactive lectures, and practice exercises for high-school students",
-        "domain": "bagruweb.com",
-        "keywords": [
-          "Bagrut preparation",
-          "Matriculation exam courses",
-          "Online tutoring",
-          "Math marathon courses",
-          "E-learning platform",
-          "Exam preparation",
-          "Arabic-language courses",
-          "High school test prep"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T02:41:06.857Z",
-        "org": "MAPOTT HEALTH",
-        "industry": "Healthcare and Food",
-        "city": "Jerusalem",
-        "subIndustry": "Digital Health",
-        "description": "Digital health platform combining wearable device data with self-reported symptoms to deliver personalized forecasts, cycle-informed tracking, and clinician-shareable insights for people managing chronic conditions such as pain flares, stress, and sleep disruption",
-        "domain": "ma-pott.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/96ea54c7-b69b-46e3-b2a2-159b959db4af.png",
-        "keywords": [
-          "chronic condition tracking",
-          "cycle tracking app",
-          "wearable health data",
-          "symptom forecasting",
-          "women's digital health",
-          "pain flare prediction",
-          "personalized health insights",
-          "sleep and stress tracking"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T02:40:52.567Z",
-        "org": "BOXI",
-        "industry": "Consumer Goods and Services",
-        "city": "Yavne",
-        "subIndustry": "Education & Training",
-        "description": "Producer of boxed culinary workshop kits that combine physical tools and ingredients with interactive digital video cooking courses, enabling home cooks to learn skills like sourdough baking at home",
-        "domain": "soboxi.co.il",
-        "keywords": [
-          "Cooking workshop kit",
-          "Culinary home course",
-          "Sourdough baking kit",
-          "Online cooking classes",
-          "Baking tools and ingredients",
-          "Gift experience box",
-          "Home baking supplies"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-25T02:39:20.846Z",
-        "org": "RECRUITLEAP",
-        "industry": "Healthcare and Food",
-        "city": "Zichron Ya'akov",
-        "subIndustry": "Digital Health",
-        "description": "AI-powered clinical trial patient recruitment platform that matches pharmaceutical companies and research organizations with eligible patients, combining AI-driven matching, automated outreach, and physician and community referral networks to accelerate enrollment.",
-        "domain": "recruitleap.health",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/b6d14f99-8ff1-42d2-b4ef-3b556b55f470.jpg",
-        "keywords": [
-          "Clinical trial patient recruitment",
-          "AI patient matching",
-          "Patient enrollment platform",
-          "Clinical trial outreach",
-          "Predictive retention analytics",
-          "Trial site recruitment",
-          "Health data matching",
-          "Patient pipeline generation"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T02:35:54.207Z",
-        "org": "SPINELO",
-        "industry": "IT and Telecom",
-        "city": "Caesarea",
-        "subIndustry": "AI & Machine Learning",
-        "description": "Boutique AI development and consulting firm building custom AI tools for organizations, including conversational chatbots, autonomous AI agent systems, tailored workflow automations, and on-premise or private-cloud local LLM deployments, alongside consulting, adoption support, and AI training workshops for managers and employees.",
-        "domain": "spinelo.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/34c71709-a85f-4a97-8e7b-3de0b6087d73.jpg",
-        "keywords": [
-          "AI chatbot development",
-          "AI agents",
-          "Workflow automation",
-          "Local LLM deployment",
-          "On-premise AI",
-          "AI consulting",
-          "AI adoption training",
-          "Conversational AI",
-          "Intelligent automation",
-          "Enterprise AI integration"
-        ],
-        "employeeRange": "1-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T02:34:43.006Z",
-        "org": "The Card",
-        "industry": "IT and Telecom",
-        "city": "Bat Yam",
-        "subIndustry": "Enterprise Software",
-        "description": "Platform for creating and managing premium digital business cards for companies, enabling employees to share contact information digitally",
-        "domain": "the-card.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/0156abd0-f066-42bd-a147-ef6190c4fedb.jpg",
-        "keywords": [
-          "Digital business cards",
-          "Business card app",
-          "Contact sharing",
-          "Corporate branding",
-          "Virtual business cards",
-          "Networking tools",
-          "Employee identity"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T02:34:42.319Z",
-        "org": "SOFT DEV I.T.O.X",
-        "industry": "IT and Telecom",
-        "city": "\u05d1\u05d0\u05e7\u05d4 \u05d0\u05dc-\u05d2\u05e8\u05d1\u05d9\u05d4",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Software development and digital services firm building CRM systems, AI-powered sales agents, custom software, websites and digital marketing solutions for business clients",
-        "domain": "itox.co.il",
-        "keywords": [
-          "CRM systems",
-          "AI sales agents",
-          "Custom software development",
-          "Website development",
-          "Digital marketing",
-          "Sales automation",
-          "Business software solutions",
-          "Tech consulting"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2881,15 +2867,15 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Wand",
-        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+        "org": "MMDSmart",
+        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "MMDSmart",
-        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
+        "org": "Wand",
+        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2915,37 +2901,9 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EAZYDONE",
-        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "QUANTUMQSECURITY",
         "summary": "QuantumQ Security launched a multi-dimensional quantum cybersecurity architecture program built around three complementary dimensions: Detect (anomaly/attack identification), Encrypt (confidentiality) and Verify (authenticity, integrity and ownership), spanning technology programs LayerQake, Qatacomb and verification technologies at different stages of development and IP protection."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CYDELPHI",
-        "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Silynx Communications",
-        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Pagaya",
-        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2957,16 +2915,37 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EAZYDONE",
+        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Nofar Energy",
         "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
       },
       {
-        "ts": "2026-09-16T00:00:00.000Z",
+        "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
+        "rawKind": "Executive Appointment",
         "org": "Pagaya",
-        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Silynx Communications",
+        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CYDELPHI",
+        "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
@@ -2976,18 +2955,18 @@
         "summary": "Announced expanded integrations with CrowdStrike giving joint customers added visibility and control over AI agent activity across the full agentic path."
       },
       {
-        "ts": "2026-09-15T00:00:00.000Z",
+        "ts": "2026-09-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "ZOHAR VANUNU PRODUCTIONS",
-        "summary": "Kolbo.AI and AdArena announced 'The Fake Ad Challenge': a $10,000 contest to create a 20-60 second commercial for an invented product, with full rules and judging details published on the Kolbo.AI blog."
+        "rawKind": "Strategic Partnership",
+        "org": "Pagaya",
+        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Lifeward",
-        "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
+        "rawKind": "Other",
+        "org": "Nofar Energy",
+        "summary": "Announced a \u20ac103 million investment to build battery energy storage facilities (total 1.09 GWh: 650 MWh at Valter Maracineanu and 440 MWh at Corbii Mari) alongside two of its solar projects in Romania."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2999,16 +2978,23 @@
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Quantum X Labs",
-        "summary": "Former Mossad chief Yossi Cohen, currently a strategic advisor to SoftBank, joined Quantum X Labs as President of its Scientific Advisory Board."
+        "rawKind": "Product Launch",
+        "org": "Keewano",
+        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Keewano",
-        "summary": "Launched KeewanoDB, the first database architected from the ground up for machine reasoning at scale, announcing general availability alongside a companion analytics layer; the database keeps each entity's complete event sequence in order for AI agents, with per-active-entity pricing and a managed Keewano Cloud service."
+        "rawKind": "R&D Milestone",
+        "org": "Lifeward",
+        "summary": "Peer-reviewed study of the ReWalk exoskeleton reported significant improvements in daily activity performance, user satisfaction, and pain for users."
+      },
+      {
+        "ts": "2026-09-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "ZOHAR VANUNU PRODUCTIONS",
+        "summary": "Kolbo.AI and AdArena announced 'The Fake Ad Challenge': a $10,000 contest to create a 20-60 second commercial for an invented product, with full rules and judging details published on the Kolbo.AI blog."
       }
     ]
   }
