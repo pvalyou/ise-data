@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-25T09:24:50.549574Z",
+  "generatedAt": "2026-09-25T10:03:40.471325Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       0,
       3,
       0,
-      0,
+      1,
       0
     ],
     "newOrgs": [
@@ -183,7 +183,7 @@
       65,
       130,
       141,
-      52
+      55
     ],
     "exits": [
       0,
@@ -212,7 +212,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       3,
       0
@@ -374,7 +374,7 @@
       0,
       6,
       0,
-      0,
+      12,
       0
     ],
     "fundingStages": [
@@ -438,7 +438,9 @@
         "Series G": 1
       },
       {},
-      {},
+      {
+        "Series F": 1
+      },
       {}
     ],
     "fundingUsd": [
@@ -470,25 +472,25 @@
       0,
       450000000,
       0,
-      0,
+      400000000,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 3,
-      "d30": 23
+      "d7": 4,
+      "d30": 24
     },
     "newOrgs": {
-      "d1": 153,
-      "d7": 616,
-      "d30": 1433
+      "d1": 151,
+      "d7": 619,
+      "d30": 1436
     },
     "exits": {
       "d1": 0,
-      "d7": 3,
-      "d30": 15
+      "d7": 4,
+      "d30": 16
     },
     "firstChecks": {
       "d1": 0,
@@ -512,13 +514,13 @@
     },
     "investments": {
       "d1": 0,
-      "d7": 6,
-      "d30": 112
+      "d7": 18,
+      "d30": 124
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 450000000,
-      "d30": 2322000000
+      "d7": 850000000,
+      "d30": 2722000000
     }
   },
   "news": {
@@ -1618,6 +1620,16 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
+      "ts": "2026-09-22",
+      "precision": "day",
+      "target": "RealSense",
+      "acquirer": "Cognex Corporation",
+      "kind": "acquisition",
+      "amountUsd": 500000000,
+      "domain": "realsenseai.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bf2bb446-40ae-4c91-84ee-baf3572b6867.avif"
+    },
+    {
       "ts": "2026-09-14",
       "precision": "day",
       "target": "Glass Imaging",
@@ -1660,12 +1672,12 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "ALZAI Health",
-      "acquirer": null,
-      "kind": "ipo",
+      "target": "Sweep.io",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
       "amountUsd": null,
-      "domain": "alzaihealth.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
+      "domain": "sweep.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
     },
     {
       "ts": "2026-09-03",
@@ -1680,12 +1692,12 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "Sweep.io",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
+      "target": "ALZAI Health",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null,
-      "domain": "sweep.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
+      "domain": "alzaihealth.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
     },
     {
       "ts": "2026-08-31",
@@ -1722,7 +1734,7 @@
       "target": "AGILITY HEDGE FUNDS MANAGEMENT",
       "acquirer": "Menora Mivtachim Holdings Ltd.",
       "kind": "acquisition",
-      "amountUsd": null,
+      "amountUsd": 56000000,
       "domain": "agilityfund.co.il"
     },
     {
@@ -1731,7 +1743,7 @@
       "target": "AGILITY HEDGE FUNDS MANAGEMENT",
       "acquirer": "Menora Mivtachim Holdings Ltd.",
       "kind": "acquisition",
-      "amountUsd": 56000000,
+      "amountUsd": null,
       "domain": "agilityfund.co.il"
     },
     {
@@ -1823,16 +1835,6 @@
       "amountUsd": null,
       "domain": "hailo.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/c66aa709-33c5-4a34-b357-74bf0ee44674.jpg"
-    },
-    {
-      "ts": "2026-07-22",
-      "precision": "day",
-      "target": "Dondy",
-      "acquirer": "Circeus",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "dondy.net",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/c672410a-3581-4a80-8d8b-5a2a9de67b15.png"
     },
     {
       "ts": "2026-09-17",
@@ -1944,6 +1946,102 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-24",
+      "investor": "Alta Park Capital",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Coatue Management",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Cyberstarts",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "cyberstarts.com"
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Dmitri Alperovitch",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Evolution Equity Partners",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "evolutionequity.com"
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Georgian",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "georgian.io"
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "G Squared",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Insight Partners",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "insightpartners.com"
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "J.P. Morgan Growth Equity Partners",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Prysm Capital",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Sequoia Capital",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "sequoiacap.com"
+    },
+    {
+      "ts": "2026-09-24",
+      "investor": "Squarepoint",
+      "company": "Island",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
       "ts": "2026-09-22",
       "investor": "Alive HealthTech Growth Fund",
       "company": "UltraSight",
@@ -2006,102 +2104,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": null
-    },
-    {
-      "ts": "2026-09-17",
-      "investor": "YL Ventures",
-      "company": "MIND",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "ylventures.com"
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Ahmad Al-Dahle",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": true,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Andrew Bosworth",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Boris Sofman",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Craft Ventures",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "craftventures.com"
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Dean Leitersdorf",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": true,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Eclipse",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "eclipse.vc"
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Factory",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Gigascale Capital",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Incite Ventures",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Liquid 2 Ventures",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-09-16",
-      "investor": "Matt Rogers",
-      "company": "Noetive",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
     }
   ],
   "patents": [
@@ -2132,6 +2134,22 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
+      "org": "Inspekto",
+      "title": "Adaptive system and method for inspection of imaged items",
+      "number": "12737875",
+      "url": "https://patents.google.com/patent/US12737875B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "UnifabriX",
+      "title": "Translating between cxl.mem and cxl.cache read transactions",
+      "number": "12737313",
+      "url": "https://patents.google.com/patent/US12737313B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
       "org": "ZOLL Medical Israel",
       "title": "Methods and systems for determining fluid content of tissue",
       "number": "12733904",
@@ -2140,10 +2158,10 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "Inspekto",
-      "title": "Adaptive system and method for inspection of imaged items",
-      "number": "12737875",
-      "url": "https://patents.google.com/patent/US12737875B2/en"
+      "org": "Vidubly",
+      "title": "Generating translated media streams with accent",
+      "number": "12739294",
+      "url": "https://patents.google.com/patent/US12739294B2/en"
     },
     {
       "ts": "2026-09-15",
@@ -2162,28 +2180,12 @@
       "url": "https://patents.google.com/patent/US12739106B2/en"
     },
     {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "UnifabriX",
-      "title": "Translating between cxl.mem and cxl.cache read transactions",
-      "number": "12737313",
-      "url": "https://patents.google.com/patent/US12737313B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Vidubly",
-      "title": "Generating translated media streams with accent",
-      "number": "12739294",
-      "url": "https://patents.google.com/patent/US12739294B2/en"
-    },
-    {
       "ts": "2026-09-10",
       "kind": "granted",
-      "org": "Kaizen Biotech",
-      "title": "\u30cb\u30c3\u30d7\u30eb\u30b7\u30fc\u30eb\u30c9",
-      "number": "1835453",
-      "url": "https://patents.google.com/patent/JP1835453S/en"
+      "org": "Mobileye",
+      "title": "Systeme und verfahren zur dynamischen strassengeometriemodellierung und navigation",
+      "number": "112021007369",
+      "url": "https://patents.google.com/patent/DE112021007369B4/en"
     }
   ],
   "jobs": [
@@ -2271,6 +2273,10 @@
           "count": 1
         },
         {
+          "label": "Series F",
+          "count": 1
+        },
+        {
           "label": "Series G",
           "count": 1
         }
@@ -2293,15 +2299,15 @@
           "count": 2
         },
         {
+          "label": "Series F",
+          "count": 2
+        },
+        {
           "label": "Convertible Note",
           "count": 1
         },
         {
           "label": "Pre-seed",
-          "count": 1
-        },
-        {
-          "label": "Series F",
           "count": 1
         },
         {
@@ -2318,27 +2324,27 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 54
+          "count": 52
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 50
+          "count": 51
+        },
+        {
+          "label": "Media and Entertainment",
+          "count": 16
         },
         {
           "label": "Healthcare and Food",
           "count": 15
         },
         {
-          "label": "Media and Entertainment",
-          "count": 15
-        },
-        {
           "label": "Financial Services",
-          "count": 9
+          "count": 8
         },
         {
           "label": "Unknown",
-          "count": 8
+          "count": 7
         },
         {
           "label": "Energy and Utilities",
@@ -2352,11 +2358,11 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 204
+          "count": 206
         },
         {
           "label": "Media and Entertainment",
-          "count": 60
+          "count": 61
         },
         {
           "label": "Financial Services",
@@ -2382,7 +2388,7 @@
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 422
+          "count": 424
         },
         {
           "label": "Healthcare and Food",
@@ -2390,7 +2396,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 125
+          "count": 126
         },
         {
           "label": "Financial Services",
@@ -2412,6 +2418,12 @@
     "d7": [],
     "d30": [
       {
+        "name": "Alta Park Capital",
+        "kind": "fund",
+        "count": 2,
+        "domain": null
+      },
+      {
         "name": "Bessemer Venture Partners",
         "kind": "fund",
         "count": 2,
@@ -2428,12 +2440,6 @@
         "kind": "fund",
         "count": 2,
         "domain": "craftventures.com"
-      },
-      {
-        "name": "Emerge",
-        "kind": "fund",
-        "count": 2,
-        "domain": "emerge.co.il"
       }
     ]
   },
