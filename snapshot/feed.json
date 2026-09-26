@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-26T06:33:23.604598Z",
+  "generatedAt": "2026-09-26T07:34:03.372259Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       130,
       142,
       157,
-      49
+      74
     ],
     "exits": [
       1,
@@ -285,7 +285,7 @@
       76,
       59,
       109,
-      82,
+      83,
       204,
       187,
       164,
@@ -309,7 +309,7 @@
       426,
       332,
       362,
-      420,
+      419,
       98,
       8
     ],
@@ -343,7 +343,7 @@
       59,
       56,
       84,
-      15
+      23
     ],
     "investments": [
       0,
@@ -483,9 +483,9 @@
       "d30": 24
     },
     "newOrgs": {
-      "d1": 164,
-      "d7": 673,
-      "d30": 1588
+      "d1": 185,
+      "d7": 698,
+      "d30": 1613
     },
     "exits": {
       "d1": 0,
@@ -504,13 +504,13 @@
     },
     "jobsPosted": {
       "d1": 8,
-      "d7": 1698,
+      "d7": 1697,
       "d30": 4948
     },
     "newFounders": {
-      "d1": 81,
-      "d7": 304,
-      "d30": 1163
+      "d1": 89,
+      "d7": 312,
+      "d30": 1171
     },
     "investments": {
       "d1": 0,
@@ -1588,22 +1588,22 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
-      "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "Wand",
       "acquirer": "groundcover",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "wand.cloud",
       "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.webp"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
+      "kind": "acquisition",
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-09-23",
@@ -1668,16 +1668,6 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "XTEND",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "xtend.me",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/35f207f2-69c4-4649-bfab-22f3a248ae5c.avif"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
@@ -1696,14 +1686,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
     },
     {
-      "ts": "2026-08-31",
+      "ts": "2026-09-03",
       "precision": "day",
-      "target": "LightSolver",
-      "acquirer": "CollPlant Biotechnologies Ltd.",
-      "kind": "acquisition",
+      "target": "XTEND",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null,
-      "domain": "lightsolver.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
+      "domain": "xtend.me",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/35f207f2-69c4-4649-bfab-22f3a248ae5c.avif"
     },
     {
       "ts": "2026-08-31",
@@ -1713,6 +1703,16 @@
       "kind": "ipo",
       "amountUsd": null,
       "domain": "lanirgroup.com"
+    },
+    {
+      "ts": "2026-08-31",
+      "precision": "day",
+      "target": "LightSolver",
+      "acquirer": "CollPlant Biotechnologies Ltd.",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "lightsolver.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
     },
     {
       "ts": "2026-08-30",
@@ -2131,10 +2131,26 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
+      "org": "Inspekto",
+      "title": "Adaptive system and method for inspection of imaged items",
+      "number": "12737875",
+      "url": "https://patents.google.com/patent/US12737875B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
       "org": "Wiz",
       "title": "Techniques for circumventing provider-imposed limitations in snapshot inspection of disks for cybersecurity",
       "number": "12739106",
       "url": "https://patents.google.com/patent/US12739106B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "ZOLL Medical Israel",
+      "title": "Methods and systems for determining fluid content of tissue",
+      "number": "12733904",
+      "url": "https://patents.google.com/patent/US12733904B2/en"
     },
     {
       "ts": "2026-09-15",
@@ -2155,34 +2171,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "Inspekto",
-      "title": "Adaptive system and method for inspection of imaged items",
-      "number": "12737875",
-      "url": "https://patents.google.com/patent/US12737875B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
       "org": "Vidubly",
       "title": "Generating translated media streams with accent",
       "number": "12739294",
       "url": "https://patents.google.com/patent/US12739294B2/en"
     },
     {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "ZOLL Medical Israel",
-      "title": "Methods and systems for determining fluid content of tissue",
-      "number": "12733904",
-      "url": "https://patents.google.com/patent/US12733904B2/en"
-    },
-    {
       "ts": "2026-09-10",
       "kind": "granted",
-      "org": "Autobrains",
-      "title": "Obtaining vehicle environment map based on aerial imaging",
-      "number": "7918476",
-      "url": "https://patents.google.com/patent/JP7918476B2/en"
+      "org": "Mobileye",
+      "title": "Systeme und verfahren zur dynamischen strassengeometriemodellierung und navigation",
+      "number": "112021007369",
+      "url": "https://patents.google.com/patent/DE112021007369B4/en"
     }
   ],
   "jobs": [
@@ -2321,11 +2321,11 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 70
+          "count": 80
         },
         {
           "label": "IT and Telecom",
-          "count": 41
+          "count": 45
         },
         {
           "label": "Financial Services",
@@ -2333,11 +2333,11 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 13
+          "count": 16
         },
         {
           "label": "Unknown",
-          "count": 9
+          "count": 13
         },
         {
           "label": "Healthcare and Food",
@@ -2351,27 +2351,27 @@
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 248
+          "count": 258
         },
         {
           "label": "IT and Telecom",
-          "count": 214
+          "count": 219
         },
         {
           "label": "Media and Entertainment",
-          "count": 62
+          "count": 66
         },
         {
           "label": "Financial Services",
-          "count": 55
+          "count": 56
         },
         {
           "label": "Healthcare and Food",
-          "count": 42
+          "count": 43
         },
         {
           "label": "Unknown",
-          "count": 28
+          "count": 32
         },
         {
           "label": "Energy and Utilities",
@@ -2381,27 +2381,27 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 561
+          "count": 566
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 489
-        },
-        {
-          "label": "Healthcare and Food",
-          "count": 138
+          "count": 499
         },
         {
           "label": "Media and Entertainment",
-          "count": 137
+          "count": 141
+        },
+        {
+          "label": "Healthcare and Food",
+          "count": 139
         },
         {
           "label": "Financial Services",
-          "count": 115
+          "count": 116
         },
         {
           "label": "Unknown",
-          "count": 76
+          "count": 80
         },
         {
           "label": "Energy and Utilities",
