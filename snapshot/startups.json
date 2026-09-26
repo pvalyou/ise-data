@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:29:07.586Z",
+  "generatedAt": "2026-09-26T02:31:21.048Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 37374,
-      "delta24h": 171
+      "value": 37376,
+      "delta24h": 173
     },
     "totalFunding": {
       "valueUsd": 224850762652,
@@ -168,14 +168,14 @@
     },
     "exits": {
       "count": 3400,
-      "valueUsd": 319340781700
+      "valueUsd": 319383281700
     },
     "employees": {
-      "total": 803377,
+      "total": 803442,
       "avgPerStartup": 28
     },
     "patents": {
-      "total": 178889,
+      "total": 178980,
       "delta30d": 0
     },
     "openJobs": 6582
@@ -184,7 +184,7 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6732
+        "count": 6734
       },
       {
         "name": "Central",
@@ -343,7 +343,7 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 163
+        "count": 164
       },
       {
         "name": "Yokneam Illit",
@@ -479,18 +479,18 @@
         "count": 49
       },
       {
+        "name": "Bat Yam",
+        "district": "Tel Aviv",
+        "lat": 32.0231,
+        "lng": 34.7503,
+        "count": 47
+      },
+      {
         "name": "Tirat Carmel",
         "district": "Haifa",
         "lat": 32.7611,
         "lng": 34.9711,
         "count": 47
-      },
-      {
-        "name": "Bat Yam",
-        "district": "Tel Aviv",
-        "lat": 32.0231,
-        "lng": 34.7503,
-        "count": 46
       },
       {
         "name": "Even Yehuda",
@@ -841,6 +841,7 @@
   "overTime": {
     "foundedClosed": {
       "years": [
+        1902,
         1909,
         1935,
         1936,
@@ -925,6 +926,7 @@
         1,
         1,
         1,
+        1,
         2,
         1,
         1,
@@ -972,8 +974,8 @@
         464,
         669,
         668,
-        758,
-        889,
+        757,
+        890,
         835,
         952,
         1063,
@@ -987,14 +989,15 @@
         1794,
         1713,
         1876,
-        1921,
+        1922,
         1700,
         1539,
         1293,
-        1663,
+        1664,
         906
       ],
       "closed": [
+        0,
         0,
         0,
         0,
@@ -1073,7 +1076,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 19420,
+        "active": 19422,
         "closed": 13785,
         "unknown": 3748
       }
@@ -1425,7 +1428,7 @@
         13310120000,
         20644231300,
         8386312500,
-        28980237500,
+        29022737500,
         10942595000,
         10750734100,
         16764541700,
@@ -1440,15 +1443,15 @@
   },
   "survivability": {
     "composition": {
-      "active": 21308,
+      "active": 21310,
       "closed": 12666,
       "exited": 3400
     },
     "funnel": {
-      "all": 37374,
+      "all": 37376,
       "funded": 15573,
-      "over1m": 6185,
-      "over10m": 3079,
+      "over1m": 6186,
+      "over10m": 3080,
       "over100m": 564,
       "exited": 3400
     },
@@ -1483,10 +1486,10 @@
       },
       {
         "year": 2021,
-        "total": 1921,
+        "total": 1922,
         "exited": 93,
         "closed": 409,
-        "active": 1419
+        "active": 1420
       },
       {
         "year": 2022,
@@ -1511,10 +1514,10 @@
       },
       {
         "year": 2025,
-        "total": 1663,
+        "total": 1664,
         "exited": 20,
         "closed": 33,
-        "active": 1610
+        "active": 1611
       },
       {
         "year": 2026,
@@ -1528,7 +1531,7 @@
       "overall": {
         "avgYears": 9.4,
         "medianYears": 7.0,
-        "avgValueUsd": 92803232,
+        "avgValueUsd": 92815983,
         "medianValueUsd": 0
       },
       "acquisition": {
@@ -1540,7 +1543,7 @@
       "ipo": {
         "avgYears": 10.1,
         "medianYears": 8.0,
-        "avgValueUsd": 58704967,
+        "avgValueUsd": 58824014,
         "medianValueUsd": 0
       },
       "distribution": [
@@ -1710,23 +1713,23 @@
       },
       {
         "year": 2021,
-        "total": 1851,
+        "total": 1852,
         "unknown": 70,
         "counts": {
           "it-telecom": 687,
           "healthcare-food": 347,
-          "consumer-goods-services": 349,
+          "consumer-goods-services": 350,
           "energy-utilities": 91,
           "financial-services": 173,
           "media-entertainment": 204
         },
         "shares": {
-          "it-telecom": 0.3711507293354943,
-          "healthcare-food": 0.1874662344678552,
-          "consumer-goods-services": 0.18854673149648837,
-          "energy-utilities": 0.04916261480280929,
-          "financial-services": 0.09346299297676931,
-          "media-entertainment": 0.11021069692058347
+          "it-telecom": 0.37095032397408206,
+          "healthcare-food": 0.18736501079913606,
+          "consumer-goods-services": 0.18898488120950324,
+          "energy-utilities": 0.04913606911447084,
+          "financial-services": 0.09341252699784017,
+          "media-entertainment": 0.1101511879049676
         }
       },
       {
@@ -1794,23 +1797,23 @@
       },
       {
         "year": 2025,
-        "total": 1566,
+        "total": 1567,
         "unknown": 97,
         "counts": {
           "it-telecom": 731,
           "healthcare-food": 226,
-          "consumer-goods-services": 300,
+          "consumer-goods-services": 301,
           "energy-utilities": 63,
           "financial-services": 110,
           "media-entertainment": 136
         },
         "shares": {
-          "it-telecom": 0.466794380587484,
-          "healthcare-food": 0.14431673052362706,
-          "consumer-goods-services": 0.19157088122605365,
-          "energy-utilities": 0.040229885057471264,
-          "financial-services": 0.070242656449553,
-          "media-entertainment": 0.08684546615581099
+          "it-telecom": 0.46649649010848754,
+          "healthcare-food": 0.14422463305679642,
+          "consumer-goods-services": 0.19208679004467136,
+          "energy-utilities": 0.04020421186981493,
+          "financial-services": 0.07019783024888322,
+          "media-entertainment": 0.08679004467134652
         }
       },
       {
@@ -1840,41 +1843,41 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 14604,
-        "share": 0.40598243077949514
+        "share": 0.40595985989881583
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6817,
-        "share": 0.1895085066162571
+        "share": 0.18949797075665759
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6450,
-        "share": 0.17930612698765708
+        "count": 6452,
+        "share": 0.17935175404458775
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1613,
-        "share": 0.044840431446680755
+        "share": 0.04483793851114694
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2148,
-        "share": 0.05971311019681975
+        "share": 0.0597097904041808
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4340,
-        "share": 0.12064939397309019
+        "share": 0.1206426863846111
       }
     ],
     "mixSummary": {
-      "totalVisible": 15633,
+      "totalVisible": 15635,
       "totalUnknown": 617
     },
     "subTrendYears": [
@@ -1912,11 +1915,11 @@
           0.02469844916714532,
           0.03631961259079903,
           0.02806824435883324,
-          0.03189189189189189,
+          0.031874662344678555,
           0.03467153284671533,
           0.060362173038229376,
           0.07760711398544867,
-          0.08737244897959184,
+          0.08731676226896112,
           0.11294117647058824
         ]
       },
@@ -1942,11 +1945,11 @@
           0.0591614014933946,
           0.04782082324455206,
           0.04953219592735278,
-          0.05297297297297297,
+          0.05294435440302539,
           0.06143552311435523,
           0.05298457411133468,
           0.08730800323362975,
-          0.07397959183673469,
+          0.07393244104525175,
           0.06352941176470588
         ]
       },
@@ -1972,11 +1975,11 @@
           0.14704192992533027,
           0.14891041162227603,
           0.16180517336268574,
-          0.14486486486486486,
+          0.14478660183684494,
           0.14963503649635038,
           0.1790744466800805,
           0.16248989490703314,
-          0.1485969387755102,
+          0.14850223072020396,
           0.17411764705882352
         ]
       },
@@ -2002,11 +2005,11 @@
           0.014359563469270534,
           0.018159806295399514,
           0.01375894331315355,
-          0.012972972972972972,
+          0.012965964343598054,
           0.0170316301703163,
           0.02481556002682763,
           0.021018593371059015,
-          0.04017857142857143,
+          0.040152963671128104,
           0.041176470588235294
         ]
       },
@@ -2032,11 +2035,11 @@
           0.010338885697874785,
           0.007263922518159807,
           0.012658227848101266,
-          0.011891891891891892,
+          0.011885467314964884,
           0.010340632603406326,
           0.011401743796109993,
           0.019401778496362168,
-          0.026785714285714284,
+          0.02676864244741874,
           0.02
         ]
       }
@@ -2064,11 +2067,11 @@
           0.02986789201608271,
           0.009079903147699757,
           0.010456796917996699,
-          0.01783783783783784,
+          0.017828200972447326,
           0.016423357664233577,
           0.008048289738430584,
           0.004042037186742118,
-          0.009566326530612245,
+          0.009560229445506692,
           0.004705882352941176
         ]
       },
@@ -2094,11 +2097,11 @@
           0.051694428489373924,
           0.05690072639225181,
           0.06769400110071547,
-          0.047027027027027025,
+          0.04700162074554295,
           0.0535279805352798,
           0.04896042924211938,
           0.05173807599029911,
-          0.035076530612244895,
+          0.03505417463352454,
           0.02
         ]
       },
@@ -2124,11 +2127,11 @@
           0.026995979322228605,
           0.03753026634382567,
           0.031920748486516236,
-          0.024324324324324326,
+          0.024311183144246355,
           0.03223844282238443,
           0.02012072434607646,
           0.02021018593371059,
-          0.010841836734693877,
+          0.010834926704907584,
           0.007058823529411765
         ]
       },
@@ -2154,11 +2157,11 @@
           0.02469844916714532,
           0.028450363196125907,
           0.024215740231150248,
-          0.02216216216216216,
+          0.02215018908698001,
           0.0170316301703163,
           0.019450033534540577,
           0.021018593371059015,
-          0.023596938775510203,
+          0.023581899298916506,
           0.0058823529411764705
         ]
       },
@@ -2184,11 +2187,11 @@
           0.023549684089603676,
           0.01937046004842615,
           0.014859658778205834,
-          0.01027027027027027,
+          0.010264721772015126,
           0.014598540145985401,
           0.008048289738430584,
           0.009700889248181084,
-          0.01211734693877551,
+          0.012109623964308477,
           0.009411764705882352
         ]
       }
@@ -2196,7 +2199,7 @@
     "signals": {
       "deeptechCount": 10064,
       "deeptechPct": 26.9,
-      "globalCount": 15496,
+      "globalCount": 15497,
       "globalPct": 41.5
     }
   },
@@ -2325,17 +2328,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2344,6 +2336,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2369,33 +2372,22 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
+        "org": "Lyte",
         "stage": "Series C",
-        "amountUsd": 550000000,
+        "amountUsd": 165000000,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
+        "org": "Wonderful",
         "stage": "Series C",
-        "amountUsd": 165000000,
+        "amountUsd": 550000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2410,6 +2402,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2429,6 +2432,46 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-26T02:26:53.278Z",
+        "org": "V-ME TRUE VALUE",
+        "industry": "Consumer Goods and Services",
+        "city": "Holon",
+        "subIndustry": "Social Media & Community",
+        "description": "Video-based online dating platform that uses interactive video profiles and smart matching features to promote authentic self-expression and meaningful connections. The experience also includes in-app expert guidance and support throughout the dating journey.",
+        "domain": "vme-value.com",
+        "keywords": [
+          "Online dating",
+          "Video dating",
+          "Video profiles",
+          "Authentic connections",
+          "Dating app",
+          "Smart matching",
+          "Relationship guidance"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-09-26T02:10:42.236Z",
+        "org": "GELA JEN",
+        "industry": "Consumer Goods and Services",
+        "city": "Bat Yam",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Commission-earning online storefront promoting a pectin-based biotin gummy dietary supplement formulated with vitamins and minerals for nutritional support of skin, hair and nails. Checkout, inventory, payments, and fulfillment are handled by a third-party seller.",
+        "domain": "gelajen.com",
+        "keywords": [
+          "Biotin gummies",
+          "Pectin gummy supplement",
+          "Hair and nail vitamins",
+          "Beauty dietary supplements",
+          "Vitamin and mineral gummies",
+          "Online supplement storefront",
+          "Commission affiliate shop"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-09-26T01:01:13.849Z",
         "org": "Wonder Productions",
@@ -2825,52 +2868,23 @@
         "employeeRange": "1-10",
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T23:45:19.594Z",
-        "org": "Dvir Software Products",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Enterprise Software",
-        "description": "Software development company creating multilingual productivity applications, office workflow tools, fax servers, and email clients for business and individual users.",
-        "keywords": [
-          "multilingual word processing",
-          "office productivity software",
-          "workflow suite",
-          "fax server software",
-          "email client",
-          "Hebrew and Yiddish text processing",
-          "document editing",
-          "business software"
-        ],
-        "employeeRange": "11-50",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-09-25T23:45:01.997Z",
-        "org": "Apollo Defend",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "Cybersecurity",
-        "description": "Voice AI security platform protecting speech-driven systems against prompt injection, voice impersonation, biometric theft, model manipulation, and adversarial attacks through signal-level defenses, anonymization, identity controls, and model integrity monitoring.",
-        "keywords": [
-          "Voice AI security",
-          "Audio cybersecurity",
-          "Voice anonymization",
-          "Deepfake detection",
-          "Biometric identity protection",
-          "Adversarial AI resilience",
-          "Audio model security",
-          "Signal-level threat detection",
-          "Speech-to-speech security"
-        ],
-        "employeeRange": "1-10",
-        "isDeeptech": true,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "MMDSmart",
+        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
+      },
       {
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "large_round",
@@ -2882,22 +2896,8 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "MMDSmart",
-        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
         "org": "Wand",
         "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2908,17 +2908,17 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Ottopia Technologies",
-        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Ottopia Technologies",
         "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Ottopia Technologies",
+        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2951,6 +2951,41 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EAZYDONE",
+        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "HAHAMI CONNECT",
+        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Silynx Communications",
+        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Pagaya",
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Nofar Energy",
+        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Revenue Milestone",
         "org": "MIND",
         "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
@@ -2965,51 +3000,16 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EAZYDONE",
-        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Pagaya",
-        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Silynx Communications",
-        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "CYDELPHI",
         "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
       },
       {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "HAHAMI CONNECT",
-        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
-      },
-      {
         "ts": "2026-09-16T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Pagaya",
-        "summary": "Signed auto forward flow agreement with Neuberger Specialty Finance, expanding its long-term, committed capital strategy."
+        "org": "Salt Security",
+        "summary": "Announced expanded integrations with CrowdStrike giving joint customers added visibility and control over AI agent activity across the full agentic path."
       }
     ]
   }
