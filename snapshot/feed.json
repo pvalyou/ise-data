@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-27T00:03:57.714629Z",
+  "generatedAt": "2026-09-27T01:03:08.222032Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       142,
       157,
       188,
-      0
+      12
     ],
     "exits": [
       0,
@@ -282,35 +282,35 @@
       0
     ],
     "jobsPosted": [
-      58,
+      59,
       108,
       83,
       206,
-      187,
+      186,
       163,
-      25,
+      26,
       12,
       213,
-      195,
-      227,
-      230,
+      196,
+      226,
+      229,
       204,
       66,
       12,
       27,
       212,
-      252,
-      266,
+      251,
+      265,
       301,
       66,
       32,
       50,
       424,
       333,
-      358,
+      357,
       415,
-      90,
-      54,
+      89,
+      55,
       0
     ],
     "newFounders": [
@@ -343,7 +343,7 @@
       56,
       84,
       125,
-      0
+      11
     ],
     "investments": [
       0,
@@ -483,9 +483,9 @@
       "d30": 24
     },
     "newOrgs": {
-      "d1": 186,
-      "d7": 780,
-      "d30": 1729
+      "d1": 183,
+      "d7": 792,
+      "d30": 1741
     },
     "exits": {
       "d1": 0,
@@ -504,13 +504,13 @@
     },
     "jobsPosted": {
       "d1": 0,
-      "d7": 1674,
-      "d30": 4869
+      "d7": 1673,
+      "d30": 4866
     },
     "newFounders": {
-      "d1": 125,
-      "d7": 392,
-      "d30": 1269
+      "d1": 133,
+      "d7": 403,
+      "d30": 1280
     },
     "investments": {
       "d1": 0,
@@ -1584,22 +1584,22 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "Wand",
-      "acquirer": "groundcover",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "wand.cloud",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.webp"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "MMDSmart",
       "acquirer": "FIMI Opportunity Funds",
       "kind": "acquisition",
       "amountUsd": 55000000,
       "domain": "mmdsmart.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "Wand",
+      "acquirer": "groundcover",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "wand.cloud",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.webp"
     },
     {
       "ts": "2026-09-23",
@@ -1674,16 +1674,6 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "Sweep.io",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "sweep.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
@@ -1692,13 +1682,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
     },
     {
-      "ts": "2026-08-31",
+      "ts": "2026-09-03",
       "precision": "day",
-      "target": "Lanir",
-      "acquirer": null,
-      "kind": "ipo",
+      "target": "Sweep.io",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
       "amountUsd": null,
-      "domain": "lanirgroup.com"
+      "domain": "sweep.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
     },
     {
       "ts": "2026-08-31",
@@ -1709,6 +1700,15 @@
       "amountUsd": null,
       "domain": "lightsolver.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
+    },
+    {
+      "ts": "2026-08-31",
+      "precision": "day",
+      "target": "Lanir",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "lanirgroup.com"
     },
     {
       "ts": "2026-08-30",
@@ -2186,13 +2186,20 @@
     {
       "ts": "2026-09-10",
       "kind": "granted",
-      "org": "Autobrains",
-      "title": "Obtaining vehicle environment map based on aerial imaging",
-      "number": "7918476",
-      "url": "https://patents.google.com/patent/JP7918476B2/en"
+      "org": "Mobileye",
+      "title": "Systeme und verfahren zur dynamischen strassengeometriemodellierung und navigation",
+      "number": "112021007369",
+      "url": "https://patents.google.com/patent/DE112021007369B4/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-09-26",
+      "title": "\u05d3\u05e8\u05d5\u05e9\u05d4 \u05de\u05d8\u05e4\u05dc.\u05ea \u05e8\u05d2\u05e9\u05d9.\u05ea \u05dc\u05d2\u05e0\u05d9 \u05ea\u05e7\u05e9\u05d5\u05e8\u05ea \u05e9\u05e7\u05d3 \u05d7\u05d5\u05dc\u05d5\u05df",
+      "company": "\u05d0\u05d5\u05ea\u05d9 - \u05e2\u05de\u05d5\u05ea\u05d4 \u05d9\u05e9\u05e8\u05d0\u05dc\u05d9\u05ea \u05dc\u05d0\u05d5\u05d8\u05d9\u05d6\u05dd",
+      "city": "Tel Aviv",
+      "url": "https://oti.org.il/job/5/"
+    },
     {
       "ts": "2026-09-26",
       "title": "Exploit Engineer",
@@ -2255,13 +2262,6 @@
       "company": "SpoTower",
       "city": "Tel Aviv",
       "url": "https://spotower.com/careers/business-development-specilaist-1"
-    },
-    {
-      "ts": "2026-09-26",
-      "title": "Business Development Manager Full-time Tel Aviv View role",
-      "company": "SpoTower",
-      "city": "Tel Aviv",
-      "url": "https://spotower.com/careers/business-development-manager"
     }
   ],
   "mix": {
@@ -2332,41 +2332,41 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 43
-        },
-        {
-          "label": "Unknown",
-          "count": 18
+          "count": 44
         },
         {
           "label": "Media and Entertainment",
-          "count": 16
+          "count": 18
         },
         {
-          "label": "Financial Services",
-          "count": 10
-        },
-        {
-          "label": "Healthcare and Food",
-          "count": 10
+          "label": "Unknown",
+          "count": 17
         },
         {
           "label": "Energy and Utilities",
-          "count": 8
+          "count": 9
+        },
+        {
+          "label": "Financial Services",
+          "count": 7
+        },
+        {
+          "label": "Healthcare and Food",
+          "count": 7
         }
       ],
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 298
+          "count": 301
         },
         {
           "label": "IT and Telecom",
-          "count": 234
+          "count": 237
         },
         {
           "label": "Media and Entertainment",
-          "count": 72
+          "count": 77
         },
         {
           "label": "Financial Services",
@@ -2382,21 +2382,21 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 30
+          "count": 31
         }
       ],
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 595
+          "count": 598
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 551
+          "count": 554
         },
         {
           "label": "Media and Entertainment",
-          "count": 148
+          "count": 153
         },
         {
           "label": "Healthcare and Food",
@@ -2412,7 +2412,7 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 78
+          "count": 79
         }
       ]
     }
