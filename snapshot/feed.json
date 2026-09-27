@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-27T08:04:25.520791Z",
+  "generatedAt": "2026-09-27T09:02:35.687871Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -181,9 +181,9 @@
       65,
       130,
       142,
-      157,
+      158,
       188,
-      94
+      95
     ],
     "exits": [
       0,
@@ -287,7 +287,7 @@
       83,
       206,
       186,
-      163,
+      162,
       26,
       12,
       213,
@@ -306,12 +306,12 @@
       32,
       50,
       424,
-      332,
+      328,
       361,
       415,
       86,
       53,
-      22
+      58
     ],
     "newFounders": [
       0,
@@ -343,7 +343,7 @@
       56,
       84,
       125,
-      185
+      192
     ],
     "investments": [
       0,
@@ -483,9 +483,9 @@
       "d30": 24
     },
     "newOrgs": {
-      "d1": 202,
-      "d7": 874,
-      "d30": 1823
+      "d1": 203,
+      "d7": 876,
+      "d30": 1825
     },
     "exits": {
       "d1": 0,
@@ -503,14 +503,14 @@
       "d30": 37
     },
     "jobsPosted": {
-      "d1": 22,
-      "d7": 1693,
-      "d30": 4881
+      "d1": 58,
+      "d7": 1725,
+      "d30": 4912
     },
     "newFounders": {
-      "d1": 286,
-      "d7": 577,
-      "d30": 1455
+      "d1": 293,
+      "d7": 584,
+      "d30": 1462
     },
     "investments": {
       "d1": 0,
@@ -1584,22 +1584,22 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
-      "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "Wand",
       "acquirer": "groundcover",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "wand.cloud",
       "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.webp"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
+      "kind": "acquisition",
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-09-23",
@@ -1674,6 +1674,16 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
+      "target": "Sweep.io",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "sweep.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
+    },
+    {
+      "ts": "2026-09-03",
+      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
@@ -1682,14 +1692,13 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
     },
     {
-      "ts": "2026-09-03",
+      "ts": "2026-08-31",
       "precision": "day",
-      "target": "Sweep.io",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
+      "target": "Lanir",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null,
-      "domain": "sweep.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02.png"
+      "domain": "lanirgroup.com"
     },
     {
       "ts": "2026-08-31",
@@ -1700,15 +1709,6 @@
       "amountUsd": null,
       "domain": "lightsolver.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e.png"
-    },
-    {
-      "ts": "2026-08-31",
-      "precision": "day",
-      "target": "Lanir",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "lanirgroup.com"
     },
     {
       "ts": "2026-08-30",
@@ -2138,10 +2138,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "UnifabriX",
-      "title": "Translating between cxl.mem and cxl.cache read transactions",
-      "number": "12737313",
-      "url": "https://patents.google.com/patent/US12737313B2/en"
+      "org": "Wiz",
+      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
+      "number": "12737175",
+      "url": "https://patents.google.com/patent/US12737175B1/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "Vidubly",
+      "title": "Generating translated media streams with accent",
+      "number": "12739294",
+      "url": "https://patents.google.com/patent/US12739294B2/en"
     },
     {
       "ts": "2026-09-15",
@@ -2162,26 +2170,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
+      "org": "UnifabriX",
+      "title": "Translating between cxl.mem and cxl.cache read transactions",
+      "number": "12737313",
+      "url": "https://patents.google.com/patent/US12737313B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
       "org": "Inspekto",
       "title": "Adaptive system and method for inspection of imaged items",
       "number": "12737875",
       "url": "https://patents.google.com/patent/US12737875B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Wiz",
-      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
-      "number": "12737175",
-      "url": "https://patents.google.com/patent/US12737175B1/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Vidubly",
-      "title": "Generating translated media streams with accent",
-      "number": "12739294",
-      "url": "https://patents.google.com/patent/US12739294B2/en"
     },
     {
       "ts": "2026-09-10",
@@ -2195,73 +2195,73 @@
   "jobs": [
     {
       "ts": "2026-09-27",
-      "title": "23329 - System QA tester",
-      "company": "QualityAI",
-      "city": "Petah Tikva",
-      "url": "https://careers.quality-ai.com/job/Petach-_-Tikva-23329-System-QA-tester/59814544/"
-    },
-    {
-      "ts": "2026-09-27",
-      "title": "23819- HW/SW Lab Integrator",
-      "company": "QualityAI",
-      "city": "Petah Tikva",
-      "url": "https://careers.quality-ai.com/job/Petach-_-Tikva-23819-HWSW-Lab-Integrator/59812044/"
-    },
-    {
-      "ts": "2026-09-27",
-      "title": "Ing\u00e9nieur(e) service terrain PACA",
-      "company": "Candela Medical",
-      "city": "Yokneam",
-      "url": "https://lde.tbe.taleo.net/lde02/ats/careers/v2/viewRequisition?org=SYNEMEDI&cws=53&rid=3021"
-    },
-    {
-      "ts": "2026-09-27",
-      "title": "Business Development Specilaist Full-time Tel Aviv View role",
-      "company": "SpoTower",
+      "title": "Senior Backend Engineer",
+      "company": "Prisma Photonics",
       "city": "Tel Aviv",
-      "url": "https://spotower.com/careers/business-development-specilaist-1"
+      "url": "https://www.prismaphotonics.com/careers/"
     },
     {
       "ts": "2026-09-27",
-      "title": "QA Specialist (Manual & Automation) Full-time Tel Aviv View role",
-      "company": "SpoTower",
+      "title": "Instructional Design Specialist",
+      "company": "Check Point",
       "city": "Tel Aviv",
-      "url": "https://spotower.com/careers/qa-specialist-manual--automation"
+      "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=2022989"
     },
     {
       "ts": "2026-09-27",
-      "title": "Business Development Manager Full-time Tel Aviv View role",
-      "company": "SpoTower",
+      "title": "Field Marketing Manager",
+      "company": "Check Point",
       "city": "Tel Aviv",
-      "url": "https://spotower.com/careers/business-development-manager"
+      "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=2022809"
     },
     {
       "ts": "2026-09-27",
-      "title": "Implementation Associate",
-      "company": "MediSafe",
-      "city": "Haifa",
-      "url": "https://medisafe.com/job/implementation-associate-2"
+      "title": "Litigation attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
     },
     {
       "ts": "2026-09-27",
-      "title": "BI Developer",
-      "company": "MediSafe",
-      "city": "Haifa",
-      "url": "https://medisafe.com/job/bi-developer-3"
+      "title": "Banking attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
     },
     {
       "ts": "2026-09-27",
-      "title": "Implementation Assistant \u2013 Student Position",
-      "company": "MediSafe",
-      "city": "Haifa",
-      "url": "https://medisafe.com/job/regulatory-documentation-assistant"
+      "title": "Real estate attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
     },
     {
       "ts": "2026-09-27",
-      "title": "VP of Product Management",
-      "company": "MediSafe",
-      "city": "Haifa",
-      "url": "https://medisafe.com/job/vp-of-product-management"
+      "title": "Corporate / M&A attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
+    },
+    {
+      "ts": "2026-09-27",
+      "title": "IP and Privacy attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
+    },
+    {
+      "ts": "2026-09-27",
+      "title": "Real estate taxation attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
+    },
+    {
+      "ts": "2026-09-27",
+      "title": "Planning and construction attorney",
+      "company": "Goldfarb Gross Seligman",
+      "city": "Tel Aviv",
+      "url": "https://www.goldfarb.com/career"
     }
   ],
   "mix": {
@@ -2332,7 +2332,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 47
+          "count": 48
         },
         {
           "label": "Media and Entertainment",
@@ -2358,11 +2358,11 @@
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 334
+          "count": 335
         },
         {
           "label": "IT and Telecom",
-          "count": 255
+          "count": 256
         },
         {
           "label": "Media and Entertainment",
@@ -2388,11 +2388,11 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 616
+          "count": 617
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 587
+          "count": 588
         },
         {
           "label": "Media and Entertainment",
@@ -2450,6 +2450,18 @@
   "topHiring": {
     "d1": [
       {
+        "company": "Zur Shamir Holdings",
+        "count": 21,
+        "city": "Petah Tikva",
+        "domain": "zur-shamir.com"
+      },
+      {
+        "company": "Goldfarb Gross Seligman",
+        "count": 9,
+        "city": "Tel Aviv",
+        "domain": "goldfarb.com"
+      },
+      {
         "company": "MediSafe",
         "count": 5,
         "city": "Haifa",
@@ -2460,18 +2472,6 @@
         "count": 3,
         "city": "Kochav Yair",
         "domain": "soulmynd.ai"
-      },
-      {
-        "company": "SpoTower",
-        "count": 3,
-        "city": "Tel Aviv",
-        "domain": "spotower.com"
-      },
-      {
-        "company": "TDK-Lambda Israel",
-        "count": 3,
-        "city": "Karmiel",
-        "domain": "tdk-lambda.co.il"
       }
     ],
     "d7": [
@@ -2495,7 +2495,7 @@
       },
       {
         "company": "Check Point",
-        "count": 35,
+        "count": 37,
         "city": "Tel Aviv",
         "domain": "checkpoint.com"
       }
