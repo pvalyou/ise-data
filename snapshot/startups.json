@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T07:31:21.928Z",
+  "generatedAt": "2026-09-27T08:03:01.640Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 37636,
-      "delta24h": 207
+      "delta24h": 202
     },
     "totalFunding": {
       "valueUsd": 224685779652,
@@ -2215,17 +2215,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Cyera",
         "stage": "Series G",
         "amountUsd": 400000000,
@@ -2245,6 +2234,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2369,6 +2369,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lasso Security",
+        "stage": "Series A",
+        "amountUsd": 30000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Huskeys",
         "stage": "Series A",
         "amountUsd": 27000000,
@@ -2380,14 +2391,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2407,17 +2418,6 @@
         "amountUsd": 300000000,
         "investors": [],
         "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2879,10 +2879,10 @@
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Island",
-        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2895,22 +2895,22 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
+        "org": "Wand",
+        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Wand",
-        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Island",
+        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Upwind",
-        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+        "org": "Ottopia Technologies",
+        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2923,8 +2923,8 @@
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Ottopia Technologies",
-        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
+        "org": "Upwind",
+        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2978,27 +2978,6 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "HAHAMI CONNECT",
-        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "QUANTUMQSECURITY",
-        "summary": "QuantumQ Security launched a multi-dimensional quantum cybersecurity architecture program built around three complementary dimensions: Detect (anomaly/attack identification), Encrypt (confidentiality) and Verify (authenticity, integrity and ownership), spanning technology programs LayerQake, Qatacomb and verification technologies at different stages of development and IP protection."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "EAZYDONE",
         "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
@@ -3009,6 +2988,27 @@
         "rawKind": "Revenue Milestone",
         "org": "MIND",
         "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Pagaya",
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Silynx Communications",
+        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CYDELPHI",
+        "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
       }
     ]
   }
