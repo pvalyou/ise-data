@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T06:02:38.197Z",
+  "generatedAt": "2026-09-28T06:46:42.356Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 37735,
-      "delta24h": 129
+      "delta24h": 111
     },
     "totalFunding": {
       "valueUsd": 224878581236,
@@ -178,7 +178,7 @@
       "total": 179483,
       "delta30d": 0
     },
-    "openJobs": 21206
+    "openJobs": 21207
   },
   "map": {
     "districts": [
@@ -2215,17 +2215,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2245,6 +2234,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2380,6 +2380,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 300000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Lyte",
         "stage": "Series C",
         "amountUsd": 165000000,
@@ -2407,17 +2418,6 @@
         "amountUsd": 550000000,
         "investors": [],
         "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
-        "investors": [],
-        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2893,17 +2893,17 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Ottopia Technologies",
-        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Upwind",
         "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Ottopia Technologies",
+        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2929,16 +2929,16 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
+        "rawKind": "Market Expansion",
+        "org": "Nice",
+        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Nice",
-        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2972,15 +2972,8 @@
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "CYDELPHI",
-        "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EAZYDONE",
-        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
+        "org": "HAHAMI CONNECT",
+        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2992,9 +2985,16 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Silynx Communications",
-        "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+        "rawKind": "Executive Appointment",
+        "org": "Pagaya",
+        "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EAZYDONE",
+        "summary": "EazyDone partnered with laundry service Poplin for a back-to-school promotion: EazyDone customers get 20% off their first Poplin order with code EAZYDONE (valid through November 1, 2026). The partnership launched in Boston, with plans for growth to more markets."
       }
     ]
   }
