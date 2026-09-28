@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T13:03:04.148Z",
+  "generatedAt": "2026-09-28T14:02:53.269Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 37738,
-      "delta24h": 53
+      "delta24h": 48
     },
     "totalFunding": {
       "valueUsd": 225320234236,
@@ -178,7 +178,7 @@
       "total": 179500,
       "delta30d": 0
     },
-    "openJobs": 21179
+    "openJobs": 21242
   },
   "map": {
     "districts": [
@@ -2259,17 +2259,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Noetive",
         "stage": "Seed",
         "amountUsd": 41000000,
@@ -2278,6 +2267,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2325,17 +2325,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2344,6 +2333,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2927,10 +2927,10 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "RealSense",
-        "summary": "Acquired by Cognex Corporation: Cognex (NASDAQ: CGNX) signed a definitive agreement to acquire RealSense for approximately $500 million in cash (total deal value ~$600 million including a $56.5M retention program and ~$50M in RSUs), expanding into robotic perception and Physical AI. Expected to close in Q4 2026; prior to closing, RealSense will spin out its Facial Authentication product line into an independent biometrics company. RealSense expects $80-90M revenue in 2026 (50%+ growth)."
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Nice",
+        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2941,24 +2941,17 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "RealSense",
+        "summary": "Acquired by Cognex Corporation: Cognex (NASDAQ: CGNX) signed a definitive agreement to acquire RealSense for approximately $500 million in cash (total deal value ~$600 million including a $56.5M retention program and ~$50M in RSUs), expanding into robotic perception and Physical AI. Expected to close in Q4 2026; prior to closing, RealSense will spin out its Facial Authentication product line into an independent biometrics company. RealSense expects $80-90M revenue in 2026 (50%+ growth)."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Nice",
-        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
-      },
-      {
-        "ts": "2026-09-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Nice",
-        "summary": "Named a Leader and highest-ranked vendor in SWOTANDGIST's 2026 GIST Cube Analysis for Customer Journey Management, recognized for excellence across Growth, Innovation, Sustainability and Technology."
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2966,6 +2959,13 @@
         "rawKind": "Other",
         "org": "Meshek Energy Renewable Energies",
         "summary": "Meshek Energy - Renewable Energies Ltd. (TASE: MSKE) was added to the FTSE All-World Index (USD)."
+      },
+      {
+        "ts": "2026-09-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Nice",
+        "summary": "Named a Leader and highest-ranked vendor in SWOTANDGIST's 2026 GIST Cube Analysis for Customer Journey Management, recognized for excellence across Growth, Innovation, Sustainability and Technology."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2984,6 +2984,13 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "QUANTUMQSECURITY",
+        "summary": "QuantumQ Security launched a multi-dimensional quantum cybersecurity architecture program built around three complementary dimensions: Detect (anomaly/attack identification), Encrypt (confidentiality) and Verify (authenticity, integrity and ownership), spanning technology programs LayerQake, Qatacomb and verification technologies at different stages of development and IP protection."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Pagaya",
         "summary": "Appointed payments pioneer Jason Gardner to its Board of Directors."
@@ -2991,23 +2998,16 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Nofar Energy",
-        "summary": "Commercial commissioning of the Iepuresti (169.4 MWp) and Ghimpati (146 MWp) solar parks in Romania, over 315 MWp combined; the 146 MW Ghimpati plant was energised on July 29, 2026, bringing total connected solar capacity in Romania to 315 MW."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CYDELPHI",
-        "summary": "Cydelphi unveiled CYVISIONARY\u2122, billed as the industry's first AI-native DFIR platform purpose-built for AI-enabled cyberattacks, automating enterprise-grade catastrophic breach preparation, response, and recovery."
-      },
-      {
-        "ts": "2026-09-17T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Customer Milestone",
         "org": "Silynx Communications",
         "summary": "Received two consecutive orders totaling approximately $400,000 from a leading global defense company, for CLARUS In-Ear Headset systems designated for a European army."
+      },
+      {
+        "ts": "2026-09-17T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "MIND",
+        "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
       }
     ]
   }
