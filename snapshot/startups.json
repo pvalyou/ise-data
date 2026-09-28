@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T06:46:42.356Z",
+  "generatedAt": "2026-09-28T08:01:09.399Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,12 +159,12 @@
   },
   "kpis": {
     "startups": {
-      "value": 37735,
-      "delta24h": 111
+      "value": 37736,
+      "delta24h": 100
     },
     "totalFunding": {
-      "valueUsd": 224878581236,
-      "rounds": 29387
+      "valueUsd": 224879006236,
+      "rounds": 29388
     },
     "exits": {
       "count": 3409,
@@ -1075,7 +1075,7 @@
         "inactive": 422,
         "active": 19771,
         "closed": 13790,
-        "unknown": 3752
+        "unknown": 3753
       }
     },
     "funding": {
@@ -1169,7 +1169,7 @@
         2105,
         1988,
         1516,
-        1451,
+        1452,
         1405,
         623
       ],
@@ -1216,7 +1216,7 @@
         39108253010,
         24000791702,
         12187900063,
-        15531297651,
+        15531722651,
         23825436518,
         27346306818
       ],
@@ -1440,13 +1440,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 21655,
+      "active": 21656,
       "closed": 12671,
       "exited": 3409
     },
     "funnel": {
-      "all": 37735,
-      "funded": 15581,
+      "all": 37736,
+      "funded": 15582,
       "over1m": 6191,
       "over10m": 3083,
       "over100m": 561,
@@ -1840,37 +1840,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 14694,
-        "share": 0.40464847299865064
+        "share": 0.4046373299553891
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6837,
-        "share": 0.1882796794536392
+        "share": 0.18827449468524535
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 6600,
-        "share": 0.18175309117946742
+        "share": 0.18174808613757779
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1630,
-        "share": 0.04488750585189877
+        "count": 1631,
+        "share": 0.0449138073470287
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2164,
-        "share": 0.059592983229146586
+        "share": 0.05959134218207854
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4388,
-        "share": 0.12083826728719742
+        "share": 0.12083493969268051
       }
     ],
     "mixSummary": {
@@ -2194,7 +2194,7 @@
       }
     ],
     "signals": {
-      "deeptechCount": 10077,
+      "deeptechCount": 10078,
       "deeptechPct": 26.7,
       "globalCount": 15578,
       "globalPct": 41.3
@@ -2212,17 +2212,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series F"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2245,6 +2234,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2369,14 +2369,25 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
+        "org": "Lasso Security",
         "stage": "Series A",
-        "amountUsd": 27000000,
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2402,25 +2413,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
+        "org": "Huskeys",
         "stage": "Series A",
-        "amountUsd": 30000000,
+        "amountUsd": 27000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       }
     ],
     "todayStats": {
@@ -2429,6 +2429,24 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-09-28T07:01:35.749Z",
+        "org": "ElectricAlgea",
+        "industry": "Energy and Utilities",
+        "city": "",
+        "subIndustry": "Renewable Energy",
+        "description": "Develops a process for generating electrical energy from algae using bio-photoelectrochemical cells and photosynthetic reactions.",
+        "keywords": [
+          "Algae energy",
+          "Bio-photoelectrochemical cells",
+          "Renewable electricity",
+          "Algal photosynthesis",
+          "Clean energy technology",
+          "Energy conversion"
+        ],
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-09-28T04:51:53.812Z",
         "org": "Traffix Safety",
@@ -2831,28 +2849,6 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-09-27T21:07:59.310Z",
-        "org": "SKI PROFESSOR",
-        "industry": "Consumer Goods and Services",
-        "city": "Holon",
-        "subIndustry": "Education & Training",
-        "description": "Provides certified ski and snowboard instruction, private and group lessons, equipment rental, transfers, and customized ski travel packages for individuals, families, and groups.",
-        "domain": "skiprofessor.co.il",
-        "keywords": [
-          "Ski instruction",
-          "Snowboard lessons",
-          "Private ski lessons",
-          "Group ski lessons",
-          "Kids ski lessons",
-          "Ski equipment rental",
-          "Ski packages",
-          "Ski resort transfers",
-          "Winter sports training"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
@@ -2881,22 +2877,22 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Wand",
-        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
+        "org": "Wand",
+        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Upwind",
-        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+        "org": "Ottopia Technologies",
+        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2909,8 +2905,8 @@
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Ottopia Technologies",
-        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
+        "org": "Upwind",
+        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2918,6 +2914,13 @@
         "rawKind": "Acquisition",
         "org": "RealSense",
         "summary": "Acquired by Cognex Corporation: Cognex (NASDAQ: CGNX) signed a definitive agreement to acquire RealSense for approximately $500 million in cash (total deal value ~$600 million including a $56.5M retention program and ~$50M in RSUs), expanding into robotic perception and Physical AI. Expected to close in Q4 2026; prior to closing, RealSense will spin out its Facial Authentication product line into an independent biometrics company. RealSense expects $80-90M revenue in 2026 (50%+ growth)."
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2934,11 +2937,11 @@
         "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
       },
       {
-        "ts": "2026-09-22T00:00:00.000Z",
+        "ts": "2026-09-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
+        "org": "Meshek Energy Renewable Energies",
+        "summary": "Meshek Energy - Renewable Energies Ltd. (TASE: MSKE) was added to the FTSE All-World Index (USD)."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2946,13 +2949,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Froyoo",
         "summary": "Froyoo was named an early adopter of IPinfo's newly launched Places venue-level IP data product, using venue name and category to enrich inventory and build location-targeted campaigns; Froyoo has been an IPinfo customer since June 2023 and currently adds venue context to approximately 7% of its daily active users."
-      },
-      {
-        "ts": "2026-09-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Meshek Energy Renewable Energies",
-        "summary": "Meshek Energy - Renewable Energies Ltd. (TASE: MSKE) was added to the FTSE All-World Index (USD)."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
@@ -2971,9 +2967,9 @@
       {
         "ts": "2026-09-17T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "HAHAMI CONNECT",
-        "summary": "Released Haflaga 2.0, a major update of its water-experiences booking app (iOS App Store version 2.0.0 dated Sep 17; Google Play updated Sep 16, 2026), adding experiences by vibe, request-an-experience flow, multilingual listings (English/Hebrew/French/Russian) and guest browsing."
+        "rawKind": "Revenue Milestone",
+        "org": "MIND",
+        "summary": "MIND reached a $10 million annual revenue run rate roughly 18 months after beginning to sell its product, with over 1,700% revenue growth and 800% customer growth in the past year (announced alongside its Series B)."
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
