@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-09-30T02:33:32.893484Z",
+  "generatedAt": "2026-09-30T03:33:14.223573Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0
     ],
     "newOrgs": [
@@ -182,8 +182,8 @@
       188,
       178,
       24,
-      36,
-      4
+      37,
+      5
     ],
     "exits": [
       0,
@@ -283,13 +283,13 @@
     ],
     "jobsPosted": [
       206,
-      180,
+      179,
       152,
       26,
       10,
       205,
-      185,
-      211,
+      184,
+      209,
       229,
       198,
       59,
@@ -309,8 +309,8 @@
       73,
       38,
       203,
-      236,
-      262,
+      235,
+      267,
       0
     ],
     "newFounders": [
@@ -343,7 +343,7 @@
       248,
       37,
       30,
-      14
+      16
     ],
     "investments": [
       8,
@@ -374,7 +374,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0
     ],
     "fundingStages": [
@@ -440,7 +440,9 @@
       {},
       {},
       {},
-      {},
+      {
+        "Series B": 1
+      },
       {}
     ],
     "fundingUsd": [
@@ -472,20 +474,20 @@
       0,
       0,
       0,
-      0,
+      25000000,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 1,
-      "d30": 24
+      "d7": 2,
+      "d30": 25
     },
     "newOrgs": {
-      "d1": 39,
-      "d7": 730,
-      "d30": 1970
+      "d1": 41,
+      "d7": 732,
+      "d30": 1972
     },
     "exits": {
       "d1": 0,
@@ -504,23 +506,23 @@
     },
     "jobsPosted": {
       "d1": 0,
-      "d7": 1224,
+      "d7": 1228,
       "d30": 5095
     },
     "newFounders": {
-      "d1": 42,
-      "d7": 593,
-      "d30": 1599
+      "d1": 44,
+      "d7": 595,
+      "d30": 1601
     },
     "investments": {
       "d1": 0,
-      "d7": 12,
-      "d30": 125
+      "d7": 13,
+      "d30": 126
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 400000000,
-      "d30": 2722000000
+      "d7": 425000000,
+      "d30": 2747000000
     }
   },
   "news": {
@@ -1946,6 +1948,14 @@
   ],
   "investments": [
     {
+      "ts": "2026-09-29",
+      "investor": "Apax Partners (AMI)",
+      "company": "HyperGuest",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
       "ts": "2026-09-24",
       "investor": "Alta Park Capital",
       "company": "Island",
@@ -2096,14 +2106,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": null
-    },
-    {
-      "ts": "2026-09-17",
-      "investor": "Paladin Capital Group",
-      "company": "MIND",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "paladincapgroup.com"
     }
   ],
   "patents": [
@@ -2142,22 +2144,6 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "Wiz",
-      "title": "Techniques for circumventing provider-imposed limitations in snapshot inspection of disks for cybersecurity",
-      "number": "12739106",
-      "url": "https://patents.google.com/patent/US12739106B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Wiz",
-      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
-      "number": "12737175",
-      "url": "https://patents.google.com/patent/US12737175B1/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
       "org": "Vidubly",
       "title": "Generating translated media streams with accent",
       "number": "12739294",
@@ -2166,10 +2152,26 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
+      "org": "Wiz",
+      "title": "Techniques for circumventing provider-imposed limitations in snapshot inspection of disks for cybersecurity",
+      "number": "12739106",
+      "url": "https://patents.google.com/patent/US12739106B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
       "org": "UnifabriX",
       "title": "Translating between cxl.mem and cxl.cache read transactions",
       "number": "12737313",
       "url": "https://patents.google.com/patent/US12737313B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "Wiz",
+      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
+      "number": "12737175",
+      "url": "https://patents.google.com/patent/US12737175B1/en"
     },
     {
       "ts": "2026-09-15",
@@ -2265,6 +2267,10 @@
       "d1": [],
       "d7": [
         {
+          "label": "Series B",
+          "count": 1
+        },
+        {
           "label": "Series F",
           "count": 1
         }
@@ -2284,7 +2290,7 @@
         },
         {
           "label": "Series B",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Series F",
@@ -2316,7 +2322,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Healthcare and Food",
@@ -2324,7 +2330,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Unknown",
@@ -2338,11 +2344,11 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 204
+          "count": 205
         },
         {
           "label": "Media and Entertainment",
-          "count": 79
+          "count": 80
         },
         {
           "label": "Healthcare and Food",
@@ -2364,7 +2370,7 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 655
+          "count": 656
         },
         {
           "label": "Consumer Goods and Services",
@@ -2372,7 +2378,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 186
+          "count": 187
         },
         {
           "label": "Healthcare and Food",
