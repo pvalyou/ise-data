@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T04:31:11.812Z",
+  "generatedAt": "2026-10-02T05:31:18.392Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,10 +160,10 @@
   "kpis": {
     "startups": {
       "value": 37849,
-      "delta24h": 33
+      "delta24h": 32
     },
     "totalFunding": {
-      "valueUsd": 227310492236,
+      "valueUsd": 227327592236,
       "rounds": 29476
     },
     "exits": {
@@ -171,14 +171,14 @@
       "valueUsd": 329769091700
     },
     "employees": {
-      "total": 812107,
+      "total": 812256,
       "avgPerStartup": 29
     },
     "patents": {
       "total": 181546,
       "delta30d": 0
     },
-    "openJobs": 21586
+    "openJobs": 21581
   },
   "map": {
     "districts": [
@@ -1218,15 +1218,15 @@
         12165778063,
         15695307651,
         24118636518,
-        27466656818
+        27483756818
       ],
       "stageMix": {
         "Seed": 13695,
         "Series A": 3915,
-        "Other": 3359,
-        "Series B": 1967,
-        "Series Unknown": 1332,
-        "Series C": 1265,
+        "Other": 3357,
+        "Series B": 1968,
+        "Series Unknown": 1334,
+        "Series C": 1264,
         "Unknown": 840,
         "Angel": 838
       }
@@ -2236,17 +2236,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2266,6 +2255,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2390,22 +2390,11 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lyte",
+        "org": "Upwind",
         "stage": "Series C",
-        "amountUsd": 165000000,
+        "amountUsd": 300000000,
         "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2420,6 +2409,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "$30M Funding Round"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       }
     ],
     "todayStats": {
@@ -2933,10 +2933,24 @@
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "MMDSmart",
+        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Award Recognition",
         "org": "Island",
         "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2953,27 +2967,6 @@
         "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
       },
       {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "MMDSmart",
-        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Ottopia Technologies",
-        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
-      },
-      {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
@@ -2988,6 +2981,13 @@
         "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
       },
       {
+        "ts": "2026-09-23T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Ottopia Technologies",
+        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
+      },
+      {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Award Recognition",
@@ -2997,9 +2997,9 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
+        "rawKind": "Product Launch",
+        "org": "Pagaya",
+        "summary": "Closed a 24-month $460 million revolving personal loan facility, expanding its asset-backed funding capacity."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -3011,16 +3011,16 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Nice",
-        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Pagaya",
-        "summary": "Closed a 24-month $460 million revolving personal loan facility, expanding its asset-backed funding capacity."
+        "rawKind": "Market Expansion",
+        "org": "Nice",
+        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
