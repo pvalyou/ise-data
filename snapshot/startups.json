@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T14:01:33.313Z",
+  "generatedAt": "2026-10-02T15:03:28.910Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 37863,
-      "delta24h": 36
+      "delta24h": 35
     },
     "totalFunding": {
       "valueUsd": 227464392236,
@@ -2237,17 +2237,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2269,12 +2258,34 @@
         "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
         "ts": "2026-09-17T00:00:00.000Z",
         "org": "MIND",
         "stage": "Series B",
         "amountUsd": 72000000,
         "investors": [],
         "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
@@ -2289,17 +2300,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2391,14 +2391,25 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Wonderful",
+        "stage": "Series C",
+        "amountUsd": 550000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2407,17 +2418,6 @@
         "amountUsd": 300000000,
         "investors": [],
         "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2908,22 +2908,15 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Award Recognition",
-        "org": "Monogoto",
-        "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
         "org": "Island",
         "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "MMDSmart",
-        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Monogoto",
+        "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2931,6 +2924,13 @@
         "rawKind": "Acquisition",
         "org": "Wand",
         "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "MMDSmart",
+        "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2970,9 +2970,9 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Pagaya",
-        "summary": "Closed a 24-month $460 million revolving personal loan facility, expanding its asset-backed funding capacity."
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2984,16 +2984,16 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Ivalua",
-        "summary": "Ivalua was named a Leader in the IDC MarketScape: Worldwide AI-Enabled Direct Spend evaluation."
+        "rawKind": "Product Launch",
+        "org": "Pagaya",
+        "summary": "Closed a 24-month $460 million revolving personal loan facility, expanding its asset-backed funding capacity."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Enlivex Therapeutics",
-        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
+        "rawKind": "Award Recognition",
+        "org": "Ivalua",
+        "summary": "Ivalua was named a Leader in the IDC MarketScape: Worldwide AI-Enabled Direct Spend evaluation."
       },
       {
         "ts": "2026-09-21T00:00:00.000Z",
