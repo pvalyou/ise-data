@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-04T04:32:53.686239Z",
+  "generatedAt": "2026-10-04T05:32:53.694466Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       29,
       37,
       23,
-      15
+      20
     ],
     "exits": [
       0,
@@ -236,7 +236,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -343,7 +343,7 @@
       25,
       39,
       36,
-      6
+      9
     ],
     "investments": [
       0,
@@ -477,9 +477,9 @@
       "d30": 16
     },
     "newOrgs": {
-      "d1": 35,
-      "d7": 203,
-      "d30": 2069
+      "d1": 37,
+      "d7": 208,
+      "d30": 2074
     },
     "exits": {
       "d1": 0,
@@ -489,7 +489,7 @@
     "firstChecks": {
       "d1": 0,
       "d7": 0,
-      "d30": 9
+      "d30": 10
     },
     "patentsIssued": {
       "d1": 0,
@@ -502,9 +502,9 @@
       "d30": 4728
     },
     "newFounders": {
-      "d1": 36,
-      "d7": 216,
-      "d30": 1674
+      "d1": 30,
+      "d7": 219,
+      "d30": 1677
     },
     "investments": {
       "d1": 0,
@@ -1906,6 +1906,12 @@
   ],
   "firstChecks": [
     {
+      "ts": "2026-09-23",
+      "investor": "Ysios Capital",
+      "kind": "fund",
+      "company": "Anaconda Biomed"
+    },
+    {
       "ts": "2026-09-16",
       "investor": null,
       "kind": "angel",
@@ -2102,7 +2108,7 @@
       "investor": "Ysios Capital",
       "company": "Anaconda Biomed",
       "kind": "fund",
-      "isFirst": false,
+      "isFirst": true,
       "domain": "ysioscapital.com"
     },
     {
@@ -2166,26 +2172,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "UnifabriX",
-      "title": "Translating between cxl.mem and cxl.cache read transactions",
-      "number": "12737313",
-      "url": "https://patents.google.com/patent/US12737313B2/en"
+      "org": "Wiz",
+      "title": "Techniques for circumventing provider-imposed limitations in snapshot inspection of disks for cybersecurity",
+      "number": "12739106",
+      "url": "https://patents.google.com/patent/US12739106B2/en"
     },
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "Inspekto",
-      "title": "Adaptive system and method for inspection of imaged items",
-      "number": "12737875",
-      "url": "https://patents.google.com/patent/US12737875B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Vidubly",
-      "title": "Generating translated media streams with accent",
-      "number": "12739294",
-      "url": "https://patents.google.com/patent/US12739294B2/en"
+      "org": "Wiz",
+      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
+      "number": "12737175",
+      "url": "https://patents.google.com/patent/US12737175B1/en"
     },
     {
       "ts": "2026-09-15",
@@ -2198,10 +2196,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "Wiz",
-      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
-      "number": "12737175",
-      "url": "https://patents.google.com/patent/US12737175B1/en"
+      "org": "Inspekto",
+      "title": "Adaptive system and method for inspection of imaged items",
+      "number": "12737875",
+      "url": "https://patents.google.com/patent/US12737875B2/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "UnifabriX",
+      "title": "Translating between cxl.mem and cxl.cache read transactions",
+      "number": "12737313",
+      "url": "https://patents.google.com/patent/US12737313B2/en"
     }
   ],
   "jobs": [
@@ -2323,12 +2329,12 @@
     "industries": {
       "d1": [
         {
-          "label": "IT and Telecom",
-          "count": 15
+          "label": "Consumer Goods and Services",
+          "count": 17
         },
         {
-          "label": "Consumer Goods and Services",
-          "count": 14
+          "label": "IT and Telecom",
+          "count": 15
         },
         {
           "label": "Unknown",
@@ -2336,21 +2342,21 @@
         },
         {
           "label": "Healthcare and Food",
-          "count": 2
+          "count": 1
         },
         {
-          "label": "Financial Services",
+          "label": "Media and Entertainment",
           "count": 1
         }
       ],
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 71
+          "count": 74
         },
         {
           "label": "IT and Telecom",
-          "count": 63
+          "count": 64
         },
         {
           "label": "Healthcare and Food",
@@ -2358,7 +2364,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 18
+          "count": 19
         },
         {
           "label": "Unknown",
@@ -2376,15 +2382,15 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 688
+          "count": 689
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 681
+          "count": 684
         },
         {
           "label": "Media and Entertainment",
-          "count": 196
+          "count": 197
         },
         {
           "label": "Healthcare and Food",
