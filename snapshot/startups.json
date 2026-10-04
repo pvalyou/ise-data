@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:12:29.966Z",
+  "generatedAt": "2026-10-04T11:01:29.749Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 37964,
-      "delta24h": 72
+      "value": 37978,
+      "delta24h": 85
     },
     "totalFunding": {
       "valueUsd": 228288127236,
@@ -171,28 +171,28 @@
       "valueUsd": 329854805100
     },
     "employees": {
-      "total": 813147,
+      "total": 813151,
       "avgPerStartup": 28
     },
     "patents": {
       "total": 181546,
       "delta30d": 0
     },
-    "openJobs": 21462
+    "openJobs": 21480
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6912
+        "count": 6915
       },
       {
         "name": "Central",
-        "count": 3977
+        "count": 3984
       },
       {
         "name": "Haifa",
-        "count": 1396
+        "count": 1397
       },
       {
         "name": "Jerusalem",
@@ -204,7 +204,7 @@
       },
       {
         "name": "Northern",
-        "count": 456
+        "count": 457
       },
       {
         "name": "Judea & Samaria",
@@ -217,14 +217,14 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4353
+        "count": 4355
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 778
+        "count": 779
       },
       {
         "name": "Ramat Gan",
@@ -245,7 +245,7 @@
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 635
+        "count": 636
       },
       {
         "name": "Haifa",
@@ -259,14 +259,14 @@
         "district": "Central",
         "lat": 32.1847,
         "lng": 34.8708,
-        "count": 428
+        "count": 429
       },
       {
         "name": "Netanya",
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 368
+        "count": 370
       },
       {
         "name": "Rehovot",
@@ -287,7 +287,7 @@
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 321
+        "count": 322
       },
       {
         "name": "Bnei Brak",
@@ -315,7 +315,7 @@
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 220
+        "count": 221
       },
       {
         "name": "Caesarea",
@@ -392,7 +392,7 @@
         "district": "Central",
         "lat": 31.8781,
         "lng": 34.7381,
-        "count": 94
+        "count": 95
       },
       {
         "name": "Ashkelon",
@@ -451,6 +451,13 @@
         "count": 52
       },
       {
+        "name": "Pardes Hanna-Karkur",
+        "district": "Haifa",
+        "lat": 32.4718,
+        "lng": 34.972,
+        "count": 52
+      },
+      {
         "name": "Shoham",
         "district": "Central",
         "lat": 32.0014,
@@ -469,13 +476,6 @@
         "district": "Northern",
         "lat": 32.6747,
         "lng": 35.2406,
-        "count": 51
-      },
-      {
-        "name": "Pardes Hanna-Karkur",
-        "district": "Haifa",
-        "lat": 32.4718,
-        "lng": 34.972,
         "count": 51
       },
       {
@@ -528,18 +528,18 @@
         "count": 39
       },
       {
+        "name": "Karmiel",
+        "district": "Northern",
+        "lat": 32.9171,
+        "lng": 35.2949,
+        "count": 38
+      },
+      {
         "name": "Tel Mond",
         "district": "Central",
         "lat": 32.2514,
         "lng": 34.9175,
         "count": 38
-      },
-      {
-        "name": "Karmiel",
-        "district": "Northern",
-        "lat": 32.9171,
-        "lng": 35.2949,
-        "count": 37
       },
       {
         "name": "Sderot",
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2333
+    "unresolvedCount": 2336
   },
   "overTime": {
     "foundedClosed": {
@@ -986,7 +986,7 @@
         1853,
         1798,
         1723,
-        1944,
+        1958,
         2122,
         1707,
         1547,
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 19991,
+        "active": 20005,
         "closed": 13794,
         "unknown": 3758
       }
@@ -1440,12 +1440,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 21868,
+      "active": 21882,
       "closed": 12669,
       "exited": 3427
     },
     "funnel": {
-      "all": 37964,
+      "all": 37978,
       "funded": 15650,
       "over1m": 6254,
       "over10m": 3112,
@@ -1476,10 +1476,10 @@
       },
       {
         "year": 2020,
-        "total": 1944,
+        "total": 1958,
         "exited": 87,
         "closed": 471,
-        "active": 1386
+        "active": 1400
       },
       {
         "year": 2021,
@@ -1689,23 +1689,23 @@
       },
       {
         "year": 2020,
-        "total": 1879,
+        "total": 1893,
         "unknown": 65,
         "counts": {
-          "it-telecom": 680,
-          "healthcare-food": 432,
-          "consumer-goods-services": 381,
+          "it-telecom": 681,
+          "healthcare-food": 434,
+          "consumer-goods-services": 391,
           "energy-utilities": 67,
           "financial-services": 136,
-          "media-entertainment": 183
+          "media-entertainment": 184
         },
         "shares": {
-          "it-telecom": 0.3618946248004258,
-          "healthcare-food": 0.22990952634379988,
-          "consumer-goods-services": 0.20276742948376797,
-          "energy-utilities": 0.03565726450239489,
-          "financial-services": 0.07237892496008515,
-          "media-entertainment": 0.09739222990952634
+          "it-telecom": 0.35974643423137875,
+          "healthcare-food": 0.22926571579503432,
+          "consumer-goods-services": 0.20655044902271527,
+          "energy-utilities": 0.035393555203380875,
+          "financial-services": 0.07184363444268357,
+          "media-entertainment": 0.09720021130480719
         }
       },
       {
@@ -1839,42 +1839,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14765,
-        "share": 0.40421046868155935
+        "count": 14766,
+        "share": 0.4040829730173499
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6864,
-        "share": 0.18791064388961892
+        "count": 6866,
+        "share": 0.18789338295659788
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6681,
-        "share": 0.18290078843626806
+        "count": 6691,
+        "share": 0.1831043730501888
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1636,
-        "share": 0.04478756022777048
+        "share": 0.044770401182201304
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2173,
-        "share": 0.059488611476127905
+        "share": 0.05946582015215369
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 4409,
-        "share": 0.12070192728865528
+        "count": 4410,
+        "share": 0.1206830496415084
       }
     ],
     "mixSummary": {
-      "totalVisible": 16160,
+      "totalVisible": 16174,
       "totalUnknown": 647
     },
     "subTrendYears": [
@@ -1911,7 +1911,7 @@
           0.03450194769059544,
           0.02464183381088825,
           0.03672486453943408,
-          0.028692879914984058,
+          0.028481012658227847,
           0.029975429975429974,
           0.03513022410660206,
           0.06070713809206137,
@@ -1941,7 +1941,7 @@
           0.048414023372287146,
           0.05902578796561605,
           0.047561709813365445,
-          0.048352816153028694,
+          0.047995780590717296,
           0.04914004914004914,
           0.06117504542701393,
           0.0513675783855904,
@@ -1953,13 +1953,13 @@
       {
         "name": "Enterprise Software",
         "parent": "Unknown",
-        "total": 2435,
+        "total": 2436,
         "shareDelta": 0.013,
         "counts": [
           246,
           257,
           247,
-          298,
+          299,
           279,
           247,
           268,
@@ -1971,7 +1971,7 @@
           0.13689482470784642,
           0.1472779369627507,
           0.14870559903672487,
-          0.15834218916046758,
+          0.15770042194092826,
           0.1371007371007371,
           0.14960629921259844,
           0.17878585723815876,
@@ -2001,7 +2001,7 @@
           0.017807456872565387,
           0.014326647564469915,
           0.018061408789885613,
-          0.013283740701381509,
+          0.013185654008438819,
           0.013759213759213759,
           0.016959418534221685,
           0.025350233488992662,
@@ -2031,7 +2031,7 @@
           0.008347245409015025,
           0.010315186246418338,
           0.007224563515954244,
-          0.013283740701381509,
+          0.013185654008438819,
           0.011302211302211302,
           0.01029678982434888,
           0.01134089392928619,
@@ -2063,7 +2063,7 @@
           0.03672787979966611,
           0.02979942693409742,
           0.009030704394942806,
-          0.010095642933049946,
+          0.010021097046413503,
           0.016707616707616706,
           0.016959418534221685,
           0.008005336891260841,
@@ -2075,13 +2075,13 @@
       {
         "name": "Medical Devices",
         "parent": "Healthcare and Food",
-        "total": 816,
+        "total": 817,
         "shareDelta": -0.015,
         "counts": [
           119,
           90,
           94,
-          124,
+          125,
           91,
           88,
           73,
@@ -2093,7 +2093,7 @@
           0.06622148024485253,
           0.05157593123209169,
           0.056592414208308246,
-          0.06588735387885228,
+          0.06592827004219409,
           0.04471744471744472,
           0.05330102967898243,
           0.04869913275517011,
@@ -2123,7 +2123,7 @@
           0.02448525319977741,
           0.026934097421203437,
           0.03732691149909693,
-          0.031880977683315624,
+          0.03164556962025317,
           0.023095823095823097,
           0.03210175651120533,
           0.02068045363575717,
@@ -2153,7 +2153,7 @@
           0.032276015581524764,
           0.03553008595988539,
           0.03732691149909693,
-          0.0334750265674814,
+          0.03322784810126582,
           0.03144963144963145,
           0.025439127801332527,
           0.028685790527018012,
@@ -2165,13 +2165,13 @@
       {
         "name": "Advertising Technology",
         "parent": "IT and Telecom",
-        "total": 393,
+        "total": 394,
         "shareDelta": -0.01,
         "counts": [
           77,
           43,
           47,
-          46,
+          47,
           47,
           28,
           29,
@@ -2183,7 +2183,7 @@
           0.04284919309961046,
           0.02464183381088825,
           0.028296207104154123,
-          0.024442082890541977,
+          0.024789029535864978,
           0.023095823095823097,
           0.016959418534221685,
           0.019346230820547032,
@@ -2196,7 +2196,7 @@
     "signals": {
       "deeptechCount": 10087,
       "deeptechPct": 26.6,
-      "globalCount": 15659,
+      "globalCount": 15664,
       "globalPct": 41.2
     }
   },
@@ -2237,14 +2237,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2259,14 +2259,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2281,17 +2281,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2300,6 +2289,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2391,6 +2391,17 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
         "org": "Upwind",
         "stage": "Series C",
         "amountUsd": 300000000,
@@ -2402,25 +2413,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
+        "org": "Lasso Security",
         "stage": "Series A",
-        "amountUsd": 27000000,
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "$30M Funding Round"
       }
     ],
     "todayStats": {
@@ -2429,6 +2429,321 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-04T10:48:35.499Z",
+        "org": "MY LEXIS",
+        "industry": "Consumer Goods and Services",
+        "city": "Tamra",
+        "subIndustry": "Education & Training",
+        "description": "Digital educational ecosystem providing interactive language-learning content, AI-enhanced study tools, and career guidance for learners across school, university, professional, and adult-education settings.",
+        "domain": "mylexisplus.com",
+        "keywords": [
+          "Online language learning",
+          "Interactive learning content",
+          "AI-enhanced learning",
+          "Vocabulary learning",
+          "English and Hebrew education",
+          "Career guidance",
+          "Digital learning ecosystem",
+          "School learning content"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:40:51.376Z",
+        "org": "ELLA TU",
+        "industry": "Consumer Goods and Services",
+        "city": "Herzliya",
+        "subIndustry": "Personal Care & Beauty",
+        "description": "Premium hair care brand offering shampoos, conditioners, masks, serums, fragrances, and coordinated care sets formulated to moisturize, repair, nourish, and protect dry or chemically treated hair.",
+        "domain": "ellatu.co.il",
+        "keywords": [
+          "Premium hair care",
+          "Hair repair",
+          "Hair moisturization",
+          "Dry hair treatment",
+          "Chemically treated hair",
+          "SLS-free shampoo",
+          "Hyaluronic acid hair care",
+          "Hair conditioning",
+          "Hair masks",
+          "Hair serums"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:40:15.870Z",
+        "org": "LELLOUCHE GROUP",
+        "industry": "Consumer Goods and Services",
+        "city": "Giv'atayim",
+        "subIndustry": "Personal Care & Beauty",
+        "description": "A skincare company operating an advanced aesthetic clinic and selling active cosmetic products for acne, redness, pigmentation, anti-aging, and skin renewal. The business combines personalized in-clinic treatments with at-home skincare formulations and online product sales.",
+        "domain": "dr-lellouche.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/f0babed4-591f-477a-85dc-5f9e2716f43f.jpg",
+        "keywords": [
+          "Active skincare",
+          "Aesthetic clinic",
+          "Acne treatment",
+          "Rosacea care",
+          "Pigmentation treatment",
+          "Anti-aging skincare",
+          "Chemical peels",
+          "Skin rejuvenation",
+          "Personalized skincare"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:34:24.267Z",
+        "org": "ADISS FASHION",
+        "industry": "Consumer Goods and Services",
+        "city": "Yavne",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Online retailer and importer of boutique footwear and accessories, offering shoes, sandals, boots, flats, and backpacks through an e-commerce storefront at affordable prices.",
+        "domain": "adiss.co.il",
+        "keywords": [
+          "Online footwear retailer",
+          "Boutique shoes",
+          "Women's footwear",
+          "Affordable fashion footwear",
+          "Sandals",
+          "Boots",
+          "Flats",
+          "Backpacks",
+          "E-commerce fashion"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:31:28.922Z",
+        "org": "Gaya Cosmetics",
+        "industry": "Consumer Goods and Services",
+        "city": "Netanya",
+        "subIndustry": "Personal Care & Beauty",
+        "description": "Natural mineral makeup and skincare brand offering vegan, cruelty-free products formulated for sensitive skin and marketed as free from parabens, talc, mineral oil, synthetic fragrance, and other excluded ingredients.",
+        "domain": "gayacosmetics.co.il",
+        "keywords": [
+          "Natural mineral makeup",
+          "Mineral skincare",
+          "Sensitive skin cosmetics",
+          "Vegan makeup",
+          "Cruelty-free beauty",
+          "Non-comedogenic makeup",
+          "Natural face primer",
+          "Kosher-for-Shabbat cosmetics"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:27:40.411Z",
+        "org": "STATUSCOPE MEDICAL DEVICES",
+        "industry": "Healthcare and Food",
+        "city": "Modi'in",
+        "subIndustry": "Medical Devices",
+        "description": "Provider of connected home health monitoring equipment and telehealth solutions that collect vital signs, maintain longitudinal health records, and share readings with patients, physicians, caregivers, and care organizations.",
+        "domain": "statuscope.co.il",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/1a6833b0-6045-4828-8f84-dd7e010f8776.jpg",
+        "keywords": [
+          "Remote patient monitoring",
+          "Home medical monitoring",
+          "Telehealth",
+          "Connected health devices",
+          "Blood pressure monitoring",
+          "ECG monitoring",
+          "Pulse oximetry",
+          "Glucose monitoring",
+          "Vital signs tracking",
+          "Health data sharing"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:26:24.329Z",
+        "org": "WETECH",
+        "industry": "IT and Telecom",
+        "city": "Karmiel",
+        "subIndustry": "Enterprise Software",
+        "description": "Cloud-based business management software combining customer relationship management, automated lead capture, messaging, sales pipelines, project and task management, billing, invoicing, employee attendance, and customizable workflows.",
+        "domain": "wetech.co.il",
+        "keywords": [
+          "CRM software",
+          "Business management software",
+          "Sales pipeline management",
+          "Automated lead capture",
+          "WhatsApp CRM integration",
+          "Business process automation",
+          "AI customer service agent",
+          "Billing and invoicing software",
+          "Project management"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T10:23:28.468Z",
+        "org": "ISRAELIM TOVIM",
+        "industry": "Consumer Goods and Services",
+        "city": "Kfar Saba",
+        "subIndustry": "Retail & E-commerce",
+        "description": "Online marketplace connecting consumers with local businesses offering gifts, gift cards, products, workshops, and experiences, with home delivery options.",
+        "domain": "israelimtovim.co.il",
+        "keywords": [
+          "Online marketplace",
+          "Gift marketplace",
+          "Gift cards",
+          "Local business marketplace",
+          "Experience gifts",
+          "Food delivery",
+          "Flowers and gifts",
+          "Jewelry gifts",
+          "Beauty gift sets",
+          "Home delivery"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:20:56.720Z",
+        "org": "U.R. QUANTUM",
+        "industry": "Consumer Goods and Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Real Estate and Property",
+        "description": "Buyer-focused real estate brokerage specializing in urban renewal property purchases, remote acquisition support, seller representation, and ongoing management for overseas buyers and property owners.",
+        "domain": "u-r-quantum.com",
+        "keywords": [
+          "Urban renewal real estate",
+          "Buyer representation",
+          "Remote property purchase",
+          "International property investment",
+          "Off-market property brokerage",
+          "Property management",
+          "Real estate market analysis",
+          "Property valuation",
+          "New immigrant home buying",
+          "Urban renewal project management"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:19:50.859Z",
+        "org": "ELECTRICUT",
+        "industry": "Consumer Goods and Services",
+        "city": "Petah Tikva",
+        "subIndustry": "Industrial Technologies",
+        "description": "Manufacturer and marketer of engineered sealing accessories and installation devices for protected spaces, pipe penetrations, and building-envelope applications used by the construction industry.",
+        "domain": "electricut.co.il",
+        "keywords": [
+          "Sealing accessories",
+          "Protected space construction",
+          "Pipe penetration seals",
+          "Building envelope installation",
+          "Fire-resistant construction products",
+          "Concrete formwork accessories",
+          "Construction installation devices",
+          "Approved building products"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T10:16:40.899Z",
+        "org": "GENIO CLEVER PLAY",
+        "industry": "Consumer Goods and Services",
+        "city": "Magshimim",
+        "subIndustry": "Toys & Games",
+        "description": "Designs and manufactures board games and educational toys that combine learning content with intuitive, family-oriented play experiences.",
+        "domain": "geniocleverplay.com",
+        "keywords": [
+          "Educational games",
+          "Board games",
+          "Family games",
+          "Learning toys",
+          "Puzzle games",
+          "Skill-building games",
+          "Game design",
+          "Toy manufacturing"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T10:16:04.743Z",
+        "org": "MYBIO FIT",
+        "industry": "Healthcare and Food",
+        "city": "\u05e4\u05e8\u05d3\u05e1 \u05d7\u05e0\u05d4-\u05db\u05e8\u05db\u05d5\u05e8",
+        "subIndustry": "Digital Health",
+        "description": "Direct-to-consumer nutrigenetic testing service that analyzes at-home saliva samples to provide personalized nutrition, fitness, wellness, and lifestyle recommendations, with optional consultation and coaching support.",
+        "domain": "mybio.co.il",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/e12758ea-8a50-46cc-9c52-ff55ec056b6d.jpg",
+        "keywords": [
+          "Nutrigenetic testing",
+          "DNA testing",
+          "Personalized nutrition",
+          "Genetic wellness report",
+          "Personalized fitness",
+          "At-home DNA kit",
+          "Nutrition coaching",
+          "AI meal analysis",
+          "Lifestyle recommendations"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T10:13:01.956Z",
+        "org": "THE MEDIA SENSE DIGITAL TECHNOLOGIES",
+        "industry": "Media and Entertainment",
+        "city": "Tel Aviv",
+        "subIndustry": "Advertising Technology",
+        "description": "Digital media and advertising technology business that operates consumer entertainment applications and an advertising sales intermediary for connected-TV inventory.",
+        "domain": "themediasense.com",
+        "keywords": [
+          "Connected TV advertising",
+          "Advertising technology",
+          "Ad serving",
+          "Digital media",
+          "Consumer entertainment apps",
+          "Movie streaming",
+          "TV series streaming",
+          "Free streaming apps",
+          "Advertising intermediaries"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B2C"
+      },
+      {
+        "ts": "2026-10-04T10:10:58.317Z",
+        "org": "SLOUNGY",
+        "industry": "Consumer Goods and Services",
+        "city": "Netanya",
+        "subIndustry": "Fashion & Apparel",
+        "description": "Apparel and fashion company offering clothing and related fashion items to consumers.",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/dc76ab80-d909-4308-9fef-1f5173962860.jpg",
+        "keywords": [
+          "Apparel",
+          "Fashion",
+          "Clothing",
+          "Consumer fashion",
+          "Fashion apparel",
+          "Retail clothing"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-10-04T10:07:54.165Z",
         "org": "BIOCANN PHARM",
@@ -2544,315 +2859,9 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T09:35:35.991Z",
-        "org": "A. ADAR SYSTEMS",
-        "industry": "Consumer Goods and Services",
-        "city": "Kiryat Bialik",
-        "subIndustry": "Construction & Real Estate Technology",
-        "description": "Supplier of hardware, accessories, motors, controls, sealing materials, and tools for aluminum window, door, shutter, and railing fabrication and installation.",
-        "domain": "aadarsystems.co.il",
-        "keywords": [
-          "Aluminum fabrication hardware",
-          "Window and door hardware",
-          "Shutter systems",
-          "Aluminum accessories",
-          "Fabrication tools",
-          "Shutter motors and controls",
-          "PVC and EPDM seals",
-          "Railing components"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T09:30:05.380Z",
-        "org": "INSPIRE BY ZELIG GROUP",
-        "industry": "Consumer Goods and Services",
-        "city": "Herzliya",
-        "subIndustry": "Travel & Hospitality",
-        "description": "Business travel and event agency that plans and produces corporate conferences, incentive trips, and customized company events through end-to-end project management.",
-        "domain": "inspire-il.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/b4ed29a1-4ca2-48e0-a166-fc49451f3f53.jpg",
-        "keywords": [
-          "Business travel agency",
-          "Corporate conferences",
-          "Incentive travel",
-          "Company events",
-          "Event planning",
-          "Conference production",
-          "Corporate trips",
-          "Event logistics"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T09:28:38.388Z",
-        "org": "JANELY Jewelry",
-        "industry": "Consumer Goods and Services",
-        "city": "Holon",
-        "subIndustry": "Retail & E-commerce",
-        "description": "Online jewelry retailer offering jewelry products for direct purchase by consumers through an e-commerce storefront.",
-        "domain": "janely.co.il",
-        "keywords": [
-          "Online jewelry retailer",
-          "Jewelry e-commerce",
-          "Fashion jewelry",
-          "Rings and necklaces",
-          "Bracelets and earrings",
-          "Affordable jewelry",
-          "Direct-to-consumer jewelry"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T09:25:00.253Z",
-        "org": "Pathosio Pets",
-        "industry": "Consumer Goods and Services",
-        "city": "Beer Sheva",
-        "subIndustry": "Pet Care",
-        "description": "Designs and sells design-focused pet essentials for cats, dogs, and chickens, including litter box enclosures, pet ramps, wall shelves, furniture accessories, and coops. Products are manufactured through external factories, quality controlled, and sold through an online marketplace using outsourced fulfillment.",
-        "domain": "pathosio.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/8e35c792-2006-4041-b0a5-ceddd65f4f86.jpg",
-        "keywords": [
-          "Pet furniture",
-          "Cat litter enclosure",
-          "Dog ramp",
-          "Cat wall shelf",
-          "Chicken coop",
-          "Cat tree",
-          "Cat scratching post",
-          "Pet toys",
-          "Pet supplies",
-          "Online pet products"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 5,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T09:22:34.528Z",
-        "org": "HITTA",
-        "industry": "Unknown",
-        "city": "Haifa",
-        "description": "Hitta is an Israeli boutique cyber security firm providing tailored, high-quality cyber security solutions.",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/344574c6-2e03-440a-bae1-5657c4ba513f.jpg",
-        "keywords": [
-          "cyber security",
-          "computer and network security"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 1
-      },
-      {
-        "ts": "2026-10-04T09:21:51.373Z",
-        "org": "TAPIA DESIGN AND FABRICATION",
-        "industry": "Consumer Goods and Services",
-        "city": "Holon",
-        "subIndustry": "Retail & E-commerce",
-        "description": "Motorsport and streetwear merchandise brand offering apparel, car accessories, mascot-themed products, and related goods through an e-commerce store.",
-        "domain": "tapiaracing.com",
-        "keywords": [
-          "Motorsport merchandise",
-          "Streetwear apparel",
-          "Car accessories",
-          "Automotive lifestyle products",
-          "Mascot merchandise",
-          "Motorsport apparel",
-          "Car community branding"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T07:52:01.601Z",
-        "org": "Phil&Joe",
-        "industry": "Consumer Goods and Services",
-        "city": "Tel Aviv",
-        "subIndustry": "Personal Care & Beauty",
-        "description": "Beauty and cosmetics business offering hair and scalp treatments, coloring, extensions, straightening, bridal styling, and authentic professional hair-care products.",
-        "domain": "philnjoe.com",
-        "keywords": [
-          "Hair salon",
-          "Hair care products",
-          "Hair coloring",
-          "Scalp diagnosis",
-          "Hair extensions",
-          "Hair straightening",
-          "Bridal hair styling",
-          "Cosmetics"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T07:51:05.639Z",
-        "org": "INTER QR",
-        "industry": "IT and Telecom",
-        "city": "London",
-        "subIndustry": "Cybersecurity",
-        "description": "Cloud-based smart intercom and access-control platform for managing building entry, visitor verification, remote door unlocking, guest permissions, and entry records through mobile devices and QR codes.",
-        "domain": "interqr.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/0cad9a77-9107-4fb8-b464-4e859efacd02.jpg",
-        "keywords": [
-          "Smart intercom",
-          "Access control",
-          "QR door entry",
-          "Visitor management",
-          "Mobile door unlocking",
-          "Cloud security",
-          "Building entry",
-          "Keyless access",
-          "Entry logging"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T07:50:39.056Z",
-        "org": "Visa2",
-        "industry": "Consumer Goods and Services",
-        "city": "Giv'atayim",
-        "subIndustry": "Travel & Hospitality",
-        "description": "Online travel facilitation service that prepares and submits electronic visa applications, provides application support, and assists travelers with accommodation, flights, destination services, and trip planning.",
-        "domain": "visa2.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/ec748de3-c35e-4217-9c98-11df15feb629.jpg",
-        "keywords": [
-          "Electronic visa applications",
-          "Visa application assistance",
-          "Travel planning",
-          "Hotel booking assistance",
-          "Flight booking assistance",
-          "Private group travel",
-          "International travel",
-          "Destination services"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T07:47:09.571Z",
-        "org": "DREAM TEAM CALL",
-        "industry": "Consumer Goods and Services",
-        "city": "Jerusalem",
-        "subIndustry": "Education & Training",
-        "description": "Online asynchronous training provider offering practical education in social-media marketing, including strategy, content creation, platform algorithms, branding, and community management.",
-        "domain": "dreamteamcall.site",
-        "keywords": [
-          "Social media marketing training",
-          "Online marketing courses",
-          "E-learning",
-          "Learning management system",
-          "Content creation training",
-          "Branding strategy",
-          "Community management"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T07:47:09.386Z",
-        "org": "SUNSHINE INNOVATIONS",
-        "industry": "Healthcare and Food",
-        "city": "Hauppauge",
-        "subIndustry": "Food Technology",
-        "description": "Food technology company that develops an automated machine for producing fresh, warm hummus on demand at foodservice and retail serving points.",
-        "domain": "sunshineinnovationsinc.com",
-        "keywords": [
-          "food technology",
-          "automated food preparation",
-          "hummus machine",
-          "fresh food automation",
-          "commercial kitchen equipment",
-          "foodservice equipment",
-          "food dispensing systems",
-          "restaurant automation"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T07:43:07.916Z",
-        "org": "KOLMIND",
-        "industry": "Financial Services",
-        "city": "Tel Aviv",
-        "subIndustry": "Banking & Lending",
-        "description": "Online financial product discovery platform offering educational content, provider comparisons, advertising-supported listings, eligibility tools, and matching services that connect consumers with third-party lenders, brokers, marketplaces, and service providers.",
-        "domain": "topfundings.com",
-        "keywords": [
-          "Mortgage comparison",
-          "Financial product matching",
-          "Loan comparison",
-          "Credit eligibility tools",
-          "Lender marketplace",
-          "Financial education",
-          "Provider reviews",
-          "Advertising-supported listings"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T07:41:32.793Z",
-        "org": "SUNRISE MEMORY",
-        "industry": "IT and Telecom",
-        "city": "San Jose",
-        "subIndustry": "Hardware & Semiconductors",
-        "description": "Develops three-dimensional ferroelectric memory technology intended to increase memory density, bandwidth, and energy efficiency for AI and other memory-intensive applications.",
-        "domain": "sunrise3d.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/f894a02e-3987-4165-835e-6f1c6d3993bf.webp",
-        "keywords": [
-          "3D ferroelectric RAM",
-          "ferroelectric field-effect transistors",
-          "quasi-volatile memory",
-          "memory bit density",
-          "AI memory",
-          "high-bandwidth memory",
-          "low-power memory",
-          "semiconductor memory"
-        ],
-        "employeeRange": "51-200",
-        "exactEmployees": 17,
-        "isDeeptech": true,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T07:41:31.541Z",
-        "org": "UPDATE COMPUTERS",
-        "industry": "IT and Telecom",
-        "city": "Ar'ara",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Provides computing services, security systems, and internet infrastructure for organizational technology needs.",
-        "domain": "upt.co.il",
-        "keywords": [
-          "IT services",
-          "computer services",
-          "cybersecurity systems",
-          "internet infrastructure",
-          "network infrastructure",
-          "technical support"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CX2",
-        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
-      },
       {
         "ts": "2026-10-01T00:00:00.000Z",
         "kind": "exit",
@@ -2861,11 +2870,11 @@
         "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
       },
       {
-        "ts": "2026-09-29T00:00:00.000Z",
+        "ts": "2026-10-01T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HyperGuest",
-        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
+        "rawKind": "Product Launch",
+        "org": "CX2",
+        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2873,6 +2882,13 @@
         "rawKind": "Product Launch",
         "org": "Rig Security",
         "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "HyperGuest",
+        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
       },
       {
         "ts": "2026-09-28T00:00:00.000Z",
@@ -2897,20 +2913,6 @@
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Monogoto",
-        "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Island",
-        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Groundcover",
@@ -2929,6 +2931,20 @@
         "rawKind": "Acquisition",
         "org": "Wand",
         "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Monogoto",
+        "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Island",
+        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2961,6 +2977,13 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Pagaya",
+        "summary": "Closed a 24-month $460 million revolving personal loan facility, expanding its asset-backed funding capacity."
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Other",
         "org": "Enlivex Therapeutics",
         "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
@@ -2968,23 +2991,16 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Nice",
-        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
+        "rawKind": "Strategic Partnership",
+        "org": "2bPrecise",
+        "summary": "Aranscia announced a molecular laboratory integration initiative with Northside Hospital to advance precision oncology, integrating Aranscia's 2bPrecise and Spesana platforms with leading molecular laboratories to streamline genomic testing across Northside's network."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Ivalua",
-        "summary": "Ivalua was named a Leader in the IDC MarketScape: Worldwide AI-Enabled Direct Spend evaluation."
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "RealSense",
-        "summary": "Acquired by Cognex Corporation: Cognex (NASDAQ: CGNX) signed a definitive agreement to acquire RealSense for approximately $500 million in cash (total deal value ~$600 million including a $56.5M retention program and ~$50M in RSUs), expanding into robotic perception and Physical AI. Expected to close in Q4 2026; prior to closing, RealSense will spin out its Facial Authentication product line into an independent biometrics company. RealSense expects $80-90M revenue in 2026 (50%+ growth)."
+        "rawKind": "Market Expansion",
+        "org": "Nice",
+        "summary": "Expanded its European critical infrastructure security capabilities through its HySecurity division."
       }
     ]
   }
