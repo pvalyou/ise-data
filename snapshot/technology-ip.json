@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "technology-ip",
-  "generatedAt": "2026-10-05T03:02:12.634Z",
+  "generatedAt": "2026-10-05T04:14:01.154Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -79,8 +79,8 @@
     }
   },
   "kpis": {
-    "totalTechnologies": 41851,
-    "companiesWithTechnologies": 36474,
+    "totalTechnologies": 41914,
+    "companiesWithTechnologies": 36485,
     "patentingStartups": 4960,
     "patentFamilies": 37286,
     "patentFilings": 181546,
@@ -137,13 +137,13 @@
     ]
   },
   "buildProfile": {
-    "totalCompanies": 35802,
-    "excludedNoSoftwareNoPhysical": 882,
+    "totalCompanies": 35811,
+    "excludedNoSoftwareNoPhysical": 887,
     "items": [
       {
         "key": "onlySoftware",
         "label": "Only Software",
-        "companies": 23091,
+        "companies": 23095,
         "patentingCompanies": 1756,
         "patentFamilies": 9917,
         "grantedFamilies": 5419
@@ -151,7 +151,7 @@
       {
         "key": "mixed",
         "label": "Mixed Software Physical",
-        "companies": 6489,
+        "companies": 6491,
         "patentingCompanies": 1768,
         "patentFamilies": 17182,
         "grantedFamilies": 9941
@@ -159,7 +159,7 @@
       {
         "key": "onlyPhysical",
         "label": "Only Physical",
-        "companies": 6222,
+        "companies": 6225,
         "patentingCompanies": 1400,
         "patentFamilies": 9866,
         "grantedFamilies": 5201
@@ -201,6 +201,38 @@
         "topSubIndustrySharePct": 87.7
       },
       {
+        "technologyFamily": "Communications",
+        "companies": 938,
+        "patentingCompanies": 198,
+        "patentFamilies": 2102,
+        "grantedFamilies": 1332,
+        "patentingRatePct": 21.1,
+        "patentFamiliesPerCompany": 2.24,
+        "patentFamiliesPerPatentingCompany": 10.62,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 813,
+        "topIndustrySharePct": 86.7,
+        "topSubIndustry": "Telecommunications",
+        "topSubIndustryCompanies": 542,
+        "topSubIndustrySharePct": 57.8
+      },
+      {
+        "technologyFamily": "Computer Vision",
+        "companies": 810,
+        "patentingCompanies": 291,
+        "patentFamilies": 1773,
+        "grantedFamilies": 934,
+        "patentingRatePct": 35.9,
+        "patentFamiliesPerCompany": 2.19,
+        "patentFamiliesPerPatentingCompany": 6.09,
+        "topIndustry": "IT and Telecom",
+        "topIndustryCompanies": 411,
+        "topIndustrySharePct": 50.7,
+        "topSubIndustry": "AI & Machine Learning",
+        "topSubIndustryCompanies": 147,
+        "topSubIndustrySharePct": 18.1
+      },
+      {
         "technologyFamily": "Biotech & Pharma",
         "companies": 1900,
         "patentingCompanies": 592,
@@ -215,38 +247,6 @@
         "topSubIndustry": "Biotechnology",
         "topSubIndustryCompanies": 890,
         "topSubIndustrySharePct": 46.8
-      },
-      {
-        "technologyFamily": "Computer Vision",
-        "companies": 809,
-        "patentingCompanies": 290,
-        "patentFamilies": 1757,
-        "grantedFamilies": 920,
-        "patentingRatePct": 35.8,
-        "patentFamiliesPerCompany": 2.17,
-        "patentFamiliesPerPatentingCompany": 6.06,
-        "topIndustry": "IT and Telecom",
-        "topIndustryCompanies": 410,
-        "topIndustrySharePct": 50.7,
-        "topSubIndustry": "AI & Machine Learning",
-        "topSubIndustryCompanies": 147,
-        "topSubIndustrySharePct": 18.2
-      },
-      {
-        "technologyFamily": "Communications",
-        "companies": 936,
-        "patentingCompanies": 196,
-        "patentFamilies": 1959,
-        "grantedFamilies": 1221,
-        "patentingRatePct": 20.9,
-        "patentFamiliesPerCompany": 2.09,
-        "patentFamiliesPerPatentingCompany": 9.99,
-        "topIndustry": "IT and Telecom",
-        "topIndustryCompanies": 811,
-        "topIndustrySharePct": 86.6,
-        "topSubIndustry": "Telecommunications",
-        "topSubIndustryCompanies": 540,
-        "topSubIndustrySharePct": 57.7
       },
       {
         "technologyFamily": "Energy & Climate",
@@ -266,34 +266,34 @@
       },
       {
         "technologyFamily": "Materials & Manufacturing",
-        "companies": 1966,
+        "companies": 1969,
         "patentingCompanies": 318,
         "patentFamilies": 2902,
         "grantedFamilies": 1671,
         "patentingRatePct": 16.2,
-        "patentFamiliesPerCompany": 1.48,
+        "patentFamiliesPerCompany": 1.47,
         "patentFamiliesPerPatentingCompany": 9.13,
         "topIndustry": "Consumer Goods and Services",
-        "topIndustryCompanies": 1229,
-        "topIndustrySharePct": 62.5,
+        "topIndustryCompanies": 1232,
+        "topIndustrySharePct": 62.6,
         "topSubIndustry": "Industrial Technologies",
         "topSubIndustryCompanies": 188,
-        "topSubIndustrySharePct": 9.6
+        "topSubIndustrySharePct": 9.5
       },
       {
         "technologyFamily": "Security",
-        "companies": 1558,
-        "patentingCompanies": 343,
-        "patentFamilies": 2245,
-        "grantedFamilies": 1465,
-        "patentingRatePct": 22.0,
-        "patentFamiliesPerCompany": 1.44,
-        "patentFamiliesPerPatentingCompany": 6.55,
+        "companies": 1559,
+        "patentingCompanies": 344,
+        "patentFamilies": 2259,
+        "grantedFamilies": 1476,
+        "patentingRatePct": 22.1,
+        "patentFamiliesPerCompany": 1.45,
+        "patentFamiliesPerPatentingCompany": 6.57,
         "topIndustry": "IT and Telecom",
-        "topIndustryCompanies": 1358,
+        "topIndustryCompanies": 1359,
         "topIndustrySharePct": 87.2,
         "topSubIndustry": "Cybersecurity",
-        "topSubIndustryCompanies": 1151,
+        "topSubIndustryCompanies": 1152,
         "topSubIndustrySharePct": 73.9
       },
       {
@@ -362,23 +362,23 @@
       },
       {
         "technologyFamily": "AI & Machine Learning",
-        "companies": 7037,
-        "patentingCompanies": 712,
-        "patentFamilies": 4154,
-        "grantedFamilies": 2072,
-        "patentingRatePct": 10.1,
-        "patentFamiliesPerCompany": 0.59,
-        "patentFamiliesPerPatentingCompany": 5.83,
+        "companies": 7045,
+        "patentingCompanies": 716,
+        "patentFamilies": 4208,
+        "grantedFamilies": 2115,
+        "patentingRatePct": 10.2,
+        "patentFamiliesPerCompany": 0.6,
+        "patentFamiliesPerPatentingCompany": 5.88,
         "topIndustry": "IT and Telecom",
-        "topIndustryCompanies": 4055,
+        "topIndustryCompanies": 4060,
         "topIndustrySharePct": 57.6,
         "topSubIndustry": "Enterprise Software",
-        "topSubIndustryCompanies": 1613,
+        "topSubIndustryCompanies": 1615,
         "topSubIndustrySharePct": 22.9
       },
       {
         "technologyFamily": "Media & Immersive",
-        "companies": 1518,
+        "companies": 1519,
         "patentingCompanies": 127,
         "patentFamilies": 844,
         "grantedFamilies": 453,
@@ -387,7 +387,7 @@
         "patentFamiliesPerPatentingCompany": 6.65,
         "topIndustry": "Media and Entertainment",
         "topIndustryCompanies": 1123,
-        "topIndustrySharePct": 74.0,
+        "topIndustrySharePct": 73.9,
         "topSubIndustry": "Gaming",
         "topSubIndustryCompanies": 459,
         "topSubIndustrySharePct": 30.2
@@ -410,7 +410,7 @@
       },
       {
         "technologyFamily": "Applications & Business Software",
-        "companies": 10075,
+        "companies": 10079,
         "patentingCompanies": 244,
         "patentFamilies": 1462,
         "grantedFamilies": 744,
@@ -418,10 +418,10 @@
         "patentFamiliesPerCompany": 0.15,
         "patentFamiliesPerPatentingCompany": 5.99,
         "topIndustry": "IT and Telecom",
-        "topIndustryCompanies": 3383,
+        "topIndustryCompanies": 3386,
         "topIndustrySharePct": 33.6,
         "topSubIndustry": "Enterprise Software",
-        "topSubIndustryCompanies": 2021,
+        "topSubIndustryCompanies": 2022,
         "topSubIndustrySharePct": 20.1
       }
     ]
@@ -1251,42 +1251,42 @@
     ]
   },
   "technologyFamilies": {
-    "totalRows": 41851,
-    "totalCompanies": 36474,
+    "totalRows": 41914,
+    "totalCompanies": 36485,
     "items": [
       {
         "family": "Applications & Business Software",
-        "technologyRows": 11053,
-        "companies": 10713,
-        "priority1Rows": 10161,
+        "technologyRows": 11061,
+        "companies": 10718,
+        "priority1Rows": 10165,
         "openSourceRows": 96
       },
       {
         "family": "AI & Machine Learning",
-        "technologyRows": 7826,
-        "companies": 7509,
-        "priority1Rows": 7151,
+        "technologyRows": 7845,
+        "companies": 7516,
+        "priority1Rows": 7162,
         "openSourceRows": 65
       },
       {
         "family": "Cloud & Infrastructure",
-        "technologyRows": 3594,
-        "companies": 3492,
-        "priority1Rows": 3078,
+        "technologyRows": 3599,
+        "companies": 3495,
+        "priority1Rows": 3080,
         "openSourceRows": 107
       },
       {
         "family": "Medical Devices",
-        "technologyRows": 2698,
-        "companies": 2480,
-        "priority1Rows": 2457,
+        "technologyRows": 2705,
+        "companies": 2481,
+        "priority1Rows": 2458,
         "openSourceRows": 0
       },
       {
         "family": "Materials & Manufacturing",
-        "technologyRows": 2212,
-        "companies": 2057,
-        "priority1Rows": 1986,
+        "technologyRows": 2219,
+        "companies": 2060,
+        "priority1Rows": 1990,
         "openSourceRows": 1
       },
       {
@@ -1298,9 +1298,9 @@
       },
       {
         "family": "Analytics & Data",
-        "technologyRows": 1953,
-        "companies": 1889,
-        "priority1Rows": 1544,
+        "technologyRows": 1956,
+        "companies": 1891,
+        "priority1Rows": 1545,
         "openSourceRows": 27
       },
       {
@@ -1312,43 +1312,43 @@
       },
       {
         "family": "Security",
-        "technologyRows": 1841,
-        "companies": 1687,
-        "priority1Rows": 1585,
+        "technologyRows": 1847,
+        "companies": 1689,
+        "priority1Rows": 1588,
         "openSourceRows": 48
       },
       {
         "family": "Media & Immersive",
-        "technologyRows": 1646,
-        "companies": 1599,
-        "priority1Rows": 1531,
+        "technologyRows": 1647,
+        "companies": 1600,
+        "priority1Rows": 1532,
         "openSourceRows": 10
       },
       {
         "family": "Communications",
-        "technologyRows": 1109,
-        "companies": 1048,
-        "priority1Rows": 946,
+        "technologyRows": 1112,
+        "companies": 1049,
+        "priority1Rows": 948,
         "openSourceRows": 9
       },
       {
         "family": "Energy & Climate",
-        "technologyRows": 1103,
+        "technologyRows": 1104,
         "companies": 978,
-        "priority1Rows": 945,
+        "priority1Rows": 946,
         "openSourceRows": 0
       },
       {
         "family": "Computer Vision",
-        "technologyRows": 932,
-        "companies": 896,
-        "priority1Rows": 819,
+        "technologyRows": 933,
+        "companies": 897,
+        "priority1Rows": 820,
         "openSourceRows": 0
       },
       {
         "family": "Robotics & Autonomy",
-        "technologyRows": 721,
-        "companies": 672,
+        "technologyRows": 722,
+        "companies": 673,
         "priority1Rows": 604,
         "openSourceRows": 7
       },
@@ -1368,8 +1368,8 @@
       },
       {
         "family": "Other",
-        "technologyRows": 302,
-        "companies": 288,
+        "technologyRows": 303,
+        "companies": 289,
         "priority1Rows": 267,
         "openSourceRows": 8
       }
@@ -1392,13 +1392,13 @@
       {
         "name": "Applications & Business Software",
         "parent": "Technology",
-        "total": 10075,
+        "total": 10079,
         "shareDelta": -0.03974410872724621,
         "counts": [
           466,
           475,
           434,
-          568,
+          573,
           557,
           402,
           322,
@@ -1410,7 +1410,7 @@
           0.31852358168147643,
           0.32138024357239514,
           0.3219584569732938,
-          0.33890214797136037,
+          0.3396561944279787,
           0.33154761904761904,
           0.2923636363636364,
           0.25636942675159236,
@@ -1422,13 +1422,13 @@
       {
         "name": "AI & Machine Learning",
         "parent": "Technology",
-        "total": 7037,
+        "total": 7045,
         "shareDelta": 0.21466065870766943,
         "counts": [
           386,
           371,
           370,
-          442,
+          444,
           513,
           446,
           552,
@@ -1440,7 +1440,7 @@
           0.2638414217361586,
           0.2510148849797023,
           0.2744807121661721,
-          0.2637231503579952,
+          0.26318909306461175,
           0.3053571428571429,
           0.32436363636363635,
           0.4394904458598726,
@@ -1470,7 +1470,7 @@
           0.12098427887901572,
           0.13058186738836267,
           0.11127596439169139,
-          0.10859188544152745,
+          0.1078838174273859,
           0.10833333333333334,
           0.12436363636363636,
           0.08200636942675159,
@@ -1500,7 +1500,7 @@
           0.06630211893369788,
           0.061569688768606225,
           0.06973293768545995,
-          0.06145584725536993,
+          0.06105512744516894,
           0.04880952380952381,
           0.05890909090909091,
           0.044585987261146494,
@@ -1512,13 +1512,13 @@
       {
         "name": "Materials & Manufacturing",
         "parent": "Technology",
-        "total": 1966,
+        "total": 1969,
         "shareDelta": -0.019483837572749175,
         "counts": [
           63,
           71,
           71,
-          134,
+          137,
           77,
           69,
           68,
@@ -1530,7 +1530,7 @@
           0.0430622009569378,
           0.04803788903924222,
           0.052670623145400594,
-          0.07995226730310262,
+          0.08120924718435092,
           0.04583333333333333,
           0.05018181818181818,
           0.054140127388535034,
@@ -1560,7 +1560,7 @@
           0.063568010936432,
           0.08254397834912043,
           0.07418397626112759,
-          0.06742243436754176,
+          0.06698280972139893,
           0.06666666666666667,
           0.06472727272727273,
           0.054140127388535034,
@@ -1572,13 +1572,13 @@
       {
         "name": "Security",
         "parent": "Technology",
-        "total": 1558,
+        "total": 1559,
         "shareDelta": 0.007890423322206658,
         "counts": [
           96,
           88,
           65,
-          60,
+          61,
           83,
           63,
           46,
@@ -1590,7 +1590,7 @@
           0.06561859193438141,
           0.05953991880920163,
           0.04821958456973294,
-          0.03579952267303103,
+          0.03615886188500297,
           0.0494047619047619,
           0.04581818181818182,
           0.03662420382165605,
@@ -1620,7 +1620,7 @@
           0.05809979494190021,
           0.04533152909336942,
           0.04747774480712166,
-          0.0441527446300716,
+          0.04386484884410195,
           0.04404761904761905,
           0.03927272727272727,
           0.03264331210191083,
