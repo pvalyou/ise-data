@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T23:34:32.677Z",
+  "generatedAt": "2026-10-05T00:31:24.524Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,44 +159,44 @@
   },
   "kpis": {
     "startups": {
-      "value": 38101,
-      "delta24h": 198
+      "value": 38119,
+      "delta24h": 216
     },
     "totalFunding": {
-      "valueUsd": 228333937236,
-      "rounds": 29527
+      "valueUsd": 228334652236,
+      "rounds": 29530
     },
     "exits": {
       "count": 3428,
       "valueUsd": 329904805100
     },
     "employees": {
-      "total": 814009,
+      "total": 814129,
       "avgPerStartup": 28
     },
     "patents": {
       "total": 181546,
       "delta30d": 0
     },
-    "openJobs": 21756
+    "openJobs": 21757
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 6956
+        "count": 6962
       },
       {
         "name": "Central",
-        "count": 4011
+        "count": 4013
       },
       {
         "name": "Haifa",
-        "count": 1406
+        "count": 1407
       },
       {
         "name": "Jerusalem",
-        "count": 825
+        "count": 826
       },
       {
         "name": "Southern",
@@ -204,7 +204,7 @@
       },
       {
         "name": "Northern",
-        "count": 458
+        "count": 460
       },
       {
         "name": "Judea & Samaria",
@@ -217,28 +217,28 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4377
+        "count": 4379
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 784
+        "count": 785
       },
       {
         "name": "Ramat Gan",
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 768
+        "count": 769
       },
       {
         "name": "Jerusalem",
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 749
+        "count": 750
       },
       {
         "name": "Petah Tikva",
@@ -294,7 +294,7 @@
         "district": "Tel Aviv",
         "lat": 32.0836,
         "lng": 34.8337,
-        "count": 258
+        "count": 259
       },
       {
         "name": "Hod Hasharon",
@@ -308,14 +308,14 @@
         "district": "Central",
         "lat": 31.9293,
         "lng": 34.7986,
-        "count": 231
+        "count": 232
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
         "district": "Central",
         "lat": 31.9,
         "lng": 35.0167,
-        "count": 222
+        "count": 223
       },
       {
         "name": "Caesarea",
@@ -343,7 +343,7 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 180
+        "count": 181
       },
       {
         "name": "Yokneam Illit",
@@ -444,6 +444,13 @@
         "count": 56
       },
       {
+        "name": "Pardes Hanna-Karkur",
+        "district": "Haifa",
+        "lat": 32.4718,
+        "lng": 34.972,
+        "count": 53
+      },
+      {
         "name": "Bat Yam",
         "district": "Tel Aviv",
         "lat": 32.0231,
@@ -455,13 +462,6 @@
         "district": "Northern",
         "lat": 32.9,
         "lng": 35.3,
-        "count": 52
-      },
-      {
-        "name": "Pardes Hanna-Karkur",
-        "district": "Haifa",
-        "lat": 32.4718,
-        "lng": 34.972,
         "count": 52
       },
       {
@@ -647,24 +647,24 @@
         "count": 22
       },
       {
-        "name": "Kiryat Motzkin",
-        "district": "Haifa",
-        "lat": 32.8359,
-        "lng": 35.077,
-        "count": 20
-      },
-      {
         "name": "Nof HaGalil",
         "district": "Northern",
         "lat": 32.705,
         "lng": 35.317,
-        "count": 20
+        "count": 21
       },
       {
         "name": "Ramat Yishai",
         "district": "Northern",
         "lat": 32.705,
         "lng": 35.17,
+        "count": 21
+      },
+      {
+        "name": "Kiryat Motzkin",
+        "district": "Haifa",
+        "lat": 32.8359,
+        "lng": 35.077,
         "count": 20
       },
       {
@@ -836,7 +836,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2368
+    "unresolvedCount": 2372
   },
   "overTime": {
     "foundedClosed": {
@@ -986,7 +986,7 @@
         1853,
         1799,
         1723,
-        2077,
+        2095,
         2122,
         1707,
         1547,
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 20128,
+        "active": 20146,
         "closed": 13794,
         "unknown": 3758
       }
@@ -1166,8 +1166,8 @@
         1554,
         1567,
         1634,
-        2114,
-        1999,
+        2115,
+        2001,
         1530,
         1463,
         1421,
@@ -1214,7 +1214,7 @@
         12737689972,
         14472328821,
         39958183010,
-        24417091702,
+        24417806702,
         12168778063,
         15758817651,
         24261636518,
@@ -1227,7 +1227,7 @@
         "Series B": 1966,
         "Series Unknown": 1381,
         "Series C": 1264,
-        "Angel": 839,
+        "Angel": 840,
         "Unknown": 833
       }
     },
@@ -1440,13 +1440,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 22004,
+      "active": 22022,
       "closed": 12669,
       "exited": 3428
     },
     "funnel": {
-      "all": 38101,
-      "funded": 15654,
+      "all": 38119,
+      "funded": 15655,
       "over1m": 6256,
       "over10m": 3112,
       "over100m": 574,
@@ -1476,10 +1476,10 @@
       },
       {
         "year": 2020,
-        "total": 2077,
+        "total": 2095,
         "exited": 88,
         "closed": 471,
-        "active": 1518
+        "active": 1536
       },
       {
         "year": 2021,
@@ -1689,23 +1689,23 @@
       },
       {
         "year": 2020,
-        "total": 2006,
-        "unknown": 71,
+        "total": 2023,
+        "unknown": 72,
         "counts": {
-          "it-telecom": 709,
-          "healthcare-food": 444,
-          "consumer-goods-services": 439,
+          "it-telecom": 716,
+          "healthcare-food": 447,
+          "consumer-goods-services": 444,
           "energy-utilities": 73,
           "financial-services": 142,
-          "media-entertainment": 199
+          "media-entertainment": 201
         },
         "shares": {
-          "it-telecom": 0.35343968095712863,
-          "healthcare-food": 0.2213359920239282,
-          "consumer-goods-services": 0.21884346959122633,
-          "energy-utilities": 0.036390827517447655,
-          "financial-services": 0.0707876370887338,
-          "media-entertainment": 0.0992023928215354
+          "it-telecom": 0.35392980721700446,
+          "healthcare-food": 0.22095897182402371,
+          "consumer-goods-services": 0.21947602570439942,
+          "energy-utilities": 0.03608502224419179,
+          "financial-services": 0.07019278299555116,
+          "media-entertainment": 0.09935739001482946
         }
       },
       {
@@ -1839,43 +1839,43 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14794,
-        "share": 0.40355710739518263
+        "count": 14801,
+        "share": 0.40356091176791364
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6876,
-        "share": 0.1875664911754276
+        "count": 6879,
+        "share": 0.18756134802050387
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6741,
-        "share": 0.18388390299789956
+        "count": 6746,
+        "share": 0.18393499836405278
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1642,
-        "share": 0.04479118361111869
+        "share": 0.04477042207438107
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2179,
-        "share": 0.059439701028396845
+        "share": 0.05941214963463846
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 4427,
-        "share": 0.12076161379197468
+        "count": 4429,
+        "share": 0.1207601701385102
       }
     ],
     "mixSummary": {
-      "totalVisible": 16288,
-      "totalUnknown": 653
+      "totalVisible": 16305,
+      "totalUnknown": 654
     },
     "subTrendYears": [
       2017,
@@ -1893,13 +1893,13 @@
       {
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
-        "total": 769,
+        "total": 770,
         "shareDelta": 0.041,
         "counts": [
           62,
           43,
           61,
-          55,
+          56,
           61,
           58,
           91,
@@ -1911,7 +1911,7 @@
           0.03450194769059544,
           0.024627720504009163,
           0.03672486453943408,
-          0.02736318407960199,
+          0.027627035027133696,
           0.029975429975429974,
           0.03513022410660206,
           0.06070713809206137,
@@ -1941,7 +1941,7 @@
           0.048414023372287146,
           0.05899198167239404,
           0.047561709813365445,
-          0.04626865671641791,
+          0.045880611741489885,
           0.04914004914004914,
           0.06117504542701393,
           0.0513675783855904,
@@ -1953,13 +1953,13 @@
       {
         "name": "Enterprise Software",
         "parent": "Unknown",
-        "total": 2439,
+        "total": 2440,
         "shareDelta": 0.014,
         "counts": [
           246,
           257,
           247,
-          302,
+          303,
           279,
           247,
           268,
@@ -1971,7 +1971,7 @@
           0.13689482470784642,
           0.14719358533791524,
           0.14870559903672487,
-          0.15024875621890546,
+          0.14948199309324126,
           0.1371007371007371,
           0.14960629921259844,
           0.17878585723815876,
@@ -1983,13 +1983,13 @@
       {
         "name": "Marketing Technology",
         "parent": "IT and Telecom",
-        "total": 345,
+        "total": 346,
         "shareDelta": 0.012,
         "counts": [
           32,
           25,
           30,
-          31,
+          32,
           28,
           28,
           38,
@@ -2001,7 +2001,7 @@
           0.017807456872565387,
           0.0143184421534937,
           0.018061408789885613,
-          0.015422885572139304,
+          0.015786877158362113,
           0.013759213759213759,
           0.016959418534221685,
           0.025350233488992662,
@@ -2031,7 +2031,7 @@
           0.008347245409015025,
           0.010309278350515464,
           0.007224563515954244,
-          0.013432835820895522,
+          0.013320177602368031,
           0.011302211302211302,
           0.01029678982434888,
           0.01134089392928619,
@@ -2063,7 +2063,7 @@
           0.03672787979966611,
           0.029782359679266894,
           0.009030704394942806,
-          0.00945273631840796,
+          0.009373458312777503,
           0.016707616707616706,
           0.016959418534221685,
           0.008005336891260841,
@@ -2093,7 +2093,7 @@
           0.06622148024485253,
           0.05154639175257732,
           0.056592414208308246,
-          0.06467661691542288,
+          0.06413418845584608,
           0.04471744471744472,
           0.05330102967898243,
           0.04869913275517011,
@@ -2123,7 +2123,7 @@
           0.02448525319977741,
           0.026918671248568157,
           0.03732691149909693,
-          0.03034825870646766,
+          0.030093734583127776,
           0.023095823095823097,
           0.03210175651120533,
           0.02068045363575717,
@@ -2153,7 +2153,7 @@
           0.032276015581524764,
           0.035509736540664374,
           0.03732691149909693,
-          0.031840796019900496,
+          0.031573754316724226,
           0.03144963144963145,
           0.025439127801332527,
           0.028685790527018012,
@@ -2183,7 +2183,7 @@
           0.04284919309961046,
           0.024627720504009163,
           0.028296207104154123,
-          0.0263681592039801,
+          0.026147015293537246,
           0.023095823095823097,
           0.016959418534221685,
           0.019346230820547032,
@@ -2196,7 +2196,7 @@
     "signals": {
       "deeptechCount": 10090,
       "deeptechPct": 26.5,
-      "globalCount": 15700,
+      "globalCount": 15707,
       "globalPct": 41.2
     }
   },
@@ -2281,17 +2281,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2300,6 +2289,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2347,17 +2347,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2366,6 +2355,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2402,14 +2402,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Upwind",
-        "stage": "Series C",
-        "amountUsd": 300000000,
+        "org": "Huskeys",
+        "stage": "Series A",
+        "amountUsd": 27000000,
         "investors": [],
         "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
@@ -2429,6 +2429,371 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-05T00:21:04.482Z",
+        "org": "CERAPODA",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv",
+        "subIndustry": "Enterprise Software",
+        "description": "Designs, develops, hosts, and maintains customized learning management systems, online course storefronts, employee training academies, mobile learning applications, and related integrations for academic institutions and other organizations.",
+        "domain": "cerapoda.com",
+        "keywords": [
+          "Learning management system",
+          "Moodle development",
+          "Online course platform",
+          "Employee training",
+          "E-learning",
+          "Course marketplace",
+          "Learning analytics",
+          "Mobile learning",
+          "Educational software",
+          "Learning portal"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-05T00:13:52.414Z",
+        "org": "R.Y.R AGRICULTURAL SOLUTIONS",
+        "industry": "Healthcare and Food",
+        "city": "Megadim",
+        "subIndustry": "Agriculture",
+        "description": "Develops and imports agricultural equipment for controlled-environment and hydroponic crop production, including grow lighting, humidity control, ventilation, airflow equipment, pest-control solutions, and cultivation accessories. The company participates in product development and sells directly to growers.",
+        "domain": "agri-solutions.co.il",
+        "keywords": [
+          "hydroponic growing solutions",
+          "LED grow lighting",
+          "grow room dehumidifiers",
+          "indoor garden ventilation",
+          "greenhouse climate control",
+          "air circulation equipment",
+          "pest control equipment",
+          "cultivation accessories",
+          "agricultural equipment"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-05T00:13:35.268Z",
+        "org": "APPZIBU",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv",
+        "subIndustry": "Mobile Applications",
+        "description": "A mobile application development company that creates applications for client projects.",
+        "domain": "appzibu.app",
+        "keywords": [
+          "Mobile app development",
+          "Mobile applications",
+          "Application development",
+          "iOS development",
+          "Android development",
+          "Custom software"
+        ],
+        "isDeeptech": false
+      },
+      {
+        "ts": "2026-10-05T00:12:32.872Z",
+        "org": "PHARMASOL MDS",
+        "industry": "Healthcare and Food",
+        "city": "Nof HaGalil",
+        "subIndustry": "Pharmaceuticals",
+        "description": "Markets and sells pharmaceuticals, medical products, and medical equipment to support healthcare delivery and clinical operations.",
+        "keywords": [
+          "Pharmaceutical distribution",
+          "Medical products",
+          "Medical equipment",
+          "Healthcare supplies",
+          "Clinical products",
+          "Medical procurement"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-05T00:05:25.363Z",
+        "org": "CLIPT",
+        "industry": "Consumer Goods and Services",
+        "city": "Chicago",
+        "subIndustry": "Business Services",
+        "description": "Staffing agency that matches content creators, agencies, startups, and companies with vetted, trained full-time remote video editors and animators. It provides talent screening, training, matching, and ongoing account support for outsourced creative production.",
+        "domain": "clipt.co",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/0797fd98-f2c6-45d0-83d1-a43461f1e1d6.jpg",
+        "keywords": [
+          "video editor staffing",
+          "remote video editors",
+          "overseas creative talent",
+          "video editing recruitment",
+          "content production outsourcing",
+          "video editor recruitment",
+          "remote creative teams",
+          "animation staffing",
+          "editor talent matching"
+        ],
+        "employeeRange": "51-200",
+        "exactEmployees": 93,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-05T00:03:35.316Z",
+        "org": "RAV AESH",
+        "industry": "Consumer Goods and Services",
+        "city": "Tamra",
+        "subIndustry": "Manufacturing",
+        "description": "Manufacturer of steel doors produced for construction and building applications.",
+        "domain": "rav-aesh.com",
+        "keywords": [
+          "Steel doors",
+          "Metal doors",
+          "Steel door manufacturing",
+          "Building materials",
+          "Construction supplies",
+          "Interior doors",
+          "Entry doors",
+          "Door fabrication"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-05T00:02:54.542Z",
+        "org": "DIET ZRIBI",
+        "industry": "Media and Entertainment",
+        "city": "Ramat Yishai",
+        "subIndustry": "Gaming",
+        "description": "Independent game studio creating original puzzle-platformer, action, and experimental interactive experiences for digital distribution.",
+        "domain": "dietzribi.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/16f476f7-1cb7-475a-80b3-249a98c2a20c.jpg",
+        "keywords": [
+          "Independent game studio",
+          "Puzzle platformer",
+          "Dimension-shifting gameplay",
+          "2D and 3D puzzles",
+          "Local co-op games",
+          "Indie games",
+          "Digital game distribution"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-05T00:02:04.817Z",
+        "org": "WAFRA INVESTMENTS",
+        "industry": "Unknown",
+        "city": "Umm al-Fahm",
+        "description": "Wafra Investment specializes in funding and scaling high-potential small and medium-sized businesses, providing financial backing, strategic insights, and operational support for sustainable growth.",
+        "domain": "wafra.ltd",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/ce3591d6-9038-4303-b814-5fcb8193db1e.jpg",
+        "keywords": [
+          "investment",
+          "funding",
+          "small business",
+          "growth strategy",
+          "financial management",
+          "operational support"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 2
+      },
+      {
+        "ts": "2026-10-04T23:59:01.680Z",
+        "org": "MY TECH MEDIA",
+        "industry": "IT and Telecom",
+        "city": "Herzliya",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Creative group designing brands and digital experiences and building modern cross-platform mobile applications for business clients.",
+        "domain": "mytechmedia.net",
+        "keywords": [
+          "Brand design",
+          "Digital experience design",
+          "Mobile application development",
+          "Cross-platform apps",
+          "Creative agency",
+          "User interface design",
+          "Digital product development"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:55:14.891Z",
+        "org": "TANALGO TECHNOLOGIES",
+        "industry": "IT and Telecom",
+        "city": "Holon",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Software consulting and development provider offering custom technology solutions and a reusable software platform for organizations of varying sizes.",
+        "domain": "tanalgo-tech.com",
+        "keywords": [
+          "Software consulting",
+          "Custom software development",
+          "Technology solutions",
+          "Software platform",
+          "Application development",
+          "Enterprise software",
+          "Systems integration"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:54:40.340Z",
+        "org": "Task Automation",
+        "industry": "IT and Telecom",
+        "city": "Modi'in-Maccabim-Re'ut",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Business consulting and systems integration provider specializing in intelligent document processing, OCR, business process automation, and ERP/CRM connectivity. It implements automated workflows for order management, purchasing, supplier invoices, logistics, reporting, and other document-intensive operations.",
+        "domain": "taskautomation.co.il",
+        "keywords": [
+          "Business process automation",
+          "Intelligent document processing",
+          "OCR automation",
+          "ERP integration",
+          "CRM integration",
+          "Automated order management",
+          "Supplier invoice processing",
+          "Supply chain automation",
+          "Robotic process automation",
+          "Machine learning document processing"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:54:17.864Z",
+        "org": "MATCHUPLAY",
+        "industry": "Media and Entertainment",
+        "city": "Jerusalem",
+        "subIndustry": "Social Media & Community",
+        "description": "A mobile matchmaking application that helps people arrange dates for their friends by sharing friend profiles, generating suggested matches, and enabling communication between potential matches.",
+        "domain": "matchers.ai",
+        "keywords": [
+          "Dating app",
+          "Friend matchmaking",
+          "Dating recommendations",
+          "Social matchmaking",
+          "Mobile dating",
+          "Romantic connections"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T23:53:52.627Z",
+        "org": "OFEK UPSILON",
+        "industry": "Consumer Goods and Services",
+        "city": "Pardes Hanna-Karkur",
+        "subIndustry": "Toys & Games",
+        "description": "A product-development and consumer-goods company that designs, sources, and sells branded products for international markets, including custom printed banners and plush toys.",
+        "domain": "ofeks.co.il",
+        "keywords": [
+          "Custom printed banners",
+          "Plush toys",
+          "Product development",
+          "Consumer products",
+          "Branded merchandise",
+          "Global commerce",
+          "Toy design",
+          "Outdoor signage"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-04T23:39:05.894Z",
+        "org": "CLEAN FLOW",
+        "industry": "Consumer Goods and Services",
+        "city": "\u05e7\u05d3\u05d9\u05de\u05d4-\u05e6\u05d5\u05e8\u05df",
+        "subIndustry": "Engineering Services",
+        "description": "Engineering and construction provider specializing in cleanrooms, fume hoods, air filtration, and controlled ventilation environments for regulated industries and technical facilities.",
+        "domain": "cleanflow.co.il",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/ebaab0c2-cad0-471d-b349-b325e3025059.jpg",
+        "keywords": [
+          "Cleanroom construction",
+          "Cleanroom design",
+          "Fume hoods",
+          "HEPA filtration",
+          "Air filtration systems",
+          "Clean-air ventilation",
+          "Laboratory ventilation",
+          "Cleanroom certification",
+          "Controlled environments"
+        ],
+        "employeeRange": "2-10",
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:36:13.986Z",
+        "org": "RPG ECOM",
+        "industry": "IT and Telecom",
+        "city": "Toronto",
+        "subIndustry": "Marketing Technology",
+        "description": "E-commerce marketing agency that helps brands, manufacturers, and consumer-product companies launch and operate online marketplace stores. Its services include marketplace research, store setup, listing optimization, paid advertising, creative production, brand partnerships, and ongoing account management.",
+        "domain": "rpgecom.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/009e1fd6-bf96-46dd-8eb6-7fa88292d68a.jpg",
+        "keywords": [
+          "Amazon marketing agency",
+          "E-commerce store management",
+          "Marketplace advertising",
+          "Sponsored products management",
+          "Product listing optimization",
+          "Marketplace SEO",
+          "Product page design",
+          "3D product rendering",
+          "Brand partnership",
+          "E-commerce consulting"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 18,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:36:02.462Z",
+        "org": "GOLDFISH SYSTEMS",
+        "industry": "IT and Telecom",
+        "city": "Bnei Brak",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Enterprise AI platform providing multilingual voice agents, retrieval-augmented knowledge management, and automated customer-service workflows for regulated and high-volume service organizations.",
+        "domain": "goldfish.systems",
+        "keywords": [
+          "Enterprise AI",
+          "Retrieval-augmented generation",
+          "Multilingual voice agents",
+          "Customer service automation",
+          "Knowledge management",
+          "Contact center AI",
+          "Real-time agent assist",
+          "Performance-based AI"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-04T23:34:38.107Z",
+        "org": "TRAINCY",
+        "industry": "Consumer Goods and Services",
+        "city": "Ness Ziona",
+        "subIndustry": "Education & Training",
+        "description": "Interactive online training platform for law enforcement personnel covering cybercrime, digital evidence, open-source intelligence, online safety, social media, security cameras, and emerging technology threats. The platform provides scenario-based learning modules and white-label training for technology vendors serving law enforcement agencies.",
+        "domain": "traincy.com",
+        "keywords": [
+          "eLearning platform",
+          "law enforcement training",
+          "cybercrime training",
+          "digital evidence",
+          "digital forensics",
+          "open-source intelligence",
+          "online safety training",
+          "scenario-based learning",
+          "white-label training"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2G"
+      },
       {
         "ts": "2026-10-04T23:28:56.167Z",
         "org": "H R O BUSINESS",
@@ -2451,6 +2816,31 @@
         "businessModel": "B2C"
       },
       {
+        "ts": "2026-10-04T23:27:35.701Z",
+        "org": "ALVATECH",
+        "industry": "Healthcare and Food",
+        "city": "Metat",
+        "subIndustry": "Agriculture",
+        "description": "Develops solar-powered, chemical-free water treatment devices and agricultural sensing solutions that reduce water and soil salinity, improve irrigation performance, and support crop resilience. The solutions serve agricultural operations as well as insurers, financial institutions, and public bodies evaluating water efficiency and crop risk.",
+        "domain": "alva-water.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/dff274f2-08d1-4411-9d4a-b9e0cc6d47b8.webp",
+        "keywords": [
+          "Saline water treatment",
+          "Soil salinity reduction",
+          "Chemical-free water treatment",
+          "Solar-powered irrigation",
+          "Agricultural sensors",
+          "Irrigation efficiency",
+          "Crop resilience",
+          "Brackish water reuse",
+          "Agritech water management"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 5,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
         "ts": "2026-10-04T23:19:54.741Z",
         "org": "LUCID FASHION",
         "industry": "Consumer Goods and Services",
@@ -2471,407 +2861,9 @@
         "exactEmployees": 4,
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T23:19:18.489Z",
-        "org": "PAINTGEM",
-        "industry": "Consumer Goods and Services",
-        "city": "Ramat HaSharon",
-        "subIndustry": "Toys & Games",
-        "description": "Direct-to-consumer retailer of gem-painting craft kits containing adhesive printed canvases, colored resin gems, and placement tools for creating decorative artwork. The kits are designed for relaxed, beginner-friendly creative activities and are shipped to an international maker community.",
-        "domain": "paintgem.com",
-        "keywords": [
-          "Gem painting",
-          "Diamond art",
-          "Craft kits",
-          "DIY art",
-          "Creative hobbies",
-          "Decorative painting",
-          "Adhesive canvas",
-          "Resin gems",
-          "Arts and crafts"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T23:18:54.583Z",
-        "org": "NAXIL MACHINES",
-        "industry": "Unknown",
-        "city": "Bat Yam",
-        "subIndustry": "Unknown",
-        "description": "Provides custom software development consulting and scientific or technical research services for business and institutional clients.",
-        "keywords": [
-          "Software development consulting",
-          "Technical research services",
-          "Custom software development",
-          "Software engineering",
-          "Applied research"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T23:14:44.296Z",
-        "org": "PULLIEZ",
-        "industry": "Consumer Goods and Services",
-        "city": "Ra'anana",
-        "subIndustry": "Fashion & Apparel",
-        "description": "Consumer apparel company offering sustainable unisex low-cut tubular socks made with recycled plastic-bottle yarn and packaged for convenient household or travel use. The socks use a simplified heel-free design that reduces the need to match individual socks after washing.",
-        "domain": "pulliez.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/d9670f38-40f0-4350-a8a4-4156208baca2.jpg",
-        "keywords": [
-          "Recycled yarn socks",
-          "Unisex tube socks",
-          "Sustainable socks",
-          "Low-cut socks",
-          "Sock dispenser box",
-          "Travel socks",
-          "Eco-friendly apparel",
-          "Recycled polyester yarn",
-          "Heel-free socks"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T23:11:38.698Z",
-        "org": "Faraway Road Productions",
-        "industry": "Media and Entertainment",
-        "city": "Tel Aviv",
-        "subIndustry": "Streaming & Video",
-        "description": "A global premium film and television content studio producing high-impact, character-driven narratives for international audiences through original scripted and unscripted programming.",
-        "domain": "farawayroad.tv",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/9dee1543-96cd-44bf-9369-492a360f6feb.jpg",
-        "keywords": [
-          "Film and television production",
-          "Premium drama series",
-          "International entertainment",
-          "Character-driven storytelling",
-          "Streaming content",
-          "Scripted television",
-          "Unscripted reality series",
-          "Content licensing",
-          "Espionage drama",
-          "Original narrative content"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T23:09:38.367Z",
-        "org": "TEARSHEET",
-        "industry": "Media and Entertainment",
-        "city": "New York",
-        "subIndustry": "Publishing & Content",
-        "description": "Financial media and events business covering technology-driven changes in banking, payments, lending, commerce, and financial services. It provides news, analysis, podcasts, newsletters, premium memberships, awards, and industry conferences for financial services professionals.",
-        "domain": "tearsheet.co",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/854e83de-52f6-4cf4-90aa-a5f7aef1a813.webp",
-        "keywords": [
-          "Financial technology news",
-          "Fintech media",
-          "Banking industry analysis",
-          "Payments and lending news",
-          "Embedded finance",
-          "Financial services trends",
-          "Banking podcasts",
-          "Fintech conferences",
-          "Financial services newsletters",
-          "Banking awards"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 19,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T22:34:38.459Z",
-        "org": "BLIND BUNNY GAMES",
-        "industry": "Media and Entertainment",
-        "city": "Tel Aviv",
-        "subIndustry": "Gaming",
-        "description": "Game development studio creating interactive entertainment with detailed environments, distinctive concepts, animation, and expressive characters for digital platforms.",
-        "domain": "blindbunnygames.net",
-        "keywords": [
-          "Game development",
-          "Mobile games",
-          "Video games",
-          "Interactive entertainment",
-          "Character design",
-          "Game animation",
-          "Digital storytelling",
-          "Independent game studio"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T22:29:24.052Z",
-        "org": "LIEM ART",
-        "industry": "Unknown",
-        "city": "Beer Yaakov",
-        "description": "Liem Art is the brand of artist Vladimir Escribano Mart\u00ednez, selling original oil and acrylic paintings that fuse Renaissance and Baroque technique, including commissioned works.",
-        "domain": "liem-art.com",
-        "keywords": [
-          "paintings",
-          "oil painting",
-          "acrylic",
-          "art",
-          "commissions",
-          "Renaissance",
-          "Baroque"
-        ]
-      },
-      {
-        "ts": "2026-10-04T22:29:02.823Z",
-        "org": "ARKADIA WATER",
-        "industry": "Energy and Utilities",
-        "city": "Ashkelon",
-        "subIndustry": "Water & Waste Management",
-        "description": "Water treatment engineering company providing reverse osmosis, ultrafiltration, water softening, filtration, and ultraviolet disinfection systems alongside treatment services for industrial process water, cooling towers, and steam boilers.",
-        "domain": "arkadia-water.com",
-        "keywords": [
-          "Water treatment systems",
-          "Reverse osmosis systems",
-          "Ultrafiltration systems",
-          "Industrial water filtration",
-          "Water softening systems",
-          "Cooling tower treatment",
-          "Steam boiler water treatment",
-          "Ultraviolet water disinfection",
-          "Process water treatment"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T22:11:15.467Z",
-        "org": "SHRAGIS",
-        "industry": "Consumer Goods and Services",
-        "city": "Ramat Gan",
-        "subIndustry": "Retail & E-commerce",
-        "description": "Online retailer selling unique games and toys directly from manufacturers to consumers, with a wholesale sourcing service connecting retailers with manufacturers.",
-        "domain": "shragis.co.il",
-        "keywords": [
-          "Online toy retailer",
-          "Direct-to-consumer toys",
-          "Board games",
-          "Action games",
-          "Family games",
-          "Electronic toys",
-          "Wholesale toy sourcing",
-          "Online shopping"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-04T22:08:24.883Z",
-        "org": "MONKEY DIGITAL",
-        "industry": "IT and Telecom",
-        "city": "Holon",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Software development provider specializing in custom desktop applications, legacy system modernization, and cross-platform solutions for business environments.",
-        "domain": "monkey-digital.com",
-        "keywords": [
-          "Custom software development",
-          "Desktop application development",
-          "Legacy system modernization",
-          "Cross-platform software",
-          "Enterprise applications",
-          "Software consulting",
-          "Application maintenance"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T22:06:42.304Z",
-        "org": "ORCHESTRA SALES DEVELOPMENT",
-        "industry": "Unknown",
-        "city": "Jerusalem",
-        "description": "Sales outsourcing and sales development services that help businesses improve sales pipeline development and revenue growth.",
-        "domain": "suxeed.co",
-        "keywords": [
-          "Sales outsourcing",
-          "Sales development",
-          "Lead generation",
-          "Sales pipeline",
-          "Revenue growth",
-          "Business development"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T21:59:45.854Z",
-        "org": "LABITAT",
-        "industry": "Healthcare and Food",
-        "city": "Tel Aviv",
-        "subIndustry": "Medical Devices",
-        "description": "Supplier of laboratory equipment, materials, and consumables for life sciences, chemistry, pharmaceutical, healthcare, research, and academic applications, with product selection, consultation, sales, and technical support.",
-        "domain": "labitat.co.il",
-        "keywords": [
-          "Laboratory equipment",
-          "Scientific instruments",
-          "Laboratory consumables",
-          "Biology equipment",
-          "Biotechnology supplies",
-          "Chemistry equipment",
-          "Pharmaceutical laboratory supplies",
-          "Research laboratory equipment",
-          "Academic laboratory supplies"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T21:57:54.747Z",
-        "org": "A.DREAMS SOFTWARE AND DEVELOPMENT",
-        "industry": "IT and Telecom",
-        "city": "Ashdod",
-        "subIndustry": "Enterprise Software",
-        "description": "Provides a web-based nursing-care management platform for nursing companies, supporting staff search and matching, payroll-system interfaces, multi-branch administration, and accessible clinical-data workflows.",
-        "domain": "a-dreams.com",
-        "keywords": [
-          "Nursing care management software",
-          "Healthcare workforce management",
-          "Staff matching software",
-          "Nursing agency management",
-          "Multi-branch management",
-          "Payroll integration",
-          "Medical data security",
-          "Care provider operations"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T21:57:16.670Z",
-        "org": "AFRICA GLOBAL BRIDGE",
-        "industry": "Healthcare and Food",
-        "city": "Netivot",
-        "subIndustry": "Agriculture",
-        "description": "Distributes organic fertilizers, soil conditioners, pesticides, disinfectants, and crop-protection products that support sustainable agriculture and improved plant health.",
-        "domain": "agbisrael.com",
-        "keywords": [
-          "Organic fertilizers",
-          "Agricultural soil conditioners",
-          "Crop protection",
-          "Plant disease prevention",
-          "Sustainable farming",
-          "Pesticide alternatives",
-          "Beekeeping disinfectants",
-          "Agricultural inputs"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T21:54:20.362Z",
-        "org": "IES INNOVATION ENERGY STORAGE",
-        "industry": "Energy and Utilities",
-        "city": "Lod",
-        "subIndustry": "Renewable Energy",
-        "description": "Provides energy products, laboratory testing, repair, installation, consulting, rental, and leasing services, with a focus on lithium-ion batteries, solar systems, and energy storage solutions.",
-        "domain": "ies-nrg.com",
-        "keywords": [
-          "Lithium-ion batteries",
-          "Energy storage solutions",
-          "Solar power systems",
-          "Home backup power",
-          "Battery repair services",
-          "Battery testing laboratories",
-          "Hybrid vehicle batteries",
-          "Renewable energy equipment",
-          "Battery rental",
-          "Energy product consulting"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-04T21:53:28.966Z",
-        "org": "TEVEL RENEWABLE ENERGY",
-        "industry": "Energy and Utilities",
-        "city": "Or Yehuda",
-        "subIndustry": "Renewable Energy",
-        "description": "Renewable energy contractor providing planning, approvals, procurement, installation, grid connection, and maintenance for solar systems and wind turbines serving independent electricity generation needs.",
-        "domain": "tevelenergy.co.il",
-        "keywords": [
-          "Solar system installation",
-          "Wind turbine installation",
-          "Renewable energy EPC",
-          "Solar power systems",
-          "Wind power systems",
-          "Grid connection",
-          "Renewable energy maintenance",
-          "Independent electricity generation",
-          "Commercial solar energy",
-          "Municipal solar projects"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-10-04T21:51:08.177Z",
-        "org": "METISIM TECHNOLOGIES",
-        "industry": "IT and Telecom",
-        "city": "Mazor",
-        "subIndustry": "Aerospace & Defense",
-        "description": "Developer of airspace management and drone operations systems for public safety organizations, combining real-time telemetry, collision-avoidance algorithms, regulatory monitoring, fleet coordination, and air traffic integration. The company also provides regulated drone operations and technical advisory services.",
-        "domain": "metisim.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/dd3b31b0-0199-4cf6-ab1a-57389c62a84b.jpg",
-        "keywords": [
-          "Drone traffic management",
-          "Automated air traffic control",
-          "Unmanned aerial vehicle traffic management",
-          "Drone collision avoidance",
-          "Drone airspace compliance",
-          "Drone fleet management",
-          "Drone mission planning",
-          "Real-time drone telemetry",
-          "Public safety drones",
-          "UAV integration"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2G"
-      },
-      {
-        "ts": "2026-10-04T20:13:50.958Z",
-        "org": "S.V.G ILLUSTRATION & DESIGN",
-        "industry": "Media and Entertainment",
-        "city": "Herzliya",
-        "subIndustry": "Publishing & Content",
-        "description": "Illustration and design studio creating children's illustrations, editorial artwork, surface designs, and graphic design for publishers and commercial partners.",
-        "domain": "sophiavincentguy.com",
-        "keywords": [
-          "Children's illustration",
-          "Editorial illustration",
-          "Surface design",
-          "Graphic design",
-          "Book illustration",
-          "Publishing artwork",
-          "Brand illustration",
-          "Creative design services"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "INFERIZE",
-        "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
-      },
       {
         "ts": "2026-10-01T00:00:00.000Z",
         "kind": "large_round",
@@ -2880,18 +2872,18 @@
         "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
       },
       {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "INFERIZE",
+        "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
+      },
+      {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Award Recognition",
         "org": "TEARSHEET",
         "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HyperGuest",
-        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2908,11 +2900,11 @@
         "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
       },
       {
-        "ts": "2026-09-28T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "Paragon Solutions",
-        "summary": "Announced definitive agreement for a SPAC merger with Bold Eagle Acquisition Corp (Nasdaq: BEAG) at a $1.25 billion pre-money enterprise valuation, with $335 million of committed capital anchored by Loomis, Sayles & Co. including investment from AE Industrial and Eagle Equity Partners; Paragon (already owned by AE Industrial and merged into portfolio company REDLattice) will constitute the lion's share of the combined entity, which reported combined revenue of $267 million and 750 employees."
+        "ts": "2026-09-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "HyperGuest",
+        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
       },
       {
         "ts": "2026-09-28T00:00:00.000Z",
@@ -2920,6 +2912,13 @@
         "rawKind": "Acquisition",
         "org": "Bluevine",
         "summary": "Acquired by Valley National Bancorp (parent of Valley National Bank) for approximately $340 million (~75% cash / 25% Valley common stock, ~$255M cash plus ~6.3M shares). Definitive agreement announced September 28, 2026; expected to close early 2027 subject to regulatory approvals. Bluevine brings ~$2.1 billion of deposits and ~175,000 active small-business customers; co-founder and CEO Eyal Lifshitz is expected to join Valley as Head of Small Business Banking after closing. Cantor Fitzgerald and Wachtell Lipton advised Valley; Financial Technology Partners and Sidley Austin advised Bluevine."
+      },
+      {
+        "ts": "2026-09-28T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "Paragon Solutions",
+        "summary": "Announced definitive agreement for a SPAC merger with Bold Eagle Acquisition Corp (Nasdaq: BEAG) at a $1.25 billion pre-money enterprise valuation, with $335 million of committed capital anchored by Loomis, Sayles & Co. including investment from AE Industrial and Eagle Equity Partners; Paragon (already owned by AE Industrial and merged into portfolio company REDLattice) will constitute the lion's share of the combined entity, which reported combined revenue of $267 million and 750 employees."
       },
       {
         "ts": "2026-09-25T00:00:00.000Z",
@@ -2932,8 +2931,8 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Wand",
-        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2944,10 +2943,17 @@
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Island",
+        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
+        "org": "Wand",
+        "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2955,13 +2961,6 @@
         "rawKind": "Award Recognition",
         "org": "Monogoto",
         "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Island",
-        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
@@ -2994,9 +2993,9 @@
       {
         "ts": "2026-09-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "2bPrecise",
-        "summary": "Aranscia announced a molecular laboratory integration initiative with Northside Hospital to advance precision oncology, integrating Aranscia's 2bPrecise and Spesana platforms with leading molecular laboratories to streamline genomic testing across Northside's network."
+        "rawKind": "Other",
+        "org": "Enlivex Therapeutics",
+        "summary": "Terminated the securities purchase agreement with the Rain Foundation under which it had agreed, subject to shareholder approval, to sell and issue ordinary shares to the Rain Foundation."
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
