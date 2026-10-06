@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T10:01:51.753Z",
+  "generatedAt": "2026-10-06T10:08:03.638Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 38338,
-      "delta24h": 140
+      "delta24h": 139
     },
     "totalFunding": {
       "valueUsd": 228202926236,
@@ -2237,14 +2237,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2259,14 +2259,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2281,17 +2281,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2300,6 +2289,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2413,14 +2413,14 @@
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Huskeys",
+        "org": "Lasso Security",
         "stage": "Series A",
-        "amountUsd": 27000000,
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 6,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "$30M Funding Round"
       }
     ],
     "todayStats": {
@@ -2905,10 +2905,10 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HyperGuest",
-        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Capitolis",
+        "summary": "Acquired eSecLending: announced agreement to acquire the independent securities lending business from Parthenon Capital and management for $200 million in an all-cash transaction, adding securities lending capabilities to the Capitolis platform (its fourth strategic acquisition in five years). Parthenon Capital is investing in Capitolis as part of the deal."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2919,10 +2919,10 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Capitolis",
-        "summary": "Acquired eSecLending: announced agreement to acquire the independent securities lending business from Parthenon Capital and management for $200 million in an all-cash transaction, adding securities lending capabilities to the Capitolis platform (its fourth strategic acquisition in five years). Parthenon Capital is investing in Capitolis as part of the deal."
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "HyperGuest",
+        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
       },
       {
         "ts": "2026-09-28T00:00:00.000Z",
@@ -2949,6 +2949,13 @@
         "ts": "2026-09-24T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
+        "org": "Groundcover",
+        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
+      },
+      {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
         "org": "Wand",
         "summary": "Acquired by groundcover for several tens of millions of dollars (terms undisclosed). groundcover's first acquisition; Wand's founding team (Shon Lev-Ran, Shir Monether) and 10 employees join groundcover to combine Kubernetes resource optimization with groundcover's observability platform."
       },
@@ -2958,13 +2965,6 @@
         "rawKind": "Acquisition",
         "org": "MMDSmart",
         "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Groundcover",
-        "summary": "Acquired Wand Cloud, an Israeli startup whose technology automatically optimizes Kubernetes, for a reported tens of millions of dollars \u2014 groundcover's first acquisition, combining its production visibility with Wand's optimization technology."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2983,16 +2983,16 @@
       {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Ottopia Technologies",
-        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
+        "rawKind": "Product Launch",
+        "org": "Weir AI",
+        "summary": "WEIR AI introduced the \u02b3\u1d56 mark, a public symbol signaling that a person's identity is protected and licensable, analogous to \u00a9 and \u2122."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Weir AI",
-        "summary": "WEIR AI introduced the \u02b3\u1d56 mark, a public symbol signaling that a person's identity is protected and licensable, analogous to \u00a9 and \u2122."
+        "rawKind": "Executive Appointment",
+        "org": "Ottopia Technologies",
+        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
