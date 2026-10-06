@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-06T02:02:40.389832Z",
+  "generatedAt": "2026-10-06T02:56:32.934387Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       23,
       208,
       176,
-      23
+      42
     ],
     "exits": [
       0,
@@ -343,7 +343,7 @@
       36,
       79,
       76,
-      6
+      15
     ],
     "investments": [
       3,
@@ -477,9 +477,9 @@
       "d30": 16
     },
     "newOrgs": {
-      "d1": 190,
-      "d7": 534,
-      "d30": 2408
+      "d1": 195,
+      "d7": 553,
+      "d30": 2427
     },
     "exits": {
       "d1": 0,
@@ -502,9 +502,9 @@
       "d30": 5005
     },
     "newFounders": {
-      "d1": 79,
-      "d7": 304,
-      "d30": 1729
+      "d1": 85,
+      "d7": 313,
+      "d30": 1738
     },
     "investments": {
       "d1": 0,
@@ -1736,21 +1736,21 @@
     {
       "ts": "2026-08-31",
       "precision": "day",
+      "target": "Lanir",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "lanirgroup.com"
+    },
+    {
+      "ts": "2026-08-31",
+      "precision": "day",
       "target": "LightSolver",
       "acquirer": "CollPlant Biotechnologies Ltd.",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "lightsolver.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/e4f19281-a072-4147-af09-84b1b396758e-square.jpg"
-    },
-    {
-      "ts": "2026-08-31",
-      "precision": "day",
-      "target": "Lanir",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "lanirgroup.com"
     },
     {
       "ts": "2026-08-30",
@@ -2136,18 +2136,18 @@
     {
       "ts": "2026-09-22",
       "kind": "granted",
-      "org": "InZiv",
-      "title": "System and method for automatic probe card replacement",
-      "number": "12742797",
-      "url": "https://patents.google.com/patent/US12742797B1/en"
-    },
-    {
-      "ts": "2026-09-22",
-      "kind": "granted",
       "org": "Jackpocket",
       "title": "Adjustment mechanism for roller scraper configured to scrape physical media elements",
       "number": "12741194",
       "url": "https://patents.google.com/patent/US12741194B1/en"
+    },
+    {
+      "ts": "2026-09-22",
+      "kind": "granted",
+      "org": "InZiv",
+      "title": "System and method for automatic probe card replacement",
+      "number": "12742797",
+      "url": "https://patents.google.com/patent/US12742797B1/en"
     },
     {
       "ts": "2026-09-16",
@@ -2160,10 +2160,18 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "UnifabriX",
-      "title": "Translating between cxl.mem and cxl.cache read transactions",
-      "number": "12737313",
-      "url": "https://patents.google.com/patent/US12737313B2/en"
+      "org": "Wiz",
+      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
+      "number": "12737175",
+      "url": "https://patents.google.com/patent/US12737175B1/en"
+    },
+    {
+      "ts": "2026-09-15",
+      "kind": "granted",
+      "org": "Wiz",
+      "title": "Techniques for circumventing provider-imposed limitations in snapshot inspection of disks for cybersecurity",
+      "number": "12739106",
+      "url": "https://patents.google.com/patent/US12739106B2/en"
     },
     {
       "ts": "2026-09-15",
@@ -2176,18 +2184,10 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "IVY NEXT",
-      "title": "Air speculum",
-      "number": "12733802",
-      "url": "https://patents.google.com/patent/US12733802B2/en"
-    },
-    {
-      "ts": "2026-09-15",
-      "kind": "granted",
-      "org": "Wiz",
-      "title": "Systems and methods for correlating deployed software containers to source code using chart fingerprints",
-      "number": "12737175",
-      "url": "https://patents.google.com/patent/US12737175B1/en"
+      "org": "Inspekto",
+      "title": "Adaptive system and method for inspection of imaged items",
+      "number": "12737875",
+      "url": "https://patents.google.com/patent/US12737875B2/en"
     }
   ],
   "jobs": [
@@ -2305,27 +2305,27 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 89
+          "count": 96
         },
         {
           "label": "IT and Telecom",
-          "count": 50
+          "count": 51
         },
         {
           "label": "Unknown",
-          "count": 16
-        },
-        {
-          "label": "Media and Entertainment",
           "count": 13
         },
         {
           "label": "Healthcare and Food",
-          "count": 10
+          "count": 12
+        },
+        {
+          "label": "Media and Entertainment",
+          "count": 12
         },
         {
           "label": "Financial Services",
-          "count": 8
+          "count": 7
         },
         {
           "label": "Energy and Utilities",
@@ -2335,19 +2335,19 @@
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 220
+          "count": 229
         },
         {
           "label": "IT and Telecom",
-          "count": 144
+          "count": 150
         },
         {
           "label": "Media and Entertainment",
-          "count": 50
+          "count": 51
         },
         {
           "label": "Healthcare and Food",
-          "count": 45
+          "count": 47
         },
         {
           "label": "Unknown",
@@ -2355,7 +2355,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 23
+          "count": 24
         },
         {
           "label": "Energy and Utilities",
@@ -2365,23 +2365,23 @@
       "d30": [
         {
           "label": "Consumer Goods and Services",
-          "count": 843
+          "count": 852
         },
         {
           "label": "IT and Telecom",
-          "count": 766
+          "count": 772
         },
         {
           "label": "Media and Entertainment",
-          "count": 230
+          "count": 231
         },
         {
           "label": "Healthcare and Food",
-          "count": 202
+          "count": 204
         },
         {
           "label": "Financial Services",
-          "count": 148
+          "count": 149
         },
         {
           "label": "Unknown",
