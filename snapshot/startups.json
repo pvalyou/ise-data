@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T02:01:47.389Z",
+  "generatedAt": "2026-10-08T02:40:01.867Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 38513,
-      "delta24h": 151
+      "value": 38520,
+      "delta24h": 158
     },
     "totalFunding": {
       "valueUsd": 228376526236,
@@ -184,19 +184,19 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7090
+        "count": 7093
       },
       {
         "name": "Central",
-        "count": 4114
+        "count": 4115
       },
       {
         "name": "Haifa",
-        "count": 1431
+        "count": 1433
       },
       {
         "name": "Jerusalem",
-        "count": 852
+        "count": 854
       },
       {
         "name": "Southern",
@@ -217,14 +217,14 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4449
+        "count": 4451
       },
       {
         "name": "Herzliya",
         "district": "Tel Aviv",
         "lat": 32.1663,
         "lng": 34.8435,
-        "count": 802
+        "count": 803
       },
       {
         "name": "Ramat Gan",
@@ -238,7 +238,7 @@
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 773
+        "count": 774
       },
       {
         "name": "Petah Tikva",
@@ -252,7 +252,7 @@
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 598
+        "count": 600
       },
       {
         "name": "Ra'anana",
@@ -434,7 +434,7 @@
         "district": "Jerusalem",
         "lat": 31.7494,
         "lng": 34.9889,
-        "count": 62
+        "count": 63
       },
       {
         "name": "Yehud-Monoson",
@@ -738,17 +738,17 @@
         "count": 14
       },
       {
-        "name": "Ofakim",
-        "district": "Southern",
-        "lat": 31.3147,
-        "lng": 34.6203,
-        "count": 12
-      },
-      {
         "name": "Ramla",
         "district": "Central",
         "lat": 31.9281,
         "lng": 34.8714,
+        "count": 13
+      },
+      {
+        "name": "Ofakim",
+        "district": "Southern",
+        "lat": 31.3147,
+        "lng": 34.6203,
         "count": 12
       },
       {
@@ -985,7 +985,7 @@
         1775,
         1852,
         1801,
-        1976,
+        1983,
         2206,
         2121,
         1708,
@@ -1073,7 +1073,7 @@
       ],
       "statusMix": {
         "inactive": 421,
-        "active": 20536,
+        "active": 20543,
         "closed": 13796,
         "unknown": 3760
       }
@@ -1440,12 +1440,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 22410,
+      "active": 22417,
       "closed": 12667,
       "exited": 3436
     },
     "funnel": {
-      "all": 38513,
+      "all": 38520,
       "funded": 15671,
       "over1m": 6259,
       "over10m": 3113,
@@ -1469,10 +1469,10 @@
       },
       {
         "year": 2019,
-        "total": 1976,
+        "total": 1983,
         "exited": 109,
         "closed": 540,
-        "active": 1327
+        "active": 1334
       },
       {
         "year": 2020,
@@ -1668,23 +1668,23 @@
       },
       {
         "year": 2019,
-        "total": 1902,
-        "unknown": 74,
+        "total": 1908,
+        "unknown": 75,
         "counts": {
-          "it-telecom": 678,
+          "it-telecom": 680,
           "healthcare-food": 410,
-          "consumer-goods-services": 430,
+          "consumer-goods-services": 432,
           "energy-utilities": 62,
-          "financial-services": 121,
+          "financial-services": 123,
           "media-entertainment": 201
         },
         "shares": {
-          "it-telecom": 0.35646687697160884,
-          "healthcare-food": 0.21556256572029442,
-          "consumer-goods-services": 0.22607781282860148,
-          "energy-utilities": 0.03259726603575184,
-          "financial-services": 0.06361724500525763,
-          "media-entertainment": 0.1056782334384858
+          "it-telecom": 0.35639412997903563,
+          "healthcare-food": 0.2148846960167715,
+          "consumer-goods-services": 0.22641509433962265,
+          "energy-utilities": 0.03249475890985325,
+          "financial-services": 0.06446540880503145,
+          "media-entertainment": 0.10534591194968554
         }
       },
       {
@@ -1839,43 +1839,43 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14896,
-        "share": 0.40206213393074036
+        "count": 14898,
+        "share": 0.4020510052624477
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6907,
-        "share": 0.18642878350292855
+        "share": 0.1863985966806099
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 6930,
-        "share": 0.18704958298469596
+        "count": 6932,
+        "share": 0.1870732694643098
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1651,
-        "share": 0.04456260627817215
+        "share": 0.044555390635541765
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
-        "count": 2198,
-        "share": 0.05932683743150962
+        "count": 2200,
+        "share": 0.05937120496559169
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4467,
-        "share": 0.12057005587195335
+        "share": 0.12055053299149912
       }
     ],
     "mixSummary": {
-      "totalVisible": 16668,
-      "totalUnknown": 674
+      "totalVisible": 16674,
+      "totalUnknown": 675
     },
     "subTrendYears": [
       2017,
@@ -1894,7 +1894,7 @@
         "name": "AI & Machine Learning",
         "parent": "IT and Telecom",
         "total": 776,
-        "shareDelta": 0.042,
+        "shareDelta": 0.043,
         "counts": [
           62,
           43,
@@ -1910,7 +1910,7 @@
         "shares": [
           0.034521158129175944,
           0.02459954233409611,
-          0.03305351521511018,
+          0.03294979079497908,
           0.02677313292625646,
           0.02999016715830875,
           0.035108958837772396,
@@ -1940,7 +1940,7 @@
         "shares": [
           0.04844097995545657,
           0.05892448512585812,
-          0.04354669464847849,
+          0.043410041841004186,
           0.04462188821042743,
           0.049164208456243856,
           0.061138014527845036,
@@ -1970,7 +1970,7 @@
         "shares": [
           0.13697104677060135,
           0.14702517162471396,
-          0.1353620146904512,
+          0.13493723849372385,
           0.14419915453264442,
           0.13667649950835792,
           0.14951573849878935,
@@ -2000,7 +2000,7 @@
         "shares": [
           0.017817371937639197,
           0.014302059496567507,
-          0.018363064008394544,
+          0.018305439330543932,
           0.016439643024894316,
           0.01376597836774828,
           0.01694915254237288,
@@ -2030,7 +2030,7 @@
         "shares": [
           0.008351893095768375,
           0.010297482837528604,
-          0.007345225603357817,
+          0.007322175732217573,
           0.013621418506341005,
           0.011307767944936086,
           0.010290556900726392,
@@ -2062,7 +2062,7 @@
         "shares": [
           0.036748329621380846,
           0.029748283752860413,
-          0.008394543546694649,
+          0.008368200836820083,
           0.008924377642085486,
           0.01671583087512291,
           0.01694915254237288,
@@ -2092,7 +2092,7 @@
         "shares": [
           0.06625835189309577,
           0.05148741418764302,
-          0.05299055613850997,
+          0.05282426778242678,
           0.06200093940817285,
           0.04473942969518191,
           0.053268765133171914,
@@ -2122,7 +2122,7 @@
         "shares": [
           0.024498886414253896,
           0.02688787185354691,
-          0.033578174186778595,
+          0.03347280334728033,
           0.02912165335838422,
           0.023107177974434612,
           0.03208232445520581,
@@ -2152,7 +2152,7 @@
         "shares": [
           0.04287305122494432,
           0.02459954233409611,
-          0.02833158447009444,
+          0.028242677824267783,
           0.02677313292625646,
           0.023107177974434612,
           0.01694915254237288,
@@ -2182,7 +2182,7 @@
         "shares": [
           0.022271714922048998,
           0.020594965675057208,
-          0.01888772298006296,
+          0.01882845188284519,
           0.01737905119774542,
           0.015240904621435595,
           0.019975786924939468,
@@ -2196,7 +2196,7 @@
     "signals": {
       "deeptechCount": 10097,
       "deeptechPct": 26.2,
-      "globalCount": 15857,
+      "globalCount": 15858,
       "globalPct": 41.2
     }
   },
@@ -2237,14 +2237,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series C"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2259,14 +2259,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "UltraSight",
+        "stage": "Series C",
+        "amountUsd": 24000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2281,17 +2281,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Noetive",
         "stage": "Seed",
         "amountUsd": 41000000,
@@ -2300,6 +2289,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2380,16 +2380,6 @@
       },
       {
         "ts": "2026-09-03T00:00:00.000Z",
-        "org": "Advia",
-        "stage": "Accelerator",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": true
-      },
-      {
-        "ts": "2026-09-03T00:00:00.000Z",
         "org": "Guardio",
         "stage": "Series C",
         "amountUsd": 40000000,
@@ -2400,26 +2390,36 @@
         "roundTitle": "Series C"
       },
       {
-        "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Wonderful",
-        "stage": "Series C",
-        "amountUsd": 550000000,
+        "ts": "2026-09-03T00:00:00.000Z",
+        "org": "Advia",
+        "stage": "Accelerator",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": true
       },
       {
         "ts": "2026-09-02T00:00:00.000Z",
-        "org": "Lasso Security",
+        "org": "Huskeys",
         "stage": "Series A",
-        "amountUsd": 30000000,
+        "amountUsd": 27000000,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "$30M Funding Round"
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-02T00:00:00.000Z",
+        "org": "Lyte",
+        "stage": "Series C",
+        "amountUsd": 165000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
       }
     ],
     "todayStats": {
@@ -2428,6 +2428,149 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-08T02:25:25.561Z",
+        "org": "MUSBACHER ELECTRICITY",
+        "industry": "Unknown",
+        "city": "Beit Shemesh",
+        "description": "Private Israeli electricity company registered with the Israeli Registrar of Companies (company no. 515965309), incorporated January 2019 and based in Beit Shemesh.",
+        "domain": "musbacher.com",
+        "keywords": [
+          "electricity"
+        ],
+        "isDeeptech": false
+      },
+      {
+        "ts": "2026-10-08T02:23:08.301Z",
+        "org": "SINFORI GROUP",
+        "industry": "IT and Telecom",
+        "city": "Herzliya",
+        "subIndustry": "Hardware & Semiconductors",
+        "description": "Provider of smart minibar automation systems for hotels, using a wireless sensor tray or shelf that retrofits any minibar to detect product removal and bill guests in real time through the hotel management system.",
+        "domain": "sinforigroup.com",
+        "keywords": [
+          "Smart minibar",
+          "Hotel minibar automation",
+          "Wireless sensor tray",
+          "Guest billing automation",
+          "Hospitality technology",
+          "Minibar management system",
+          "Hotel room service automation"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-08T02:19:26.068Z",
+        "org": "SIAN FINANCE",
+        "industry": "Financial Services",
+        "city": "Haifa",
+        "subIndustry": "Business Lending & Financing",
+        "description": "Non-bank credit provider offering business financing solutions including credit lines, bridge loans, medium- and long-term loans, check discounting, and financial and business consulting to companies",
+        "domain": "sianfinance.co.il",
+        "keywords": [
+          "Business loans",
+          "Non-bank financing",
+          "Credit lines",
+          "Bridge loans",
+          "Check discounting",
+          "Business credit",
+          "Financial consulting",
+          "Corporate restructuring",
+          "Cash flow financing",
+          "Startup business loans"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-08T02:15:44.376Z",
+        "org": "MIDDLE EAST TRADE LINE",
+        "industry": "Consumer Goods and Services",
+        "city": "Jerusalem",
+        "subIndustry": "Retail & E-commerce",
+        "description": "General trading and import company distributing indoor, LED, solar and professional lighting products, and providing regional transport and logistics services",
+        "domain": "middleeasttradeline.com",
+        "keywords": [
+          "Lighting solutions",
+          "LED lighting",
+          "Solar lights",
+          "Chandeliers and pendants",
+          "Professional projectors",
+          "Lighting import and distribution",
+          "Smart mirrors",
+          "Garden lighting",
+          "Transport and logistics services"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-08T02:07:18.505Z",
+        "org": "DOLIGHT",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv",
+        "subIndustry": "IT Services & Consulting",
+        "description": "Development studio designing and building web, mobile, and cloud platforms, including analytics dashboards, cross-platform applications, headless content and storefront systems, and serverless infrastructure.",
+        "domain": "dolightdev.com",
+        "keywords": [
+          "Web development",
+          "Mobile app development",
+          "Cloud platforms",
+          "Analytics dashboards",
+          "Cross-platform apps",
+          "Headless CMS",
+          "Serverless infrastructure",
+          "E-commerce storefronts"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-08T02:07:12.981Z",
+        "org": "WINNERS CODE JUNIOR",
+        "industry": "Consumer Goods and Services",
+        "city": "Haifa",
+        "subIndustry": "Education & Training",
+        "description": "Educational program company teaching practical life-success skills to children and teens through a Ministry-approved digital personal-development course and book, covering goal setting, resilience, leadership and time management",
+        "domain": "juniorscode.com",
+        "keywords": [
+          "Life skills for children",
+          "Personal development for kids",
+          "Online course for children",
+          "Resilience training for youth",
+          "Goal setting for kids",
+          "Time management for teens",
+          "Youth mentoring",
+          "Educational program"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-08T02:04:56.887Z",
+        "org": "MP Group",
+        "industry": "Financial Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Payments & Transactions",
+        "description": "Group operating two B2B technology arms: one builds case, evidence and intelligence management software for legal, compliance, forensics and government teams, and the other develops B2B payments technology, treasury tools and financial-market infrastructure.",
+        "domain": "moneypay.net",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/5c623656-2e6c-4729-80a5-8cc5c2701db5.png",
+        "keywords": [
+          "Case management software",
+          "Evidence management",
+          "Chain of custody",
+          "B2B payments",
+          "Treasury management",
+          "Financial-market infrastructure",
+          "Compliance software",
+          "Audit logging",
+          "Intelligence management",
+          "Regulated workflows"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-10-08T01:58:23.411Z",
         "org": "FORKWAY",
@@ -2703,166 +2846,6 @@
         "exactEmployees": 4,
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-08T00:08:40.429Z",
-        "org": "ADAUSO",
-        "industry": "IT and Telecom",
-        "city": "Bet-Shemesh",
-        "subIndustry": "Aerospace & Defense",
-        "description": "Provider of end-to-end homeland security automotive solutions, including design and manufacture of dedicated mission vehicles and trailers, automotive equipment development, on-site installation and commissioning, consulting, and preventive maintenance and SLA services.",
-        "domain": "adauso.com",
-        "keywords": [
-          "Mission vehicles",
-          "Homeland security vehicles",
-          "Automotive integration",
-          "Vehicle upfitting",
-          "Surveillance vehicles",
-          "Mobile command and control",
-          "Field installations",
-          "Automotive consulting",
-          "Preventive maintenance",
-          "Special equipment manufacturing"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2G"
-      },
-      {
-        "ts": "2026-10-08T00:07:30.374Z",
-        "org": "QIQI GLOBAL",
-        "industry": "Consumer Goods and Services",
-        "city": "Las Vegas",
-        "subIndustry": "Personal Care & Beauty",
-        "description": "Professional haircare company developing salon-grade hair smoothing and texture control treatments alongside retail haircare products, using proprietary organic-acid formulas that reshape and repair hair without alkaline damage",
-        "domain": "qiqiglobal.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/936217f6-cd2f-4e33-8846-cbd277c3dfb4.webp",
-        "keywords": [
-          "Hair smoothing treatment",
-          "Salon-grade haircare",
-          "Hair straightening",
-          "Frizz control",
-          "Professional hair products",
-          "Organic acid hair treatment",
-          "Hair repair",
-          "Texture control",
-          "Keratin alternative",
-          "Shampoo and conditioner"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 59,
-        "isDeeptech": false,
-        "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-10-08T00:04:37.500Z",
-        "org": "Gold Letters",
-        "industry": "IT and Telecom",
-        "city": "Jerusalem",
-        "subIndustry": "Industrial Technologies",
-        "description": "Manufacturer of computerized hot foil stamping and embossing machines that print text directly from computer designs onto leather, leatherette, paper, wood and other cover materials without manual letter arrangement or templates",
-        "domain": "gold-letters.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/7820d609-0caa-448d-91e1-93b625286092.jpg",
-        "keywords": [
-          "Hot foil stamping machine",
-          "Computerized embossing machine",
-          "Leather embossing",
-          "Personalization equipment",
-          "Book cover printing",
-          "Luxury packaging embossing",
-          "Automated foil stamping"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 10,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-08T00:03:21.443Z",
-        "org": "GET UP AFFILIATE",
-        "industry": "Media and Entertainment",
-        "city": "Netanya",
-        "subIndustry": "Advertising Technology",
-        "description": "Affiliate marketing agency operating an affiliation platform that connects advertisers with publishers, using tracking technology and performance-based channels such as display, native ads, email, social media, cashback and retargeting, with CPL, CPV and CPC compensation models",
-        "domain": "getupaffiliate.com",
-        "keywords": [
-          "Affiliate marketing",
-          "Performance marketing",
-          "Advertiser acquisition",
-          "Publisher partnerships",
-          "CPL campaigns",
-          "Retargeting",
-          "Cashback marketing",
-          "Native advertising",
-          "Lead generation"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-07T23:58:06.611Z",
-        "org": "Scopix",
-        "industry": "Healthcare and Food",
-        "city": "Ammikam",
-        "subIndustry": "Medical Devices",
-        "description": "Developer of a single-use intraoperative lens-cleaning device for laparoscopic surgery that clears fog, blood, and electrocautery plume from the endoscope lens without removing the scope from the trocar",
-        "domain": "scopix-lap.com",
-        "keywords": [
-          "Laparoscopic lens cleaning",
-          "Surgical scope debridement",
-          "Endoscope lens clearing",
-          "Intraoperative visibility",
-          "Trocar-mounted device",
-          "Single-use surgical device",
-          "Minimally invasive surgery"
-        ],
-        "isDeeptech": true,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-07T23:57:03.014Z",
-        "org": "BETTER LINX",
-        "industry": "IT and Telecom",
-        "city": "Modi'in-Maccabim-Re'ut",
-        "subIndustry": "Telecommunications",
-        "description": "Internet service and managed communications provider for businesses, offering business internet connectivity, managed wireless and network infrastructure, structured cabling, cybersecurity, transmission services, virtual servers, and temporary high-capacity internet for events",
-        "domain": "betterlinx.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/324696fd-a78b-4935-abb0-204958ca9d06.jpg",
-        "keywords": [
-          "Business internet",
-          "Managed communications",
-          "Wireless solutions",
-          "Network infrastructure",
-          "Structured cabling",
-          "Cybersecurity",
-          "Virtual servers",
-          "Event internet services",
-          "Transmission services"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-07T23:53:29.391Z",
-        "org": "IDAN LOCATION",
-        "industry": "Media and Entertainment",
-        "city": "Tel Aviv",
-        "subIndustry": "Digital Media",
-        "description": "Filming location services company that sources, registers and manages unique shooting locations for film, TV and advertising productions, including permit handling, coordination with authorities and on-site crew management",
-        "domain": "idanlocations.com",
-        "keywords": [
-          "Filming locations",
-          "Location scouting",
-          "Location management",
-          "Film production services",
-          "TV production",
-          "Permit handling",
-          "On-site crew management",
-          "Advertising productions",
-          "Shooting locations"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2884,6 +2867,13 @@
         "ts": "2026-10-01T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "CX2",
+        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
+      },
+      {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "Qodo",
         "summary": "Announced Qodo 3.0, the next generation of its AI Code Quality and Governance Platform, bringing enterprise-grade quality control to agentic software development (Agentic Toolbox, Software Map, cross-repo review)."
       },
@@ -2895,18 +2885,18 @@
         "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
       },
       {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CX2",
-        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
-      },
-      {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Award Recognition",
         "org": "TEARSHEET",
         "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Rig Security",
+        "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2923,11 +2913,11 @@
         "summary": "Acquired eSecLending: announced agreement to acquire the independent securities lending business from Parthenon Capital and management for $200 million in an all-cash transaction, adding securities lending capabilities to the Capitolis platform (its fourth strategic acquisition in five years). Parthenon Capital is investing in Capitolis as part of the deal."
       },
       {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Rig Security",
-        "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
+        "ts": "2026-09-28T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "Paragon Solutions",
+        "summary": "Announced definitive agreement for a SPAC merger with Bold Eagle Acquisition Corp (Nasdaq: BEAG) at a $1.25 billion pre-money enterprise valuation, with $335 million of committed capital anchored by Loomis, Sayles & Co. including investment from AE Industrial and Eagle Equity Partners; Paragon (already owned by AE Industrial and merged into portfolio company REDLattice) will constitute the lion's share of the combined entity, which reported combined revenue of $267 million and 750 employees."
       },
       {
         "ts": "2026-09-28T00:00:00.000Z",
@@ -2935,13 +2925,6 @@
         "rawKind": "Acquisition",
         "org": "Bluevine",
         "summary": "Acquired by Valley National Bancorp (parent of Valley National Bank) for approximately $340 million (~75% cash / 25% Valley common stock, ~$255M cash plus ~6.3M shares). Definitive agreement announced September 28, 2026; expected to close early 2027 subject to regulatory approvals. Bluevine brings ~$2.1 billion of deposits and ~175,000 active small-business customers; co-founder and CEO Eyal Lifshitz is expected to join Valley as Head of Small Business Banking after closing. Cantor Fitzgerald and Wachtell Lipton advised Valley; Financial Technology Partners and Sidley Austin advised Bluevine."
-      },
-      {
-        "ts": "2026-09-28T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "Paragon Solutions",
-        "summary": "Announced definitive agreement for a SPAC merger with Bold Eagle Acquisition Corp (Nasdaq: BEAG) at a $1.25 billion pre-money enterprise valuation, with $335 million of committed capital anchored by Loomis, Sayles & Co. including investment from AE Industrial and Eagle Equity Partners; Paragon (already owned by AE Industrial and merged into portfolio company REDLattice) will constitute the lion's share of the combined entity, which reported combined revenue of $267 million and 750 employees."
       },
       {
         "ts": "2026-09-25T00:00:00.000Z",
@@ -2956,13 +2939,6 @@
         "rawKind": "Award Recognition",
         "org": "Monogoto",
         "summary": "Received the 2026 IoT Evolution Product of the Year Award for the second consecutive year, for its Software-Defined Connectivity Cloud."
-      },
-      {
-        "ts": "2026-09-24T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Island",
-        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2986,18 +2962,25 @@
         "summary": "Acquired by FIMI Opportunity Funds: the Israeli private equity firm acquired 55% control of MMDSmart for $55 million, with most proceeds flowing into the company for growth. Founders Arie Frenklakh and Leonid Rubanov retain 45% and continue leading the company (annual revenue ~NIS 500 million)."
       },
       {
+        "ts": "2026-09-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Island",
+        "summary": "Island was recognized by industry analysts: Frost & Sullivan named it the 2026 Global Zero Trust Browser Security Company of the Year, and Island was named a Customers' Choice in the 2026 Gartner Peer Insights Voice of the Customer for Secure Enterprise Browsers (announced in the company's Series F press release)."
+      },
+      {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Upwind",
-        "summary": "Acquired Aegis, an Israeli AI security startup founded in early 2026 by Unit 8200 veterans Omri Limor and Saar Ankonina, in a stock transaction reportedly valued around $30M (terms not officially disclosed). The Aegis co-founders join Upwind to lead the newly established Upwind AI Security Labs, focused on detecting and defending against threats involving AI agents, tools and plugins; the labs team is planned to grow from 12 to ~25-35 researchers."
+        "org": "Ottopia Technologies",
+        "summary": "Acquired by Ondas Inc. \u2014 Ondas acquired Ottopia's defense business (completed September 23, 2026; transaction dated August 31, 2026), as part of a three-business deal with Insignito Ltd. and CaribouLabs Ltd. for aggregate consideration of approximately $60.38 million paid in Ondas stock (7,821,445 shares), plus a potential aggregate earnout of up to $32 million tied to performance milestones through 2028. Ottopia founder/CEO Amit Rosenzweig joins Ondas to lead Ottopia Defense, while Ottopia's remaining commercial business refocuses on software for deploying, supervising and scaling autonomous vehicles and robotic systems (Physical AI)."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Qodo",
-        "summary": "Released the 2026 State of AI Code Quality Report, finding that reviewing and validating AI-generated code is now the top delivery bottleneck as agentic development scales."
+        "rawKind": "Executive Appointment",
+        "org": "Ottopia Technologies",
+        "summary": "Following the sale of its defense business to Ondas, Paul Kandel (previously VP Business Development) was promoted to Managing Director with responsibility for Ottopia's strategy, operations and commercial growth; Alex Kirshon continues as Chief Technology Officer, and founder Amit Rosenzweig departs to lead Ottopia Defense within Ondas."
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
