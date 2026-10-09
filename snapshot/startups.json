@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:32:03.172Z",
+  "generatedAt": "2026-10-09T05:59:49.749Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 38673,
-      "delta24h": 134
+      "delta24h": 133
     },
     "totalFunding": {
       "valueUsd": 228855435162,
@@ -178,7 +178,7 @@
       "total": 182836,
       "delta30d": 0
     },
-    "openJobs": 22380
+    "openJobs": 22323
   },
   "map": {
     "districts": [
@@ -2200,16 +2200,6 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2218,6 +2208,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2243,17 +2243,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2273,6 +2262,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2363,17 +2363,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Cylake",
-        "stage": "Convertible Note",
-        "amountUsd": 245000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Convertible Note"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Euno",
         "stage": "Series A",
         "amountUsd": 23000000,
@@ -2382,6 +2371,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Cylake",
+        "stage": "Convertible Note",
+        "amountUsd": 245000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Convertible Note"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2912,10 +2912,10 @@
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "INFERIZE",
-        "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Beyond Oil",
+        "summary": "Received global vendor approval from a multinational restaurant parent company operating tens of thousands of locations in over 100 countries, adding Beyond Oil to its global approved products list and enabling direct work with franchise groups worldwide."
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
@@ -2926,17 +2926,10 @@
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Beyond Oil",
-        "summary": "Received global vendor approval from a multinational restaurant parent company operating tens of thousands of locations in over 100 countries, adding Beyond Oil to its global approved products list and enabling direct work with franchise groups worldwide."
-      },
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "first_patent",
-        "rawKind": "Patent and IP",
-        "org": "Anjo.ai",
-        "summary": "Filed trademark for ANJO.AI (downloadable mobile application software for receiving, recording and analyzing data), owned by Anjo.ai Inc."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "INFERIZE",
+        "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
@@ -2946,11 +2939,18 @@
         "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
       },
       {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "kind": "first_patent",
+        "rawKind": "Patent and IP",
+        "org": "Anjo.ai",
+        "summary": "Filed trademark for ANJO.AI (downloadable mobile application software for receiving, recording and analyzing data), owned by Anjo.ai Inc."
+      },
+      {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "TEARSHEET",
-        "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
+        "rawKind": "Report Release",
+        "org": "Applause",
+        "summary": "Published the 2026 State of Digital Quality Report, finding AI use in functional testing surging as defects rise."
       },
       {
         "ts": "2026-09-30T00:00:00.000Z",
@@ -2962,16 +2962,9 @@
       {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Applause",
-        "summary": "Published the 2026 State of Digital Quality Report, finding AI use in functional testing surging as defects rise."
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Rig Security",
-        "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
+        "rawKind": "Award Recognition",
+        "org": "TEARSHEET",
+        "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2979,13 +2972,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Bioz",
         "summary": "Yokogawa brings publication-backed validation from more than 60,000 scientific publications to its CSU spinning disk confocal systems with Bioz."
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "HyperGuest",
-        "summary": "Surpassed $1 billion in cumulative total transaction value (TTV) processed through its platform; company connects tens of thousands of hotels with thousands of travel companies and technology providers."
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -3000,6 +2986,20 @@
         "rawKind": "Product Launch",
         "org": "Anima App",
         "summary": "Anima launched AgentGrid.io, a secure shared workspace for humans and AI agents (Claude, ChatGPT, Grok Bot, Codex, Hermes, Muse AI, OpenClaw and others) to create, edit, share, and publish documents, apps, and websites with one stable link, version history, and built-in website hosting; free during launch."
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Capitolis",
+        "summary": "Acquired eSecLending: announced agreement to acquire the independent securities lending business from Parthenon Capital and management for $200 million in an all-cash transaction, adding securities lending capabilities to the Capitolis platform (its fourth strategic acquisition in five years). Parthenon Capital is investing in Capitolis as part of the deal."
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Rig Security",
+        "summary": "Rig Security emerged from stealth, launching its AI-native identity protection platform that correlates human, machine and AI identities (RICE correlation engine and Bifrost endpoint sensor) across cloud, on-premises, identity-provider and endpoint environments, providing ISPM and ITDR including runtime policy enforcement over AI agents. Already in production with Fortune 200 organizations and available on AWS and CrowdStrike Marketplaces."
       }
     ]
   }
