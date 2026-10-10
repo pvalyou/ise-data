@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T09:03:51.458Z",
+  "generatedAt": "2026-10-10T10:21:17.152Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,18 +160,18 @@
   "kpis": {
     "startups": {
       "value": 38825,
-      "delta24h": 147
+      "delta24h": 140
     },
     "totalFunding": {
-      "valueUsd": 225003025420,
-      "rounds": 29487
+      "valueUsd": 224971966420,
+      "rounds": 29478
     },
     "exits": {
       "count": 3366,
       "valueUsd": 320622142600
     },
     "employees": {
-      "total": 819730,
+      "total": 819737,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7256
+        "count": 7254
       },
       {
         "name": "Central",
-        "count": 4270
+        "count": 4269
       },
       {
         "name": "Haifa",
@@ -196,7 +196,7 @@
       },
       {
         "name": "Jerusalem",
-        "count": 883
+        "count": 882
       },
       {
         "name": "Southern",
@@ -287,7 +287,7 @@
         "district": "Central",
         "lat": 32.175,
         "lng": 34.907,
-        "count": 340
+        "count": 339
       },
       {
         "name": "Bnei Brak",
@@ -343,7 +343,7 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 194
+        "count": 193
       },
       {
         "name": "Yokneam Illit",
@@ -444,18 +444,18 @@
         "count": 60
       },
       {
-        "name": "Bat Yam",
-        "district": "Tel Aviv",
-        "lat": 32.0231,
-        "lng": 34.7503,
-        "count": 59
-      },
-      {
         "name": "Pardes Hanna-Karkur",
         "district": "Haifa",
         "lat": 32.4718,
         "lng": 34.972,
         "count": 59
+      },
+      {
+        "name": "Bat Yam",
+        "district": "Tel Aviv",
+        "lat": 32.0231,
+        "lng": 34.7503,
+        "count": 58
       },
       {
         "name": "Shoham",
@@ -672,7 +672,7 @@
         "district": "Jerusalem",
         "lat": 31.7986,
         "lng": 35.15,
-        "count": 23
+        "count": 22
       },
       {
         "name": "Tzur Yigal",
@@ -815,7 +815,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2254
+    "unresolvedCount": 2253
   },
   "overTime": {
     "foundedClosed": {
@@ -1142,18 +1142,18 @@
         619,
         728,
         843,
-        967,
+        966,
         1108,
-        1264,
-        1229,
+        1262,
+        1228,
         1309,
         1550,
-        1570,
+        1569,
         1634,
-        2112,
-        1998,
+        2111,
+        1997,
         1527,
-        1463,
+        1461,
         1388,
         635
       ],
@@ -1190,30 +1190,30 @@
         1483978062,
         2651875800,
         2065536000,
-        2612404445,
+        2611504445,
         3718168378,
-        4603991427,
-        6261972438,
+        4599991427,
+        6249972438,
         7015267636,
         8068822924,
-        12759539972,
-        14487483271,
-        39754151010,
-        24497626702,
+        12754539972,
+        14494633271,
+        39746651010,
+        24496126702,
         11587456976,
-        15721897639,
+        15714588639,
         22121113086,
         27530562083
       ],
       "stageMix": {
-        "Seed": 13727,
-        "Series A": 3934,
-        "Other": 3252,
+        "Seed": 13721,
+        "Series A": 3933,
+        "Other": 3251,
         "Series B": 1980,
         "Series Unknown": 1386,
         "Series C": 1267,
         "Angel": 841,
-        "Unknown": 816
+        "Unknown": 815
       }
     },
     "exits": {
@@ -1432,8 +1432,8 @@
     "funnel": {
       "all": 38825,
       "funded": 15680,
-      "over1m": 6256,
-      "over10m": 3107,
+      "over1m": 6254,
+      "over10m": 3106,
       "over100m": 580,
       "exited": 3366
     },
@@ -2211,6 +2211,16 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2219,16 +2229,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2265,17 +2265,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2284,6 +2273,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2375,17 +2375,6 @@
       },
       {
         "ts": "2026-09-08T00:00:00.000Z",
-        "org": "Euno",
-        "stage": "Series A",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-08T00:00:00.000Z",
         "org": "Cylake",
         "stage": "Convertible Note",
         "amountUsd": 245000000,
@@ -2394,6 +2383,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Convertible Note"
+      },
+      {
+        "ts": "2026-09-08T00:00:00.000Z",
+        "org": "Euno",
+        "stage": "Series A",
+        "amountUsd": 23000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-07T00:00:00.000Z",
@@ -2860,17 +2860,17 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Stark Power",
-        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Other",
         "org": "Breez",
         "summary": "Breez reported partnership inquiries for its Bitcoin payment tools rose roughly 14-fold since AI coding agents (notably Anthropic's Claude Code) went mainstream, with new interest from developers outside crypto (fitness, messaging, eSIM, mushroom-identification apps) and from coding agents themselves; its Spark-based SDK implementation handled the added volume."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Stark Power",
+        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2932,13 +2932,6 @@
         "ts": "2026-10-01T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "CX2",
-        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
-      },
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Qodo",
         "summary": "Announced Qodo 3.0, the next generation of its AI Code Quality and Governance Platform, bringing enterprise-grade quality control to agentic software development (Agentic Toolbox, Software Map, cross-repo review)."
       },
@@ -2957,11 +2950,18 @@
         "summary": "Acquired by Nebius (Nasdaq: NBIS). Nebius announced it acquired Inferize, with the team and technology joining Nebius Token Factory, its managed inference platform. Terms were officially undisclosed; press reports estimated $100-150 million (Calcalist) / $100-130 million (Globes). Inferize, founded January 2026 by Guy Bortnikov and Lior Gorbonos (Granulate alums) with 17 Tel Aviv employees and a Seed round led by TLV Partners, was sold before commercial launch."
       },
       {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CX2",
+        "summary": "CX2 launched Vadris SDR, a software-defined radio version of its Vadris RF direction-finding payload, expanding detection across FPV control protocols (ExpressLRS, TBS Crossfire, DJI OcuSync). More than 450 Vadris systems have been fielded to the U.S. Department of War."
+      },
+      {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Bioz",
-        "summary": "Psychology Software Tools builds on early Bioz success to expand access to publication-backed product evidence via Bioz."
+        "rawKind": "Award Recognition",
+        "org": "TEARSHEET",
+        "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
       },
       {
         "ts": "2026-09-30T00:00:00.000Z",
@@ -2973,9 +2973,9 @@
       {
         "ts": "2026-09-30T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "TEARSHEET",
-        "summary": "Tearsheet announced The Big Bank Theory Awards 2026, recognizing big ideas in banking."
+        "rawKind": "Strategic Partnership",
+        "org": "Bioz",
+        "summary": "Psychology Software Tools builds on early Bioz success to expand access to publication-backed product evidence via Bioz."
       },
       {
         "ts": "2026-09-30T00:00:00.000Z",
