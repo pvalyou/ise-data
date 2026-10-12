@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T02:37:17.723Z",
+  "generatedAt": "2026-10-12T03:10:05.615Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 39025,
+      "value": 39028,
       "delta24h": 112
     },
     "totalFunding": {
-      "valueUsd": 224668929920,
-      "rounds": 29463
+      "valueUsd": 224667999920,
+      "rounds": 29462
     },
     "exits": {
       "count": 3373,
       "valueUsd": 321391922600
     },
     "employees": {
-      "total": 820808,
+      "total": 820778,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7329
+        "count": 7330
       },
       {
         "name": "Central",
-        "count": 4316
+        "count": 4318
       },
       {
         "name": "Haifa",
@@ -200,7 +200,7 @@
       },
       {
         "name": "Southern",
-        "count": 570
+        "count": 571
       },
       {
         "name": "Northern",
@@ -322,7 +322,7 @@
         "district": "Tel Aviv",
         "lat": 32.1461,
         "lng": 34.8417,
-        "count": 209
+        "count": 210
       },
       {
         "name": "Rosh HaAyin",
@@ -458,18 +458,18 @@
         "count": 59
       },
       {
+        "name": "Givat Shmuel",
+        "district": "Central",
+        "lat": 32.0833,
+        "lng": 34.85,
+        "count": 57
+      },
+      {
         "name": "Shoham",
         "district": "Central",
         "lat": 32.0014,
         "lng": 34.937,
         "count": 57
-      },
-      {
-        "name": "Givat Shmuel",
-        "district": "Central",
-        "lat": 32.0833,
-        "lng": 34.85,
-        "count": 56
       },
       {
         "name": "Karmiel",
@@ -549,6 +549,13 @@
         "count": 43
       },
       {
+        "name": "Sderot",
+        "district": "Southern",
+        "lat": 31.5247,
+        "lng": 34.5964,
+        "count": 43
+      },
+      {
         "name": "Kiryat Bialik",
         "district": "Haifa",
         "lat": 32.8367,
@@ -556,18 +563,11 @@
         "count": 42
       },
       {
-        "name": "Sderot",
-        "district": "Southern",
-        "lat": 31.5247,
-        "lng": 34.5964,
-        "count": 42
-      },
-      {
         "name": "Tel Mond",
         "district": "Central",
         "lat": 32.2514,
         "lng": 34.9175,
-        "count": 40
+        "count": 41
       },
       {
         "name": "Kiryat Tivon",
@@ -963,7 +963,7 @@
         1489,
         1784,
         1862,
-        1793,
+        1797,
         2044,
         2046,
         2011,
@@ -973,7 +973,7 @@
         1549,
         1370,
         1830,
-        933
+        932
       ],
       "closed": [
         0,
@@ -1055,7 +1055,7 @@
       ],
       "statusMix": {
         "inactive": 414,
-        "active": 21043,
+        "active": 21046,
         "closed": 13801,
         "unknown": 3767
       }
@@ -1155,7 +1155,7 @@
         1529,
         1459,
         1389,
-        636
+        635
       ],
       "raisedUsd": [
         0,
@@ -1203,7 +1203,7 @@
         11663456976,
         15705269139,
         22133813086,
-        27665620083
+        27664690083
       ],
       "stageMix": {
         "Seed": 13710,
@@ -1425,13 +1425,13 @@
   },
   "survivability": {
     "composition": {
-      "active": 22955,
+      "active": 22958,
       "closed": 12697,
       "exited": 3373
     },
     "funnel": {
-      "all": 39025,
-      "funded": 15686,
+      "all": 39028,
+      "funded": 15685,
       "over1m": 6254,
       "over10m": 3107,
       "over100m": 581,
@@ -1503,10 +1503,10 @@
       },
       {
         "year": 2026,
-        "total": 933,
+        "total": 932,
         "exited": 5,
         "closed": 4,
-        "active": 924
+        "active": 923
       }
     ],
     "timeToExit": {
@@ -1800,10 +1800,10 @@
       },
       {
         "year": 2026,
-        "total": 875,
+        "total": 874,
         "unknown": 58,
         "counts": {
-          "it-telecom": 475,
+          "it-telecom": 474,
           "healthcare-food": 90,
           "consumer-goods-services": 149,
           "energy-utilities": 37,
@@ -1811,12 +1811,12 @@
           "media-entertainment": 69
         },
         "shares": {
-          "it-telecom": 0.5428571428571428,
-          "healthcare-food": 0.10285714285714286,
-          "consumer-goods-services": 0.1702857142857143,
-          "energy-utilities": 0.04228571428571429,
-          "financial-services": 0.06285714285714286,
-          "media-entertainment": 0.07885714285714286
+          "it-telecom": 0.5423340961098398,
+          "healthcare-food": 0.10297482837528604,
+          "consumer-goods-services": 0.17048054919908467,
+          "energy-utilities": 0.04233409610983982,
+          "financial-services": 0.06292906178489703,
+          "media-entertainment": 0.07894736842105263
         }
       }
     ],
@@ -1824,42 +1824,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15043,
-        "share": 0.40058051287513646
+        "count": 15042,
+        "share": 0.40052188731494304
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6947,
-        "share": 0.1849918781455543
+        "share": 0.18497710086271169
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7156,
-        "share": 0.19055734561819296
+        "count": 7158,
+        "share": 0.1905953775694962
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1665,
-        "share": 0.04433733656432243
+        "count": 1667,
+        "share": 0.04438704867398019
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2218,
-        "share": 0.05906319069049077
+        "share": 0.05905847268079668
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4524,
-        "share": 0.12046973610630309
+        "share": 0.12046011289807221
       }
     ],
     "mixSummary": {
-      "totalVisible": 17139,
+      "totalVisible": 17138,
       "totalUnknown": 682
     },
     "subTrendYears": [
@@ -1902,13 +1902,13 @@
           0.060626249167221855,
           0.07786259541984733,
           0.08097165991902834,
-          0.11314285714285714
+          0.11327231121281464
         ]
       },
       {
         "name": "Enterprise Software",
         "parent": "Unknown",
-        "total": 2469,
+        "total": 2468,
         "shareDelta": 0.027,
         "counts": [
           250,
@@ -1920,7 +1920,7 @@
           267,
           206,
           238,
-          154
+          153
         ],
         "shares": [
           0.12588116817724068,
@@ -1932,7 +1932,7 @@
           0.17788141239173885,
           0.15725190839694655,
           0.13765182186234817,
-          0.176
+          0.17505720823798626
         ]
       },
       {
@@ -1962,7 +1962,7 @@
           0.051299133910726186,
           0.08625954198473282,
           0.06998264893001735,
-          0.064
+          0.06407322654462243
         ]
       },
       {
@@ -1992,7 +1992,7 @@
           0.02531645569620253,
           0.022137404580152672,
           0.04048582995951417,
-          0.04114285714285714
+          0.041189931350114416
         ]
       },
       {
@@ -2022,7 +2022,7 @@
           0.020652898067954697,
           0.021374045801526718,
           0.01156737998843262,
-          0.012571428571428572
+          0.012585812356979404
         ]
       }
     ],
@@ -2054,7 +2054,7 @@
           0.007994670219853431,
           0.003816793893129771,
           0.009253903990746095,
-          0.004571428571428572
+          0.004576659038901602
         ]
       },
       {
@@ -2084,7 +2084,7 @@
           0.04863424383744171,
           0.04885496183206107,
           0.032388663967611336,
-          0.019428571428571427
+          0.019450800915331808
         ]
       },
       {
@@ -2114,7 +2114,7 @@
           0.02465023317788141,
           0.021374045801526718,
           0.026026604973973393,
-          0.017142857142857144
+          0.017162471395881007
         ]
       },
       {
@@ -2144,7 +2144,7 @@
           0.019320453031312457,
           0.020610687022900764,
           0.025448235974551765,
-          0.005714285714285714
+          0.005720823798627002
         ]
       },
       {
@@ -2174,15 +2174,15 @@
           0.020652898067954697,
           0.01984732824427481,
           0.010410641989589358,
-          0.006857142857142857
+          0.006864988558352402
         ]
       }
     ],
     "signals": {
       "deeptechCount": 10110,
       "deeptechPct": 25.9,
-      "globalCount": 16059,
-      "globalPct": 41.2
+      "globalCount": 16060,
+      "globalPct": 41.1
     }
   },
   "feeds": {
@@ -2232,16 +2232,6 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2250,6 +2240,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2264,17 +2264,6 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Silk Technologies",
-        "stage": "Debt Financing",
-        "amountUsd": 45000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": true,
-        "roundTitle": "Growth Capital Facility for Agentic AI"
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Anaconda Biomed",
         "stage": "Series C",
         "amountUsd": 56000000,
@@ -2285,15 +2274,26 @@
         "roundTitle": "Series C"
       },
       {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
+        "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Silk Technologies",
+        "stage": "Debt Financing",
+        "amountUsd": 45000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": true,
+        "roundTitle": "Growth Capital Facility for Agentic AI"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2308,14 +2308,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
         "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2396,14 +2396,14 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "org": "Wint Water Intelligence",
-        "stage": "Series D",
-        "amountUsd": 36000000,
+        "org": "CYMPHONY SECURITY",
+        "stage": "Series A",
+        "amountUsd": 25000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series D"
+        "roundTitle": "Series A"
       }
     ],
     "todayStats": {
@@ -2412,6 +2412,100 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-12T03:04:52.180Z",
+        "org": "NETERGI",
+        "industry": "Energy and Utilities",
+        "city": "Givat Shmuel",
+        "subIndustry": "Smart Grid",
+        "description": "Provider of secured end-to-end industrial IoT solutions for smart grids, delivering advanced metering infrastructure from field smart meters to head end systems using patented hybrid RF and power line communication mesh networking, plus cloud expertise and large-scale integration services",
+        "domain": "netergi.com",
+        "keywords": [
+          "Smart grid solutions",
+          "Advanced metering infrastructure",
+          "IIoT platform",
+          "Smart meters",
+          "RF and PLC communications",
+          "Head end system",
+          "Mesh networking",
+          "Utility metering",
+          "Grid data collection",
+          "IoT gateway"
+        ],
+        "exactEmployees": 15,
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-12T03:03:45.282Z",
+        "org": "OMEGA MASTERLIFE",
+        "industry": "Consumer Goods and Services",
+        "city": "Ramat HaSharon",
+        "subIndustry": "Education & Training",
+        "description": "Personal development and practical spirituality company offering courses, workshops, mentoring and treatments based on a proprietary personal-growth method and neuro-therapeutic tools, helping individuals achieve goals in relationships, health, career and financial abundance.",
+        "domain": "oriella.co.il",
+        "keywords": [
+          "Personal development courses",
+          "Spiritual healing",
+          "Energy healing method",
+          "Guided meditation",
+          "Life coaching",
+          "Emotional release therapy",
+          "Manifestation techniques",
+          "Self-help workshops",
+          "Subconscious reprogramming",
+          "Relationship coaching"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-12T03:03:17.511Z",
+        "org": "ELIDAN FISH",
+        "industry": "Consumer Goods and Services",
+        "city": "Sderot",
+        "subIndustry": "Food & Beverage",
+        "description": "Producer of premium cured fish roe delicacies and luxury fish products, manufacturing at its own facility and importing premium seafood for retail and food service.",
+        "domain": "elidanfish.co.il",
+        "keywords": [
+          "Boutargue",
+          "Premium fish products",
+          "Gourmet seafood",
+          "Cured fish roe",
+          "Luxury delicacies",
+          "Fish processing",
+          "Seafood import",
+          "Specialty foods"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-12T02:57:58.186Z",
+        "org": "ELEXIFY",
+        "industry": "Energy and Utilities",
+        "city": "Tel Mond",
+        "subIndustry": "Electric Vehicles & Infrastructure",
+        "description": "Marketer and installer of smart electric-vehicle charging stations, providing home, shared-building and fleet charging solutions with a cloud-based charging management platform and mobile app for charge control, billing and monitoring.",
+        "domain": "elexify.net",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/e2068dff-6482-475e-bd84-d8784f59e976.webp",
+        "keywords": [
+          "EV charging stations",
+          "Home EV charger",
+          "Fleet charging management",
+          "Commercial EV charging",
+          "EV charger installation",
+          "Smart charging",
+          "Charging app",
+          "Load management",
+          "Charging as a service",
+          "Electric vehicle charging"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-10-12T02:15:43.479Z",
         "org": "O.T.F GROUP",
@@ -2769,94 +2863,6 @@
         ],
         "isDeeptech": true,
         "businessModel": "B2B2C"
-      },
-      {
-        "ts": "2026-10-11T21:44:25.758Z",
-        "org": "CITY GAZ",
-        "industry": "Media and Entertainment",
-        "city": "Kharkiv",
-        "subIndustry": "Gaming",
-        "description": "Mobile application developer building Android apps and mobile games that blend entertainment with everyday functionality, using immersive features and AI-enhanced performance",
-        "domain": "city-gaz.com",
-        "keywords": [
-          "Mobile games",
-          "Android applications",
-          "Mobile app development",
-          "Casual gaming",
-          "In-app purchases",
-          "Game design",
-          "Entertainment apps"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-11T21:37:19.553Z",
-        "org": "MANO ARCHITECTS",
-        "industry": "Consumer Goods and Services",
-        "city": "Rishon LeZion",
-        "subIndustry": "Engineering Services",
-        "description": "Architecture firm providing design and planning services for residential, commercial and urban-renewal projects, alongside accessibility and fire-safety consulting and expert opinions for legal and regulatory proceedings.",
-        "domain": "mano-arch.co.il",
-        "keywords": [
-          "Architecture firm",
-          "Building design",
-          "Urban renewal",
-          "Residential architecture",
-          "Commercial architecture",
-          "Accessibility consulting",
-          "Fire safety consulting",
-          "Building permits",
-          "Expert opinions"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-11T21:03:20.549Z",
-        "org": "AROO IM TECH",
-        "industry": "IT and Telecom",
-        "city": "Rehovot",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Electronics engineering supply-chain and consulting firm connecting customers directly with Asian manufacturers, supplying and customizing batteries, displays, embedded systems and OEM/ODM products with in-house compliance and regulatory support",
-        "domain": "aroo.biz",
-        "keywords": [
-          "Electronics supply chain",
-          "OEM manufacturing",
-          "ODM products",
-          "Battery sourcing",
-          "Display sourcing",
-          "Embedded systems",
-          "Electronics consulting",
-          "Component sourcing",
-          "Dangerous goods compliance",
-          "Medical device assembly"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-11T19:24:28.763Z",
-        "org": "Humantra",
-        "industry": "Consumer Goods and Services",
-        "city": "Ramat Gan",
-        "subIndustry": "Real Estate and Property",
-        "description": "Real estate development group specializing in urban renewal projects, initiating and promoting large-scale clearance-and-rebuilding and seismic strengthening projects that deliver thousands of new housing units alongside commercial, employment and public spaces",
-        "domain": "humantra.co.il",
-        "keywords": [
-          "Urban renewal",
-          "Pinui-binui",
-          "TAMA 38",
-          "Real estate development",
-          "New apartments",
-          "Housing projects",
-          "Property development",
-          "Residential construction",
-          "Apartment sales",
-          "Urban regeneration"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
@@ -2877,6 +2883,13 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "R&D Milestone",
         "org": "NurExone Biologic",
         "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
@@ -2889,11 +2902,11 @@
         "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
       },
       {
-        "ts": "2026-10-09T00:00:00.000Z",
+        "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+        "rawKind": "Customer Milestone",
+        "org": "ARTLINES WEB SOLUTIONS",
+        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2901,27 +2914,6 @@
         "rawKind": "Acquisition",
         "org": "Stark Power",
         "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Enlight Renewable Energy",
-        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Intent IQ",
-        "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2933,16 +2925,30 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Deel",
-        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+        "rawKind": "Product Launch",
+        "org": "Intent IQ",
+        "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Enlight Renewable Energy",
+        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ARTLINES WEB SOLUTIONS",
-        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Deel",
+        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2961,6 +2967,20 @@
       {
         "ts": "2026-10-06T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Beyond Oil",
+        "summary": "Announced commercial rollout across 60 franchise locations of a leading global fast-food brand in Eastern Europe \u2014 the first regional franchise group to advance to deployment after the global vendor approval \u2014 supported by an initial commercial product order and an exclusive regional distribution agreement with an established Eastern European foodservice distributor."
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "BlueWind",
+        "summary": "Announced Humana coverage of Revi for urgency urinary incontinence, expanding access to millions of patients."
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Beaconcure",
         "summary": "Commercial launch of Verify Intelligence, an independent AI solution now in production at a top 10 biopharmaceutical company."
@@ -2975,30 +2995,16 @@
       {
         "ts": "2026-10-06T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Crymbo",
-        "summary": "Announced a strategic partnership with Sumsub embedding Sumsub's KYC, KYB, AML and Travel Rule compliance capabilities into Crymbo's digital-asset infrastructure as one orchestrated, white-label flow; Sumsub has been live on the Crymbo platform for several years."
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "QualityLine Production Technologies",
-        "summary": "Joel Avrunin, Chief Commercial Officer of Circuit Check, joined QualityLine's board of directors as part of Circuit Check's strategic investment in the company."
+        "rawKind": "Product Launch",
+        "org": "Tenzai Labs",
+        "summary": "Tenzai launched Interactive Testing, letting human security teams lead and collaborate with a team of AI hackers \u2014 reproducing findings, testing exploit ideas, and investigating business impact with the agents."
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "QualityLine Production Technologies",
-        "summary": "Circuit Check made a strategic investment in QualityLine, acquiring a partial ownership position and partnering to integrate QualityLine's AI-powered factory analytics directly into Circuit Check's CCI Test Partner test automation platform; every new Circuit Check test system will include one year of QualityLine analytics, extending QualityLine's reach across Circuit Check's North American installed base."
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "BlueWind",
-        "summary": "Announced Humana coverage of Revi for urgency urinary incontinence, expanding access to millions of patients."
+        "org": "AccessFintech",
+        "summary": "AccessFintech partnered with Quorim (the private credit infrastructure company launched by iAltA) to bring together private credit market infrastructure; Quorim will build new technology directly on AccessFintech's network, pairing its private credit and loan market expertise with AccessFintech's data network, connectivity and post-trade operating model for broadly syndicated loan and private credit markets."
       }
     ]
   }
