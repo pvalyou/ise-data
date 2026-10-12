@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:11:01.331Z",
+  "generatedAt": "2026-10-12T01:03:15.781Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39012,
-      "delta24h": 110
+      "value": 39015,
+      "delta24h": 108
     },
     "totalFunding": {
       "valueUsd": 224884486920,
@@ -178,7 +178,7 @@
       "total": 182855,
       "delta30d": 0
     },
-    "openJobs": 22523
+    "openJobs": 22511
   },
   "map": {
     "districts": [
@@ -188,7 +188,7 @@
       },
       {
         "name": "Central",
-        "count": 4312
+        "count": 4313
       },
       {
         "name": "Haifa",
@@ -204,7 +204,7 @@
       },
       {
         "name": "Northern",
-        "count": 528
+        "count": 529
       },
       {
         "name": "Judea & Samaria",
@@ -315,7 +315,7 @@
         "district": "Central",
         "lat": 31.9293,
         "lng": 34.7986,
-        "count": 238
+        "count": 239
       },
       {
         "name": "Ramat Hasharon",
@@ -472,18 +472,18 @@
         "count": 56
       },
       {
+        "name": "Karmiel",
+        "district": "Northern",
+        "lat": 32.9171,
+        "lng": 35.2949,
+        "count": 56
+      },
+      {
         "name": "Migdal HaEmek",
         "district": "Northern",
         "lat": 32.6747,
         "lng": 35.2406,
         "count": 56
-      },
-      {
-        "name": "Karmiel",
-        "district": "Northern",
-        "lat": 32.9171,
-        "lng": 35.2949,
-        "count": 55
       },
       {
         "name": "Kiryat Gat",
@@ -815,7 +815,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2293
+    "unresolvedCount": 2295
   },
   "overTime": {
     "foundedClosed": {
@@ -963,7 +963,7 @@
         1489,
         1784,
         1862,
-        1780,
+        1783,
         2044,
         2046,
         2011,
@@ -1055,7 +1055,7 @@
       ],
       "statusMix": {
         "inactive": 414,
-        "active": 21030,
+        "active": 21033,
         "closed": 13801,
         "unknown": 3767
       }
@@ -1425,12 +1425,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 22943,
+      "active": 22946,
       "closed": 12697,
       "exited": 3372
     },
     "funnel": {
-      "all": 39012,
+      "all": 39015,
       "funded": 15686,
       "over1m": 6255,
       "over10m": 3107,
@@ -1825,37 +1825,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 15038,
-        "share": 0.40058604155567396
+        "share": 0.40055403137735396
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6945,
-        "share": 0.18500266382525307
+        "share": 0.1849878805636204
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7150,
-        "share": 0.19046350559403302
+        "count": 7153,
+        "share": 0.19052819433716006
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1665,
-        "share": 0.044352690463505595
+        "share": 0.044349146312228645
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2218,
-        "share": 0.05908364411294619
+        "share": 0.05907892283514903
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4524,
-        "share": 0.12051145444858817
+        "share": 0.12050182457448792
       }
     ],
     "mixSummary": {
@@ -2181,23 +2181,12 @@
     "signals": {
       "deeptechCount": 10109,
       "deeptechPct": 25.9,
-      "globalCount": 16056,
+      "globalCount": 16057,
       "globalPct": 41.2
     }
   },
   "feeds": {
     "funding": [
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
-        "stage": "Seed",
-        "amountUsd": 5000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
-      },
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "org": "BloomX",
@@ -2208,6 +2197,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed Round"
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
@@ -2253,6 +2253,16 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Silk Technologies",
+        "stage": "Debt Financing",
+        "amountUsd": 45000000,
+        "investors": [],
+        "investorCount": 6,
+        "isNonEquity": true,
+        "roundTitle": "Growth Capital Facility for Agentic AI"
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Anaconda Biomed",
         "stage": "Series C",
         "amountUsd": 56000000,
@@ -2261,16 +2271,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Silk Technologies",
-        "stage": "Debt Financing",
-        "amountUsd": 45000000,
-        "investors": [],
-        "investorCount": 6,
-        "isNonEquity": true,
-        "roundTitle": "Growth Capital Facility for Agentic AI"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2384,16 +2384,6 @@
       },
       {
         "ts": "2026-09-09T00:00:00.000Z",
-        "org": "Wint Water Intelligence",
-        "stage": "Series D",
-        "amountUsd": 36000000,
-        "investors": [],
-        "investorCount": 2,
-        "isNonEquity": false,
-        "roundTitle": "Series D"
-      },
-      {
-        "ts": "2026-09-09T00:00:00.000Z",
         "org": "CYMPHONY SECURITY",
         "stage": "Series A",
         "amountUsd": 25000000,
@@ -2402,6 +2392,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-09-09T00:00:00.000Z",
+        "org": "Wint Water Intelligence",
+        "stage": "Series D",
+        "amountUsd": 36000000,
+        "investors": [],
+        "investorCount": 2,
+        "isNonEquity": false,
+        "roundTitle": "Series D"
       }
     ],
     "todayStats": {
@@ -2410,6 +2410,70 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-12T00:29:30.357Z",
+        "org": "NOAM AUDIO",
+        "industry": "Consumer Goods and Services",
+        "city": "Karmiel",
+        "subIndustry": "Consumer Electronics",
+        "description": "Designer and direct-to-consumer seller of weather-resistant audio systems, soundbars, tower speakers, subwoofers and amplifiers for powersports vehicles, boats, golf carts and motorcycles, manufactured abroad and sold worldwide through its own online store.",
+        "domain": "noamaudio.com",
+        "keywords": [
+          "Powersports audio",
+          "Marine speakers",
+          "UTV soundbar",
+          "Golf cart speakers",
+          "Motorcycle audio",
+          "Bluetooth tower speakers",
+          "Marine subwoofer",
+          "Amplifier kits",
+          "Weather-resistant audio"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-12T00:28:16.497Z",
+        "org": "EASY 2 SUCCESS INTERNATIONAL",
+        "industry": "Consumer Goods and Services",
+        "city": "Kiryat Yam",
+        "subIndustry": "Education & Training",
+        "description": "Personal development and coaching company offering courses, workshops, and marketing funnel building to help individuals and businesses improve financial understanding and online marketing results",
+        "domain": "easy2success.co.il",
+        "keywords": [
+          "Personal development",
+          "Life coaching",
+          "Business coaching",
+          "Online marketing courses",
+          "Marketing funnels",
+          "Sales funnels",
+          "Self-discipline",
+          "Time management",
+          "Online marketing workshops"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-12T00:28:13.363Z",
+        "org": "SHABES-CLICK",
+        "industry": "Consumer Goods and Services",
+        "city": "Efrat",
+        "subIndustry": "Consumer Electronics",
+        "description": "Developer of a pre-programmed camera and audio recording system that enables halachically-approved (kosher) video documentation of events held on Shabbat, allowing observant families and venues to capture celebrations without violating religious restrictions",
+        "domain": "shabesclick.co.il",
+        "keywords": [
+          "Kosher photography",
+          "Shabbat video recording",
+          "Halachic camera system",
+          "Event videography",
+          "Bar mitzvah documentation",
+          "Pre-programmed camera",
+          "Religious event filming"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B2C"
+      },
       {
         "ts": "2026-10-11T23:24:03.196Z",
         "org": "Specialty Import",
@@ -2780,66 +2844,6 @@
         "exactEmployees": 2,
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-11T17:09:46.675Z",
-        "org": "MY BLESSING",
-        "industry": "Media and Entertainment",
-        "city": "Givat Shmuel",
-        "subIndustry": "Publishing & Content",
-        "description": "Donation-supported multilingual religious education website offering free step-by-step guidance on Jewish prayer practices, blessings, and observance in six languages.",
-        "domain": "myblessing.name",
-        "keywords": [
-          "Jewish prayer guidance",
-          "Tefillin tutorial",
-          "Shabbat observance",
-          "Torah blessings",
-          "Religious education",
-          "Jewish learning",
-          "Prayer tutorials",
-          "Multilingual religious content"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-11T17:07:31.800Z",
-        "org": "LOGICON ENGINEERS",
-        "industry": "Unknown",
-        "city": "Beer Sheva",
-        "description": "Logicon Engineers Ltd is an Israeli engineering services company specializing in industrial control and automation, based in Beer Sheva.",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/a3687e0e-7b8c-46e3-a22b-1feb26822e21.jpg",
-        "keywords": [
-          "industrial control",
-          "automation",
-          "engineering services"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 1
-      },
-      {
-        "ts": "2026-10-11T17:03:36.102Z",
-        "org": "PETROMARIS",
-        "industry": "Consumer Goods and Services",
-        "city": "Haifa",
-        "subIndustry": "Transportation & Logistics",
-        "description": "Ground logistics services provider offering inland transportation, accommodation, procurement, and visa and work-permit support for corporate personnel, serving companies in the energy, hi-tech and other sectors",
-        "domain": "petromaris.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/6648cc4c-4637-4f87-be61-13e081a79913.jpg",
-        "keywords": [
-          "Ground logistics",
-          "Corporate transportation",
-          "Inland transportation",
-          "Accommodation solutions",
-          "Procurement services",
-          "Visa and work permits",
-          "Personnel logistics",
-          "Travel coordination",
-          "Foreign expert relocation"
-        ],
-        "employeeRange": "2-10",
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2848,14 +2852,14 @@
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zik Labs",
-        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
+        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zik Labs",
-        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
+        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2870,6 +2874,20 @@
         "rawKind": "Strategic Partnership",
         "org": "Blockaid",
         "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ARTLINES WEB SOLUTIONS",
+        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Intent IQ",
+        "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2888,30 +2906,9 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Intent IQ",
-        "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ARTLINES WEB SOLUTIONS",
-        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Classiq Technologies",
         "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Enlight Renewable Energy",
-        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2919,6 +2916,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Deel",
         "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Enlight Renewable Energy",
+        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2937,9 +2941,23 @@
       {
         "ts": "2026-10-06T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Beyond Oil",
+        "summary": "Announced commercial rollout across 60 franchise locations of a leading global fast-food brand in Eastern Europe \u2014 the first regional franchise group to advance to deployment after the global vendor approval \u2014 supported by an initial commercial product order and an exclusive regional distribution agreement with an established Eastern European foodservice distributor."
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Regulatory and Compliance",
+        "org": "BlueWind",
+        "summary": "Announced Humana coverage of Revi for urgency urinary incontinence, expanding access to millions of patients."
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Agora Real Estate Technologies",
-        "summary": "Launched Agora Connect, Launch No.5 in the Season of Innovation, syncing customers' existing systems into Agora."
+        "org": "Beaconcure",
+        "summary": "Commercial launch of Verify Intelligence, an independent AI solution now in production at a top 10 biopharmaceutical company."
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
@@ -2952,22 +2970,8 @@
         "ts": "2026-10-06T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Beaconcure",
-        "summary": "Commercial launch of Verify Intelligence, an independent AI solution now in production at a top 10 biopharmaceutical company."
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Beyond Oil",
-        "summary": "Announced commercial rollout across 60 franchise locations of a leading global fast-food brand in Eastern Europe \u2014 the first regional franchise group to advance to deployment after the global vendor approval \u2014 supported by an initial commercial product order and an exclusive regional distribution agreement with an established Eastern European foodservice distributor."
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "BlueWind",
-        "summary": "Announced Humana coverage of Revi for urgency urinary incontinence, expanding access to millions of patients."
+        "org": "Agora Real Estate Technologies",
+        "summary": "Launched Agora Connect, Launch No.5 in the Season of Innovation, syncing customers' existing systems into Agora."
       },
       {
         "ts": "2026-10-05T00:00:00.000Z",
