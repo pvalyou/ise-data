@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T15:01:32.056Z",
+  "generatedAt": "2026-10-12T16:01:01.644Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39081,
-      "delta24h": 95
+      "delta24h": 93
     },
     "totalFunding": {
       "valueUsd": 225749899920,
@@ -178,7 +178,7 @@
       "total": 183815,
       "delta30d": 0
     },
-    "openJobs": 22465
+    "openJobs": 22486
   },
   "map": {
     "districts": [
@@ -2189,6 +2189,17 @@
     "funding": [
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "BloomX",
         "stage": "Series A",
         "amountUsd": 13000000,
@@ -2199,15 +2210,14 @@
         "roundTitle": "Series A"
       },
       {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
-        "stage": "Seed",
-        "amountUsd": 5000000,
+        "ts": "2026-10-06T00:00:00.000Z",
+        "org": "QualityLine Production Technologies",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
+        "investorCount": 1,
         "isNonEquity": false,
-        "roundTitle": "Seed Round"
+        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
@@ -2221,14 +2231,14 @@
         "roundTitle": "Series E"
       },
       {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "org": "QualityLine Production Technologies",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2240,16 +2250,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2870,13 +2870,6 @@
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Rapyd",
-        "summary": "Released new merchant management tools and expanded wallet webhooks: Partner Portal merchant device pairing, merchant member management, direct switch into a merchant's Client Portal, enriched refund/dispute details, ISO-API merchant service charge fee management, and new Wallet Created / Wallet Creation Failed webhooks."
-      },
-      {
-        "ts": "2026-10-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Zik Labs",
         "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
@@ -2888,18 +2881,18 @@
         "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
       },
       {
+        "ts": "2026-10-11T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Rapyd",
+        "summary": "Released new merchant management tools and expanded wallet webhooks: Partner Portal merchant device pairing, merchant member management, direct switch into a merchant's Client Portal, enriched refund/dispute details, ISO-API merchant service charge fee management, and new Wallet Created / Wallet Creation Failed webhooks."
+      },
+      {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Blockaid",
         "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
-      },
-      {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Mesh Security",
-        "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2911,16 +2904,30 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Mesh Security",
+        "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "CopilotKit",
         "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Stark Power",
+        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ARTLINES WEB SOLUTIONS",
-        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
+        "rawKind": "Other",
+        "org": "Breez",
+        "summary": "Breez reported partnership inquiries for its Bitcoin payment tools rose roughly 14-fold since AI coding agents (notably Anthropic's Claude Code) went mainstream, with new interest from developers outside crypto (fitness, messaging, eSIM, mushroom-identification apps) and from coding agents themselves; its Spark-based SDK implementation handled the added volume."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2928,6 +2935,13 @@
         "rawKind": "Product Launch",
         "org": "Intent IQ",
         "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ARTLINES WEB SOLUTIONS",
+        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2946,30 +2960,23 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Seemore Data",
-        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Deel",
         "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Stark Power",
-        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Seemore Data",
+        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
       },
       {
-        "ts": "2026-10-08T00:00:00.000Z",
+        "ts": "2026-10-07T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Breez",
-        "summary": "Breez reported partnership inquiries for its Bitcoin payment tools rose roughly 14-fold since AI coding agents (notably Anthropic's Claude Code) went mainstream, with new interest from developers outside crypto (fitness, messaging, eSIM, mushroom-identification apps) and from coding agents themselves; its Spark-based SDK implementation handled the added volume."
+        "rawKind": "Executive Appointment",
+        "org": "Roundtable",
+        "summary": "Erin Schaefer, former Google/YouTube senior executive, joined Roundtable's Board of Directors to help guide growth of the premium-media OS."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2984,13 +2991,6 @@
         "rawKind": "R&D Milestone",
         "org": "Appwrite",
         "summary": "Appwrite Android SDK 29.0.0 added support for R8 full-mode code shrinking, fixing queries, Realtime, and saved sessions in release builds ahead of Google Play's 2027 DEX requirements."
-      },
-      {
-        "ts": "2026-10-07T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Roundtable",
-        "summary": "Erin Schaefer, former Google/YouTube senior executive, joined Roundtable's Board of Directors to help guide growth of the premium-media OS."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
