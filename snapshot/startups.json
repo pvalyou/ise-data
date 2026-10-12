@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T12:58:13.320Z",
+  "generatedAt": "2026-10-12T14:07:27.494Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39065,
-      "delta24h": 93
+      "value": 39067,
+      "delta24h": 95
     },
     "totalFunding": {
       "valueUsd": 225749899920,
@@ -178,13 +178,13 @@
       "total": 183815,
       "delta30d": 0
     },
-    "openJobs": 22418
+    "openJobs": 22465
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7345
+        "count": 7346
       },
       {
         "name": "Central",
@@ -192,7 +192,7 @@
       },
       {
         "name": "Haifa",
-        "count": 1497
+        "count": 1498
       },
       {
         "name": "Jerusalem",
@@ -231,7 +231,7 @@
         "district": "Tel Aviv",
         "lat": 32.0823,
         "lng": 34.8145,
-        "count": 808
+        "count": 809
       },
       {
         "name": "Jerusalem",
@@ -350,7 +350,7 @@
         "district": "Haifa",
         "lat": 32.6594,
         "lng": 35.1097,
-        "count": 188
+        "count": 189
       },
       {
         "name": "Givatayim",
@@ -963,7 +963,7 @@
         1489,
         1784,
         1862,
-        1831,
+        1833,
         2044,
         2046,
         2012,
@@ -1055,7 +1055,7 @@
       ],
       "statusMix": {
         "inactive": 414,
-        "active": 21083,
+        "active": 21085,
         "closed": 13801,
         "unknown": 3767
       }
@@ -1425,12 +1425,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 22995,
+      "active": 22997,
       "closed": 12697,
       "exited": 3373
     },
     "funnel": {
-      "all": 39065,
+      "all": 39067,
       "funded": 15690,
       "over1m": 6256,
       "over10m": 3110,
@@ -1824,38 +1824,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15056,
-        "share": 0.4004894398042241
+        "count": 15057,
+        "share": 0.40049473348228537
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6951,
-        "share": 0.1848965260413896
+        "share": 0.18488669007341207
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7172,
-        "share": 0.19077512368995053
+        "count": 7173,
+        "share": 0.19079157357165655
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1668,
-        "share": 0.044368782252487096
+        "share": 0.04436642195978296
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2221,
-        "share": 0.05907857636856945
+        "share": 0.059075433556761356
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4526,
-        "share": 0.12039155184337927
+        "share": 0.12038514735610172
       }
     ],
     "mixSummary": {
@@ -2181,23 +2181,12 @@
     "signals": {
       "deeptechCount": 10107,
       "deeptechPct": 25.9,
-      "globalCount": 16076,
+      "globalCount": 16077,
       "globalPct": 41.2
     }
   },
   "feeds": {
     "funding": [
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "org": "Phantom GI",
@@ -2210,14 +2199,15 @@
         "roundTitle": "Seed Round"
       },
       {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "org": "QualityLine Production Technologies",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 7,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
@@ -2231,14 +2221,14 @@
         "roundTitle": "Series E"
       },
       {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
+        "ts": "2026-10-06T00:00:00.000Z",
+        "org": "QualityLine Production Technologies",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 1,
         "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
+        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2250,6 +2240,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2264,17 +2264,6 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Anaconda Biomed",
-        "stage": "Series C",
-        "amountUsd": 56000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Silk Technologies",
         "stage": "Debt Financing",
         "amountUsd": 45000000,
@@ -2285,15 +2274,15 @@
         "roundTitle": "Growth Capital Facility for Agentic AI"
       },
       {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
+        "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Anaconda Biomed",
+        "stage": "Series C",
+        "amountUsd": 56000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 5,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2318,23 +2307,23 @@
         "roundTitle": "Series C"
       },
       {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+      },
+      {
         "ts": "2026-09-17T00:00:00.000Z",
         "org": "MIND",
         "stage": "Series B",
         "amountUsd": 72000000,
         "investors": [],
         "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
@@ -2349,6 +2338,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2412,6 +2412,48 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-12T14:00:19.538Z",
+        "org": "WELLSOURCE",
+        "industry": "IT and Telecom",
+        "city": "Yokneam",
+        "subIndustry": "AI & Machine Learning",
+        "description": "Software company developing AI-based text-to-speech and speech-to-text solutions, including a browser-based text-to-speech reader, aimed at improving education, health and well-being.",
+        "domain": "wellsrc.com",
+        "keywords": [
+          "Text to speech",
+          "Speech to text",
+          "Text to speech software",
+          "Speech recognition",
+          "AI voice synthesis",
+          "Read aloud tool",
+          "Assistive listening technology",
+          "Natural sounding voices"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
+      {
+        "ts": "2026-10-12T14:00:10.548Z",
+        "org": "Reut Harel",
+        "industry": "Consumer Goods and Services",
+        "city": "Ramat Gan",
+        "subIndustry": "Fashion & Apparel",
+        "description": "Independent fashion brand designing and selling women's clothing, bags, and fine jewelry through its own online store",
+        "domain": "reutharel.com",
+        "keywords": [
+          "Women's fashion",
+          "Designer clothing",
+          "Online fashion store",
+          "Jewelry",
+          "Handbags",
+          "Apparel",
+          "Fine jewelry",
+          "Fashion accessories"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-10-12T12:31:05.391Z",
         "org": "ALLCLUB",
@@ -2822,48 +2864,6 @@
         ],
         "isDeeptech": true,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-12T09:31:00.324Z",
-        "org": "Z&O COSMETICS",
-        "industry": "Consumer Goods and Services",
-        "city": "Hagoshrim",
-        "subIndustry": "Retail & E-commerce",
-        "description": "E-commerce retailer and official national representative of an Italian nail-care brand, selling professional nail products and offering digital nail technician training courses.",
-        "domain": "nailover.co.il",
-        "keywords": [
-          "Nail care products",
-          "Gel polish",
-          "Nail technician courses",
-          "Acrylic nail supplies",
-          "Nail art education",
-          "E-commerce beauty store",
-          "Professional nail equipment",
-          "Nail extensions"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-12T09:26:59.968Z",
-        "org": "ONLINE CAR PARTS",
-        "industry": "Consumer Goods and Services",
-        "city": "Ness Ziona",
-        "subIndustry": "Retail & E-commerce",
-        "description": "Online retailer offering over five million original spare parts for private and commercial vehicles, imported directly from manufacturers and sold through its website without intermediaries, along with luxury-car lifestyle products and accessories",
-        "domain": "onlinecarparts.co.il",
-        "keywords": [
-          "Original car parts",
-          "Auto spare parts online",
-          "Car parts by catalog number",
-          "Vehicle parts delivery",
-          "Luxury car accessories",
-          "Car lifestyle products",
-          "OEM parts search",
-          "Express parts supply"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
@@ -2905,16 +2905,16 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "NurExone Biologic",
-        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+        "rawKind": "R&D Milestone",
+        "org": "NurExone Biologic",
+        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2926,9 +2926,23 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Deel",
-        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+        "rawKind": "Other",
+        "org": "Breez",
+        "summary": "Breez reported partnership inquiries for its Bitcoin payment tools rose roughly 14-fold since AI coding agents (notably Anthropic's Claude Code) went mainstream, with new interest from developers outside crypto (fitness, messaging, eSIM, mushroom-identification apps) and from coding agents themselves; its Spark-based SDK implementation handled the added volume."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Seemore Data",
+        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Stark Power",
+        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2936,6 +2950,20 @@
         "rawKind": "Acquisition",
         "org": "Enlight Renewable Energy",
         "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ARTLINES WEB SOLUTIONS",
+        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Deel",
+        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2952,32 +2980,11 @@
         "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
       },
       {
-        "ts": "2026-10-08T00:00:00.000Z",
+        "ts": "2026-10-07T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Customer Milestone",
-        "org": "ARTLINES WEB SOLUTIONS",
-        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Seemore Data",
-        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Breez",
-        "summary": "Breez reported partnership inquiries for its Bitcoin payment tools rose roughly 14-fold since AI coding agents (notably Anthropic's Claude Code) went mainstream, with new interest from developers outside crypto (fitness, messaging, eSIM, mushroom-identification apps) and from coding agents themselves; its Spark-based SDK implementation handled the added volume."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Stark Power",
-        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
+        "org": "Arbitrip",
+        "summary": "EL AL's move into hotel bookings via the EL AL Travel platform, powered by Arbitrip technology, saw more than 35,000 hotel nights booked in its first month \u2014 a major milestone in El Al's long-term strategic plan."
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2989,13 +2996,6 @@
       {
         "ts": "2026-10-07T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Roundtable",
-        "summary": "Erin Schaefer, former Google/YouTube senior executive, joined Roundtable's Board of Directors to help guide growth of the premium-media OS."
-      },
-      {
-        "ts": "2026-10-07T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "R&D Milestone",
         "org": "Appwrite",
         "summary": "Appwrite Android SDK 29.0.0 added support for R8 full-mode code shrinking, fixing queries, Realtime, and saved sessions in release builds ahead of Google Play's 2027 DEX requirements."
@@ -3003,9 +3003,9 @@
       {
         "ts": "2026-10-07T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Arbitrip",
-        "summary": "EL AL's move into hotel bookings via the EL AL Travel platform, powered by Arbitrip technology, saw more than 35,000 hotel nights booked in its first month \u2014 a major milestone in El Al's long-term strategic plan."
+        "rawKind": "Strategic Partnership",
+        "org": "Liberty Pixel",
+        "summary": "Partnered with Skee-Ball (deal brokered by Dimensional Branding Group) to bring the classic arcade brand to mobile with two Skee-Ball-branded mobile titles, building on the flagship SkeeBoost game."
       }
     ]
   }
