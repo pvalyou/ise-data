@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-13T21:10:39.366725Z",
+  "generatedAt": "2026-10-13T21:49:37.595057Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -146,7 +146,7 @@
       0,
       2,
       0,
-      3,
+      4,
       0,
       0,
       0,
@@ -169,7 +169,7 @@
       188,
       178,
       24,
-      37,
+      38,
       38,
       29,
       37,
@@ -297,9 +297,9 @@
       25,
       154,
       167,
-      205,
+      206,
       150,
-      155,
+      154,
       58,
       24,
       232,
@@ -310,7 +310,7 @@
       98,
       40,
       317,
-      313,
+      312,
       272
     ],
     "newFounders": [
@@ -343,7 +343,7 @@
       58,
       53,
       71,
-      39
+      42
     ],
     "investments": [
       9,
@@ -370,7 +370,7 @@
       0,
       10,
       0,
-      11,
+      13,
       0,
       0,
       0,
@@ -427,6 +427,7 @@
       },
       {},
       {
+        "IPO": 1,
         "Seed": 2,
         "Series A": 1
       },
@@ -476,13 +477,13 @@
   "totals": {
     "fundingRounds": {
       "d1": 1,
-      "d7": 5,
-      "d30": 21
+      "d7": 6,
+      "d30": 22
     },
     "newOrgs": {
-      "d1": 109,
+      "d1": 102,
       "d7": 849,
-      "d30": 2933
+      "d30": 2934
     },
     "exits": {
       "d1": 0,
@@ -501,18 +502,18 @@
     },
     "jobsPosted": {
       "d1": 272,
-      "d7": 1795,
-      "d30": 5512
+      "d7": 1794,
+      "d30": 5511
     },
     "newFounders": {
-      "d1": 47,
-      "d7": 445,
-      "d30": 1714
+      "d1": 48,
+      "d7": 448,
+      "d30": 1717
     },
     "investments": {
       "d1": 7,
-      "d7": 19,
-      "d30": 103
+      "d7": 21,
+      "d30": 105
     },
     "fundingUsd": {
       "d1": 18000000,
@@ -2022,6 +2023,22 @@
     },
     {
       "ts": "2026-10-08",
+      "investor": "Eximus Capital Markets",
+      "company": "Cando Drones",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "eximus.co.il"
+    },
+    {
+      "ts": "2026-10-08",
+      "investor": "Public investors on Tel Aviv Stock Exchange",
+      "company": "Cando Drones",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-08",
       "investor": "Elah Fund",
       "company": "BloomX",
       "kind": "fund",
@@ -2099,22 +2116,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "runiventures.com"
-    },
-    {
-      "ts": "2026-10-08",
-      "investor": "NextBlock",
-      "company": "Soda Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-10-08",
-      "investor": "NextBlock VC",
-      "company": "Soda Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
     }
   ],
   "patents": [
@@ -2169,18 +2170,18 @@
     {
       "ts": "2026-09-22",
       "kind": "granted",
-      "org": "InZiv",
-      "title": "System and method for automatic probe card replacement",
-      "number": "12742797",
-      "url": "https://patents.google.com/patent/US12742797B1/en"
-    },
-    {
-      "ts": "2026-09-22",
-      "kind": "granted",
       "org": "Jackpocket",
       "title": "Adjustment mechanism for roller scraper configured to scrape physical media elements",
       "number": "12741194",
       "url": "https://patents.google.com/patent/US12741194B1/en"
+    },
+    {
+      "ts": "2026-09-22",
+      "kind": "granted",
+      "org": "InZiv",
+      "title": "System and method for automatic probe card replacement",
+      "number": "12742797",
+      "url": "https://patents.google.com/patent/US12742797B1/en"
     },
     {
       "ts": "2026-09-16",
@@ -2285,6 +2286,10 @@
           "count": 3
         },
         {
+          "label": "IPO",
+          "count": 1
+        },
+        {
           "label": "Private Equity",
           "count": 1
         },
@@ -2323,6 +2328,10 @@
           "count": 1
         },
         {
+          "label": "IPO",
+          "count": 1
+        },
+        {
           "label": "Private Equity",
           "count": 1
         },
@@ -2348,11 +2357,11 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 50
+          "count": 47
         },
         {
           "label": "IT and Telecom",
-          "count": 29
+          "count": 26
         },
         {
           "label": "Healthcare and Food",
@@ -2360,7 +2369,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 12
+          "count": 11
         },
         {
           "label": "Financial Services",
@@ -2408,7 +2417,7 @@
       "d30": [
         {
           "label": "Consumer Goods and Services",
-          "count": 1157
+          "count": 1158
         },
         {
           "label": "IT and Telecom",
