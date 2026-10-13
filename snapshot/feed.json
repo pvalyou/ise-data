@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-13T05:32:51.386629Z",
+  "generatedAt": "2026-10-13T07:08:58.046325Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -123,7 +123,7 @@
     ],
     "fundingRounds": [
       1,
-      1,
+      2,
       2,
       1,
       0,
@@ -347,7 +347,7 @@
     ],
     "investments": [
       9,
-      4,
+      8,
       23,
       3,
       0,
@@ -382,7 +382,7 @@
         "Series Unknown": 1
       },
       {
-        "Seed": 1
+        "Seed": 2
       },
       {
         "Seed": 1,
@@ -440,7 +440,7 @@
     ],
     "fundingUsd": [
       130000000,
-      0,
+      5000000,
       63000000,
       72000000,
       0,
@@ -475,7 +475,7 @@
     "fundingRounds": {
       "d1": 0,
       "d7": 3,
-      "d30": 18
+      "d30": 19
     },
     "newOrgs": {
       "d1": 121,
@@ -503,43 +503,24 @@
       "d30": 5359
     },
     "newFounders": {
-      "d1": 74,
+      "d1": 70,
       "d7": 421,
       "d30": 1690
     },
     "investments": {
       "d1": 0,
       "d7": 11,
-      "d30": 91
+      "d30": 95
     },
     "fundingUsd": {
       "d1": 0,
       "d7": 368000000,
-      "d30": 1684000000
+      "d30": 1689000000
     }
   },
   "news": {
-    "sweptOn": "2026-10-12",
+    "sweptOn": "2026-10-13",
     "israel": [
-      {
-        "company": "Fibrotex",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "CVC",
-        "status": "reported",
-        "tie": "Israel Shipyards (adjacent Israeli item); no explicit tie in text",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": "$350M",
-        "detail": "CVC to acquire a 40% stake in defense firm Fibrotex for $350 million",
-        "publishedAt": null,
-        "seenOn": "2026-10-12"
-      },
       {
         "company": "Loops",
         "event": "acquisition",
@@ -564,29 +545,6 @@
         ],
         "amount": "$30 million",
         "detail": "Salesforce acquires Israeli startup Loops in deal estimated at $30 million",
-        "publishedAt": "2026-10-12",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "Torii",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Freshworks",
-        "status": "reported",
-        "tie": "Israeli startup Torii",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV2JVME1jMEl4NXNNSFVlVTJ5UGxXeEdxWmdVS1NrQ3ljTWRjRFNyZVZTdzNVaUw4YVlFcU8yRVZabGEyOG5iU1VnUGVzbHl2QmlxN0RUU3NVT2FjZXQyNDJaN1hvUms?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/xnwfli0e6"
-          },
-          {
-            "label": "X",
-            "url": "https://twitter.com/Calcalistech/status/2109649814451355740"
-          }
-        ],
-        "amount": null,
-        "detail": "Freshworks to acquire Israeli startup Torii to help companies control AI costs",
         "publishedAt": "2026-10-12",
         "seenOn": "2026-10-12"
       },
@@ -633,6 +591,48 @@
         "seenOn": "2026-10-12"
       },
       {
+        "company": "Torii",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Freshworks",
+        "status": "reported",
+        "tie": "Israeli startup Torii",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV2JVME1jMEl4NXNNSFVlVTJ5UGxXeEdxWmdVS1NrQ3ljTWRjRFNyZVZTdzNVaUw4YVlFcU8yRVZabGEyOG5iU1VnUGVzbHl2QmlxN0RUU3NVT2FjZXQyNDJaN1hvUms?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/xnwfli0e6"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/Calcalistech/status/2109649814451355740"
+          }
+        ],
+        "amount": null,
+        "detail": "Freshworks to acquire Israeli startup Torii to help companies control AI costs",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-12"
+      },
+      {
+        "company": "Fibrotex",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "CVC",
+        "status": "reported",
+        "tie": "Israel Shipyards (adjacent Israeli item); no explicit tie in text",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "$350M",
+        "detail": "CVC to acquire a 40% stake in defense firm Fibrotex for $350 million",
+        "publishedAt": null,
+        "seenOn": "2026-10-12"
+      },
+      {
         "company": "Decart",
         "event": "acquisition",
         "round": null,
@@ -668,25 +668,6 @@
         "seenOn": "2026-10-12"
       },
       {
-        "company": "Israel Shipyards",
-        "event": "contract_win",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": "Israel Shipyards",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": "\u20ac80 million",
-        "detail": "Israel Shipyards signs \u20ac80 million deal to supply an undisclosed vessel to a foreign government",
-        "publishedAt": null,
-        "seenOn": "2026-10-12"
-      },
-      {
         "company": "Microsoft Israel",
         "event": "layoffs",
         "round": null,
@@ -702,6 +683,25 @@
         ],
         "amount": null,
         "detail": "Microsoft Israel cuts hit AI agent team, with 50 Copilot Studio employees summoned to pre-dismissal hearings",
+        "publishedAt": null,
+        "seenOn": "2026-10-12"
+      },
+      {
+        "company": "Israel Shipyards",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "Israel Shipyards",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "\u20ac80 million",
+        "detail": "Israel Shipyards signs \u20ac80 million deal to supply an undisclosed vessel to a foreign government",
         "publishedAt": null,
         "seenOn": "2026-10-12"
       },
@@ -2123,18 +2123,18 @@
     {
       "ts": "2026-09-29",
       "kind": "granted",
-      "org": "IVY NEXT",
-      "title": "Air speculum",
-      "number": "12745903",
-      "url": "https://patents.google.com/patent/US12745903B2/en"
-    },
-    {
-      "ts": "2026-09-29",
-      "kind": "granted",
       "org": "Nova",
       "title": "Patterned x-ray emitting target",
       "number": "12749642",
       "url": "https://patents.google.com/patent/US12749642B2/en"
+    },
+    {
+      "ts": "2026-09-29",
+      "kind": "granted",
+      "org": "IVY NEXT",
+      "title": "Air speculum",
+      "number": "12745903",
+      "url": "https://patents.google.com/patent/US12745903B2/en"
     },
     {
       "ts": "2026-09-25",
@@ -2155,18 +2155,18 @@
     {
       "ts": "2026-09-22",
       "kind": "granted",
-      "org": "Jackpocket",
-      "title": "Adjustment mechanism for roller scraper configured to scrape physical media elements",
-      "number": "12741194",
-      "url": "https://patents.google.com/patent/US12741194B1/en"
-    },
-    {
-      "ts": "2026-09-22",
-      "kind": "granted",
       "org": "InZiv",
       "title": "System and method for automatic probe card replacement",
       "number": "12742797",
       "url": "https://patents.google.com/patent/US12742797B1/en"
+    },
+    {
+      "ts": "2026-09-22",
+      "kind": "granted",
+      "org": "Jackpocket",
+      "title": "Adjustment mechanism for roller scraper configured to scrape physical media elements",
+      "number": "12741194",
+      "url": "https://patents.google.com/patent/US12741194B1/en"
     },
     {
       "ts": "2026-09-16",
@@ -2179,10 +2179,10 @@
     {
       "ts": "2026-09-15",
       "kind": "granted",
-      "org": "ZOLL Medical Israel",
-      "title": "Methods and systems for determining fluid content of tissue",
-      "number": "12733904",
-      "url": "https://patents.google.com/patent/US12733904B2/en"
+      "org": "IVY NEXT",
+      "title": "Air speculum",
+      "number": "12733802",
+      "url": "https://patents.google.com/patent/US12733802B2/en"
     }
   ],
   "jobs": [
@@ -2277,7 +2277,7 @@
       "d30": [
         {
           "label": "Seed",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Series B",
