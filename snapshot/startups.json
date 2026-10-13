@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:46:02.388Z",
+  "generatedAt": "2026-10-13T09:52:45.685Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,10 +160,10 @@
   "kpis": {
     "startups": {
       "value": 39170,
-      "delta24h": 133
+      "delta24h": 119
     },
     "totalFunding": {
-      "valueUsd": 226045279920,
+      "valueUsd": 226063279920,
       "rounds": 29479
     },
     "exits": {
@@ -178,7 +178,7 @@
       "total": 184214,
       "delta30d": 0
     },
-    "openJobs": 22523
+    "openJobs": 22549
   },
   "map": {
     "districts": [
@@ -1154,8 +1154,8 @@
         1995,
         1528,
         1460,
-        1391,
-        639
+        1390,
+        640
       ],
       "raisedUsd": [
         0,
@@ -1203,7 +1203,7 @@
         11630056976,
         15707949139,
         22324013086,
-        27994190083
+        28012190083
       ],
       "stageMix": {
         "Seed": 13712,
@@ -1432,8 +1432,8 @@
     "funnel": {
       "all": 39170,
       "funded": 15695,
-      "over1m": 6258,
-      "over10m": 3111,
+      "over1m": 6259,
+      "over10m": 3112,
       "over100m": 583,
       "exited": 3377
     },
@@ -2188,6 +2188,17 @@
   "feeds": {
     "funding": [
       {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - $18 million oversubscribed"
+      },
+      {
         "ts": "2026-10-12T00:00:00.000Z",
         "org": "Fibrotex",
         "stage": "Private Equity",
@@ -2200,17 +2211,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Soda Labs",
         "stage": "Seed",
         "amountUsd": 3000000,
@@ -2219,6 +2219,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2255,6 +2266,16 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2263,16 +2284,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2309,17 +2320,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "Chamelio",
         "stage": "Series A",
         "amountUsd": 26000000,
@@ -2339,6 +2339,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2393,23 +2404,12 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed - Extended (2026)"
-      },
-      {
-        "ts": "2026-09-14T00:00:00.000Z",
-        "org": "Buildots",
-        "stage": "Series Unknown",
-        "amountUsd": 130000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "$130M Growth Round"
       }
     ],
     "todayStats": {
-      "fundingRounds": 0,
-      "fundingAmountUsd": 0,
-      "notableEvents": 0
+      "fundingRounds": 1,
+      "fundingAmountUsd": 18000000,
+      "notableEvents": 1
     },
     "newStartups": [
       {
@@ -2855,11 +2855,11 @@
     ],
     "notable": [
       {
-        "ts": "2026-10-12T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Fibrotex",
-        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
+        "ts": "2026-10-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Formation",
+        "org": "Undecimal Bio",
+        "summary": "Undecimal Bio launched as a spin-out from Eleven Therapeutics, unveiling its DELiveri AI-enabled siRNA delivery platform (focus on delivery beyond the liver, initially renovascular disease). Co-founded by Dr. Yaniv Erlich (CEO) and Shaul Ilan; announcement accompanied an $18M oversubscribed seed round (funding tracked separately), co-led by 4BIO Capital and IQ Capital with Verve Ventures, Harel Tech, Entree Capital, Kerna Ventures and Saras Capital. Operations based at the Cancer Research UK Cambridge Institute (Cambridge, England & Tel Aviv, Israel)."
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2869,11 +2869,25 @@
         "summary": "Acquired by Freshworks: Freshworks Inc. (NASDAQ: FRSH) signed a definitive agreement to acquire Torii, extending Freshservice into software management and AI spend governance. Financial terms not disclosed (reported as relatively small); expected to close in Freshworks' Q4 FY2026, subject to customary closing conditions. Torii had raised $65M since its 2017 founding."
       },
       {
+        "ts": "2026-10-12T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Fibrotex",
+        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
+      },
+      {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Lusha",
         "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
+      },
+      {
+        "ts": "2026-10-11T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zik Labs",
+        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2887,28 +2901,7 @@
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zik Labs",
-        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
-      },
-      {
-        "ts": "2026-10-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zik Labs",
         "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
-      },
-      {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "NurExone Biologic",
-        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
-      },
-      {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CopilotKit",
-        "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2923,6 +2916,20 @@
         "rawKind": "Strategic Partnership",
         "org": "Blockaid",
         "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CopilotKit",
+        "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "NurExone Biologic",
+        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2955,23 +2962,9 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "NewCore",
-        "summary": "NewCore was named Identity Management Platform of the Year in the 10th annual CyberSecurity Breakthrough Awards for its approach to securing and governing human and AI agent identities."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Seemore Data",
-        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Enlight Renewable Energy",
-        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
+        "rawKind": "Strategic Partnership",
+        "org": "Deel",
+        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2983,9 +2976,16 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Deel",
-        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+        "rawKind": "Award Recognition",
+        "org": "NewCore",
+        "summary": "NewCore was named Identity Management Platform of the Year in the 10th annual CyberSecurity Breakthrough Awards for its approach to securing and governing human and AI agent identities."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Seemore Data",
+        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",

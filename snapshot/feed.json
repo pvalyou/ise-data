@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-13T09:11:20.219452Z",
+  "generatedAt": "2026-10-13T10:06:44.887119Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -151,7 +151,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "newOrgs": [
       74,
@@ -183,7 +183,7 @@
       127,
       113,
       112,
-      46
+      47
     ],
     "exits": [
       2,
@@ -285,7 +285,7 @@
       155,
       172,
       213,
-      237,
+      236,
       40,
       10,
       36,
@@ -295,23 +295,23 @@
       312,
       55,
       25,
-      156,
-      170,
+      155,
+      169,
       210,
-      151,
-      154,
+      150,
+      155,
       59,
-      24,
-      237,
-      281,
+      25,
+      236,
+      280,
       283,
-      427,
+      426,
       340,
       103,
       41,
       322,
-      317,
-      37
+      319,
+      45
     ],
     "newFounders": [
       33,
@@ -375,7 +375,7 @@
       0,
       0,
       1,
-      0
+      7
     ],
     "fundingStages": [
       {
@@ -436,7 +436,9 @@
       {
         "Private Equity": 1
       },
-      {}
+      {
+        "Seed": 1
+      }
     ],
     "fundingUsd": [
       130000000,
@@ -468,19 +470,19 @@
       0,
       0,
       350000000,
-      0
+      18000000
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 0,
-      "d7": 4,
-      "d30": 20
+      "d1": 1,
+      "d7": 5,
+      "d30": 21
     },
     "newOrgs": {
-      "d1": 129,
-      "d7": 810,
-      "d30": 2894
+      "d1": 118,
+      "d7": 811,
+      "d30": 2895
     },
     "exits": {
       "d1": 0,
@@ -498,95 +500,72 @@
       "d30": 16
     },
     "jobsPosted": {
-      "d1": 37,
-      "d7": 1587,
-      "d30": 5353
+      "d1": 45,
+      "d7": 1596,
+      "d30": 5358
     },
     "newFounders": {
-      "d1": 67,
+      "d1": 62,
       "d7": 425,
       "d30": 1694
     },
     "investments": {
-      "d1": 0,
-      "d7": 12,
-      "d30": 96
+      "d1": 7,
+      "d7": 19,
+      "d30": 103
     },
     "fundingUsd": {
-      "d1": 0,
-      "d7": 371000000,
-      "d30": 1692000000
+      "d1": 18000000,
+      "d7": 389000000,
+      "d30": 1710000000
     }
   },
   "news": {
     "sweptOn": "2026-10-13",
     "israel": [
       {
-        "company": "Loops",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Salesforce",
-        "status": "reported",
-        "tie": "Israeli startup Loops",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pUmh4Zk4xM2Z0bks0OUVoanI0Sks2aE1hTzhJc1dfdHAwQWNzX2Nuc29ZaEluVzBzbTVkSmtLNDBLbHVONlhIT0xGaWRLLXpiQ192OHd4anBjNE9DaW5nZ2lwcWQ1SFll?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
-          },
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/salesforce-to-acquire-loops/"
-          },
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001559281"
-          }
-        ],
-        "amount": "$30 million",
-        "detail": "Salesforce acquires Israeli startup Loops in deal estimated at $30 million",
-        "publishedAt": "2026-10-12",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "Stop Market",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Dudu Ezra",
-        "status": "reported",
-        "tie": "The combined chain will have 23 supermarkets around Israel",
-        "url": "https://en.globes.co.il/en/article-1001559192",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001559192"
-          }
-        ],
-        "amount": "NIS 680 million",
-        "detail": "Dudu Ezra completes NIS 680m acquisition of Stop Market, creating a 23-supermarket chain in Israel",
-        "publishedAt": "2026-10-12",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "Orion",
+        "company": "XM Cyber",
         "event": "acquisition",
         "round": null,
         "counterparty": "CrowdStrike",
-        "status": "rumored",
-        "tie": "Israeli startup Orion",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcXNKU1h3RF9zNmFLOWlkTXdnQmdqZGVzOHhlTTlsX2lrY0pBcXZBUU9DejlJWjREZnFMamVXaFdOekJjX2hsNHhCV3pCOU5JNF9DMWp5M1VNMWVPblg4N1dKT3BhakU?oc=5",
+        "status": "reported",
+        "tie": "Israeli (XM Cyber technology)",
+        "url": null,
         "sources": [
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/6yaabbwfz"
+            "url": "https://www.calcalistech.com/ctechnews/article/rkx9rod4zl"
           },
           {
-            "label": "X",
-            "url": "https://twitter.com/Calcalistech/status/2109673264650056017"
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001559322#utm_source=RSS"
+          },
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-10-13/ty-article/.highlight/000001a1-346a-d1ef-abfb-3dead7a70000"
           }
         ],
-        "amount": "$500 million",
-        "detail": "CrowdStrike in advanced talks to acquire Israeli startup Orion for $500 million",
+        "amount": "$600 million",
+        "detail": "CrowdStrike reveals over $600 million price tag for XM Cyber technology",
+        "publishedAt": null,
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "Fibrotex",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "CVC",
+        "status": "reported",
+        "tie": "Israel Shipyards (adjacent Israeli item); no explicit tie in text",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "$350M",
+        "detail": "CVC to acquire a 40% stake in defense firm Fibrotex for $350 million",
         "publishedAt": "2026-10-12",
         "seenOn": "2026-10-12"
       },
@@ -614,22 +593,76 @@
         "seenOn": "2026-10-12"
       },
       {
-        "company": "Fibrotex",
+        "company": "Orion",
         "event": "acquisition",
         "round": null,
-        "counterparty": "CVC",
-        "status": "reported",
-        "tie": "Israel Shipyards (adjacent Israeli item); no explicit tie in text",
-        "url": null,
+        "counterparty": "CrowdStrike",
+        "status": "rumored",
+        "tie": "Israeli startup Orion",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcXNKU1h3RF9zNmFLOWlkTXdnQmdqZGVzOHhlTTlsX2lrY0pBcXZBUU9DejlJWjREZnFMamVXaFdOekJjX2hsNHhCV3pCOU5JNF9DMWp5M1VNMWVPblg4N1dKT3BhakU?oc=5",
         "sources": [
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
+            "url": "https://www.calcalistech.com/ctechnews/article/6yaabbwfz"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/Calcalistech/status/2109673264650056017"
           }
         ],
-        "amount": "$350M",
-        "detail": "CVC to acquire a 40% stake in defense firm Fibrotex for $350 million",
-        "publishedAt": null,
+        "amount": "$500 million",
+        "detail": "CrowdStrike in advanced talks to acquire Israeli startup Orion for $500 million",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-12"
+      },
+      {
+        "company": "Stop Market",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Dudu Ezra",
+        "status": "reported",
+        "tie": "The combined chain will have 23 supermarkets around Israel",
+        "url": "https://en.globes.co.il/en/article-1001559192",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001559192#utm_source=RSS"
+          }
+        ],
+        "amount": "NIS 680 million",
+        "detail": "Dudu Ezra completes NIS 680m acquisition of Stop Market, creating a 23-supermarket chain in Israel",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-12"
+      },
+      {
+        "company": "Loops",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Salesforce",
+        "status": "reported",
+        "tie": "Israeli startup Loops",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pUmh4Zk4xM2Z0bks0OUVoanI0Sks2aE1hTzhJc1dfdHAwQWNzX2Nuc29ZaEluVzBzbTVkSmtLNDBLbHVONlhIT0xGaWRLLXpiQ192OHd4anBjNE9DaW5nZ2lwcWQ1SFll?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/rypqhecozg"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/salesforce-to-acquire-loops/"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001559281"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/MOSSADil/status/2109826299841696190"
+          }
+        ],
+        "amount": "$30 million",
+        "detail": "Salesforce acquires Israeli startup Loops in deal estimated at $30 million",
+        "publishedAt": "2026-10-12",
         "seenOn": "2026-10-12"
       },
       {
@@ -651,15 +684,15 @@
           },
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001559158"
-          },
-          {
-            "label": "JPost",
-            "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-911394"
+            "url": "https://en.globes.co.il/en/article-1001559158#utm_source=RSS"
           },
           {
             "label": "TheMarker",
             "url": "https://www.themarker.com/technation/2026-10-12/ty-article/.highlight/000001a1-2cc2-d1b4-a5fb-acceafd40000"
+          },
+          {
+            "label": "Themedialine",
+            "url": "https://themedialine.org/headlines/amazon-in-talks-to-acquire-israeli-founded-ai-startup-decart-for-7-billion/"
           }
         ],
         "amount": "$7 billion",
@@ -683,7 +716,7 @@
         ],
         "amount": null,
         "detail": "Microsoft Israel cuts hit AI agent team, with 50 Copilot Studio employees summoned to pre-dismissal hearings",
-        "publishedAt": null,
+        "publishedAt": "2026-10-12",
         "seenOn": "2026-10-12"
       },
       {
@@ -758,7 +791,7 @@
         "sources": [
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558985"
+            "url": "https://en.globes.co.il/en/article-1001558985#utm_source=RSS"
           }
         ],
         "amount": "$15 million",
@@ -777,7 +810,7 @@
         "sources": [
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558905"
+            "url": "https://en.globes.co.il/en/article-1001558905#utm_source=RSS"
           }
         ],
         "amount": "$44 million",
@@ -918,7 +951,7 @@
         "sources": [
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558573"
+            "url": "https://en.globes.co.il/en/article-1001558573#utm_source=RSS"
           }
         ],
         "amount": "$200m",
@@ -1021,10 +1054,6 @@
             "url": "https://en.globes.co.il/en/article-nebius-acquires-10-month-old-israeli-startup-inferize-1001558149"
           },
           {
-            "label": "Startupfortune",
-            "url": "https://startupfortune.com/nebius-buys-inferize-to-kill-the-seconds-that-waste-ai-companies-money/"
-          },
-          {
             "label": "TheMarker",
             "url": "https://www.themarker.com/technation/2026-10-01/ty-article/.highlight/000001a0-f72a-d9ab-abfd-f7abaf690000"
           }
@@ -1064,28 +1093,211 @@
         "detail": "Nebius acquires 10-month-old Israeli stealth AI startup Inferize in $100-150 million deal",
         "publishedAt": "2026-10-01",
         "seenOn": "2026-10-01"
-      },
-      {
-        "company": "Paramount-Warner Bros. Discovery",
-        "event": "leadership_change",
-        "round": null,
-        "counterparty": "Ynon Kreiz",
-        "status": "reported",
-        "tie": "\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9-\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9 \u05d4\u05d5\u05d0 \u05d6\u05d4 \u05e9\u05d9\u05e0\u05d5\u05d5\u05d8 \u05d0\u05ea \u05d4\u05d7\u05d1\u05e8\u05d4 \u05d4\u05de\u05d0\u05d5\u05d7\u05d3\u05ea",
-        "url": "https://www.geektime.co.il/ynon-kreiz-paramount-warner-bros-merger-netflix/",
-        "sources": [
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/ynon-kreiz-paramount-warner-bros-merger-netflix/"
-          }
-        ],
-        "amount": "$110 billion",
-        "detail": "Israeli-American Ynon Kreiz to lead merged Paramount-Warner Bros. Discovery after ~$110B deal",
-        "publishedAt": "2026-10-01",
-        "seenOn": "2026-10-04"
       }
     ],
     "global": [
+      {
+        "company": "Andcimal Bio",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-10-13/ty-article/.premium/000001a1-30fa-de62-a9fb-31fbc1dd0000"
+          }
+        ],
+        "amount": "$18 million",
+        "detail": "Undecimal Bio raises $18 million Seed round to tackle key obstacle in RNA medicines",
+        "publishedAt": null,
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "CarbonFarm",
+        "event": "funding",
+        "round": "series a",
+        "counterparty": "Colam Impact",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/carbonfarm-raises-eur7m-to-tackle-methane-emissions-from-rice-cultivation/"
+          }
+        ],
+        "amount": "\u20ac7 million",
+        "detail": "Paris-based rice-decarbonisation startup CarbonFarm raises \u20ac7 million Series A led by Colam Impact",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "ParkMundo",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/13/parkmundo-raises-eur23m-to-connect-airport-parking-with-global-travel-platforms/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/parkmundo-raises-eur23m-to-connect-airport-parking-with-global-travel-platforms/"
+          }
+        ],
+        "amount": "\u20ac2.3 million",
+        "detail": "Travel tech company ParkMundo raises \u20ac2.3M seed for airport parking marketplace",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "Alchera Technologies",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/13/tranport-data-specialist-alchera-raises-ps27m/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/tranport-data-specialist-alchera-raises-ps27m/"
+          }
+        ],
+        "amount": "\u00a32.7m",
+        "detail": "Cambridge-founded transport AI startup Alchera raises \u00a32.7M seed funding",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "Ubitium",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Ibex Investors",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/13/ubitium-lands-14m-to-bring-universal-computing-to-physical-ai/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/ubitium-lands-14m-to-bring-universal-computing-to-physical-ai/"
+          }
+        ],
+        "amount": "$14 million",
+        "detail": "Semiconductor startup Ubitium raises $14M seed led by Ibex Investors for universal processor",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "Sainaptic",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Cornerstone VC",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/13/sainaptic-lands-ps1m-to-expand-ai-assisted-marking-technology/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/sainaptic-lands-ps1m-to-expand-ai-assisted-marking-technology/"
+          }
+        ],
+        "amount": "\u00a31 million",
+        "detail": "UK edtech Sainaptic raises \u00a31M co-led by Cornerstone VC and Ufi Ventures to expand AI-assisted marking",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "reebuild",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Fortino Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/vienna-based-reebuild-raises-e3-million-to-build-the-ai-operating-system-for-construction-and-real-estate/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/vienna-based-reebuild-raises-e3-million-to-build-the-ai-operating-system-for-construction-and-real-estate/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/13/reebuild-secures-eur3m-to-automate-financial-workflows-in-construction/"
+          }
+        ],
+        "amount": "\u20ac3 million",
+        "detail": "Vienna-based AI construction back-office platform reebuild raises \u20ac3 million Seed led by Fortino Ventures",
+        "publishedAt": "2026-10-13",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "WindBorne",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": "US Air Force",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+          }
+        ],
+        "amount": "$50 million",
+        "detail": "Weather-balloon AI startup WindBorne wins US Air Force contract worth almost $50 million",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-13"
+      },
+      {
+        "company": "1KOMMA5\u00b0",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/"
+          }
+        ],
+        "amount": null,
+        "detail": "German energytech unicorn 1KOMMA5\u00b0 reaches $1.35B valuation in latest financing round, plans \u20ac100M AI investment",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-12"
+      },
+      {
+        "company": "Ultrahuman",
+        "event": "partnership",
+        "round": null,
+        "counterparty": "Abu Dhabi",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/"
+          }
+        ],
+        "amount": null,
+        "detail": "Ultrahuman partners with Abu Dhabi to roll out its biological-age model across the UAE over two years.",
+        "publishedAt": "2026-10-12",
+        "seenOn": "2026-10-12"
+      },
       {
         "company": "HyLight",
         "event": "funding",
@@ -1121,44 +1333,6 @@
         ],
         "amount": "\u20ac2 million",
         "detail": "Danish-Lithuanian drone maker Monopulse raises over \u20ac2M for electronic warfare-resistant drones",
-        "publishedAt": "2026-10-12",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "Ultrahuman",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "Abu Dhabi",
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/"
-          }
-        ],
-        "amount": null,
-        "detail": "Ultrahuman partners with Abu Dhabi to roll out its biological-age model across the UAE over two years.",
-        "publishedAt": "2026-10-12",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "1KOMMA5\u00b0",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/"
-          }
-        ],
-        "amount": null,
-        "detail": "German energytech unicorn 1KOMMA5\u00b0 reaches $1.35B valuation in latest financing round, plans \u20ac100M AI investment",
         "publishedAt": "2026-10-12",
         "seenOn": "2026-10-12"
       },
@@ -1239,25 +1413,6 @@
         "seenOn": "2026-10-11"
       },
       {
-        "company": "Amazon",
-        "event": "regulatory",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.themarker.com/wallstreet/2026-10-10/ty-article-magazine/.premium/000001a1-10ff-d88d-aba1-dcffcf640000",
-        "sources": [
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/wallstreet/2026-10-10/ty-article-magazine/.premium/000001a1-10ff-d88d-aba1-dcffcf640000"
-          }
-        ],
-        "amount": null,
-        "detail": "Amazon approved to operate large delivery drones in Richardson, Texas; residents complain of noise",
-        "publishedAt": "2026-10-10",
-        "seenOn": "2026-10-11"
-      },
-      {
         "company": "Revolut",
         "event": "regulatory",
         "round": null,
@@ -1273,6 +1428,25 @@
         ],
         "amount": null,
         "detail": "Revolut received conditional US approval to offer banking services, as CEO aims to challenge JPMorgan",
+        "publishedAt": "2026-10-10",
+        "seenOn": "2026-10-11"
+      },
+      {
+        "company": "Amazon",
+        "event": "regulatory",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.themarker.com/wallstreet/2026-10-10/ty-article-magazine/.premium/000001a1-10ff-d88d-aba1-dcffcf640000",
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/wallstreet/2026-10-10/ty-article-magazine/.premium/000001a1-10ff-d88d-aba1-dcffcf640000"
+          }
+        ],
+        "amount": null,
+        "detail": "Amazon approved to operate large delivery drones in Richardson, Texas; residents complain of noise",
         "publishedAt": "2026-10-10",
         "seenOn": "2026-10-11"
       },
@@ -1353,21 +1527,21 @@
         "seenOn": "2026-10-10"
       },
       {
-        "company": "Klarent",
+        "company": "Besso",
         "event": "funding",
-        "round": "seed",
-        "counterparty": "Mosaic Ventures",
+        "round": null,
+        "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
+        "url": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
         "sources": [
           {
             "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/"
+            "url": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/"
           }
         ],
-        "amount": "\u20ac7.13 million",
-        "detail": "Zurich-based autonomous software testing startup Klarent raises \u20ac7.13M seed led by Mosaic Ventures",
+        "amount": "\u20ac4.29 million",
+        "detail": "Bern-based trade regulation intelligence startup Besso raises \u20ac4.29M from an anonymous European family office",
         "publishedAt": "2026-10-09",
         "seenOn": "2026-10-09"
       },
@@ -1391,82 +1565,6 @@
         "seenOn": "2026-10-09"
       },
       {
-        "company": "OllyGarden",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Next Frontier Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/09/ollygarden-bags-4m-to-improve-telemetry-quality/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/09/ollygarden-bags-4m-to-improve-telemetry-quality/"
-          }
-        ],
-        "amount": "$4M",
-        "detail": "Observability platform OllyGarden raises $4M to improve telemetry quality",
-        "publishedAt": "2026-10-09",
-        "seenOn": "2026-10-09"
-      },
-      {
-        "company": "SpectaCell",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "imec.xpand",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/ghent-based-spectacell-launches-with-e6-million-to-advance-its-cell-analysis-platform-for-immunotherapy-development/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/ghent-based-spectacell-launches-with-e6-million-to-advance-its-cell-analysis-platform-for-immunotherapy-development/"
-          }
-        ],
-        "amount": "\u20ac6 million",
-        "detail": "Ghent-based cell analysis startup SpectaCell launches from stealth with \u20ac6 million seed led by imec.xpand",
-        "publishedAt": "2026-10-09",
-        "seenOn": "2026-10-09"
-      },
-      {
-        "company": "Besso",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/"
-          }
-        ],
-        "amount": "\u20ac4.29 million",
-        "detail": "Bern-based trade regulation intelligence startup Besso raises \u20ac4.29M from an anonymous European family office",
-        "publishedAt": "2026-10-09",
-        "seenOn": "2026-10-09"
-      },
-      {
-        "company": "Butterfly Effect",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Boyu Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://twitter.com/Ai_hebrew/status/2108444853084553360",
-        "sources": [
-          {
-            "label": "X",
-            "url": "https://twitter.com/Ai_hebrew/status/2108444853084553360"
-          }
-        ],
-        "amount": "$500 million",
-        "detail": "Manus AI developer Butterfly Effect raises over $500M led by Boyu Capital and IDG after Meta's $2B deal was blocked",
-        "publishedAt": "2026-10-09",
-        "seenOn": "2026-10-09"
-      },
-      {
         "company": "Sava Technologies",
         "event": "funding",
         "round": "series b",
@@ -1484,90 +1582,6 @@
         "detail": "London-based Sava raises \u20ac32.08M Series B led by Ascensia to scale its glucose microsensor across Europe",
         "publishedAt": "2026-10-09",
         "seenOn": "2026-10-09"
-      },
-      {
-        "company": "Cyprus Stock Exchange",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Tel Aviv Stock Exchange",
-        "status": "rumored",
-        "tie": null,
-        "url": "https://en.globes.co.il/en/article-1001558886#utm_source=RSS",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558886#utm_source=RSS"
-          }
-        ],
-        "amount": null,
-        "detail": "Tel Aviv Stock Exchange eyes acquisition of privatizing Cyprus Stock Exchange",
-        "publishedAt": "2026-10-08",
-        "seenOn": "2026-10-12"
-      },
-      {
-        "company": "Tel Aviv Stock Exchange",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Cyprus Stock Exchange",
-        "status": "rumored",
-        "tie": null,
-        "url": "https://en.globes.co.il/en/article-1001558886#utm_source=RSS",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558886"
-          }
-        ],
-        "amount": null,
-        "detail": "TASE reportedly eyeing acquisition of privatizing Cyprus Stock Exchange",
-        "publishedAt": "2026-10-08",
-        "seenOn": "2026-10-11"
-      },
-      {
-        "company": "TASE",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Cyprus Stock Exchange",
-        "status": "rumored",
-        "tie": null,
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": null,
-        "detail": "TASE eyes Cyprus Stock Exchange in first step toward becoming a global exchange operator",
-        "publishedAt": "2026-10-08",
-        "seenOn": "2026-10-09"
-      },
-      {
-        "company": "Gorilla Circuits",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "PCB Technologies",
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVam52cDhxWlY1TUdCNzNxenlyQ0JUc0xNZUpkcjJzUVhTU0hsb0poNzlKcmduWDVqZERQclVyb0VMeU90NlNIaUZ5aGdfdF92U0RRMlFnRWM?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          },
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001558998"
-          },
-          {
-            "label": "Israel Defense",
-            "url": "https://www.israeldefense.co.il/en/node/71525"
-          }
-        ],
-        "amount": "$120 million",
-        "detail": "PCB Technologies acquires Gorilla Circuits for $120 million",
-        "publishedAt": "2026-10-08",
-        "seenOn": "2026-10-08"
       }
     ]
   },
@@ -1943,6 +1957,62 @@
   ],
   "investments": [
     {
+      "ts": "2026-10-13",
+      "investor": "4BIO Capital",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "Entr\u00e9e Capital",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "entreecap.com"
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "Harel Tech",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "harel-tech.com"
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "IQ Capital",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "iqcapital.vc"
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "Kerna Ventures",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "Saras Capital",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-13",
+      "investor": "Verve Ventures",
+      "company": "Undecimal Bio",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "verve.vc"
+    },
+    {
       "ts": "2026-10-12",
       "investor": "CVC Capital Partners",
       "company": "Fibrotex",
@@ -2045,62 +2115,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": null
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "Circuit Check",
-      "company": "QualityLine Production Technologies",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "Bank of America",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "bankofamerica.com"
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "Barclays",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "barclays.com"
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "BNP Paribas",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "group.bnpparibas"
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "Citi",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "citigroup.com"
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "J.P. Morgan",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-10-06",
-      "investor": "Nomura Capital Management",
-      "company": "Capitolis",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
     }
   ],
   "patents": [
@@ -2188,6 +2202,20 @@
   "jobs": [
     {
       "ts": "2026-10-13",
+      "title": "Talent Acquisition Associate",
+      "company": "Upwind",
+      "city": "Tel Aviv",
+      "url": "https://www.upwind.io/careers/co/tel-aviv/2D.373/talent-acquisition-associate/all"
+    },
+    {
+      "ts": "2026-10-13",
+      "title": "Help Desk",
+      "company": "Sela Cloud",
+      "city": "Bnei Brak",
+      "url": "https://selacloud.com/careers/"
+    },
+    {
+      "ts": "2026-10-13",
       "title": "23900 - Integrator",
       "company": "QualityAI",
       "city": "Petah Tikva",
@@ -2241,29 +2269,20 @@
       "company": "Opisoft",
       "city": "Tel Aviv",
       "url": "https://opisoft.com/jobs/%d7%97%d7%91%d7%a8%d7%94-%d7%98%d7%9b%d7%a0%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%aa-%d7%91%d7%90%d7%96%d7%95%d7%a8-%d7%9e%d7%a8%d7%9b%d7%96-%d7%94%d7%90%d7%a8%d7%a5-%d7%9e%d7%92%d7%99%d7%99%d7%a1%d7%aa/"
-    },
-    {
-      "ts": "2026-10-13",
-      "title": "\u05d0\u05e8\u05d2\u05d5\u05df \u05e8\u05e4\u05d5\u05d0\u05d9 \u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d6\u05d5\u05e8 \u05d4\u05de\u05e8\u05db\u05d6 \u05de\u05d2\u05d9\u05d9\u05e1 Data Engineer",
-      "company": "Opisoft",
-      "city": "Tel Aviv",
-      "url": "https://opisoft.com/jobs/%d7%90%d7%a8%d7%92%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9e%d7%95%d7%91%d7%99%d7%9c-%d7%91%d7%90%d7%96%d7%95%d7%a8-%d7%94%d7%9e%d7%a8%d7%9b%d7%96-%d7%9e%d7%92%d7%99%d7%99%d7%a1-data-engineer/"
-    },
-    {
-      "ts": "2026-10-13",
-      "title": "\u05ea\u05d5\u05db\u05e0\u05d9\u05ea\u05df/\u05d9\u05ea BI \u05e2\u05d1\u05d5\u05e8 \u05d0\u05e8\u05d2\u05d5\u05df \u05e8\u05e4\u05d5\u05d0\u05d9 \u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d6\u05d5\u05e8 \u05d4\u05de\u05e8\u05db\u05d6",
-      "company": "Opisoft",
-      "city": "Tel Aviv",
-      "url": "https://opisoft.com/jobs/%d7%aa%d7%95%d7%9b%d7%a0%d7%99%d7%aa%d7%9f-%d7%99%d7%aa-bi-%d7%a2%d7%91%d7%95%d7%a8-%d7%90%d7%a8%d7%92%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9e%d7%95%d7%91%d7%99%d7%9c-%d7%91%d7%90%d7%96/"
     }
   ],
   "mix": {
     "stages": {
-      "d1": [],
+      "d1": [
+        {
+          "label": "Seed",
+          "count": 1
+        }
+      ],
       "d7": [
         {
           "label": "Seed",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Private Equity",
@@ -2277,7 +2296,7 @@
       "d30": [
         {
           "label": "Seed",
-          "count": 5
+          "count": 6
         },
         {
           "label": "Series B",
@@ -2329,11 +2348,11 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 62
+          "count": 57
         },
         {
           "label": "IT and Telecom",
-          "count": 33
+          "count": 27
         },
         {
           "label": "Media and Entertainment",
@@ -2371,7 +2390,7 @@
         },
         {
           "label": "Healthcare and Food",
-          "count": 65
+          "count": 66
         },
         {
           "label": "Financial Services",
@@ -2401,7 +2420,7 @@
         },
         {
           "label": "Healthcare and Food",
-          "count": 239
+          "count": 240
         },
         {
           "label": "Financial Services",
@@ -2423,25 +2442,25 @@
     "d7": [],
     "d30": [
       {
+        "name": "Entr\u00e9e Capital",
+        "kind": "fund",
+        "count": 2,
+        "domain": "entreecap.com"
+      },
+      {
         "name": "Sequoia Capital",
         "kind": "fund",
         "count": 2,
         "domain": "sequoiacap.com"
       },
       {
+        "name": "4BIO Capital",
+        "kind": "fund",
+        "count": 1,
+        "domain": null
+      },
+      {
         "name": "Ahmad Al-Dahle",
-        "kind": "fund",
-        "count": 1,
-        "domain": null
-      },
-      {
-        "name": "Alive HealthTech Growth Fund",
-        "kind": "fund",
-        "count": 1,
-        "domain": null
-      },
-      {
-        "name": "Alta Park Capital",
         "kind": "fund",
         "count": 1,
         "domain": null
@@ -2469,10 +2488,10 @@
         "domain": "digitalturbine.com"
       },
       {
-        "company": "PHI-TECH ANIMAL HEALTH TECHNOLOGIES",
-        "count": 2,
-        "city": "Airport City",
-        "domain": "phitech.pahc.com"
+        "company": "Intel",
+        "count": 3,
+        "city": "Kiryat Gat",
+        "domain": "intel.com"
       }
     ],
     "d7": [
