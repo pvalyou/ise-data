@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:20:09.640Z",
+  "generatedAt": "2026-10-13T04:22:46.074Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -175,10 +175,10 @@
       "avgPerStartup": 29
     },
     "patents": {
-      "total": 184171,
+      "total": 184197,
       "delta30d": 0
     },
-    "openJobs": 22545
+    "openJobs": 22539
   },
   "map": {
     "districts": [
@@ -2222,6 +2222,17 @@
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
+        "org": "Capitolis",
+        "stage": "Series E",
+        "amountUsd": 120000000,
+        "investors": [],
+        "investorCount": 9,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series E"
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
         "org": "QualityLine Production Technologies",
         "stage": "Corporate Round",
         "amountUsd": 0,
@@ -2232,15 +2243,14 @@
         "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
       },
       {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "org": "Capitolis",
-        "stage": "Series E",
-        "amountUsd": 120000000,
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
         "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Series E"
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2252,16 +2262,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2298,14 +2298,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
+        "org": "Chamelio",
+        "stage": "Series A",
+        "amountUsd": 26000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 4,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2320,14 +2320,14 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Chamelio",
-        "stage": "Series A",
-        "amountUsd": 26000000,
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
         "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2342,17 +2342,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Noetive",
-        "stage": "Seed",
-        "amountUsd": 41000000,
-        "investors": [],
-        "investorCount": 18,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Loora",
         "stage": "Series B",
         "amountUsd": 22000000,
@@ -2361,6 +2350,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Noetive",
+        "stage": "Seed",
+        "amountUsd": 41000000,
+        "investors": [],
+        "investorCount": 18,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2882,9 +2882,9 @@
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zik Labs",
-        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
+        "rawKind": "Strategic Partnership",
+        "org": "Lusha",
+        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2896,9 +2896,9 @@
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lusha",
-        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
+        "rawKind": "Product Launch",
+        "org": "Zik Labs",
+        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2906,6 +2906,13 @@
         "rawKind": "Executive Appointment",
         "org": "Mesh Security",
         "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2922,18 +2929,11 @@
         "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
       },
       {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
-      },
-      {
         "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "NewCore",
-        "summary": "NewCore was named Identity Management Platform of the Year in the 10th annual CyberSecurity Breakthrough Awards for its approach to securing and governing human and AI agent identities."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Stark Power",
+        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2945,37 +2945,9 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Classiq Technologies",
-        "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Deel",
-        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "ARTLINES WEB SOLUTIONS",
-        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Stark Power",
-        "summary": "Acquired Cottage Grove energy campus (Minnesota) from Ultra Capital and Panamint Capital: an operating 262 MW natural gas combined-cycle plant (contracted with Northern States Power/Xcel Energy, transitioning to a 15-year tolling agreement with Basin Electric Power Cooperative from December 2027) plus a co-located 80 MW / 320 MWh battery storage project targeting 2028 commercial operation. Closing expected Q4 2026; establishes Stark Power's second U.S. growth platform in contracted power generation."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Enlight Renewable Energy",
-        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
+        "rawKind": "Award Recognition",
+        "org": "NewCore",
+        "summary": "NewCore was named Identity Management Platform of the Year in the 10th annual CyberSecurity Breakthrough Awards for its approach to securing and governing human and AI agent identities."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2987,16 +2959,44 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Classiq Technologies",
+        "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Enlight Renewable Energy",
+        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Deel",
+        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Intent IQ",
         "summary": "Intent IQ launched BidPulse, a patent-pending methodology for deterministically measuring identity accuracy in programmatic advertising."
       },
       {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "ARTLINES WEB SOLUTIONS",
+        "summary": "Scouter app surpassed 1 million installs with a 4.81 rating from ~23.9K reviews (Google Play, com.artlines.scouter)."
+      },
+      {
         "ts": "2026-10-07T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Roundtable",
-        "summary": "Erin Schaefer, former Google/YouTube senior executive, joined Roundtable's Board of Directors to help guide growth of the premium-media OS."
+        "rawKind": "R&D Milestone",
+        "org": "Appwrite",
+        "summary": "Appwrite Android SDK 29.0.0 added support for R8 full-mode code shrinking, fixing queries, Realtime, and saved sessions in release builds ahead of Google Play's 2027 DEX requirements."
       }
     ]
   }
