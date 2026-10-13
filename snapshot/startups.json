@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T15:06:31.510Z",
+  "generatedAt": "2026-10-13T15:36:04.474Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39203,
-      "delta24h": 122
+      "value": 39205,
+      "delta24h": 124
     },
     "totalFunding": {
       "valueUsd": 226121057920,
@@ -171,7 +171,7 @@
       "valueUsd": 321391922600
     },
     "employees": {
-      "total": 822762,
+      "total": 822764,
       "avgPerStartup": 28
     },
     "patents": {
@@ -184,7 +184,7 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7395
+        "count": 7397
       },
       {
         "name": "Central",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4581
+        "count": 4583
       },
       {
         "name": "Herzliya",
@@ -963,7 +963,7 @@
         1489,
         1784,
         1863,
-        1963,
+        1965,
         2044,
         2046,
         2013,
@@ -1055,7 +1055,7 @@
       ],
       "statusMix": {
         "inactive": 414,
-        "active": 21220,
+        "active": 21222,
         "closed": 13801,
         "unknown": 3768
       }
@@ -1425,12 +1425,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 23127,
+      "active": 23129,
       "closed": 12697,
       "exited": 3379
     },
     "funnel": {
-      "all": 39203,
+      "all": 39205,
       "funded": 15699,
       "over1m": 6263,
       "over10m": 3114,
@@ -1824,38 +1824,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15089,
-        "share": 0.39990988842066205
+        "count": 15090,
+        "share": 0.3999151935971166
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6964,
-        "share": 0.1845697172086613
+        "share": 0.18455993427503778
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7238,
-        "share": 0.19183165036707217
+        "count": 7239,
+        "share": 0.19184798452283147
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1670,
-        "share": 0.04426068749834354
+        "share": 0.04425834150478361
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2227,
-        "share": 0.059023084466353924
+        "share": 0.0590199560066785
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4543,
-        "share": 0.120404972038907
+        "share": 0.12039859009355207
       }
     ],
     "mixSummary": {
@@ -2181,7 +2181,7 @@
     "signals": {
       "deeptechCount": 10113,
       "deeptechPct": 25.8,
-      "globalCount": 16126,
+      "globalCount": 16127,
       "globalPct": 41.1
     }
   },
@@ -2412,6 +2412,53 @@
       "notableEvents": 1
     },
     "newStartups": [
+      {
+        "ts": "2026-10-13T15:15:15.148Z",
+        "org": "BABYEYE TECH",
+        "industry": "IT and Telecom",
+        "city": "Tel Aviv",
+        "subIndustry": "AI & Machine Learning",
+        "description": "AI-powered video privacy system for kindergartens that connects to existing classroom cameras and blurs everyone except the viewing parent's own child, enabling secure real-time observation via a mobile app while protecting the privacy of other children and staff.",
+        "domain": "babyeye.co.il",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/1cef76ac-3062-4481-92af-8756fd79e5ac.jpg",
+        "keywords": [
+          "Child monitoring",
+          "Kindergarten cameras",
+          "AI video privacy",
+          "Real-time video streaming",
+          "Facial blurring",
+          "Parent mobile app",
+          "Secure child observation",
+          "Privacy protection",
+          "Nursery school monitoring",
+          "Computer vision privacy"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 2,
+        "isDeeptech": false,
+        "businessModel": "B2B2C"
+      },
+      {
+        "ts": "2026-10-13T15:04:11.730Z",
+        "org": "OXO ORGANIC",
+        "industry": "Consumer Goods and Services",
+        "city": "Tel Aviv",
+        "subIndustry": "Personal Care & Beauty",
+        "description": "Organic professional hair smoothing and scalp care brand offering low-pH, formaldehyde-free, vegan hair straightening products formulated for salon use, which permanently smooth and restore damaged hair without harsh chemicals",
+        "domain": "oxoorganic.co.il",
+        "keywords": [
+          "Organic hair straightening",
+          "Hair smoothing treatment",
+          "Salon hair care",
+          "Vegan hair products",
+          "Scalp care",
+          "Frizz control",
+          "Formaldehyde-free hair treatment",
+          "Professional hair products"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-10-13T14:56:47.213Z",
         "org": "AGROWEBLAB",
@@ -2811,58 +2858,6 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-13T12:27:08.375Z",
-        "org": "LIXFIX",
-        "industry": "IT and Telecom",
-        "city": "Mevo Horon",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Digital agency specializing in conversion rate optimization, analytics implementation, and paid campaign management, also operating an analytics conference and a data-focused training college",
-        "domain": "lixfix.co.il",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/9e443bc6-0c0f-4728-8545-eaa96040eda2.jpg",
-        "keywords": [
-          "Conversion rate optimization",
-          "Google Analytics implementation",
-          "Google Tag Manager",
-          "PPC campaign management",
-          "Web analytics",
-          "Server-side tracking",
-          "Conversion API",
-          "Landing page optimization",
-          "E-commerce optimization",
-          "Digital marketing training"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 1,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-13T12:24:22.297Z",
-        "org": "PAteam",
-        "industry": "IT and Telecom",
-        "city": "Groningen",
-        "subIndustry": "IT Services & Consulting",
-        "description": "Customer experience and automation consultancy that improves and automates customer-contact operations using CX platforms, agentic AI, and robotic process automation, connecting technology, data, and people in one coherent environment",
-        "domain": "pateam.co",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/53894a9e-bf7e-4a96-b8e0-688da8a00d26.webp",
-        "keywords": [
-          "Customer experience consulting",
-          "Contact center automation",
-          "Agentic AI",
-          "Intelligent automation",
-          "Robotic process automation",
-          "Workforce management",
-          "CX platforms",
-          "Customer service optimization",
-          "AI implementation",
-          "Process automation"
-        ],
-        "employeeRange": "51-200",
-        "exactEmployees": 56,
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2877,15 +2872,15 @@
         "ts": "2026-10-12T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Fibrotex",
-        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
+        "org": "Torii",
+        "summary": "Acquired by Freshworks: Freshworks Inc. (NASDAQ: FRSH) signed a definitive agreement to acquire Torii, extending Freshservice into software management and AI spend governance. Financial terms not disclosed (reported as relatively small); expected to close in Freshworks' Q4 FY2026, subject to customary closing conditions. Torii had raised $65M since its 2017 founding."
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Torii",
-        "summary": "Acquired by Freshworks: Freshworks Inc. (NASDAQ: FRSH) signed a definitive agreement to acquire Torii, extending Freshservice into software management and AI spend governance. Financial terms not disclosed (reported as relatively small); expected to close in Freshworks' Q4 FY2026, subject to customary closing conditions. Torii had raised $65M since its 2017 founding."
+        "org": "Fibrotex",
+        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2918,9 +2913,9 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Mesh Security",
-        "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2932,9 +2927,9 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+        "rawKind": "Executive Appointment",
+        "org": "Mesh Security",
+        "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2974,23 +2969,9 @@
       {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Deel",
-        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Enlight Renewable Energy",
-        "summary": "Acquired a ready-to-build energy storage project from Usva Energia in Finland, expanding its Finnish energy storage portfolio."
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Seemore Data",
-        "summary": "Announced early access to Seemore for Databricks, extending its data cloud cost optimization platform to Databricks: full cost attribution across SQL warehouses, Lakeflow jobs, all-purpose clusters and AI services, SmartPulse auto-stop/scaling optimization for SQL warehouses, and idle-time optimization for serverless, available for organizations running Databricks with Unity Catalog."
+        "rawKind": "Conference Presentation",
+        "org": "HOME MADE DOCS",
+        "summary": "Home Made Docs' project 'Podium (You Have Three Minutes)' (dir. Rachel Leah Jones, produced by Rachel Leah Jones and Philippe Bella\u00efche for Home Made Docs with Temps Noir) was selected for the IDFA Forum 2026 co-production market in Amsterdam (Nov 12-22, 2026), as announced on October 8, 2026."
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -3003,8 +2984,22 @@
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
+        "org": "Deel",
+        "summary": "Partnership with Golden State (announced on Deel's own blog, dated 2026-10-08)."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
         "org": "Classiq Technologies",
         "summary": "Signed an MoU/strategic business partnership with NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications) via its Japanese subsidiary Classiq Technologies G.K. to accelerate enterprise adoption of quantum computing in Japan."
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "NewCore",
+        "summary": "NewCore was named Identity Management Platform of the Year in the 10th annual CyberSecurity Breakthrough Awards for its approach to securing and governing human and AI agent identities."
       }
     ]
   }
