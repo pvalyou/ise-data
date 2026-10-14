@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:09:19.671Z",
+  "generatedAt": "2026-10-14T11:31:16.607Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39226,
-      "delta24h": 52
+      "value": 39228,
+      "delta24h": 48
     },
     "totalFunding": {
       "valueUsd": 225420837918,
@@ -168,17 +168,17 @@
     },
     "exits": {
       "count": 3384,
-      "valueUsd": 321824622600
+      "valueUsd": 321803022600
     },
     "employees": {
-      "total": 824202,
+      "total": 824203,
       "avgPerStartup": 29
     },
     "patents": {
       "total": 187909,
       "delta30d": 0
     },
-    "openJobs": 22501
+    "openJobs": 22498
   },
   "map": {
     "districts": [
@@ -188,7 +188,7 @@
       },
       {
         "name": "Central",
-        "count": 4374
+        "count": 4376
       },
       {
         "name": "Haifa",
@@ -273,7 +273,7 @@
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 395
+        "count": 396
       },
       {
         "name": "Rehovot",
@@ -577,18 +577,18 @@
         "count": 39
       },
       {
+        "name": "Kadima-Zoran",
+        "district": "Central",
+        "lat": 32.2789,
+        "lng": 34.9181,
+        "count": 37
+      },
+      {
         "name": "Nahariya",
         "district": "Northern",
         "lat": 33.0061,
         "lng": 35.0947,
         "count": 37
-      },
-      {
-        "name": "Kadima-Zoran",
-        "district": "Central",
-        "lat": 32.2789,
-        "lng": 34.9181,
-        "count": 36
       },
       {
         "name": "Omer",
@@ -963,7 +963,7 @@
         1492,
         1782,
         1864,
-        1979,
+        1981,
         2044,
         2048,
         2014,
@@ -1055,7 +1055,7 @@
       ],
       "statusMix": {
         "inactive": 413,
-        "active": 21246,
+        "active": 21248,
         "closed": 13802,
         "unknown": 3765
       }
@@ -1410,7 +1410,7 @@
         13329785000,
         20286031300,
         9839422500,
-        25654759500,
+        25633159500,
         9072835000,
         10661994100,
         18348699700,
@@ -1425,12 +1425,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 23145,
+      "active": 23147,
       "closed": 12697,
       "exited": 3384
     },
     "funnel": {
-      "all": 39226,
+      "all": 39228,
       "funded": 15704,
       "over1m": 6267,
       "over10m": 3120,
@@ -1513,13 +1513,13 @@
       "overall": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 89013230,
+        "avgValueUsd": 89006759,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 98696933,
+        "avgValueUsd": 98689798,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1824,38 +1824,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15098,
-        "share": 0.39990464586533875
+        "count": 15099,
+        "share": 0.3999099480877212
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 6965,
-        "share": 0.18448376330984798
+        "share": 0.18447399088886535
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7247,
-        "share": 0.19195317052497748
+        "count": 7248,
+        "share": 0.19196948829325142
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1671,
-        "share": 0.04426021083858664
+        "share": 0.044257866299396126
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2228,
-        "share": 0.059013614451448856
+        "share": 0.05901048839919483
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4545,
-        "share": 0.12038459500980028
+        "share": 0.12037821803157114
       }
     ],
     "mixSummary": {
@@ -2181,7 +2181,7 @@
     "signals": {
       "deeptechCount": 10105,
       "deeptechPct": 25.8,
-      "globalCount": 16133,
+      "globalCount": 16134,
       "globalPct": 41.1
     }
   },
@@ -2208,17 +2208,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "CVC Catalyst III acquires 40% minority stake from Blum family (pending closing)"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
-        "stage": "Seed",
-        "amountUsd": 5000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2254,6 +2243,17 @@
         "roundTitle": "IPO"
       },
       {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed Round"
+      },
+      {
         "ts": "2026-10-06T00:00:00.000Z",
         "org": "QualityLine Production Technologies",
         "stage": "Corporate Round",
@@ -2277,6 +2277,16 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2285,16 +2295,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2331,17 +2331,6 @@
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
         "org": "UltraSight",
         "stage": "Series C",
         "amountUsd": 24000000,
@@ -2350,6 +2339,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2375,17 +2375,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Noetive",
         "stage": "Seed",
         "amountUsd": 41000000,
@@ -2394,6 +2383,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-09-15T00:00:00.000Z",
@@ -2413,6 +2413,50 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-14T11:23:31.461Z",
+        "org": "SYM INFINITY",
+        "industry": "IT and Telecom",
+        "city": "Kadima-Zoran",
+        "subIndustry": "Enterprise Software",
+        "description": "Software vendor developing point-of-sale, customer loyalty and marketing software for retail shops, covering cash-register management, inventory, promotions, orders, time tracking and SMS/email campaigns",
+        "domain": "sym.co.il",
+        "keywords": [
+          "Point of sale software",
+          "Cash register system",
+          "Customer loyalty program",
+          "Retail POS",
+          "Inventory management",
+          "SMS marketing",
+          "Email marketing",
+          "Promotions management",
+          "Retail reporting"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-14T11:23:11.259Z",
+        "org": "T.M.E TAURUS MEDEX",
+        "industry": "Consumer Goods and Services",
+        "city": "Netanya",
+        "subIndustry": "Consumer Services",
+        "description": "Private medical services provider organizing high-quality, personalized medical care for international clients, coordinating access to physicians, specialists and treatment services.",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/38b96abb-a60c-494e-97b3-fe3ed4354b22.jpg",
+        "keywords": [
+          "Private medical care",
+          "Medical tourism",
+          "International patients",
+          "Healthcare coordination",
+          "Specialist referrals",
+          "Personalized treatment",
+          "Medical concierge services"
+        ],
+        "employeeRange": "2-10",
+        "exactEmployees": 1,
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-10-14T10:02:22.906Z",
         "org": "FAT GINGER CAT",
@@ -2819,61 +2863,15 @@
         "employeeRange": "1-10",
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-13T19:52:24.194Z",
-        "org": "YAMIR MEDICAL",
-        "industry": "Healthcare and Food",
-        "city": "Petah Tikva",
-        "subIndustry": "Medical Devices",
-        "description": "Importer and distributor of advanced medical devices, supplying controlled therapeutic cooling systems and wound and tissue healing products to hospitals and private practices.",
-        "domain": "yamirmedical.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/6ebf6254-d864-4c6f-a06a-9689b2075dce.jpg",
-        "keywords": [
-          "Medical device distribution",
-          "Therapeutic cooling systems",
-          "Wound care devices",
-          "Wound healing",
-          "Post-surgical recovery",
-          "Chemotherapy side effect prevention",
-          "Cold therapy",
-          "Healthcare supplies"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 2,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-13T17:30:13.545Z",
-        "org": "AGAT ART DESIGN",
-        "industry": "Consumer Goods and Services",
-        "city": "Netanya",
-        "subIndustry": "Luxury Goods",
-        "description": "Jewelry and crystal art gallery designing and selling handcrafted designer jewelry, crystal sculptures and artistic furniture pieces created by its founder artist",
-        "domain": "winkler-jewelry.com",
-        "keywords": [
-          "Handcrafted jewelry",
-          "Crystal art",
-          "Gemstone jewelry",
-          "Jewelry design",
-          "Art gallery",
-          "Crystal sculptures",
-          "Artistic furniture",
-          "Fine jewelry",
-          "Custom art pieces"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
       {
         "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
+        "rawKind": "Revenue Milestone",
         "org": "Pluto Security",
-        "summary": "Emerged from stealth, publicly launching its AI Workspace Security Platform that provides endpoint visibility, contextual risk analysis and real-time enforcement across AI tools, agents and employee-built apps. Announced alongside $42M total funding (funding tracked separately)."
+        "summary": "Disclosed multi-million-dollar ARR (over $2M ARR per TechCrunch), more than 1 million endpoints secured globally (1.5M per the CEO's blog post), and over 40 enterprise customers including Oscar Health, Workato, Sixt and AlphaSense, within roughly six months of starting sales in April 2026."
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2885,9 +2883,9 @@
       {
         "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
+        "rawKind": "Product Launch",
         "org": "Pluto Security",
-        "summary": "Disclosed multi-million-dollar ARR (over $2M ARR per TechCrunch), more than 1 million endpoints secured globally (1.5M per the CEO's blog post), and over 40 enterprise customers including Oscar Health, Workato, Sixt and AlphaSense, within roughly six months of starting sales in April 2026."
+        "summary": "Emerged from stealth, publicly launching its AI Workspace Security Platform that provides endpoint visibility, contextual risk analysis and real-time enforcement across AI tools, agents and employee-built apps. Announced alongside $42M total funding (funding tracked separately)."
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2902,13 +2900,6 @@
         "rawKind": "Conference Presentation",
         "org": "Butterfly Medical",
         "summary": "Announced a company update presentation at the 2026 AdvaMed MedTech Conference (Innovation Pavilion Stage, Boston), scheduled for October 20, 2026."
-      },
-      {
-        "ts": "2026-10-12T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Bright Security",
-        "summary": "Announced a technology partnership with Endor Labs combining Endor Labs' reachability-backed static analysis with Bright Security's AI-driven runtime exploit validation, so teams prioritize and remediate only vulnerabilities confirmed exploitable."
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2927,6 +2918,13 @@
       {
         "ts": "2026-10-12T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Bright Security",
+        "summary": "Announced a technology partnership with Endor Labs combining Endor Labs' reachability-backed static analysis with Bright Security's AI-driven runtime exploit validation, so teams prioritize and remediate only vulnerabilities confirmed exploitable."
+      },
+      {
+        "ts": "2026-10-12T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Circles",
         "summary": "Circles announced its expansion into senior living, offering AI-facilitated audio peer groups to extend 24/7 life-enrichment support, building on serving hundreds of thousands of users."
@@ -2941,16 +2939,16 @@
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Rapyd",
-        "summary": "Released new merchant management tools and expanded wallet webhooks: Partner Portal merchant device pairing, merchant member management, direct switch into a merchant's Client Portal, enriched refund/dispute details, ISO-API merchant service charge fee management, and new Wallet Created / Wallet Creation Failed webhooks."
+        "rawKind": "Strategic Partnership",
+        "org": "Lusha",
+        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lusha",
-        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
+        "rawKind": "Product Launch",
+        "org": "Rapyd",
+        "summary": "Released new merchant management tools and expanded wallet webhooks: Partner Portal merchant device pairing, merchant member management, direct switch into a merchant's Client Portal, enriched refund/dispute details, ISO-API merchant service charge fee management, and new Wallet Created / Wallet Creation Failed webhooks."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2969,6 +2967,20 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "NurExone Biologic",
+        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Mesh Security",
         "summary": "Appointed five cybersecurity leaders to its strategic advisory board: Yiannis Vassiliades (CISO in Residence, Zscaler), Jack Nelson (CISO, Ivanti), Guy Avnor (CISO, Sapiens), Jeff Schiemann (former CISO, AMINA Bank), and Dr. Chase Cunningham ('Dr. Zero Trust', formerly of Forrester). The advisors will guide product priorities and enterprise adoption."
@@ -2983,30 +2995,16 @@
       {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
-      },
-      {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "CopilotKit",
         "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
       },
       {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "NurExone Biologic",
-        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
-      },
-      {
         "ts": "2026-10-08T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "HOME MADE DOCS",
-        "summary": "Home Made Docs' project 'Podium (You Have Three Minutes)' (dir. Rachel Leah Jones, produced by Rachel Leah Jones and Philippe Bella\u00efche for Home Made Docs with Temps Noir) was selected for the IDFA Forum 2026 co-production market in Amsterdam (Nov 12-22, 2026), as announced on October 8, 2026."
+        "rawKind": "R&D Milestone",
+        "org": "BioHarvest Sciences",
+        "summary": "Tate & Lyle and BioHarvest announced a key milestone in their next-generation sweetener development programme: the Botanical Synthesis platform demonstrated it can produce the targeted next-generation sweetening solution, building on the expanded collaboration announced in May 2026."
       }
     ]
   }
