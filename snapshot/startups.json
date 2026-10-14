@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:40:30.169Z",
+  "generatedAt": "2026-10-14T21:37:28.886Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -171,24 +171,24 @@
       "valueUsd": 321612697600
     },
     "employees": {
-      "total": 821393,
+      "total": 821284,
       "avgPerStartup": 29
     },
     "patents": {
       "total": 190148,
       "delta30d": 0
     },
-    "openJobs": 22809
+    "openJobs": 22830
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7298
+        "count": 7300
       },
       {
         "name": "Central",
-        "count": 4310
+        "count": 4311
       },
       {
         "name": "Haifa",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4533
+        "count": 4535
       },
       {
         "name": "Herzliya",
@@ -266,7 +266,7 @@
         "district": "Central",
         "lat": 31.973,
         "lng": 34.7925,
-        "count": 391
+        "count": 392
       },
       {
         "name": "Netanya",
@@ -815,7 +815,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2288
+    "unresolvedCount": 2287
   },
   "overTime": {
     "foundedClosed": {
@@ -1206,9 +1206,9 @@
         28056190081
       ],
       "stageMix": {
-        "Seed": 13722,
-        "Series A": 3964,
-        "Other": 3212,
+        "Seed": 13721,
+        "Series A": 3966,
+        "Other": 3211,
         "Series B": 1996,
         "Series Unknown": 1403,
         "Series C": 1267,
@@ -1824,8 +1824,8 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14883,
-        "share": 0.3976966036929161
+        "count": 14884,
+        "share": 0.39772332522780107
       },
       {
         "key": "healthcare-food",
@@ -1842,8 +1842,8 @@
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1667,
-        "share": 0.044544798653234643
+        "count": 1666,
+        "share": 0.04451807711834968
       },
       {
         "key": "financial-services",
@@ -2179,7 +2179,7 @@
       }
     ],
     "signals": {
-      "deeptechCount": 10093,
+      "deeptechCount": 10092,
       "deeptechPct": 26.0,
       "globalCount": 16011,
       "globalPct": 41.2
@@ -2211,11 +2211,33 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Soda Labs",
         "stage": "Seed",
         "amountUsd": 3000000,
         "investors": [],
         "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
+        "investors": [],
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
@@ -2232,26 +2254,15 @@
         "roundTitle": "IPO"
       },
       {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
-        "stage": "Seed",
-        "amountUsd": 5000000,
+        "ts": "2026-10-06T00:00:00.000Z",
+        "org": "Capitolis",
+        "stage": "Series E",
+        "amountUsd": 120000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 9,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Series E"
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
@@ -2263,17 +2274,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
-        "org": "Capitolis",
-        "stage": "Series E",
-        "amountUsd": 120000000,
-        "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series E"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2309,6 +2309,17 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Anaconda Biomed",
+        "stage": "Series C",
+        "amountUsd": 56000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Silk Technologies",
         "stage": "Debt Financing",
         "amountUsd": 45000000,
@@ -2319,12 +2330,12 @@
         "roundTitle": "Growth Capital Facility for Agentic AI"
       },
       {
-        "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Anaconda Biomed",
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "UltraSight",
         "stage": "Series C",
-        "amountUsd": 56000000,
+        "amountUsd": 24000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
@@ -2339,17 +2350,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "org": "UltraSight",
-        "stage": "Series C",
-        "amountUsd": 24000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2375,17 +2375,6 @@
       },
       {
         "ts": "2026-09-16T00:00:00.000Z",
-        "org": "Loora",
-        "stage": "Series B",
-        "amountUsd": 22000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-09-16T00:00:00.000Z",
         "org": "Noetive",
         "stage": "Seed",
         "amountUsd": 41000000,
@@ -2396,15 +2385,26 @@
         "roundTitle": "Seed"
       },
       {
+        "ts": "2026-09-16T00:00:00.000Z",
+        "org": "Loora",
+        "stage": "Series B",
+        "amountUsd": 22000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
+      },
+      {
         "ts": "2026-09-15T00:00:00.000Z",
-        "org": "Keewano",
+        "org": "Eve Security",
         "stage": "Seed",
-        "amountUsd": 0,
+        "amountUsd": 4500000,
         "investors": [],
         "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed - Extended (2026)"
+        "roundTitle": "Seed Extension"
       }
     ],
     "todayStats": {
@@ -2870,27 +2870,6 @@
       {
         "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Butterfly Medical",
-        "summary": "Announced a company update presentation at the 2026 AdvaMed MedTech Conference (Innovation Pavilion Stage, Boston), scheduled for October 20, 2026."
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Pluto Security",
-        "summary": "Emerged from stealth, publicly launching its AI Workspace Security Platform that provides endpoint visibility, contextual risk analysis and real-time enforcement across AI tools, agents and employee-built apps. Announced alongside $42M total funding (funding tracked separately)."
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Formation",
-        "org": "Undecimal Bio",
-        "summary": "Undecimal Bio launched as a spin-out from Eleven Therapeutics, unveiling its DELiveri AI-enabled siRNA delivery platform (focus on delivery beyond the liver, initially renovascular disease). Co-founded by Dr. Yaniv Erlich (CEO) and Shaul Ilan; announcement accompanied an $18M oversubscribed seed round (funding tracked separately), co-led by 4BIO Capital and IQ Capital with Verve Ventures, Harel Tech, Entree Capital, Kerna Ventures and Saras Capital. Operations based at the Cancer Research UK Cambridge Institute (Cambridge, England & Tel Aviv, Israel)."
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Revenue Milestone",
         "org": "Pluto Security",
         "summary": "Disclosed multi-million-dollar ARR (over $2M ARR per TechCrunch), more than 1 million endpoints secured globally (1.5M per the CEO's blog post), and over 40 enterprise customers including Oscar Health, Workato, Sixt and AlphaSense, within roughly six months of starting sales in April 2026."
@@ -2903,11 +2882,32 @@
         "summary": "Acquired by Rocket Software, announced October 13, 2026; deal value estimated at up to $100 million. Geniez AI's technical leadership and engineering team joined Rocket Software to accelerate its AI initiatives, including new capabilities for Rocket EVA, its agentic AI platform for core systems."
       },
       {
-        "ts": "2026-10-12T00:00:00.000Z",
+        "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Valuation Milestone",
+        "rawKind": "Product Launch",
+        "org": "Pluto Security",
+        "summary": "Emerged from stealth, publicly launching its AI Workspace Security Platform that provides endpoint visibility, contextual risk analysis and real-time enforcement across AI tools, agents and employee-built apps. Announced alongside $42M total funding (funding tracked separately)."
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Butterfly Medical",
+        "summary": "Announced a company update presentation at the 2026 AdvaMed MedTech Conference (Innovation Pavilion Stage, Boston), scheduled for October 20, 2026."
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Formation",
+        "org": "Undecimal Bio",
+        "summary": "Undecimal Bio launched as a spin-out from Eleven Therapeutics, unveiling its DELiveri AI-enabled siRNA delivery platform (focus on delivery beyond the liver, initially renovascular disease). Co-founded by Dr. Yaniv Erlich (CEO) and Shaul Ilan; announcement accompanied an $18M oversubscribed seed round (funding tracked separately), co-led by 4BIO Capital and IQ Capital with Verve Ventures, Harel Tech, Entree Capital, Kerna Ventures and Saras Capital. Operations based at the Cancer Research UK Cambridge Institute (Cambridge, England & Tel Aviv, Israel)."
+      },
+      {
+        "ts": "2026-10-12T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
         "org": "Fibrotex",
-        "summary": "Reached $1B+ valuation (unicorn): Private Equity at $1.0B valuation"
+        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2925,13 +2925,6 @@
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Controp Precision Technologies",
-        "summary": "CONTROP USA, headquartered in Germantown, Maryland near Washington, D.C., is expanding its U.S. presence with lab, testing, demonstration and service capabilities amid growing demand for border security and counter-UAS capabilities."
-      },
-      {
-        "ts": "2026-10-12T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "Torii",
@@ -2939,17 +2932,17 @@
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Fibrotex",
-        "summary": "Acquired by CVC: investment firm CVC, through its Catalyst III fund, agreed to acquire a 40% stake in Fibrotex Technologies Ltd. from the Blum family for approximately $350 million, with the family retaining a controlling 60% interest. The investment, led via CVC's German team, is intended to support Fibrotex's continued innovation and international expansion."
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Controp Precision Technologies",
+        "summary": "CONTROP USA, headquartered in Germantown, Maryland near Washington, D.C., is expanding its U.S. presence with lab, testing, demonstration and service capabilities amid growing demand for border security and counter-UAS capabilities."
       },
       {
-        "ts": "2026-10-11T00:00:00.000Z",
+        "ts": "2026-10-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Lusha",
-        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
+        "rawKind": "Valuation Milestone",
+        "org": "Fibrotex",
+        "summary": "Reached $1B+ valuation (unicorn): Private Equity at $1.0B valuation"
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2963,21 +2956,21 @@
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zik Labs",
-        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
+        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zik Labs",
-        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
+        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
       {
-        "ts": "2026-10-09T00:00:00.000Z",
+        "ts": "2026-10-11T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "NurExone Biologic",
-        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
+        "rawKind": "Strategic Partnership",
+        "org": "Lusha",
+        "summary": "Lusha became an Enrich Data Partner on Gong's Gong Collective: Gong Enrich (released September 2026) pulls missing emails and phone numbers from Lusha into contacts in Gong, with Lusha placed in the admin-configured email/phone waterfalls."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -2985,13 +2978,6 @@
         "rawKind": "Strategic Partnership",
         "org": "Blockaid",
         "summary": "Blockaid partnered with LayerZero to bring security verification to cross-chain bridging transactions."
-      },
-      {
-        "ts": "2026-10-09T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Ceragon",
-        "summary": "Announced preparations to begin manufacturing in India in the coming months, with India representing roughly 40% of total revenue."
       },
       {
         "ts": "2026-10-09T00:00:00.000Z",
@@ -3006,6 +2992,20 @@
         "rawKind": "Product Launch",
         "org": "CopilotKit",
         "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "NurExone Biologic",
+        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
+      },
+      {
+        "ts": "2026-10-09T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Ceragon",
+        "summary": "Announced preparations to begin manufacturing in India in the coming months, with India representing roughly 40% of total revenue."
       }
     ]
   }
