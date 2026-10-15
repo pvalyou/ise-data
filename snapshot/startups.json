@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:36:39.492Z",
+  "generatedAt": "2026-10-15T09:48:33.738Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,10 +160,10 @@
   "kpis": {
     "startups": {
       "value": 38847,
-      "delta24h": 16
+      "delta24h": 13
     },
     "totalFunding": {
-      "valueUsd": 224271848886,
+      "valueUsd": 224271867886,
       "rounds": 29477
     },
     "exits": {
@@ -171,7 +171,7 @@
       "valueUsd": 321683331600
     },
     "employees": {
-      "total": 822105,
+      "total": 822362,
       "avgPerStartup": 29
     },
     "patents": {
@@ -200,7 +200,7 @@
       },
       {
         "name": "Southern",
-        "count": 575
+        "count": 576
       },
       {
         "name": "Northern",
@@ -595,7 +595,7 @@
         "district": "Southern",
         "lat": 31.2661,
         "lng": 34.8489,
-        "count": 35
+        "count": 36
       },
       {
         "name": "Nof HaGalil",
@@ -815,7 +815,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2286
+    "unresolvedCount": 2285
   },
   "overTime": {
     "foundedClosed": {
@@ -1150,10 +1150,10 @@
         1549,
         1566,
         1646,
-        2104,
+        2105,
         1995,
-        1534,
-        1456,
+        1533,
+        1457,
         1374,
         643
       ],
@@ -1200,20 +1200,20 @@
         14778429271,
         39562748010,
         24007239702,
-        11634520676,
-        15525949139,
+        11630039676,
+        15530449139,
         21152567354,
         27917720081
       ],
       "stageMix": {
         "Seed": 13704,
         "Series A": 3972,
-        "Other": 3178,
+        "Other": 3177,
         "Series B": 1998,
-        "Series Unknown": 1404,
+        "Series Unknown": 1405,
         "Series C": 1267,
         "Angel": 845,
-        "Unknown": 805
+        "Unknown": 804
       }
     },
     "exits": {
@@ -2287,16 +2287,6 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
         "org": "HyperGuest",
         "stage": "Series B",
         "amountUsd": 25000000,
@@ -2305,6 +2295,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2319,17 +2319,6 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Anaconda Biomed",
-        "stage": "Series C",
-        "amountUsd": 56000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series C"
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Silk Technologies",
         "stage": "Debt Financing",
         "amountUsd": 45000000,
@@ -2340,15 +2329,15 @@
         "roundTitle": "Growth Capital Facility for Agentic AI"
       },
       {
-        "ts": "2026-09-22T00:00:00.000Z",
-        "org": "Cyera",
-        "stage": "Series G",
-        "amountUsd": 400000000,
+        "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Anaconda Biomed",
+        "stage": "Series C",
+        "amountUsd": 56000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 5,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
+        "roundTitle": "Series C"
       },
       {
         "ts": "2026-09-22T00:00:00.000Z",
@@ -2371,6 +2360,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-22T00:00:00.000Z",
+        "org": "Cyera",
+        "stage": "Series G",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series G Extension (Goldman Sachs Alternatives)"
       },
       {
         "ts": "2026-09-17T00:00:00.000Z",
@@ -2856,6 +2856,13 @@
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Friendly Technologies",
+        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zenzap",
         "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
@@ -2868,32 +2875,11 @@
         "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
       },
       {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Friendly Technologies",
-        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "HappierMe",
-        "summary": "Launched a major new version of the HappierMe app introducing Olly, an AI-assisted personal guide with guardrails pointing users to HappierMe's own curated content, plus a Guided Journeys daily micro-learning feature, on iOS and Android."
-      },
-      {
         "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Pluto Security",
         "summary": "Emerged from stealth, publicly launching its AI Workspace Security Platform that provides endpoint visibility, contextual risk analysis and real-time enforcement across AI tools, agents and employee-built apps. Announced alongside $42M total funding (funding tracked separately)."
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Pluto Security",
-        "summary": "Disclosed multi-million-dollar ARR (over $2M ARR per TechCrunch), more than 1 million endpoints secured globally (1.5M per the CEO's blog post), and over 40 enterprise customers including Oscar Health, Workato, Sixt and AlphaSense, within roughly six months of starting sales in April 2026."
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2905,9 +2891,9 @@
       {
         "ts": "2026-10-13T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Butterfly Medical",
-        "summary": "Announced a company update presentation at the 2026 AdvaMed MedTech Conference (Innovation Pavilion Stage, Boston), scheduled for October 20, 2026."
+        "rawKind": "Revenue Milestone",
+        "org": "Pluto Security",
+        "summary": "Disclosed multi-million-dollar ARR (over $2M ARR per TechCrunch), more than 1 million endpoints secured globally (1.5M per the CEO's blog post), and over 40 enterprise customers including Oscar Health, Workato, Sixt and AlphaSense, within roughly six months of starting sales in April 2026."
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2915,6 +2901,27 @@
         "rawKind": "Company Formation",
         "org": "Undecimal Bio",
         "summary": "Undecimal Bio launched as a spin-out from Eleven Therapeutics, unveiling its DELiveri AI-enabled siRNA delivery platform (focus on delivery beyond the liver, initially renovascular disease). Co-founded by Dr. Yaniv Erlich (CEO) and Shaul Ilan; announcement accompanied an $18M oversubscribed seed round (funding tracked separately), co-led by 4BIO Capital and IQ Capital with Verve Ventures, Harel Tech, Entree Capital, Kerna Ventures and Saras Capital. Operations based at the Cancer Research UK Cambridge Institute (Cambridge, England & Tel Aviv, Israel)."
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "HappierMe",
+        "summary": "Launched a major new version of the HappierMe app introducing Olly, an AI-assisted personal guide with guardrails pointing users to HappierMe's own curated content, plus a Guided Journeys daily micro-learning feature, on iOS and Android."
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Butterfly Medical",
+        "summary": "Announced a company update presentation at the 2026 AdvaMed MedTech Conference (Innovation Pavilion Stage, Boston), scheduled for October 20, 2026."
+      },
+      {
+        "ts": "2026-10-12T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Valuation Milestone",
+        "org": "Fibrotex",
+        "summary": "Reached $1B+ valuation (unicorn): Private Equity at $1.0B valuation"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2947,16 +2954,23 @@
       {
         "ts": "2026-10-12T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Valuation Milestone",
-        "org": "Fibrotex",
-        "summary": "Reached $1B+ valuation (unicorn): Private Equity at $1.0B valuation"
-      },
-      {
-        "ts": "2026-10-12T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Controp Precision Technologies",
         "summary": "CONTROP USA, headquartered in Germantown, Maryland near Washington, D.C., is expanding its U.S. presence with lab, testing, demonstration and service capabilities amid growing demand for border security and counter-UAS capabilities."
+      },
+      {
+        "ts": "2026-10-11T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zik Labs",
+        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
+      },
+      {
+        "ts": "2026-10-11T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zik Labs",
+        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
       },
       {
         "ts": "2026-10-11T00:00:00.000Z",
@@ -2973,25 +2987,11 @@
         "summary": "Released new merchant management tools and expanded wallet webhooks: Partner Portal merchant device pairing, merchant member management, direct switch into a merchant's Client Portal, enriched refund/dispute details, ISO-API merchant service charge fee management, and new Wallet Created / Wallet Creation Failed webhooks."
       },
       {
-        "ts": "2026-10-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zik Labs",
-        "summary": "Zik Labs launched DataDojo, described as a personal data analyst product for organizations, announced on the company's blog (11.10.2026)."
-      },
-      {
-        "ts": "2026-10-11T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zik Labs",
-        "summary": "Zik Labs launched ZikConnect for smart optimization of distribution networks, per a blog post on the company's own website dated 11.10.2026; a same-day Danlog case study on zik.ai describes ZikConnect improving distribution efficiency."
-      },
-      {
         "ts": "2026-10-09T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "NurExone Biologic",
-        "summary": "Advancing optic nerve injury program toward a larger-animal study following positive preclinical results."
+        "rawKind": "Product Launch",
+        "org": "CopilotKit",
+        "summary": "Launched Open Intelligent UI, an open-source alternative to ChatGPT's Intelligent UI, bringing generative UI (charts, maps, working tools, on-demand interfaces) into any app via AG-UI with any model and the developer's own design system."
       }
     ]
   }
