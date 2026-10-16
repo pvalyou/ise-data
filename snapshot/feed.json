@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-15T23:32:47.101398Z",
+  "generatedAt": "2026-10-16T00:40:25.578642Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -90,7 +90,6 @@
   },
   "activity": {
     "days": [
-      "2026-09-16",
       "2026-09-17",
       "2026-09-18",
       "2026-09-19",
@@ -119,10 +118,10 @@
       "2026-10-12",
       "2026-10-13",
       "2026-10-14",
-      "2026-10-15"
+      "2026-10-15",
+      "2026-10-16"
     ],
     "fundingRounds": [
-      2,
       1,
       0,
       0,
@@ -151,10 +150,10 @@
       1,
       1,
       0,
+      0,
       0
     ],
     "newOrgs": [
-      74,
       53,
       60,
       94,
@@ -183,7 +182,8 @@
       107,
       76,
       20,
-      14
+      14,
+      0
     ],
     "exits": [
       0,
@@ -191,7 +191,6 @@
       0,
       0,
       0,
-      0,
       1,
       0,
       2,
@@ -214,11 +213,11 @@
       0,
       2,
       1,
+      0,
       0,
       0
     ],
     "firstChecks": [
-      8,
       0,
       0,
       0,
@@ -226,6 +225,7 @@
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
@@ -250,7 +250,6 @@
       0
     ],
     "patentsIssued": [
-      1,
       0,
       0,
       0,
@@ -272,6 +271,7 @@
       0,
       3,
       1,
+      0,
       0,
       0,
       0,
@@ -282,15 +282,14 @@
       0
     ],
     "jobsPosted": [
-      208,
       222,
       38,
       10,
       36,
       279,
       197,
-      249,
-      304,
+      250,
+      303,
       56,
       27,
       146,
@@ -311,10 +310,10 @@
       296,
       315,
       358,
-      323
+      324,
+      3
     ],
     "newFounders": [
-      30,
       33,
       31,
       52,
@@ -343,10 +342,10 @@
       68,
       40,
       33,
-      29
+      30,
+      0
     ],
     "investments": [
-      23,
       3,
       0,
       0,
@@ -375,13 +374,10 @@
       1,
       7,
       0,
+      0,
       0
     ],
     "fundingStages": [
-      {
-        "Seed": 1,
-        "Series B": 1
-      },
       {
         "Series B": 1
       },
@@ -438,10 +434,10 @@
         "Seed": 1
       },
       {},
+      {},
       {}
     ],
     "fundingUsd": [
-      63000000,
       72000000,
       0,
       0,
@@ -470,6 +466,7 @@
       350000000,
       18000000,
       0,
+      0,
       0
     ]
   },
@@ -477,12 +474,12 @@
     "fundingRounds": {
       "d1": 0,
       "d7": 2,
-      "d30": 21
+      "d30": 19
     },
     "newOrgs": {
-      "d1": 15,
-      "d7": 569,
-      "d30": 2624
+      "d1": 14,
+      "d7": 440,
+      "d30": 2550
     },
     "exits": {
       "d1": 0,
@@ -492,32 +489,32 @@
     "firstChecks": {
       "d1": 0,
       "d7": 0,
-      "d30": 9
+      "d30": 1
     },
     "patentsIssued": {
       "d1": 0,
       "d7": 0,
-      "d30": 19
+      "d30": 18
     },
     "jobsPosted": {
-      "d1": 323,
-      "d7": 1735,
-      "d30": 5779
+      "d1": 3,
+      "d7": 1636,
+      "d30": 5575
     },
     "newFounders": {
-      "d1": 30,
-      "d7": 344,
-      "d30": 1651
+      "d1": 28,
+      "d7": 274,
+      "d30": 1622
     },
     "investments": {
       "d1": 0,
       "d7": 8,
-      "d30": 93
+      "d30": 70
     },
     "fundingUsd": {
       "d1": 0,
       "d7": 368000000,
-      "d30": 1591000000
+      "d30": 1528000000
     }
   },
   "news": {
@@ -2213,21 +2210,42 @@
     {
       "ts": "2026-09-29",
       "kind": "granted",
-      "org": "Nova",
-      "title": "Patterned x-ray emitting target",
-      "number": "12749642",
-      "url": "https://patents.google.com/patent/US12749642B2/en"
-    },
-    {
-      "ts": "2026-09-29",
-      "kind": "granted",
       "org": "IVY NEXT",
       "title": "Air speculum",
       "number": "12745903",
       "url": "https://patents.google.com/patent/US12745903B2/en"
+    },
+    {
+      "ts": "2026-09-29",
+      "kind": "granted",
+      "org": "Nova",
+      "title": "Patterned x-ray emitting target",
+      "number": "12749642",
+      "url": "https://patents.google.com/patent/US12749642B2/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-10-16",
+      "title": "IC Post-Silicon Test Engineer",
+      "company": "Nvidia",
+      "city": "Yokneam",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/IC-Post-Silicon-Test-Engineer_JR2027533"
+    },
+    {
+      "ts": "2026-10-16",
+      "title": "Senior ICPE Production Security Software Engineer",
+      "company": "Nvidia",
+      "city": "Yokneam",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-ICPE-Production-Security-Software-Engineer_JR2027817"
+    },
+    {
+      "ts": "2026-10-16",
+      "title": "Senior Production Test Validation",
+      "company": "Nvidia",
+      "city": "Yokneam",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Production-Test-Validation_JR2027534"
+    },
     {
       "ts": "2026-10-15",
       "title": "Head of R&D",
@@ -2276,27 +2294,6 @@
       "company": "Leumit Health Services",
       "city": "Jerusalem",
       "url": "https://leumit.co.il/jobs/work-in-leumit/pharmacist-positions/5906/"
-    },
-    {
-      "ts": "2026-10-15",
-      "title": "\u05e8\u05d5\u05e7\u05d7.\u05ea - \u05d0\u05d6\u05d5\u05e8 \u05d4\u05d4\u05ea\u05d9\u05d9\u05e9\u05d1\u05d5\u05ea - \u05de\u05d7\u05d5\u05d6 \u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd",
-      "company": "Leumit Health Services",
-      "city": "Jerusalem",
-      "url": "https://leumit.co.il/jobs/work-in-leumit/pharmacist-positions/5786/"
-    },
-    {
-      "ts": "2026-10-15",
-      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05ea\u05d7\u05d5\u05dd \u05d8\u05d9\u05e4\u05d5\u05dc \u05de\u05e8\u05e4\u05d0\u05d5\u05ea \u05e8\u05d1 \u05de\u05e7\u05e6\u05d5\u05e2\u05d9\u05d5\u05ea \u05d5\u05e7\u05d1\u05d5\u05e6\u05d5\u05ea \u05d7\u05d5\u05dc\u05d9\u05dd \u05de\u05d9\u05d5\u05d7\u05d3\u05d9\u05dd - \u05de\u05d7\u05d5\u05d6 \u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd",
-      "company": "Leumit Health Services",
-      "city": "Jerusalem",
-      "url": "https://leumit.co.il/jobs/work-in-leumit/nursing-positions/5451/"
-    },
-    {
-      "ts": "2026-10-15",
-      "title": "\u05e8\u05d5\u05e7\u05d7.\u05ea - \u05d0\u05d6\u05d5\u05e8 \u05de\u05d5\u05e8\u05d9\u05d4 - \u05de\u05d7\u05d5\u05d6 \u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd",
-      "company": "Leumit Health Services",
-      "city": "Jerusalem",
-      "url": "https://leumit.co.il/jobs/work-in-leumit/pharmacist-positions/5905/"
     }
   ],
   "mix": {
@@ -2315,7 +2312,7 @@
       "d30": [
         {
           "label": "Seed",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Series A",
@@ -2323,7 +2320,7 @@
         },
         {
           "label": "Series B",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Series C",
@@ -2378,11 +2375,11 @@
           "count": 4
         },
         {
-          "label": "Financial Services",
-          "count": 2
+          "label": "Energy and Utilities",
+          "count": 1
         },
         {
-          "label": "Energy and Utilities",
+          "label": "Financial Services",
           "count": 1
         },
         {
@@ -2401,53 +2398,53 @@
       "d7": [
         {
           "label": "Consumer Goods and Services",
-          "count": 269
+          "count": 213
         },
         {
           "label": "IT and Telecom",
-          "count": 140
+          "count": 104
         },
         {
           "label": "Media and Entertainment",
-          "count": 59
+          "count": 45
         },
         {
           "label": "Healthcare and Food",
-          "count": 47
+          "count": 37
         },
         {
           "label": "Financial Services",
-          "count": 28
+          "count": 20
         },
         {
           "label": "Energy and Utilities",
-          "count": 19
+          "count": 16
         },
         {
           "label": "Unknown",
-          "count": 7
+          "count": 5
         }
       ],
       "d30": [
         {
           "label": "Consumer Goods and Services",
-          "count": 1084
+          "count": 1061
         },
         {
           "label": "IT and Telecom",
-          "count": 703
+          "count": 682
         },
         {
           "label": "Media and Entertainment",
-          "count": 269
+          "count": 261
         },
         {
           "label": "Healthcare and Food",
-          "count": 227
+          "count": 212
         },
         {
           "label": "Financial Services",
-          "count": 156
+          "count": 151
         },
         {
           "label": "Unknown",
@@ -2455,7 +2452,7 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 88
+          "count": 86
         }
       ]
     }
@@ -2483,7 +2480,7 @@
         "domain": null
       },
       {
-        "name": "Ahmad Al-Dahle",
+        "name": "Alive HealthTech Growth Fund",
         "kind": "fund",
         "count": 1,
         "domain": null
@@ -2493,40 +2490,22 @@
   "topHiring": {
     "d1": [
       {
-        "company": "Aman Group",
-        "count": 12,
-        "city": "Sha'arei Tikva",
-        "domain": "aman.co.il"
-      },
-      {
-        "company": "Applied Materials",
-        "count": 11,
-        "city": "Rehovot",
-        "domain": null
-      },
-      {
-        "company": "Elad Software Systems",
-        "count": 9,
-        "city": "Tel Aviv",
-        "domain": "eladsoft.com"
-      },
-      {
-        "company": "Alice",
-        "count": 8,
-        "city": "Ramat Gan",
-        "domain": "alice.io"
+        "company": "Nvidia",
+        "count": 3,
+        "city": "Yokneam",
+        "domain": "nvidia.com"
       }
     ],
     "d7": [
       {
         "company": "Elad Software Systems",
-        "count": 51,
+        "count": 48,
         "city": "Tel Aviv",
         "domain": "eladsoft.com"
       },
       {
         "company": "Nvidia",
-        "count": 43,
+        "count": 44,
         "city": "Yokneam",
         "domain": "nvidia.com"
       },
@@ -2545,28 +2524,28 @@
     ],
     "d30": [
       {
-        "company": "Israel Aerospace Industries",
-        "count": 196,
-        "city": "Lod",
-        "domain": "iai.co.il"
-      },
-      {
         "company": "Elad Software Systems",
         "count": 191,
         "city": "Tel Aviv",
         "domain": "eladsoft.com"
       },
       {
-        "company": "Team 3 Group",
-        "count": 146,
-        "city": "Rehovot",
-        "domain": "team3.co.il"
+        "company": "Israel Aerospace Industries",
+        "count": 188,
+        "city": "Lod",
+        "domain": "iai.co.il"
       },
       {
         "company": "Aman Group",
-        "count": 140,
+        "count": 138,
         "city": "Sha'arei Tikva",
         "domain": "aman.co.il"
+      },
+      {
+        "company": "Team 3 Group",
+        "count": 137,
+        "city": "Rehovot",
+        "domain": "team3.co.il"
       }
     ]
   },
