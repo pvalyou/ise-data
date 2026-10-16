@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "technology-ip",
-  "generatedAt": "2026-10-16T03:17:25.056Z",
+  "generatedAt": "2026-10-16T03:50:04.204Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -81,10 +81,10 @@
   "kpis": {
     "totalTechnologies": 43185,
     "companiesWithTechnologies": 37169,
-    "patentingStartups": 5000,
-    "patentFamilies": 38882,
-    "patentFilings": 190351,
-    "grantedFamilies": 21581
+    "patentingStartups": 5001,
+    "patentFamilies": 38969,
+    "patentFilings": 191087,
+    "grantedFamilies": 21627
   },
   "patentTrends": {
     "years": [
@@ -160,9 +160,9 @@
         "key": "onlyPhysical",
         "label": "Only Physical",
         "companies": 6503,
-        "patentingCompanies": 1423,
-        "patentFamilies": 10153,
-        "grantedFamilies": 5345
+        "patentingCompanies": 1424,
+        "patentFamilies": 10240,
+        "grantedFamilies": 5391
       }
     ]
   },
@@ -201,6 +201,22 @@
         "topSubIndustrySharePct": 87.6
       },
       {
+        "technologyFamily": "Biotech & Pharma",
+        "companies": 1923,
+        "patentingCompanies": 597,
+        "patentFamilies": 4341,
+        "grantedFamilies": 2044,
+        "patentingRatePct": 31.0,
+        "patentFamiliesPerCompany": 2.26,
+        "patentFamiliesPerPatentingCompany": 7.27,
+        "topIndustry": "Healthcare and Food",
+        "topIndustryCompanies": 1575,
+        "topIndustrySharePct": 81.9,
+        "topSubIndustry": "Biotechnology",
+        "topSubIndustryCompanies": 895,
+        "topSubIndustrySharePct": 46.5
+      },
+      {
         "technologyFamily": "Communications",
         "companies": 951,
         "patentingCompanies": 199,
@@ -231,22 +247,6 @@
         "topSubIndustry": "AI & Machine Learning",
         "topSubIndustryCompanies": 151,
         "topSubIndustrySharePct": 18.3
-      },
-      {
-        "technologyFamily": "Biotech & Pharma",
-        "companies": 1923,
-        "patentingCompanies": 596,
-        "patentFamilies": 4254,
-        "grantedFamilies": 1998,
-        "patentingRatePct": 31.0,
-        "patentFamiliesPerCompany": 2.21,
-        "patentFamiliesPerPatentingCompany": 7.14,
-        "topIndustry": "Healthcare and Food",
-        "topIndustryCompanies": 1575,
-        "topIndustrySharePct": 81.9,
-        "topSubIndustry": "Biotechnology",
-        "topSubIndustryCompanies": 895,
-        "topSubIndustrySharePct": 46.5
       },
       {
         "technologyFamily": "Energy & Climate",
@@ -433,19 +433,19 @@
         "countryName": "United States",
         "lat": 39.8,
         "lng": -98.6,
-        "patentFamilies": 28143,
-        "grantedFamilies": 17087,
-        "patentingCompanies": 4332,
-        "sharePct": 26.5
+        "patentFamilies": 28196,
+        "grantedFamilies": 17120,
+        "patentingCompanies": 4333,
+        "sharePct": 26.4
       },
       {
         "countryCode": "WO",
         "countryName": "WIPO / International",
         "lat": null,
         "lng": null,
-        "patentFamilies": 18882,
+        "patentFamilies": 18942,
         "grantedFamilies": 89,
-        "patentingCompanies": 4095,
+        "patentingCompanies": 4096,
         "sharePct": 17.8
       },
       {
@@ -453,19 +453,19 @@
         "countryName": "European Patent Office",
         "lat": null,
         "lng": null,
-        "patentFamilies": 13441,
-        "grantedFamilies": 5353,
-        "patentingCompanies": 3058,
-        "sharePct": 12.7
+        "patentFamilies": 13479,
+        "grantedFamilies": 5372,
+        "patentingCompanies": 3059,
+        "sharePct": 12.6
       },
       {
         "countryCode": "CN",
         "countryName": "China",
         "lat": 35.9,
         "lng": 104.2,
-        "patentFamilies": 7730,
-        "grantedFamilies": 3343,
-        "patentingCompanies": 1792,
+        "patentFamilies": 7751,
+        "grantedFamilies": 3359,
+        "patentingCompanies": 1793,
         "sharePct": 7.3
       },
       {
@@ -473,9 +473,9 @@
         "countryName": "Japan",
         "lat": 36.2,
         "lng": 138.3,
-        "patentFamilies": 6976,
-        "grantedFamilies": 1788,
-        "patentingCompanies": 1747,
+        "patentFamilies": 7010,
+        "grantedFamilies": 1805,
+        "patentingCompanies": 1748,
         "sharePct": 6.6
       },
       {
@@ -483,9 +483,9 @@
         "countryName": "Israel",
         "lat": 31.0,
         "lng": 35.0,
-        "patentFamilies": 6041,
+        "patentFamilies": 6043,
         "grantedFamilies": 2225,
-        "patentingCompanies": 1868,
+        "patentingCompanies": 1869,
         "sharePct": 5.7
       },
       {
@@ -493,9 +493,9 @@
         "countryName": "Australia",
         "lat": -25.3,
         "lng": 133.8,
-        "patentFamilies": 5275,
-        "grantedFamilies": 1747,
-        "patentingCompanies": 1562,
+        "patentFamilies": 5316,
+        "grantedFamilies": 1771,
+        "patentingCompanies": 1563,
         "sharePct": 5.0
       },
       {
@@ -503,9 +503,9 @@
         "countryName": "Canada",
         "lat": 56.1,
         "lng": -106.3,
-        "patentFamilies": 4793,
-        "grantedFamilies": 753,
-        "patentingCompanies": 1455,
+        "patentFamilies": 4829,
+        "grantedFamilies": 766,
+        "patentingCompanies": 1456,
         "sharePct": 4.5
       },
       {
@@ -513,9 +513,9 @@
         "countryName": "South Korea",
         "lat": 35.9,
         "lng": 127.8,
-        "patentFamilies": 3381,
-        "grantedFamilies": 689,
-        "patentingCompanies": 1037,
+        "patentFamilies": 3407,
+        "grantedFamilies": 703,
+        "patentingCompanies": 1038,
         "sharePct": 3.2
       },
       {
@@ -523,9 +523,9 @@
         "countryName": "Brazil",
         "lat": -14.2,
         "lng": -51.9,
-        "patentFamilies": 1597,
-        "grantedFamilies": 292,
-        "patentingCompanies": 651,
+        "patentFamilies": 1609,
+        "grantedFamilies": 294,
+        "patentingCompanies": 652,
         "sharePct": 1.5
       },
       {
@@ -533,9 +533,9 @@
         "countryName": "Mexico",
         "lat": 23.6,
         "lng": -102.6,
-        "patentFamilies": 1060,
+        "patentFamilies": 1074,
         "grantedFamilies": 195,
-        "patentingCompanies": 455,
+        "patentingCompanies": 456,
         "sharePct": 1.0
       },
       {
@@ -543,9 +543,9 @@
         "countryName": "Taiwan",
         "lat": 23.7,
         "lng": 121.0,
-        "patentFamilies": 916,
-        "grantedFamilies": 278,
-        "patentingCompanies": 213,
+        "patentFamilies": 932,
+        "grantedFamilies": 285,
+        "patentingCompanies": 214,
         "sharePct": 0.9
       },
       {
@@ -553,9 +553,9 @@
         "countryName": "Spain",
         "lat": 40.5,
         "lng": -3.7,
-        "patentFamilies": 820,
+        "patentFamilies": 835,
         "grantedFamilies": 24,
-        "patentingCompanies": 379,
+        "patentingCompanies": 380,
         "sharePct": 0.8
       },
       {
@@ -563,9 +563,9 @@
         "countryName": "United Kingdom",
         "lat": 55.4,
         "lng": -3.4,
-        "patentFamilies": 790,
+        "patentFamilies": 792,
         "grantedFamilies": 330,
-        "patentingCompanies": 304,
+        "patentingCompanies": 305,
         "sharePct": 0.7
       },
       {
@@ -573,9 +573,9 @@
         "countryName": "Germany",
         "lat": 51.2,
         "lng": 10.5,
-        "patentFamilies": 681,
+        "patentFamilies": 687,
         "grantedFamilies": 187,
-        "patentingCompanies": 200,
+        "patentingCompanies": 201,
         "sharePct": 0.6
       },
       {
@@ -593,9 +593,9 @@
         "countryName": "South Africa",
         "lat": -30.6,
         "lng": 22.9,
-        "patentFamilies": 555,
-        "grantedFamilies": 553,
-        "patentingCompanies": 277,
+        "patentFamilies": 562,
+        "grantedFamilies": 560,
+        "patentingCompanies": 278,
         "sharePct": 0.5
       },
       {
@@ -603,9 +603,9 @@
         "countryName": "Hong Kong",
         "lat": 22.3,
         "lng": 114.2,
-        "patentFamilies": 527,
+        "patentFamilies": 531,
         "grantedFamilies": 14,
-        "patentingCompanies": 257,
+        "patentingCompanies": 258,
         "sharePct": 0.5
       },
       {
@@ -613,9 +613,9 @@
         "countryName": "Singapore",
         "lat": 1.4,
         "lng": 103.8,
-        "patentFamilies": 440,
+        "patentFamilies": 442,
         "grantedFamilies": 0,
-        "patentingCompanies": 225,
+        "patentingCompanies": 226,
         "sharePct": 0.4
       },
       {
@@ -623,9 +623,9 @@
         "countryName": "Austria",
         "lat": 47.5,
         "lng": 14.6,
-        "patentFamilies": 394,
+        "patentFamilies": 401,
         "grantedFamilies": 3,
-        "patentingCompanies": 188,
+        "patentingCompanies": 189,
         "sharePct": 0.4
       },
       {
@@ -633,9 +633,9 @@
         "countryName": "Argentina",
         "lat": -34.6,
         "lng": -58.4,
-        "patentFamilies": 355,
+        "patentFamilies": 364,
         "grantedFamilies": 0,
-        "patentingCompanies": 73,
+        "patentingCompanies": 74,
         "sharePct": 0.3
       },
       {
@@ -643,9 +643,9 @@
         "countryName": "Denmark",
         "lat": 56.3,
         "lng": 9.5,
-        "patentFamilies": 258,
+        "patentFamilies": 264,
         "grantedFamilies": 4,
-        "patentingCompanies": 143,
+        "patentingCompanies": 144,
         "sharePct": 0.2
       },
       {
@@ -653,9 +653,9 @@
         "countryName": "New Zealand",
         "lat": -40.9,
         "lng": 174.9,
-        "patentFamilies": 239,
+        "patentFamilies": 243,
         "grantedFamilies": 0,
-        "patentingCompanies": 135,
+        "patentingCompanies": 136,
         "sharePct": 0.2
       },
       {
@@ -663,9 +663,9 @@
         "countryName": "Poland",
         "lat": 51.9,
         "lng": 19.1,
-        "patentFamilies": 236,
+        "patentFamilies": 238,
         "grantedFamilies": 20,
-        "patentingCompanies": 139,
+        "patentingCompanies": 140,
         "sharePct": 0.2
       },
       {
@@ -673,9 +673,9 @@
         "countryName": "Eurasian Patent Organization",
         "lat": null,
         "lng": null,
-        "patentFamilies": 208,
+        "patentFamilies": 209,
         "grantedFamilies": 94,
-        "patentingCompanies": 111,
+        "patentingCompanies": 112,
         "sharePct": 0.2
       },
       {
@@ -683,9 +683,9 @@
         "countryName": "Chile",
         "lat": -35.7,
         "lng": -71.5,
-        "patentFamilies": 160,
+        "patentFamilies": 161,
         "grantedFamilies": 5,
-        "patentingCompanies": 79,
+        "patentingCompanies": 80,
         "sharePct": 0.2
       },
       {
@@ -709,6 +709,16 @@
         "sharePct": 0.1
       },
       {
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "lat": 39.4,
+        "lng": -8.2,
+        "patentFamilies": 132,
+        "grantedFamilies": 50,
+        "patentingCompanies": 81,
+        "sharePct": 0.1
+      },
+      {
         "countryCode": "HU",
         "countryName": "Hungary",
         "lat": 47.2,
@@ -719,23 +729,13 @@
         "sharePct": 0.1
       },
       {
-        "countryCode": "PT",
-        "countryName": "Portugal",
-        "lat": 39.4,
-        "lng": -8.2,
-        "patentFamilies": 128,
-        "grantedFamilies": 46,
-        "patentingCompanies": 80,
-        "sharePct": 0.1
-      },
-      {
         "countryCode": "PH",
         "countryName": "PH",
         "lat": null,
         "lng": null,
-        "patentFamilies": 81,
+        "patentFamilies": 82,
         "grantedFamilies": 27,
-        "patentingCompanies": 53,
+        "patentingCompanies": 54,
         "sharePct": 0.1
       },
       {
@@ -743,9 +743,9 @@
         "countryName": "UA",
         "lat": null,
         "lng": null,
-        "patentFamilies": 73,
-        "grantedFamilies": 35,
-        "patentingCompanies": 47,
+        "patentFamilies": 75,
+        "grantedFamilies": 37,
+        "patentingCompanies": 48,
         "sharePct": 0.1
       },
       {
@@ -753,9 +753,9 @@
         "countryName": "Colombia",
         "lat": 4.6,
         "lng": -74.1,
-        "patentFamilies": 69,
+        "patentFamilies": 71,
         "grantedFamilies": 0,
-        "patentingCompanies": 43,
+        "patentingCompanies": 44,
         "sharePct": 0.1
       },
       {
@@ -833,9 +833,9 @@
         "countryName": "SI",
         "lat": null,
         "lng": null,
-        "patentFamilies": 48,
+        "patentFamilies": 49,
         "grantedFamilies": 1,
-        "patentingCompanies": 32,
+        "patentingCompanies": 33,
         "sharePct": 0.0
       },
       {
@@ -843,9 +843,9 @@
         "countryName": "MY",
         "lat": null,
         "lng": null,
-        "patentFamilies": 46,
+        "patentFamilies": 48,
         "grantedFamilies": 0,
-        "patentingCompanies": 29,
+        "patentingCompanies": 30,
         "sharePct": 0.0
       },
       {
@@ -883,9 +883,9 @@
         "countryName": "CY",
         "lat": null,
         "lng": null,
-        "patentFamilies": 32,
+        "patentFamilies": 33,
         "grantedFamilies": 0,
-        "patentingCompanies": 25,
+        "patentingCompanies": 26,
         "sharePct": 0.0
       },
       {
