@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:35:37.589Z",
+  "generatedAt": "2026-10-17T13:31:18.200Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -163,22 +163,22 @@
       "delta24h": 13
     },
     "totalFunding": {
-      "valueUsd": 228254276471,
-      "rounds": 29522
+      "valueUsd": 228260576471,
+      "rounds": 29523
     },
     "exits": {
       "count": 3381,
       "valueUsd": 327023431600
     },
     "employees": {
-      "total": 844096,
+      "total": 844120,
       "avgPerStartup": 29
     },
     "patents": {
       "total": 191069,
       "delta30d": 0
     },
-    "openJobs": 22588
+    "openJobs": 22592
   },
   "map": {
     "districts": [
@@ -1159,10 +1159,10 @@
         1643,
         2105,
         2001,
-        1536,
+        1537,
         1465,
-        1375,
-        662
+        1376,
+        661
       ],
       "raisedUsd": [
         0,
@@ -1201,7 +1201,7 @@
         3781809578,
         4702491427,
         6313702438,
-        7273107636,
+        7279407636,
         8373500924,
         12823680972,
         15375003271,
@@ -1209,16 +1209,16 @@
         25661494702,
         11424439676,
         15591405874,
-        21091575004,
-        29050310081
+        21096575004,
+        29045310081
       ],
       "stageMix": {
-        "Seed": 13697,
-        "Series A": 4006,
+        "Seed": 13696,
+        "Series A": 4007,
         "Other": 3120,
-        "Series B": 2018,
-        "Series Unknown": 1427,
-        "Series C": 1270,
+        "Series B": 2019,
+        "Series Unknown": 1429,
+        "Series C": 1268,
         "Angel": 848,
         "Unknown": 795
       }
@@ -2186,24 +2186,14 @@
       }
     ],
     "signals": {
-      "deeptechCount": 10050,
-      "deeptechPct": 25.9,
+      "deeptechCount": 10046,
+      "deeptechPct": 25.8,
       "globalCount": 16034,
       "globalPct": 41.3
     }
   },
   "feeds": {
     "funding": [
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Axonica Labs",
-        "stage": "Pre-seed",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 6,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "org": "Navan",
@@ -2223,6 +2213,16 @@
         "investorCount": 0,
         "isNonEquity": false,
         "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Axonica Labs",
+        "stage": "Pre-seed",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 6,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2259,6 +2259,17 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Cando Drones",
+        "stage": "IPO",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "IPO"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "BloomX",
         "stage": "Series A",
         "amountUsd": 13000000,
@@ -2278,17 +2289,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "IPO",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "IPO"
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2325,6 +2325,17 @@
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
+        "org": "Else Nutrition",
+        "stage": "Convertible Note",
+        "amountUsd": 575000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Lind Global Fund III convertible security financing agreement (gross proceeds US$575,000)"
+      },
+      {
+        "ts": "2026-10-01T00:00:00.000Z",
         "org": "Enso",
         "stage": "Series A",
         "amountUsd": 15000000,
@@ -2335,15 +2346,14 @@
         "roundTitle": "Series A"
       },
       {
-        "ts": "2026-10-01T00:00:00.000Z",
-        "org": "Else Nutrition",
-        "stage": "Convertible Note",
-        "amountUsd": 575000,
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Lind Global Fund III convertible security financing agreement (gross proceeds US$575,000)"
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2355,16 +2365,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2889,37 +2889,16 @@
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Gong",
-        "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
-      },
-      {
-        "ts": "2026-10-16T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Navan",
         "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
       },
       {
-        "ts": "2026-10-15T00:00:00.000Z",
+        "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "ControlUp",
-        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Freightos",
-        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
+        "rawKind": "Award Recognition",
+        "org": "Gong",
+        "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2943,11 +2922,60 @@
         "summary": "Acquired by Proofpoint (a Thoma Bravo portfolio company): definitive all-cash agreement valuing Varonis at approximately $6.3 billion, $49.75 per share, a 17% premium over the September 1, 2026 close. Unanimously approved by the Varonis board; expected to close in H1 2027, after which Varonis stock will cease trading on Nasdaq and the company will become private. Thoma Bravo provides committed equity financing with debt commitments; Ontario Teachers' Pension Plan is investing into Proofpoint in connection with the deal."
       },
       {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "ControlUp",
+        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Freightos",
+        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Echo Software",
+        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
+      },
+      {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Manna",
         "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Friendly Technologies",
+        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Onyxia Cyber",
+        "summary": "Joined the Open Secure AI Alliance, an industry coalition organized by the Linux Foundation and originally established by NVIDIA, focused on open models and shared tools for AI-era cyber defense."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Reco",
+        "summary": "Reco joined the Wiz Integration Network (WIN), giving security teams combined cloud and SaaS/AI risk visibility in one place."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2959,16 +2987,23 @@
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zenzap",
-        "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
+        "rawKind": "Strategic Partnership",
+        "org": "EcoPhage",
+        "summary": "Entered into a distribution agreement with Agricultura Nacional, S.A. de C.V. ('Dragon') for distribution, marketing and sale of EcoPhage's products (initially GoldenEco\u00ae and EcoFire\u00ae) in Mexico."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EcoPhage",
-        "summary": "Entered into a distribution agreement with Agricultura Nacional, S.A. de C.V. ('Dragon') for distribution, marketing and sale of EcoPhage's products (initially GoldenEco\u00ae and EcoFire\u00ae) in Mexico."
+        "rawKind": "Executive Appointment",
+        "org": "WEKA",
+        "summary": "CTO Shimon Ben-David departed the company after almost 13 years, including 6+ years as CTO, announcing his departure on LinkedIn."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zenzap",
+        "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2987,44 +3022,9 @@
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "WEKA",
-        "summary": "CTO Shimon Ben-David departed the company after almost 13 years, including 6+ years as CTO, announcing his departure on LinkedIn."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Hudson Rock",
-        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Report Release",
         "org": "Salt Security",
         "summary": "Published the State of Agentic AI and API Security 2H 2026 report, a survey of 380+ security professionals finding nearly half (49.8%) of enterprises reported an AI agent took an unexpected or unauthorized action in the past year."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Reco",
-        "summary": "Reco joined the Wiz Integration Network (WIN), giving security teams combined cloud and SaaS/AI risk visibility in one place."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Friendly Technologies",
-        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Echo Software",
-        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
       }
     ]
   }
