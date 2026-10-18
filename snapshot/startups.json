@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T05:01:14.791Z",
+  "generatedAt": "2026-10-18T05:50:53.158Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 38861,
-      "delta24h": 4
+      "value": 38862,
+      "delta24h": 5
     },
     "totalFunding": {
       "valueUsd": 228413765471,
@@ -178,13 +178,13 @@
       "total": 191069,
       "delta30d": 0
     },
-    "openJobs": 22587
+    "openJobs": 22571
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7319
+        "count": 7320
       },
       {
         "name": "Central",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4549
+        "count": 4550
       },
       {
         "name": "Herzliya",
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 392,
-        "active": 20972,
+        "active": 20973,
         "unknown": 3726,
         "closed": 13771
       }
@@ -1432,12 +1432,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 22832,
+      "active": 22833,
       "closed": 12647,
       "exited": 3382
     },
     "funnel": {
-      "all": 38861,
+      "all": 38862,
       "funded": 15678,
       "over1m": 6253,
       "over10m": 3119,
@@ -2196,16 +2196,6 @@
     "funding": [
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Axonica Labs",
         "stage": "Pre-seed",
         "amountUsd": 50000000,
@@ -2225,6 +2215,16 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "Debt Financing 2026"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2250,17 +2250,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "IPO",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "IPO"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "BloomX",
         "stage": "Series A",
         "amountUsd": 13000000,
@@ -2272,22 +2261,33 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
+        "org": "Soda Labs",
         "stage": "Seed",
-        "amountUsd": 5000000,
+        "amountUsd": 3000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
+        "org": "Cando Drones",
+        "stage": "IPO",
+        "amountUsd": 0,
         "investors": [],
         "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "IPO"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
+        "investors": [],
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
@@ -2349,6 +2349,17 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
+        "org": "HyperGuest",
+        "stage": "Series B",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Growth investment by Apax (AMI)"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
         "org": "Betalin Therapeutics",
         "stage": "Equity Crowdfunding",
         "amountUsd": 430000,
@@ -2367,17 +2378,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series B Extension (additional funding)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "HyperGuest",
-        "stage": "Series B",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Growth investment by Apax (AMI)"
       },
       {
         "ts": "2026-09-24T00:00:00.000Z",
@@ -2419,6 +2419,21 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-18T05:46:39.223Z",
+        "org": "Tabit",
+        "industry": "Unknown",
+        "city": "",
+        "description": "Tabit (\u05d8\u05d0\u05d1\u05d9\u05d8) is an Israeli company offering a restaurant reservation and table-booking platform, letting diners book a table at participating restaurants ('just say when and at which restaurant, and leave the rest to us'). It also runs restaurant gift-card ('Gift It') and delivery/takeaway services for its restaurant network.",
+        "domain": "tabitisrael.co.il",
+        "keywords": [
+          "restaurant reservations",
+          "table booking",
+          "gift cards",
+          "dining",
+          "Israel"
+        ]
+      },
       {
         "ts": "2026-10-18T02:36:16.804Z",
         "org": "\u05d6\u05d9\u05e8\u05ea \u05d4\u05d7\u05d3\u05e9\u05d5\u05ea",
@@ -2855,32 +2870,6 @@
         "exactEmployees": 6,
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-16T09:41:09.758Z",
-        "org": "Numerion Labs",
-        "industry": "Healthcare and Food",
-        "city": "San Francisco",
-        "subIndustry": "Biotechnology",
-        "description": "AI-native drug discovery company applying deep learning to structure-based small-molecule drug design, operating an AI platform that screens billions of virtual compounds to discover novel drug candidates, with a growing proprietary pipeline focused on immune and inflammatory diseases",
-        "domain": "numerionlabs.ai",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/62f0bc59-3107-4e50-b411-758a14403517.jpg",
-        "keywords": [
-          "AI drug discovery",
-          "Deep learning for drug design",
-          "Structure-based drug discovery",
-          "Virtual compound screening",
-          "Small molecule drug candidates",
-          "Machine learning drug development",
-          "Computational chemistry",
-          "Lead optimization",
-          "Target screening",
-          "Drug pipeline development"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 13,
-        "isDeeptech": true,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2951,8 +2940,36 @@
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Echo Software",
+        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Elsight",
+        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "eSimo",
         "summary": "eSIMo announced the rollout of its Unlimited Travel eSIM Data Plans, paired with in-app international voice calling, second phone numbers in 200+ destinations, and its eSIMoney in-app rewards/cashback system, on a contract-free prepaid model for travelers and digital nomads."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Hudson Rock",
+        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Viber",
+        "summary": "Rolled out new AI-powered features: 'Your News' (ChatGPT daily news summaries), 'Unread Recap' (ChatGPT summaries of unread chats), a 'For You' recommendation feature on Viber Dating, and new Viber Business Account tools (Business Broadcast, Quick Replies, Chat Link)."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2972,36 +2989,15 @@
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Hudson Rock",
-        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
+        "org": "Reco",
+        "summary": "Reco joined the Wiz Integration Network (WIN), giving security teams combined cloud and SaaS/AI risk visibility in one place."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Elsight",
-        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Viber",
-        "summary": "Rolled out new AI-powered features: 'Your News' (ChatGPT daily news summaries), 'Unread Recap' (ChatGPT summaries of unread chats), a 'For You' recommendation feature on Viber Dating, and new Viber Business Account tools (Business Broadcast, Quick Replies, Chat Link)."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Echo Software",
-        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Manna",
-        "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
+        "rawKind": "Report Release",
+        "org": "Salt Security",
+        "summary": "Published the State of Agentic AI and API Security 2H 2026 report, a survey of 380+ security professionals finding nearly half (49.8%) of enterprises reported an AI agent took an unexpected or unauthorized action in the past year."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -3009,13 +3005,6 @@
         "rawKind": "Product Launch",
         "org": "FormaTK",
         "summary": "FormaTK launched the Alpha System 3.0, combining its third-generation XLP\u2122 808 nm diode laser (with Single, Fast, PowerMotion\u2122, FineMotion\u2122 and SafeTone\u2122 modes) and 3D IPL technologies in a single platform with integrated MILO melanin meter, covering 20+ clinical indications; available now through FormaTK's global distributors."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zenzap",
-        "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
