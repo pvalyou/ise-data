@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:01:16.234Z",
+  "generatedAt": "2026-10-18T05:01:14.791Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 38861,
-      "delta24h": 6
+      "delta24h": 4
     },
     "totalFunding": {
       "valueUsd": 228413765471,
@@ -2196,6 +2196,16 @@
     "funding": [
       {
         "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Axonica Labs",
         "stage": "Pre-seed",
         "amountUsd": 50000000,
@@ -2215,16 +2225,6 @@
         "isVcBacked": false,
         "isNonEquity": true,
         "roundTitle": "Debt Financing 2026"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2250,17 +2250,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Cando Drones",
         "stage": "IPO",
         "amountUsd": 0,
@@ -2269,6 +2258,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "IPO"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2283,14 +2283,14 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
+        "org": "Soda Labs",
+        "stage": "Seed",
+        "amountUsd": 3000000,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Seed Round"
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2320,7 +2320,7 @@
         "stage": "Series E",
         "amountUsd": 120000000,
         "investors": [],
-        "investorCount": 9,
+        "investorCount": 10,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series E"
@@ -2349,6 +2349,16 @@
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
         "org": "Reco",
         "stage": "Series B",
         "amountUsd": 55000000,
@@ -2370,16 +2380,6 @@
         "roundTitle": "Growth investment by Apax (AMI)"
       },
       {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
-      },
-      {
         "ts": "2026-09-24T00:00:00.000Z",
         "org": "Island",
         "stage": "Series F",
@@ -2392,17 +2392,6 @@
       },
       {
         "ts": "2026-09-23T00:00:00.000Z",
-        "org": "Silk Technologies",
-        "stage": "Debt Financing",
-        "amountUsd": 45000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": true,
-        "roundTitle": "Growth Capital Facility for Agentic AI"
-      },
-      {
-        "ts": "2026-09-23T00:00:00.000Z",
         "org": "Anaconda Biomed",
         "stage": "Series C",
         "amountUsd": 56000000,
@@ -2411,6 +2400,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
+      },
+      {
+        "ts": "2026-09-23T00:00:00.000Z",
+        "org": "Silk Technologies",
+        "stage": "Debt Financing",
+        "amountUsd": 45000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": true,
+        "roundTitle": "Growth Capital Facility for Agentic AI"
       }
     ],
     "todayStats": {
@@ -2915,6 +2915,20 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Valuation Milestone",
+        "org": "Varonis",
+        "summary": "Reached $1B+ valuation (unicorn): acquired by Proofpoint, Inc. for $6.3B"
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Varonis",
+        "summary": "Acquired by Proofpoint (a Thoma Bravo portfolio company): definitive all-cash agreement valuing Varonis at approximately $6.3 billion, $49.75 per share, a 17% premium over the September 1, 2026 close. Unanimously approved by the Varonis board; expected to close in H1 2027, after which Varonis stock will cease trading on Nasdaq and the company will become private. Thoma Bravo provides committed equity financing with debt commitments; Ontario Teachers' Pension Plan is investing into Proofpoint in connection with the deal."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Harmony",
         "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
@@ -2934,83 +2948,6 @@
         "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
       },
       {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Varonis",
-        "summary": "Acquired by Proofpoint (a Thoma Bravo portfolio company): definitive all-cash agreement valuing Varonis at approximately $6.3 billion, $49.75 per share, a 17% premium over the September 1, 2026 close. Unanimously approved by the Varonis board; expected to close in H1 2027, after which Varonis stock will cease trading on Nasdaq and the company will become private. Thoma Bravo provides committed equity financing with debt commitments; Ontario Teachers' Pension Plan is investing into Proofpoint in connection with the deal."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Valuation Milestone",
-        "org": "Varonis",
-        "summary": "Reached $1B+ valuation (unicorn): acquired by Proofpoint, Inc. for $6.3B"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Manna",
-        "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Echo Software",
-        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Elsight",
-        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Friendly Technologies",
-        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zenzap",
-        "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Reco",
-        "summary": "Reco joined the Wiz Integration Network (WIN), giving security teams combined cloud and SaaS/AI risk visibility in one place."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Hudson Rock",
-        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "EcoPhage",
-        "summary": "Entered into a distribution agreement with Agricultura Nacional, S.A. de C.V. ('Dragon') for distribution, marketing and sale of EcoPhage's products (initially GoldenEco\u00ae and EcoFire\u00ae) in Mexico."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Viber",
-        "summary": "Rolled out new AI-powered features: 'Your News' (ChatGPT daily news summaries), 'Unread Recap' (ChatGPT summaries of unread chats), a 'For You' recommendation feature on Viber Dating, and new Viber Business Account tools (Business Broadcast, Quick Replies, Chat Link)."
-      },
-      {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
@@ -3023,6 +2960,69 @@
         "rawKind": "Executive Appointment",
         "org": "WEKA",
         "summary": "CTO Shimon Ben-David departed the company after almost 13 years, including 6+ years as CTO, announcing his departure on LinkedIn."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "EcoPhage",
+        "summary": "Entered into a distribution agreement with Agricultura Nacional, S.A. de C.V. ('Dragon') for distribution, marketing and sale of EcoPhage's products (initially GoldenEco\u00ae and EcoFire\u00ae) in Mexico."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Hudson Rock",
+        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Elsight",
+        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Viber",
+        "summary": "Rolled out new AI-powered features: 'Your News' (ChatGPT daily news summaries), 'Unread Recap' (ChatGPT summaries of unread chats), a 'For You' recommendation feature on Viber Dating, and new Viber Business Account tools (Business Broadcast, Quick Replies, Chat Link)."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Echo Software",
+        "summary": "Echo launched Echo Frontier, a product that patches AI-found zero-days before disclosure, protecting enterprises from Mythos-era zero-days."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Manna",
+        "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "FormaTK",
+        "summary": "FormaTK launched the Alpha System 3.0, combining its third-generation XLP\u2122 808 nm diode laser (with Single, Fast, PowerMotion\u2122, FineMotion\u2122 and SafeTone\u2122 modes) and 3D IPL technologies in a single platform with integrated MILO melanin meter, covering 20+ clinical indications; available now through FormaTK's global distributors."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zenzap",
+        "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Friendly Technologies",
+        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
       }
     ]
   }
