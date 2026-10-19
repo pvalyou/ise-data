@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:15:19.927Z",
+  "generatedAt": "2026-10-19T00:31:16.704Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,19 +159,19 @@
   },
   "kpis": {
     "startups": {
-      "value": 38876,
-      "delta24h": 24
+      "value": 38877,
+      "delta24h": 25
     },
     "totalFunding": {
-      "valueUsd": 229308595968,
-      "rounds": 29601
+      "valueUsd": 229313815968,
+      "rounds": 29603
     },
     "exits": {
       "count": 3395,
       "valueUsd": 328215581600
     },
     "employees": {
-      "total": 849543,
+      "total": 849548,
       "avgPerStartup": 30
     },
     "patents": {
@@ -964,7 +964,7 @@
         888,
         833,
         952,
-        1061,
+        1062,
         1153,
         1441,
         1487,
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 392,
-        "active": 20983,
+        "active": 20984,
         "unknown": 3727,
         "closed": 13774
       }
@@ -1150,7 +1150,7 @@
         731,
         846,
         970,
-        1114,
+        1115,
         1268,
         1239,
         1323,
@@ -1198,7 +1198,7 @@
         2659775800,
         2140036000,
         2651454445,
-        3841309578,
+        3842429578,
         4721831427,
         6404846438,
         7526473636,
@@ -1217,7 +1217,7 @@
         "Series A": 4047,
         "Other": 3074,
         "Series B": 2047,
-        "Series Unknown": 1450,
+        "Series Unknown": 1452,
         "Series C": 1270,
         "Angel": 847,
         "Unknown": 791
@@ -1432,14 +1432,14 @@
   },
   "survivability": {
     "composition": {
-      "active": 22831,
+      "active": 22832,
       "closed": 12650,
       "exited": 3395
     },
     "funnel": {
-      "all": 38876,
-      "funded": 15690,
-      "over1m": 6264,
+      "all": 38877,
+      "funded": 15691,
+      "over1m": 6265,
       "over10m": 3126,
       "over100m": 591,
       "exited": 3395
@@ -1832,37 +1832,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 14901,
-        "share": 0.3978267834258864
+        "share": 0.39781616253303786
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6962,
-        "share": 0.18587142246903032
+        "count": 6963,
+        "share": 0.18589315748725205
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 7193,
-        "share": 0.1920386586928663
+        "share": 0.1920335317831113
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1664,
-        "share": 0.04442545920546775
+        "share": 0.044424273166564325
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2221,
-        "share": 0.05929624092268261
+        "share": 0.059294657874362604
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4515,
-        "share": 0.12054143528406663
+        "share": 0.12053821715567184
       }
     ],
     "mixSummary": {
@@ -1914,7 +1914,7 @@
       },
       {
         "name": "Enterprise Software",
-        "parent": "Unknown",
+        "parent": "IT and Telecom",
         "total": 2459,
         "shareDelta": 0.026,
         "counts": [
@@ -2036,7 +2036,7 @@
     "trendingDown": [
       {
         "name": "Blockchain & Cryptocurrency",
-        "parent": "IT and Telecom",
+        "parent": "Financial Services",
         "total": 256,
         "shareDelta": -0.016,
         "counts": [
@@ -2186,9 +2186,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9985,
+      "deeptechCount": 9986,
       "deeptechPct": 25.7,
-      "globalCount": 16054,
+      "globalCount": 16055,
       "globalPct": 41.3
     }
   },
@@ -2206,6 +2206,16 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Axonica Labs",
         "stage": "Pre-seed",
         "amountUsd": 50000000,
@@ -2214,16 +2224,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2347,16 +2347,6 @@
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
-        "org": "Argent BioPharma",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": true,
-        "roundTitle": "Loan facility"
-      },
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
         "org": "Else Nutrition",
         "stage": "Convertible Note",
         "amountUsd": 575000,
@@ -2376,6 +2366,26 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "org": "Argent BioPharma",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": true,
+        "roundTitle": "Loan facility"
+      },
+      {
+        "ts": "2026-09-29T00:00:00.000Z",
+        "org": "Betalin Therapeutics",
+        "stage": "Equity Crowdfunding",
+        "amountUsd": 430000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ExitValley equity crowdfunding campaign"
       },
       {
         "ts": "2026-09-29T00:00:00.000Z",
@@ -2398,16 +2408,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Growth investment by Apax (AMI)"
-      },
-      {
-        "ts": "2026-09-29T00:00:00.000Z",
-        "org": "Betalin Therapeutics",
-        "stage": "Equity Crowdfunding",
-        "amountUsd": 430000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ExitValley equity crowdfunding campaign"
       }
     ],
     "todayStats": {
@@ -2416,6 +2416,30 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-18T23:12:00.198Z",
+        "org": "Izun Pharmaceuticals Corp",
+        "industry": "Healthcare and Food",
+        "city": "Jerusalem",
+        "subIndustry": "Pharmaceuticals",
+        "description": "Biopharmaceutical company developing healthcare solutions from natural plant extracts using proprietary extraction processes, with products for periodontal disease, women's health, chronic wound care, and oncology supportive care",
+        "domain": "izunpharma.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/37cb0e29-cdf9-4052-b67b-db29216d6b18.webp",
+        "keywords": [
+          "plant-based pharmaceuticals",
+          "periodontal disease treatment",
+          "oral rinse",
+          "wound care products",
+          "vaginitis treatment",
+          "oral mucositis prevention",
+          "botanical drug development",
+          "clinical stage biopharma"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 5,
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-10-18T23:11:51.363Z",
         "org": "Suremedix",
@@ -2784,24 +2808,6 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-18T10:07:04.807Z",
-        "org": "MyBouncer USA",
-        "industry": "Consumer Goods and Services",
-        "city": "",
-        "subIndustry": "Safety Equipment",
-        "description": "Developer of a personal safety technology that transforms a standard smartphone into a drink spiking detector, helping individuals test beverages and stay safe in nightlife settings",
-        "keywords": [
-          "drink spiking detection",
-          "personal safety device",
-          "nightlife safety",
-          "beverage testing",
-          "smartphone safety technology",
-          "anti drink spiking"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
@@ -2829,6 +2835,13 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Harmony",
+        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Revenue Milestone",
         "org": "Viber",
         "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
@@ -2836,9 +2849,9 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Freightos",
-        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
+        "rawKind": "Product Launch",
+        "org": "ControlUp",
+        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2850,23 +2863,9 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Harmony",
-        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "ControlUp",
-        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Varonis",
-        "summary": "Acquired by Proofpoint (a Thoma Bravo portfolio company): definitive all-cash agreement valuing Varonis at approximately $6.3 billion, $49.75 per share, a 17% premium over the September 1, 2026 close. Unanimously approved by the Varonis board; expected to close in H1 2027, after which Varonis stock will cease trading on Nasdaq and the company will become private. Thoma Bravo provides committed equity financing with debt commitments; Ontario Teachers' Pension Plan is investing into Proofpoint in connection with the deal."
+        "rawKind": "Revenue Milestone",
+        "org": "Freightos",
+        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2874,6 +2873,13 @@
         "rawKind": "Valuation Milestone",
         "org": "Varonis",
         "summary": "Reached $1B+ valuation (unicorn): acquired by Proofpoint, Inc. for $6.3B"
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Varonis",
+        "summary": "Acquired by Proofpoint (a Thoma Bravo portfolio company): definitive all-cash agreement valuing Varonis at approximately $6.3 billion, $49.75 per share, a 17% premium over the September 1, 2026 close. Unanimously approved by the Varonis board; expected to close in H1 2027, after which Varonis stock will cease trading on Nasdaq and the company will become private. Thoma Bravo provides committed equity financing with debt commitments; Ontario Teachers' Pension Plan is investing into Proofpoint in connection with the deal."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2885,30 +2891,16 @@
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Manna",
+        "summary": "Manna Air Delivery is accelerating its US expansion, opening three additional Tulsa, Oklahoma bases on top of its first Cherry Street base, building a growing network of autonomous drone delivery operations."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Zenzap",
         "summary": "Zenzap publicly emerged from stealth, announcing its secure work-chat platform that embeds collaborative AI agents ('Multiplayer AI') into team conversations, with thousands of connectors and over 40,000 automated workflows created by customers."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "Friendly Technologies",
-        "summary": "Showcased faster AI-assisted Wi-Fi problem resolution combining Wi-Fi Management Plus and Friendly AI Assistant with live and historical device data at Network X, October 13-15, 2026."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "eSimo",
-        "summary": "eSIMo announced the rollout of its Unlimited Travel eSIM Data Plans, paired with in-app international voice calling, second phone numbers in 200+ destinations, and its eSIMoney in-app rewards/cashback system, on a contract-free prepaid model for travelers and digital nomads."
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Elsight",
-        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2921,8 +2913,8 @@
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Reco",
-        "summary": "Reco joined the Wiz Integration Network (WIN), giving security teams combined cloud and SaaS/AI risk visibility in one place."
+        "org": "Onyxia Cyber",
+        "summary": "Joined the Open Secure AI Alliance, an industry coalition organized by the Linux Foundation and originally established by NVIDIA, focused on open models and shared tools for AI-era cyber defense."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2934,9 +2926,9 @@
       {
         "ts": "2026-10-14T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Hudson Rock",
-        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
+        "rawKind": "Product Launch",
+        "org": "eSimo",
+        "summary": "eSIMo announced the rollout of its Unlimited Travel eSIM Data Plans, paired with in-app international voice calling, second phone numbers in 200+ destinations, and its eSIMoney in-app rewards/cashback system, on a contract-free prepaid model for travelers and digital nomads."
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2944,6 +2936,20 @@
         "rawKind": "Product Launch",
         "org": "Viber",
         "summary": "Rolled out new AI-powered features: 'Your News' (ChatGPT daily news summaries), 'Unread Recap' (ChatGPT summaries of unread chats), a 'For You' recommendation feature on Viber Dating, and new Viber Business Account tools (Business Broadcast, Quick Replies, Chat Link)."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Elsight",
+        "summary": "AeroVironment (NASDAQ: AVAV) and Elsight announced a partnership to integrate Elsight's Halo connectivity technology into AeroVironment's Mayhem 10 launched effects system, enabling a single connectivity layer bonding satellite, cellular and point-to-point radio links; integration efforts are underway."
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Hudson Rock",
+        "summary": "Hudson Rock announced a partnership with TRM Labs as a launch data partner in the Ardence Data Network, enriching TRM Labs' new Ardence AI investigation platform with real-time infostealer and cybercriminal identity intelligence."
       }
     ]
   }
