@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T04:35:52.535Z",
+  "generatedAt": "2026-10-20T05:57:34.199Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,26 +159,26 @@
   },
   "kpis": {
     "startups": {
-      "value": 38894,
-      "delta24h": 23
+      "value": 38895,
+      "delta24h": 21
     },
     "totalFunding": {
-      "valueUsd": 230141709823,
-      "rounds": 29688
+      "valueUsd": 230148479823,
+      "rounds": 29691
     },
     "exits": {
       "count": 3404,
-      "valueUsd": 328676691600
+      "valueUsd": 328679691600
     },
     "employees": {
-      "total": 848340,
+      "total": 848540,
       "avgPerStartup": 29
     },
     "patents": {
       "total": 191065,
       "delta30d": 0
     },
-    "openJobs": 22731
+    "openJobs": 22677
   },
   "map": {
     "districts": [
@@ -1063,7 +1063,7 @@
       "statusMix": {
         "inactive": 385,
         "active": 20942,
-        "unknown": 3717,
+        "unknown": 3718,
         "closed": 13850
       }
     },
@@ -1150,11 +1150,11 @@
         731,
         852,
         971,
-        1118,
-        1271,
+        1119,
+        1272,
         1239,
-        1329,
-        1563,
+        1330,
+        1564,
         1568,
         1659,
         2120,
@@ -1198,11 +1198,11 @@
         2691473800,
         2153236000,
         2651454445,
-        3848529578,
-        4737393427,
+        3849879578,
+        4744013427,
         6412836438,
-        7541373636,
-        8401805924,
+        7543873636,
+        8407805924,
         12903712972,
         15587073271,
         40192145010,
@@ -1213,11 +1213,11 @@
         29369595936
       ],
       "stageMix": {
-        "Seed": 13717,
+        "Seed": 13718,
         "Series A": 4085,
-        "Other": 3027,
+        "Other": 3026,
         "Series B": 2078,
-        "Series Unknown": 1477,
+        "Series Unknown": 1480,
         "Series C": 1276,
         "Angel": 850,
         "Unknown": 786
@@ -1418,7 +1418,7 @@
         20198281300,
         9959422500,
         25054009500,
-        9564335000,
+        9567335000,
         10657994100,
         18422358700,
         80836880200,
@@ -1432,15 +1432,15 @@
   },
   "survivability": {
     "composition": {
-      "active": 22771,
+      "active": 22772,
       "closed": 12719,
       "exited": 3404
     },
     "funnel": {
-      "all": 38894,
+      "all": 38895,
       "funded": 15697,
       "over1m": 6270,
-      "over10m": 3130,
+      "over10m": 3131,
       "over100m": 593,
       "exited": 3404
     },
@@ -1520,13 +1520,13 @@
       "overall": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 88579813,
+        "avgValueUsd": 88580706,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 100200193,
+        "avgValueUsd": 100201179,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1831,38 +1831,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14909,
-        "share": 0.3978173279611495
+        "count": 14910,
+        "share": 0.3978333955920807
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6976,
-        "share": 0.18614083304426715
+        "count": 6977,
+        "share": 0.18616254869523455
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7190,
-        "share": 0.19185100194786137
+        "count": 7189,
+        "share": 0.19181920059768398
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1666,
-        "share": 0.04445393174480348
+        "share": 0.044452745610758314
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2218,
-        "share": 0.059182965552205355
+        "share": 0.059181386413362506
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4518,
-        "share": 0.12055393974971315
+        "share": 0.12055072309087998
       }
     ],
     "mixSummary": {
@@ -1914,7 +1914,7 @@
       },
       {
         "name": "Enterprise Software",
-        "parent": "IT and Telecom",
+        "parent": "Unknown",
         "total": 2461,
         "shareDelta": 0.027,
         "counts": [
@@ -2036,7 +2036,7 @@
     "trendingDown": [
       {
         "name": "Blockchain & Cryptocurrency",
-        "parent": "Financial Services",
+        "parent": "IT and Telecom",
         "total": 256,
         "shareDelta": -0.016,
         "counts": [
@@ -2186,7 +2186,7 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9924,
+      "deeptechCount": 9925,
       "deeptechPct": 25.5,
       "globalCount": 16082,
       "globalPct": 41.3
@@ -2204,6 +2204,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
+        "investors": [],
+        "investorCount": 4,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2229,16 +2239,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Scinai Immunotherapeutics",
         "stage": "Post-IPO",
         "amountUsd": 4000000,
@@ -2246,6 +2246,16 @@
         "investorCount": 0,
         "isNonEquity": false,
         "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "IdentifAI Genetics",
+        "stage": "IPO",
+        "amountUsd": 6600000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2270,16 +2280,6 @@
         "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "IdentifAI Genetics",
-        "stage": "IPO",
-        "amountUsd": 6600000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
-      },
-      {
         "ts": "2026-10-12T00:00:00.000Z",
         "org": "Fibrotex",
         "stage": "Private Equity",
@@ -2292,14 +2292,14 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
+        "org": "Cando Drones",
+        "stage": "IPO",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "IPO"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2314,6 +2314,17 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Phantom GI",
         "stage": "Seed",
         "amountUsd": 5000000,
@@ -2322,17 +2333,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "IPO",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "IPO"
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2369,17 +2369,6 @@
       },
       {
         "ts": "2026-10-01T00:00:00.000Z",
-        "org": "Else Nutrition",
-        "stage": "Convertible Note",
-        "amountUsd": 575000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Lind Global Fund III convertible security financing agreement (gross proceeds US$575,000)"
-      },
-      {
-        "ts": "2026-10-01T00:00:00.000Z",
         "org": "Enso",
         "stage": "Series A",
         "amountUsd": 15000000,
@@ -2401,6 +2390,17 @@
         "roundTitle": "Loan facility"
       },
       {
+        "ts": "2026-10-01T00:00:00.000Z",
+        "org": "Else Nutrition",
+        "stage": "Convertible Note",
+        "amountUsd": 575000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Lind Global Fund III convertible security financing agreement (gross proceeds US$575,000)"
+      },
+      {
         "ts": "2026-09-30T00:00:00.000Z",
         "org": "hypervision",
         "stage": "Accelerator",
@@ -2418,6 +2418,26 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-10-20T05:51:51.239Z",
+        "org": "Civent Communications",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Healthcare IT",
+        "description": "Medical software company developing a clinical information system for obstetrical monitoring that manages fetal and maternal vital-sign data acquired from bedside fetal monitors in hospital settings",
+        "keywords": [
+          "Obstetrical monitoring",
+          "Fetal heart rate monitoring",
+          "Clinical information system",
+          "Electronic medical record",
+          "Perinatal monitoring",
+          "Hospital data management",
+          "Maternal vital signs",
+          "Remote patient data review"
+        ],
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-10-20T03:39:27.279Z",
         "org": "Niti Medical Technologies",
@@ -2829,42 +2849,9 @@
         "exactEmployees": 3,
         "isDeeptech": true,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-10-19T08:41:28.680Z",
-        "org": "Atrys Health",
-        "industry": "Healthcare and Food",
-        "city": "Madrid",
-        "subIndustry": "Digital Health",
-        "description": "Precision medicine healthcare provider delivering oncology care, molecular pathology, genetic diagnostics and nuclear medicine, plus a telemedicine platform providing remote diagnostic reporting in radiology, cardiology, dermatology and ophthalmology for hospitals, insurers and healthcare companies",
-        "domain": "atryshealth.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/b4fbe0a8-ef96-4094-af34-0f7559d89825.webp",
-        "keywords": [
-          "Precision medicine",
-          "Telemedicine platform",
-          "Teleradiology",
-          "Oncology services",
-          "Molecular pathology",
-          "Genetic diagnostics",
-          "Nuclear medicine",
-          "Remote diagnosis",
-          "Telecardiology",
-          "Clinical data analytics"
-        ],
-        "employeeRange": "1001-5000",
-        "exactEmployees": 266,
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Momentick",
-        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
-      },
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
@@ -2878,6 +2865,13 @@
         "rawKind": "Product Launch",
         "org": "Optimove",
         "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Momentick",
+        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
       },
       {
         "ts": "2026-10-18T00:00:00.000Z",
@@ -2931,51 +2925,9 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Viber",
-        "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Freightos",
-        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "ControlUp",
-        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Harmony",
-        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Speria",
-        "summary": "Rotem, Speria's agricultural climate control controller brand (original maker of the Trio, Greenfield and AC2000 controllers), entered its next phase under the Speria umbrella with a refreshed brand presence and a new dedicated Rotem website; no changes to Rotem products."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Appwrite",
-        "summary": "Appwrite announced the official Appwrite Helm chart for Kubernetes, installing self-hosted Appwrite on Kubernetes clusters with one command, published to ghcr.io under BSD 3-Clause, with managed/external PostgreSQL, Redis, ClickHouse and S3 support, ingress/Gateway API routing, and migration-on-upgrade handling."
+        "org": "Pinecone",
+        "summary": "On-demand capacity mode launched for Pinecone Bring Your Own Cloud (BYOC), letting customers create indexes without pre-sizing via dynamic sharding across a shared capacity pool in their own AWS, Google Cloud, or Azure account."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2988,15 +2940,57 @@
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "BAND",
-        "summary": "BAND launched BAND for Developers, a desktop application (complementing its terminal/CLI experience) that gives engineering teams visibility and control to manage and collaborate with multiple coding agents across different harnesses, machines and environments."
+        "org": "Appwrite",
+        "summary": "Appwrite announced the official Appwrite Helm chart for Kubernetes, installing self-hosted Appwrite on Kubernetes clusters with one command, published to ghcr.io under BSD 3-Clause, with managed/external PostgreSQL, Redis, ClickHouse and S3 support, ingress/Gateway API routing, and migration-on-upgrade handling."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Viber",
+        "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Pinecone",
-        "summary": "On-demand capacity mode launched for Pinecone Bring Your Own Cloud (BYOC), letting customers create indexes without pre-sizing via dynamic sharding across a shared capacity pool in their own AWS, Google Cloud, or Azure account."
+        "org": "Harmony",
+        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Freightos",
+        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "ControlUp",
+        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "Navan",
+        "summary": "Held Navigate Europe 2026 in Paris, its first major European client conference, unveiling new capabilities: travel booking and expense management in Slack, local card issuing in five new currencies (15 total), video receipt scanning, SMS expense agent, and Guest Expenses."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "BAND",
+        "summary": "BAND launched BAND for Developers, a desktop application (complementing its terminal/CLI experience) that gives engineering teams visibility and control to manage and collaborate with multiple coding agents across different harnesses, machines and environments."
       }
     ]
   }
