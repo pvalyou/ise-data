@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T18:05:38.682Z",
+  "generatedAt": "2026-10-20T19:01:01.395Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,12 +159,12 @@
   },
   "kpis": {
     "startups": {
-      "value": 38910,
-      "delta24h": 24
+      "value": 38912,
+      "delta24h": 26
     },
     "totalFunding": {
-      "valueUsd": 230854242823,
-      "rounds": 29739
+      "valueUsd": 230852142823,
+      "rounds": 29738
     },
     "exits": {
       "count": 3405,
@@ -178,7 +178,7 @@
       "total": 193897,
       "delta30d": 0
     },
-    "openJobs": 23381
+    "openJobs": 23682
   },
   "map": {
     "districts": [
@@ -950,7 +950,7 @@
         157,
         178,
         226,
-        233,
+        234,
         273,
         387,
         605,
@@ -1028,7 +1028,7 @@
         70,
         81,
         101,
-        115,
+        116,
         149,
         211,
         341,
@@ -1063,8 +1063,8 @@
       "statusMix": {
         "inactive": 385,
         "active": 20954,
-        "unknown": 3716,
-        "closed": 13855
+        "unknown": 3717,
+        "closed": 13856
       }
     },
     "funding": {
@@ -1161,7 +1161,7 @@
         2017,
         1556,
         1476,
-        1380,
+        1379,
         682
       ],
       "raisedUsd": [
@@ -1209,7 +1209,7 @@
         25807595702,
         11762075173,
         15520902874,
-        21043837004,
+        21041737004,
         29369595936
       ],
       "stageMix": {
@@ -1432,14 +1432,14 @@
   },
   "survivability": {
     "composition": {
-      "active": 22783,
-      "closed": 12722,
+      "active": 22784,
+      "closed": 12723,
       "exited": 3405
     },
     "funnel": {
-      "all": 38910,
-      "funded": 15704,
-      "over1m": 6277,
+      "all": 38912,
+      "funded": 15705,
+      "over1m": 6278,
       "over10m": 3137,
       "over100m": 598,
       "exited": 3405
@@ -1832,37 +1832,37 @@
         "key": "it-telecom",
         "label": "IT and Telecom",
         "count": 14910,
-        "share": 0.39766362618018886
+        "share": 0.3976530204027204
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 6990,
-        "share": 0.1864298287726036
+        "count": 6991,
+        "share": 0.18645152687024938
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 7191,
-        "share": 0.19179068650984157
+        "share": 0.19178557140952127
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1666,
-        "share": 0.044433776070838
+        "share": 0.04443259101213495
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2220,
-        "share": 0.05920947351576252
+        "share": 0.05920789438591812
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4517,
-        "share": 0.12047260895076546
+        "share": 0.12046939591945592
       }
     ],
     "mixSummary": {
@@ -1914,7 +1914,7 @@
       },
       {
         "name": "Enterprise Software",
-        "parent": "IT and Telecom",
+        "parent": "Unknown",
         "total": 2461,
         "shareDelta": 0.028,
         "counts": [
@@ -2036,7 +2036,7 @@
     "trendingDown": [
       {
         "name": "Blockchain & Cryptocurrency",
-        "parent": "Financial Services",
+        "parent": "IT and Telecom",
         "total": 256,
         "shareDelta": -0.016,
         "counts": [
@@ -2186,9 +2186,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9903,
+      "deeptechCount": 9904,
       "deeptechPct": 25.5,
-      "globalCount": 16090,
+      "globalCount": 16091,
       "globalPct": 41.4
     }
   },
@@ -2204,6 +2204,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Navan",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Debt Financing 2026"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2228,17 +2239,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Navan",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Debt Financing 2026"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Uvi",
         "stage": "Seed",
         "amountUsd": 7500000,
@@ -2260,16 +2260,6 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "IdentifAI Genetics",
-        "stage": "IPO",
-        "amountUsd": 6600000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
         "org": "VAST Data",
         "stage": "Corporate Round",
         "amountUsd": 0,
@@ -2278,6 +2268,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "IdentifAI Genetics",
+        "stage": "IPO",
+        "amountUsd": 6600000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2303,6 +2303,17 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Phantom GI",
         "stage": "Seed",
         "amountUsd": 5000000,
@@ -2322,17 +2333,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "IPO"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2417,6 +2417,32 @@
       "notableEvents": 1
     },
     "newStartups": [
+      {
+        "ts": "2026-10-20T18:52:16.805Z",
+        "org": "Shai Syg Motion and Innovations",
+        "industry": "Healthcare and Food",
+        "city": "",
+        "subIndustry": "Medical Devices",
+        "description": "Medical device company developing radiology and mammography equipment, including automated needle guidance systems for accurate biopsy needle positioning in breast lesion procedures",
+        "keywords": [
+          "Medical devices",
+          "Radiology equipment",
+          "Mammography systems",
+          "Biopsy needle guidance",
+          "Breast lesion localization",
+          "Automated needle positioning",
+          "Medical imaging"
+        ],
+        "isDeeptech": true,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-10-20T18:47:58.771Z",
+        "org": "Medibond",
+        "industry": "Unknown",
+        "city": "",
+        "description": "Israeli medical device company; its Aquabond electrode received FDA 510(k) clearance in January 1997."
+      },
       {
         "ts": "2026-10-20T17:02:36.712Z",
         "org": "Liposmart",
@@ -2784,49 +2810,6 @@
         ],
         "isDeeptech": true,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-20T03:39:27.279Z",
-        "org": "Niti Medical Technologies",
-        "industry": "Healthcare and Food",
-        "city": "Netanya",
-        "subIndustry": "Medical Devices",
-        "description": "Medical device company developing surgical devices for gastrointestinal diseases, using patented nickel-titanium shape-memory clips and compression anastomosis rings that close tissue via the body's natural healing processes and are expelled naturally instead of leaving permanent staples",
-        "keywords": [
-          "compression anastomosis",
-          "surgical clips",
-          "nitinol shape-memory devices",
-          "gastrointestinal surgery",
-          "intestinal resection",
-          "tissue closure devices",
-          "surgical stapling alternative",
-          "medical devices"
-        ],
-        "isDeeptech": true,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-10-20T03:31:28.242Z",
-        "org": "Plasko Interactive",
-        "industry": "Media and Entertainment",
-        "city": "Tel Aviv",
-        "subIndustry": "Gaming",
-        "description": "Independent game studio developing original games across genres for PC, consoles, mobile and browser platforms, including narrative and serious games, with game publishing assistance.",
-        "domain": "plaskointer.com",
-        "keywords": [
-          "game development",
-          "indie game studio",
-          "mobile games",
-          "browser games",
-          "puzzle games",
-          "narrative games",
-          "serious games",
-          "game publishing",
-          "multiplayer games",
-          "casual games"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
@@ -2840,9 +2823,9 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Optimove",
-        "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
+        "rawKind": "Strategic Partnership",
+        "org": "VAST Data",
+        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2861,16 +2844,16 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Momentick",
-        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
+        "rawKind": "Product Launch",
+        "org": "Optimove",
+        "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "VAST Data",
-        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
+        "rawKind": "R&D Milestone",
+        "org": "Momentick",
+        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
       },
       {
         "ts": "2026-10-18T00:00:00.000Z",
@@ -2882,16 +2865,16 @@
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Gong",
-        "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
+        "rawKind": "Product Launch",
+        "org": "Navan",
+        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Speria",
-        "summary": "Per EFN reports, parent Munters has begun the sale process of its FoodTech business (Speria), setting a deadline for indicative bids at the end of October 2026; press estimates value the business at SEK 3.9-6 billion (LTM revenue ~SEK 1.8bn, adj. EBITA ~SEK 295m). Follows the June 16, 2026 announcement exploring the divestment."
+        "rawKind": "Award Recognition",
+        "org": "Gong",
+        "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
@@ -2903,9 +2886,37 @@
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Speria",
+        "summary": "Per EFN reports, parent Munters has begun the sale process of its FoodTech business (Speria), setting a deadline for indicative bids at the end of October 2026; press estimates value the business at SEK 3.9-6 billion (LTM revenue ~SEK 1.8bn, adj. EBITA ~SEK 295m). Follows the June 16, 2026 announcement exploring the divestment."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Rotem Computerized Controllers",
+        "summary": "Acquired by Speria: Rotem's agricultural climate control and farm management technology (Trio, Greenfield, AC2000 controllers) now operates under Speria, the commercial brand for Munters FoodTech, continuing as a distinct product brand. Announced via Business Wire (Atlanta) and the company's own site; Eran Levy is Managing Director of Rotem."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Freightos",
+        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Viber",
+        "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Navan",
-        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
+        "org": "Snyk",
+        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2924,44 +2935,9 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Viber",
-        "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Freightos",
-        "summary": "Reported preliminary Q3 2026 platform KPIs exceeding management expectations: a preliminary record $437 million in freight transactions passed through the platform; full Q3 results scheduled for Nov. 23, 2026."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "ControlUp",
-        "summary": "Launched the ControlUp Notification Editor, an Innovation Guild tool for creating branded, actionable Windows notifications (with up to two buttons that can trigger PowerShell scripts) deployable through ControlUp for Desktops."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "BAND",
-        "summary": "BAND launched BAND for Developers, a desktop application (complementing its terminal/CLI experience) that gives engineering teams visibility and control to manage and collaborate with multiple coding agents across different harnesses, machines and environments."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Harmony",
-        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
+        "rawKind": "Conference Presentation",
+        "org": "Navan",
+        "summary": "Held Navigate Europe 2026 in Paris, its first major European client conference, unveiling new capabilities: travel booking and expense management in Slack, local card issuing in five new currencies (15 total), video receipt scanning, SMS expense agent, and Guest Expenses."
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2969,6 +2945,13 @@
         "rawKind": "Product Launch",
         "org": "Pinecone",
         "summary": "On-demand capacity mode launched for Pinecone Bring Your Own Cloud (BYOC), letting customers create indexes without pre-sizing via dynamic sharding across a shared capacity pool in their own AWS, Google Cloud, or Azure account."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Appwrite",
+        "summary": "Appwrite announced the official Appwrite Helm chart for Kubernetes, installing self-hosted Appwrite on Kubernetes clusters with one command, published to ghcr.io under BSD 3-Clause, with managed/external PostgreSQL, Redis, ClickHouse and S3 support, ingress/Gateway API routing, and migration-on-upgrade handling."
       }
     ]
   }
