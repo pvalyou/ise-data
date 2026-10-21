@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-21T18:41:08.394377Z",
+  "generatedAt": "2026-10-21T20:45:53.754006Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -128,7 +128,7 @@
       0,
       0,
       0,
-      0,
+      1,
       4,
       2,
       3,
@@ -154,36 +154,36 @@
       0
     ],
     "newOrgs": [
-      61,
-      122,
-      132,
-      147,
-      172,
-      164,
-      22,
-      37,
+      64,
+      127,
+      135,
+      148,
+      175,
+      166,
+      23,
+      39,
       36,
       29,
-      34,
+      35,
       22,
-      189,
+      190,
       157,
-      74,
-      125,
-      121,
-      130,
-      113,
-      110,
-      107,
       75,
-      20,
+      126,
+      123,
+      135,
+      114,
+      113,
+      108,
+      78,
+      21,
       14,
       15,
       8,
       25,
-      24,
+      26,
       37,
-      16
+      20
     ],
     "exits": [
       1,
@@ -282,58 +282,58 @@
       0
     ],
     "jobsPosted": [
-      201,
-      239,
-      282,
+      199,
+      234,
+      281,
       39,
-      19,
-      121,
+      17,
+      120,
       155,
-      186,
-      167,
+      181,
+      162,
       233,
       66,
       26,
       198,
       243,
       282,
-      428,
+      427,
       330,
-      122,
-      39,
-      279,
-      285,
-      313,
-      367,
-      351,
-      93,
+      121,
+      40,
+      278,
+      286,
+      314,
+      364,
+      359,
+      131,
       50,
-      307,
-      353,
-      400,
-      133
+      303,
+      350,
+      406,
+      232
     ],
     "newFounders": [
       30,
-      56,
+      59,
       51,
       80,
-      119,
-      244,
+      120,
+      245,
       36,
       29,
       43,
       25,
-      39,
+      40,
       36,
       72,
       73,
       30,
       72,
       64,
-      71,
-      53,
-      52,
+      73,
+      54,
+      54,
       68,
       39,
       33,
@@ -343,7 +343,7 @@
       40,
       58,
       55,
-      57
+      69
     ],
     "investments": [
       7,
@@ -352,7 +352,7 @@
       0,
       0,
       0,
-      0,
+      1,
       10,
       2,
       5,
@@ -394,7 +394,9 @@
       {},
       {},
       {},
-      {},
+      {
+        "Series Unknown": 1
+      },
       {
         "Equity Crowdfunding": 1,
         "Post-IPO": 1,
@@ -492,12 +494,12 @@
     "fundingRounds": {
       "d1": 0,
       "d7": 2,
-      "d30": 37
+      "d30": 38
     },
     "newOrgs": {
       "d1": 31,
-      "d7": 139,
-      "d30": 2338
+      "d7": 145,
+      "d30": 2384
     },
     "exits": {
       "d1": 0,
@@ -515,19 +517,19 @@
       "d30": 18
     },
     "jobsPosted": {
-      "d1": 133,
-      "d7": 1687,
-      "d30": 6307
+      "d1": 232,
+      "d7": 1831,
+      "d30": 6427
     },
     "newFounders": {
-      "d1": 71,
-      "d7": 303,
-      "d30": 1718
+      "d1": 74,
+      "d7": 315,
+      "d30": 1741
     },
     "investments": {
       "d1": 0,
       "d7": 0,
-      "d30": 108
+      "d30": 109
     },
     "fundingUsd": {
       "d1": 0,
@@ -1182,6 +1184,25 @@
         "seenOn": "2026-10-21"
       },
       {
+        "company": "Rulen",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/"
+          }
+        ],
+        "amount": "\u20ac1.8 million",
+        "detail": "Italian AI tax startup Rulen (formerly LexSA) raises \u20ac1.8M in first funding round",
+        "publishedAt": "2026-10-21",
+        "seenOn": "2026-10-21"
+      },
+      {
         "company": "Photon Bridge",
         "event": "funding",
         "round": null,
@@ -1205,21 +1226,40 @@
         "seenOn": "2026-10-21"
       },
       {
-        "company": "Rulen",
+        "company": "Skyfly Technologies",
         "event": "funding",
         "round": "seed",
-        "counterparty": null,
+        "counterparty": "HICO Investment Group",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/",
+        "url": "https://www.eu-startups.com/2026/10/britains-skyfly-raises-e8-91-million-to-bring-its-two-seat-axe-evtol-to-market-and-develop-longbow-for-defence/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/britains-skyfly-raises-e8-91-million-to-bring-its-two-seat-axe-evtol-to-market-and-develop-longbow-for-defence/"
+          }
+        ],
+        "amount": "\u20ac8.91 million",
+        "detail": "British eVTOL developer Skyfly closes \u20ac8.91 million ($10M) seed round led by HICO Investment Group for its Axe eVTOL and Longbow defence aircraft.",
+        "publishedAt": "2026-10-21",
+        "seenOn": "2026-10-21"
+      },
+      {
+        "company": "Jenz",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Antler",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/",
         "sources": [
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/"
+            "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/"
           }
         ],
-        "amount": "\u20ac1.8 million",
-        "detail": "Italian AI tax startup Rulen (formerly LexSA) raises \u20ac1.8M in first funding round",
+        "amount": "\u20ac540,000",
+        "detail": "Norwegian AI retail startup Jenz raises \u20ac540K pre-seed from Antler and Ada Ventures",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-21"
       },
@@ -1243,25 +1283,6 @@
         "seenOn": "2026-10-21"
       },
       {
-        "company": "Skyfly Technologies",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "HICO Investment Group",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/britains-skyfly-raises-e8-91-million-to-bring-its-two-seat-axe-evtol-to-market-and-develop-longbow-for-defence/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/britains-skyfly-raises-e8-91-million-to-bring-its-two-seat-axe-evtol-to-market-and-develop-longbow-for-defence/"
-          }
-        ],
-        "amount": "\u20ac8.91 million",
-        "detail": "British eVTOL developer Skyfly closes \u20ac8.91 million ($10M) seed round led by HICO Investment Group for its Axe eVTOL and Longbow defence aircraft.",
-        "publishedAt": "2026-10-21",
-        "seenOn": "2026-10-21"
-      },
-      {
         "company": "EstateMin",
         "event": "funding",
         "round": "pre-seed",
@@ -1277,25 +1298,6 @@
         ],
         "amount": "\u20ac1 million",
         "detail": "LegalTech startup EstateMin raises \u20ac1 million pre-Seed to scale its AI estate-management platform in the US.",
-        "publishedAt": "2026-10-21",
-        "seenOn": "2026-10-21"
-      },
-      {
-        "company": "Jenz",
-        "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Antler",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/"
-          }
-        ],
-        "amount": "\u20ac540,000",
-        "detail": "Norwegian AI retail startup Jenz raises \u20ac540K pre-seed from Antler and Ada Ventures",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-21"
       },
@@ -1452,25 +1454,6 @@
         "seenOn": "2026-10-20"
       },
       {
-        "company": "Blackwall",
-        "event": "funding",
-        "round": "series c",
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/20/blackwall-hits-2-2b-valuation-with-100m-series-c-just-weeks-after-joining-estonia-s-unicorn-club/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/20/blackwall-hits-2-2b-valuation-with-100m-series-c-just-weeks-after-joining-estonia-s-unicorn-club/"
-          }
-        ],
-        "amount": "$100 million",
-        "detail": "Estonian web traffic platform Blackwall raises $100M Series C at $2.2B valuation",
-        "publishedAt": "2026-10-20",
-        "seenOn": "2026-10-20"
-      },
-      {
         "company": "Cellbox Solutions",
         "event": "funding",
         "round": "series a",
@@ -1509,25 +1492,21 @@
         "seenOn": "2026-10-20"
       },
       {
-        "company": "Plinto",
+        "company": "Blackwall",
         "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "People Ventures",
+        "round": "series c",
+        "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/copenhagens-plinto-raises-e2-9-million-to-help-finance-teams-catch-and-fix-errors-with-ai-agents/",
+        "url": "https://tech.eu/2026/10/20/blackwall-hits-2-2b-valuation-with-100m-series-c-just-weeks-after-joining-estonia-s-unicorn-club/",
         "sources": [
           {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/copenhagens-plinto-raises-e2-9-million-to-help-finance-teams-catch-and-fix-errors-with-ai-agents/"
-          },
-          {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/20/danish-startup-plinto-raises-eur29m-to-streamline-financial-controls/"
+            "url": "https://tech.eu/2026/10/20/blackwall-hits-2-2b-valuation-with-100m-series-c-just-weeks-after-joining-estonia-s-unicorn-club/"
           }
         ],
-        "amount": "\u20ac2.9 million",
-        "detail": "Copenhagen AI controlling startup Plinto raises \u20ac2.9 million pre-Seed led by People Ventures and Emblem.",
+        "amount": "$100 million",
+        "detail": "Estonian web traffic platform Blackwall raises $100M Series C at $2.2B valuation",
         "publishedAt": "2026-10-20",
         "seenOn": "2026-10-20"
       },
@@ -1551,6 +1530,29 @@
         ],
         "amount": "\u20ac2.78 million",
         "detail": "Espoo-based quantum hardware startup Coherence Quantum raises \u20ac2.78 million Seed for cryogenic signalling and control platform.",
+        "publishedAt": "2026-10-20",
+        "seenOn": "2026-10-20"
+      },
+      {
+        "company": "Plinto",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "People Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/copenhagens-plinto-raises-e2-9-million-to-help-finance-teams-catch-and-fix-errors-with-ai-agents/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/copenhagens-plinto-raises-e2-9-million-to-help-finance-teams-catch-and-fix-errors-with-ai-agents/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/20/danish-startup-plinto-raises-eur29m-to-streamline-financial-controls/"
+          }
+        ],
+        "amount": "\u20ac2.9 million",
+        "detail": "Copenhagen AI controlling startup Plinto raises \u20ac2.9 million pre-Seed led by People Ventures and Emblem.",
         "publishedAt": "2026-10-20",
         "seenOn": "2026-10-20"
       },
@@ -1646,16 +1648,6 @@
     {
       "ts": "2026-10-15",
       "precision": "day",
-      "target": "Rotem Computerized Controllers",
-      "acquirer": "Speria",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "rotem.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
-    },
-    {
-      "ts": "2026-10-15",
-      "precision": "day",
       "target": "Varonis",
       "acquirer": "Proofpoint, Inc.",
       "kind": "acquisition",
@@ -1664,14 +1656,24 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
     },
     {
-      "ts": "2026-10-13",
+      "ts": "2026-10-15",
       "precision": "day",
-      "target": "Paraspot",
-      "acquirer": "AppWork",
+      "target": "Rotem Computerized Controllers",
+      "acquirer": "Speria",
       "kind": "acquisition",
       "amountUsd": null,
-      "domain": "paraspot.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
+      "domain": "rotem.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
+      "target": "Geniez",
+      "acquirer": "Rocket Software",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "geniez.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
     },
     {
       "ts": "2026-10-13",
@@ -1686,12 +1688,12 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
-      "target": "Geniez",
-      "acquirer": "Rocket Software",
+      "target": "Paraspot",
+      "acquirer": "AppWork",
       "kind": "acquisition",
       "amountUsd": null,
-      "domain": "geniez.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
+      "domain": "paraspot.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-12",
@@ -1746,16 +1748,6 @@
     {
       "ts": "2026-09-28",
       "precision": "day",
-      "target": "Paragon Solutions",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "paragoncyber.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
-    },
-    {
-      "ts": "2026-09-28",
-      "precision": "day",
       "target": "Bluevine",
       "acquirer": "Valley National Bancorp",
       "kind": "acquisition",
@@ -1764,14 +1756,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/06d40513-9c0d-4408-8106-dae42b1d8179.png"
     },
     {
-      "ts": "2026-09-24",
+      "ts": "2026-09-28",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
-      "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
+      "target": "Paragon Solutions",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "paragoncyber.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
     },
     {
       "ts": "2026-09-24",
@@ -1782,6 +1774,16 @@
       "amountUsd": null,
       "domain": "wand.cloud",
       "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
+      "kind": "acquisition",
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-09-22",
@@ -1806,22 +1808,22 @@
     {
       "ts": "2026-09-14",
       "precision": "day",
-      "target": "Glass Imaging",
-      "acquirer": "OpenAI",
-      "kind": "acquisition",
-      "amountUsd": 300000000,
-      "domain": "glass-imaging.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
-    },
-    {
-      "ts": "2026-09-14",
-      "precision": "day",
       "target": "Gate Technologies",
       "acquirer": "Ondas Inc.",
       "kind": "acquisition",
       "amountUsd": 205000000,
       "domain": "gatetech.co.il",
       "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
+    },
+    {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Glass Imaging",
+      "acquirer": "OpenAI",
+      "kind": "acquisition",
+      "amountUsd": 300000000,
+      "domain": "glass-imaging.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
     },
     {
       "ts": "2026-09-10",
@@ -1866,22 +1868,22 @@
     {
       "ts": "2026-09-03",
       "precision": "day",
-      "target": "Sweep.io",
-      "acquirer": "ServiceNow",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "sweep.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02-square.jpg"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
       "amountUsd": null,
       "domain": "alzaihealth.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
+    },
+    {
+      "ts": "2026-09-03",
+      "precision": "day",
+      "target": "Sweep.io",
+      "acquirer": "ServiceNow",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "sweep.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/bdae5b27-364b-4544-8629-d2829efe5f02-square.jpg"
     },
     {
       "ts": "2026-10-12",
@@ -2117,14 +2119,6 @@
     {
       "ts": "2026-10-06",
       "kind": "granted",
-      "org": "Chain Reaction",
-      "title": "Inter stage key-switching-key reuse",
-      "number": "12756547",
-      "url": "https://patents.google.com/patent/US12756547B1/en"
-    },
-    {
-      "ts": "2026-10-06",
-      "kind": "granted",
       "org": "Classiq Technologies",
       "title": "Generating a graphical representation of a quantum circuit",
       "number": "12755175",
@@ -2137,6 +2131,14 @@
       "title": "\u8eca\u4e21\u306e\u5468\u308a\u306e\u74b0\u5883\u3092\u611f\u77e5\u3059\u308b\u305f\u3081\u306e\u30b7\u30b9\u30c6\u30e0\u53ca\u3073\u65b9\u6cd5",
       "number": "7931093",
       "url": "https://patents.google.com/patent/JP7931093B2/en"
+    },
+    {
+      "ts": "2026-10-06",
+      "kind": "granted",
+      "org": "Chain Reaction",
+      "title": "Inter stage key-switching-key reuse",
+      "number": "12756547",
+      "url": "https://patents.google.com/patent/US12756547B1/en"
     },
     {
       "ts": "2026-10-02",
@@ -2190,73 +2192,73 @@
   "jobs": [
     {
       "ts": "2026-10-21",
-      "title": "VP Finance",
-      "company": "Evogene",
-      "city": "Rehovot",
-      "url": "https://evogene.com/careers/"
+      "title": "\u05ea\u05d5\u05de\u05da/\u05ea \u05d8\u05db\u05e0\u05d9/\u05ea \u05dc-OTECH",
+      "company": "Otech",
+      "city": "Herzliya",
+      "url": "https://www.otech.co.il/about-otech/jobs/"
     },
     {
       "ts": "2026-10-21",
-      "title": "Data Scientist",
-      "company": "Start.io",
-      "city": "Netanya",
-      "url": "https://www.start.io/career/co/rd/41.263/data-scientist/all"
+      "title": "\u05e8\u05db\u05d6/\u05ea \u05d7\u05d5\u05d6\u05d9\u05dd \u05d5\u05d4\u05ea\u05e7\u05e9\u05e8\u05d5\u05d9\u05d5\u05ea \u05d1\u05d9\u05e6\u05d5\u05e2 \u05d7\u05d9\u05e4\u05d4",
+      "company": "sela binui",
+      "city": "Haifa",
+      "url": "https://selabinui.co.il/careers/"
     },
     {
       "ts": "2026-10-21",
-      "title": "Sales Director",
-      "company": "Airobotics",
-      "city": "Petah Tikva",
-      "url": "https://www.comeet.com/jobs/airobotics/AA.005/sales-director/D8.768"
+      "title": "Student/ Part time Marcom Specialist",
+      "company": "Foresight Autonomous",
+      "city": "Ness Ziona",
+      "url": "https://www.comeet.com/jobs/foresightauto/13.000/student-part-time-marcom-specialist/E4.477"
     },
     {
       "ts": "2026-10-21",
-      "title": "TEVEL Coordinator",
-      "company": "StandWithUs",
-      "city": "Jerusalem",
-      "url": "https://standwithus.com/jobs/"
+      "title": "Senior Backend Engineer \u2013 Platform",
+      "company": "Charm Security",
+      "city": "Tel Aviv",
+      "url": "https://team8.vc/career/charm-security/charm-security-senior-backend-engineer-platform/"
     },
     {
       "ts": "2026-10-21",
-      "title": "Arabic Content Creator",
-      "company": "StandWithUs",
-      "city": "Jerusalem",
-      "url": "https://standwithus.com/jobs/"
+      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05e4\u05e8\u05e1\u05d5\u05dd \u05d2\u05f3\u05d5\u05e0\u05d9\u05d5\u05e8",
+      "company": "Blanco Branding & Advertising",
+      "city": "Tel Aviv",
+      "url": "https://blancotlv.com/join-us/"
     },
     {
       "ts": "2026-10-21",
-      "title": "Tax Reviewer-Individual Department",
-      "company": "Philip Stein & Associates",
-      "city": "Jerusalem",
-      "url": "https://www.pstein.com/careers/"
+      "title": "Electrical Engineer",
+      "company": "Enlight Renewable Energy",
+      "city": "Rosh HaAyin",
+      "url": "https://www.comeet.com/jobs/enlightenergy/99.006/electrical-engineer/71.470"
     },
     {
       "ts": "2026-10-21",
-      "title": "\u05de\u05e0\u05d4\u05dc.\u05ea \u05de\u05d7\u05dc\u05e7\u05ea \u05e8\u05d5\u05e7\u05d7\u05d5\u05ea \u05d5\u05e8\u05d5\u05e7\u05d7.\u05ea \u05d0\u05d7\u05e8\u05d0\u05d9.\u05ea",
-      "company": "Novolog",
-      "city": "Modi'in",
-      "url": "https://career.adamtotal.co.il/Jobs/JobDetails?token=aTNuRmdlTy85VWMwelZBWW5nTncxYmp5bVhBVXhWa3d2UVdCQ3E4djhiSis1azhlRnQyWjRmS3o3ektROVR6anNSU2hnZ3ZrMkJxVVJiZjdCWUUyUGc9PQ%3D%3D&shr=&eid="
+      "title": "\u05de\u05e4\u05ea\u05d7/\u05ea \u05ea\u05d5\u05db\u05e0\u05d4 \u05dc\u05e6\u05d5\u05d5\u05ea \u05de\u05d5\u05dc\u05d8\u05d9-\u05d3\u05d9\u05e1\u05e6\u05d9\u05e4\u05dc\u05d9\u05e0\u05e8\u05d9 \u05d1\u05e9\u05e4\u05dc\u05d4 (SK27811)",
+      "company": "ONE Technologies",
+      "city": "Be'er Ya'akov",
+      "url": "https://www.one1.co.il/careers/"
     },
     {
       "ts": "2026-10-21",
-      "title": "\u05e1\u05de\u05e0\u05db\"\u05dc.\u05d9\u05ea \u05db\u05e1\u05e4\u05d9\u05dd \u2013 \u05e0\u05d5\u05d1\u05d5\u05dc\u05d5\u05d2 \u05dc\u05d5\u05d2\u05d9\u05e1\u05d8\u05d9\u05e7\u05d4",
-      "company": "Novolog",
-      "city": "Modi'in",
-      "url": "https://career.adamtotal.co.il/Jobs/JobDetails?token=aTNuRmdlTy85VWMwelZBWW5nTncxYmp5bVhBVXhWa3d2UVdCQ3E4djhiS1RqQWtleUtvbTFjajZoSStqZndTZWd1ZG1PNlZYWW9NT2NNdkhPZVZnUHc9PQ%3D%3D&shr=&eid="
+      "title": "(SK27809) \u05dc\u05d7\u05d1\u05e8\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e9\u05e4\u05dc\u05d4 \u05d3\u05e8\u05d5\u05e9/\u05d4 \u05de\u05d4\u05e0\u05d3\u05e1/\u05ea \u05de\u05e2\u05e8\u05db\u05ea RF",
+      "company": "ONE Technologies",
+      "city": "Be'er Ya'akov",
+      "url": "https://www.one1.co.il/careers/"
     },
     {
       "ts": "2026-10-21",
-      "title": "\u05e0\u05e6\u05d9\u05d2.\u05ea \u05e9\u05d9\u05e8\u05d5\u05ea \u05e8\u05e4\u05d5\u05d0\u05d4 \u05de\u05e9\u05dc\u05d9\u05de\u05d4",
-      "company": "Novolog",
-      "city": "Modi'in",
-      "url": "https://career.adamtotal.co.il/Jobs/JobDetails?token=aTNuRmdlTy85VWMwelZBWW5nTncxYmp5bVhBVXhWa3d2UVdCQ3E4djhiSThVOUw0MzlKaEZMaDRkVTZpZTZTWU16eUJPUXlZZkFVMGxXbkcvamQxanc9PQ%3D%3D&shr=&eid="
+      "title": "\u05de\u05d4\u05e0\u05d3\u05e1/\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05ea\u05e7\u05e9\u05d5\u05e8\u05ea \u05e1\u05dc\u05d5\u05dc\u05d0\u05e8\u05d9\u05ea \u2013 \u05d0\u05d6\u05d5\u05e8 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1 (SK27794)",
+      "company": "ONE Technologies",
+      "city": "Tel Aviv",
+      "url": "https://www.one1.co.il/careers/"
     },
     {
       "ts": "2026-10-21",
-      "title": "Business Operations Excellence Lead",
-      "company": "Vishay Precision Group",
-      "city": "Modi'in",
-      "url": "https://www.comeet.com/jobs/vpgsensors/C8.009/business-operations-excellence-lead/24.47E"
+      "title": "\u05e1\u05d8\u05d5\u05d3\u05e0\u05d8/\u05d9\u05ea \u05dc\u05d0\u05d2\u05e3 \u05de\u05e9\u05d0\u05d1\u05d9 \u05d0\u05e0\u05d5\u05e9",
+      "company": "Rambam Health Care Campus",
+      "city": "Haifa",
+      "url": "https://www.rambam.org.il/about-rambam/careers/"
     }
   ],
   "mix": {
@@ -2340,6 +2342,10 @@
         {
           "label": "Series G",
           "count": 1
+        },
+        {
+          "label": "Series Unknown",
+          "count": 1
         }
       ]
     },
@@ -2347,19 +2353,19 @@
       "d1": [
         {
           "label": "Healthcare and Food",
-          "count": 19
-        },
-        {
-          "label": "Consumer Goods and Services",
-          "count": 4
+          "count": 18
         },
         {
           "label": "IT and Telecom",
-          "count": 4
+          "count": 7
         },
         {
           "label": "Unknown",
           "count": 3
+        },
+        {
+          "label": "Consumer Goods and Services",
+          "count": 2
         },
         {
           "label": "Media and Entertainment",
@@ -2369,11 +2375,11 @@
       "d7": [
         {
           "label": "Healthcare and Food",
-          "count": 67
+          "count": 68
         },
         {
           "label": "IT and Telecom",
-          "count": 27
+          "count": 30
         },
         {
           "label": "Consumer Goods and Services",
@@ -2385,7 +2391,7 @@
         },
         {
           "label": "Unknown",
-          "count": 8
+          "count": 10
         },
         {
           "label": "Energy and Utilities",
@@ -2399,31 +2405,31 @@
       "d30": [
         {
           "label": "Consumer Goods and Services",
-          "count": 973
+          "count": 979
         },
         {
           "label": "IT and Telecom",
-          "count": 581
+          "count": 601
         },
         {
           "label": "Healthcare and Food",
-          "count": 249
+          "count": 254
         },
         {
           "label": "Media and Entertainment",
-          "count": 244
+          "count": 249
         },
         {
           "label": "Financial Services",
-          "count": 125
+          "count": 127
         },
         {
           "label": "Unknown",
-          "count": 89
+          "count": 95
         },
         {
           "label": "Energy and Utilities",
-          "count": 77
+          "count": 79
         }
       ]
     }
@@ -2461,6 +2467,18 @@
   "topHiring": {
     "d1": [
       {
+        "company": "Palo Alto Networks",
+        "count": 15,
+        "city": "Tel Aviv",
+        "domain": "paloaltonetworks.com"
+      },
+      {
+        "company": "Coralogix",
+        "count": 13,
+        "city": "Ramat Gan",
+        "domain": "coralogix.com"
+      },
+      {
         "company": "Applied Materials",
         "count": 5,
         "city": "Rehovot",
@@ -2471,24 +2489,18 @@
         "count": 5,
         "city": "Ashdod",
         "domain": "s-sarfati.co.il"
-      },
-      {
-        "company": "Sentrycs",
-        "count": 5,
-        "city": "Tel Aviv",
-        "domain": "sentrycs.com"
-      },
-      {
-        "company": "Overwolf",
-        "count": 4,
-        "city": "Ramat Gan",
-        "domain": "overwolf.com"
       }
     ],
     "d7": [
       {
+        "company": "Check Point",
+        "count": 56,
+        "city": "Tel Aviv",
+        "domain": "checkpoint.com"
+      },
+      {
         "company": "Google",
-        "count": 52,
+        "count": 55,
         "city": "Tel Aviv",
         "domain": "google.com"
       },
@@ -2503,12 +2515,6 @@
         "count": 33,
         "city": "Yokneam",
         "domain": "nvidia.com"
-      },
-      {
-        "company": "Aman Group",
-        "count": 29,
-        "city": "Sha'arei Tikva",
-        "domain": "aman.co.il"
       }
     ],
     "d30": [
