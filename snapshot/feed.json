@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-20T23:50:42.013543Z",
+  "generatedAt": "2026-10-21T01:06:07.430490Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -90,7 +90,6 @@
   },
   "activity": {
     "days": [
-      "2026-09-21",
       "2026-09-22",
       "2026-09-23",
       "2026-09-24",
@@ -119,10 +118,10 @@
       "2026-10-17",
       "2026-10-18",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "fundingRounds": [
-      0,
       3,
       4,
       1,
@@ -151,10 +150,10 @@
       0,
       0,
       1,
+      0,
       0
     ],
     "newOrgs": [
-      97,
       61,
       123,
       132,
@@ -183,10 +182,10 @@
       8,
       25,
       24,
-      34
+      37,
+      0
     ],
     "exits": [
-      0,
       1,
       0,
       2,
@@ -196,7 +195,7 @@
       2,
       0,
       0,
-      1,
+      2,
       0,
       0,
       0,
@@ -215,11 +214,11 @@
       0,
       0,
       1,
+      0,
       0
     ],
     "firstChecks": [
       0,
-      0,
       1,
       0,
       0,
@@ -243,6 +242,7 @@
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
@@ -250,7 +250,6 @@
       0
     ],
     "patentsIssued": [
-      0,
       2,
       3,
       0,
@@ -267,6 +266,7 @@
       0,
       3,
       1,
+      0,
       0,
       0,
       0,
@@ -282,7 +282,6 @@
       0
     ],
     "jobsPosted": [
-      278,
       192,
       238,
       276,
@@ -290,31 +289,31 @@
       19,
       128,
       160,
-      203,
+      202,
       174,
       246,
       68,
       26,
-      204,
-      265,
-      293,
-      439,
+      203,
+      264,
+      292,
+      435,
       336,
       121,
       45,
       289,
-      299,
+      298,
       328,
-      379,
-      353,
+      378,
+      352,
       98,
       54,
       314,
       365,
-      383
+      392,
+      1
     ],
     "newFounders": [
-      41,
       30,
       56,
       51,
@@ -343,10 +342,10 @@
       16,
       40,
       58,
-      53
+      55,
+      19
     ],
     "investments": [
-      0,
       7,
       18,
       12,
@@ -375,10 +374,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "fundingStages": [
-      {},
       {
         "Series A": 1,
         "Series C": 1,
@@ -451,10 +450,10 @@
       {
         "Series A": 1
       },
+      {},
       {}
     ],
     "fundingUsd": [
-      0,
       450000000,
       256000000,
       400000000,
@@ -483,24 +482,25 @@
       0,
       0,
       11000000,
+      0,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 6,
+      "d7": 2,
       "d30": 34
     },
     "newOrgs": {
-      "d1": 34,
-      "d7": 140,
-      "d30": 2419
+      "d1": 37,
+      "d7": 123,
+      "d30": 2325
     },
     "exits": {
       "d1": 0,
       "d7": 3,
-      "d30": 15
+      "d30": 16
     },
     "firstChecks": {
       "d1": 0,
@@ -513,23 +513,23 @@
       "d30": 18
     },
     "jobsPosted": {
-      "d1": 383,
-      "d7": 1946,
-      "d30": 6617
+      "d1": 1,
+      "d7": 1576,
+      "d30": 6338
     },
     "newFounders": {
-      "d1": 53,
-      "d7": 277,
-      "d30": 1702
+      "d1": 74,
+      "d7": 265,
+      "d30": 1682
     },
     "investments": {
       "d1": 0,
-      "d7": 10,
+      "d7": 0,
       "d30": 98
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 80000000,
+      "d7": 18000000,
       "d30": 1792000000
     }
   },
@@ -1690,16 +1690,6 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
-      "target": "IdentifAI Genetics",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "identifai-genetics.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/9e52d935-3685-4a74-81b0-21617d4340f0.jpg"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
       "target": "Paraspot",
       "acquirer": "AppWork",
       "kind": "acquisition",
@@ -1708,14 +1698,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
-      "ts": "2026-10-12",
+      "ts": "2026-10-13",
       "precision": "day",
-      "target": "Loops",
-      "acquirer": "Salesforce",
-      "kind": "acquisition",
+      "target": "IdentifAI Genetics",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null,
-      "domain": "getloops.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
+      "domain": "identifai-genetics.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/9e52d935-3685-4a74-81b0-21617d4340f0.jpg"
     },
     {
       "ts": "2026-10-12",
@@ -1726,6 +1716,16 @@
       "amountUsd": null,
       "domain": "toriihq.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/21bc99c9-4e01-4220-af6e-bd531adf758f.webp"
+    },
+    {
+      "ts": "2026-10-12",
+      "precision": "day",
+      "target": "Loops",
+      "acquirer": "Salesforce",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "getloops.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
     },
     {
       "ts": "2026-10-08",
@@ -1748,14 +1748,14 @@
       "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQH2mB0SiLTBeg/company-logo_200_200/B4DZ71k67CJQAE-/0/1782236557341/inferize_logo?e=2147483647&v=beta&t=Pc8RHn4aq0yN55z6OVV5KH_bNZNjFOinMmkAUCBbZzk"
     },
     {
-      "ts": "2026-09-28",
-      "precision": "day",
-      "target": "Paragon Solutions",
-      "acquirer": null,
-      "kind": "ipo",
+      "ts": "2026-10-01",
+      "precision": "month",
+      "target": "Vizby AI",
+      "acquirer": "Swap Commerce",
+      "kind": "acquisition",
       "amountUsd": null,
-      "domain": "paragoncyber.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
+      "domain": "vizby.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/76099f87-2a5e-4f44-b90a-622e8c3848ce.jpg"
     },
     {
       "ts": "2026-09-28",
@@ -1768,14 +1768,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/06d40513-9c0d-4408-8106-dae42b1d8179.png"
     },
     {
-      "ts": "2026-09-24",
+      "ts": "2026-09-28",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
-      "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
+      "target": "Paragon Solutions",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "paragoncyber.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
     },
     {
       "ts": "2026-09-24",
@@ -1786,6 +1786,16 @@
       "amountUsd": null,
       "domain": "wand.cloud",
       "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
+      "kind": "acquisition",
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-09-22",
@@ -1810,22 +1820,22 @@
     {
       "ts": "2026-09-14",
       "precision": "day",
-      "target": "Glass Imaging",
-      "acquirer": "OpenAI",
-      "kind": "acquisition",
-      "amountUsd": 300000000,
-      "domain": "glass-imaging.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
-    },
-    {
-      "ts": "2026-09-14",
-      "precision": "day",
       "target": "Gate Technologies",
       "acquirer": "Ondas Inc.",
       "kind": "acquisition",
       "amountUsd": 205000000,
       "domain": "gatetech.co.il",
       "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
+    },
+    {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Glass Imaging",
+      "acquirer": "OpenAI",
+      "kind": "acquisition",
+      "amountUsd": 300000000,
+      "domain": "glass-imaging.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
     },
     {
       "ts": "2026-09-10",
@@ -1866,16 +1876,6 @@
       "amountUsd": 2500000,
       "domain": "chargingrobotics.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/60963a9d-009c-4532-a4b0-978357808e0a.jpg"
-    },
-    {
-      "ts": "2026-09-03",
-      "precision": "day",
-      "target": "XTEND",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "xtend.me",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/35f207f2-69c4-4649-bfab-22f3a248ae5c.avif"
     },
     {
       "ts": "2026-09-03",
@@ -2187,21 +2187,28 @@
     {
       "ts": "2026-09-29",
       "kind": "granted",
-      "org": "IVY NEXT",
-      "title": "Air speculum",
-      "number": "12745903",
-      "url": "https://patents.google.com/patent/US12745903B2/en"
-    },
-    {
-      "ts": "2026-09-29",
-      "kind": "granted",
       "org": "Nova",
       "title": "Patterned x-ray emitting target",
       "number": "12749642",
       "url": "https://patents.google.com/patent/US12749642B2/en"
+    },
+    {
+      "ts": "2026-09-29",
+      "kind": "granted",
+      "org": "IVY NEXT",
+      "title": "Air speculum",
+      "number": "12745903",
+      "url": "https://patents.google.com/patent/US12745903B2/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-10-21",
+      "title": "Sr. Engineer - Sensor",
+      "company": "CrowdStrike",
+      "city": "Tel Aviv",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Israel---Tel-Aviv/Sr-Engineer---Sensor_R30494"
+    },
     {
       "ts": "2026-10-20",
       "title": "\u05ea\u05d7\u05e7\u05d9\u05e8\u05df /\u05d9\u05ea \u05d1\u05de\u05e9\u05e8\u05d5\u05e7\u05d9\u05ea \u05e9\u05dc \u05e2\u05d9\u05ea\u05d5\u05df \u05d2\u05dc\u05d5\u05d1\u05e1",
@@ -2264,13 +2271,6 @@
       "company": "UVision",
       "city": "Emek Hefer",
       "url": "https://uvisionuav.com/careers/co/uvision-emek-hefer/D3.472/assistant-controller/all/"
-    },
-    {
-      "ts": "2026-10-20",
-      "title": "Project Manager - LSF",
-      "company": "UVision",
-      "city": "Emek Hefer",
-      "url": "https://uvisionuav.com/careers/co/uvision-emek-hefer/F2.47D/project-manager-lsf/all/"
     }
   ],
   "mix": {
@@ -2279,18 +2279,6 @@
       "d7": [
         {
           "label": "Post-IPO",
-          "count": 2
-        },
-        {
-          "label": "Debt Financing",
-          "count": 1
-        },
-        {
-          "label": "Pre-seed",
-          "count": 1
-        },
-        {
-          "label": "Seed",
           "count": 1
         },
         {
@@ -2373,11 +2361,15 @@
       "d1": [
         {
           "label": "Healthcare and Food",
-          "count": 25
+          "count": 27
         },
         {
           "label": "Consumer Goods and Services",
           "count": 3
+        },
+        {
+          "label": "Media and Entertainment",
+          "count": 2
         },
         {
           "label": "Unknown",
@@ -2394,28 +2386,24 @@
         {
           "label": "IT and Telecom",
           "count": 1
-        },
-        {
-          "label": "Media and Entertainment",
-          "count": 1
         }
       ],
       "d7": [
         {
           "label": "Healthcare and Food",
-          "count": 57
+          "count": 58
         },
         {
           "label": "IT and Telecom",
-          "count": 31
+          "count": 23
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 25
+          "count": 18
         },
         {
           "label": "Media and Entertainment",
-          "count": 12
+          "count": 11
         },
         {
           "label": "Unknown",
@@ -2423,41 +2411,41 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Financial Services",
-          "count": 4
+          "count": 3
         }
       ],
       "d30": [
         {
           "label": "Consumer Goods and Services",
-          "count": 1006
+          "count": 971
         },
         {
           "label": "IT and Telecom",
-          "count": 609
+          "count": 577
         },
         {
           "label": "Media and Entertainment",
-          "count": 253
+          "count": 243
         },
         {
           "label": "Healthcare and Food",
-          "count": 244
+          "count": 240
         },
         {
           "label": "Financial Services",
-          "count": 133
+          "count": 127
         },
         {
           "label": "Unknown",
-          "count": 95
+          "count": 90
         },
         {
           "label": "Energy and Utilities",
-          "count": 79
+          "count": 77
         }
       ]
     }
@@ -2493,56 +2481,31 @@
     ]
   },
   "topHiring": {
-    "d1": [
-      {
-        "company": "KLA-Tencor Corporation Israel",
-        "count": 20,
-        "city": "Yavne",
-        "domain": "kla.com"
-      },
-      {
-        "company": "UVision",
-        "count": 17,
-        "city": "Emek Hefer",
-        "domain": "uvisionuav.com"
-      },
-      {
-        "company": "Nvidia",
-        "count": 14,
-        "city": "Yokneam",
-        "domain": "nvidia.com"
-      },
-      {
-        "company": "Google",
-        "count": 9,
-        "city": "Tel Aviv",
-        "domain": "google.com"
-      }
-    ],
+    "d1": [],
     "d7": [
       {
         "company": "Google",
-        "count": 63,
+        "count": 52,
         "city": "Tel Aviv",
         "domain": "google.com"
       },
       {
         "company": "Elad Software Systems",
-        "count": 54,
+        "count": 44,
         "city": "Tel Aviv",
         "domain": "eladsoft.com"
       },
       {
         "company": "Nvidia",
-        "count": 44,
+        "count": 36,
         "city": "Yokneam",
         "domain": "nvidia.com"
       },
       {
-        "company": "Amazon",
-        "count": 36,
-        "city": "Tel Aviv",
-        "domain": "amazon.com"
+        "company": "Aman Group",
+        "count": 28,
+        "city": "Sha'arei Tikva",
+        "domain": "aman.co.il"
       }
     ],
     "d30": [
@@ -2551,12 +2514,6 @@
         "count": 198,
         "city": "Lod",
         "domain": "iai.co.il"
-      },
-      {
-        "company": "Elad Software Systems",
-        "count": 196,
-        "city": "Tel Aviv",
-        "domain": "eladsoft.com"
       },
       {
         "company": "Google",
@@ -2569,6 +2526,12 @@
         "count": 149,
         "city": "Tel Aviv",
         "domain": "amazon.com"
+      },
+      {
+        "company": "Aman Group",
+        "count": 142,
+        "city": "Sha'arei Tikva",
+        "domain": "aman.co.il"
       }
     ]
   },
