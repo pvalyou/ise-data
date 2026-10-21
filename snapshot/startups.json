@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:39:53.026Z",
+  "generatedAt": "2026-10-21T21:08:55.086Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -175,16 +175,16 @@
       "avgPerStartup": 30
     },
     "patents": {
-      "total": 193891,
+      "total": 193907,
       "delta30d": 0
     },
-    "openJobs": 23798
+    "openJobs": 23852
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7360
+        "count": 7362
       },
       {
         "name": "Central",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4575
+        "count": 4576
       },
       {
         "name": "Herzliya",
@@ -336,7 +336,7 @@
         "district": "Tel Aviv",
         "lat": 32.0167,
         "lng": 34.7667,
-        "count": 198
+        "count": 199
       },
       {
         "name": "Caesarea",
@@ -2218,13 +2218,14 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 4,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2250,25 +2251,13 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
         "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Undecimal Bio",
-        "stage": "Seed",
-        "amountUsd": 18000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - $18 million oversubscribed"
+        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2283,13 +2272,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Pluto Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 7,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2300,6 +2290,16 @@
         "investorCount": 0,
         "isNonEquity": false,
         "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Pluto Security",
+        "stage": "Series A",
+        "amountUsd": 34000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2314,38 +2314,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "IPO",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "IPO"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Rein",
-        "stage": "Series A",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 5,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Soda Labs",
         "stage": "Seed",
         "amountUsd": 3000000,
@@ -2354,6 +2322,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Cando Drones",
+        "stage": "IPO",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "IPO"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2378,6 +2357,27 @@
         "roundTitle": "Strategic investment by Athletes First"
       },
       {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Rein",
+        "stage": "Series A",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 5,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
         "ts": "2026-10-07T00:00:00.000Z",
         "org": "Candid",
         "stage": "Corporate Round",
@@ -2390,17 +2390,6 @@
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
-        "org": "QualityLine Production Technologies",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
-      },
-      {
-        "ts": "2026-10-06T00:00:00.000Z",
         "org": "Capitolis",
         "stage": "Series E",
         "amountUsd": 120000000,
@@ -2409,6 +2398,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series E"
+      },
+      {
+        "ts": "2026-10-06T00:00:00.000Z",
+        "org": "QualityLine Production Technologies",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
       }
     ],
     "todayStats": {
@@ -2832,13 +2832,6 @@
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Resolight",
-        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "IMDT",
         "summary": "Expanded its pin-to-pin compatible SOM portfolio powered by the Qualcomm Dragonwing Q7 Series family with a new Dragonwing Q-7790 SOM; four IMDT SOMs now share one carrier board footprint, spanning AI performance tiers of up to 48 dense TOPS."
       },
@@ -2850,11 +2843,18 @@
         "summary": "Acquired Guru, a broker-dealer in Brazil regulated by the Central Bank of Brazil."
       },
       {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Resolight",
+        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
+      },
+      {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Eloxx Pharmaceuticals",
-        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
+        "rawKind": "R&D Milestone",
+        "org": "Momentick",
+        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2862,6 +2862,13 @@
         "rawKind": "Report Release",
         "org": "Alison.ai",
         "summary": "Published the Alison.ai Creative Intelligence Report: Black Friday & Holiday Retail, analyzing Meta (Reels and Advantage+ Shopping) creative performance in the early-access holiday window."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Eloxx Pharmaceuticals",
+        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2880,13 +2887,6 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "VAST Data",
-        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Optimove",
         "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
@@ -2894,9 +2894,9 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Momentick",
-        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
+        "rawKind": "Strategic Partnership",
+        "org": "VAST Data",
+        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
       },
       {
         "ts": "2026-10-18T00:00:00.000Z",
@@ -2911,6 +2911,13 @@
         "rawKind": "Customer Milestone",
         "org": "Popai Health",
         "summary": "Published a case study with New Horizon Counseling Center: NHCC cut documentation time by 67% to 89% and raised billable services 6-8 percentage points using Popai's platform in its Health Home Program."
+      },
+      {
+        "ts": "2026-10-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "Speria",
+        "summary": "Per EFN reports, parent Munters has begun the sale process of its FoodTech business (Speria), setting a deadline for indicative bids at the end of October 2026; press estimates value the business at SEK 3.9-6 billion (LTM revenue ~SEK 1.8bn, adj. EBITA ~SEK 295m). Follows the June 16, 2026 announcement exploring the divestment."
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
@@ -2934,13 +2941,6 @@
         "summary": "Launched Datarails Spend, an end-to-end AI-powered spend management product that ties every dollar of corporate spending back to the financial plan."
       },
       {
-        "ts": "2026-10-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Speria",
-        "summary": "Per EFN reports, parent Munters has begun the sale process of its FoodTech business (Speria), setting a deadline for indicative bids at the end of October 2026; press estimates value the business at SEK 3.9-6 billion (LTM revenue ~SEK 1.8bn, adj. EBITA ~SEK 295m). Follows the June 16, 2026 announcement exploring the divestment."
-      },
-      {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Revenue Milestone",
@@ -2950,23 +2950,23 @@
       {
         "ts": "2026-10-15T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Harmony",
+        "summary": "Launched Harmony for HR: AI agents that answer and complete HR requests (benefits, time off, onboarding, referrals) in Slack and Microsoft Teams on top of existing HR systems including Workday, HiBob, UKG Pro, and SAP SuccessFactors. Showcased at the HR Technology Conference & Expo in Las Vegas (Oct 20-22), with a launch webinar on November 5 hosted by CTO Ran Ribenzaft."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Revenue Milestone",
+        "org": "Viber",
+        "summary": "The Philippines became Viber's top market for paid subscriptions (Viber Plus), its largest premium revenue market, with average daily time spent on the platform up 24%."
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Conference Presentation",
         "org": "Navan",
         "summary": "Held Navigate Europe 2026 in Paris, its first major European client conference, unveiling new capabilities: travel booking and expense management in Slack, local card issuing in five new currencies (15 total), video receipt scanning, SMS expense agent, and Guest Expenses."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Snyk",
-        "summary": "Snyk launched Evo Agentic AppSec, a team of AI security agents (Code Scanning Agent, Dependency Firewall, Agentic Security Review, Remediation Agent, Secrets Detection) that finds, fixes and blocks vulnerabilities at machine speed with independent verification, complementing the previously released Evo Agentic Development Security."
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "BAND",
-        "summary": "BAND launched BAND for Developers, a desktop application (complementing its terminal/CLI experience) that gives engineering teams visibility and control to manage and collaborate with multiple coding agents across different harnesses, machines and environments."
       }
     ]
   }
