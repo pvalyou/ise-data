@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T10:07:03.853Z",
+  "generatedAt": "2026-10-22T11:31:16.688Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -171,14 +171,14 @@
       "valueUsd": 328637071600
     },
     "employees": {
-      "total": 854617,
+      "total": 854616,
       "avgPerStartup": 30
     },
     "patents": {
       "total": 194795,
       "delta30d": 0
     },
-    "openJobs": 24040
+    "openJobs": 24004
   },
   "map": {
     "districts": [
@@ -2229,14 +2229,24 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Navan",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
         "investors": [],
         "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Debt Financing 2026"
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2251,34 +2261,14 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
+        "org": "Navan",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Pluto Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Debt Financing 2026"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2313,6 +2303,16 @@
         "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Pluto Security",
+        "stage": "Series A",
+        "amountUsd": 34000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
         "ts": "2026-10-12T00:00:00.000Z",
         "org": "Fibrotex",
         "stage": "Private Equity",
@@ -2322,17 +2322,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "CVC Catalyst III acquires 40% minority stake from Blum family (pending closing)"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2358,17 +2347,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "PlayVault",
         "stage": "Corporate Round",
         "amountUsd": 0,
@@ -2390,6 +2368,28 @@
         "roundTitle": "Seed Round"
       },
       {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Soda Labs",
+        "stage": "Seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed Round"
+      },
+      {
         "ts": "2026-10-07T00:00:00.000Z",
         "org": "Candid",
         "stage": "Corporate Round",
@@ -2402,14 +2402,14 @@
       },
       {
         "ts": "2026-10-06T00:00:00.000Z",
-        "org": "Capitolis",
-        "stage": "Series E",
-        "amountUsd": 120000000,
+        "org": "QualityLine Production Technologies",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 9,
-        "isVcBacked": true,
+        "investorCount": 1,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Series E"
+        "roundTitle": "Strategic investment by Circuit Check (partial ownership position)"
       }
     ],
     "todayStats": {
@@ -2873,30 +2873,23 @@
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Appcharge",
-        "summary": "Appointed Ronen Morecki as Chief Operating Officer; he joins from monday.com where he was VP of Payments, and will lead payments strategy and Merchant of Record expansion."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Cellebrite",
         "summary": "Announced its Autumn 2026 Release, led by Genesis agentic AI with expanded device and OS access, on-premises Genesis (expected early 2027), AI-based CDR analysis in Pathfinder, Corellium Falcon Mirror Add-on, next-generation DJI drone forensics (CFID v4), Guardian storage/governance enhancements, and the Cellebrite Tactical Extraction Kit (C-Tek) field kit."
       },
       {
-        "ts": "2026-10-20T00:00:00.000Z",
+        "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Contel Smart Energy",
-        "summary": "Contel Smart Energy joined the CODESYS global partner network as an official CODESYS System Partner, leveraging the CODESYS industrial automation software platform within its energy management and control solutions for greater hardware independence and flexible project delivery."
+        "rawKind": "Executive Appointment",
+        "org": "Appcharge",
+        "summary": "Appointed Ronen Morecki as Chief Operating Officer; he joins from monday.com where he was VP of Payments, and will lead payments strategy and Merchant of Record expansion."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Maris-Tech",
+        "summary": "Launched Uranus-Drones-V2, a compact video and AI processing platform for UAVs, supporting up to four UHD camera inputs (eight total) with over 30 TOPS processing, direct autopilot integration, and onboard inertial/environmental sensors for autonomous flight functionality in surveillance, tracking, and loitering munitions applications."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2908,9 +2901,9 @@
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "IMDT",
-        "summary": "Expanded its pin-to-pin compatible SOM portfolio powered by the Qualcomm Dragonwing Q7 Series family with a new Dragonwing Q-7790 SOM; four IMDT SOMs now share one carrier board footprint, spanning AI performance tiers of up to 48 dense TOPS."
+        "rawKind": "Strategic Partnership",
+        "org": "Contel Smart Energy",
+        "summary": "Contel Smart Energy joined the CODESYS global partner network as an official CODESYS System Partner, leveraging the CODESYS industrial automation software platform within its energy management and control solutions for greater hardware independence and flexible project delivery."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2927,25 +2920,18 @@
         "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
       },
       {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Momentick",
-        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "ALZAI Health",
+        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
       },
       {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "VAST Data",
-        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
+        "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "QIZ",
-        "summary": "QIZ's Cryptography Posture Management platform became available for purchase on the CrowdStrike Marketplace, announced via Business Wire on October 19, 2026."
+        "org": "IMDT",
+        "summary": "Expanded its pin-to-pin compatible SOM portfolio powered by the Qualcomm Dragonwing Q7 Series family with a new Dragonwing Q-7790 SOM; four IMDT SOMs now share one carrier board footprint, spanning AI performance tiers of up to 48 dense TOPS."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2957,9 +2943,9 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Eloxx Pharmaceuticals",
-        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
+        "rawKind": "Strategic Partnership",
+        "org": "VAST Data",
+        "summary": "Hyperfusion's Sentinel integrates the VAST AI Operating System to deliver secure, sovereign AI inference in containerized data centers, accelerating AI infrastructure deployment from years to weeks."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2967,6 +2953,27 @@
         "rawKind": "Report Release",
         "org": "Alison.ai",
         "summary": "Published the Alison.ai Creative Intelligence Report: Black Friday & Holiday Retail, analyzing Meta (Reels and Advantage+ Shopping) creative performance in the early-access holiday window."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Eloxx Pharmaceuticals",
+        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Momentick",
+        "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "QIZ",
+        "summary": "QIZ's Cryptography Posture Management platform became available for purchase on the CrowdStrike Marketplace, announced via Business Wire on October 19, 2026."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2985,9 +2992,9 @@
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Popai Health",
-        "summary": "Published a case study with New Horizon Counseling Center: NHCC cut documentation time by 67% to 89% and raised billable services 6-8 percentage points using Popai's platform in its Health Home Program."
+        "rawKind": "Product Launch",
+        "org": "Navan",
+        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
@@ -2999,16 +3006,9 @@
       {
         "ts": "2026-10-16T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Navan",
-        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
-      },
-      {
-        "ts": "2026-10-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Gong",
-        "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
+        "rawKind": "Customer Milestone",
+        "org": "Popai Health",
+        "summary": "Published a case study with New Horizon Counseling Center: NHCC cut documentation time by 67% to 89% and raised billable services 6-8 percentage points using Popai's platform in its Health Home Program."
       }
     ]
   }
