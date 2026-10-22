@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:06:18.563Z",
+  "generatedAt": "2026-10-22T10:04:16.642Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39004,
-      "delta24h": 18
+      "delta24h": 16
     },
     "totalFunding": {
       "valueUsd": 231671913291,
@@ -2240,13 +2240,14 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
+        "org": "Navan",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
         "investors": [],
         "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Debt Financing 2026"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2261,35 +2262,13 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Navan",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Debt Financing 2026"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "IdentifAI Genetics",
-        "stage": "IPO",
-        "amountUsd": 6600000,
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
         "investors": [],
         "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Undecimal Bio",
-        "stage": "Seed",
-        "amountUsd": 18000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - $18 million oversubscribed"
+        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2304,6 +2283,16 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
+        "org": "IdentifAI Genetics",
+        "stage": "IPO",
+        "amountUsd": 6600000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
         "org": "Pluto Security",
         "stage": "Series A",
         "amountUsd": 34000000,
@@ -2311,6 +2300,17 @@
         "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2330,17 +2330,6 @@
         "amountUsd": 25000000,
         "investors": [],
         "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "BloomX",
-        "stage": "Series A",
-        "amountUsd": 13000000,
-        "investors": [],
-        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2369,14 +2358,14 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "PlayVault",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
+        "investorCount": 7,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Athletes First"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
@@ -2388,6 +2377,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "PlayVault",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Athletes First"
       },
       {
         "ts": "2026-10-07T00:00:00.000Z",
@@ -2887,23 +2887,9 @@
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Slice",
-        "summary": "Announced a strategic partnership with Papaya Global connecting global payroll with global equity: companies using Papaya's payroll, EOR, COR and contractor services can grant and manage equity through Slice, with equity events handled end to end from tax calculation to payout. Papaya also runs its own equity on Slice as a customer."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Contel Smart Energy",
-        "summary": "Contel Smart Energy joined the CODESYS global partner network as an official CODESYS System Partner, leveraging the CODESYS industrial automation software platform within its energy management and control solutions for greater hardware independence and flexible project delivery."
+        "rawKind": "Product Launch",
+        "org": "Resolight",
+        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2922,9 +2908,23 @@
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Resolight",
-        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
+        "rawKind": "Strategic Partnership",
+        "org": "Contel Smart Energy",
+        "summary": "Contel Smart Energy joined the CODESYS global partner network as an official CODESYS System Partner, leveraging the CODESYS industrial automation software platform within its energy management and control solutions for greater hardware independence and flexible project delivery."
+      },
+      {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "IPO and Public Listing",
+        "org": "ALZAI Health",
+        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
+      },
+      {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Slice",
+        "summary": "Announced a strategic partnership with Papaya Global connecting global payroll with global equity: companies using Papaya's payroll, EOR, COR and contractor services can grant and manage equity through Slice, with equity events handled end to end from tax calculation to payout. Papaya also runs its own equity on Slice as a customer."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2936,30 +2936,23 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Optimove",
-        "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Eloxx Pharmaceuticals",
-        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Alison.ai",
-        "summary": "Published the Alison.ai Creative Intelligence Report: Black Friday & Holiday Retail, analyzing Meta (Reels and Advantage+ Shopping) creative performance in the early-access holiday window."
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "R&D Milestone",
         "org": "Momentick",
         "summary": "Results published in a Nature study: Momentick detected a 9.47 kg/hr methane release using WorldView-3 imagery and achieved a 100% detection rate in the Tanager-1 phase, showing remote sensing can identify small leaks without on-site equipment."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "QIZ",
+        "summary": "QIZ's Cryptography Posture Management platform became available for purchase on the CrowdStrike Marketplace, announced via Business Wire on October 19, 2026."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Optimove",
+        "summary": "Launched Optimove Content Studio to help marketers keep AI-era content on-brand and personalized at scale."
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
@@ -2971,9 +2964,16 @@
       {
         "ts": "2026-10-19T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "QIZ",
-        "summary": "QIZ's Cryptography Posture Management platform became available for purchase on the CrowdStrike Marketplace, announced via Business Wire on October 19, 2026."
+        "rawKind": "Report Release",
+        "org": "Alison.ai",
+        "summary": "Published the Alison.ai Creative Intelligence Report: Black Friday & Holiday Retail, analyzing Meta (Reels and Advantage+ Shopping) creative performance in the early-access holiday window."
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Eloxx Pharmaceuticals",
+        "summary": "Appointed biopharmaceutical industry veteran Geno Germano to its Board of Directors; Germano brings over 35 years of experience including as Group President of Pfizer's Global Innovative Pharmaceutical business, and serves as Chairman of Entera Bio and director of Precision BioSciences."
       },
       {
         "ts": "2026-10-18T00:00:00.000Z",
@@ -2981,13 +2981,6 @@
         "rawKind": "Strategic Partnership",
         "org": "1stProtect",
         "summary": "1stProtect signed a distributorship agreement with Daiwabo Information System (DIS) and 1stProtect Japan GK, launching sales of its Prevention-by-Default endpoint security and AI agent security solutions in the Japanese market."
-      },
-      {
-        "ts": "2026-10-16T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Navan",
-        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
@@ -3009,6 +3002,13 @@
         "rawKind": "Award Recognition",
         "org": "Gong",
         "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration for the second consecutive year, positioned highest for Ability to Execute and furthest for Completeness of Vision."
+      },
+      {
+        "ts": "2026-10-16T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Navan",
+        "summary": "Deployed NVIDIA Nemotron 3.5 Super VL to power several of its AI travel agents in production, advancing its open-model AI strategy with NVIDIA."
       }
     ]
   }
