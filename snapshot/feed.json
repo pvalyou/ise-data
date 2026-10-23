@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-23T06:35:48.946757Z",
+  "generatedAt": "2026-10-23T07:07:24.527328Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       1,
       1,
       0,
-      2,
+      3,
       0
     ],
     "newOrgs": [
@@ -183,7 +183,7 @@
       37,
       22,
       12,
-      0
+      2
     ],
     "exits": [
       2,
@@ -343,7 +343,7 @@
       55,
       71,
       30,
-      0
+      1
     ],
     "investments": [
       12,
@@ -374,7 +374,7 @@
       0,
       3,
       0,
-      3,
+      5,
       0
     ],
     "fundingStages": [
@@ -449,6 +449,7 @@
       },
       {},
       {
+        "Seed": 1,
         "Series A": 2
       },
       {}
@@ -489,13 +490,13 @@
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 4,
-      "d30": 34
+      "d7": 5,
+      "d30": 35
     },
     "newOrgs": {
-      "d1": 5,
-      "d7": 130,
-      "d30": 2207
+      "d1": 7,
+      "d7": 132,
+      "d30": 2209
     },
     "exits": {
       "d1": 0,
@@ -518,14 +519,14 @@
       "d30": 6512
     },
     "newFounders": {
-      "d1": 23,
-      "d7": 270,
-      "d30": 1684
+      "d1": 24,
+      "d7": 271,
+      "d30": 1685
     },
     "investments": {
       "d1": 0,
-      "d7": 6,
-      "d30": 90
+      "d7": 8,
+      "d30": 92
     },
     "fundingUsd": {
       "d1": 0,
@@ -1622,6 +1623,16 @@
     {
       "ts": "2026-10-15",
       "precision": "day",
+      "target": "Varonis",
+      "acquirer": "Proofpoint, Inc.",
+      "kind": "acquisition",
+      "amountUsd": 6300000000,
+      "domain": "varonis.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
+    },
+    {
+      "ts": "2026-10-15",
+      "precision": "day",
       "target": "Rotem Computerized Controllers",
       "acquirer": "Speria",
       "kind": "acquisition",
@@ -1630,14 +1641,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
     },
     {
-      "ts": "2026-10-15",
+      "ts": "2026-10-13",
       "precision": "day",
-      "target": "Varonis",
-      "acquirer": "Proofpoint, Inc.",
+      "target": "Paraspot",
+      "acquirer": "AppWork",
       "kind": "acquisition",
-      "amountUsd": 6300000000,
-      "domain": "varonis.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
+      "amountUsd": null,
+      "domain": "paraspot.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-13",
@@ -1658,16 +1669,6 @@
       "amountUsd": null,
       "domain": "geniez.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
-      "target": "Paraspot",
-      "acquirer": "AppWork",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "paraspot.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-12",
@@ -1722,22 +1723,22 @@
     {
       "ts": "2026-09-28",
       "precision": "day",
-      "target": "Paragon Solutions",
-      "acquirer": null,
-      "kind": "ipo",
-      "amountUsd": null,
-      "domain": "paragoncyber.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
-    },
-    {
-      "ts": "2026-09-28",
-      "precision": "day",
       "target": "Bluevine",
       "acquirer": "Valley National Bancorp",
       "kind": "acquisition",
       "amountUsd": 340000000,
       "domain": "bluevine.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/06d40513-9c0d-4408-8106-dae42b1d8179.png"
+    },
+    {
+      "ts": "2026-09-28",
+      "precision": "day",
+      "target": "Paragon Solutions",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "paragoncyber.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/31a0a3bc-3d43-4e1b-bc69-a7ef0c78d611.avif"
     },
     {
       "ts": "2026-09-24",
@@ -1802,22 +1803,22 @@
     {
       "ts": "2026-09-14",
       "precision": "day",
-      "target": "Gate Technologies",
-      "acquirer": "Ondas Inc.",
-      "kind": "acquisition",
-      "amountUsd": 205000000,
-      "domain": "gatetech.co.il",
-      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
-    },
-    {
-      "ts": "2026-09-14",
-      "precision": "day",
       "target": "Glass Imaging",
       "acquirer": "OpenAI",
       "kind": "acquisition",
       "amountUsd": 300000000,
       "domain": "glass-imaging.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
+    },
+    {
+      "ts": "2026-09-14",
+      "precision": "day",
+      "target": "Gate Technologies",
+      "acquirer": "Ondas Inc.",
+      "kind": "acquisition",
+      "amountUsd": 205000000,
+      "domain": "gatetech.co.il",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
     },
     {
       "ts": "2026-09-10",
@@ -1934,6 +1935,22 @@
     }
   ],
   "investments": [
+    {
+      "ts": "2026-10-22",
+      "investor": "Bill Ackman",
+      "company": "Two Delta",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "Eric Schmidt",
+      "company": "Two Delta",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
     {
       "ts": "2026-10-22",
       "investor": "David Phelps",
@@ -2077,22 +2094,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "ansa.co"
-    },
-    {
-      "ts": "2026-10-13",
-      "investor": "Jump Capital",
-      "company": "Pluto Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "jumpcap.com"
-    },
-    {
-      "ts": "2026-10-13",
-      "investor": "Skinos Ventures",
-      "company": "Pluto Security",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "skinos.vc"
     }
   ],
   "patents": [
@@ -2115,18 +2116,18 @@
     {
       "ts": "2026-10-06",
       "kind": "granted",
-      "org": "Vayyar Imaging",
-      "title": "\u8eca\u4e21\u306e\u5468\u308a\u306e\u74b0\u5883\u3092\u611f\u77e5\u3059\u308b\u305f\u3081\u306e\u30b7\u30b9\u30c6\u30e0\u53ca\u3073\u65b9\u6cd5",
-      "number": "7931093",
-      "url": "https://patents.google.com/patent/JP7931093B2/en"
-    },
-    {
-      "ts": "2026-10-06",
-      "kind": "granted",
       "org": "Classiq Technologies",
       "title": "Generating a graphical representation of a quantum circuit",
       "number": "12755175",
       "url": "https://patents.google.com/patent/US12755175B2/en"
+    },
+    {
+      "ts": "2026-10-06",
+      "kind": "granted",
+      "org": "Vayyar Imaging",
+      "title": "\u8eca\u4e21\u306e\u5468\u308a\u306e\u74b0\u5883\u3092\u611f\u77e5\u3059\u308b\u305f\u3081\u306e\u30b7\u30b9\u30c6\u30e0\u53ca\u3073\u65b9\u6cd5",
+      "number": "7931093",
+      "url": "https://patents.google.com/patent/JP7931093B2/en"
     },
     {
       "ts": "2026-10-02",
@@ -2147,18 +2148,18 @@
     {
       "ts": "2026-09-30",
       "kind": "granted",
-      "org": "Lumus",
-      "title": "Method of fabrication of compound light-guide optical elements",
-      "number": "4325277",
-      "url": "https://patents.google.com/patent/EP4325277B1/en"
-    },
-    {
-      "ts": "2026-09-30",
-      "kind": "granted",
       "org": "Stratasys",
       "title": "Method for producing an object manufactured and treated using additive processes",
       "number": "3880441",
       "url": "https://patents.google.com/patent/EP3880441B8/en"
+    },
+    {
+      "ts": "2026-09-30",
+      "kind": "granted",
+      "org": "Lumus",
+      "title": "Method of fabrication of compound light-guide optical elements",
+      "number": "4325277",
+      "url": "https://patents.google.com/patent/EP4325277B1/en"
     },
     {
       "ts": "2026-09-29",
@@ -2172,9 +2173,9 @@
       "ts": "2026-09-29",
       "kind": "granted",
       "org": "SUNRISE MEMORY",
-      "title": "\u30ef\u30fc\u30c9\u7dda\u9078\u629e\u88c5\u7f6e\u3092\u5099\u3048\u305f\uff13\u6b21\u5143\uff4e\uff4f\uff52\u30e1\u30e2\u30ea\u30b9\u30c8\u30ea\u30f3\u30b0\u306e\u30e1\u30e2\u30ea\u30a2\u30ec\u30a4",
-      "number": "7926312",
-      "url": "https://patents.google.com/patent/JP7926312B2/en"
+      "title": "Three-dimensional nor memory string array of thin-film ferroelectric transistor",
+      "number": "7926311",
+      "url": "https://patents.google.com/patent/JP7926311B2/en"
     }
   ],
   "jobs": [
@@ -2256,6 +2257,10 @@
         {
           "label": "Series A",
           "count": 4
+        },
+        {
+          "label": "Seed",
+          "count": 1
         }
       ],
       "d30": [
@@ -2264,11 +2269,11 @@
           "count": 8
         },
         {
-          "label": "Corporate Round",
-          "count": 4
+          "label": "Seed",
+          "count": 5
         },
         {
-          "label": "Seed",
+          "label": "Corporate Round",
           "count": 4
         },
         {
@@ -2325,7 +2330,7 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Healthcare and Food",
@@ -2333,6 +2338,10 @@
         },
         {
           "label": "Media and Entertainment",
+          "count": 1
+        },
+        {
+          "label": "Unknown",
           "count": 1
         }
       ],
@@ -2343,18 +2352,18 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Media and Entertainment",
           "count": 10
         },
         {
-          "label": "Consumer Goods and Services",
-          "count": 9
+          "label": "Unknown",
+          "count": 10
         },
         {
-          "label": "Unknown",
+          "label": "Consumer Goods and Services",
           "count": 9
         },
         {
@@ -2373,7 +2382,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 552
+          "count": 553
         },
         {
           "label": "Healthcare and Food",
@@ -2389,7 +2398,7 @@
         },
         {
           "label": "Unknown",
-          "count": 91
+          "count": 92
         },
         {
           "label": "Energy and Utilities",
