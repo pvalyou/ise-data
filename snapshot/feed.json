@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-23T09:16:10.722515Z",
+  "generatedAt": "2026-10-23T10:00:49.792799Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -150,7 +150,7 @@
       1,
       1,
       0,
-      3,
+      4,
       0
     ],
     "newOrgs": [
@@ -183,7 +183,7 @@
       37,
       22,
       12,
-      3
+      5
     ],
     "exits": [
       2,
@@ -207,7 +207,7 @@
       2,
       3,
       0,
-      2,
+      3,
       0,
       0,
       0,
@@ -246,7 +246,7 @@
       0,
       0,
       0,
-      0,
+      3,
       0
     ],
     "patentsIssued": [
@@ -343,7 +343,7 @@
       55,
       71,
       30,
-      1
+      9
     ],
     "investments": [
       12,
@@ -374,7 +374,7 @@
       0,
       3,
       0,
-      5,
+      37,
       0
     ],
     "fundingStages": [
@@ -450,7 +450,8 @@
       {},
       {
         "Seed": 1,
-        "Series A": 2
+        "Series A": 2,
+        "Series Unknown": 1
       },
       {}
     ],
@@ -483,30 +484,30 @@
       11000000,
       7000000,
       0,
-      51000000,
+      266000000,
       0
     ]
   },
   "totals": {
     "fundingRounds": {
       "d1": 0,
-      "d7": 5,
-      "d30": 35
+      "d7": 6,
+      "d30": 36
     },
     "newOrgs": {
-      "d1": 8,
-      "d7": 133,
-      "d30": 2210
+      "d1": 10,
+      "d7": 135,
+      "d30": 2212
     },
     "exits": {
       "d1": 0,
       "d7": 2,
-      "d30": 16
+      "d30": 17
     },
     "firstChecks": {
       "d1": 0,
-      "d7": 0,
-      "d30": 1
+      "d7": 3,
+      "d30": 4
     },
     "patentsIssued": {
       "d1": 0,
@@ -519,19 +520,19 @@
       "d30": 6510
     },
     "newFounders": {
-      "d1": 24,
-      "d7": 271,
-      "d30": 1685
+      "d1": 32,
+      "d7": 279,
+      "d30": 1693
     },
     "investments": {
       "d1": 0,
-      "d7": 8,
-      "d30": 92
+      "d7": 40,
+      "d30": 124
     },
     "fundingUsd": {
       "d1": 0,
-      "d7": 69000000,
-      "d30": 1203000000
+      "d7": 284000000,
+      "d30": 1418000000
     }
   },
   "news": {
@@ -1633,22 +1634,22 @@
     {
       "ts": "2026-10-15",
       "precision": "day",
+      "target": "Varonis",
+      "acquirer": "Proofpoint",
+      "kind": "acquisition",
+      "amountUsd": 6300000000,
+      "domain": "varonis.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
+    },
+    {
+      "ts": "2026-10-15",
+      "precision": "day",
       "target": "Rotem Computerized Controllers",
       "acquirer": "Speria",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "rotem.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
-      "target": "Geniez",
-      "acquirer": "Rocket Software",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "geniez.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
     },
     {
       "ts": "2026-10-13",
@@ -1663,6 +1664,16 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
+      "target": "Geniez",
+      "acquirer": "Rocket Software",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "geniez.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
       "target": "IdentifAI Genetics",
       "acquirer": null,
       "kind": "ipo",
@@ -1673,22 +1684,22 @@
     {
       "ts": "2026-10-12",
       "precision": "day",
-      "target": "Loops",
-      "acquirer": "Salesforce",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "getloops.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
-    },
-    {
-      "ts": "2026-10-12",
-      "precision": "day",
       "target": "Torii",
       "acquirer": "Freshworks Inc.",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "toriihq.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/21bc99c9-4e01-4220-af6e-bd531adf758f.webp"
+    },
+    {
+      "ts": "2026-10-12",
+      "precision": "day",
+      "target": "Loops",
+      "acquirer": "Salesforce",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "getloops.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
     },
     {
       "ts": "2026-10-08",
@@ -1743,22 +1754,22 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
-      "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "Wand",
       "acquirer": "groundcover",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "wand.cloud",
       "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
+      "kind": "acquisition",
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-09-22",
@@ -1769,6 +1780,16 @@
       "amountUsd": 500000000,
       "domain": "realsenseai.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/bf2bb446-40ae-4c91-84ee-baf3572b6867.avif"
+    },
+    {
+      "ts": "2026-09-15",
+      "precision": "day",
+      "target": "Alma K. Cosmetics",
+      "acquirer": "Nili Capital",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "alma-k.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/97d4348c-a400-471c-b094-cac10a9a3fb6.webp"
     },
     {
       "ts": "2026-09-15",
@@ -1791,14 +1812,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/97d4348c-a400-471c-b094-cac10a9a3fb6.webp"
     },
     {
-      "ts": "2026-09-15",
+      "ts": "2026-09-14",
       "precision": "day",
-      "target": "Alma K. Cosmetics",
-      "acquirer": "Nili Capital",
+      "target": "Glass Imaging",
+      "acquirer": "OpenAI",
       "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "alma-k.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/97d4348c-a400-471c-b094-cac10a9a3fb6.webp"
+      "amountUsd": 300000000,
+      "domain": "glass-imaging.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
     },
     {
       "ts": "2026-09-14",
@@ -1809,16 +1830,6 @@
       "amountUsd": 205000000,
       "domain": "gatetech.co.il",
       "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
-    },
-    {
-      "ts": "2026-09-14",
-      "precision": "day",
-      "target": "Glass Imaging",
-      "acquirer": "OpenAI",
-      "kind": "acquisition",
-      "amountUsd": 300000000,
-      "domain": "glass-imaging.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/c15fcee7-856f-40e1-bc62-457cccd26d4c-square.jpg"
     },
     {
       "ts": "2026-09-10",
@@ -1839,16 +1850,6 @@
       "amountUsd": 50000000,
       "domain": "scanovate.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/dfe600f1-f4ba-4026-be56-584a45c2e927.webp"
-    },
-    {
-      "ts": "2026-09-08",
-      "precision": "day",
-      "target": "Optery",
-      "acquirer": "Surfshark",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "optery.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/24835bd2-f35e-46c9-86a0-a742137cb53c-square.jpg"
     },
     {
       "ts": "2026-10-23",
@@ -1922,6 +1923,24 @@
   ],
   "firstChecks": [
     {
+      "ts": "2026-10-22",
+      "investor": null,
+      "kind": "angel",
+      "company": "Warp Sciences"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": null,
+      "kind": "angel",
+      "company": "Warp Sciences"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": null,
+      "kind": "angel",
+      "company": "Warp Sciences"
+    },
+    {
       "ts": "2026-10-15",
       "investor": null,
       "kind": "angel",
@@ -1976,124 +1995,124 @@
       "domain": null
     },
     {
-      "ts": "2026-10-20",
-      "investor": "David Gershov",
-      "company": "Drizzlex",
+      "ts": "2026-10-22",
+      "investor": "01 Advisors",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-20",
-      "investor": "Israel Investment Fund Group",
-      "company": "Drizzlex",
+      "ts": "2026-10-22",
+      "investor": "Angular Ventures",
+      "company": "Warp Sciences",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "angularventures.com"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "Brendan Foody",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-20",
-      "investor": "MassChallenge",
-      "company": "Drizzlex",
+      "ts": "2026-10-22",
+      "investor": "Brian Armstrong",
+      "company": "Warp Sciences",
       "kind": "fund",
-      "isFirst": false,
-      "domain": "masschallenge.org"
+      "isFirst": true,
+      "domain": null
     },
     {
-      "ts": "2026-10-14",
-      "investor": "91 Ventures",
-      "company": "Uvi",
+      "ts": "2026-10-22",
+      "investor": "Conviction",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
-      "domain": "91vc.fund"
+      "domain": "conviction.com"
     },
     {
-      "ts": "2026-10-14",
-      "investor": "Cardumen Capital",
-      "company": "Uvi",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "cardumencapital.com"
-    },
-    {
-      "ts": "2026-10-14",
-      "investor": "CT Innovations",
-      "company": "Uvi",
+      "ts": "2026-10-22",
+      "investor": "Deepak Pathak",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-14",
-      "investor": "Mana Ventures",
-      "company": "Uvi",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "manaventures.vc"
-    },
-    {
-      "ts": "2026-10-14",
-      "investor": "10D",
-      "company": "Axonica Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "10d.vc"
-    },
-    {
-      "ts": "2026-10-14",
-      "investor": "Amplify Partners",
-      "company": "Axonica Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "amplifypartners.com"
-    },
-    {
-      "ts": "2026-10-14",
-      "investor": "Pitango",
-      "company": "Axonica Labs",
+      "ts": "2026-10-22",
+      "investor": "Dylan Field",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-14",
-      "investor": "Qualcomm Ventures",
-      "company": "Axonica Labs",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "qualcommventures.com"
-    },
-    {
-      "ts": "2026-10-14",
-      "investor": "Viola",
-      "company": "Axonica Labs",
+      "ts": "2026-10-22",
+      "investor": "Fidji Simo",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-14",
-      "investor": "Wing VC",
-      "company": "Axonica Labs",
+      "ts": "2026-10-22",
+      "investor": "Gigascale Capital",
+      "company": "Warp Sciences",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "gigascale.com"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "Innovation Endeavors",
+      "company": "Warp Sciences",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "innovationendeavors.com"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "Ion Stoica",
+      "company": "Warp Sciences",
+      "kind": "fund",
+      "isFirst": true,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "IVP",
+      "company": "Warp Sciences",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "ivp.com"
+    },
+    {
+      "ts": "2026-10-22",
+      "investor": "Kate Rouch",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
       "domain": null
     },
     {
-      "ts": "2026-10-13",
-      "investor": "AlphaDrive Ventures",
-      "company": "Pluto Security",
+      "ts": "2026-10-22",
+      "investor": "Lachy Groom",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
-      "domain": "alphadrive.vc"
+      "domain": null
     },
     {
-      "ts": "2026-10-13",
-      "investor": "Ansa Capital",
-      "company": "Pluto Security",
+      "ts": "2026-10-22",
+      "investor": "Lightspeed Venture Partners",
+      "company": "Warp Sciences",
       "kind": "fund",
       "isFirst": false,
-      "domain": "ansa.co"
+      "domain": "lsvp.com"
     }
   ],
   "patents": [
@@ -2148,26 +2167,18 @@
     {
       "ts": "2026-09-30",
       "kind": "granted",
-      "org": "Lumus",
-      "title": "Method of fabrication of compound light-guide optical elements",
-      "number": "4325277",
-      "url": "https://patents.google.com/patent/EP4325277B1/en"
-    },
-    {
-      "ts": "2026-09-30",
-      "kind": "granted",
       "org": "Stratasys",
       "title": "Method for producing an object manufactured and treated using additive processes",
       "number": "3880441",
       "url": "https://patents.google.com/patent/EP3880441B8/en"
     },
     {
-      "ts": "2026-09-29",
+      "ts": "2026-09-30",
       "kind": "granted",
-      "org": "SUNRISE MEMORY",
-      "title": "\u30ef\u30fc\u30c9\u7dda\u9078\u629e\u88c5\u7f6e\u3092\u5099\u3048\u305f\uff13\u6b21\u5143\uff4e\uff4f\uff52\u30e1\u30e2\u30ea\u30b9\u30c8\u30ea\u30f3\u30b0\u306e\u30e1\u30e2\u30ea\u30a2\u30ec\u30a4",
-      "number": "7926312",
-      "url": "https://patents.google.com/patent/JP7926312B2/en"
+      "org": "Lumus",
+      "title": "Method of fabrication of compound light-guide optical elements",
+      "number": "4325277",
+      "url": "https://patents.google.com/patent/EP4325277B1/en"
     },
     {
       "ts": "2026-09-29",
@@ -2176,6 +2187,14 @@
       "title": "Three-dimensional nor memory string array of thin-film ferroelectric transistor",
       "number": "7926311",
       "url": "https://patents.google.com/patent/JP7926311B2/en"
+    },
+    {
+      "ts": "2026-09-29",
+      "kind": "granted",
+      "org": "SUNRISE MEMORY",
+      "title": "\u30ef\u30fc\u30c9\u7dda\u9078\u629e\u88c5\u7f6e\u3092\u5099\u3048\u305f\uff13\u6b21\u5143\uff4e\uff4f\uff52\u30e1\u30e2\u30ea\u30b9\u30c8\u30ea\u30f3\u30b0\u306e\u30e1\u30e2\u30ea\u30a2\u30ec\u30a4",
+      "number": "7926312",
+      "url": "https://patents.google.com/patent/JP7926312B2/en"
     }
   ],
   "jobs": [
@@ -2261,6 +2280,10 @@
         {
           "label": "Seed",
           "count": 1
+        },
+        {
+          "label": "Series Unknown",
+          "count": 1
         }
       ],
       "d30": [
@@ -2297,6 +2320,10 @@
           "count": 2
         },
         {
+          "label": "Series Unknown",
+          "count": 2
+        },
+        {
           "label": "Convertible Note",
           "count": 1
         },
@@ -2319,10 +2346,6 @@
         {
           "label": "Series F",
           "count": 1
-        },
-        {
-          "label": "Series Unknown",
-          "count": 1
         }
       ]
     },
@@ -2334,11 +2357,11 @@
         },
         {
           "label": "Healthcare and Food",
-          "count": 1
+          "count": 2
         },
         {
           "label": "Media and Entertainment",
-          "count": 1
+          "count": 2
         },
         {
           "label": "Unknown",
@@ -2348,7 +2371,7 @@
       "d7": [
         {
           "label": "Healthcare and Food",
-          "count": 69
+          "count": 70
         },
         {
           "label": "IT and Telecom",
@@ -2356,7 +2379,7 @@
         },
         {
           "label": "Media and Entertainment",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Unknown",
@@ -2386,11 +2409,11 @@
         },
         {
           "label": "Healthcare and Food",
-          "count": 248
+          "count": 249
         },
         {
           "label": "Media and Entertainment",
-          "count": 229
+          "count": 230
         },
         {
           "label": "Financial Services",
@@ -2418,6 +2441,12 @@
         "domain": "insightpartners.com"
       },
       {
+        "name": "01 Advisors",
+        "kind": "fund",
+        "count": 1,
+        "domain": null
+      },
+      {
         "name": "10D",
         "kind": "fund",
         "count": 1,
@@ -2428,12 +2457,6 @@
         "kind": "fund",
         "count": 1,
         "domain": null
-      },
-      {
-        "name": "91 Ventures",
-        "kind": "fund",
-        "count": 1,
-        "domain": "91vc.fund"
       }
     ]
   },
