@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:40:09.959Z",
+  "generatedAt": "2026-10-24T12:06:17.309Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,25 +160,25 @@
   "kpis": {
     "startups": {
       "value": 39028,
-      "delta24h": 13
+      "delta24h": 11
     },
     "totalFunding": {
-      "valueUsd": 232112136146,
-      "rounds": 29860
+      "valueUsd": 232114706146,
+      "rounds": 29862
     },
     "exits": {
-      "count": 3401,
+      "count": 3402,
       "valueUsd": 333575771600
     },
     "employees": {
-      "total": 855949,
+      "total": 855953,
       "avgPerStartup": 30
     },
     "patents": {
-      "total": 203780,
+      "total": 203803,
       "delta30d": 0
     },
-    "openJobs": 23966
+    "openJobs": 23976
   },
   "map": {
     "districts": [
@@ -192,7 +192,7 @@
       },
       {
         "name": "Haifa",
-        "count": 1498
+        "count": 1499
       },
       {
         "name": "Jerusalem",
@@ -252,7 +252,7 @@
         "district": "Haifa",
         "lat": 32.794,
         "lng": 34.9896,
-        "count": 617
+        "count": 618
       },
       {
         "name": "Ra'anana",
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2298
+    "unresolvedCount": 2297
   },
   "overTime": {
     "foundedClosed": {
@@ -1150,7 +1150,7 @@
         734,
         858,
         970,
-        1122,
+        1123,
         1279,
         1243,
         1337,
@@ -1162,7 +1162,7 @@
         1566,
         1485,
         1391,
-        706
+        707
       ],
       "raisedUsd": [
         0,
@@ -1210,16 +1210,16 @@
         11747151469,
         15596027146,
         21086053578,
-        29889644936
+        29892214936
       ],
       "stageMix": {
         "Seed": 13755,
-        "Series A": 4176,
+        "Series A": 4177,
         "Other": 2931,
         "Series B": 2116,
         "Series Unknown": 1502,
         "Series C": 1296,
-        "Angel": 854,
+        "Angel": 855,
         "Unknown": 780
       }
     },
@@ -1302,7 +1302,7 @@
         141,
         184,
         249,
-        383
+        384
       ],
       "acquisitions": [
         0,
@@ -1342,7 +1342,7 @@
         132,
         175,
         230,
-        322
+        323
       ],
       "ipos": [
         3,
@@ -1425,24 +1425,24 @@
         31918915500
       ],
       "typeMix": {
-        "acquisition": 3075,
+        "acquisition": 3076,
         "ipo": 387
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 22873,
+      "active": 22872,
       "closed": 12754,
-      "exited": 3401
+      "exited": 3402
     },
     "funnel": {
       "all": 39028,
       "funded": 15746,
-      "over1m": 6327,
+      "over1m": 6328,
       "over10m": 3158,
       "over100m": 609,
-      "exited": 3401
+      "exited": 3402
     },
     "cohorts": [
       {
@@ -1476,9 +1476,9 @@
       {
         "year": 2021,
         "total": 2093,
-        "exited": 91,
+        "exited": 92,
         "closed": 409,
-        "active": 1593
+        "active": 1592
       },
       {
         "year": 2022,
@@ -1520,13 +1520,13 @@
       "overall": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 89899576,
+        "avgValueUsd": 89872915,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 101592488,
+        "avgValueUsd": 101559223,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1541,7 +1541,7 @@
         245,
         275,
         316,
-        257,
+        258,
         255,
         257,
         205,
@@ -2186,25 +2186,14 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9844,
+      "deeptechCount": 9843,
       "deeptechPct": 25.2,
-      "globalCount": 16169,
+      "globalCount": 16170,
       "globalPct": 41.4
     }
   },
   "feeds": {
     "funding": [
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "org": "Warp Sciences",
@@ -2226,6 +2215,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A (emerges from stealth with $34M)"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2273,27 +2273,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Axonica Labs",
-        "stage": "Pre-seed",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Uvi",
         "stage": "Seed",
         "amountUsd": 7500000,
@@ -2315,14 +2294,25 @@
         "roundTitle": "Debt Financing 2026"
       },
       {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "IdentifAI Genetics",
-        "stage": "IPO",
-        "amountUsd": 6600000,
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
         "investors": [],
         "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+        "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Axonica Labs",
+        "stage": "Pre-seed",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2336,17 +2326,6 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "VAST Data",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
         "org": "Undecimal Bio",
         "stage": "Seed",
         "amountUsd": 18000000,
@@ -2355,6 +2334,27 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed - $18 million oversubscribed"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "IdentifAI Genetics",
+        "stage": "IPO",
+        "amountUsd": 6600000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "VAST Data",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2380,17 +2380,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Cando Drones",
         "stage": "IPO",
         "amountUsd": 0,
@@ -2402,14 +2391,25 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Rein",
-        "stage": "Series A",
-        "amountUsd": 25000000,
+        "org": "Phantom GI",
+        "stage": "Seed",
+        "amountUsd": 5000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Seed Round"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "PlayVault",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Athletes First"
       }
     ],
     "todayStats": {
@@ -2881,6 +2881,20 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Portagon",
+        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Warp Sciences",
         "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
@@ -2889,8 +2903,8 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Cellebrite",
-        "summary": "Announced its Autumn 2026 Release, led by Genesis agentic AI with expanded device and OS access, on-premises Genesis (expected early 2027), AI-based CDR analysis in Pathfinder, Corellium Falcon Mirror Add-on, next-generation DJI drone forensics (CFID v4), Guardian storage/governance enhancements, and the Cellebrite Tactical Extraction Kit (C-Tek) field kit."
+        "org": "ReachEffect",
+        "summary": "Launched a rebuilt reacheffect.com website and a new unified self-serve dashboard for advertisers, affiliates and publishers, featuring AI-assisted campaign setup (AI Fill), a seven-step campaign flow, reusable filters, budget spreading, an offers wall with 1,200+ CPA offers and smartlinks, and live traffic data across 195 GEOs."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2902,9 +2916,9 @@
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "IronScales",
-        "summary": "Released its third annual Cybersecurity Threat Report, 'From Deepfakes to Double Agents: The New Face of AI-Driven Cyber Risk' (with Censuswide), finding 77% of organizations experienced agentic AI-related security incidents in the past year."
+        "rawKind": "Product Launch",
+        "org": "Cellebrite",
+        "summary": "Announced its Autumn 2026 Release, led by Genesis agentic AI with expanded device and OS access, on-premises Genesis (expected early 2027), AI-based CDR analysis in Pathfinder, Corellium Falcon Mirror Add-on, next-generation DJI drone forensics (CFID v4), Guardian storage/governance enhancements, and the Cellebrite Tactical Extraction Kit (C-Tek) field kit."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2917,22 +2931,15 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "ReachEffect",
-        "summary": "Launched a rebuilt reacheffect.com website and a new unified self-serve dashboard for advertisers, affiliates and publishers, featuring AI-assisted campaign setup (AI Fill), a seven-step campaign flow, reusable filters, budget spreading, an offers wall with 1,200+ CPA offers and smartlinks, and live traffic data across 195 GEOs."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Safebooks",
         "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
       },
       {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Plus500",
-        "summary": "Acquired Guru, a broker-dealer in Brazil regulated by the Central Bank of Brazil."
+        "ts": "2026-10-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "IronScales",
+        "summary": "Released its third annual Cybersecurity Threat Report, 'From Deepfakes to Double Agents: The New Face of AI-Driven Cyber Risk' (with Censuswide), finding 77% of organizations experienced agentic AI-related security incidents in the past year."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2940,6 +2947,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Varonis",
         "summary": "Varonis announced an integration with Collibra that feeds Varonis' sensitive-data classification (PII, PHI, financial data, credentials, secrets) directly into Collibra's data catalog, enriching data governance workflows for analytics and trusted AI initiatives."
+      },
+      {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Wiz",
+        "summary": "Launched the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE) in preview \u2014 a first-party, 1-click native runtime protection integration for GKE Standard and Autopilot clusters."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2965,13 +2979,6 @@
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "IronScales",
-        "summary": "Named Laura Beaulieu Chief Marketing Officer to scale its agentic email security platform."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "R&D Milestone",
         "org": "Kodiak AI",
         "summary": "A Kodiak Driver-equipped unsupervised driverless truck in the Permian Basin industrial deployment achieved a record 64 consecutive days of continuous uptime (June 30 - September 1, 2026); five additional trucks each surpassed 45 consecutive days."
@@ -2979,16 +2986,9 @@
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Wiz",
-        "summary": "Launched the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE) in preview \u2014 a first-party, 1-click native runtime protection integration for GKE Standard and Autopilot clusters."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Resolight",
-        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
+        "rawKind": "Executive Appointment",
+        "org": "IronScales",
+        "summary": "Named Laura Beaulieu Chief Marketing Officer to scale its agentic email security platform."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2999,17 +2999,17 @@
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Slice",
-        "summary": "Announced a strategic partnership with Papaya Global connecting global payroll with global equity: companies using Papaya's payroll, EOR, COR and contractor services can grant and manage equity through Slice, with equity events handled end to end from tax calculation to payout. Papaya also runs its own equity on Slice as a customer."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Plus500",
+        "summary": "Acquired Guru, a broker-dealer in Brazil regulated by the Central Bank of Brazil."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Resolight",
+        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
       }
     ]
   }
