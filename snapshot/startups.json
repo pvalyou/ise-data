@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T14:05:34.472Z",
+  "generatedAt": "2026-10-24T14:27:29.135Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -167,11 +167,11 @@
       "rounds": 29863
     },
     "exits": {
-      "count": 3402,
+      "count": 3403,
       "valueUsd": 333575771600
     },
     "employees": {
-      "total": 856233,
+      "total": 856249,
       "avgPerStartup": 30
     },
     "patents": {
@@ -1044,7 +1044,7 @@
         512,
         525,
         644,
-        877,
+        878,
         856,
         977,
         924,
@@ -1062,9 +1062,9 @@
       ],
       "statusMix": {
         "inactive": 385,
-        "active": 21087,
+        "active": 21086,
         "unknown": 3670,
-        "closed": 13888
+        "closed": 13889
       }
     },
     "funding": {
@@ -1161,7 +1161,7 @@
         2028,
         1566,
         1485,
-        1391,
+        1392,
         707
       ],
       "raisedUsd": [
@@ -1217,8 +1217,8 @@
         "Series A": 4177,
         "Other": 2931,
         "Series B": 2116,
-        "Series Unknown": 1502,
-        "Series C": 1296,
+        "Series Unknown": 1503,
+        "Series C": 1295,
         "Angel": 855,
         "Unknown": 780
       }
@@ -1302,7 +1302,7 @@
         141,
         184,
         249,
-        384
+        385
       ],
       "acquisitions": [
         0,
@@ -1342,7 +1342,7 @@
         132,
         175,
         230,
-        323
+        324
       ],
       "ipos": [
         3,
@@ -1425,16 +1425,16 @@
         31918915500
       ],
       "typeMix": {
-        "acquisition": 3076,
+        "acquisition": 3077,
         "ipo": 387
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 22874,
+      "active": 22873,
       "closed": 12754,
-      "exited": 3402
+      "exited": 3403
     },
     "funnel": {
       "all": 39030,
@@ -1442,7 +1442,7 @@
       "over1m": 6328,
       "over10m": 3158,
       "over100m": 609,
-      "exited": 3402
+      "exited": 3403
     },
     "cohorts": [
       {
@@ -1483,9 +1483,9 @@
       {
         "year": 2022,
         "total": 1701,
-        "exited": 61,
+        "exited": 62,
         "closed": 293,
-        "active": 1347
+        "active": 1346
       },
       {
         "year": 2023,
@@ -1520,13 +1520,13 @@
       "overall": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 89872915,
+        "avgValueUsd": 89846271,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 101559223,
+        "avgValueUsd": 101525979,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1540,7 +1540,7 @@
         124,
         245,
         275,
-        316,
+        317,
         258,
         255,
         257,
@@ -2196,6 +2196,17 @@
     "funding": [
       {
         "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Warp Sciences",
+        "stage": "Series Unknown",
+        "amountUsd": 215000000,
+        "investors": [],
+        "investorCount": 32,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Modelyo",
         "stage": "Series A",
         "amountUsd": 17000000,
@@ -2215,17 +2226,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A (emerges from stealth with $34M)"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Warp Sciences",
-        "stage": "Series Unknown",
-        "amountUsd": 215000000,
-        "investors": [],
-        "investorCount": 32,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Emergence from stealth funding round"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2273,28 +2273,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Axonica Labs",
-        "stage": "Pre-seed",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Navan",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Debt Financing 2026"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Scinai Immunotherapeutics",
         "stage": "Post-IPO",
         "amountUsd": 4000000,
@@ -2313,6 +2291,28 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Navan",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Debt Financing 2026"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Axonica Labs",
+        "stage": "Pre-seed",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2369,28 +2369,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Cando Drones",
-        "stage": "IPO",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "IPO"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Rein",
-        "stage": "Series A",
-        "amountUsd": 25000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Soda Labs",
         "stage": "Seed",
         "amountUsd": 3000000,
@@ -2402,11 +2380,33 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Cando Drones",
+        "stage": "IPO",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "IPO"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
         "org": "BloomX",
         "stage": "Series A",
         "amountUsd": 13000000,
         "investors": [],
         "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "Rein",
+        "stage": "Series A",
+        "amountUsd": 25000000,
+        "investors": [],
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2882,6 +2882,13 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Portagon",
+        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Warp Sciences",
         "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
@@ -2896,9 +2903,30 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CopilotKit",
+        "summary": "Launched CopilotKit Soar, a self-hosted AI coworker product for companies: forward-deployed engineers set it up on the customer's own servers (single machine to Kubernetes on EKS/AKS/GKE) under the customer's brand, with IT governance (approval checkpoints, SSO/SAML/OIDC, SCIM 2.0, SIEM audit trail), any agent via AG-UI, any MCP server, and any model including local OpenAI-compatible servers. Built on the previously open-sourced OpenBot, OpenMuse, OpenDots and OpenTag projects; available in early access."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Portagon",
-        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
+        "org": "WEKA",
+        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
+      },
+      {
+        "ts": "2026-10-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Fhenix",
+        "summary": "Fhenix CoFHE went live on Arbitrum mainnet (partner mainnet, permissioned at launch), bringing encrypted computation and dual-mode confidential tokens to the Arbitrum ecosystem. First design partners Obolos and Alpha Engine launched on day one; the system was audited by Consensys Diligence, and Fhenix also announced work on a confidential stablecoin with Tandem."
+      },
+      {
+        "ts": "2026-10-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Tomorrow.io",
+        "summary": "Launched the Tomorrow.io Terminal in beta \u2014 a platform aggregating weather, river and disaster-agency warnings and readings worldwide, organized by impact, place, storm and events, with daily 'The Atmosphere Today' editions, structured pages readable by AI agents, and access via waitlist at terminal.tomorrow.io."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2917,16 +2945,9 @@
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Palo Alto Networks",
-        "summary": "Announced collaboration with NVIDIA on advancing agentic AI security, covering security for agentic AI workflows and NVIDIA-based deployments."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "IronScales",
-        "summary": "Released its third annual Cybersecurity Threat Report, 'From Deepfakes to Double Agents: The New Face of AI-Driven Cyber Risk' (with Censuswide), finding 77% of organizations experienced agentic AI-related security incidents in the past year."
+        "rawKind": "Product Launch",
+        "org": "Safebooks",
+        "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2938,65 +2959,30 @@
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Safebooks",
-        "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
+        "rawKind": "Report Release",
+        "org": "IronScales",
+        "summary": "Released its third annual Cybersecurity Threat Report, 'From Deepfakes to Double Agents: The New Face of AI-Driven Cyber Risk' (with Censuswide), finding 77% of organizations experienced agentic AI-related security incidents in the past year."
       },
       {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "IPO and Public Listing",
-        "org": "ALZAI Health",
-        "summary": "Common shares posted for trading on the OTCQB Venture Market in the United States under symbol ALZIF, adding a U.S. quotation alongside existing TSX Venture (ALZI) and Frankfurt Stock Exchange (H2F) listings."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
+        "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Contel Smart Energy",
-        "summary": "Contel Smart Energy joined the CODESYS global partner network as an official CODESYS System Partner, leveraging the CODESYS industrial automation software platform within its energy management and control solutions for greater hardware independence and flexible project delivery."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Varonis",
-        "summary": "Varonis announced an integration with Collibra that feeds Varonis' sensitive-data classification (PII, PHI, financial data, credentials, secrets) directly into Collibra's data catalog, enriching data governance workflows for analytics and trusted AI initiatives."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Optibus",
-        "summary": "Partnered with Elite Vehicle Supplies, the UK bus and coach safety specialist, to bring MagicEye, Optibus's AI-powered driver fatigue and distraction monitoring system, to UK operators, with Elite providing vehicle integration, installation and after-market support; helps operators meet TfL's Bus Safety Standard 2 requirement for fatigue/distraction prevention on new London buses from 2027. To be shown live at Euro Bus Expo, 3-5 November 2026, NEC Birmingham."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Slice",
-        "summary": "Announced a strategic partnership with Papaya Global connecting global payroll with global equity: companies using Papaya's payroll, EOR, COR and contractor services can grant and manage equity through Slice, with equity events handled end to end from tax calculation to payout. Papaya also runs its own equity on Slice as a customer."
+        "org": "Palo Alto Networks",
+        "summary": "Announced collaboration with NVIDIA on advancing agentic AI security, covering security for agentic AI workflows and NVIDIA-based deployments."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Resolight",
-        "summary": "Resolight announced first standard support for nanosecond optical circuit switching (OCS), claiming up to 40x better network energy efficiency and up to 75% fewer optical transceivers in multi-rack AI scale-up deployments."
+        "org": "Maris-Tech",
+        "summary": "Launched Uranus-Drones-V2, a compact video and AI processing platform for UAVs, supporting up to four UHD camera inputs (eight total) with over 30 TOPS processing, direct autopilot integration, and onboard inertial/environmental sensors for autonomous flight functionality in surveillance, tracking, and loitering munitions applications."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "IMDT",
-        "summary": "Expanded its pin-to-pin compatible SOM portfolio powered by the Qualcomm Dragonwing Q7 Series family with a new Dragonwing Q-7790 SOM; four IMDT SOMs now share one carrier board footprint, spanning AI performance tiers of up to 48 dense TOPS."
-      },
-      {
-        "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cyber Insurance Academy",
-        "summary": "Launched CCIS v2, a rebuilt version of its flagship Certified Cyber Insurance Specialist designation, adding coverage of AI-driven threats, AI governance and AI-related insurance exposures across all ten modules."
+        "rawKind": "R&D Milestone",
+        "org": "Kodiak AI",
+        "summary": "A Kodiak Driver-equipped unsupervised driverless truck in the Permian Basin industrial deployment achieved a record 64 consecutive days of continuous uptime (June 30 - September 1, 2026); five additional trucks each surpassed 45 consecutive days."
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -3007,10 +2993,24 @@
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Plus500",
-        "summary": "Acquired Guru, a broker-dealer in Brazil regulated by the Central Bank of Brazil."
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Wiz",
+        "summary": "Launched the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE) in preview \u2014 a first-party, 1-click native runtime protection integration for GKE Standard and Autopilot clusters."
+      },
+      {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "IronScales",
+        "summary": "Named Laura Beaulieu Chief Marketing Officer to scale its agentic email security platform."
+      },
+      {
+        "ts": "2026-10-20T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Cyber Insurance Academy",
+        "summary": "Launched CCIS v2, a rebuilt version of its flagship Certified Cyber Insurance Specialist designation, adding coverage of AI-driven threats, AI governance and AI-related insurance exposures across all ten modules."
       }
     ]
   }
