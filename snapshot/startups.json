@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T17:36:12.468Z",
+  "generatedAt": "2026-10-25T18:22:06.200Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,32 +159,32 @@
   },
   "kpis": {
     "startups": {
-      "value": 39039,
+      "value": 39037,
       "delta24h": 16
     },
     "totalFunding": {
-      "valueUsd": 232220062710,
+      "valueUsd": 232248694710,
       "rounds": 29904
     },
     "exits": {
       "count": 3406,
-      "valueUsd": 334091871600
+      "valueUsd": 333966871600
     },
     "employees": {
-      "total": 858341,
+      "total": 860153,
       "avgPerStartup": 30
     },
     "patents": {
       "total": 203609,
       "delta30d": 0
     },
-    "openJobs": 24049
+    "openJobs": 24096
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7383
+        "count": 7384
       },
       {
         "name": "Central",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4592
+        "count": 4594
       },
       {
         "name": "Herzliya",
@@ -245,7 +245,7 @@
         "district": "Central",
         "lat": 32.0878,
         "lng": 34.8878,
-        "count": 679
+        "count": 678
       },
       {
         "name": "Haifa",
@@ -322,7 +322,7 @@
         "district": "Tel Aviv",
         "lat": 32.1461,
         "lng": 34.8417,
-        "count": 210
+        "count": 209
       },
       {
         "name": "Rosh HaAyin",
@@ -752,6 +752,13 @@
         "count": 12
       },
       {
+        "name": "Yakum",
+        "district": "Central",
+        "lat": 32.2544,
+        "lng": 34.8331,
+        "count": 12
+      },
+      {
         "name": "Atlit",
         "district": "Haifa",
         "lat": 32.692,
@@ -770,13 +777,6 @@
         "district": "Northern",
         "lat": 32.9646,
         "lng": 35.496,
-        "count": 11
-      },
-      {
-        "name": "Yakum",
-        "district": "Central",
-        "lat": 32.2544,
-        "lng": 34.8331,
         "count": 11
       },
       {
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2297
+    "unresolvedCount": 2296
   },
   "overTime": {
     "foundedClosed": {
@@ -940,7 +940,7 @@
         34,
         24,
         42,
-        32,
+        31,
         48,
         65,
         68,
@@ -971,15 +971,15 @@
         1780,
         1871,
         1979,
-        2032,
-        2023,
+        2031,
+        2022,
         1993,
         2177,
         2093,
         1705,
         1540,
-        1366,
-        1786,
+        1365,
+        1787,
         937
       ],
       "closed": [
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 385,
-        "active": 21103,
+        "active": 21101,
         "unknown": 3660,
         "closed": 13891
       }
@@ -1122,7 +1122,7 @@
         1,
         3,
         2,
-        4,
+        3,
         3,
         1,
         7,
@@ -1138,30 +1138,30 @@
         325,
         601,
         403,
-        377,
         378,
+        379,
         490,
+        513,
+        571,
+        682,
+        653,
         512,
-        570,
-        683,
-        652,
-        511,
         624,
-        734,
+        735,
         861,
         970,
         1124,
-        1281,
+        1280,
         1245,
         1338,
-        1578,
-        1585,
+        1577,
+        1584,
         1666,
-        2132,
+        2133,
         2031,
-        1567,
-        1493,
-        1397,
+        1566,
+        1494,
+        1395,
         715
       ],
       "raisedUsd": [
@@ -1187,40 +1187,40 @@
         2032539142,
         1367980000,
         873401374,
-        694056000,
-        987258615,
-        1017250000,
-        1314619000,
+        696556000,
+        985838615,
+        1033750000,
+        1370619000,
         1387000000,
-        1897535000,
-        1391009000,
-        1509604062,
+        1898535000,
+        1401009000,
+        1470104062,
         2700478560,
         2192671000,
         2651160845,
         3889953281,
-        4770931427,
-        6462537571,
+        4760931427,
+        6524537571,
         7606131036,
-        8456620434,
-        13147465472,
-        15732777904,
-        40575166511,
-        25912632998,
-        11744951469,
+        8453369434,
+        13117875472,
+        15722502904,
+        40581713511,
+        25956632998,
+        11694698469,
         15641080146,
-        21087644934,
+        21063098934,
         29859926144
       ],
       "stageMix": {
-        "Seed": 13762,
-        "Series A": 4200,
-        "Other": 2902,
-        "Series B": 2127,
-        "Series Unknown": 1509,
-        "Series C": 1297,
-        "Angel": 859,
-        "Unknown": 777
+        "Seed": 13755,
+        "Series A": 4211,
+        "Other": 2892,
+        "Series B": 2129,
+        "Series Unknown": 1511,
+        "Series C": 1298,
+        "Angel": 860,
+        "Unknown": 774
       }
     },
     "exits": {
@@ -1296,8 +1296,8 @@
         150,
         149,
         191,
-        178,
-        333,
+        177,
+        334,
         182,
         142,
         184,
@@ -1336,7 +1336,7 @@
         135,
         139,
         174,
-        149,
+        148,
         250,
         161,
         132,
@@ -1377,7 +1377,7 @@
         10,
         17,
         29,
-        83,
+        84,
         21,
         10,
         9,
@@ -1416,8 +1416,8 @@
         33688183000,
         13338085000,
         19683531300,
-        10018422500,
-        24890749500,
+        9883422500,
+        24900749500,
         9568535000,
         10657794100,
         18302358700,
@@ -1425,39 +1425,39 @@
         31873915500
       ],
       "typeMix": {
-        "acquisition": 3082,
-        "ipo": 387
+        "acquisition": 3081,
+        "ipo": 388
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 22877,
+      "active": 22875,
       "closed": 12756,
       "exited": 3406
     },
     "funnel": {
-      "all": 39039,
-      "funded": 15758,
+      "all": 39037,
+      "funded": 15755,
       "over1m": 6333,
-      "over10m": 3159,
-      "over100m": 611,
+      "over10m": 3158,
+      "over100m": 612,
       "exited": 3406
     },
     "cohorts": [
       {
         "year": 2017,
-        "total": 2032,
+        "total": 2031,
         "exited": 136,
         "closed": 717,
-        "active": 1179
+        "active": 1178
       },
       {
         "year": 2018,
-        "total": 2023,
+        "total": 2022,
         "exited": 112,
         "closed": 629,
-        "active": 1282
+        "active": 1281
       },
       {
         "year": 2019,
@@ -1496,17 +1496,17 @@
       },
       {
         "year": 2024,
-        "total": 1366,
+        "total": 1365,
         "exited": 25,
         "closed": 83,
-        "active": 1258
+        "active": 1257
       },
       {
         "year": 2025,
-        "total": 1786,
+        "total": 1787,
         "exited": 19,
         "closed": 33,
-        "active": 1734
+        "active": 1735
       },
       {
         "year": 2026,
@@ -1518,21 +1518,21 @@
     ],
     "timeToExit": {
       "overall": {
-        "avgYears": 9.1,
+        "avgYears": 9.0,
         "medianYears": 7.0,
-        "avgValueUsd": 89919304,
+        "avgValueUsd": 89882278,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 101543453,
+        "avgValueUsd": 101532516,
         "medianValueUsd": 0
       },
       "ipo": {
         "avgYears": 9.9,
         "medianYears": 8.0,
-        "avgValueUsd": 60758589,
+        "avgValueUsd": 60625013,
         "medianValueUsd": 0
       },
       "distribution": [
@@ -1550,7 +1550,7 @@
         151,
         134,
         103,
-        88,
+        89,
         74,
         73,
         56,
@@ -1566,7 +1566,7 @@
         12,
         12,
         7,
-        88
+        87
       ]
     }
   },
@@ -1618,44 +1618,44 @@
     "mixByYear": [
       {
         "year": 2017,
-        "total": 1973,
+        "total": 1972,
         "unknown": 59,
         "counts": {
           "it-telecom": 709,
-          "healthcare-food": 395,
+          "healthcare-food": 394,
           "consumer-goods-services": 398,
           "energy-utilities": 61,
           "financial-services": 156,
           "media-entertainment": 254
         },
         "shares": {
-          "it-telecom": 0.35935124176381145,
-          "healthcare-food": 0.2002027369488089,
-          "consumer-goods-services": 0.2017232640648758,
-          "energy-utilities": 0.030917384693360365,
-          "financial-services": 0.07906741003547897,
-          "media-entertainment": 0.12873796249366448
+          "it-telecom": 0.35953346855983775,
+          "healthcare-food": 0.1997971602434077,
+          "consumer-goods-services": 0.20182555780933062,
+          "energy-utilities": 0.030933062880324543,
+          "financial-services": 0.07910750507099391,
+          "media-entertainment": 0.12880324543610547
         }
       },
       {
         "year": 2018,
-        "total": 1969,
+        "total": 1968,
         "unknown": 54,
         "counts": {
           "it-telecom": 713,
           "healthcare-food": 395,
-          "consumer-goods-services": 445,
+          "consumer-goods-services": 444,
           "energy-utilities": 52,
           "financial-services": 178,
           "media-entertainment": 186
         },
         "shares": {
-          "it-telecom": 0.3621127475876079,
-          "healthcare-food": 0.2006094464195023,
-          "consumer-goods-services": 0.22600304723209752,
-          "energy-utilities": 0.026409344845099034,
-          "financial-services": 0.090401218892839,
-          "media-entertainment": 0.09446419502285425
+          "it-telecom": 0.3622967479674797,
+          "healthcare-food": 0.20071138211382114,
+          "consumer-goods-services": 0.22560975609756098,
+          "energy-utilities": 0.026422764227642278,
+          "financial-services": 0.09044715447154472,
+          "media-entertainment": 0.09451219512195122
         }
       },
       {
@@ -1747,17 +1747,17 @@
         "total": 1493,
         "unknown": 47,
         "counts": {
-          "it-telecom": 635,
+          "it-telecom": 636,
           "healthcare-food": 290,
-          "consumer-goods-services": 284,
+          "consumer-goods-services": 283,
           "energy-utilities": 78,
           "financial-services": 79,
           "media-entertainment": 127
         },
         "shares": {
-          "it-telecom": 0.4253181513730743,
+          "it-telecom": 0.42598794373744137,
           "healthcare-food": 0.1942397856664434,
-          "consumer-goods-services": 0.19022103148024114,
+          "consumer-goods-services": 0.18955123911587407,
           "energy-utilities": 0.052243804420629605,
           "financial-services": 0.05291359678499665,
           "media-entertainment": 0.08506363027461487
@@ -1765,44 +1765,44 @@
       },
       {
         "year": 2024,
-        "total": 1309,
+        "total": 1308,
         "unknown": 57,
         "counts": {
-          "it-telecom": 615,
-          "healthcare-food": 233,
+          "it-telecom": 616,
+          "healthcare-food": 231,
           "consumer-goods-services": 234,
           "energy-utilities": 61,
           "financial-services": 71,
           "media-entertainment": 95
         },
         "shares": {
-          "it-telecom": 0.4698242933537051,
-          "healthcare-food": 0.1779984721161192,
-          "consumer-goods-services": 0.1787624140565317,
-          "energy-utilities": 0.04660045836516425,
-          "financial-services": 0.054239877769289534,
-          "media-entertainment": 0.07257448433919023
+          "it-telecom": 0.4709480122324159,
+          "healthcare-food": 0.17660550458715596,
+          "consumer-goods-services": 0.17889908256880735,
+          "energy-utilities": 0.046636085626911315,
+          "financial-services": 0.054281345565749234,
+          "media-entertainment": 0.07262996941896024
         }
       },
       {
         "year": 2025,
-        "total": 1693,
+        "total": 1694,
         "unknown": 93,
         "counts": {
           "it-telecom": 762,
-          "healthcare-food": 228,
+          "healthcare-food": 229,
           "consumer-goods-services": 364,
           "energy-utilities": 66,
           "financial-services": 116,
           "media-entertainment": 157
         },
         "shares": {
-          "it-telecom": 0.4500886001181335,
-          "healthcare-food": 0.13467217956290609,
-          "consumer-goods-services": 0.21500295333727112,
-          "energy-utilities": 0.03898405197873597,
-          "financial-services": 0.06851742468989959,
-          "media-entertainment": 0.09273479031305375
+          "it-telecom": 0.4498229043683589,
+          "healthcare-food": 0.13518299881936247,
+          "consumer-goods-services": 0.21487603305785125,
+          "energy-utilities": 0.03896103896103896,
+          "financial-services": 0.06847697756788666,
+          "media-entertainment": 0.09268004722550177
         }
       },
       {
@@ -1831,42 +1831,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 14965,
-        "share": 0.39791007471615836
+        "count": 14969,
+        "share": 0.3980375993830936
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 7021,
-        "share": 0.186684038395065
+        "count": 7017,
+        "share": 0.1865876033717127
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7204,
-        "share": 0.19154989497194821
+        "count": 7202,
+        "share": 0.19150690031111228
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1668,
-        "share": 0.044351086176181234
+        "share": 0.044353444837397296
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2221,
-        "share": 0.059055013427637
+        "share": 0.05905815406706198
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4530,
-        "share": 0.12044989231301019
+        "share": 0.12045629802962214
       }
     ],
     "mixSummary": {
-      "totalVisible": 17014,
+      "totalVisible": 17012,
       "totalUnknown": 638
     },
     "subTrendYears": [
@@ -1900,15 +1900,15 @@
           96
         ],
         "shares": [
-          0.031408308004052685,
-          0.02389425521098119,
+          0.031424227065382664,
+          0.023906408952187184,
           0.033783783783783786,
           0.027052681537731372,
           0.029791459781529295,
           0.035671100362756954,
           0.06095110515740121,
-          0.08097784568372804,
-          0.08387477849970466,
+          0.08103975535168195,
+          0.08382526564344746,
           0.10884353741496598
         ]
       },
@@ -1916,29 +1916,29 @@
         "name": "Enterprise Software",
         "parent": "IT and Telecom",
         "total": 2463,
-        "shareDelta": 0.027,
+        "shareDelta": 0.028,
         "counts": [
           250,
-          261,
+          260,
           258,
           305,
           275,
           255,
           265,
-          207,
+          208,
           236,
           151
         ],
         "shares": [
-          0.12664640324214793,
-          0.13268937468225725,
+          0.12671059300557527,
+          0.13224821973550355,
           0.1340956340956341,
           0.14475557664926436,
           0.1365441906653426,
           0.15417170495767835,
           0.17749497655726726,
-          0.15813598166539344,
-          0.13939751919669227,
+          0.15902140672782875,
+          0.13931523022432113,
           0.1712018140589569
         ]
       },
@@ -1960,22 +1960,22 @@
           60
         ],
         "shares": [
-          0.04559270516717325,
-          0.05388917132689375,
+          0.0456158134820071,
+          0.05391658189216684,
           0.04365904365904366,
           0.04413858566682487,
           0.0506454816285998,
           0.060459492140266025,
           0.050904219691895514,
-          0.08632543926661573,
-          0.07028942705256941,
+          0.0863914373088685,
+          0.07024793388429752,
           0.06802721088435375
         ]
       },
       {
         "name": "Marketing Technology",
         "parent": "IT and Telecom",
-        "total": 359,
+        "total": 360,
         "shareDelta": 0.011,
         "counts": [
           34,
@@ -1984,21 +1984,21 @@
           34,
           28,
           29,
-          38,
+          39,
           27,
           65,
           36
         ],
         "shares": [
-          0.017223910840932118,
-          0.01626842907981698,
+          0.017232640648758235,
+          0.01627670396744659,
           0.018711018711018712,
           0.01613668723303275,
           0.013902681231380337,
           0.017533252720677146,
-          0.025452109845947757,
-          0.020626432391138275,
-          0.0383933845245127,
+          0.026121902210314803,
+          0.020642201834862386,
+          0.03837072018890201,
           0.04081632653061224
         ]
       },
@@ -2020,15 +2020,15 @@
           17
         ],
         "shares": [
-          0.010131712259371834,
-          0.013218098627351297,
+          0.01013684744044602,
+          0.013224821973550356,
           0.008316008316008316,
           0.014238253440911248,
           0.011420059582919563,
           0.010882708585247884,
           0.010716677829872739,
-          0.019862490450725745,
-          0.027761370348493797,
+          0.019877675840978593,
+          0.027744982290436836,
           0.01927437641723356
         ]
       }
@@ -2052,15 +2052,15 @@
           4
         ],
         "shares": [
-          0.034954407294832825,
-          0.027452974072191154,
+          0.03497212366953877,
+          0.027466937945066123,
           0.007796257796257797,
           0.009017560512577124,
           0.016881827209533268,
           0.016928657799274487,
           0.008037508372404554,
-          0.004583651642475172,
-          0.008860011813349085,
+          0.0045871559633027525,
+          0.00885478158205431,
           0.0045351473922902496
         ]
       },
@@ -2082,22 +2082,22 @@
           19
         ],
         "shares": [
-          0.06332320162107397,
-          0.04778851042196238,
+          0.06335529650278764,
+          0.04781281790437437,
           0.05353430353430354,
           0.06407214048410062,
           0.04568023833167825,
           0.05441354292623942,
           0.04822505023442733,
-          0.05042016806722689,
-          0.03130537507383343,
+          0.05045871559633028,
+          0.03128689492325856,
           0.021541950113378686
         ]
       },
       {
         "name": "Retail & E-commerce",
         "parent": "Consumer Goods and Services",
-        "total": 533,
+        "total": 532,
         "shareDelta": -0.01,
         "counts": [
           71,
@@ -2106,21 +2106,21 @@
           86,
           75,
           47,
-          37,
+          36,
           29,
           43,
           15
         ],
         "shares": [
-          0.03596757852077001,
-          0.029486527707168277,
+          0.03598580841358338,
+          0.029501525940996948,
           0.037422037422037424,
           0.04081632653061224,
           0.03723932472691162,
           0.028415961305925032,
-          0.02478231748158071,
-          0.02215431627196333,
-          0.025398700531600708,
+          0.024112525117213665,
+          0.02217125382262997,
+          0.02538370720188902,
           0.017006802721088437
         ]
       },
@@ -2142,15 +2142,15 @@
           6
         ],
         "shares": [
-          0.022289766970618033,
-          0.02389425521098119,
+          0.022301064368981247,
+          0.023906408952187184,
           0.033783783783783786,
           0.029900332225913623,
           0.02333664349553128,
           0.03143893591293833,
           0.020093770931011386,
-          0.019862490450725745,
-          0.010632014176018901,
+          0.019877675840978593,
+          0.010625737898465172,
           0.006802721088435374
         ]
       },
@@ -2172,21 +2172,21 @@
           8
         ],
         "shares": [
-          0.023809523809523808,
-          0.02592780884595831,
+          0.02382159148504815,
+          0.025940996948118005,
           0.02598752598752599,
           0.01566207878500237,
           0.01787487586891758,
           0.020556227327690448,
           0.02344273275284662,
-          0.016042780748663103,
-          0.0070880094506792675,
+          0.016055045871559634,
+          0.0070838252656434475,
           0.009070294784580499
         ]
       }
     ],
     "signals": {
-      "deeptechCount": 9803,
+      "deeptechCount": 9791,
       "deeptechPct": 25.1,
       "globalCount": 16182,
       "globalPct": 41.5
@@ -2194,6 +2194,17 @@
   },
   "feeds": {
     "funding": [
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "MAVE Security",
+        "stage": "Series A",
+        "amountUsd": 34000000,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A (emerges from stealth with $34M)"
+      },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "org": "Warp Sciences",
@@ -2218,6 +2229,16 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Modelyo",
         "stage": "Series A",
         "amountUsd": 17000000,
@@ -2226,27 +2247,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "MAVE Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A (emerges from stealth with $34M)"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 5,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2294,17 +2294,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Scinai Immunotherapeutics",
         "stage": "Post-IPO",
         "amountUsd": 4000000,
@@ -2312,17 +2301,6 @@
         "investorCount": 0,
         "isNonEquity": false,
         "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Axonica Labs",
-        "stage": "Pre-seed",
-        "amountUsd": 50000000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2336,6 +2314,28 @@
         "roundTitle": "Debt Financing 2026"
       },
       {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Axonica Labs",
+        "stage": "Pre-seed",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
         "ts": "2026-10-13T00:00:00.000Z",
         "org": "Pluto Security",
         "stage": "Series A",
@@ -2347,14 +2347,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Undecimal Bio",
-        "stage": "Seed",
-        "amountUsd": 18000000,
+        "org": "VAST Data",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed - $18 million oversubscribed"
+        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2368,14 +2368,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "VAST Data",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
+        "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2390,17 +2390,6 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed Round"
-      },
-      {
-        "ts": "2026-10-08T00:00:00.000Z",
         "org": "Rein",
         "stage": "Series A",
         "amountUsd": 25000000,
@@ -2409,6 +2398,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-08T00:00:00.000Z",
+        "org": "PlayVault",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Athletes First"
       }
     ],
     "todayStats": {
@@ -2904,6 +2904,13 @@
         "summary": "EcoMoat published an analysis downgrading Nike to a 'Moderate Moat' rating due to declining engagement and increased competition."
       },
       {
+        "ts": "2026-10-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Legal Case",
+        "org": "Tigo Energy",
+        "summary": "A class action lawsuit was filed against Tigo Energy, Inc. (Nasdaq: TYGO), as announced by Pomerantz LLP, which is notifying investors of the action."
+      },
+      {
         "ts": "2026-10-23T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
@@ -2911,11 +2918,25 @@
         "summary": "Cygrid exited stealth and launched its identity-enforcement platform, which maps human, non-human and AI agent identities into a single intelligence graph and continuously enforces access limits, blocking risky actions before they execute. At launch the company reported ~20 design partners across fintech, e-commerce and SaaS (including Barfer's and Horizn Studios) and more than 2,000 risky identity actions stopped."
       },
       {
+        "ts": "2026-10-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Tonic",
+        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
+      },
+      {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Warp Sciences",
         "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tigo Energy",
+        "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2956,20 +2977,6 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Tomorrow.io",
-        "summary": "Launched the Tomorrow.io Terminal in beta \u2014 a platform aggregating weather, river and disaster-agency warnings and readings worldwide, organized by impact, place, storm and events, with daily 'The Atmosphere Today' editions, structured pages readable by AI agents, and access via waitlist at terminal.tomorrow.io."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Fhenix",
-        "summary": "Fhenix CoFHE went live on Arbitrum mainnet (partner mainnet, permissioned at launch), bringing encrypted computation and dual-mode confidential tokens to the Arbitrum ecosystem. First design partners Obolos and Alpha Engine launched on day one; the system was audited by Consensys Diligence, and Fhenix also announced work on a confidential stablecoin with Tandem."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Morphisec",
         "summary": "Launched AI Command Pro, a major expansion of AI Command, the intelligent analyst layer in the Morphisec Security Center: turns dense security data into clear answers and guided, confirmation-gated, audit-logged actions across the console, with incident summarization, CSV/JSON export, policy rule additions and a dashboard assistant."
       },
@@ -2977,8 +2984,8 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "SuperCom",
-        "summary": "Unveiled SafeGenie for real-time monitoring and control of autonomous AI agents."
+        "org": "Safebooks",
+        "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2991,15 +2998,15 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Cellebrite",
-        "summary": "Announced its Autumn 2026 Release, led by Genesis agentic AI with expanded device and OS access, on-premises Genesis (expected early 2027), AI-based CDR analysis in Pathfinder, Corellium Falcon Mirror Add-on, next-generation DJI drone forensics (CFID v4), Guardian storage/governance enhancements, and the Cellebrite Tactical Extraction Kit (C-Tek) field kit."
+        "org": "Fhenix",
+        "summary": "Fhenix CoFHE went live on Arbitrum mainnet (partner mainnet, permissioned at launch), bringing encrypted computation and dual-mode confidential tokens to the Arbitrum ecosystem. First design partners Obolos and Alpha Engine launched on day one; the system was audited by Consensys Diligence, and Fhenix also announced work on a confidential stablecoin with Tandem."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Palo Alto Networks",
-        "summary": "Announced collaboration with NVIDIA on advancing agentic AI security, covering security for agentic AI workflows and NVIDIA-based deployments."
+        "rawKind": "Product Launch",
+        "org": "Tomorrow.io",
+        "summary": "Launched the Tomorrow.io Terminal in beta \u2014 a platform aggregating weather, river and disaster-agency warnings and readings worldwide, organized by impact, place, storm and events, with daily 'The Atmosphere Today' editions, structured pages readable by AI agents, and access via waitlist at terminal.tomorrow.io."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -3007,13 +3014,6 @@
         "rawKind": "Product Launch",
         "org": "ReachEffect",
         "summary": "Launched a rebuilt reacheffect.com website and a new unified self-serve dashboard for advertisers, affiliates and publishers, featuring AI-assisted campaign setup (AI Fill), a seven-step campaign flow, reusable filters, budget spreading, an offers wall with 1,200+ CPA offers and smartlinks, and live traffic data across 195 GEOs."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Safebooks",
-        "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
