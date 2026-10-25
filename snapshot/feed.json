@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-25T08:45:12.770668Z",
+  "generatedAt": "2026-10-25T10:04:38.409094Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       12,
       10,
       14,
-      7
+      9
     ],
     "exits": [
       0,
@@ -305,13 +305,13 @@
       94,
       47,
       292,
-      337,
-      398,
+      336,
+      397,
       406,
       469,
       164,
       43,
-      15
+      17
     ],
     "newFounders": [
       120,
@@ -343,7 +343,7 @@
       30,
       20,
       23,
-      32
+      34
     ],
     "investments": [
       0,
@@ -497,9 +497,9 @@
       "d30": 38
     },
     "newOrgs": {
-      "d1": 13,
-      "d7": 128,
-      "d30": 1955
+      "d1": 15,
+      "d7": 130,
+      "d30": 1957
     },
     "exits": {
       "d1": 0,
@@ -517,14 +517,14 @@
       "d30": 39
     },
     "jobsPosted": {
-      "d1": 15,
+      "d1": 17,
       "d7": 1832,
       "d30": 6246
     },
     "newFounders": {
       "d1": 42,
-      "d7": 289,
-      "d30": 1629
+      "d7": 291,
+      "d30": 1631
     },
     "investments": {
       "d1": 0,
@@ -538,8 +538,27 @@
     }
   },
   "news": {
-    "sweptOn": "2026-10-24",
+    "sweptOn": "2026-10-25",
     "israel": [
+      {
+        "company": "BrainPOP",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Lego",
+        "status": "reported",
+        "tie": "Israeli founder nets $875 million from deal",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "$875 million",
+        "detail": "Lego acquires BrainPOP; Israeli founder nets $875 million from the deal",
+        "publishedAt": null,
+        "seenOn": "2026-10-25"
+      },
       {
         "company": "Elementary Data",
         "event": "acquisition",
@@ -558,29 +577,6 @@
         "detail": "Boomi acquires Israeli data observability startup Elementary for $40-45 million, its third Israeli acquisition",
         "publishedAt": null,
         "seenOn": "2026-10-24"
-      },
-      {
-        "company": "Upwind",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": null,
-        "status": "rumored",
-        "tie": "report - Globes - Israel Business News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVI4bTdkRWZOc1kxV0ZFMnZYRWtiRFpUUDA3SERlZ2g1d2RvNDh1Wi14aG80SWx0MVAxSkV4OThtdk5lM282NXB3Yk1SV0ZJT09GQnFoZ0hkNlpZQkUyZ1lseVBKMzR3RTNJUGtwTXhBZGhLUGxuVnc4elpmWWhzb0pXeDRjVGtuWnYyaC03R0NUUQ",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          },
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-upwind-rejects-4b-acquisition-offer-report-1001560598"
-          }
-        ],
-        "amount": "$4b",
-        "detail": "Israeli cyber unicorn Upwind reportedly rejects $4 billion acquisition offer",
-        "publishedAt": "2026-10-23",
-        "seenOn": "2026-10-23"
       },
       {
         "company": "Fireblocks",
@@ -652,25 +648,6 @@
         "seenOn": "2026-10-23"
       },
       {
-        "company": "Two Delta",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": null,
-        "status": "reported",
-        "tie": "secretive Israeli AI startup",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": "tens of millions of dollars",
-        "detail": "Israeli AI startup Two Delta raises tens of millions in seed funding backed by Bill Ackman and Eric Schmidt",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
         "company": "Israel Weapon Industries",
         "event": "contract_win",
         "round": null,
@@ -686,6 +663,25 @@
         ],
         "amount": null,
         "detail": "Thailand purchases the Arbel anti-drone system from Israel Weapon Industries",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
+        "company": "Two Delta",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": "secretive Israeli AI startup",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "tens of millions of dollars",
+        "detail": "Israeli AI startup Two Delta raises tens of millions in seed funding backed by Bill Ackman and Eric Schmidt",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
@@ -709,21 +705,21 @@
         "seenOn": "2026-10-22"
       },
       {
-        "company": "Rylo",
-        "event": "partnership",
+        "company": "Waze",
+        "event": "regulatory",
         "round": null,
-        "counterparty": "Nvidia",
+        "counterparty": "Malaysia",
         "status": "reported",
-        "tie": "The Israeli startup",
-        "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0",
+        "tie": "over Israeli security concerns",
+        "url": null,
         "sources": [
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0"
+            "url": "https://www.calcalistech.com/ctechnews"
           }
         ],
         "amount": null,
-        "detail": "Israeli startup Rylo partners with Nvidia to train AI for real-time sign language translation",
+        "detail": "Malaysia bars civil servants from using Waze over Israeli security concerns",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-22"
       },
@@ -747,21 +743,21 @@
         "seenOn": "2026-10-22"
       },
       {
-        "company": "Waze",
-        "event": "regulatory",
+        "company": "Rylo",
+        "event": "partnership",
         "round": null,
-        "counterparty": "Malaysia",
+        "counterparty": "Nvidia",
         "status": "reported",
-        "tie": "over Israeli security concerns",
-        "url": null,
+        "tie": "The Israeli startup",
+        "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0",
         "sources": [
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
+            "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0"
           }
         ],
         "amount": null,
-        "detail": "Malaysia bars civil servants from using Waze over Israeli security concerns",
+        "detail": "Israeli startup Rylo partners with Nvidia to train AI for real-time sign language translation",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-22"
       },
@@ -875,7 +871,7 @@
         "sources": [
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001560137"
+            "url": "https://en.globes.co.il/en/article-1001560137#utm_source=RSS"
           }
         ],
         "amount": "over $100 million",
@@ -954,25 +950,6 @@
         "seenOn": "2026-10-20"
       },
       {
-        "company": "Tnufa",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Dan",
-        "status": "reported",
-        "tie": "the most complained about public transport company in Israel",
-        "url": "https://en.globes.co.il/en/article-1001559986#utm_source=RSS",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001559986#utm_source=RSS"
-          }
-        ],
-        "amount": "NIS 150m",
-        "detail": "Dan buys Jerusalem-area bus company Tnufa for NIS 150m",
-        "publishedAt": "2026-10-19",
-        "seenOn": "2026-10-20"
-      },
-      {
         "company": "Ophir Photonics",
         "event": "acquisition",
         "round": null,
@@ -992,31 +969,23 @@
         "seenOn": "2026-10-20"
       },
       {
-        "company": "Mave Security",
-        "event": "funding",
+        "company": "Tnufa",
+        "event": "acquisition",
         "round": null,
-        "counterparty": null,
+        "counterparty": "Dan",
         "status": "reported",
-        "tie": "\u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4 \u05d4\u05e1\u05d9\u05d9\u05d1\u05e8 Mave \u05d9\u05d5\u05e6\u05d0 \u05de\u05d4\u05e6\u05dc\u05dc\u05d9\u05dd \u05e2\u05dd \u05d2\u05d9\u05d5\u05e1 \u05e9\u05dc 34 \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8",
-        "url": "https://finance.walla.co.il/item/3873341",
+        "tie": "the most complained about public transport company in Israel",
+        "url": "https://en.globes.co.il/en/article-1001559986#utm_source=RSS",
         "sources": [
           {
-            "label": "Walla",
-            "url": "https://finance.walla.co.il/item/3873341"
-          },
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il/mave-comes-out-of-stealth/"
-          },
-          {
-            "label": "Ynet",
-            "url": "https://www.ynetnews.com/business/article/symkvnpngg"
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001559986#utm_source=RSS"
           }
         ],
-        "amount": "$34 million",
-        "detail": "Israeli cybersecurity startup Mave Security emerges from stealth with $34M raise for an AI SOC platform.",
+        "amount": "NIS 150m",
+        "detail": "Dan buys Jerusalem-area bus company Tnufa for NIS 150m",
         "publishedAt": "2026-10-19",
-        "seenOn": "2026-10-24"
+        "seenOn": "2026-10-20"
       },
       {
         "company": "High Lander",
@@ -1073,6 +1042,33 @@
         "seenOn": "2026-10-20"
       },
       {
+        "company": "Mave Security",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4 \u05d4\u05e1\u05d9\u05d9\u05d1\u05e8 Mave \u05d9\u05d5\u05e6\u05d0 \u05de\u05d4\u05e6\u05dc\u05dc\u05d9\u05dd \u05e2\u05dd \u05d2\u05d9\u05d5\u05e1 \u05e9\u05dc 34 \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8",
+        "url": "https://finance.walla.co.il/item/3873341",
+        "sources": [
+          {
+            "label": "Walla",
+            "url": "https://finance.walla.co.il/item/3873341"
+          },
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il/mave-comes-out-of-stealth/"
+          },
+          {
+            "label": "Israel Defense",
+            "url": "https://www.israeldefense.co.il/en/node/72077"
+          }
+        ],
+        "amount": "$34 million",
+        "detail": "Israeli cybersecurity startup Mave Security emerges from stealth with $34M raise for an AI SOC platform.",
+        "publishedAt": "2026-10-18",
+        "seenOn": "2026-10-24"
+      },
+      {
         "company": "Gauzy",
         "event": "funding",
         "round": null,
@@ -1093,6 +1089,25 @@
       }
     ],
     "global": [
+      {
+        "company": "Arda",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": "Altimeter, Accel and Khosla Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://twitter.com/alonlif/status/2114245872229712170",
+        "sources": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/alonlif/status/2114245872229712170"
+          }
+        ],
+        "amount": "$160 million",
+        "detail": "CAD-to-assembly software startup Arda emerges from stealth with $160M Series A at $1.5B valuation led by Altimeter, Accel and Khosla",
+        "publishedAt": "2026-10-25",
+        "seenOn": "2026-10-25"
+      },
       {
         "company": "Zencity",
         "event": "acquisition",
@@ -1193,44 +1208,6 @@
         "seenOn": "2026-10-24"
       },
       {
-        "company": "Intuitivo",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "Caixa Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/portuguese-edtech-intuitivo-raises-e1-35-million-to-ease-teachers-workload-and-expand-into-brazil/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/portuguese-edtech-intuitivo-raises-e1-35-million-to-ease-teachers-workload-and-expand-into-brazil/"
-          }
-        ],
-        "amount": "\u20ac1.35 million",
-        "detail": "Portuguese EdTech Intuitivo raises \u20ac1.35 million seed led by Caixa Capital to ease teachers' workload and expand into Brazil",
-        "publishedAt": "2026-10-23",
-        "seenOn": "2026-10-24"
-      },
-      {
-        "company": "ICEYE",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "Nokia",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/iceye-strengthens-ukraines-satellite-communications-ambitions-while-expanding-wildfire-monitoring-capabilities/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/iceye-strengthens-ukraines-satellite-communications-ambitions-while-expanding-wildfire-monitoring-capabilities/"
-          }
-        ],
-        "amount": null,
-        "detail": "Finnish spacetech unicorn ICEYE signs LoI with Nokia and Ukraine's MoD to explore sovereign satellite communications",
-        "publishedAt": "2026-10-23",
-        "seenOn": "2026-10-24"
-      },
-      {
         "company": "Cygrid",
         "event": "funding",
         "round": "pre-seed",
@@ -1246,6 +1223,44 @@
         ],
         "amount": "\u20ac2.66 million",
         "detail": "Berlin cybersecurity startup Cygrid exits stealth with \u20ac2.66 million pre-seed round led by Atlantic",
+        "publishedAt": "2026-10-23",
+        "seenOn": "2026-10-24"
+      },
+      {
+        "company": "Carta",
+        "event": "partnership",
+        "round": null,
+        "counterparty": "NewView",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/"
+          }
+        ],
+        "amount": null,
+        "detail": "Carta and NewView partner on a program to help startups let employees sell shares early",
+        "publishedAt": "2026-10-23",
+        "seenOn": "2026-10-24"
+      },
+      {
+        "company": "Intuitivo",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Caixa Capital",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/portuguese-edtech-intuitivo-raises-e1-35-million-to-ease-teachers-workload-and-expand-into-brazil/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/portuguese-edtech-intuitivo-raises-e1-35-million-to-ease-teachers-workload-and-expand-into-brazil/"
+          }
+        ],
+        "amount": "\u20ac1.35 million",
+        "detail": "Portuguese EdTech Intuitivo raises \u20ac1.35 million seed led by Caixa Capital to ease teachers' workload and expand into Brazil",
         "publishedAt": "2026-10-23",
         "seenOn": "2026-10-24"
       },
@@ -1288,21 +1303,21 @@
         "seenOn": "2026-10-24"
       },
       {
-        "company": "Carta",
+        "company": "ICEYE",
         "event": "partnership",
         "round": null,
-        "counterparty": "NewView",
+        "counterparty": "Nokia",
         "status": "reported",
         "tie": null,
-        "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+        "url": "https://www.eu-startups.com/2026/10/iceye-strengthens-ukraines-satellite-communications-ambitions-while-expanding-wildfire-monitoring-capabilities/",
         "sources": [
           {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/"
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/iceye-strengthens-ukraines-satellite-communications-ambitions-while-expanding-wildfire-monitoring-capabilities/"
           }
         ],
         "amount": null,
-        "detail": "Carta and NewView partner on a program to help startups let employees sell shares early",
+        "detail": "Finnish spacetech unicorn ICEYE signs LoI with Nokia and Ukraine's MoD to explore sovereign satellite communications",
         "publishedAt": "2026-10-23",
         "seenOn": "2026-10-24"
       },
@@ -1345,25 +1360,6 @@
         "seenOn": "2026-10-24"
       },
       {
-        "company": "Modelyo",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hUTBtbG95cUUtSkZwQ3BjN3Jvdy15TnRab1dWclFmS0J2T3QxdFZEYzhJeVNUcUtxNmE1SHFFUVhQZzZzWExwdVdQSUxUcUZaNmF6ZloxMlJ4d2ZOWDhRNm1IblRtX1l0QlE?oc=5",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/rju100ow2ml"
-          }
-        ],
-        "amount": "$17 million",
-        "detail": "Modelyo raises $17 million to let companies use AI without exposing their secrets",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
         "company": "Beyond Vision",
         "event": "funding",
         "round": null,
@@ -1387,6 +1383,25 @@
         "seenOn": "2026-10-23"
       },
       {
+        "company": "NAiSE",
+        "event": "funding",
+        "round": null,
+        "counterparty": "K\u00f6rber",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/"
+          }
+        ],
+        "amount": null,
+        "detail": "K\u00f6rber takes a stake in German fleet-management software startup NAiSE",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
         "company": "Warhound",
         "event": "funding",
         "round": null,
@@ -1402,6 +1417,44 @@
         ],
         "amount": "$200M",
         "detail": "Warhound emerges from stealth with $200M to genetically engineer war dogs with Anduril gear",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
+        "company": "QuantrolOx",
+        "event": "funding",
+        "round": "Series A",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/22/anglo-finnish-oxford-university-quantum-spinout-raises-eur12m/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/22/anglo-finnish-oxford-university-quantum-spinout-raises-eur12m/"
+          }
+        ],
+        "amount": "\u20ac12m",
+        "detail": "Oxford quantum spinout QuantrolOx raises \u20ac12M Series A",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
+        "company": "Helion",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/"
+          }
+        ],
+        "amount": "$225M",
+        "detail": "Fusion startup Helion raises $225M to speed development of its first power plant",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
@@ -1429,78 +1482,40 @@
         "seenOn": "2026-10-23"
       },
       {
-        "company": "RhymeQ",
+        "company": "Slingshot Insurance",
         "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Ground State Ventures",
+        "round": "seed",
+        "counterparty": "Rally Ventures",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/",
+        "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
         "sources": [
           {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/"
+            "label": "Crunchbase News",
+            "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
           }
         ],
-        "amount": "$2.2 million",
-        "detail": "Quantum computing startup RhymeQ emerges from stealth with $2.2M pre-seed",
+        "amount": "$27M",
+        "detail": "Minneapolis-based AI-native embedded insurance startup Slingshot emerges from stealth with $27M seed co-led by Rally Ventures and Skyward Group",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
       {
-        "company": "NAiSE",
+        "company": "Modelyo",
         "event": "funding",
         "round": null,
-        "counterparty": "K\u00f6rber",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/"
-          }
-        ],
-        "amount": null,
-        "detail": "K\u00f6rber takes a stake in German fleet-management software startup NAiSE",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
-        "company": "QuantrolOx",
-        "event": "funding",
-        "round": "Series A",
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/22/anglo-finnish-oxford-university-quantum-spinout-raises-eur12m/",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hUTBtbG95cUUtSkZwQ3BjN3Jvdy15TnRab1dWclFmS0J2T3QxdFZEYzhJeVNUcUtxNmE1SHFFUVhQZzZzWExwdVdQSUxUcUZaNmF6ZloxMlJ4d2ZOWDhRNm1IblRtX1l0QlE?oc=5",
         "sources": [
           {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/22/anglo-finnish-oxford-university-quantum-spinout-raises-eur12m/"
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/rju100ow2ml"
           }
         ],
-        "amount": "\u20ac12m",
-        "detail": "Oxford quantum spinout QuantrolOx raises \u20ac12M Series A",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
-        "company": "Arke Telekom",
-        "event": "funding",
-        "round": null,
-        "counterparty": "ACT Venture Partners",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/22/arke-telekom-lands-eur1m-from-act-venture-partners-to-advance-drone-communications/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/22/arke-telekom-lands-eur1m-from-act-venture-partners-to-advance-drone-communications/"
-          }
-        ],
-        "amount": "\u20ac1 million",
-        "detail": "Drone communications company Arke Telekom raises \u20ac1M from ACT Venture Partners",
+        "amount": "$17 million",
+        "detail": "Modelyo raises $17 million to let companies use AI without exposing their secrets",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
@@ -1528,59 +1543,40 @@
         "seenOn": "2026-10-23"
       },
       {
-        "company": "Helion",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/"
-          }
-        ],
-        "amount": "$225M",
-        "detail": "Fusion startup Helion raises $225M to speed development of its first power plant",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
-        "company": "Slingshot Insurance",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "Rally Ventures",
-        "status": "reported",
-        "tie": null,
-        "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
-        "sources": [
-          {
-            "label": "Crunchbase News",
-            "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
-          }
-        ],
-        "amount": "$27M",
-        "detail": "Minneapolis-based AI-native embedded insurance startup Slingshot emerges from stealth with $27M seed co-led by Rally Ventures and Skyward Group",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
-        "company": "Reduck",
+        "company": "RhymeQ",
         "event": "funding",
         "round": "pre-seed",
-        "counterparty": "Daphni",
+        "counterparty": "Ground State Ventures",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/22/reduck-secures-3m-to-make-web-automation-faster-for-ai-agents/",
+        "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/",
         "sources": [
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/22/reduck-secures-3m-to-make-web-automation-faster-for-ai-agents/"
+            "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/"
           }
         ],
-        "amount": "$3 million",
-        "detail": "French-American AI startup Reduck raises $3M pre-seed led by Daphni",
+        "amount": "$2.2 million",
+        "detail": "Quantum computing startup RhymeQ emerges from stealth with $2.2M pre-seed",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
+        "company": "Arke Telekom",
+        "event": "funding",
+        "round": null,
+        "counterparty": "ACT Venture Partners",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/22/arke-telekom-lands-eur1m-from-act-venture-partners-to-advance-drone-communications/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/22/arke-telekom-lands-eur1m-from-act-venture-partners-to-advance-drone-communications/"
+          }
+        ],
+        "amount": "\u20ac1 million",
+        "detail": "Drone communications company Arke Telekom raises \u20ac1M from ACT Venture Partners",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       }
@@ -1650,16 +1646,6 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
-      "target": "Paraspot",
-      "acquirer": "AppWork",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "paraspot.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
       "target": "IdentifAI Genetics",
       "acquirer": null,
       "kind": "ipo",
@@ -1676,6 +1662,16 @@
       "amountUsd": null,
       "domain": "geniez.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
+      "target": "Paraspot",
+      "acquirer": "AppWork",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "paraspot.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-12",
@@ -1790,22 +1786,22 @@
     {
       "ts": "2026-09-15",
       "precision": "day",
-      "target": "Blue Dot",
-      "acquirer": "Sovos",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "bluedotcorp.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/a069dbbf-3621-48c6-b383-8daa40468430.jpg"
-    },
-    {
-      "ts": "2026-09-15",
-      "precision": "day",
       "target": "Alma K. Cosmetics",
       "acquirer": "Nili Capital",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "alma-k.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/97d4348c-a400-471c-b094-cac10a9a3fb6.webp"
+    },
+    {
+      "ts": "2026-09-15",
+      "precision": "day",
+      "target": "Blue Dot",
+      "acquirer": "Sovos",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "bluedotcorp.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/a069dbbf-3621-48c6-b383-8daa40468430.jpg"
     },
     {
       "ts": "2026-09-14",
@@ -1838,18 +1834,6 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/8685a6ae-8d3d-440c-9f1d-0a8fb97bf93a-square.jpg"
     },
     {
-      "ts": "2026-10-23",
-      "precision": "day",
-      "target": "Upwind",
-      "acquirer": null,
-      "kind": "acquisition",
-      "amountUsd": null,
-      "amountText": "$4b",
-      "rumored": true,
-      "domain": "upwind.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/ef29b61b-02cb-41b1-b4db-52fa10d4ab54.jpg"
-    },
-    {
       "ts": "2026-10-22",
       "precision": "day",
       "target": "Fireblocks",
@@ -1860,28 +1844,6 @@
       "rumored": true,
       "domain": "fireblocks.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/cf7e59d7-e54a-4e04-9df3-a55cd7f48e5b.jpg"
-    },
-    {
-      "ts": "2026-10-12",
-      "precision": "day",
-      "target": "Decart",
-      "acquirer": "Amazon",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "amountText": "$7 billion",
-      "rumored": true,
-      "domain": "decart.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/509d8bc0-b2c0-4510-ac70-921ceac12638.jpg"
-    },
-    {
-      "ts": "2026-10-12",
-      "precision": "day",
-      "target": "Orion",
-      "acquirer": "CrowdStrike",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "amountText": "$500 million",
-      "rumored": true
     },
     {
       "ts": "2026-10-06",
@@ -1905,6 +1867,40 @@
       "amountText": "about half a billion dollars",
       "rumored": true,
       "domain": "sunfltd.com"
+    },
+    {
+      "ts": "2025-10-22",
+      "precision": "day",
+      "target": "Upwind",
+      "acquirer": null,
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": "$4b",
+      "rumored": true,
+      "domain": "upwind.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ef29b61b-02cb-41b1-b4db-52fa10d4ab54.jpg"
+    },
+    {
+      "ts": "2025-10-12",
+      "precision": "day",
+      "target": "Decart",
+      "acquirer": "Amazon",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": "$7 billion",
+      "rumored": true,
+      "domain": "decart.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/509d8bc0-b2c0-4510-ac70-921ceac12638.jpg"
+    },
+    {
+      "ts": "2025-10-12",
+      "precision": "day",
+      "target": "Orion",
+      "acquirer": "CrowdStrike",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": "$500 million",
+      "rumored": true
     }
   ],
   "firstChecks": [
@@ -2120,14 +2116,6 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Systems and methods for cavity imaging in patient organ based on position of 4d ultrasound catheter",
-      "number": "4547114",
-      "url": "https://patents.google.com/patent/EP4547114B1/en"
-    },
-    {
-      "ts": "2026-10-14",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
       "title": "Layered multi-activation local activation time (lat) mapping",
       "number": "7935046",
       "url": "https://patents.google.com/patent/JP7935046B2/en"
@@ -2144,9 +2132,41 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
+      "title": "Systems and methods for cavity imaging in patient organ based on position of 4d ultrasound catheter",
+      "number": "4547114",
+      "url": "https://patents.google.com/patent/EP4547114B1/en"
+    },
+    {
+      "ts": "2026-10-14",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
       "title": "Impedance based tracking of catheter location in relation to a cavity wall",
       "number": "4585146",
       "url": "https://patents.google.com/patent/EP4585146B1/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Sheath valve housing",
+      "number": "12758742",
+      "url": "https://patents.google.com/patent/US12758742B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Automatic control and enhancement of 4d ultrasound images",
+      "number": "7933605",
+      "url": "https://patents.google.com/patent/JP7933605B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Systems and methods for recommending ablation lines",
+      "number": "12758309",
+      "url": "https://patents.google.com/patent/US12758309B2/en"
     },
     {
       "ts": "2026-10-13",
@@ -2163,33 +2183,16 @@
       "title": "Post ablation validation via visual signal",
       "number": "12758308",
       "url": "https://patents.google.com/patent/US12758308B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Catheter deflection control assembly",
-      "number": "12758307",
-      "url": "https://patents.google.com/patent/US12758307B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Automatic control and enhancement of 4d ultrasound images",
-      "number": "7933605",
-      "url": "https://patents.google.com/patent/JP7933605B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Sheath valve housing",
-      "number": "12758742",
-      "url": "https://patents.google.com/patent/US12758742B2/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-10-25",
+      "title": "Verification Lead",
+      "company": "Retym",
+      "city": "Ramat Gan",
+      "url": "https://retym.com/careers-2/co/ramat-gan-tel-aviv-area/C2.F44/verification-lead/all/"
+    },
     {
       "ts": "2026-10-25",
       "title": "\u05d3\u05e8\u05d5\u05e9/\u05d4 \u05e4\u05e7\u05d9\u05d3/\u05ea \u05dc\u05d5\u05d1\u05d9 \u05dc\u05d1\u05e0\u05d9\u05d9\u05df \u05de\u05d2\u05d5\u05e8\u05d9\u05dd \u05d9\u05d5\u05e7\u05e8\u05ea\u05d9 \u05d1\u05de\u05e8\u05db\u05d6 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1!",
@@ -2252,13 +2255,6 @@
       "company": "Maccabi Healthcare Services",
       "city": "Tel Aviv",
       "url": "https://www.maccabi4u.co.il/careers/"
-    },
-    {
-      "ts": "2026-10-25",
-      "title": "Sensor Engineering Manager Engineering Hybrid / Tel Aviv-Yafo",
-      "company": "Remedio",
-      "city": "Tel Aviv",
-      "url": "https://remedio.io/careers/sensor-engineering-manager/E2.561/"
     }
   ],
   "mix": {
@@ -2345,11 +2341,15 @@
       "d1": [
         {
           "label": "IT and Telecom",
-          "count": 5
+          "count": 6
         },
         {
           "label": "Healthcare and Food",
           "count": 3
+        },
+        {
+          "label": "Financial Services",
+          "count": 2
         },
         {
           "label": "Consumer Goods and Services",
@@ -2357,10 +2357,6 @@
         },
         {
           "label": "Energy and Utilities",
-          "count": 1
-        },
-        {
-          "label": "Financial Services",
           "count": 1
         },
         {
@@ -2379,7 +2375,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 28
+          "count": 29
         },
         {
           "label": "Consumer Goods and Services",
@@ -2399,7 +2395,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 2
+          "count": 3
         }
       ],
       "d30": [
@@ -2409,7 +2405,7 @@
         },
         {
           "label": "IT and Telecom",
-          "count": 473
+          "count": 474
         },
         {
           "label": "Healthcare and Food",
@@ -2421,7 +2417,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 90
+          "count": 91
         },
         {
           "label": "Unknown",
