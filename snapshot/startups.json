@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:31:32.741Z",
+  "generatedAt": "2026-10-25T21:31:13.038Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,10 +160,10 @@
   "kpis": {
     "startups": {
       "value": 39038,
-      "delta24h": 19
+      "delta24h": 18
     },
     "totalFunding": {
-      "valueUsd": 232340284710,
+      "valueUsd": 232307484710,
       "rounds": 29914
     },
     "exits": {
@@ -171,7 +171,7 @@
       "valueUsd": 334066871600
     },
     "employees": {
-      "total": 860316,
+      "total": 860225,
       "avgPerStartup": 30
     },
     "patents": {
@@ -1011,7 +1011,7 @@
         1,
         0,
         0,
-        3,
+        2,
         1,
         4,
         9,
@@ -1039,7 +1039,7 @@
         388,
         345,
         416,
-        503,
+        502,
         426,
         512,
         525,
@@ -1047,7 +1047,7 @@
         878,
         856,
         977,
-        924,
+        923,
         803,
         776,
         667,
@@ -1062,9 +1062,9 @@
       ],
       "statusMix": {
         "inactive": 385,
-        "active": 21101,
-        "unknown": 3660,
-        "closed": 13892
+        "active": 21102,
+        "unknown": 3662,
+        "closed": 13889
       }
     },
     "funding": {
@@ -1152,7 +1152,7 @@
         970,
         1123,
         1281,
-        1245,
+        1244,
         1338,
         1578,
         1584,
@@ -1162,7 +1162,7 @@
         1566,
         1494,
         1399,
-        718
+        719
       ],
       "raisedUsd": [
         0,
@@ -1200,7 +1200,7 @@
         2653160845,
         3888453281,
         4760931427,
-        6525937571,
+        6493137571,
         7606131036,
         8465369434,
         13117875472,
@@ -1209,13 +1209,13 @@
         25991632998,
         11694698469,
         15640580146,
-        21070088934,
-        29893326144
+        21060088934,
+        29903326144
       ],
       "stageMix": {
-        "Seed": 13755,
+        "Seed": 13756,
         "Series A": 4219,
-        "Other": 2883,
+        "Other": 2882,
         "Series B": 2135,
         "Series Unknown": 1514,
         "Series C": 1298,
@@ -1432,8 +1432,8 @@
   },
   "survivability": {
     "composition": {
-      "active": 22875,
-      "closed": 12757,
+      "active": 22878,
+      "closed": 12754,
       "exited": 3406
     },
     "funnel": {
@@ -2186,7 +2186,7 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9774,
+      "deeptechCount": 9772,
       "deeptechPct": 25.0,
       "globalCount": 16184,
       "globalPct": 41.5
@@ -2194,6 +2194,17 @@
   },
   "feeds": {
     "funding": [
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "org": "Warp Sciences",
@@ -2204,6 +2215,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2226,28 +2248,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Seed"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2295,16 +2295,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Uvi",
         "stage": "Seed",
         "amountUsd": 7500000,
@@ -2313,6 +2303,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2338,24 +2338,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Undecimal Bio",
-        "stage": "Seed",
-        "amountUsd": 18000000,
+        "org": "VAST Data",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 7,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed - $18 million oversubscribed"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Pluto Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
+        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2369,14 +2359,24 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "VAST Data",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "Pluto Security",
+        "stage": "Series A",
+        "amountUsd": 34000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
+        "investors": [],
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
+        "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2391,22 +2391,22 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "PlayVault",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "Rein",
+        "stage": "Series A",
+        "amountUsd": 25000000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
+        "investorCount": 5,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Athletes First"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Phantom GI",
+        "org": "Soda Labs",
         "stage": "Seed",
-        "amountUsd": 5000000,
+        "amountUsd": 3000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 1,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed Round"
@@ -2913,16 +2913,9 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "NoviSign",
-        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Portagon",
-        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
+        "rawKind": "Product Launch",
+        "org": "Warp Sciences",
+        "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2935,29 +2928,43 @@
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
+        "org": "Tigo Energy",
+        "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
         "org": "WEKA",
         "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Warp Sciences",
-        "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
+        "rawKind": "Strategic Partnership",
+        "org": "Portagon",
+        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Tigo Energy",
-        "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
+      },
+      {
+        "ts": "2026-10-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Award Recognition",
+        "org": "Salt Security",
+        "summary": "Named winner of three Top InfoSec Innovator Awards for 2026."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "ReachEffect",
-        "summary": "Launched a rebuilt reacheffect.com website and a new unified self-serve dashboard for advertisers, affiliates and publishers, featuring AI-assisted campaign setup (AI Fill), a seven-step campaign flow, reusable filters, budget spreading, an offers wall with 1,200+ CPA offers and smartlinks, and live traffic data across 195 GEOs."
+        "org": "Novee Security",
+        "summary": "Launched Novee Workflows, automating scheduled assessments and tasks beyond the pentest itself."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2970,8 +2977,8 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "SuperCom",
-        "summary": "Unveiled SafeGenie for real-time monitoring and control of autonomous AI agents."
+        "org": "Morphisec",
+        "summary": "Launched AI Command Pro, a major expansion of AI Command, the intelligent analyst layer in the Morphisec Security Center: turns dense security data into clear answers and guided, confirmation-gated, audit-logged actions across the console, with incident summarization, CSV/JSON export, policy rule additions and a dashboard assistant."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -2979,20 +2986,6 @@
         "rawKind": "Conference Presentation",
         "org": "Tigo Energy",
         "summary": "Tigo Energy presented at the LD Micro 20th Annual Main Event Conference, outlining a growth plan focused on margins, storage growth and utility software expansion."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Palo Alto Networks",
-        "summary": "Announced collaboration with NVIDIA on advancing agentic AI security, covering security for agentic AI workflows and NVIDIA-based deployments."
-      },
-      {
-        "ts": "2026-10-21T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Morphisec",
-        "summary": "Launched AI Command Pro, a major expansion of AI Command, the intelligent analyst layer in the Morphisec Security Center: turns dense security data into clear answers and guided, confirmation-gated, audit-logged actions across the console, with incident summarization, CSV/JSON export, policy rule additions and a dashboard assistant."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
@@ -3005,15 +2998,22 @@
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Tomorrow.io",
-        "summary": "Launched the Tomorrow.io Terminal in beta \u2014 a platform aggregating weather, river and disaster-agency warnings and readings worldwide, organized by impact, place, storm and events, with daily 'The Atmosphere Today' editions, structured pages readable by AI agents, and access via waitlist at terminal.tomorrow.io."
+        "org": "SuperCom",
+        "summary": "Unveiled SafeGenie for real-time monitoring and control of autonomous AI agents."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Salt Security",
-        "summary": "Named winner of three Top InfoSec Innovator Awards for 2026."
+        "rawKind": "Product Launch",
+        "org": "Fhenix",
+        "summary": "Fhenix CoFHE went live on Arbitrum mainnet (partner mainnet, permissioned at launch), bringing encrypted computation and dual-mode confidential tokens to the Arbitrum ecosystem. First design partners Obolos and Alpha Engine launched on day one; the system was audited by Consensys Diligence, and Fhenix also announced work on a confidential stablecoin with Tandem."
+      },
+      {
+        "ts": "2026-10-21T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Tomorrow.io",
+        "summary": "Launched the Tomorrow.io Terminal in beta \u2014 a platform aggregating weather, river and disaster-agency warnings and readings worldwide, organized by impact, place, storm and events, with daily 'The Atmosphere Today' editions, structured pages readable by AI agents, and access via waitlist at terminal.tomorrow.io."
       }
     ]
   }
