@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T13:47:14.287Z",
+  "generatedAt": "2026-10-27T14:34:04.454Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,11 +160,11 @@
   "kpis": {
     "startups": {
       "value": 39525,
-      "delta24h": 155
+      "delta24h": 107
     },
     "totalFunding": {
-      "valueUsd": 232461841146,
-      "rounds": 30012
+      "valueUsd": 231966961146,
+      "rounds": 30007
     },
     "exits": {
       "count": 3422,
@@ -178,7 +178,7 @@
       "total": 203815,
       "delta30d": 0
     },
-    "openJobs": 24159
+    "openJobs": 24146
   },
   "map": {
     "districts": [
@@ -967,8 +967,8 @@
         1077,
         1163,
         1452,
-        1497,
-        1784,
+        1498,
+        1783,
         1888,
         1991,
         2041,
@@ -1062,8 +1062,8 @@
       ],
       "statusMix": {
         "inactive": 387,
-        "active": 21526,
-        "unknown": 3704,
+        "active": 21527,
+        "unknown": 3703,
         "closed": 13908
       }
     },
@@ -1158,11 +1158,11 @@
         1590,
         1671,
         2137,
-        2040,
+        2039,
         1570,
         1496,
-        1403,
-        730
+        1402,
+        727
       ],
       "raisedUsd": [
         0,
@@ -1206,15 +1206,15 @@
         13150115472,
         15708232904,
         40563873511,
-        25876642998,
+        25864342998,
         11708509469,
         15890080146,
-        20674188445,
-        30078155569
+        20666188445,
+        29603575569
       ],
       "stageMix": {
-        "Seed": 13778,
-        "Series A": 4279,
+        "Seed": 13775,
+        "Series A": 4277,
         "Other": 2834,
         "Series B": 2157,
         "Series Unknown": 1522,
@@ -1438,10 +1438,10 @@
     },
     "funnel": {
       "all": 39525,
-      "funded": 15795,
-      "over1m": 6359,
-      "over10m": 3171,
-      "over100m": 616,
+      "funded": 15793,
+      "over1m": 6357,
+      "over10m": 3169,
+      "over100m": 615,
       "exited": 3422
     },
     "cohorts": [
@@ -2196,28 +2196,6 @@
     "funding": [
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Warp Sciences",
-        "stage": "Series Unknown",
-        "amountUsd": 215000000,
-        "investors": [],
-        "investorCount": 32,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Emergence from stealth funding round"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Two Delta",
         "stage": "Seed",
         "amountUsd": 0,
@@ -2226,6 +2204,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2248,6 +2237,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Warp Sciences",
+        "stage": "Series Unknown",
+        "amountUsd": 215000000,
+        "investors": [],
+        "investorCount": 32,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Emergence from stealth funding round"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2317,17 +2317,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Navan",
-        "stage": "Debt Financing",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 0,
-        "isVcBacked": false,
-        "isNonEquity": true,
-        "roundTitle": "Debt Financing 2026"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Uvi",
         "stage": "Seed",
         "amountUsd": 7500000,
@@ -2336,6 +2325,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Navan",
+        "stage": "Debt Financing",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 0,
+        "isVcBacked": false,
+        "isNonEquity": true,
+        "roundTitle": "Debt Financing 2026"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2349,13 +2349,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Pluto Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
+        "org": "VAST Data",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 2,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2369,14 +2370,13 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "VAST Data",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "Pluto Security",
+        "stage": "Series A",
+        "amountUsd": 34000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 4,
         "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
+        "isNonEquity": false
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2871,23 +2871,16 @@
       {
         "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "OPKO Biologics",
-        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Bitgo",
         "summary": "BitGo Bank & Trust, N.A. announced integration of WisdomTree's tokenized money market fund into BitGo's institutional custody and settlement platform."
       },
       {
-        "ts": "2026-10-26T00:00:00.000Z",
+        "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "RAAAM Memory Technologies",
-        "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
+        "rawKind": "Clinical Trial Milestone",
+        "org": "OPKO Biologics",
+        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
       },
       {
         "ts": "2026-10-26T00:00:00.000Z",
@@ -2895,6 +2888,13 @@
         "rawKind": "Acquisition",
         "org": "NeuReality",
         "summary": "Acquired by Unconventional AI, a US (Mountain View) AI hardware startup valued at $4.5 billion, to accelerate its 1,000x efficiency chip roadmap. NeuReality's founder and ~40 employees in Caesarea and Tel Aviv join the acquirer's team."
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "RAAAM Memory Technologies",
+        "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
       },
       {
         "ts": "2026-10-25T00:00:00.000Z",
@@ -2906,16 +2906,16 @@
       {
         "ts": "2026-10-24T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "EcoMoat",
-        "summary": "EcoMoat published an analysis downgrading Nike to a 'Moderate Moat' rating due to declining engagement and increased competition."
+        "rawKind": "Legal Case",
+        "org": "Tigo Energy",
+        "summary": "A class action lawsuit was filed against Tigo Energy, Inc. (Nasdaq: TYGO), as announced by Pomerantz LLP, which is notifying investors of the action."
       },
       {
         "ts": "2026-10-24T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Legal Case",
-        "org": "Tigo Energy",
-        "summary": "A class action lawsuit was filed against Tigo Energy, Inc. (Nasdaq: TYGO), as announced by Pomerantz LLP, which is notifying investors of the action."
+        "rawKind": "Report Release",
+        "org": "EcoMoat",
+        "summary": "EcoMoat published an analysis downgrading Nike to a 'Moderate Moat' rating due to declining engagement and increased competition."
       },
       {
         "ts": "2026-10-23T00:00:00.000Z",
@@ -2934,9 +2934,9 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "CopilotKit",
-        "summary": "Launched CopilotKit Soar, a self-hosted AI coworker product for companies: forward-deployed engineers set it up on the customer's own servers (single machine to Kubernetes on EKS/AKS/GKE) under the customer's brand, with IT governance (approval checkpoints, SSO/SAML/OIDC, SCIM 2.0, SIEM audit trail), any agent via AG-UI, any MCP server, and any model including local OpenAI-compatible servers. Built on the previously open-sourced OpenBot, OpenMuse, OpenDots and OpenTag projects; available in early access."
+        "rawKind": "Strategic Partnership",
+        "org": "Wearable Devices",
+        "summary": "Signed a strategic collaboration agreement with Encord to combine Wearable Devices' Neural Intent data with Encord's Physical AI data infrastructure, supporting richer multimodal training data for Physical AI and robotics applications."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2948,16 +2948,16 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Wearable Devices",
-        "summary": "Signed a strategic collaboration agreement with Encord to combine Wearable Devices' Neural Intent data with Encord's Physical AI data infrastructure, supporting richer multimodal training data for Physical AI and robotics applications."
+        "rawKind": "Market Expansion",
+        "org": "VVT Med",
+        "summary": "Entered the Panama market through a 12-month trial distribution agreement with Panama-based Ebtec for ScleroSafe, establishing a framework for local distribution, physician training, and market evaluation."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Conference Presentation",
-        "org": "NoviSign",
-        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
+        "rawKind": "Strategic Partnership",
+        "org": "WEKA",
+        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2965,6 +2965,13 @@
         "rawKind": "Strategic Partnership",
         "org": "Tigo Energy",
         "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "CopilotKit",
+        "summary": "Launched CopilotKit Soar, a self-hosted AI coworker product for companies: forward-deployed engineers set it up on the customer's own servers (single machine to Kubernetes on EKS/AKS/GKE) under the customer's brand, with IT governance (approval checkpoints, SSO/SAML/OIDC, SCIM 2.0, SIEM audit trail), any agent via AG-UI, any MCP server, and any model including local OpenAI-compatible servers. Built on the previously open-sourced OpenBot, OpenMuse, OpenDots and OpenTag projects; available in early access."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2983,30 +2990,23 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "WEKA",
-        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "VVT Med",
-        "summary": "Entered the Panama market through a 12-month trial distribution agreement with Panama-based Ebtec for ScleroSafe, establishing a framework for local distribution, physician training, and market evaluation."
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Safebooks",
-        "summary": "Safebooks launched its unified enterprise finance automation suite, spanning Safebooks Close Automation, finance operations and SOX compliance."
+        "org": "Morphisec",
+        "summary": "Launched AI Command Pro, a major expansion of AI Command, the intelligent analyst layer in the Morphisec Security Center: turns dense security data into clear answers and guided, confirmation-gated, audit-logged actions across the console, with incident summarization, CSV/JSON export, policy rule additions and a dashboard assistant."
       },
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Bitgo",
-        "summary": "BitGo launched BitGo Labs, a new initiative to innovate crypto's next breakout applications."
+        "org": "Novee Security",
+        "summary": "Launched Novee Workflows, automating scheduled assessments and tasks beyond the pentest itself."
       }
     ]
   }
