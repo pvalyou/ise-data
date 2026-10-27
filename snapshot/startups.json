@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:31:40.145Z",
+  "generatedAt": "2026-10-27T16:29:34.046Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,25 +160,25 @@
   "kpis": {
     "startups": {
       "value": 39535,
-      "delta24h": 87
+      "delta24h": 44
     },
     "totalFunding": {
-      "valueUsd": 231966961146,
-      "rounds": 30008
+      "valueUsd": 231956961146,
+      "rounds": 30006
     },
     "exits": {
       "count": 3422,
       "valueUsd": 336315787000
     },
     "employees": {
-      "total": 863770,
+      "total": 863769,
       "avgPerStartup": 30
     },
     "patents": {
       "total": 203817,
       "delta30d": 0
     },
-    "openJobs": 24146
+    "openJobs": 24126
   },
   "map": {
     "districts": [
@@ -1160,9 +1160,9 @@
         2137,
         2040,
         1569,
-        1496,
+        1495,
         1402,
-        727
+        726
       ],
       "raisedUsd": [
         0,
@@ -1210,14 +1210,14 @@
         11708509469,
         15890080146,
         20666188445,
-        29603575569
+        29593575569
       ],
       "stageMix": {
-        "Seed": 13776,
+        "Seed": 13775,
         "Series A": 4277,
         "Other": 2833,
-        "Series B": 2157,
-        "Series Unknown": 1523,
+        "Series B": 2158,
+        "Series Unknown": 1522,
         "Series C": 1305,
         "Angel": 863,
         "Unknown": 771
@@ -2186,7 +2186,7 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9751,
+      "deeptechCount": 9749,
       "deeptechPct": 24.7,
       "globalCount": 16431,
       "globalPct": 41.6
@@ -2194,17 +2194,6 @@
   },
   "feeds": {
     "funding": [
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "org": "Two Delta",
@@ -2218,14 +2207,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2248,6 +2237,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2317,6 +2317,17 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Scinai Immunotherapeutics",
         "stage": "Post-IPO",
         "amountUsd": 4000000,
@@ -2337,17 +2348,6 @@
         "roundTitle": "Pre-Seed"
       },
       {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
-      },
-      {
         "ts": "2026-10-13T00:00:00.000Z",
         "org": "Pluto Security",
         "stage": "Series A",
@@ -2359,14 +2359,13 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "VAST Data",
-        "stage": "Corporate Round",
-        "amountUsd": 0,
+        "org": "IdentifAI Genetics",
+        "stage": "IPO",
+        "amountUsd": 6600000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": true,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
+        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2381,13 +2380,14 @@
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
-        "org": "IdentifAI Genetics",
-        "stage": "IPO",
-        "amountUsd": 6600000,
+        "org": "VAST Data",
+        "stage": "Corporate Round",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 2,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+        "roundTitle": "Strategic investment by Hyundai Motor Company and Kia"
       },
       {
         "ts": "2026-10-12T00:00:00.000Z",
@@ -2402,14 +2402,14 @@
       },
       {
         "ts": "2026-10-08T00:00:00.000Z",
-        "org": "Soda Labs",
-        "stage": "Seed",
-        "amountUsd": 3000000,
+        "org": "BloomX",
+        "stage": "Series A",
+        "amountUsd": 13000000,
         "investors": [],
-        "investorCount": 1,
+        "investorCount": 7,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed Round"
+        "roundTitle": "Series A"
       }
     ],
     "todayStats": {
@@ -2836,16 +2836,23 @@
       {
         "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "OPKO Biologics",
+        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Bitgo",
         "summary": "BitGo Bank & Trust, N.A. announced integration of WisdomTree's tokenized money market fund into BitGo's institutional custody and settlement platform."
       },
       {
-        "ts": "2026-10-27T00:00:00.000Z",
+        "ts": "2026-10-26T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "OPKO Biologics",
-        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
+        "rawKind": "Product Launch",
+        "org": "Antseed",
+        "summary": "Antseed launched the Antseed Points program: users earn points from qualifying paid AI usage and claim weekly ANTS airdrop rewards every Thursday, with provider boosts from staked ANTS and a separate staking-rewards pool."
       },
       {
         "ts": "2026-10-26T00:00:00.000Z",
@@ -2860,13 +2867,6 @@
         "rawKind": "Executive Appointment",
         "org": "RAAAM Memory Technologies",
         "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed launched the Antseed Points program: users earn points from qualifying paid AI usage and claim weekly ANTS airdrop rewards every Thursday, with provider boosts from staked ANTS and a separate staking-rewards pool."
       },
       {
         "ts": "2026-10-25T00:00:00.000Z",
@@ -2892,23 +2892,30 @@
       {
         "ts": "2026-10-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Tonic",
-        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
-      },
-      {
-        "ts": "2026-10-23T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Cygrid",
         "summary": "Cygrid exited stealth and launched its identity-enforcement platform, which maps human, non-human and AI agent identities into a single intelligence graph and continuously enforces access limits, blocking risky actions before they execute. At launch the company reported ~20 design partners across fintech, e-commerce and SaaS (including Barfer's and Horizn Studios) and more than 2,000 risky identity actions stopped."
       },
       {
+        "ts": "2026-10-23T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "Tonic",
+        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Warp Sciences",
+        "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
+      },
+      {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "WEKA",
-        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
+        "org": "Portagon",
+        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2916,6 +2923,13 @@
         "rawKind": "Conference Presentation",
         "org": "NoviSign",
         "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "Spectrum Security",
+        "summary": "Published 'Paying for Silence: The SIEM Waste Report 2026', finding that 47% of billed SIEM data is unused after checking every event class in live customer SIEMs against enabled detections, saved searches and dashboards."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2928,15 +2942,8 @@
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Portagon",
-        "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Spectrum Security",
-        "summary": "Published 'Paying for Silence: The SIEM Waste Report 2026', finding that 47% of billed SIEM data is unused after checking every event class in live customer SIEMs against enabled detections, saved searches and dashboards."
+        "org": "WEKA",
+        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2955,13 +2962,6 @@
       {
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Warp Sciences",
-        "summary": "Warp Sciences emerged from stealth, launching a U.S.-based chemistry contract research organization (CRO) that combines expert chemists, AI, and robotics to make and test molecules for drug discovery, with an initial focus on lead optimization analog synthesis. Founded by Kevin Weil (CEO, ex-OpenAI), Sol Reisberg (CSO, ex-Terremoto Biosciences), Mano Paluri (CTO, ex-Meta), and DJ Patil (COO, ex-Devoted Health/White House). Announced alongside $215M in funding led by Lightspeed at an $865M valuation (funding tracked separately)."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Tigo Energy",
         "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
@@ -2969,9 +2969,9 @@
       {
         "ts": "2026-10-21T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Unframe",
-        "summary": "Partnered with Keyrus to help enterprises accelerate AI adoption with faster time to value, human oversight, and built-in governance for scalable AI in production."
+        "rawKind": "Conference Presentation",
+        "org": "Tigo Energy",
+        "summary": "Tigo Energy presented at the LD Micro 20th Annual Main Event Conference, outlining a growth plan focused on margins, storage growth and utility software expansion."
       }
     ]
   }
