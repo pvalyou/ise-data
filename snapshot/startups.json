@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T03:31:21.207Z",
+  "generatedAt": "2026-10-28T04:45:00.404Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39599,
-      "delta24h": 88
+      "delta24h": 85
     },
     "totalFunding": {
       "valueUsd": 232318538146,
@@ -178,7 +178,7 @@
       "total": 203819,
       "delta30d": 0
     },
-    "openJobs": 24110
+    "openJobs": 24105
   },
   "map": {
     "districts": [
@@ -2207,14 +2207,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
+        "org": "Two Delta",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2229,25 +2229,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "MAVE Security",
-        "stage": "Series A",
-        "amountUsd": 28000000,
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Two Delta",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2256,6 +2245,17 @@
         "amountUsd": 17000000,
         "investors": [],
         "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "MAVE Security",
+        "stage": "Series A",
+        "amountUsd": 28000000,
+        "investors": [],
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2284,17 +2284,6 @@
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
-        "org": "Alector",
-        "stage": "Post-IPO",
-        "amountUsd": 75030000,
-        "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Underwritten public stock offering (36.6M shares at $2.05)"
-      },
-      {
-        "ts": "2026-10-16T00:00:00.000Z",
         "org": "Tenovi",
         "stage": "Series B",
         "amountUsd": 20000000,
@@ -2305,15 +2294,15 @@
         "roundTitle": "Series B"
       },
       {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "org": "Gauzy",
+        "ts": "2026-10-16T00:00:00.000Z",
+        "org": "Alector",
         "stage": "Post-IPO",
-        "amountUsd": 7000000,
+        "amountUsd": 75030000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 6,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+        "roundTitle": "Underwritten public stock offering (36.6M shares at $2.05)"
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2326,25 +2315,15 @@
         "isNonEquity": false
       },
       {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
+        "ts": "2026-10-15T00:00:00.000Z",
+        "org": "Gauzy",
         "stage": "Post-IPO",
-        "amountUsd": 4000000,
+        "amountUsd": 7000000,
         "investors": [],
-        "investorCount": 0,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2369,6 +2348,27 @@
         "roundTitle": "Debt Financing 2026"
       },
       {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
         "ts": "2026-10-13T00:00:00.000Z",
         "org": "Pluto Security",
         "stage": "Series A",
@@ -2377,17 +2377,6 @@
         "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Undecimal Bio",
-        "stage": "Seed",
-        "amountUsd": 18000000,
-        "investors": [],
-        "investorCount": 7,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed - $18 million oversubscribed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2409,6 +2398,17 @@
         "investorCount": 0,
         "isNonEquity": false,
         "roundTitle": "ASX IPO (ASX:ID1), A$10M at A$0.20/share"
+      },
+      {
+        "ts": "2026-10-13T00:00:00.000Z",
+        "org": "Undecimal Bio",
+        "stage": "Seed",
+        "amountUsd": 18000000,
+        "investors": [],
+        "investorCount": 7,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Seed - $18 million oversubscribed"
       }
     ],
     "todayStats": {
@@ -2838,6 +2838,13 @@
       {
         "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "OPKO Biologics",
+        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Bitgo",
         "summary": "BitGo Bank & Trust, N.A. announced integration of WisdomTree's tokenized money market fund into BitGo's institutional custody and settlement platform."
@@ -2848,34 +2855,6 @@
         "rawKind": "Acquisition",
         "org": "CoreTigo",
         "summary": "Acquired by Aeterlink: following CoreTigo's liquidation, the Central District Court approved the sale of all assets, patents, patent applications, technology, IP and goodwill to Japan's Aeterlink Corp. for $350,000."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "OPKO Biologics",
-        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Classiq Technologies",
-        "summary": "Acquired by Intel Corporation: Intel entered into a definitive agreement to acquire Classiq Technologies Ltd. from a group of shareholders for approximately $2.3 billion as part of a push into quantum computing."
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed launched the Antseed Points program: users earn points from qualifying paid AI usage and claim weekly ANTS airdrop rewards every Thursday, with provider boosts from staked ANTS and a separate staking-rewards pool."
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Valuation Milestone",
-        "org": "Classiq Technologies",
-        "summary": "Reached $1B+ valuation (unicorn): acquired by Intel Corporation for $2.3B"
       },
       {
         "ts": "2026-10-26T00:00:00.000Z",
@@ -2890,6 +2869,27 @@
         "rawKind": "Executive Appointment",
         "org": "RAAAM Memory Technologies",
         "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Antseed",
+        "summary": "Antseed launched the Antseed Points program: users earn points from qualifying paid AI usage and claim weekly ANTS airdrop rewards every Thursday, with provider boosts from staked ANTS and a separate staking-rewards pool."
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Classiq Technologies",
+        "summary": "Acquired by Intel Corporation: Intel entered into a definitive agreement to acquire Classiq Technologies Ltd. from a group of shareholders for approximately $2.3 billion as part of a push into quantum computing."
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Valuation Milestone",
+        "org": "Classiq Technologies",
+        "summary": "Reached $1B+ valuation (unicorn): acquired by Intel Corporation for $2.3B"
       },
       {
         "ts": "2026-10-25T00:00:00.000Z",
@@ -2915,16 +2915,16 @@
       {
         "ts": "2026-10-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "Tonic",
-        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
+        "rawKind": "Product Launch",
+        "org": "Cygrid",
+        "summary": "Cygrid exited stealth and launched its identity-enforcement platform, which maps human, non-human and AI agent identities into a single intelligence graph and continuously enforces access limits, blocking risky actions before they execute. At launch the company reported ~20 design partners across fintech, e-commerce and SaaS (including Barfer's and Horizn Studios) and more than 2,000 risky identity actions stopped."
       },
       {
         "ts": "2026-10-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cygrid",
-        "summary": "Cygrid exited stealth and launched its identity-enforcement platform, which maps human, non-human and AI agent identities into a single intelligence graph and continuously enforces access limits, blocking risky actions before they execute. At launch the company reported ~20 design partners across fintech, e-commerce and SaaS (including Barfer's and Horizn Studios) and more than 2,000 risky identity actions stopped."
+        "rawKind": "Report Release",
+        "org": "Tonic",
+        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2932,6 +2932,13 @@
         "rawKind": "Product Launch",
         "org": "CopilotKit",
         "summary": "Launched CopilotKit Soar, a self-hosted AI coworker product for companies: forward-deployed engineers set it up on the customer's own servers (single machine to Kubernetes on EKS/AKS/GKE) under the customer's brand, with IT governance (approval checkpoints, SSO/SAML/OIDC, SCIM 2.0, SIEM audit trail), any agent via AG-UI, any MCP server, and any model including local OpenAI-compatible servers. Built on the previously open-sourced OpenBot, OpenMuse, OpenDots and OpenTag projects; available in early access."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tigo Energy",
+        "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2958,22 +2965,15 @@
         "ts": "2026-10-22T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "WEKA",
-        "summary": "Partnered with Smartbird, Inc. (NASDAQ: BIRD) to deliver managed, sovereign-by-design AI infrastructure services, combining WEKA NeuralMesh software with Smartbird's dedicated AI clusters for enterprise AI workloads in regulated industries."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Tigo Energy",
-        "summary": "Tigo Energy announced a manufacturer declaration of compatibility from Fronius International GmbH covering Tigo TS4-A-F, TS4-A-2F, TS4-A-O and TS4-X-O Flex MLPE products with multiple Fronius inverter families (Primo GEN24, Symo GEN24, Verto, Tauro, Tauro ECO), extending manufacturer-confirmed compatibility worldwide including the US and Canada."
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
         "org": "Portagon",
         "summary": "Announced a partnership with Apella WertpapierService GmbH, a liability umbrella for securities distribution partners, to offer a Unified Managed Account solution integrating portagon's private-markets products into Apella's advisory and distribution process; Incore Asset Management Solution AG will integrate portagon's system into its 'MyWebDepot' platform, with integration expected in Q1 2027."
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Conference Presentation",
+        "org": "NoviSign",
+        "summary": "Co-exhibited with Sony Latin America at booth M122 (Mexico Hall) and hosted a free integrator training session, 'Pro BRAVIA & NoviSign - New Opportunities in Digital Signage' (October 22, Education 3 - Pet\u00e9n), at InfoComm Am\u00e9rica Latina 2026, World Trade Center Mexico City, October 21-23, 2026."
       }
     ]
   }
