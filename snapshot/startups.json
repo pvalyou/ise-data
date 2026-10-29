@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:01:31.971Z",
+  "generatedAt": "2026-10-29T00:00:58.789Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,25 +160,25 @@
   "kpis": {
     "startups": {
       "value": 39615,
-      "delta24h": 25
+      "delta24h": 24
     },
     "totalFunding": {
-      "valueUsd": 232338845146,
-      "rounds": 30067
+      "valueUsd": 232488845146,
+      "rounds": 30068
     },
     "exits": {
-      "count": 3435,
-      "valueUsd": 338783007000
+      "count": 3436,
+      "valueUsd": 338745507000
     },
     "employees": {
-      "total": 864474,
+      "total": 864485,
       "avgPerStartup": 30
     },
     "patents": {
-      "total": 203837,
+      "total": 203850,
       "delta30d": 0
     },
-    "openJobs": 24486
+    "openJobs": 24487
   },
   "map": {
     "districts": [
@@ -1162,7 +1162,7 @@
         1570,
         1498,
         1406,
-        743
+        744
       ],
       "raisedUsd": [
         0,
@@ -1210,13 +1210,13 @@
         11708509469,
         15911080146,
         20728088445,
-        29610312569
+        29760312569
       ],
       "stageMix": {
         "Seed": 13803,
         "Series A": 4290,
         "Other": 2826,
-        "Series B": 2167,
+        "Series B": 2168,
         "Series Unknown": 1528,
         "Series C": 1311,
         "Angel": 864,
@@ -1297,7 +1297,7 @@
         148,
         193,
         179,
-        330,
+        331,
         182,
         144,
         186,
@@ -1337,7 +1337,7 @@
         138,
         175,
         149,
-        246,
+        247,
         161,
         135,
         178,
@@ -1411,7 +1411,7 @@
         9951411000,
         7134739700,
         4824420000,
-        6406825000,
+        6369325000,
         3718830000,
         33688183000,
         13329085000,
@@ -1425,16 +1425,16 @@
         34280015500
       ],
       "typeMix": {
-        "acquisition": 3110,
+        "acquisition": 3111,
         "ipo": 389
       }
     }
   },
   "survivability": {
     "composition": {
-      "active": 23388,
+      "active": 23387,
       "closed": 12792,
-      "exited": 3435
+      "exited": 3436
     },
     "funnel": {
       "all": 39615,
@@ -1442,7 +1442,7 @@
       "over1m": 6368,
       "over10m": 3175,
       "over100m": 616,
-      "exited": 3435
+      "exited": 3436
     },
     "cohorts": [
       {
@@ -1520,13 +1520,13 @@
       "overall": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 89980237,
+        "avgValueUsd": 89942809,
         "medianValueUsd": 0
       },
       "acquisition": {
         "avgYears": 9.1,
         "medianYears": 7.0,
-        "avgValueUsd": 102083447,
+        "avgValueUsd": 102038245,
         "medianValueUsd": 0
       },
       "ipo": {
@@ -1551,7 +1551,7 @@
         137,
         104,
         88,
-        73,
+        74,
         73,
         56,
         50,
@@ -2195,6 +2195,17 @@
   "feeds": {
     "funding": [
       {
+        "ts": "2026-10-28T00:00:00.000Z",
+        "org": "Upwind",
+        "stage": "Series C",
+        "amountUsd": 400000000,
+        "investors": [],
+        "investorCount": 13,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series C"
+      },
+      {
         "ts": "2026-10-25T00:00:00.000Z",
         "org": "Pearl Research",
         "stage": "Series Unknown",
@@ -2215,6 +2226,17 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2248,17 +2270,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Emergence from stealth funding round"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2327,6 +2338,16 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 0,
+        "isNonEquity": false,
+        "roundTitle": "Private Placement and Warrant Inducement"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Axonica Labs",
         "stage": "Pre-seed",
         "amountUsd": 50000000,
@@ -2335,17 +2356,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Uvi",
-        "stage": "Seed",
-        "amountUsd": 7500000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2360,23 +2370,14 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
-      },
-      {
-        "ts": "2026-10-13T00:00:00.000Z",
-        "org": "Pluto Security",
-        "stage": "Series A",
-        "amountUsd": 34000000,
+        "org": "Uvi",
+        "stage": "Seed",
+        "amountUsd": 7500000,
         "investors": [],
         "investorCount": 4,
         "isVcBacked": true,
-        "isNonEquity": false
+        "isNonEquity": false,
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-13T00:00:00.000Z",
@@ -2414,7 +2415,7 @@
     "todayStats": {
       "fundingRounds": 0,
       "fundingAmountUsd": 0,
-      "notableEvents": 1
+      "notableEvents": 0
     },
     "newStartups": [
       {
@@ -2851,6 +2852,13 @@
       },
       {
         "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "CoreTigo",
+        "summary": "Acquired by Aeterlink: following CoreTigo's liquidation, the Central District Court approved the sale of all assets, patents, patent applications, technology, IP and goodwill to Japan's Aeterlink Corp. for $350,000."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Clinical Trial Milestone",
         "org": "OPKO Biologics",
@@ -2865,24 +2873,10 @@
       },
       {
         "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "CoreTigo",
-        "summary": "Acquired by Aeterlink: following CoreTigo's liquidation, the Central District Court approved the sale of all assets, patents, patent applications, technology, IP and goodwill to Japan's Aeterlink Corp. for $350,000."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Monte Carlo",
         "summary": "Launched Bayes, an AI teammate that autonomously detects, troubleshoots, and fixes issues across AI agents and the data powering them, available in the Monte Carlo platform, Slack, Microsoft Teams, and MCP."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Earnix",
-        "summary": "Announced the Q4 2026 Release, introducing new insurance decisioning capabilities across pricing and rating and customer engagement, including simplified pricing changes, data and model management, regulatory filing preparation and customer communication."
       },
       {
         "ts": "2026-10-27T00:00:00.000Z",
@@ -2913,6 +2907,13 @@
         "summary": "Announced a partnership with Wabtec Digital Mine, unveiled at IMARC 2026 in Sydney, under which Wabtec will offer Razor Labs' DataMind AI predictive maintenance solution to its mining customers."
       },
       {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Earnix",
+        "summary": "Announced the Q4 2026 Release, introducing new insurance decisioning capabilities across pricing and rating and customer engagement, including simplified pricing changes, data and model management, regulatory filing preparation and customer communication."
+      },
+      {
         "ts": "2026-10-26T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
@@ -2921,10 +2922,24 @@
       },
       {
         "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "RAAAM Memory Technologies",
+        "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
         "org": "NeuReality",
         "summary": "Acquired by Unconventional AI, a US (Mountain View) AI hardware startup valued at $4.5 billion, to accelerate its 1,000x efficiency chip roadmap. NeuReality's founder and ~40 employees in Caesarea and Tel Aviv join the acquirer's team."
+      },
+      {
+        "ts": "2026-10-26T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Classiq Technologies",
+        "summary": "Acquired by Intel Corporation: Intel entered into a definitive agreement to acquire Classiq Technologies Ltd. from a group of shareholders for approximately $2.3 billion as part of a push into quantum computing."
       },
       {
         "ts": "2026-10-26T00:00:00.000Z",
@@ -2936,23 +2951,9 @@
       {
         "ts": "2026-10-26T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "RAAAM Memory Technologies",
-        "summary": "Appointed Hong Hao, former Intel and Samsung Foundry executive, as Strategic Advisor"
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Valuation Milestone",
         "org": "Classiq Technologies",
         "summary": "Reached $1B+ valuation (unicorn): acquired by Intel Corporation for $2.3B"
-      },
-      {
-        "ts": "2026-10-26T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Classiq Technologies",
-        "summary": "Acquired by Intel Corporation: Intel entered into a definitive agreement to acquire Classiq Technologies Ltd. from a group of shareholders for approximately $2.3 billion as part of a push into quantum computing."
       },
       {
         "ts": "2026-10-25T00:00:00.000Z",
@@ -2964,23 +2965,23 @@
       {
         "ts": "2026-10-24T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "EcoMoat",
-        "summary": "EcoMoat published an analysis downgrading Nike to a 'Moderate Moat' rating due to declining engagement and increased competition."
-      },
-      {
-        "ts": "2026-10-24T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Legal Case",
         "org": "Tigo Energy",
         "summary": "A class action lawsuit was filed against Tigo Energy, Inc. (Nasdaq: TYGO), as announced by Pomerantz LLP, which is notifying investors of the action."
       },
       {
+        "ts": "2026-10-24T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "EcoMoat",
+        "summary": "EcoMoat published an analysis downgrading Nike to a 'Moderate Moat' rating due to declining engagement and increased competition."
+      },
+      {
         "ts": "2026-10-23T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cygrid",
-        "summary": "Cygrid exited stealth and launched its identity-enforcement platform, which maps human, non-human and AI agent identities into a single intelligence graph and continuously enforces access limits, blocking risky actions before they execute. At launch the company reported ~20 design partners across fintech, e-commerce and SaaS (including Barfer's and Horizn Studios) and more than 2,000 risky identity actions stopped."
+        "rawKind": "Report Release",
+        "org": "Tonic",
+        "summary": "Tonic Security published a security advisory (PHP2Shell) detailing affected systems, fixes and mitigations, alongside a related advisory on a LiteLLM supply-chain compromise."
       }
     ]
   }
