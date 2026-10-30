@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-10-30T03:12:25.730603Z",
+  "generatedAt": "2026-10-30T04:05:22.698345Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -183,7 +183,7 @@
       79,
       24,
       13,
-      0
+      1
     ],
     "exits": [
       2,
@@ -285,17 +285,17 @@
       125,
       46,
       16,
-      178,
-      188,
+      177,
+      187,
       211,
       343,
       287,
       112,
       45,
       255,
-      265,
+      262,
       280,
-      347,
+      344,
       302,
       92,
       52,
@@ -304,14 +304,14 @@
       360,
       373,
       433,
-      180,
+      179,
       38,
       299,
-      463,
+      462,
       169,
       413,
-      419,
-      3
+      429,
+      4
     ],
     "newFounders": [
       25,
@@ -499,9 +499,9 @@
       "d30": 38
     },
     "newOrgs": {
-      "d1": 12,
-      "d7": 633,
-      "d30": 2128
+      "d1": 13,
+      "d7": 634,
+      "d30": 2129
     },
     "exits": {
       "d1": 0,
@@ -519,9 +519,9 @@
       "d30": 28
     },
     "jobsPosted": {
-      "d1": 3,
-      "d7": 1804,
-      "d30": 6898
+      "d1": 4,
+      "d7": 1814,
+      "d30": 6899
     },
     "newFounders": {
       "d1": 23,
@@ -540,8 +540,27 @@
     }
   },
   "news": {
-    "sweptOn": "2026-10-29",
+    "sweptOn": "2026-10-30",
     "israel": [
+      {
+        "company": "REE Automotive",
+        "event": "shutdown",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "The Israeli autotech company",
+        "url": "https://en.globes.co.il/en/article-1001561423#utm_source=RSS",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001561423#utm_source=RSS"
+          }
+        ],
+        "amount": "NIS 51 million",
+        "detail": "Court approves debt settlement for Israeli autotech REE Automotive with debts totaling NIS 51 million",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
       {
         "company": "Bites",
         "event": "funding",
@@ -558,11 +577,61 @@
           {
             "label": "CTech",
             "url": "https://www.calcalistech.com/ctechnews"
+          },
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001561274#utm_source=RSS"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/ynetnews/status/2115889739978952930"
+          },
+          {
+            "label": "Ynet",
+            "url": "https://www.ynetnews.com/business/article/rjvmee11afe"
           }
         ],
         "amount": "$40 million",
         "detail": "Tel Aviv restaurateur and former F-16 pilot Eran Hefetz's startup Bites raises $40 million",
         "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-29"
+      },
+      {
+        "company": "AppWind",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "DataDog",
+        "status": "rumored",
+        "tie": "\u05e1\u05d8\u05d0\u05e8\u05d8\u05be\u05d0\u05e4 \u05d0\u05d1\u05d8\u05d7\u05ea \u05d4\u05e2\u05e0\u05df \u05e9\u05dc \u05e2\u05de\u05d9\u05e8\u05dd \u05e9\u05d7\u05e8",
+        "url": "https://www.themarker.com/technation/2026-10-28/ty-article/.highlight/000001a1-81fd-d852-a7bf-abfd57fa0000",
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-10-28/ty-article/.highlight/000001a1-81fd-d852-a7bf-abfd57fa0000"
+          }
+        ],
+        "amount": null,
+        "detail": "DataDog reportedly made an acquisition offer for AppWind, which its CEO denies he is considering",
+        "publishedAt": "2026-10-28",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Paragon",
+        "event": "leadership_change",
+        "round": null,
+        "counterparty": "Ribon",
+        "status": "reported",
+        "tie": "Stealth Israeli cyber startup",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": null,
+        "detail": "Paragon co-founder Ehud Schneorson steps down from management role to join Ribon",
+        "publishedAt": "2026-10-28",
         "seenOn": "2026-10-29"
       },
       {
@@ -581,25 +650,6 @@
         ],
         "amount": "$400 million",
         "detail": "Cloud security startup Afwind of Amiram Shachar completes a $400 million round at a $3.8 billion valuation",
-        "publishedAt": "2026-10-28",
-        "seenOn": "2026-10-29"
-      },
-      {
-        "company": "Paragon",
-        "event": "leadership_change",
-        "round": null,
-        "counterparty": "Ribon",
-        "status": "reported",
-        "tie": "Stealth Israeli cyber startup",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": null,
-        "detail": "Paragon co-founder Ehud Schneorson steps down from management role to join Ribon",
         "publishedAt": "2026-10-28",
         "seenOn": "2026-10-29"
       },
@@ -671,7 +721,7 @@
         "sources": [
           {
             "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/rz4yeog9t"
+            "url": "https://www.calcalistech.com/ctechnews"
           },
           {
             "label": "Geektime",
@@ -679,11 +729,7 @@
           },
           {
             "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001560850#utm_source=RSS"
-          },
-          {
-            "label": "Kfgo",
-            "url": "https://kfgo.com/2026/10/26/unconventional-ai-buys-israeli-chip-startup-neureality-to-speed-product-development/"
+            "url": "https://en.globes.co.il/en/article-energy-efficient-chip-co-unconventional-ai-buys-israels-neureality-1001560850"
           },
           {
             "label": "TheMarker",
@@ -692,6 +738,10 @@
           {
             "label": "X",
             "url": "https://twitter.com/niron/status/2114801703350341958"
+          },
+          {
+            "label": "Ynet",
+            "url": "https://www.ynetnews.com/business/article/sjnxajphfx"
           }
         ],
         "amount": null,
@@ -726,7 +776,7 @@
           },
           {
             "label": "X",
-            "url": "https://twitter.com/allday_stocks/status/2114812502257074239"
+            "url": "https://twitter.com/DerShpiel/status/2115140174719881551"
           }
         ],
         "amount": "$2.3 billion",
@@ -764,6 +814,10 @@
             "url": "https://techfundingnews.com/upwind-400m-series-c-3-8b-valuation-cloud-ai-security/"
           },
           {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation/2026-10-28/ty-article/.highlight/000001a1-81fd-d852-a7bf-abfd57fa0000"
+          },
+          {
             "label": "X",
             "url": "https://twitter.com/Tecnology/status/2115412793805418522"
           }
@@ -772,6 +826,25 @@
         "detail": "Israeli cybersecurity startup Upwind raises another $100 million at a $3.8 billion valuation",
         "publishedAt": "2026-10-26",
         "seenOn": "2026-10-28"
+      },
+      {
+        "company": "Israel Shipyards",
+        "event": "contract_win",
+        "round": null,
+        "counterparty": "Cyprus",
+        "status": "reported",
+        "tie": "the sale by Israel Shipyards of an advanced offshore patrol vessel",
+        "url": "https://en.globes.co.il/en/article-1001560830#utm_source=RSS",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001560830#utm_source=RSS"
+          }
+        ],
+        "amount": "\u20ac150m",
+        "detail": "Israel's Defense Ministry signs \u20ac150m Cyprus naval deal including an Israel Shipyards patrol vessel.",
+        "publishedAt": "2026-10-26",
+        "seenOn": "2026-10-26"
       },
       {
         "company": "Mave Security",
@@ -798,25 +871,6 @@
         "amount": "$28 million",
         "detail": "Israeli agentic SecOps startup Mave raises $28M Series A led by Red Dot, totaling $34M",
         "publishedAt": null,
-        "seenOn": "2026-10-26"
-      },
-      {
-        "company": "Israel Shipyards",
-        "event": "contract_win",
-        "round": null,
-        "counterparty": "Cyprus",
-        "status": "reported",
-        "tie": "the sale by Israel Shipyards of an advanced offshore patrol vessel",
-        "url": "https://en.globes.co.il/en/article-1001560830#utm_source=RSS",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001560830#utm_source=RSS"
-          }
-        ],
-        "amount": "\u20ac150m",
-        "detail": "Israel's Defense Ministry signs \u20ac150m Cyprus naval deal including an Israel Shipyards patrol vessel.",
-        "publishedAt": "2026-10-26",
         "seenOn": "2026-10-26"
       },
       {
@@ -900,6 +954,25 @@
         "seenOn": "2026-10-24"
       },
       {
+        "company": "Sheba ARC",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Redesign Health",
+        "status": "reported",
+        "tie": "Sheba",
+        "url": null,
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews"
+          }
+        ],
+        "amount": "tens of millions of dollars",
+        "detail": "Sheba sells ARC innovation arm to Redesign Health in deal valued at tens of millions of dollars",
+        "publishedAt": "2026-10-22",
+        "seenOn": "2026-10-23"
+      },
+      {
         "company": "Fireblocks",
         "event": "acquisition",
         "round": null,
@@ -931,21 +1004,21 @@
         "seenOn": "2026-10-23"
       },
       {
-        "company": "Sheba ARC",
-        "event": "acquisition",
+        "company": "Israel Weapon Industries",
+        "event": "contract_win",
         "round": null,
-        "counterparty": "Redesign Health",
+        "counterparty": "Thailand",
         "status": "reported",
-        "tie": "Sheba",
-        "url": null,
+        "tie": "Israeli drone interception system",
+        "url": "https://en.globes.co.il/en/article-1001560422",
         "sources": [
           {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001560422#utm_source=RSS"
           }
         ],
-        "amount": "tens of millions of dollars",
-        "detail": "Sheba sells ARC innovation arm to Redesign Health in deal valued at tens of millions of dollars",
+        "amount": null,
+        "detail": "Thailand purchases the Arbel anti-drone system from Israel Weapon Industries",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
@@ -965,25 +1038,6 @@
         ],
         "amount": "tens of millions of dollars",
         "detail": "Israeli AI startup Two Delta raises tens of millions in seed funding backed by Bill Ackman and Eric Schmidt",
-        "publishedAt": "2026-10-22",
-        "seenOn": "2026-10-23"
-      },
-      {
-        "company": "Israel Weapon Industries",
-        "event": "contract_win",
-        "round": null,
-        "counterparty": "Thailand",
-        "status": "reported",
-        "tie": "Israeli drone interception system",
-        "url": "https://en.globes.co.il/en/article-1001560422",
-        "sources": [
-          {
-            "label": "Globes",
-            "url": "https://en.globes.co.il/en/article-1001560422#utm_source=RSS"
-          }
-        ],
-        "amount": null,
-        "detail": "Thailand purchases the Arbel anti-drone system from Israel Weapon Industries",
         "publishedAt": "2026-10-22",
         "seenOn": "2026-10-23"
       },
@@ -1013,29 +1067,6 @@
         "detail": "Elbit acquires Canadian company focused on autonomous underwater systems",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-28"
-      },
-      {
-        "company": "Rylo",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "Nvidia",
-        "status": "reported",
-        "tie": "The Israeli startup",
-        "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0",
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews/article/5jpotblv0"
-          },
-          {
-            "label": "Calcalistec",
-            "url": "https://www.calcalistec"
-          }
-        ],
-        "amount": null,
-        "detail": "Israeli startup Rylo partners with Nvidia to train AI for real-time sign language translation",
-        "publishedAt": "2026-10-21",
-        "seenOn": "2026-10-22"
       },
       {
         "company": "Nvidia",
@@ -1074,25 +1105,6 @@
         "detail": "Malaysia bars civil servants from using Waze over Israeli security concerns",
         "publishedAt": "2026-10-21",
         "seenOn": "2026-10-22"
-      },
-      {
-        "company": "Nuvei",
-        "event": "partnership",
-        "round": null,
-        "counterparty": "Payoneer",
-        "status": "reported",
-        "tie": "Nuvei enters Israeli payments market",
-        "url": null,
-        "sources": [
-          {
-            "label": "CTech",
-            "url": "https://www.calcalistech.com/ctechnews"
-          }
-        ],
-        "amount": null,
-        "detail": "Nuvei enters Israeli payments market as Payoneer deal expands its reach",
-        "publishedAt": "2026-10-21",
-        "seenOn": "2026-10-22"
       }
     ],
     "global": [
@@ -1116,44 +1128,181 @@
         "seenOn": "2026-10-29"
       },
       {
-        "company": "ALLOX",
+        "company": "Afolami AI insurance startup",
         "event": "funding",
         "round": "seed",
-        "counterparty": "Asabys",
+        "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/29/allox-closes-105m-seed-financing-to-scale-drug-discovery-platform/",
+        "url": "https://tech.eu/2026/10/29/former-uk-government-minister-afolami-raises-ps5m-for-ai-insurance-broker-startup/",
         "sources": [
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/29/allox-closes-105m-seed-financing-to-scale-drug-discovery-platform/"
+            "url": "https://tech.eu/2026/10/29/former-uk-government-minister-afolami-raises-ps5m-for-ai-insurance-broker-startup/"
           }
         ],
-        "amount": "$10.5M",
-        "detail": "Biotech ALLOX raises $10.5M seed led by Asabys to scale its drug discovery platform",
+        "amount": "\u00a35m",
+        "detail": "Former UK minister Bim Afolami's AI insurance broker startup raises nearly \u00a35M seed",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Pixel Systems",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Unconventional",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/tool-that-identifies-ai-generated-material-helps-pixel-systems-raise-e2-7-million/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/tool-that-identifies-ai-generated-material-helps-pixel-systems-raise-e2-7-million/"
+          }
+        ],
+        "amount": "\u20ac2.7 million",
+        "detail": "Swedish AI startup Pixel Systems raises \u20ac2.7 million Seed round led by Unconventional to detect AI-generated media",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Bleu Robotics",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Contrarian Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/"
+          }
+        ],
+        "amount": "\u20ac5 million",
+        "detail": "Paris-based Bleu Robotics raises \u20ac5 million pre-Seed co-led by Contrarian Ventures and OVNI Capital for industrial humanoid robots",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Ribon",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://en.globes.co.il/en/article-1001561422#utm_source=RSS",
+        "sources": [
+          {
+            "label": "Globes",
+            "url": "https://en.globes.co.il/en/article-1001561422#utm_source=RSS"
+          },
+          {
+            "label": "X",
+            "url": "https://twitter.com/MOSSADil/status/2115844888327549342"
+          }
+        ],
+        "amount": null,
+        "detail": "New cyber company Ribon, launched by Paragon's Ehud Schneorson, secures large investment commitments before incorporation",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "KineDB",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Superhero Capital",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/"
+          }
+        ],
+        "amount": "\u20ac850,000",
+        "detail": "KineDB raises \u20ac850K pre-seed led by Superhero Capital for database tech",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Mintive",
+        "event": "funding",
+        "round": null,
+        "counterparty": "Cowboy Ventures",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/"
+          }
+        ],
+        "amount": null,
+        "detail": "Agent identity startup Mintive raises from Cowboy Ventures, Coatue and angels Jeff Dean and Andrej Karpathy",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "Swish.ai",
+        "event": "shutdown",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnd0em56cno5VnpXNnkzZks1LVlBMWZtZnN6bE1TWXNnNVZqdnNOaVNtU2ttU1l2Q1FGS2NhV2tzOC0tREZ0cGpETTRiVnE4UlYwMVM2Y3lueTNYUk9Ub3pncFdlUkEzcGNjMDFvLWJuUzBVUjJTRW13eWVYTHJJcVBQZUt5b1ZyempLcE0zVEQ0QQ?oc=5",
+        "sources": [
+          {
+            "label": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/rk21aht11gl"
+          },
+          {
+            "label": "Startupfortune",
+            "url": "https://startupfortune.com/swishai-raised-20-million-then-sold-for-150000-in-insolvency/"
+          }
+        ],
+        "amount": "$150,000",
+        "detail": "Swish.ai, which raised $20 million, sold for $150,000 in insolvency",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-30"
+      },
+      {
+        "company": "KineDB",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "Superhero Capital",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/"
+          }
+        ],
+        "amount": "\u20ac850K",
+        "detail": "KineDB raises \u20ac850K pre-seed led by Superhero Capital for cloud database technology",
         "publishedAt": "2026-10-29",
         "seenOn": "2026-10-29"
       },
       {
-        "company": "VUSE XR",
+        "company": "Fronted",
         "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "IACD",
+        "round": "seed",
+        "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/",
+        "url": "https://tech.eu/2026/10/29/fronted-raises-eur17m-to-simplify-global-hiring-and-business-expansion/",
         "sources": [
           {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/"
-          },
-          {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/29/vuse-xr-receives-eur12m-to-scale-ai-assisted-mixed-reality-training/"
+            "url": "https://tech.eu/2026/10/29/fronted-raises-eur17m-to-simplify-global-hiring-and-business-expansion/"
           }
         ],
-        "amount": "\u20ac1.2 million",
-        "detail": "Freiburg mixed reality training startup VUSE XR raises \u20ac1.2 million pre-seed led by IACD",
+        "amount": "\u20ac1.7M",
+        "detail": "Nordic HRtech startup Fronted raises \u20ac1.7M seed for its AI-powered global employment platform",
         "publishedAt": "2026-10-29",
         "seenOn": "2026-10-29"
       },
@@ -1196,6 +1345,67 @@
         "seenOn": "2026-10-29"
       },
       {
+        "company": "ALLOX",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "Asabys",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/29/allox-closes-105m-seed-financing-to-scale-drug-discovery-platform/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/29/allox-closes-105m-seed-financing-to-scale-drug-discovery-platform/"
+          }
+        ],
+        "amount": "$10.5M",
+        "detail": "Biotech ALLOX raises $10.5M seed led by Asabys to scale its drug discovery platform",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-29"
+      },
+      {
+        "company": "Ravical",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": "MMC",
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/"
+          }
+        ],
+        "amount": "$17M",
+        "detail": "AI accounting startup Ravical raises $17M seed led by MMC for product development and expansion",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-29"
+      },
+      {
+        "company": "VUSE XR",
+        "event": "funding",
+        "round": "pre-seed",
+        "counterparty": "IACD",
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/29/vuse-xr-receives-eur12m-to-scale-ai-assisted-mixed-reality-training/"
+          }
+        ],
+        "amount": "\u20ac1.2 million",
+        "detail": "Freiburg mixed reality training startup VUSE XR raises \u20ac1.2 million pre-seed led by IACD",
+        "publishedAt": "2026-10-29",
+        "seenOn": "2026-10-29"
+      },
+      {
         "company": "FLTRD",
         "event": "funding",
         "round": null,
@@ -1234,61 +1444,46 @@
         "seenOn": "2026-10-29"
       },
       {
-        "company": "Ravical",
+        "company": "Numeracle",
         "event": "funding",
-        "round": "seed",
-        "counterparty": "MMC",
+        "round": null,
+        "counterparty": "Edison Partners",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
+        "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
         "sources": [
           {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/"
+            "label": "Crunchbase News",
+            "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/"
           }
         ],
-        "amount": "$17M",
-        "detail": "AI accounting startup Ravical raises $17M seed led by MMC for product development and expansion",
-        "publishedAt": "2026-10-29",
-        "seenOn": "2026-10-29"
+        "amount": "$28M",
+        "detail": "Numeracle raises $28 million from Edison Partners to keep legitimate business calls from spam labels",
+        "publishedAt": "2026-10-28",
+        "seenOn": "2026-10-28"
       },
       {
-        "company": "Fronted",
+        "company": "Magic Vision",
         "event": "funding",
-        "round": "seed",
-        "counterparty": null,
+        "round": null,
+        "counterparty": "SixS",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/10/29/fronted-raises-eur17m-to-simplify-global-hiring-and-business-expansion/",
+        "url": "https://www.eu-startups.com/2026/10/my-grandfather-fell-and-remained-on-the-floor-for-an-entire-day-magic-vision-raises-e600k-for-monitoring-tech/",
         "sources": [
           {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/29/fronted-raises-eur17m-to-simplify-global-hiring-and-business-expansion/"
-          }
-        ],
-        "amount": "\u20ac1.7M",
-        "detail": "Nordic HRtech startup Fronted raises \u20ac1.7M seed for its AI-powered global employment platform",
-        "publishedAt": "2026-10-29",
-        "seenOn": "2026-10-29"
-      },
-      {
-        "company": "KineDB",
-        "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Superhero Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/",
-        "sources": [
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/my-grandfather-fell-and-remained-on-the-floor-for-an-entire-day-magic-vision-raises-e600k-for-monitoring-tech/"
+          },
           {
             "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/29/kinedb-raises-eur850k-to-rebuild-database-infrastructure-as-ai-reshapes-software-development/"
+            "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
           }
         ],
-        "amount": "\u20ac850K",
-        "detail": "KineDB raises \u20ac850K pre-seed led by Superhero Capital for cloud database technology",
-        "publishedAt": "2026-10-29",
-        "seenOn": "2026-10-29"
+        "amount": "\u20ac600k",
+        "detail": "Italian DeepTech startup Magic Vision raises \u20ac600k for AI monitoring tech for the elderly",
+        "publishedAt": "2026-10-28",
+        "seenOn": "2026-10-28"
       },
       {
         "company": "Artiso",
@@ -1306,29 +1501,6 @@
         ],
         "amount": "\u20ac3 million",
         "detail": "Barcelona FashionTech startup Artiso raises over \u20ac3 million pre-Seed led by Criteria Venture Tech",
-        "publishedAt": "2026-10-28",
-        "seenOn": "2026-10-28"
-      },
-      {
-        "company": "Proxima Fusion",
-        "event": "partnership",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/as-merz-visits-japan-energy-startup-proxima-fusion-moves-to-secure-germanys-place-in-the-global-fusion-race/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/as-merz-visits-japan-energy-startup-proxima-fusion-moves-to-secure-germanys-place-in-the-global-fusion-race/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/28/proxima-fusion-signs-two-japanese-partnerships-to-strengthen-germanys-fusion-supply-chain/"
-          }
-        ],
-        "amount": null,
-        "detail": "Proxima Fusion signs MoU in Japan with Kyoto Fusioneering to strengthen its fusion supply chain",
         "publishedAt": "2026-10-28",
         "seenOn": "2026-10-28"
       },
@@ -1356,21 +1528,25 @@
         "seenOn": "2026-10-28"
       },
       {
-        "company": "Numeracle",
-        "event": "funding",
+        "company": "Proxima Fusion",
+        "event": "partnership",
         "round": null,
-        "counterparty": "Edison Partners",
+        "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
+        "url": "https://www.eu-startups.com/2026/10/as-merz-visits-japan-energy-startup-proxima-fusion-moves-to-secure-germanys-place-in-the-global-fusion-race/",
         "sources": [
           {
-            "label": "Crunchbase News",
-            "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/"
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/10/as-merz-visits-japan-energy-startup-proxima-fusion-moves-to-secure-germanys-place-in-the-global-fusion-race/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/10/28/proxima-fusion-signs-two-japanese-partnerships-to-strengthen-germanys-fusion-supply-chain/"
           }
         ],
-        "amount": "$28M",
-        "detail": "Numeracle raises $28 million from Edison Partners to keep legitimate business calls from spam labels",
+        "amount": null,
+        "detail": "Proxima Fusion signs MoU in Japan with Kyoto Fusioneering to strengthen its fusion supply chain",
         "publishedAt": "2026-10-28",
         "seenOn": "2026-10-28"
       },
@@ -1390,29 +1566,6 @@
         ],
         "amount": "\u20ac25 million",
         "detail": "Danish BioTech Samplix secures \u20ac25 million first close to scale antibody discovery",
-        "publishedAt": "2026-10-28",
-        "seenOn": "2026-10-28"
-      },
-      {
-        "company": "Magic Vision",
-        "event": "funding",
-        "round": null,
-        "counterparty": "SixS",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/my-grandfather-fell-and-remained-on-the-floor-for-an-entire-day-magic-vision-raises-e600k-for-monitoring-tech/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/my-grandfather-fell-and-remained-on-the-floor-for-an-entire-day-magic-vision-raises-e600k-for-monitoring-tech/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
-          }
-        ],
-        "amount": "\u20ac600k",
-        "detail": "Italian DeepTech startup Magic Vision raises \u20ac600k for AI monitoring tech for the elderly",
         "publishedAt": "2026-10-28",
         "seenOn": "2026-10-28"
       },
@@ -1453,143 +1606,6 @@
         "detail": "Paris-based EventTech scale-up Naboo acquires UK meetings and events specialist pro-ven",
         "publishedAt": "2026-10-27",
         "seenOn": "2026-10-27"
-      },
-      {
-        "company": "Anduril",
-        "event": "product_launch",
-        "round": null,
-        "counterparty": "Qualcomm",
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/"
-          }
-        ],
-        "amount": null,
-        "detail": "Anduril and Qualcomm launch BlueChip, a US-made laptop built with American components",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-29"
-      },
-      {
-        "company": "Re:Build",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
-        "sources": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/"
-          }
-        ],
-        "amount": "$2.1B",
-        "detail": "Manufacturing accelerator Re:Build, which spun out Slate Auto, raises $2.1B",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-28"
-      },
-      {
-        "company": "Impress",
-        "event": "funding",
-        "round": null,
-        "counterparty": "European Investment Bank",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/impress-bags-e40-million-eib-financing-to-expand-its-digital-orthodontics-network-across-europe/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/impress-bags-e40-million-eib-financing-to-expand-its-digital-orthodontics-network-across-europe/"
-          }
-        ],
-        "amount": "\u20ac40 million",
-        "detail": "Spanish orthodontics network Impress signs a \u20ac40M venture debt loan with the European Investment Bank",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-27"
-      },
-      {
-        "company": "Vera Health",
-        "event": "funding",
-        "round": "series a",
-        "counterparty": "Threshold Ventures",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m/"
-          }
-        ],
-        "amount": "$28.5M",
-        "detail": "Clinical health platform Vera Health raises $28.5M Series A led by Threshold Ventures",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-27"
-      },
-      {
-        "company": "Agora Labs",
-        "event": "funding",
-        "round": null,
-        "counterparty": "P101 SGR",
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
-          }
-        ],
-        "amount": "\u20ac4.3M",
-        "detail": "Italian deeptech Agora Labs raises \u20ac4.3M led by P101 SGR for clinical data infrastructure",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-27"
-      },
-      {
-        "company": "Querio",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "BMW i Ventures",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/londons-querio-launches-with-e4-48-million-to-help-companies-and-their-data-teams-tackle-conflicting-answers-across-ai-tools/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/londons-querio-launches-with-e4-48-million-to-help-companies-and-their-data-teams-tackle-conflicting-answers-across-ai-tools/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/10/27/uk-analytics-platform-querio-launches-with-5m-raise/"
-          }
-        ],
-        "amount": "\u20ac4.48 million",
-        "detail": "London analytics platform Querio launches from stealth with a \u20ac4.48M seed round led by BMW i Ventures",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-27"
-      },
-      {
-        "company": "Arctic RAVN",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/10/finnish-defencetech-arctic-ravn-secures-e2-5-million-in-loan-commitments-before-its-first-product-launch/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/10/finnish-defencetech-arctic-ravn-secures-e2-5-million-in-loan-commitments-before-its-first-product-launch/"
-          }
-        ],
-        "amount": "\u20ac2.5 million",
-        "detail": "Espoo-based DefenceTech startup Arctic RAVN secures \u20ac2.5M in convertible loan commitments",
-        "publishedAt": "2026-10-27",
-        "seenOn": "2026-10-27"
       }
     ]
   },
@@ -1617,12 +1633,12 @@
     {
       "ts": "2026-10-20",
       "precision": "day",
-      "target": "Verix",
-      "acquirer": "Trinity",
-      "kind": "acquisition",
+      "target": "ALZAI Health",
+      "acquirer": null,
+      "kind": "ipo",
       "amountUsd": null,
-      "domain": "verix.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4713ded1-f795-4c63-8be8-e9278d5fd4fa.png"
+      "domain": "alzaihealth.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
     },
     {
       "ts": "2026-10-20",
@@ -1637,12 +1653,12 @@
     {
       "ts": "2026-10-20",
       "precision": "day",
-      "target": "ALZAI Health",
-      "acquirer": null,
-      "kind": "ipo",
+      "target": "Verix",
+      "acquirer": "Trinity",
+      "kind": "acquisition",
       "amountUsd": null,
-      "domain": "alzaihealth.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
+      "domain": "verix.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4713ded1-f795-4c63-8be8-e9278d5fd4fa.png"
     },
     {
       "ts": "2026-10-19",
@@ -1677,12 +1693,12 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
-      "target": "Geniez",
-      "acquirer": "Rocket Software",
+      "target": "Paraspot",
+      "acquirer": "AppWork",
       "kind": "acquisition",
       "amountUsd": null,
-      "domain": "geniez.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
+      "domain": "paraspot.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-13",
@@ -1697,22 +1713,12 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
-      "target": "Paraspot",
-      "acquirer": "AppWork",
+      "target": "Geniez",
+      "acquirer": "Rocket Software",
       "kind": "acquisition",
       "amountUsd": null,
-      "domain": "paraspot.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
-    },
-    {
-      "ts": "2026-10-12",
-      "precision": "day",
-      "target": "Torii",
-      "acquirer": "Freshworks Inc.",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "toriihq.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/21bc99c9-4e01-4220-af6e-bd531adf758f.webp"
+      "domain": "geniez.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
     },
     {
       "ts": "2026-10-12",
@@ -1723,6 +1729,16 @@
       "amountUsd": null,
       "domain": "getloops.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
+    },
+    {
+      "ts": "2026-10-12",
+      "precision": "day",
+      "target": "Torii",
+      "acquirer": "Freshworks Inc.",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "toriihq.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/21bc99c9-4e01-4220-af6e-bd531adf758f.webp"
     },
     {
       "ts": "2026-10-08",
@@ -1787,22 +1803,22 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "Wand",
-      "acquirer": "groundcover",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "wand.cloud",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "MMDSmart",
       "acquirer": "FIMI Opportunity Funds",
       "kind": "acquisition",
       "amountUsd": 55000000,
       "domain": "mmdsmart.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
+    },
+    {
+      "ts": "2026-09-24",
+      "precision": "day",
+      "target": "Wand",
+      "acquirer": "groundcover",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "wand.cloud",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
     },
     {
       "ts": "2026-09-22",
@@ -1817,22 +1833,22 @@
     {
       "ts": "2026-09-15",
       "precision": "day",
-      "target": "Blue Dot",
-      "acquirer": "Sovos",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "bluedotcorp.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/a069dbbf-3621-48c6-b383-8daa40468430.jpg"
-    },
-    {
-      "ts": "2026-09-15",
-      "precision": "day",
       "target": "Alma K. Cosmetics",
       "acquirer": "Nili Capital",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "alma-k.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/97d4348c-a400-471c-b094-cac10a9a3fb6.webp"
+    },
+    {
+      "ts": "2026-09-15",
+      "precision": "day",
+      "target": "Blue Dot",
+      "acquirer": "Sovos",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "bluedotcorp.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/a069dbbf-3621-48c6-b383-8daa40468430.jpg"
     },
     {
       "ts": "2026-09-14",
@@ -1843,6 +1859,18 @@
       "amountUsd": 205000000,
       "domain": "gatetech.co.il",
       "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGUxZULWup_gA/company-logo_200_200/company-logo_200_200/0/1630667580157?e=2147483647&v=beta&t=lqdBm-E9apTZoPCzExsBPLBwc2H92ec4JhnJPSvSdP0"
+    },
+    {
+      "ts": "2026-10-28",
+      "precision": "day",
+      "target": "AppWind",
+      "acquirer": "DataDog",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "amountText": null,
+      "rumored": true,
+      "domain": "upwind.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ef29b61b-02cb-41b1-b4db-52fa10d4ab54.jpg"
     },
     {
       "ts": "2026-10-22",
@@ -2134,17 +2162,17 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
-      "number": "4585146",
-      "url": "https://patents.google.com/patent/EP4585146B1/en"
+      "title": "End expirium identification methods, systems and processes",
+      "number": "7934106",
+      "url": "https://patents.google.com/patent/JP7934106B2/en"
     },
     {
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "End expirium identification methods, systems and processes",
-      "number": "7934106",
-      "url": "https://patents.google.com/patent/JP7934106B2/en"
+      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
+      "number": "4585146",
+      "url": "https://patents.google.com/patent/EP4585146B1/en"
     },
     {
       "ts": "2026-10-14",
@@ -2166,9 +2194,9 @@
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Sheath valve housing",
-      "number": "12758742",
-      "url": "https://patents.google.com/patent/US12758742B2/en"
+      "title": "Catheter deflection control assembly",
+      "number": "12758307",
+      "url": "https://patents.google.com/patent/US12758307B2/en"
     },
     {
       "ts": "2026-10-13",
@@ -2182,17 +2210,9 @@
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Catheter deflection control assembly",
-      "number": "12758307",
-      "url": "https://patents.google.com/patent/US12758307B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Automatic control and enhancement of 4d ultrasound images",
-      "number": "7933605",
-      "url": "https://patents.google.com/patent/JP7933605B2/en"
+      "title": "Systems and methods for recommending ablation lines",
+      "number": "12758309",
+      "url": "https://patents.google.com/patent/US12758309B2/en"
     },
     {
       "ts": "2026-10-13",
@@ -2201,9 +2221,24 @@
       "title": "Post ablation validation via visual signal",
       "number": "12758308",
       "url": "https://patents.google.com/patent/US12758308B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Sheath valve housing",
+      "number": "12758742",
+      "url": "https://patents.google.com/patent/US12758742B2/en"
     }
   ],
   "jobs": [
+    {
+      "ts": "2026-10-30",
+      "title": "Mid Market AE",
+      "company": "OSA COMMERCE (IL)",
+      "city": "Rishon LeZion",
+      "url": "https://osacommerce.com/osa-commerce-careers"
+    },
     {
       "ts": "2026-10-30",
       "title": "\u05de\u05e0\u05d4\u05dc/\u05ea \u05dc\u05e7\u05d5\u05d7\u05d5\u05ea \u05d5\u05e4\u05d9\u05ea\u05d5\u05d7 \u05e2\u05e1\u05e7\u05d9, \u05de\u05e2\u05e8\u05da \u05d1\u05e0\u05e7\u05d0\u05d5\u05ea \u05e4\u05e8\u05d8\u05d9\u05ea 3240",
@@ -2263,13 +2298,6 @@
     {
       "ts": "2026-10-29",
       "title": "\u05de\u05e9\u05e8\u05d4 \u05de\u05e1' 15602 \u05de\u05de\u05d5\u05e0\u05d4 \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05d0\u05ea\u05e8\u05d9 \u05d7\u05d1\u05e8\u05ea \u05d4\u05d7\u05e9\u05de\u05dc \u05d1\u05d0\u05d9\u05d6\u05d5\u05e8 \u05d4\u05de\u05e8\u05db\u05d6",
-      "company": "Israel Electric Corporation",
-      "city": "Haifa",
-      "url": "https://careers.iec.co.il"
-    },
-    {
-      "ts": "2026-10-29",
-      "title": "\u05de\u05e9\u05e8\u05d4 \u05de\u05e1' 15549 \u05de\u05d4\u05e0\u05d3\u05e1/\u05ea \u05d1\u05ea\u05d7\u05d5\u05dd \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05d7\u05d9\u05e4\u05d4",
       "company": "Israel Electric Corporation",
       "city": "Haifa",
       "url": "https://careers.iec.co.il"
@@ -2359,7 +2387,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Healthcare and Food",
@@ -2389,7 +2417,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 50
+          "count": 51
         },
         {
           "label": "Healthcare and Food",
@@ -2423,7 +2451,7 @@
         },
         {
           "label": "Financial Services",
-          "count": 115
+          "count": 116
         },
         {
           "label": "Unknown",
