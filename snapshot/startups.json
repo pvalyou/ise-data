@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:31:32.398Z",
+  "generatedAt": "2026-10-30T23:40:15.823Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39621,
-      "delta24h": 8
+      "delta24h": 7
     },
     "totalFunding": {
       "valueUsd": 233071042586,
@@ -2232,17 +2232,6 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Cygrid",
         "stage": "Pre-seed",
         "amountUsd": 3000000,
@@ -2251,17 +2240,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Warp Sciences",
-        "stage": "Series Unknown",
-        "amountUsd": 215000000,
-        "investors": [],
-        "investorCount": 32,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Emergence from stealth funding round"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2281,6 +2259,28 @@
         "amountUsd": 28000000,
         "investors": [],
         "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Warp Sciences",
+        "stage": "Series Unknown",
+        "amountUsd": 215000000,
+        "investors": [],
+        "investorCount": 32,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2362,16 +2362,6 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Hagag Europe",
-        "stage": "Debt Financing",
-        "amountUsd": 23000000,
-        "investors": [],
-        "investorCount": 0,
-        "isNonEquity": true,
-        "roundTitle": "Project 107 refinancing loan (H Victoria Stirbei Galleries SRL)"
-      },
-      {
-        "ts": "2026-10-14T00:00:00.000Z",
         "org": "Navan",
         "stage": "Debt Financing",
         "amountUsd": 0,
@@ -2383,13 +2373,24 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Scinai Immunotherapeutics",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
+        "org": "Axonica Labs",
+        "stage": "Pre-seed",
+        "amountUsd": 50000000,
+        "investors": [],
+        "investorCount": 6,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-14T00:00:00.000Z",
+        "org": "Hagag Europe",
+        "stage": "Debt Financing",
+        "amountUsd": 23000000,
         "investors": [],
         "investorCount": 0,
-        "isNonEquity": false,
-        "roundTitle": "Private Placement and Warrant Inducement"
+        "isNonEquity": true,
+        "roundTitle": "Project 107 refinancing loan (H Victoria Stirbei Galleries SRL)"
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2404,14 +2405,13 @@
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
-        "org": "Axonica Labs",
-        "stage": "Pre-seed",
-        "amountUsd": 50000000,
+        "org": "Scinai Immunotherapeutics",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
         "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
+        "investorCount": 0,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Private Placement and Warrant Inducement"
       }
     ],
     "todayStats": {
@@ -2899,20 +2899,6 @@
       {
         "ts": "2026-10-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "REE Automotive",
-        "summary": "Tel Aviv District Court approved the company's debt settlement. Kukac and Elljay each invested $2 million, and the company will go private with the investors holding 60%."
-      },
-      {
-        "ts": "2026-10-29T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Futora",
-        "summary": "Launched AI-powered tools for structured products workflows: conversational natural-language pricing requests, intelligent trade information retrieval, term sheet-based pricing and AI-powered term sheet verification against trade details."
-      },
-      {
-        "ts": "2026-10-29T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Executive Appointment",
         "org": "Placer.ai",
         "summary": "The co-founders of Jigso and other AI experts joined Placer.ai to strengthen its expanding AI capabilities."
@@ -2927,9 +2913,9 @@
       {
         "ts": "2026-10-29T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Other",
-        "org": "Alpha Tau",
-        "summary": "Announced inclusion in the flagship TA-90 and TA-125 indices of the Tel Aviv Stock Exchange."
+        "rawKind": "Product Launch",
+        "org": "Futora",
+        "summary": "Launched AI-powered tools for structured products workflows: conversational natural-language pricing requests, intelligent trade information retrieval, term sheet-based pricing and AI-powered term sheet verification against trade details."
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
@@ -2939,25 +2925,25 @@
         "summary": "Launched the Coding Agent Security Platform, a runtime control layer for approved coding agents (Claude Code, Copilot, Cursor, Codex) that sees agent actions as connected chains and blocks dangerous ones, with 300+ default policies. Its first production deployment stopped a real attack in week one."
       },
       {
+        "ts": "2026-10-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Other",
+        "org": "Alpha Tau",
+        "summary": "Announced inclusion in the flagship TA-90 and TA-125 indices of the Tel Aviv Stock Exchange."
+      },
+      {
+        "ts": "2026-10-29T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Company Restructuring",
+        "org": "REE Automotive",
+        "summary": "Tel Aviv District Court approved the company's debt settlement. Kukac and Elljay each invested $2 million, and the company will go private with the investors holding 60%."
+      },
+      {
         "ts": "2026-10-28T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Blings",
         "summary": "Became an official Bloomreach partner, bringing Smart Video into Bloomreach Engagement so marketers can turn customer data into personalized video at the Moment of Open. Launching first with Bloomreach's Australia and New Zealand team, followed by a US rollout, with a deeper technical integration planned."
-      },
-      {
-        "ts": "2026-10-28T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Zenity",
-        "summary": "Zenity announced a partnership with ServiceNow to operationalize AI agent risk reduction in SecOps."
-      },
-      {
-        "ts": "2026-10-28T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "I Know First",
-        "summary": "Launched the Technical Analysis + AI Package, announced in a post on the company's own website dated 2026-10-28 by its feed."
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2970,8 +2956,36 @@
         "ts": "2026-10-28T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "I Know First",
+        "summary": "Launched the Technical Analysis + AI Package, announced in a post on the company's own website dated 2026-10-28 by its feed."
+      },
+      {
+        "ts": "2026-10-28T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Zenity",
+        "summary": "Zenity announced a partnership with ServiceNow to operationalize AI agent risk reduction in SecOps."
+      },
+      {
+        "ts": "2026-10-28T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "Coralogix",
         "summary": "Launched the new Explore, a unified interface in the Coralogix platform that brings every question across logs, metrics and traces into one place."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Entera Bio",
+        "summary": "Appointed Dr. Juan Camilo Arjona Ferreira (Head of R&D and Chief Medical Officer at Organon) to its Board of Directors, effective December 1, 2026, succeeding Haya Taitel."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "N8n",
+        "summary": "Released n8n 3.0 (beta) on October 27, 2026, a major version focused on reliability, stability and security: queue mode for manual executions, removal of in-memory binary data, safer security defaults (always-on encryption key rotation, larger SSRF block list), Docker-only self-hosting, and removal of legacy nodes. Stable release planned for early December 2026."
       },
       {
         "ts": "2026-10-27T00:00:00.000Z",
@@ -2983,9 +2997,16 @@
       {
         "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Entera Bio",
-        "summary": "Appointed Dr. Juan Camilo Arjona Ferreira (Head of R&D and Chief Medical Officer at Organon) to its Board of Directors, effective December 1, 2026, succeeding Haya Taitel."
+        "rawKind": "Product Launch",
+        "org": "Pinecone",
+        "summary": "Released pg_pinecone, an open-source (Apache 2.0) PostgreSQL extension bringing Pinecone's vector search engine to Postgres, with native, pgvector and remote engines and filtering during search."
+      },
+      {
+        "ts": "2026-10-27T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zorem",
+        "summary": "Launched Estimated Delivery Date PRO, a WooCommerce plugin showing customers an estimated delivery date with order-status controls. Version 1.1 followed on 29 October 2026."
       },
       {
         "ts": "2026-10-27T00:00:00.000Z",
@@ -2998,29 +3019,8 @@
         "ts": "2026-10-27T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "N8n",
-        "summary": "Released n8n 3.0 (beta) on October 27, 2026, a major version focused on reliability, stability and security: queue mode for manual executions, removal of in-memory binary data, safer security defaults (always-on encryption key rotation, larger SSRF block list), Docker-only self-hosting, and removal of legacy nodes. Stable release planned for early December 2026."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "OPKO Biologics",
-        "summary": "Dosed the first participant in a first-in-human Phase 1/2a clinical trial of OPK-8801001, a long-acting growth hormone receptor antagonist for acromegaly, designed for once-weekly administration."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "CoreTigo",
-        "summary": "Acquired by Aeterlink: following CoreTigo's liquidation, the Central District Court approved the sale of all assets, patents, patent applications, technology, IP and goodwill to Japan's Aeterlink Corp. for $350,000."
-      },
-      {
-        "ts": "2026-10-27T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Bitgo",
-        "summary": "BitGo Bank & Trust, N.A. announced integration of WisdomTree's tokenized money market fund into BitGo's institutional custody and settlement platform."
+        "org": "Commugen",
+        "summary": "Launched a portfolio of AI agents for cyber GRC covering six areas, embedded in its no-code platform, automating high-volume reading, matching and drafting work that cyber GRC teams would otherwise do by hand."
       }
     ]
   }
