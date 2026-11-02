@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-11-02T19:03:46.912244Z",
+  "generatedAt": "2026-11-02T20:03:59.803648Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -147,11 +147,11 @@
       0,
       0,
       1,
-      1,
+      2,
       0,
       0,
       0,
-      0
+      1
     ],
     "newOrgs": [
       189,
@@ -215,7 +215,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "firstChecks": [
       0,
@@ -371,11 +371,11 @@
       0,
       0,
       13,
-      5,
+      7,
       0,
       0,
       0,
-      0
+      2
     ],
     "fundingStages": [
       {},
@@ -447,12 +447,15 @@
         "Series C": 1
       },
       {
+        "Pre-IPO": 1,
         "Series A": 1
       },
       {},
       {},
       {},
-      {}
+      {
+        "Seed": 1
+      }
     ],
     "fundingUsd": [
       0,
@@ -480,18 +483,18 @@
       0,
       0,
       400000000,
-      40000000,
+      46000000,
       0,
       0,
       0,
-      0
+      63000000
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 0,
-      "d7": 2,
-      "d30": 35
+      "d1": 1,
+      "d7": 4,
+      "d30": 37
     },
     "newOrgs": {
       "d1": 12,
@@ -499,9 +502,9 @@
       "d30": 2071
     },
     "exits": {
-      "d1": 0,
-      "d7": 2,
-      "d30": 17
+      "d1": 1,
+      "d7": 3,
+      "d30": 18
     },
     "firstChecks": {
       "d1": 0,
@@ -524,14 +527,14 @@
       "d30": 1585
     },
     "investments": {
-      "d1": 0,
-      "d7": 18,
-      "d30": 146
+      "d1": 2,
+      "d7": 22,
+      "d30": 150
     },
     "fundingUsd": {
-      "d1": 0,
-      "d7": 440000000,
-      "d30": 1520000000
+      "d1": 63000000,
+      "d7": 509000000,
+      "d30": 1589000000
     }
   },
   "news": {
@@ -588,6 +591,44 @@
         "seenOn": "2026-11-02"
       },
       {
+        "company": "Antidote",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05e9\u05d5\u05e8-\u05d8\u05e7: \u05d7\u05d1\u05e8\u05ea \u05d4\u05e4\u05e8\u05d5\u05d8\u05e4\u05d5\u05dc\u05d9\u05d5 \u05d0\u05e0\u05d8\u05d9\u05d3\u05d5\u05d8",
+        "url": "https://www.sponser.co.il/Article.aspx?ArticleId=123811",
+        "sources": [
+          {
+            "label": "Sponser",
+            "url": "https://www.sponser.co.il/Article.aspx?ArticleId=123811"
+          }
+        ],
+        "amount": "$75 million",
+        "detail": "Antidote raises $75 million at a $1 billion valuation",
+        "publishedAt": "2026-11-02",
+        "seenOn": "2026-11-02"
+      },
+      {
+        "company": "Extend",
+        "event": "layoffs",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": "\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05e8\u05d7\u05e4\u05e0\u05d9\u05dd \u05d0\u05e7\u05e1\u05d8\u05e0\u05d3",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vN090RkVjTnphdUFnallVS3FraklGb0JLRXdGUDd4VXVuaWRZVjBsQkxkbnVubG9QWG1MQjJaN2ZMa1hVbTl3NDRCRjJPRkVNaHhnRURVRHRZMWVPdUJUajNRQVJwLU5Fek13?oc=5",
+        "sources": [
+          {
+            "label": "Calcalist",
+            "url": "https://www.calcalist.co.il/calcalistech/article/skjjhqutgg"
+          }
+        ],
+        "amount": null,
+        "detail": "Drone maker Extend lays off 10% of staff after losing 75% of its valuation in two months",
+        "publishedAt": "2026-11-02",
+        "seenOn": "2026-11-02"
+      },
+      {
         "company": "42AI",
         "event": "funding",
         "round": "seed",
@@ -615,44 +656,6 @@
         ],
         "amount": "$62.5M",
         "detail": "Israeli startup 42AI exits stealth with $62.5M seed for behavioral world model predicting human decisions",
-        "publishedAt": "2026-11-02",
-        "seenOn": "2026-11-02"
-      },
-      {
-        "company": "Extend",
-        "event": "layoffs",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": "\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05e8\u05d7\u05e4\u05e0\u05d9\u05dd \u05d0\u05e7\u05e1\u05d8\u05e0\u05d3",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vN090RkVjTnphdUFnallVS3FraklGb0JLRXdGUDd4VXVuaWRZVjBsQkxkbnVubG9QWG1MQjJaN2ZMa1hVbTl3NDRCRjJPRkVNaHhnRURVRHRZMWVPdUJUajNRQVJwLU5Fek13?oc=5",
-        "sources": [
-          {
-            "label": "Calcalist",
-            "url": "https://www.calcalist.co.il/calcalistech/article/skjjhqutgg"
-          }
-        ],
-        "amount": null,
-        "detail": "Drone maker Extend lays off 10% of staff after losing 75% of its valuation in two months",
-        "publishedAt": "2026-11-02",
-        "seenOn": "2026-11-02"
-      },
-      {
-        "company": "Antidote",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": "\u05e9\u05d5\u05e8-\u05d8\u05e7: \u05d7\u05d1\u05e8\u05ea \u05d4\u05e4\u05e8\u05d5\u05d8\u05e4\u05d5\u05dc\u05d9\u05d5 \u05d0\u05e0\u05d8\u05d9\u05d3\u05d5\u05d8",
-        "url": "https://www.sponser.co.il/Article.aspx?ArticleId=123811",
-        "sources": [
-          {
-            "label": "Sponser",
-            "url": "https://www.sponser.co.il/Article.aspx?ArticleId=123811"
-          }
-        ],
-        "amount": "$75 million",
-        "detail": "Antidote raises $75 million at a $1 billion valuation",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
@@ -1141,40 +1144,44 @@
         "seenOn": "2026-11-02"
       },
       {
-        "company": "EZ Bombs",
+        "company": "Matiks",
         "event": "funding",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://timesofindia.indiatimes.com/world/us/brandon-castaneda-and-his-mother-turned-a-family-cooking-idea-into-ez-bombs-in-2026-the-seasoning-startup-raised-25-million-after-expanding-to-more-than-8000-stores/articleshow/135357380.cms",
+        "url": "https://www.indiatoday.in/jobs/in-focus/story/from-iit-guwahati-to-usd-10-million-how-3-college-friends-built-brain-gaming-startup-matiks-educ-3029903-2026-11-02",
         "sources": [
           {
-            "label": "Timesofindia",
-            "url": "https://timesofindia.indiatimes.com/world/us/brandon-castaneda-and-his-mother-turned-a-family-cooking-idea-into-ez-bombs-in-2026-the-seasoning-startup-raised-25-million-after-expanding-to-more-than-8000-stores/articleshow/135357380.cms"
+            "label": "Indiatoday",
+            "url": "https://www.indiatoday.in/jobs/in-focus/story/from-iit-guwahati-to-usd-10-million-how-3-college-friends-built-brain-gaming-startup-matiks-educ-3029903-2026-11-02"
           }
         ],
-        "amount": "$25 million",
-        "detail": "Seasoning startup EZ Bombs raises $25 million after expanding to more than 8,000 stores",
+        "amount": "$10 million",
+        "detail": "Brain-gaming math startup Matiks raises $10 million",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
       {
-        "company": "Casap",
+        "company": "Roleo",
         "event": "funding",
-        "round": "Series B",
-        "counterparty": "General Catalyst",
+        "round": null,
+        "counterparty": "Practica Capital",
         "status": "reported",
         "tie": null,
-        "url": "https://news.lavx.hu/article/casap-raises-56m-series-b-to-fight-card-fraud-with-ai",
+        "url": "https://www.eu-startups.com/2026/11/looking-for-a-job-estonias-roleo-just-raised-e2-9-million-to-help-you-on-your-journey/",
         "sources": [
           {
-            "label": "Lavx",
-            "url": "https://news.lavx.hu/article/casap-raises-56m-series-b-to-fight-card-fraud-with-ai"
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/11/looking-for-a-job-estonias-roleo-just-raised-e2-9-million-to-help-you-on-your-journey/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/11/02/veriff-co-founders-roleo-raises-eur29m-to-expand-ai-career-agent-across-europe/"
           }
         ],
-        "amount": "$56 million",
-        "detail": "Casap raises $56M Series B led by General Catalyst to fight card fraud with AI",
+        "amount": "\u20ac2.9 million",
+        "detail": "Estonian AI career agent Roleo raises \u20ac2.9 million led by Practica Capital to expand across Europe",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
@@ -1198,67 +1205,21 @@
         "seenOn": "2026-11-02"
       },
       {
-        "company": "Hypersonica",
-        "event": "funding",
-        "round": "Series B",
-        "counterparty": "Lightspeed and General Catalyst",
-        "status": "reported",
-        "tie": null,
-        "url": "https://techfundingnews.com/hypersonica-111m-series-b-lightspeed-general-catalyst/",
-        "sources": [
-          {
-            "label": "TechFundingNews",
-            "url": "https://techfundingnews.com/hypersonica-111m-series-b-lightspeed-general-catalyst/"
-          },
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/11/hypersonica-secures-e100-million-to-boost-sovereign-hypersonic-deep-strike-systems-for-europe-and-its-allies/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/11/02/british-german-defence-startup-hypersonica-raises-eur100m/"
-          }
-        ],
-        "amount": "\u20ac100 million",
-        "detail": "British-German hypersonic missile startup Hypersonica raises \u20ac100M Series B co-led by Lightspeed and General Catalyst",
-        "publishedAt": "2026-11-02",
-        "seenOn": "2026-11-02"
-      },
-      {
-        "company": "Two Point O Capital",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Transition Venture Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://ascendants.in/business-stories/two-point-o-capital-raises-10-million-clean-energy-expansion/attachment/two-point-o-capital-funding/",
-        "sources": [
-          {
-            "label": "Ascendants",
-            "url": "https://ascendants.in/business-stories/two-point-o-capital-raises-10-million-clean-energy-expansion/attachment/two-point-o-capital-funding/"
-          }
-        ],
-        "amount": "$10 million",
-        "detail": "Clean energy startup Two Point O Capital raises $10 million led by Transition Venture Capital",
-        "publishedAt": "2026-11-02",
-        "seenOn": "2026-11-02"
-      },
-      {
-        "company": "Matiks",
+        "company": "Midstream Health",
         "event": "funding",
         "round": null,
         "counterparty": null,
         "status": "reported",
         "tie": null,
-        "url": "https://www.indiatoday.in/jobs/in-focus/story/from-iit-guwahati-to-usd-10-million-how-3-college-friends-built-brain-gaming-startup-matiks-educ-3029903-2026-11-02",
+        "url": "https://news.lavx.hu/article/midstream-health-raises-20-million-for-healthcare-revenue-recovery",
         "sources": [
           {
-            "label": "Indiatoday",
-            "url": "https://www.indiatoday.in/jobs/in-focus/story/from-iit-guwahati-to-usd-10-million-how-3-college-friends-built-brain-gaming-startup-matiks-educ-3029903-2026-11-02"
+            "label": "Lavx",
+            "url": "https://news.lavx.hu/article/midstream-health-raises-20-million-for-healthcare-revenue-recovery"
           }
         ],
-        "amount": "$10 million",
-        "detail": "Brain-gaming math startup Matiks raises $10 million",
+        "amount": "$20 million",
+        "detail": "Healthcare revenue recovery startup Midstream Health raises $20 million",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
@@ -1282,6 +1243,44 @@
         "seenOn": "2026-11-02"
       },
       {
+        "company": "Casap",
+        "event": "funding",
+        "round": "Series B",
+        "counterparty": "General Catalyst",
+        "status": "reported",
+        "tie": null,
+        "url": "https://news.lavx.hu/article/casap-raises-56m-series-b-to-fight-card-fraud-with-ai",
+        "sources": [
+          {
+            "label": "Lavx",
+            "url": "https://news.lavx.hu/article/casap-raises-56m-series-b-to-fight-card-fraud-with-ai"
+          }
+        ],
+        "amount": "$56 million",
+        "detail": "Casap raises $56M Series B led by General Catalyst to fight card fraud with AI",
+        "publishedAt": "2026-11-02",
+        "seenOn": "2026-11-02"
+      },
+      {
+        "company": "EZ Bombs",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://timesofindia.indiatimes.com/world/us/brandon-castaneda-and-his-mother-turned-a-family-cooking-idea-into-ez-bombs-in-2026-the-seasoning-startup-raised-25-million-after-expanding-to-more-than-8000-stores/articleshow/135357380.cms",
+        "sources": [
+          {
+            "label": "Timesofindia",
+            "url": "https://timesofindia.indiatimes.com/world/us/brandon-castaneda-and-his-mother-turned-a-family-cooking-idea-into-ez-bombs-in-2026-the-seasoning-startup-raised-25-million-after-expanding-to-more-than-8000-stores/articleshow/135357380.cms"
+          }
+        ],
+        "amount": "$25 million",
+        "detail": "Seasoning startup EZ Bombs raises $25 million after expanding to more than 8,000 stores",
+        "publishedAt": "2026-11-02",
+        "seenOn": "2026-11-02"
+      },
+      {
         "company": "Sortrace",
         "event": "funding",
         "round": null,
@@ -1301,21 +1300,21 @@
         "seenOn": "2026-11-02"
       },
       {
-        "company": "Marble Cognition",
+        "company": "LO:TECH",
         "event": "funding",
-        "round": "pre-seed",
-        "counterparty": "Heartcore",
+        "round": "series a",
+        "counterparty": "MMC",
         "status": "reported",
         "tie": null,
-        "url": "https://www.eu-startups.com/2026/11/munichs-marble-cognition-raises-e3-35-million-to-build-ai-coworkers-that-learn-business-processes-before-automating-them/",
+        "url": "https://tech.eu/2026/11/02/london-based-lotech-lands-12m-series-a-led-by-mmc/",
         "sources": [
           {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/11/munichs-marble-cognition-raises-e3-35-million-to-build-ai-coworkers-that-learn-business-processes-before-automating-them/"
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/11/02/london-based-lotech-lands-12m-series-a-led-by-mmc/"
           }
         ],
-        "amount": "\u20ac3.35 million",
-        "detail": "Munich-based Marble Cognition raises \u20ac3.35 million pre-Seed co-led by Heartcore and Seedcamp for AI coworkers",
+        "amount": "$12M",
+        "detail": "London-based LO:TECH raises $12M Series A led by MMC for onchain capital markets",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
@@ -1358,6 +1357,33 @@
         "seenOn": "2026-11-02"
       },
       {
+        "company": "Hypersonica",
+        "event": "funding",
+        "round": "Series B",
+        "counterparty": "Lightspeed and General Catalyst",
+        "status": "reported",
+        "tie": null,
+        "url": "https://techfundingnews.com/hypersonica-111m-series-b-lightspeed-general-catalyst/",
+        "sources": [
+          {
+            "label": "TechFundingNews",
+            "url": "https://techfundingnews.com/hypersonica-111m-series-b-lightspeed-general-catalyst/"
+          },
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/11/hypersonica-secures-e100-million-to-boost-sovereign-hypersonic-deep-strike-systems-for-europe-and-its-allies/"
+          },
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/11/02/british-german-defence-startup-hypersonica-raises-eur100m/"
+          }
+        ],
+        "amount": "\u20ac100 million",
+        "detail": "British-German hypersonic missile startup Hypersonica raises \u20ac100M Series B co-led by Lightspeed and General Catalyst",
+        "publishedAt": "2026-11-02",
+        "seenOn": "2026-11-02"
+      },
+      {
         "company": "Rapport Therapeutics",
         "event": "funding",
         "round": null,
@@ -1377,63 +1403,40 @@
         "seenOn": "2026-11-02"
       },
       {
-        "company": "LO:TECH",
+        "company": "Marble Cognition",
         "event": "funding",
-        "round": "series a",
-        "counterparty": "MMC",
+        "round": "pre-seed",
+        "counterparty": "Heartcore",
         "status": "reported",
         "tie": null,
-        "url": "https://tech.eu/2026/11/02/london-based-lotech-lands-12m-series-a-led-by-mmc/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/11/02/london-based-lotech-lands-12m-series-a-led-by-mmc/"
-          }
-        ],
-        "amount": "$12M",
-        "detail": "London-based LO:TECH raises $12M Series A led by MMC for onchain capital markets",
-        "publishedAt": "2026-11-02",
-        "seenOn": "2026-11-02"
-      },
-      {
-        "company": "Roleo",
-        "event": "funding",
-        "round": null,
-        "counterparty": "Practica Capital",
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/11/looking-for-a-job-estonias-roleo-just-raised-e2-9-million-to-help-you-on-your-journey/",
+        "url": "https://www.eu-startups.com/2026/11/munichs-marble-cognition-raises-e3-35-million-to-build-ai-coworkers-that-learn-business-processes-before-automating-them/",
         "sources": [
           {
             "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/11/looking-for-a-job-estonias-roleo-just-raised-e2-9-million-to-help-you-on-your-journey/"
-          },
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/11/02/veriff-co-founders-roleo-raises-eur29m-to-expand-ai-career-agent-across-europe/"
+            "url": "https://www.eu-startups.com/2026/11/munichs-marble-cognition-raises-e3-35-million-to-build-ai-coworkers-that-learn-business-processes-before-automating-them/"
           }
         ],
-        "amount": "\u20ac2.9 million",
-        "detail": "Estonian AI career agent Roleo raises \u20ac2.9 million led by Practica Capital to expand across Europe",
+        "amount": "\u20ac3.35 million",
+        "detail": "Munich-based Marble Cognition raises \u20ac3.35 million pre-Seed co-led by Heartcore and Seedcamp for AI coworkers",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
       {
-        "company": "Midstream Health",
+        "company": "Two Point O Capital",
         "event": "funding",
         "round": null,
-        "counterparty": null,
+        "counterparty": "Transition Venture Capital",
         "status": "reported",
         "tie": null,
-        "url": "https://news.lavx.hu/article/midstream-health-raises-20-million-for-healthcare-revenue-recovery",
+        "url": "https://ascendants.in/business-stories/two-point-o-capital-raises-10-million-clean-energy-expansion/attachment/two-point-o-capital-funding/",
         "sources": [
           {
-            "label": "Lavx",
-            "url": "https://news.lavx.hu/article/midstream-health-raises-20-million-for-healthcare-revenue-recovery"
+            "label": "Ascendants",
+            "url": "https://ascendants.in/business-stories/two-point-o-capital-raises-10-million-clean-energy-expansion/attachment/two-point-o-capital-funding/"
           }
         ],
-        "amount": "$20 million",
-        "detail": "Healthcare revenue recovery startup Midstream Health raises $20 million",
+        "amount": "$10 million",
+        "detail": "Clean energy startup Two Point O Capital raises $10 million led by Transition Venture Capital",
         "publishedAt": "2026-11-02",
         "seenOn": "2026-11-02"
       },
@@ -1601,6 +1604,16 @@
   },
   "exits": [
     {
+      "ts": "2026-11-02",
+      "precision": "day",
+      "target": "TailorMed",
+      "acquirer": "GrowthCurve Capital",
+      "kind": "acquisition",
+      "amountUsd": 250000000,
+      "domain": "tailormed.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4c7ea665-0f09-4526-93bb-a76a4fd5c3fa.webp"
+    },
+    {
       "ts": "2026-11-01",
       "precision": "month",
       "target": "Perion Network",
@@ -1643,6 +1656,16 @@
     {
       "ts": "2026-10-20",
       "precision": "day",
+      "target": "Cyber Insurance Academy",
+      "acquirer": "EC-Council",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "cyberinsuranceacademy.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/1cb437be-deb9-4518-9b93-5e00801c874a.webp"
+    },
+    {
+      "ts": "2026-10-20",
+      "precision": "day",
       "target": "ALZAI Health",
       "acquirer": null,
       "kind": "ipo",
@@ -1661,16 +1684,6 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/4713ded1-f795-4c63-8be8-e9278d5fd4fa.png"
     },
     {
-      "ts": "2026-10-20",
-      "precision": "day",
-      "target": "Cyber Insurance Academy",
-      "acquirer": "EC-Council",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "cyberinsuranceacademy.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/1cb437be-deb9-4518-9b93-5e00801c874a.webp"
-    },
-    {
       "ts": "2026-10-19",
       "precision": "day",
       "target": "Elementary Data",
@@ -1679,6 +1692,16 @@
       "amountUsd": 42500000,
       "domain": "elementary-data.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/d7fab2d4-ae40-4021-bb81-52f7381a1a9a.png"
+    },
+    {
+      "ts": "2026-10-15",
+      "precision": "day",
+      "target": "Varonis",
+      "acquirer": "Proofpoint, Inc.",
+      "kind": "acquisition",
+      "amountUsd": 6300000000,
+      "domain": "varonis.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
     },
     {
       "ts": "2026-10-15",
@@ -1701,26 +1724,6 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/7acf73c6-784f-4be5-9f70-79744a70bab7.jpg"
     },
     {
-      "ts": "2026-10-15",
-      "precision": "day",
-      "target": "Varonis",
-      "acquirer": "Proofpoint, Inc.",
-      "kind": "acquisition",
-      "amountUsd": 6300000000,
-      "domain": "varonis.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/cc40037f-76b7-4363-9fef-e12d3d6fe9d3.jpg"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
-      "target": "Geniez",
-      "acquirer": "Rocket Software",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "geniez.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
-    },
-    {
       "ts": "2026-10-13",
       "precision": "day",
       "target": "Paraspot",
@@ -1739,6 +1742,16 @@
       "amountUsd": null,
       "domain": "identifai-genetics.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/9e52d935-3685-4a74-81b0-21617d4340f0.jpg"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
+      "target": "Geniez",
+      "acquirer": "Rocket Software",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "geniez.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
     },
     {
       "ts": "2026-10-12",
@@ -1823,16 +1836,6 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "RT",
-      "acquirer": "Tessera Defense and Homeland Security Inc.",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "rt.co.il",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/2fcf4a58-01c9-4b6a-9f47-8bceb745d1cf.png"
-    },
-    {
-      "ts": "2026-09-24",
-      "precision": "day",
       "target": "MMDSmart",
       "acquirer": "FIMI Opportunity Funds",
       "kind": "acquisition",
@@ -1841,14 +1844,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
-      "ts": "2026-09-22",
+      "ts": "2026-09-24",
       "precision": "day",
-      "target": "RealSense",
-      "acquirer": "Cognex Corporation",
+      "target": "RT",
+      "acquirer": "Tessera Defense and Homeland Security Inc.",
       "kind": "acquisition",
-      "amountUsd": 500000000,
-      "domain": "realsenseai.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/bf2bb446-40ae-4c91-84ee-baf3572b6867.avif"
+      "amountUsd": null,
+      "domain": "rt.co.il",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/2fcf4a58-01c9-4b6a-9f47-8bceb745d1cf.png"
     },
     {
       "ts": "2026-10-22",
@@ -1985,6 +1988,38 @@
   ],
   "investments": [
     {
+      "ts": "2026-11-02",
+      "investor": "Founders (Amit Gal-Or, Ehud Ezra, Amir Gal-Or)",
+      "company": "42ai",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-11-02",
+      "investor": "Infinity Group",
+      "company": "42ai",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "infinity-equity.com"
+    },
+    {
+      "ts": "2026-10-29",
+      "investor": "New River Asset Management",
+      "company": "Sightec",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": null
+    },
+    {
+      "ts": "2026-10-29",
+      "investor": "Powerhouse Ventures",
+      "company": "Sightec",
+      "kind": "fund",
+      "isFirst": false,
+      "domain": "power-house.vc"
+    },
+    {
       "ts": "2026-10-29",
       "investor": "Horizon Capital",
       "company": "Bites",
@@ -2111,38 +2146,6 @@
       "kind": "fund",
       "isFirst": false,
       "domain": "salesforceventures.com"
-    },
-    {
-      "ts": "2026-10-28",
-      "investor": "Swish Ventures",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-10-28",
-      "investor": "TCV",
-      "company": "Upwind",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
-    },
-    {
-      "ts": "2026-10-25",
-      "investor": "Lightspeed Venture Partners",
-      "company": "Pearl Research",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": "lsvp.com"
-    },
-    {
-      "ts": "2026-10-25",
-      "investor": "Ribbit Capital",
-      "company": "Pearl Research",
-      "kind": "fund",
-      "isFirst": false,
-      "domain": null
     }
   ],
   "patents": [
@@ -2158,17 +2161,17 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "End expirium identification methods, systems and processes",
-      "number": "7934106",
-      "url": "https://patents.google.com/patent/JP7934106B2/en"
+      "title": "Layered multi-activation local activation time (lat) mapping",
+      "number": "7935046",
+      "url": "https://patents.google.com/patent/JP7935046B2/en"
     },
     {
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Layered multi-activation local activation time (lat) mapping",
-      "number": "7935046",
-      "url": "https://patents.google.com/patent/JP7935046B2/en"
+      "title": "End expirium identification methods, systems and processes",
+      "number": "7934106",
+      "url": "https://patents.google.com/patent/JP7934106B2/en"
     },
     {
       "ts": "2026-10-14",
@@ -2190,30 +2193,6 @@
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Automatic control and enhancement of 4d ultrasound images",
-      "number": "7933605",
-      "url": "https://patents.google.com/patent/JP7933605B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Post ablation validation via visual signal",
-      "number": "12758308",
-      "url": "https://patents.google.com/patent/US12758308B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Catheter deflection control assembly",
-      "number": "12758307",
-      "url": "https://patents.google.com/patent/US12758307B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
       "title": "Contact assessment for balloon catheter",
       "number": "12758184",
       "url": "https://patents.google.com/patent/US12758184B2/en"
@@ -2225,6 +2204,30 @@
       "title": "Systems and methods for recommending ablation lines",
       "number": "12758309",
       "url": "https://patents.google.com/patent/US12758309B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Sheath valve housing",
+      "number": "12758742",
+      "url": "https://patents.google.com/patent/US12758742B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Automatic control and enhancement of 4d ultrasound images",
+      "number": "7933605",
+      "url": "https://patents.google.com/patent/JP7933605B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Post ablation validation via visual signal",
+      "number": "12758308",
+      "url": "https://patents.google.com/patent/US12758308B2/en"
     }
   ],
   "jobs": [
@@ -2301,8 +2304,21 @@
   ],
   "mix": {
     "stages": {
-      "d1": [],
+      "d1": [
+        {
+          "label": "Seed",
+          "count": 1
+        }
+      ],
       "d7": [
+        {
+          "label": "Pre-IPO",
+          "count": 1
+        },
+        {
+          "label": "Seed",
+          "count": 1
+        },
         {
           "label": "Series A",
           "count": 1
@@ -2319,7 +2335,7 @@
         },
         {
           "label": "Seed",
-          "count": 6
+          "count": 7
         },
         {
           "label": "Corporate Round",
@@ -2347,6 +2363,10 @@
         },
         {
           "label": "ICO",
+          "count": 1
+        },
+        {
+          "label": "Pre-IPO",
           "count": 1
         },
         {
@@ -2435,11 +2455,11 @@
         },
         {
           "label": "Financial Services",
-          "count": 115
+          "count": 116
         },
         {
           "label": "Unknown",
-          "count": 58
+          "count": 57
         },
         {
           "label": "Energy and Utilities",
