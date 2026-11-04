@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T15:32:35.302Z",
+  "generatedAt": "2026-11-04T16:32:22.374Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39527,
-      "delta24h": 13
+      "delta24h": 12
     },
     "totalFunding": {
       "valueUsd": 226842212630,
@@ -178,7 +178,7 @@
       "total": 204119,
       "delta30d": 0
     },
-    "openJobs": 24018
+    "openJobs": 24033
   },
   "map": {
     "districts": [
@@ -2210,14 +2210,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "StimCardio Medical",
+        "org": "Bites",
         "stage": "Series A",
-        "amountUsd": 30000000,
+        "amountUsd": 40000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Oversubscribed Series A Financing"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
@@ -2232,14 +2232,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Bites",
+        "org": "StimCardio Medical",
         "stage": "Series A",
-        "amountUsd": 40000000,
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Oversubscribed Series A Financing"
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2265,6 +2265,17 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Two Delta",
+        "stage": "Seed",
+        "amountUsd": 0,
+        "investors": [],
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
         "org": "MAVE Security",
         "stage": "Series A",
         "amountUsd": 28000000,
@@ -2287,17 +2298,6 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Warp Sciences",
         "stage": "Series Unknown",
         "amountUsd": 215000000,
@@ -2309,14 +2309,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Two Delta",
-        "stage": "Seed",
-        "amountUsd": 0,
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
         "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
+        "investorCount": 3,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Seed"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2374,16 +2374,6 @@
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
-        "org": "Metabolize",
-        "stage": "Seed",
-        "amountUsd": 3200000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
         "org": "Gauzy",
         "stage": "Post-IPO",
         "amountUsd": 7000000,
@@ -2392,6 +2382,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "org": "Metabolize",
+        "stage": "Seed",
+        "amountUsd": 3200000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
       },
       {
         "ts": "2026-10-14T00:00:00.000Z",
@@ -2895,6 +2895,27 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tanium",
+        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "EPM Therapeutics",
+        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Base44",
+        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Agora Real Estate Technologies",
         "summary": "Launched Asset-Level Reporting, Launch No.7 in the Season of Innovation, letting customers track and report individual assets alongside investments in one place."
@@ -2910,29 +2931,15 @@
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Base44",
-        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "Antseed",
         "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
       },
       {
-        "ts": "2026-11-03T00:00:00.000Z",
+        "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Tanium",
-        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "EPM Therapeutics",
-        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+        "org": "HyperGuest",
+        "summary": "Marine Tours and HyperGuest opened a direct route between hotels and B2B buyers."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2944,9 +2951,23 @@
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Clinical Trial Milestone",
+        "org": "Enlivex Therapeutics",
+        "summary": "Reported 12-month Phase 2 data for Allocetra in knee osteoarthritis: in patients aged 64 and older, 79.2% achieved a clinically meaningful response (reduced pain and improved knee function) versus 47.6% on placebo at 12 months (p=0.027), with the treatment benefit consistent with 3- and 6-month results, demonstrating a durable effect from a single treatment cycle."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "RankCaster AI",
-        "summary": "Released its largest platform update since launch: citation forecasting for 7/30/90-day horizons, a Site Auditor with 600+ AIO/AEO/GEO checks, keyword recommendations, a Content Manager workflow from draft to publication, MCP access (Claude Desktop, Cursor, Windsurf, Zed), publishing integrations (WordPress, Medium, Wix, Dev.to, headless API), seven report languages and a daily-updating AI Visibility Badge."
+        "org": "Arnica",
+        "summary": "Launched Agentic Pen Testing, which tests live applications the way an attacker would and connects validated findings to remediation workflows."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "TailorMed",
+        "summary": "Acquired by GrowthCurve Capital, which announced a majority (controlling-stake) investment in TailorMed, reported at approximately $250 million."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2958,16 +2979,16 @@
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Tower Semiconductor",
-        "summary": "Reported record Q3 2026 results: revenue of $526 million (up 33% year over year), record gross profit of $179 million and record net profit of $120 million (excluding non-recurring items), and guided Q4 2026 revenue to $600 million, closing 2026 at approximately $2 billion annual revenue."
+        "rawKind": "Award Recognition",
+        "org": "Remepy",
+        "summary": "Co-CEO and co-founder Michal Tsur won the CEO of the Year award at the Tech1 Gala and Awards night. In the accompanying interview she said Remepy is entering Phase 3 in Parkinson's disease and plans 2027 partnerships across rare oncology, fertility and immunology."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Arnica",
-        "summary": "Launched Agentic Pen Testing, which tests live applications the way an attacker would and connects validated findings to remediation workflows."
+        "rawKind": "Strategic Partnership",
+        "org": "GeroWallet",
+        "summary": "GeroWallet (A.D. Labs) partnered with Solada, the Cardano coin launchpad at solada.fun: Solada Markets, the trading page launched alongside Solada's V3 release, runs on the Gero swap engine (routing across Minswap, WingRiders, SundaeSwap and Splash with market, limit, stop and OCO orders) and on Nexus, the Cardano market data platform built by the GeroWallet team."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2987,36 +3008,15 @@
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Synch",
-        "summary": "Released Synch version 6.12, adding a redesigned Admin interface, a Reporting and Analytics Dashboard, enhanced SOS emergency conference workflow, Incident Checklists and Scheduled Incidents."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
         "org": "VAST Data",
         "summary": "VAST 5.5 greatly extended the VAST Event Broker, the Kafka implementation built on the DASE architecture, with major performance gains (about 2GB/s sustained per node), new blob expansion (Topics to Tables) so streaming JSON is immediately queryable, mTLS authentication, and a maximum message size of 950MB."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "Chemomab",
-        "summary": "SEC declared effective the Form S-4 registration statement for the merger with Scipher Medicine, clearing a key closing condition. Merger registration took effect October 30, 2026 and Chemomab shareholders were scheduled to vote on the merger on December 4, 2026, with closing expected in Q4 2026 and the combined company to trade on Nasdaq as SCIP."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Papaya",
-        "summary": "A creditor vote on Papaya's revised repayment proposal was scheduled in the Tel Aviv-Jaffa District Court for November 8, 2026, with the Israeli court stay set to expire on November 25, 2026."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Remepy",
-        "summary": "Co-CEO and co-founder Michal Tsur won the CEO of the Year award at the Tech1 Gala and Awards night. In the accompanying interview she said Remepy is entering Phase 3 in Parkinson's disease and plans 2027 partnerships across rare oncology, fertility and immunology."
+        "rawKind": "Revenue Milestone",
+        "org": "Tower Semiconductor",
+        "summary": "Reported record Q3 2026 results: revenue of $526 million (up 33% year over year), record gross profit of $179 million and record net profit of $120 million (excluding non-recurring items), and guided Q4 2026 revenue to $600 million, closing 2026 at approximately $2 billion annual revenue."
       }
     ]
   }
