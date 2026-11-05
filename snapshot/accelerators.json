@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "accelerators",
-  "generatedAt": "2026-11-05T06:04:42Z",
+  "generatedAt": "2026-11-05T07:06:22Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -58,12 +58,12 @@
     }
   },
   "coverage": {
-    "orgs": 602,
-    "israeliOrgs": 293,
-    "programs": 537,
-    "israeliPrograms": 343,
-    "equityFreePrograms": 269,
-    "knownTermsPrograms": 348
+    "orgs": 603,
+    "israeliOrgs": 294,
+    "programs": 539,
+    "israeliPrograms": 346,
+    "equityFreePrograms": 270,
+    "knownTermsPrograms": 349
   },
   "map": {
     "cities": [
@@ -72,11 +72,12 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 82,
+        "count": 83,
         "orgs": [
           "365x Scale Up",
           "Active Labs",
           "Axon Ventures",
+          "Birthright Israel Excel Ventures",
           "Bricks Proptech Innovation",
           "Capital Nature",
           "Capsula Smart Mobility",
@@ -159,15 +160,43 @@
         ]
       },
       {
+        "name": "Herzliya",
+        "district": "Tel Aviv",
+        "lat": 32.1663,
+        "lng": 34.8435,
+        "count": 20,
+        "orgs": [
+          "AnD Ventures",
+          "Arieli Group",
+          "CCapital",
+          "EPSILON CLIMATE",
+          "Eagle Labs",
+          "GILBOA NEXUS",
+          "Glilot Capital Partners",
+          "Haile Fund",
+          "Herzliya Accelerator Center (HAC)",
+          "Ideago StartUp Lab",
+          "Jivy Group",
+          "Quantum Hub",
+          "RMGP Biopharma Investment Fund",
+          "Rainbow Medical",
+          "Reichman University",
+          "SHAAR",
+          "StageOne Ventures",
+          "T-SYTE",
+          "idcx studio accelerator",
+          "ispace"
+        ]
+      },
+      {
         "name": "Jerusalem",
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 20,
+        "count": 19,
         "orgs": [
           "ASPER-HUJI Innovate",
           "BioJerusalem",
-          "Birthright Israel Excel Ventures",
           "Biz Labs",
           "Cardio Ventures",
           "Elevation Ventures",
@@ -185,34 +214,6 @@
           "The agency for small and medium businesses",
           "Yissum",
           "can innovations"
-        ]
-      },
-      {
-        "name": "Herzliya",
-        "district": "Tel Aviv",
-        "lat": 32.1663,
-        "lng": 34.8435,
-        "count": 19,
-        "orgs": [
-          "AnD Ventures",
-          "Arieli Group",
-          "CCapital",
-          "EPSILON CLIMATE",
-          "Eagle Labs",
-          "GILBOA NEXUS",
-          "Haile Fund",
-          "Herzliya Accelerator Center (HAC)",
-          "Ideago StartUp Lab",
-          "Jivy Group",
-          "Quantum Hub",
-          "RMGP Biopharma Investment Fund",
-          "Rainbow Medical",
-          "Reichman University",
-          "SHAAR",
-          "StageOne Ventures",
-          "T-SYTE",
-          "idcx studio accelerator",
-          "ispace"
         ]
       },
       {
@@ -1156,9 +1157,9 @@
       "operator": "Amazon Web Services",
       "operatorDomain": "aws.amazon.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/61d988e8-96c9-4ac5-b82c-d0e9c9d52fb1.png",
-      "israeli": false,
-      "city": null,
-      "place": "Seattle",
+      "israeli": true,
+      "city": "Tel Aviv-Yafo",
+      "place": "Tel Aviv-Yafo",
       "type": "accelerator",
       "focus": [],
       "durationWeeks": null,
@@ -9563,6 +9564,31 @@
       "description": "Program designed to fund and support researchers and universities working on voice technology."
     },
     {
+      "name": "Excel Fellowship (Summer Internship Program)",
+      "operator": "Birthright Israel Excel Ventures",
+      "operatorDomain": "birthrightisraelexcel.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/69c89f57-543a-4e39-acf4-9eabb01c7383.webp",
+      "israeli": true,
+      "city": "Tel Aviv-Yafo",
+      "place": "Tel Aviv-Yafo",
+      "type": "fellowship",
+      "focus": [],
+      "durationWeeks": 10,
+      "fundingUsd": null,
+      "equityPct": null,
+      "nonEquity": true,
+      "batchSize": null,
+      "link": {
+        "url": "https://application.birthrightisraelexcel.com/login",
+        "kind": "apply"
+      },
+      "nextStartDate": null,
+      "applicationDeadline": null,
+      "applicationMode": "annual",
+      "typicalOpenMonth": null,
+      "description": "A selective 10-week summer program placing Jewish college students from leading universities in internships at Israeli companies across consulting, finance, startups and venture capital, paired with an Israeli peer, speaker events and weekend trips. Participants join the Excel community afterward\u2026"
+    },
+    {
       "name": "Meet the Mentor",
       "operator": "Bricks Proptech Innovation",
       "operatorDomain": "bricksinnovation.net",
@@ -14562,6 +14588,35 @@
       "applicationMode": "rolling",
       "typicalOpenMonth": null,
       "description": "Joint R&D/pilot program with AB InBev and the Israel Innovation Authority for Israeli startups with multi-use technologies; selected companies receive IIA funding (up to 50% of approved R&D/pilot expenses), AB InBev in-kind services, and support from TAU Ventures."
+    },
+    {
+      "name": "Mach5",
+      "operator": "Glilot Capital Partners",
+      "operatorDomain": "glilotcapital.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/672c8afa-7f8c-46aa-a824-6ba6f9ec47b1.webp",
+      "israeli": true,
+      "city": "Herzliya",
+      "place": "Herzliya",
+      "type": "other",
+      "focus": [
+        "Cyber & Defense",
+        "AI & Data",
+        "Enterprise & SaaS"
+      ],
+      "durationWeeks": null,
+      "fundingUsd": null,
+      "equityPct": null,
+      "nonEquity": null,
+      "batchSize": null,
+      "link": {
+        "url": "https://glilotcapital.com/mach5",
+        "kind": "apply"
+      },
+      "nextStartDate": null,
+      "applicationDeadline": null,
+      "applicationMode": null,
+      "typicalOpenMonth": null,
+      "description": "Glilot's value creation program for its own portfolio companies, providing access to a network of advisors and potential customers and running five acceleration rounds to test and reach product-market fit, followed by scaling support. No funding amount or equity terms are stated on the page."
     },
     {
       "name": "Innovation Visa for a Foreign Technology Entrepreneur",
