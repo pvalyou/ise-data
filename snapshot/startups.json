@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T02:02:36.378Z",
+  "generatedAt": "2026-11-05T03:02:20.689Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39541,
-      "delta24h": 23
+      "value": 39543,
+      "delta24h": 25
     },
     "totalFunding": {
       "valueUsd": 227779708619,
@@ -178,7 +178,7 @@
       "total": 204143,
       "delta30d": 0
     },
-    "openJobs": 24148
+    "openJobs": 24142
   },
   "map": {
     "districts": [
@@ -196,7 +196,7 @@
       },
       {
         "name": "Jerusalem",
-        "count": 913
+        "count": 914
       },
       {
         "name": "Southern",
@@ -238,7 +238,7 @@
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 809
+        "count": 810
       },
       {
         "name": "Petah Tikva",
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2315
+    "unresolvedCount": 2316
   },
   "overTime": {
     "foundedClosed": {
@@ -969,7 +969,7 @@
         1457,
         1495,
         1779,
-        1924,
+        1926,
         1993,
         2044,
         2041,
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 386,
-        "active": 21599,
+        "active": 21601,
         "unknown": 3628,
         "closed": 13928
       }
@@ -1435,12 +1435,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 23296,
+      "active": 23298,
       "closed": 12785,
       "exited": 3460
     },
     "funnel": {
-      "all": 39541,
+      "all": 39543,
       "funded": 15775,
       "over1m": 6297,
       "over10m": 3093,
@@ -1834,38 +1834,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15458,
-        "share": 0.4025101551921675
+        "count": 15459,
+        "share": 0.4025152319950008
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 7082,
-        "share": 0.18440787417977295
+        "share": 0.18439827110347343
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
-        "count": 7291,
-        "share": 0.18985001562337256
+        "count": 7292,
+        "share": 0.18986616674477946
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1679,
-        "share": 0.04371940422872617
+        "share": 0.04371712753215643
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2276,
-        "share": 0.05926465993125716
+        "share": 0.059261573712440764
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4618,
-        "share": 0.12024789084470368
+        "share": 0.12024162891214914
       }
     ],
     "mixSummary": {
@@ -2191,7 +2191,7 @@
     "signals": {
       "deeptechCount": 9682,
       "deeptechPct": 24.5,
-      "globalCount": 16595,
+      "globalCount": 16596,
       "globalPct": 42.0
     }
   },
@@ -2204,6 +2204,7 @@
         "amountUsd": 150000000,
         "investors": [],
         "investorCount": 6,
+        "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series C"
       },
@@ -2285,33 +2286,11 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "MAVE Security",
         "stage": "Series A",
         "amountUsd": 28000000,
         "investors": [],
         "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2337,6 +2316,28 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2372,17 +2373,6 @@
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
-        "org": "Tenovi",
-        "stage": "Series B",
-        "amountUsd": 20000000,
-        "investors": [],
-        "investorCount": 1,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Series B"
-      },
-      {
-        "ts": "2026-10-16T00:00:00.000Z",
         "org": "Alector",
         "stage": "Post-IPO",
         "amountUsd": 75030000,
@@ -2393,14 +2383,15 @@
         "roundTitle": "Underwritten public stock offering (36.6M shares at $2.05)"
       },
       {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "org": "Metabolize",
-        "stage": "Seed",
-        "amountUsd": 3200000,
+        "ts": "2026-10-16T00:00:00.000Z",
+        "org": "Tenovi",
+        "stage": "Series B",
+        "amountUsd": 20000000,
         "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
@@ -2412,6 +2403,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "org": "Metabolize",
+        "stage": "Seed",
+        "amountUsd": 3200000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2420,6 +2421,47 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-11-05T02:38:59.263Z",
+        "org": "CLICKTACK TECHNOLOGIES",
+        "industry": "IT and Telecom",
+        "city": "Jerusalem",
+        "subIndustry": "Enterprise Software",
+        "description": "Automated tuition management software for preschools, kindergartens and educational institutions, covering registration, tuition calculation, billing, collections and student and staff management.",
+        "domain": "clicktack.com",
+        "keywords": [
+          "Tuition management software",
+          "School billing software",
+          "Preschool management software",
+          "Student registration software",
+          "Educational institution software",
+          "Payment collection software",
+          "Student record management"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
+      {
+        "ts": "2026-11-05T02:33:09.093Z",
+        "org": "ROYAL FLOUR",
+        "industry": "Consumer Goods and Services",
+        "city": "Mishor Adumim",
+        "subIndustry": "Food & Beverage",
+        "description": "Producer of premium wheat, spelt and rye flours for home baking, using slow cold-stage milling and sold through retail and direct channels under kashrut supervision.",
+        "domain": "niflaotflour.co.il",
+        "keywords": [
+          "Wheat flour",
+          "Spelt flour",
+          "Rye flour",
+          "Home baking flour",
+          "Whole wheat flour",
+          "Bread flour",
+          "Self rising flour",
+          "Kosher flour"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-11-05T00:15:39.518Z",
         "org": "Al-Glal",
@@ -2805,52 +2847,23 @@
         ],
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-11-04T07:08:13.454Z",
-        "org": "ARBITRATOR SALES OPPORTUNITIES",
-        "industry": "Consumer Goods and Services",
-        "city": "Ashdod",
-        "subIndustry": "Consumer Services",
-        "description": "Price comparison website that compares cellular, internet, television, triple play and electricity packages and connects interested users with a single chosen service provider or its authorized marketer for a fee per referral.",
-        "domain": "haboreret.co.il",
-        "keywords": [
-          "Price comparison",
-          "Cellular plans comparison",
-          "Internet packages comparison",
-          "TV packages comparison",
-          "Electricity plans comparison",
-          "Lead generation"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-11-04T07:07:47.687Z",
-        "org": "MKT MediaStats",
-        "industry": "Financial Services",
-        "city": "Cambridge",
-        "subIndustry": "Financial Data & Analytics",
-        "description": "AI platform that transforms unstructured media and behavioral data into actionable insights for investment, risk and operational decisions. It provides narrative based indicators and analytics to institutional investors and financial professionals.",
-        "domain": "mktmediastats.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/b47103a0-24f3-48b2-8c1a-3a77a68df438.webp",
-        "keywords": [
-          "Financial data analytics",
-          "Investment insights",
-          "Media analytics",
-          "Behavioral data analytics",
-          "Risk analytics",
-          "Portfolio analytics",
-          "Economic narratives",
-          "Predictive analytics"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 17,
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "EPM Therapeutics",
+        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "ACT Security",
+        "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
+      },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
@@ -2862,15 +2875,22 @@
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Twingate",
-        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
+        "org": "Base44",
+        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "EPM Therapeutics",
-        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Antseed",
+        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2889,58 +2909,16 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "ACT Security",
-        "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Base44",
-        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
+        "org": "Twingate",
+        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Remepy",
-        "summary": "Co-CEO and co-founder Michal Tsur won the CEO of the Year award at the Tech1 Gala and Awards night. In the accompanying interview she said Remepy is entering Phase 3 in Parkinson's disease and plans 2027 partnerships across rare oncology, fertility and immunology."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "VAST Data",
-        "summary": "VAST 5.5 greatly extended the VAST Event Broker, the Kafka implementation built on the DASE architecture, with major performance gains (about 2GB/s sustained per node), new blob expansion (Topics to Tables) so streaming JSON is immediately queryable, mTLS authentication, and a maximum message size of 950MB."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Any.Do",
-        "summary": "Launched the Any.do MCP integration (beta), letting compatible AI assistants such as ChatGPT connect to Any.do to add tasks, schedule reminders, run bulk actions and manage team work via Model Context Protocol."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Tower Semiconductor",
-        "summary": "Reported record Q3 2026 results: revenue of $526 million (up 33% year over year), record gross profit of $179 million and record net profit of $120 million (excluding non-recurring items), and guided Q4 2026 revenue to $600 million, closing 2026 at approximately $2 billion annual revenue."
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "TailorMed",
+        "summary": "Acquired by GrowthCurve Capital, which announced a majority (controlling-stake) investment in TailorMed, reported at approximately $250 million."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2952,6 +2930,13 @@
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "VAST Data",
+        "summary": "VAST 5.5 greatly extended the VAST Event Broker, the Kafka implementation built on the DASE architecture, with major performance gains (about 2GB/s sustained per node), new blob expansion (Topics to Tables) so streaming JSON is immediately queryable, mTLS authentication, and a maximum message size of 950MB."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Company Restructuring",
         "org": "Papaya",
         "summary": "A creditor vote on Papaya's revised repayment proposal was scheduled in the Tel Aviv-Jaffa District Court for November 8, 2026, with the Israeli court stay set to expire on November 25, 2026."
@@ -2959,30 +2944,30 @@
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Synch",
-        "summary": "Released Synch version 6.12, adding a redesigned Admin interface, a Reporting and Analytics Dashboard, enhanced SOS emergency conference workflow, Incident Checklists and Scheduled Incidents."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Regulatory and Compliance",
-        "org": "Chemomab",
-        "summary": "SEC declared effective the Form S-4 registration statement for the merger with Scipher Medicine, clearing a key closing condition. Merger registration took effect October 30, 2026 and Chemomab shareholders were scheduled to vote on the merger on December 4, 2026, with closing expected in Q4 2026 and the combined company to trade on Nasdaq as SCIP."
+        "rawKind": "Strategic Partnership",
+        "org": "GeroWallet",
+        "summary": "GeroWallet (A.D. Labs) partnered with Solada, the Cardano coin launchpad at solada.fun: Solada Markets, the trading page launched alongside Solada's V3 release, runs on the Gero swap engine (routing across Minswap, WingRiders, SundaeSwap and Splash with market, limit, stop and OCO orders) and on Nexus, the Cardano market data platform built by the GeroWallet team."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Arnica",
-        "summary": "Launched Agentic Pen Testing, which tests live applications the way an attacker would and connects validated findings to remediation workflows."
+        "org": "42ai",
+        "summary": "42AI came out of stealth with the launch of its transformer-based behavioral world model (Large Behavioral Model) that predicts human decisions and behavior, focused on financial markets. The model was already screening trades for 10 large brokerages and generating seven-figure revenue at launch."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "HyperGuest",
+        "summary": "Marine Tours and HyperGuest opened a direct route between hotels and B2B buyers."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "RankCaster AI",
-        "summary": "Released its largest platform update since launch: citation forecasting for 7/30/90-day horizons, a Site Auditor with 600+ AIO/AEO/GEO checks, keyword recommendations, a Content Manager workflow from draft to publication, MCP access (Claude Desktop, Cursor, Windsurf, Zed), publishing integrations (WordPress, Medium, Wix, Dev.to, headless API), seven report languages and a daily-updating AI Visibility Badge."
+        "org": "Any.Do",
+        "summary": "Launched the Any.do MCP integration (beta), letting compatible AI assistants such as ChatGPT connect to Any.do to add tasks, schedule reminders, run bulk actions and manage team work via Model Context Protocol."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2990,6 +2975,20 @@
         "rawKind": "Clinical Trial Milestone",
         "org": "Enlivex Therapeutics",
         "summary": "Reported 12-month Phase 2 data for Allocetra in knee osteoarthritis: in patients aged 64 and older, 79.2% achieved a clinically meaningful response (reduced pain and improved knee function) versus 47.6% on placebo at 12 months (p=0.027), with the treatment benefit consistent with 3- and 6-month results, demonstrating a durable effect from a single treatment cycle."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Novu",
+        "summary": "Launched Agent Inbox, giving AI agents their own identity on email, Telegram and Slack with human-in-the-loop ask, approve, choose and notify flows, an MCP server, and a listen command that starts Claude Code sessions from incoming messages."
+      },
+      {
+        "ts": "2026-11-02T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Arnica",
+        "summary": "Launched Agentic Pen Testing, which tests live applications the way an attacker would and connects validated findings to remediation workflows."
       }
     ]
   }
