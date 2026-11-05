@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-11-04T23:50:45.922103Z",
+  "generatedAt": "2026-11-05T01:05:40.830479Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -90,7 +90,6 @@
   },
   "activity": {
     "days": [
-      "2026-10-06",
       "2026-10-07",
       "2026-10-08",
       "2026-10-09",
@@ -119,10 +118,10 @@
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
-      "2026-11-04"
+      "2026-11-04",
+      "2026-11-05"
     ],
     "fundingRounds": [
-      3,
       1,
       6,
       0,
@@ -150,11 +149,11 @@
       0,
       0,
       1,
-      0,
-      1
+      1,
+      1,
+      0
     ],
     "newOrgs": [
-      76,
       127,
       123,
       135,
@@ -183,11 +182,11 @@
       11,
       12,
       12,
-      19
+      20,
+      3
     ],
     "exits": [
       0,
-      0,
       1,
       0,
       0,
@@ -214,11 +213,11 @@
       0,
       2,
       1,
+      0,
       0,
       0
     ],
     "firstChecks": [
-      2,
       0,
       0,
       0,
@@ -247,10 +246,10 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "patentsIssued": [
-      6,
       6,
       0,
       1,
@@ -279,42 +278,42 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "jobsPosted": [
-      189,
       302,
       188,
       59,
       16,
-      220,
+      219,
       200,
-      209,
-      282,
+      205,
+      276,
       267,
       77,
-      39,
+      40,
       222,
       280,
-      311,
-      321,
-      356,
+      312,
+      322,
+      357,
       162,
       30,
       248,
-      404,
-      114,
-      349,
+      403,
+      116,
+      346,
       426,
       106,
       76,
-      332,
-      518,
-      442,
-      359
+      331,
+      521,
+      440,
+      376,
+      0
     ],
     "newFounders": [
-      30,
       72,
       64,
       73,
@@ -343,10 +342,10 @@
       27,
       72,
       27,
-      29
+      29,
+      4
     ],
     "investments": [
-      23,
       1,
       19,
       0,
@@ -375,14 +374,10 @@
       0,
       2,
       0,
-      6
+      6,
+      0
     ],
     "fundingStages": [
-      {
-        "Corporate Round": 1,
-        "ICO": 1,
-        "Series E": 1
-      },
       {
         "Corporate Round": 1
       },
@@ -454,13 +449,15 @@
       {
         "Seed": 1
       },
-      {},
+      {
+        "Post-IPO": 1
+      },
       {
         "Series C": 1
-      }
+      },
+      {}
     ],
     "fundingUsd": [
-      120000000,
       0,
       46000000,
       0,
@@ -488,20 +485,21 @@
       0,
       0,
       63000000,
-      0,
-      150000000
+      15000000,
+      150000000,
+      0
     ]
   },
   "totals": {
     "fundingRounds": {
-      "d1": 1,
-      "d7": 5,
-      "d30": 39
+      "d1": 0,
+      "d7": 3,
+      "d30": 37
     },
     "newOrgs": {
-      "d1": 19,
-      "d7": 76,
-      "d30": 1758
+      "d1": 23,
+      "d7": 67,
+      "d30": 1686
     },
     "exits": {
       "d1": 0,
@@ -511,32 +509,32 @@
     "firstChecks": {
       "d1": 0,
       "d7": 0,
-      "d30": 11
+      "d30": 9
     },
     "patentsIssued": {
       "d1": 0,
       "d7": 0,
-      "d30": 25
+      "d30": 19
     },
     "jobsPosted": {
-      "d1": 359,
-      "d7": 2259,
-      "d30": 7104
+      "d1": 0,
+      "d7": 1850,
+      "d30": 6923
     },
     "newFounders": {
-      "d1": 29,
-      "d7": 219,
-      "d30": 1503
+      "d1": 32,
+      "d7": 196,
+      "d30": 1477
     },
     "investments": {
-      "d1": 6,
-      "d7": 18,
-      "d30": 160
+      "d1": 0,
+      "d7": 8,
+      "d30": 137
     },
     "fundingUsd": {
-      "d1": 150000000,
-      "d7": 289000000,
-      "d30": 1769000000
+      "d1": 0,
+      "d7": 228000000,
+      "d30": 1664000000
     }
   },
   "news": {
@@ -1395,22 +1393,22 @@
     {
       "ts": "2026-11-01",
       "precision": "month",
-      "target": "Contguard",
-      "acquirer": "Fortissimo Capital",
-      "kind": "acquisition",
-      "amountUsd": 50000000,
-      "domain": "contguard.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/9b043c0e-a741-4040-9ce2-261ab94b13b6.jpg"
-    },
-    {
-      "ts": "2026-11-01",
-      "precision": "month",
       "target": "Perion Network",
       "acquirer": "Affle 3iL Ltd. (Affle 3i Limited)",
       "kind": "acquisition",
       "amountUsd": 420000000,
       "domain": "perion.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/7153d2ea-3fc0-4fbf-9a62-41f36426e45e.avif"
+    },
+    {
+      "ts": "2026-11-01",
+      "precision": "month",
+      "target": "Contguard",
+      "acquirer": "Fortissimo Capital",
+      "kind": "acquisition",
+      "amountUsd": 50000000,
+      "domain": "contguard.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/9b043c0e-a741-4040-9ce2-261ab94b13b6.jpg"
     },
     {
       "ts": "2026-10-28",
@@ -1425,16 +1423,6 @@
     {
       "ts": "2026-10-26",
       "precision": "day",
-      "target": "Classiq Technologies",
-      "acquirer": "Intel Corporation",
-      "kind": "acquisition",
-      "amountUsd": 2300000000,
-      "domain": "classiq.io",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/2c3722d6-401a-4aec-bf74-4c4baf9daad9.jpg"
-    },
-    {
-      "ts": "2026-10-26",
-      "precision": "day",
       "target": "NeuReality",
       "acquirer": "Unconventional AI",
       "kind": "acquisition",
@@ -1443,14 +1431,14 @@
       "logoUrl": "https://kolkore.pvalyou.com/assets/63243b4c-3d5f-4bc8-aa4c-bb3b0a610218-square.jpg"
     },
     {
-      "ts": "2026-10-20",
+      "ts": "2026-10-26",
       "precision": "day",
-      "target": "Verix",
-      "acquirer": "Trinity",
+      "target": "Classiq Technologies",
+      "acquirer": "Intel Corporation",
       "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "verix.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4713ded1-f795-4c63-8be8-e9278d5fd4fa.png"
+      "amountUsd": 2300000000,
+      "domain": "classiq.io",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/2c3722d6-401a-4aec-bf74-4c4baf9daad9.jpg"
     },
     {
       "ts": "2026-10-20",
@@ -1461,6 +1449,16 @@
       "amountUsd": null,
       "domain": "alzaihealth.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/a20e5ace-3f92-4093-a50e-722b013ee19e.webp"
+    },
+    {
+      "ts": "2026-10-20",
+      "precision": "day",
+      "target": "Verix",
+      "acquirer": "Trinity",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "verix.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4713ded1-f795-4c63-8be8-e9278d5fd4fa.png"
     },
     {
       "ts": "2026-10-20",
@@ -1515,6 +1513,16 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
+      "target": "Paraspot",
+      "acquirer": "AppWork",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "paraspot.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
       "target": "IdentifAI Genetics",
       "acquirer": null,
       "kind": "ipo",
@@ -1531,16 +1539,6 @@
       "amountUsd": null,
       "domain": "geniez.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/13305afc-fd04-4eee-85e6-0b447ff3d6f9.avif"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
-      "target": "Paraspot",
-      "acquirer": "AppWork",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "paraspot.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4133c001-fe62-4f4c-ae84-fc3bbb3a5b90.webp"
     },
     {
       "ts": "2026-10-12",
@@ -1575,22 +1573,22 @@
     {
       "ts": "2026-10-01",
       "precision": "month",
-      "target": "Inferize",
-      "acquirer": "Nebius Group N.V.",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "inferize.ai",
-      "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQH2mB0SiLTBeg/company-logo_200_200/B4DZ71k67CJQAE-/0/1782236557341/inferize_logo?e=2147483647&v=beta&t=Pc8RHn4aq0yN55z6OVV5KH_bNZNjFOinMmkAUCBbZzk"
-    },
-    {
-      "ts": "2026-10-01",
-      "precision": "month",
       "target": "Vizby AI",
       "acquirer": "Swap Commerce",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "vizby.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/76099f87-2a5e-4f44-b90a-622e8c3848ce.jpg"
+    },
+    {
+      "ts": "2026-10-01",
+      "precision": "month",
+      "target": "Inferize",
+      "acquirer": "Nebius Group N.V.",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "inferize.ai",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQH2mB0SiLTBeg/company-logo_200_200/B4DZ71k67CJQAE-/0/1782236557341/inferize_logo?e=2147483647&v=beta&t=Pc8RHn4aq0yN55z6OVV5KH_bNZNjFOinMmkAUCBbZzk"
     },
     {
       "ts": "2026-09-28",
@@ -1625,12 +1623,12 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "MMDSmart",
-      "acquirer": "FIMI Opportunity Funds",
+      "target": "Wand",
+      "acquirer": "groundcover",
       "kind": "acquisition",
-      "amountUsd": 55000000,
-      "domain": "mmdsmart.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
+      "amountUsd": null,
+      "domain": "wand.cloud",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
     },
     {
       "ts": "2026-11-02",
@@ -1976,17 +1974,17 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "End expirium identification methods, systems and processes",
-      "number": "7934106",
-      "url": "https://patents.google.com/patent/JP7934106B2/en"
+      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
+      "number": "4585146",
+      "url": "https://patents.google.com/patent/EP4585146B1/en"
     },
     {
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
-      "number": "4585146",
-      "url": "https://patents.google.com/patent/EP4585146B1/en"
+      "title": "End expirium identification methods, systems and processes",
+      "number": "7934106",
+      "url": "https://patents.google.com/patent/JP7934106B2/en"
     },
     {
       "ts": "2026-10-13",
@@ -2000,25 +1998,25 @@
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Systems and methods for recommending ablation lines",
-      "number": "12758309",
-      "url": "https://patents.google.com/patent/US12758309B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Sheath valve housing",
-      "number": "12758742",
-      "url": "https://patents.google.com/patent/US12758742B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
       "title": "Post ablation validation via visual signal",
       "number": "12758308",
       "url": "https://patents.google.com/patent/US12758308B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Contact assessment for balloon catheter",
+      "number": "12758184",
+      "url": "https://patents.google.com/patent/US12758184B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Systems and methods for recommending ablation lines",
+      "number": "12758309",
+      "url": "https://patents.google.com/patent/US12758309B2/en"
     }
   ],
   "jobs": [
@@ -2095,19 +2093,10 @@
   ],
   "mix": {
     "stages": {
-      "d1": [
-        {
-          "label": "Series C",
-          "count": 1
-        }
-      ],
+      "d1": [],
       "d7": [
         {
-          "label": "Series A",
-          "count": 2
-        },
-        {
-          "label": "Pre-IPO",
+          "label": "Post-IPO",
           "count": 1
         },
         {
@@ -2129,12 +2118,12 @@
           "count": 7
         },
         {
-          "label": "Corporate Round",
-          "count": 4
+          "label": "Post-IPO",
+          "count": 5
         },
         {
-          "label": "Post-IPO",
-          "count": 4
+          "label": "Corporate Round",
+          "count": 3
         },
         {
           "label": "Debt Financing",
@@ -2157,10 +2146,6 @@
           "count": 2
         },
         {
-          "label": "ICO",
-          "count": 1
-        },
-        {
           "label": "Pre-IPO",
           "count": 1
         },
@@ -2171,10 +2156,6 @@
         {
           "label": "Series B",
           "count": 1
-        },
-        {
-          "label": "Series E",
-          "count": 1
         }
       ]
     },
@@ -2182,11 +2163,11 @@
       "d1": [
         {
           "label": "Consumer Goods and Services",
-          "count": 9
+          "count": 12
         },
         {
           "label": "IT and Telecom",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Financial Services",
@@ -2208,23 +2189,23 @@
       "d7": [
         {
           "label": "IT and Telecom",
-          "count": 28
+          "count": 23
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 17
+          "count": 19
         },
         {
           "label": "Healthcare and Food",
-          "count": 11
+          "count": 9
         },
         {
           "label": "Financial Services",
-          "count": 8
+          "count": 6
         },
         {
           "label": "Media and Entertainment",
-          "count": 8
+          "count": 6
         },
         {
           "label": "Energy and Utilities",
@@ -2238,31 +2219,31 @@
       "d30": [
         {
           "label": "IT and Telecom",
-          "count": 668
+          "count": 654
         },
         {
           "label": "Consumer Goods and Services",
-          "count": 512
+          "count": 478
         },
         {
           "label": "Healthcare and Food",
-          "count": 215
+          "count": 207
         },
         {
           "label": "Media and Entertainment",
-          "count": 182
+          "count": 176
         },
         {
           "label": "Financial Services",
-          "count": 103
+          "count": 98
         },
         {
           "label": "Unknown",
-          "count": 40
+          "count": 38
         },
         {
           "label": "Energy and Utilities",
-          "count": 38
+          "count": 35
         }
       ]
     }
@@ -2298,32 +2279,7 @@
     ]
   },
   "topHiring": {
-    "d1": [
-      {
-        "company": "sela binui",
-        "count": 17,
-        "city": "Haifa",
-        "domain": "selabinui.co.il"
-      },
-      {
-        "company": "Elad Software Systems",
-        "count": 10,
-        "city": "Tel Aviv",
-        "domain": "eladsoft.com"
-      },
-      {
-        "company": "Apple",
-        "count": 9,
-        "city": "Herzliya",
-        "domain": "apple.com"
-      },
-      {
-        "company": "Google",
-        "count": 9,
-        "city": "Tel Aviv",
-        "domain": "google.com"
-      }
-    ],
+    "d1": [],
     "d7": [
       {
         "company": "Applied Materials Israel",
@@ -2332,36 +2288,36 @@
         "domain": "appliedmaterials.com"
       },
       {
-        "company": "Elad Software Systems",
-        "count": 47,
-        "city": "Tel Aviv",
-        "domain": "eladsoft.com"
-      },
-      {
         "company": "Google",
-        "count": 44,
+        "count": 39,
         "city": "Tel Aviv",
         "domain": "google.com"
       },
       {
-        "company": "Nvidia",
-        "count": 32,
-        "city": "Yokneam",
-        "domain": "nvidia.com"
+        "company": "Elad Software Systems",
+        "count": 36,
+        "city": "Tel Aviv",
+        "domain": "eladsoft.com"
+      },
+      {
+        "company": "Apple",
+        "count": 27,
+        "city": "Herzliya",
+        "domain": "apple.com"
       }
     ],
     "d30": [
       {
-        "company": "Nvidia",
-        "count": 142,
-        "city": "Yokneam",
-        "domain": "nvidia.com"
-      },
-      {
         "company": "Team 3 Group",
-        "count": 140,
+        "count": 138,
         "city": "Rehovot",
         "domain": "team3.co.il"
+      },
+      {
+        "company": "Nvidia",
+        "count": 135,
+        "city": "Yokneam",
+        "domain": "nvidia.com"
       },
       {
         "company": "Google",
@@ -2379,16 +2335,8 @@
   },
   "programs": {
     "openNow": 83,
-    "upcoming": 5,
+    "upcoming": 4,
     "items": [
-      {
-        "name": "Startup World Cup",
-        "operator": "Pegasus Tech Ventures",
-        "kind": "upcoming",
-        "israeli": false,
-        "ts": "2026-11-04",
-        "url": "https://www.startupworldcup.io/"
-      },
       {
         "name": "Security Product Showcase",
         "operator": "Operator Collective",
@@ -2460,6 +2408,14 @@
         "israeli": true,
         "ts": null,
         "url": "https://www.capsula-tau.com/apply-new"
+      },
+      {
+        "name": "CityZone Startup Program",
+        "operator": "CityZone",
+        "kind": "open",
+        "israeli": true,
+        "ts": null,
+        "url": "https://www.city-zone.co/"
       }
     ]
   }
