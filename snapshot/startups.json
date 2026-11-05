@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T19:41:53.681Z",
+  "generatedAt": "2026-11-05T21:03:35.441Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,26 +159,26 @@
   },
   "kpis": {
     "startups": {
-      "value": 39542,
-      "delta24h": 8
+      "value": 39543,
+      "delta24h": 10
     },
     "totalFunding": {
-      "valueUsd": 227440936750,
-      "rounds": 29986
+      "valueUsd": 227423636750,
+      "rounds": 29980
     },
     "exits": {
       "count": 3460,
       "valueUsd": 349327947800
     },
     "employees": {
-      "total": 864695,
+      "total": 864677,
       "avgPerStartup": 30
     },
     "patents": {
       "total": 204143,
       "delta30d": 0
     },
-    "openJobs": 24072
+    "openJobs": 24098
   },
   "map": {
     "districts": [
@@ -188,7 +188,7 @@
       },
       {
         "name": "Central",
-        "count": 4374
+        "count": 4376
       },
       {
         "name": "Haifa",
@@ -196,7 +196,7 @@
       },
       {
         "name": "Jerusalem",
-        "count": 913
+        "count": 912
       },
       {
         "name": "Southern",
@@ -238,7 +238,7 @@
         "district": "Jerusalem",
         "lat": 31.7683,
         "lng": 35.2137,
-        "count": 810
+        "count": 809
       },
       {
         "name": "Petah Tikva",
@@ -273,7 +273,7 @@
         "district": "Central",
         "lat": 32.3215,
         "lng": 34.8532,
-        "count": 394
+        "count": 395
       },
       {
         "name": "Rehovot",
@@ -612,6 +612,13 @@
         "count": 30
       },
       {
+        "name": "Kfar Yona",
+        "district": "Central",
+        "lat": 32.3217,
+        "lng": 34.9369,
+        "count": 30
+      },
+      {
         "name": "Ramat Yishai",
         "district": "Northern",
         "lat": 32.705,
@@ -623,13 +630,6 @@
         "district": "Northern",
         "lat": 32.9917,
         "lng": 35.6944,
-        "count": 29
-      },
-      {
-        "name": "Kfar Yona",
-        "district": "Central",
-        "lat": 32.3217,
-        "lng": 34.9369,
         "count": 29
       },
       {
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2316
+    "unresolvedCount": 2318
   },
   "overTime": {
     "foundedClosed": {
@@ -969,7 +969,7 @@
         1457,
         1495,
         1778,
-        1928,
+        1930,
         1994,
         2046,
         2039,
@@ -977,7 +977,7 @@
         2200,
         2096,
         1733,
-        1550,
+        1549,
         1385,
         1816,
         972
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 386,
-        "active": 21607,
+        "active": 21608,
         "unknown": 3620,
         "closed": 13929
       }
@@ -1140,12 +1140,12 @@
         332,
         606,
         405,
-        381,
+        380,
         378,
         489,
         516,
         567,
-        680,
+        679,
         651,
         515,
         626,
@@ -1154,16 +1154,16 @@
         977,
         1129,
         1293,
-        1256,
+        1255,
         1348,
         1584,
-        1584,
-        1669,
+        1585,
+        1668,
         2123,
         2018,
-        1554,
-        1480,
-        1393,
+        1553,
+        1479,
+        1392,
         751
       ],
       "raisedUsd": [
@@ -1189,7 +1189,7 @@
         1062820000,
         2082989142,
         1314080000,
-        873601374,
+        868601374,
         696556000,
         985838615,
         1023800000,
@@ -1199,11 +1199,11 @@
         1382009000,
         1474664062,
         2798218560,
-        2155471000,
+        2155991000,
         2626793345,
         3905763281,
         5083532427,
-        5391500571,
+        5389750571,
         7567007036,
         9337899434,
         13281218472,
@@ -1211,19 +1211,19 @@
         38466245511,
         25356834998,
         11415689978,
-        15685747252,
-        19448600445,
+        15684677252,
+        19438600445,
         28974363558
       ],
       "stageMix": {
-        "Seed": 13772,
-        "Series A": 4267,
-        "Other": 2732,
-        "Series B": 2170,
-        "Series Unknown": 1575,
-        "Series C": 1301,
+        "Seed": 13771,
+        "Series A": 4268,
+        "Other": 2729,
+        "Series B": 2169,
+        "Series Unknown": 1576,
+        "Series C": 1300,
         "Angel": 868,
-        "Unknown": 758
+        "Unknown": 757
       }
     },
     "exits": {
@@ -1435,15 +1435,15 @@
   },
   "survivability": {
     "composition": {
-      "active": 23296,
+      "active": 23297,
       "closed": 12786,
       "exited": 3460
     },
     "funnel": {
-      "all": 39542,
-      "funded": 15778,
+      "all": 39543,
+      "funded": 15780,
       "over1m": 6298,
-      "over10m": 3094,
+      "over10m": 3093,
       "over100m": 614,
       "exited": 3460
     },
@@ -1492,10 +1492,10 @@
       },
       {
         "year": 2023,
-        "total": 1550,
+        "total": 1549,
         "exited": 27,
         "closed": 178,
-        "active": 1345
+        "active": 1344
       },
       {
         "year": 2024,
@@ -1747,23 +1747,23 @@
       },
       {
         "year": 2023,
-        "total": 1522,
+        "total": 1521,
         "unknown": 28,
         "counts": {
           "it-telecom": 649,
-          "healthcare-food": 297,
+          "healthcare-food": 296,
           "consumer-goods-services": 286,
           "energy-utilities": 80,
           "financial-services": 80,
           "media-entertainment": 130
         },
         "shares": {
-          "it-telecom": 0.4264126149802891,
-          "healthcare-food": 0.19513797634691196,
-          "consumer-goods-services": 0.18791064388961892,
-          "energy-utilities": 0.052562417871222074,
-          "financial-services": 0.052562417871222074,
-          "media-entertainment": 0.08541392904073587
+          "it-telecom": 0.4266929651545036,
+          "healthcare-food": 0.1946088099934254,
+          "consumer-goods-services": 0.18803418803418803,
+          "energy-utilities": 0.05259697567389875,
+          "financial-services": 0.05259697567389875,
+          "media-entertainment": 0.08547008547008547
         }
       },
       {
@@ -1834,42 +1834,42 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15462,
-        "share": 0.4025618995547918
+        "count": 15463,
+        "share": 0.402577453788076
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
-        "count": 7082,
-        "share": 0.18438386836418547
+        "count": 7080,
+        "share": 0.18432699817755793
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 7291,
-        "share": 0.18982530136166004
+        "share": 0.18982035928143712
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
-        "count": 1679,
-        "share": 0.04371371293186493
+        "count": 1680,
+        "share": 0.04373860973704764
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2277,
-        "share": 0.05928298055143326
+        "share": 0.0592814371257485
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
-        "count": 4618,
-        "share": 0.12023223723606447
+        "count": 4619,
+        "share": 0.12025514189013278
       }
     ],
     "mixSummary": {
-      "totalVisible": 17403,
+      "totalVisible": 17402,
       "totalUnknown": 439
     },
     "subTrendYears": [
@@ -1909,7 +1909,7 @@
           0.027557216254086876,
           0.0298580518844836,
           0.039504716981132074,
-          0.06044678055190539,
+          0.060486522024983565,
           0.08094186902133922,
           0.08545557441992077,
           0.11346765641569459
@@ -1939,7 +1939,7 @@
           0.1466604390471742,
           0.13558492413117965,
           0.15330188679245282,
-          0.1747700394218134,
+          0.17488494411571334,
           0.1604120676968359,
           0.13978494623655913,
           0.16967126193001061
@@ -1969,7 +1969,7 @@
           0.044371788883699206,
           0.050416054821341164,
           0.05955188679245283,
-          0.05059132720105125,
+          0.05062458908612755,
           0.08535688005886681,
           0.06847764572722127,
           0.06680805938494168
@@ -1999,7 +1999,7 @@
           0.017281644091546006,
           0.014194811551639746,
           0.018867924528301886,
-          0.026281208935611037,
+          0.026298487836949377,
           0.024282560706401765,
           0.04074702886247878,
           0.041357370095440084
@@ -2029,7 +2029,7 @@
           0.014012143858010275,
           0.011257953989231522,
           0.01061320754716981,
-          0.010512483574244415,
+          0.01051939513477975,
           0.024282560706401765,
           0.027164685908319185,
           0.021208907741251327
@@ -2061,7 +2061,7 @@
           0.008874357776739842,
           0.017131669114047968,
           0.017099056603773585,
-          0.00788436268068331,
+          0.007889546351084813,
           0.0051508462104488595,
           0.009620826259196379,
           0.005302226935312832
@@ -2091,7 +2091,7 @@
           0.06305464736104624,
           0.04503181595692609,
           0.054245283018867926,
-          0.04862023653088042,
+          0.04865220249835635,
           0.047829286239882265,
           0.02942840973401245,
           0.022269353128313893
@@ -2121,7 +2121,7 @@
           0.04016814572629612,
           0.03622124326970142,
           0.027712264150943397,
-          0.023653088042049936,
+          0.023668639053254437,
           0.019867549668874173,
           0.023769100169779286,
           0.016967126193001062
@@ -2151,7 +2151,7 @@
           0.024287716020551145,
           0.023005384238864415,
           0.015919811320754717,
-          0.019053876478318004,
+          0.0190664036817883,
           0.01839587932303164,
           0.024335031126202604,
           0.005302226935312832
@@ -2181,7 +2181,7 @@
           0.015413358243811303,
           0.01762114537444934,
           0.020047169811320754,
-          0.022996057818659658,
+          0.023011176857330704,
           0.016188373804267846,
           0.00792303338992643,
           0.008483563096500531
@@ -2189,9 +2189,9 @@
       }
     ],
     "signals": {
-      "deeptechCount": 9676,
+      "deeptechCount": 9675,
       "deeptechPct": 24.5,
-      "globalCount": 16602,
+      "globalCount": 16604,
       "globalPct": 42.0
     }
   },
@@ -2231,14 +2231,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Bites",
+        "org": "StimCardio Medical",
         "stage": "Series A",
-        "amountUsd": 40000000,
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Oversubscribed Series A Financing"
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
@@ -2253,14 +2253,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "StimCardio Medical",
+        "org": "Bites",
         "stage": "Series A",
-        "amountUsd": 30000000,
+        "amountUsd": 40000000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Oversubscribed Series A Financing"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2286,17 +2286,6 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "MAVE Security",
-        "stage": "Series A",
-        "amountUsd": 28000000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Modelyo",
         "stage": "Series A",
         "amountUsd": 17000000,
@@ -2308,14 +2297,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
+        "org": "MAVE Security",
+        "stage": "Series A",
+        "amountUsd": 28000000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2327,6 +2316,17 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2352,16 +2352,6 @@
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
-        "org": "REE Automotive",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 2,
-        "isNonEquity": false,
-        "roundTitle": "Restructuring equity investment"
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
         "org": "High Lander",
         "stage": "Series A",
         "amountUsd": 16000000,
@@ -2370,6 +2360,16 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A - Extended"
+      },
+      {
+        "ts": "2026-10-19T00:00:00.000Z",
+        "org": "REE Automotive",
+        "stage": "Post-IPO",
+        "amountUsd": 4000000,
+        "investors": [],
+        "investorCount": 2,
+        "isNonEquity": false,
+        "roundTitle": "Restructuring equity investment"
       },
       {
         "ts": "2026-10-16T00:00:00.000Z",
@@ -2421,6 +2421,48 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-11-05T20:20:18.977Z",
+        "org": "ATC Technologies",
+        "industry": "Energy and Utilities",
+        "city": "Eilon",
+        "subIndustry": "Security Systems",
+        "description": "Provider of rugged trail and security camera systems with AI based image analysis, real time alerts and remote management for security, enforcement, monitoring and research applications",
+        "domain": "trail-camera.co.il",
+        "keywords": [
+          "Trail camera systems",
+          "Security camera systems",
+          "AI image analysis",
+          "Remote monitoring",
+          "Motion detection cameras",
+          "Surveillance systems",
+          "Wildlife monitoring"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2G"
+      },
+      {
+        "ts": "2026-11-05T19:56:42.360Z",
+        "org": "Gaming Dragons",
+        "industry": "Media and Entertainment",
+        "city": "Kfar Yona",
+        "subIndustry": "Gaming",
+        "description": "Online marketplace selling discounted digital game keys, software keys, in-game currencies and subscriptions for PC and console platforms, delivered digitally by email.",
+        "domain": "gamingdragons.com",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/f0a1ae7a-e1cf-4792-9d3a-20010b82c83c.png",
+        "keywords": [
+          "Digital game keys",
+          "Game key marketplace",
+          "Discounted PC games",
+          "Software keys",
+          "In-game currency",
+          "Gaming subscriptions",
+          "Steam keys",
+          "Online game store"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-11-05T12:00:49.157Z",
         "org": "Relationship Hero",
@@ -2802,62 +2844,15 @@
         "exactEmployees": 40,
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-11-04T11:42:28.919Z",
-        "org": "Sembly AI",
-        "industry": "IT and Telecom",
-        "city": "New York",
-        "subIndustry": "Enterprise Software",
-        "description": "AI meeting agent that records online and in person meetings, transcribes them, and generates notes, tasks, key decisions, and client ready deliverables for professional services teams.",
-        "domain": "sembly.ai",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/ff381c02-508d-4d87-a881-2cc9d742b6fe.jpg",
-        "keywords": [
-          "AI meeting assistant",
-          "Meeting transcription",
-          "Meeting notes automation",
-          "AI note taking",
-          "Meeting recording software",
-          "Client proposal generation",
-          "Action item extraction",
-          "Meeting summarization"
-        ],
-        "employeeRange": "11-50",
-        "exactEmployees": 21,
-        "isDeeptech": false,
-        "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-11-04T09:51:14.960Z",
-        "org": "SawYouAtSinai",
-        "industry": "Consumer Goods and Services",
-        "city": "New Rochelle",
-        "subIndustry": "Consumer Services",
-        "description": "Online Jewish dating and matchmaking platform that pairs singles with a network of human matchmakers who select and send curated matches instead of allowing members to browse profiles. It also hosts in-person and online singles events for members.",
-        "domain": "sawyouatsinai.com",
-        "logoUrl": "https://kolkore.pvalyou.com/assets/5aee16a4-abfb-4266-91b9-a2a09ab5c923.jpg",
-        "keywords": [
-          "Jewish dating",
-          "Online dating",
-          "Matchmaking services",
-          "Jewish matchmaking",
-          "Dating website",
-          "Singles events",
-          "Personal matchmaking"
-        ],
-        "employeeRange": "2-10",
-        "exactEmployees": 11,
-        "isDeeptech": false,
-        "businessModel": "B2C"
       }
     ],
     "notable": [
       {
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cycode",
-        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
+        "rawKind": "R&D Milestone",
+        "org": "Plurai",
+        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2870,8 +2865,8 @@
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Dragonfly",
-        "summary": "Launched Dragonfly Enterprise: starting with v2.1 the product moves from BSL 1.1 to a new source-available license, free for production use up to 100 vCPUs with commercial licensing above that, and all future development ships in Dragonfly Enterprise."
+        "org": "Descope",
+        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2884,50 +2879,22 @@
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Descope",
-        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
+        "org": "Dragonfly",
+        "summary": "Launched Dragonfly Enterprise: starting with v2.1 the product moves from BSL 1.1 to a new source-available license, free for production use up to 100 vCPUs with commercial licensing above that, and all future development ships in Dragonfly Enterprise."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Plurai",
-        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "EPM Therapeutics",
-        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Report Release",
-        "org": "ACT Security",
-        "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
+        "rawKind": "Product Launch",
+        "org": "Cycode",
+        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "Tanium",
-        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "The Kingfish Company",
-        "summary": "Announced that CEO Vincent Erenst agreed to extend his tenure at the request of the Supervisory Board, and that CFO Jean-Charles Valette intends to step down, remaining in role through 31 January 2027 while a successor is sought."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Base44",
-        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2939,9 +2906,30 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
+        "rawKind": "Product Launch",
+        "org": "Antseed",
+        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "ACT Security",
+        "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "The Kingfish Company",
+        "summary": "Announced that CEO Vincent Erenst agreed to extend his tenure at the request of the Supervisory Board, and that CFO Jean-Charles Valette intends to step down, remaining in role through 31 January 2027 while a successor is sought."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Navan",
+        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2960,13 +2948,6 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Navan",
-        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Report Release",
         "org": "Torii",
         "summary": "Torii Research published its November 2026 editions of three usage-data rankings: the Adoption Index, the AI Breakout (in which ElevenLabs climbed to #14), and the Shadow IT Index (led by TypeSafe AI), built from anonymized aggregated SaaS usage data."
@@ -2975,22 +2956,36 @@
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
+        "org": "Base44",
+        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "EPM Therapeutics",
+        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tanium",
+        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Revenue Milestone",
-        "org": "Tower Semiconductor",
-        "summary": "Reported record Q3 2026 results: revenue of $526 million (up 33% year over year), record gross profit of $179 million and record net profit of $120 million (excluding non-recurring items), and guided Q4 2026 revenue to $600 million, closing 2026 at approximately $2 billion annual revenue."
+        "rawKind": "Award Recognition",
+        "org": "Remepy",
+        "summary": "Co-CEO and co-founder Michal Tsur won the CEO of the Year award at the Tech1 Gala and Awards night. In the accompanying interview she said Remepy is entering Phase 3 in Parkinson's disease and plans 2027 partnerships across rare oncology, fertility and immunology."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "VAST Data",
-        "summary": "VAST 5.5 greatly extended the VAST Event Broker, the Kafka implementation built on the DASE architecture, with major performance gains (about 2GB/s sustained per node), new blob expansion (Topics to Tables) so streaming JSON is immediately queryable, mTLS authentication, and a maximum message size of 950MB."
+        "org": "Any.Do",
+        "summary": "Launched the Any.do MCP integration (beta), letting compatible AI assistants such as ChatGPT connect to Any.do to add tasks, schedule reminders, run bulk actions and manage team work via Model Context Protocol."
       }
     ]
   }
