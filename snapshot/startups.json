@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:02:20.689Z",
+  "generatedAt": "2026-11-05T04:02:21.418Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -163,15 +163,15 @@
       "delta24h": 25
     },
     "totalFunding": {
-      "valueUsd": 227779708619,
-      "rounds": 30023
+      "valueUsd": 227572708619,
+      "rounds": 30024
     },
     "exits": {
       "count": 3460,
       "valueUsd": 349327947800
     },
     "employees": {
-      "total": 864452,
+      "total": 864542,
       "avgPerStartup": 30
     },
     "patents": {
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2316
+    "unresolvedCount": 2315
   },
   "overTime": {
     "foundedClosed": {
@@ -1162,7 +1162,7 @@
         2127,
         2021,
         1556,
-        1478,
+        1479,
         1394,
         750
       ],
@@ -1208,7 +1208,7 @@
         9335899434,
         13281218472,
         16095067904,
-        38745245511,
+        38538245511,
         25371834998,
         11430649978,
         15715747252,
@@ -1220,7 +1220,7 @@
         "Series A": 4268,
         "Other": 2748,
         "Series B": 2171,
-        "Series Unknown": 1577,
+        "Series Unknown": 1578,
         "Series C": 1301,
         "Angel": 868,
         "Unknown": 760
@@ -2231,6 +2231,17 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
+        "org": "Bites",
+        "stage": "Series A",
+        "amountUsd": 40000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-29T00:00:00.000Z",
         "org": "Sightec",
         "stage": "Pre-IPO",
         "amountUsd": 6100000,
@@ -2250,17 +2261,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Oversubscribed Series A Financing"
-      },
-      {
-        "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Bites",
-        "stage": "Series A",
-        "amountUsd": 40000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2308,6 +2308,17 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Modelyo",
+        "stage": "Series A",
+        "amountUsd": 17000000,
+        "investors": [],
+        "investorCount": 3,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Warp Sciences",
         "stage": "Series Unknown",
         "amountUsd": 215000000,
@@ -2327,17 +2338,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
-        "investors": [],
-        "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2395,6 +2395,16 @@
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
+        "org": "Metabolize",
+        "stage": "Seed",
+        "amountUsd": 3200000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
         "org": "Gauzy",
         "stage": "Post-IPO",
         "amountUsd": 7000000,
@@ -2403,16 +2413,6 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
-        "org": "Metabolize",
-        "stage": "Seed",
-        "amountUsd": 3200000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2851,11 +2851,39 @@
     ],
     "notable": [
       {
-        "ts": "2026-11-03T00:00:00.000Z",
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Cycode",
+        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Descope",
+        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Torii",
+        "summary": "Torii released a major update to Eko, its agentic governance assistant, adding deeper context awareness, pattern recognition across the customer's SaaS and AI environment, contract Q&A, vendor comparisons, and approved actions. Eko is available in the Torii app, in Slack, and via MCP."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Dragonfly",
+        "summary": "Launched Dragonfly Enterprise: starting with v2.1 the product moves from BSL 1.1 to a new source-available license, free for production use up to 100 vCPUs with commercial licensing above that, and all future development ships in Dragonfly Enterprise."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "EPM Therapeutics",
-        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+        "org": "Gong",
+        "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2867,30 +2895,9 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Tanium",
-        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Base44",
-        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
+        "rawKind": "Report Release",
+        "org": "Torii",
+        "summary": "Torii Research published its November 2026 editions of three usage-data rankings: the Adoption Index, the AI Breakout (in which ElevenLabs climbed to #14), and the Shadow IT Index (led by TypeSafe AI), built from anonymized aggregated SaaS usage data."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2903,6 +2910,13 @@
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
+        "org": "Twingate",
+        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
         "org": "Agora Real Estate Technologies",
         "summary": "Launched Asset-Level Reporting, Launch No.7 in the Season of Innovation, letting customers track and report individual assets alongside investments in one place."
       },
@@ -2910,57 +2924,57 @@
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Twingate",
-        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
+        "org": "Antseed",
+        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
       },
       {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "TailorMed",
-        "summary": "Acquired by GrowthCurve Capital, which announced a majority (controlling-stake) investment in TailorMed, reported at approximately $250 million."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Duda",
-        "summary": "Duda launched Marketing Automation, a feature set to engage customers, drive sales and grow businesses on sites built on the platform."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "VAST Data",
-        "summary": "VAST 5.5 greatly extended the VAST Event Broker, the Kafka implementation built on the DASE architecture, with major performance gains (about 2GB/s sustained per node), new blob expansion (Topics to Tables) so streaming JSON is immediately queryable, mTLS authentication, and a maximum message size of 950MB."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Papaya",
-        "summary": "A creditor vote on Papaya's revised repayment proposal was scheduled in the Tel Aviv-Jaffa District Court for November 8, 2026, with the Israeli court stay set to expire on November 25, 2026."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
+        "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Strategic Partnership",
-        "org": "GeroWallet",
-        "summary": "GeroWallet (A.D. Labs) partnered with Solada, the Cardano coin launchpad at solada.fun: Solada Markets, the trading page launched alongside Solada's V3 release, runs on the Gero swap engine (routing across Minswap, WingRiders, SundaeSwap and Splash with market, limit, stop and OCO orders) and on Nexus, the Cardano market data platform built by the GeroWallet team."
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Navan",
+        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Bizzabo",
+        "summary": "Launched Sponsor ROI, a sponsor management feature set within its Event Experience OS covering sponsor management, AI matchmaking, lead retrieval and reporting, to help event teams prove sponsor value and grow sponsorship revenue."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Base44",
+        "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "EPM Therapeutics",
+        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tanium",
+        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "42ai",
-        "summary": "42AI came out of stealth with the launch of its transformer-based behavioral world model (Large Behavioral Model) that predicts human decisions and behavior, focused on financial markets. The model was already screening trades for 10 large brokerages and generating seven-figure revenue at launch."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "HyperGuest",
-        "summary": "Marine Tours and HyperGuest opened a direct route between hotels and B2B buyers."
+        "org": "Wix.com",
+        "summary": "Introduced Studio Two, a truly open, AI-native visual editor for professional web creation within Wix Studio."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
@@ -2972,23 +2986,9 @@
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Clinical Trial Milestone",
-        "org": "Enlivex Therapeutics",
-        "summary": "Reported 12-month Phase 2 data for Allocetra in knee osteoarthritis: in patients aged 64 and older, 79.2% achieved a clinically meaningful response (reduced pain and improved knee function) versus 47.6% on placebo at 12 months (p=0.027), with the treatment benefit consistent with 3- and 6-month results, demonstrating a durable effect from a single treatment cycle."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Novu",
-        "summary": "Launched Agent Inbox, giving AI agents their own identity on email, Telegram and Slack with human-in-the-loop ask, approve, choose and notify flows, an MCP server, and a listen command that starts Claude Code sessions from incoming messages."
-      },
-      {
-        "ts": "2026-11-02T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Arnica",
-        "summary": "Launched Agentic Pen Testing, which tests live applications the way an attacker would and connects validated findings to remediation workflows."
+        "rawKind": "Revenue Milestone",
+        "org": "Tower Semiconductor",
+        "summary": "Reported record Q3 2026 results: revenue of $526 million (up 33% year over year), record gross profit of $179 million and record net profit of $120 million (excluding non-recurring items), and guided Q4 2026 revenue to $600 million, closing 2026 at approximately $2 billion annual revenue."
       }
     ]
   }
