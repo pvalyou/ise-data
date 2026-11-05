@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "page": "feed",
-  "generatedAt": "2026-11-05T10:18:24.960177Z",
+  "generatedAt": "2026-11-05T11:04:10.939757Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -343,7 +343,7 @@
       72,
       27,
       29,
-      6
+      9
     ],
     "investments": [
       1,
@@ -522,9 +522,9 @@
       "d30": 6935
     },
     "newFounders": {
-      "d1": 24,
-      "d7": 198,
-      "d30": 1479
+      "d1": 26,
+      "d7": 201,
+      "d30": 1482
     },
     "investments": {
       "d1": 0,
@@ -1069,6 +1069,44 @@
     ],
     "global": [
       {
+        "company": "ControlMonkey",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": "Drata",
+        "status": "reported",
+        "tie": null,
+        "url": null,
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il"
+          }
+        ],
+        "amount": null,
+        "detail": "Drata completes its acquisition of ControlMonkey",
+        "publishedAt": null,
+        "seenOn": "2026-11-05"
+      },
+      {
+        "company": "Clarity",
+        "event": "acquisition",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": null,
+        "sources": [
+          {
+            "label": "TheMarker",
+            "url": "https://www.themarker.com/technation"
+          }
+        ],
+        "amount": "500 million",
+        "detail": null,
+        "publishedAt": null,
+        "seenOn": "2026-11-05"
+      },
+      {
         "company": "Firebolt",
         "event": "acquisition",
         "round": null,
@@ -1092,48 +1130,10 @@
         "seenOn": "2026-11-05"
       },
       {
-        "company": "Clarity",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": null,
-        "sources": [
-          {
-            "label": "TheMarker",
-            "url": "https://www.themarker.com/technation"
-          }
-        ],
-        "amount": "500 million",
-        "detail": null,
-        "publishedAt": null,
-        "seenOn": "2026-11-05"
-      },
-      {
-        "company": "ControlMonkey",
-        "event": "acquisition",
-        "round": null,
-        "counterparty": "Drata",
-        "status": "reported",
-        "tie": null,
-        "url": null,
-        "sources": [
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il"
-          }
-        ],
-        "amount": null,
-        "detail": "Drata completes its acquisition of ControlMonkey",
-        "publishedAt": null,
-        "seenOn": "2026-11-05"
-      },
-      {
-        "company": "Tailos",
+        "company": "Terra Security",
         "event": "funding",
-        "round": null,
-        "counterparty": "American Express Ventures and Nextbank",
+        "round": "seed",
+        "counterparty": "Decibel",
         "status": "reported",
         "tie": null,
         "url": null,
@@ -1143,8 +1143,8 @@
             "url": "https://www.geektime.co.il"
           }
         ],
-        "amount": "$9.5M",
-        "detail": "Tailos, developer of AI agents for healthcare support, raises $9.5 million led by American Express Ventures and Nextbank",
+        "amount": "$8M",
+        "detail": "Terra Security, first AI-agent-driven security penetration company, raises $8 million seed led by Decibel",
         "publishedAt": null,
         "seenOn": "2026-11-05"
       },
@@ -1168,10 +1168,10 @@
         "seenOn": "2026-11-05"
       },
       {
-        "company": "Frisco Labs",
+        "company": "Tailos",
         "event": "funding",
-        "round": "seed",
-        "counterparty": null,
+        "round": null,
+        "counterparty": "American Express Ventures and Nextbank",
         "status": "reported",
         "tie": null,
         "url": null,
@@ -1181,27 +1181,8 @@
             "url": "https://www.geektime.co.il"
           }
         ],
-        "amount": "$5M",
-        "detail": "Frisco Labs emerges from stealth with $5 million seed round",
-        "publishedAt": null,
-        "seenOn": "2026-11-05"
-      },
-      {
-        "company": "Terra Security",
-        "event": "funding",
-        "round": "seed",
-        "counterparty": "Decibel",
-        "status": "reported",
-        "tie": null,
-        "url": null,
-        "sources": [
-          {
-            "label": "Geektime",
-            "url": "https://www.geektime.co.il"
-          }
-        ],
-        "amount": "$8M",
-        "detail": "Terra Security, first AI-agent-driven security penetration company, raises $8 million seed led by Decibel",
+        "amount": "$9.5M",
+        "detail": "Tailos, developer of AI agents for healthcare support, raises $9.5 million led by American Express Ventures and Nextbank",
         "publishedAt": null,
         "seenOn": "2026-11-05"
       },
@@ -1222,6 +1203,25 @@
         "amount": "\u20ac26.64 million",
         "detail": "Oxford-based FluoRok raises a \u20ac26.64 million Series A led by Orano Ventures to scale HF-free fluorochemical production",
         "publishedAt": "2026-11-05",
+        "seenOn": "2026-11-05"
+      },
+      {
+        "company": "Frisco Labs",
+        "event": "funding",
+        "round": "seed",
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": null,
+        "sources": [
+          {
+            "label": "Geektime",
+            "url": "https://www.geektime.co.il"
+          }
+        ],
+        "amount": "$5M",
+        "detail": "Frisco Labs emerges from stealth with $5 million seed round",
+        "publishedAt": null,
         "seenOn": "2026-11-05"
       },
       {
@@ -1267,25 +1267,6 @@
         "seenOn": "2026-11-04"
       },
       {
-        "company": "NanoForge AI",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.einpresswire.com/article/954332965/year-old-korean-startup-nanoforge-ai-raises-10-million-to-discover-next-generation-materials",
-        "sources": [
-          {
-            "label": "Einpresswire",
-            "url": "https://www.einpresswire.com/article/954332965/year-old-korean-startup-nanoforge-ai-raises-10-million-to-discover-next-generation-materials"
-          }
-        ],
-        "amount": "$10 million",
-        "detail": "Korean startup NanoForge AI raises $10 million to discover next-generation materials",
-        "publishedAt": "2026-11-04",
-        "seenOn": "2026-11-05"
-      },
-      {
         "company": "Eloelo",
         "event": "funding",
         "round": null,
@@ -1301,6 +1282,25 @@
         ],
         "amount": "USD 80 million",
         "detail": "Eloelo raises $80 million from NBCUniversal and Hornbill Capital to grow its microdrama platform in India",
+        "publishedAt": "2026-11-04",
+        "seenOn": "2026-11-05"
+      },
+      {
+        "company": "NanoForge AI",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.einpresswire.com/article/954332965/year-old-korean-startup-nanoforge-ai-raises-10-million-to-discover-next-generation-materials",
+        "sources": [
+          {
+            "label": "Einpresswire",
+            "url": "https://www.einpresswire.com/article/954332965/year-old-korean-startup-nanoforge-ai-raises-10-million-to-discover-next-generation-materials"
+          }
+        ],
+        "amount": "$10 million",
+        "detail": "Korean startup NanoForge AI raises $10 million to discover next-generation materials",
         "publishedAt": "2026-11-04",
         "seenOn": "2026-11-05"
       },
@@ -1343,44 +1343,6 @@
         "seenOn": "2026-11-04"
       },
       {
-        "company": "Revolut",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/",
-        "sources": [
-          {
-            "label": "Tech.eu",
-            "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/"
-          }
-        ],
-        "amount": null,
-        "detail": "Revolut confirms $115bn valuation after completing a secondary share sale",
-        "publishedAt": "2026-11-04",
-        "seenOn": "2026-11-04"
-      },
-      {
-        "company": "Titan OS",
-        "event": "funding",
-        "round": null,
-        "counterparty": null,
-        "status": "reported",
-        "tie": null,
-        "url": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/",
-        "sources": [
-          {
-            "label": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/"
-          }
-        ],
-        "amount": "\u20ac40 million",
-        "detail": "Barcelona-based smart TV OS maker Titan OS raises a \u20ac40 million round with Highland Europe and Mangrove Capital participating",
-        "publishedAt": "2026-11-04",
-        "seenOn": "2026-11-04"
-      },
-      {
         "company": "Lazzaro One",
         "event": "funding",
         "round": "pre-seed",
@@ -1396,6 +1358,25 @@
         ],
         "amount": "six-figure pre-seed",
         "detail": "Berlin maritime tech startup Lazzaro One lands six-figure pre-seed from IBB Ventures' B# fund",
+        "publishedAt": "2026-11-04",
+        "seenOn": "2026-11-04"
+      },
+      {
+        "company": "Revolut",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/",
+        "sources": [
+          {
+            "label": "Tech.eu",
+            "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/"
+          }
+        ],
+        "amount": null,
+        "detail": "Revolut confirms $115bn valuation after completing a secondary share sale",
         "publishedAt": "2026-11-04",
         "seenOn": "2026-11-04"
       },
@@ -1416,6 +1397,25 @@
         "amount": null,
         "detail": "Canva to cut 1,271 jobs as growth slows for first time in a decade",
         "publishedAt": null,
+        "seenOn": "2026-11-04"
+      },
+      {
+        "company": "Titan OS",
+        "event": "funding",
+        "round": null,
+        "counterparty": null,
+        "status": "reported",
+        "tie": null,
+        "url": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/",
+        "sources": [
+          {
+            "label": "EU-Startups",
+            "url": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/"
+          }
+        ],
+        "amount": "\u20ac40 million",
+        "detail": "Barcelona-based smart TV OS maker Titan OS raises a \u20ac40 million round with Highland Europe and Mangrove Capital participating",
+        "publishedAt": "2026-11-04",
         "seenOn": "2026-11-04"
       },
       {
@@ -1453,22 +1453,22 @@
     {
       "ts": "2026-11-01",
       "precision": "month",
-      "target": "Perion Network",
-      "acquirer": "Affle 3iL Ltd. (Affle 3i Limited)",
-      "kind": "acquisition",
-      "amountUsd": 420000000,
-      "domain": "perion.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/7153d2ea-3fc0-4fbf-9a62-41f36426e45e.avif"
-    },
-    {
-      "ts": "2026-11-01",
-      "precision": "month",
       "target": "Contguard",
       "acquirer": "Fortissimo Capital",
       "kind": "acquisition",
       "amountUsd": 50000000,
       "domain": "contguard.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/9b043c0e-a741-4040-9ce2-261ab94b13b6.jpg"
+    },
+    {
+      "ts": "2026-11-01",
+      "precision": "month",
+      "target": "Perion Network",
+      "acquirer": "Affle 3iL Ltd. (Affle 3i Limited)",
+      "kind": "acquisition",
+      "amountUsd": 420000000,
+      "domain": "perion.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/7153d2ea-3fc0-4fbf-9a62-41f36426e45e.avif"
     },
     {
       "ts": "2026-10-28",
@@ -1483,22 +1483,22 @@
     {
       "ts": "2026-10-26",
       "precision": "day",
-      "target": "NeuReality",
-      "acquirer": "Unconventional AI",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "neureality.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/63243b4c-3d5f-4bc8-aa4c-bb3b0a610218-square.jpg"
-    },
-    {
-      "ts": "2026-10-26",
-      "precision": "day",
       "target": "Classiq Technologies",
       "acquirer": "Intel Corporation",
       "kind": "acquisition",
       "amountUsd": 2300000000,
       "domain": "classiq.io",
       "logoUrl": "https://kolkore.pvalyou.com/assets/2c3722d6-401a-4aec-bf74-4c4baf9daad9.jpg"
+    },
+    {
+      "ts": "2026-10-26",
+      "precision": "day",
+      "target": "NeuReality",
+      "acquirer": "Unconventional AI",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "neureality.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/63243b4c-3d5f-4bc8-aa4c-bb3b0a610218-square.jpg"
     },
     {
       "ts": "2026-10-20",
@@ -1543,12 +1543,12 @@
     {
       "ts": "2026-10-15",
       "precision": "day",
-      "target": "Rotem Computerized Controllers",
-      "acquirer": "Speria",
+      "target": "CCC Intelligent Solutions",
+      "acquirer": "GTCR (consortium with Elliott Investment Management L.P.)",
       "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "rotem.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
+      "amountUsd": 6100000000,
+      "domain": "cccis.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/7acf73c6-784f-4be5-9f70-79744a70bab7.jpg"
     },
     {
       "ts": "2026-10-15",
@@ -1563,22 +1563,12 @@
     {
       "ts": "2026-10-15",
       "precision": "day",
-      "target": "CCC Intelligent Solutions",
-      "acquirer": "GTCR (consortium with Elliott Investment Management L.P.)",
+      "target": "Rotem Computerized Controllers",
+      "acquirer": "Speria",
       "kind": "acquisition",
-      "amountUsd": 6100000000,
-      "domain": "cccis.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/7acf73c6-784f-4be5-9f70-79744a70bab7.jpg"
-    },
-    {
-      "ts": "2026-10-13",
-      "precision": "day",
-      "target": "IdentifAI Genetics",
-      "acquirer": null,
-      "kind": "ipo",
       "amountUsd": null,
-      "domain": "identifai-genetics.com",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/9e52d935-3685-4a74-81b0-21617d4340f0.jpg"
+      "domain": "rotem.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4202c417-cec3-4410-b888-d5826e8dfd6c.jpg"
     },
     {
       "ts": "2026-10-13",
@@ -1593,6 +1583,16 @@
     {
       "ts": "2026-10-13",
       "precision": "day",
+      "target": "IdentifAI Genetics",
+      "acquirer": null,
+      "kind": "ipo",
+      "amountUsd": null,
+      "domain": "identifai-genetics.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/9e52d935-3685-4a74-81b0-21617d4340f0.jpg"
+    },
+    {
+      "ts": "2026-10-13",
+      "precision": "day",
       "target": "Paraspot",
       "acquirer": "AppWork",
       "kind": "acquisition",
@@ -1603,22 +1603,22 @@
     {
       "ts": "2026-10-12",
       "precision": "day",
-      "target": "Loops",
-      "acquirer": "Salesforce",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "getloops.ai",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
-    },
-    {
-      "ts": "2026-10-12",
-      "precision": "day",
       "target": "Torii",
       "acquirer": "Freshworks Inc.",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "toriihq.com",
       "logoUrl": "https://kolkore.pvalyou.com/assets/21bc99c9-4e01-4220-af6e-bd531adf758f.webp"
+    },
+    {
+      "ts": "2026-10-12",
+      "precision": "day",
+      "target": "Loops",
+      "acquirer": "Salesforce",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "getloops.ai",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/937dee8c-eb42-46b9-b79c-ad8b17c83ea4.jpg"
     },
     {
       "ts": "2026-10-08",
@@ -1633,22 +1633,22 @@
     {
       "ts": "2026-10-01",
       "precision": "month",
-      "target": "Inferize",
-      "acquirer": "Nebius Group N.V.",
-      "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "inferize.ai",
-      "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQH2mB0SiLTBeg/company-logo_200_200/B4DZ71k67CJQAE-/0/1782236557341/inferize_logo?e=2147483647&v=beta&t=Pc8RHn4aq0yN55z6OVV5KH_bNZNjFOinMmkAUCBbZzk"
-    },
-    {
-      "ts": "2026-10-01",
-      "precision": "month",
       "target": "Vizby AI",
       "acquirer": "Swap Commerce",
       "kind": "acquisition",
       "amountUsd": null,
       "domain": "vizby.ai",
       "logoUrl": "https://kolkore.pvalyou.com/assets/76099f87-2a5e-4f44-b90a-622e8c3848ce.jpg"
+    },
+    {
+      "ts": "2026-10-01",
+      "precision": "month",
+      "target": "Inferize",
+      "acquirer": "Nebius Group N.V.",
+      "kind": "acquisition",
+      "amountUsd": null,
+      "domain": "inferize.ai",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQH2mB0SiLTBeg/company-logo_200_200/B4DZ71k67CJQAE-/0/1782236557341/inferize_logo?e=2147483647&v=beta&t=Pc8RHn4aq0yN55z6OVV5KH_bNZNjFOinMmkAUCBbZzk"
     },
     {
       "ts": "2026-09-28",
@@ -1683,12 +1683,12 @@
     {
       "ts": "2026-09-24",
       "precision": "day",
-      "target": "Wand",
-      "acquirer": "groundcover",
+      "target": "MMDSmart",
+      "acquirer": "FIMI Opportunity Funds",
       "kind": "acquisition",
-      "amountUsd": null,
-      "domain": "wand.cloud",
-      "logoUrl": "https://kolkore.pvalyou.com/assets/ddb91c83-6a34-4747-b5e7-299251bdc59f.png"
+      "amountUsd": 55000000,
+      "domain": "mmdsmart.com",
+      "logoUrl": "https://kolkore.pvalyou.com/assets/4271d1f3-ef79-4c8f-8c97-a704e4610d76.png"
     },
     {
       "ts": "2026-11-05",
@@ -2054,17 +2054,9 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "End expirium identification methods, systems and processes",
-      "number": "7934106",
-      "url": "https://patents.google.com/patent/JP7934106B2/en"
-    },
-    {
-      "ts": "2026-10-14",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
-      "number": "4585146",
-      "url": "https://patents.google.com/patent/EP4585146B1/en"
+      "title": "Layered multi-activation local activation time (lat) mapping",
+      "number": "7935046",
+      "url": "https://patents.google.com/patent/JP7935046B2/en"
     },
     {
       "ts": "2026-10-14",
@@ -2078,33 +2070,33 @@
       "ts": "2026-10-14",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Layered multi-activation local activation time (lat) mapping",
-      "number": "7935046",
-      "url": "https://patents.google.com/patent/JP7935046B2/en"
+      "title": "End expirium identification methods, systems and processes",
+      "number": "7934106",
+      "url": "https://patents.google.com/patent/JP7934106B2/en"
+    },
+    {
+      "ts": "2026-10-14",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Impedance based tracking of catheter location in relation to a cavity wall",
+      "number": "4585146",
+      "url": "https://patents.google.com/patent/EP4585146B1/en"
     },
     {
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Contact assessment for balloon catheter",
-      "number": "12758184",
-      "url": "https://patents.google.com/patent/US12758184B2/en"
+      "title": "Catheter deflection control assembly",
+      "number": "12758307",
+      "url": "https://patents.google.com/patent/US12758307B2/en"
     },
     {
       "ts": "2026-10-13",
       "kind": "granted",
       "org": "Biosense Webster (Israel)",
-      "title": "Automatic control and enhancement of 4d ultrasound images",
-      "number": "7933605",
-      "url": "https://patents.google.com/patent/JP7933605B2/en"
-    },
-    {
-      "ts": "2026-10-13",
-      "kind": "granted",
-      "org": "Biosense Webster (Israel)",
-      "title": "Post ablation validation via visual signal",
-      "number": "12758308",
-      "url": "https://patents.google.com/patent/US12758308B2/en"
+      "title": "Systems and methods for recommending ablation lines",
+      "number": "12758309",
+      "url": "https://patents.google.com/patent/US12758309B2/en"
     },
     {
       "ts": "2026-10-13",
@@ -2113,6 +2105,14 @@
       "title": "Sheath valve housing",
       "number": "12758742",
       "url": "https://patents.google.com/patent/US12758742B2/en"
+    },
+    {
+      "ts": "2026-10-13",
+      "kind": "granted",
+      "org": "Biosense Webster (Israel)",
+      "title": "Automatic control and enhancement of 4d ultrasound images",
+      "number": "7933605",
+      "url": "https://patents.google.com/patent/JP7933605B2/en"
     }
   ],
   "jobs": [
