@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T08:02:53.065Z",
+  "generatedAt": "2026-11-05T09:01:46.461Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,8 +159,8 @@
   },
   "kpis": {
     "startups": {
-      "value": 39543,
-      "delta24h": 20
+      "value": 39544,
+      "delta24h": 21
     },
     "totalFunding": {
       "valueUsd": 227542708619,
@@ -171,20 +171,20 @@
       "valueUsd": 349327947800
     },
     "employees": {
-      "total": 864571,
+      "total": 864580,
       "avgPerStartup": 30
     },
     "patents": {
       "total": 204143,
       "delta30d": 0
     },
-    "openJobs": 24122
+    "openJobs": 24056
   },
   "map": {
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7465
+        "count": 7466
       },
       {
         "name": "Central",
@@ -325,18 +325,18 @@
         "count": 210
       },
       {
+        "name": "Holon",
+        "district": "Tel Aviv",
+        "lat": 32.0167,
+        "lng": 34.7667,
+        "count": 202
+      },
+      {
         "name": "Rosh HaAyin",
         "district": "Central",
         "lat": 32.0844,
         "lng": 34.9547,
         "count": 202
-      },
-      {
-        "name": "Holon",
-        "district": "Tel Aviv",
-        "lat": 32.0167,
-        "lng": 34.7667,
-        "count": 201
       },
       {
         "name": "Caesarea",
@@ -969,7 +969,7 @@
         1457,
         1495,
         1779,
-        1926,
+        1927,
         1993,
         2044,
         2040,
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 386,
-        "active": 21600,
+        "active": 21601,
         "unknown": 3628,
         "closed": 13929
       }
@@ -1435,12 +1435,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 23297,
+      "active": 23298,
       "closed": 12786,
       "exited": 3460
     },
     "funnel": {
-      "all": 39543,
+      "all": 39544,
       "funded": 15775,
       "over1m": 6297,
       "over10m": 3093,
@@ -1834,38 +1834,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15459,
-        "share": 0.4025152319950008
+        "count": 15460,
+        "share": 0.4025307886583175
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 7082,
-        "share": 0.18439827110347343
+        "share": 0.18439346994037545
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 7292,
-        "share": 0.18986616674477946
+        "share": 0.18986122321451818
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1679,
-        "share": 0.04371712753215643
+        "share": 0.043715989272788816
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2276,
-        "share": 0.059261573712440764
+        "share": 0.05926003072356602
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4618,
-        "share": 0.12024162891214914
+        "share": 0.12023849819043403
       }
     ],
     "mixSummary": {
@@ -2286,11 +2286,22 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Modelyo",
-        "stage": "Series A",
-        "amountUsd": 17000000,
+        "org": "Two Delta",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 2,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "MAVE Security",
+        "stage": "Series A",
+        "amountUsd": 28000000,
+        "investors": [],
+        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2319,25 +2330,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "MAVE Security",
+        "org": "Modelyo",
         "stage": "Series A",
-        "amountUsd": 28000000,
+        "amountUsd": 17000000,
         "investors": [],
-        "investorCount": 4,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Two Delta",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2395,16 +2395,6 @@
       },
       {
         "ts": "2026-10-15T00:00:00.000Z",
-        "org": "Metabolize",
-        "stage": "Seed",
-        "amountUsd": 3200000,
-        "investors": [],
-        "investorCount": 4,
-        "isVcBacked": true,
-        "isNonEquity": false
-      },
-      {
-        "ts": "2026-10-15T00:00:00.000Z",
         "org": "Gauzy",
         "stage": "Post-IPO",
         "amountUsd": 7000000,
@@ -2413,6 +2403,16 @@
         "isVcBacked": false,
         "isNonEquity": false,
         "roundTitle": "PIPE \u2014 $7M private placement led by management (Eyal Peso) to fund court-approved debt settlement"
+      },
+      {
+        "ts": "2026-10-15T00:00:00.000Z",
+        "org": "Metabolize",
+        "stage": "Seed",
+        "amountUsd": 3200000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false
       }
     ],
     "todayStats": {
@@ -2421,6 +2421,30 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-11-05T08:29:58.426Z",
+        "org": "DERMIS AESTHETICS",
+        "industry": "IT and Telecom",
+        "city": "Holon",
+        "subIndustry": "Telecommunications",
+        "description": "Communications company providing push to talk over cellular services, cloud based IoT temperature and humidity monitoring, digital radio systems and custom wireless product development, with end to end supply and support for organizational customers.",
+        "domain": "comtica.co.il",
+        "logoUrl": "https://kolkore.pvalyou.com/assets/a2e60157-32dd-45fa-8d3e-7b4a33730bc7.webp",
+        "keywords": [
+          "Push to talk over cellular",
+          "Walkie talkie software",
+          "IoT temperature monitoring",
+          "Wireless communication systems",
+          "Digital radio systems",
+          "Cold chain monitoring",
+          "Custom wireless development",
+          "Fleet communication"
+        ],
+        "employeeRange": "11-50",
+        "exactEmployees": 9,
+        "isDeeptech": false,
+        "businessModel": "B2B"
+      },
       {
         "ts": "2026-11-05T02:38:59.263Z",
         "org": "CLICKTACK TECHNOLOGIES",
@@ -2827,56 +2851,15 @@
         "exactEmployees": 1,
         "isDeeptech": false,
         "businessModel": "B2C"
-      },
-      {
-        "ts": "2026-11-04T09:23:21.585Z",
-        "org": "Marshmalaw.ai",
-        "industry": "IT and Telecom",
-        "city": "",
-        "subIndustry": "LegalTech",
-        "description": "AI-powered passive time tracking platform for legal professionals that automatically captures billable work from email, calendar and cloud drive integrations, categorizes entries by client and matter, and generates invoices from logged hours.",
-        "domain": "marshmalaw.ai",
-        "keywords": [
-          "Time tracking software",
-          "Legal time tracking",
-          "Billable hours tracking",
-          "Legal practice management",
-          "Automated invoicing",
-          "Passive time tracking",
-          "Legal billing software"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
       {
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Plurai",
-        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Gong",
-        "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Descope",
-        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Torii",
-        "summary": "Torii released a major update to Eko, its agentic governance assistant, adding deeper context awareness, pattern recognition across the customer's SaaS and AI environment, contract Q&A, vendor comparisons, and approved actions. Eko is available in the Torii app, in Slack, and via MCP."
+        "org": "Cycode",
+        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2889,22 +2872,36 @@
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Cycode",
-        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
+        "org": "Torii",
+        "summary": "Torii released a major update to Eko, its agentic governance assistant, adding deeper context awareness, pattern recognition across the customer's SaaS and AI environment, contract Q&A, vendor comparisons, and approved actions. Eko is available in the Torii app, in Slack, and via MCP."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "R&D Milestone",
+        "org": "Plurai",
+        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Descope",
+        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Gong",
+        "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "EPM Therapeutics",
-        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Tanium",
-        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
+        "org": "The Kingfish Company",
+        "summary": "Announced that CEO Vincent Erenst agreed to extend his tenure at the request of the Supervisory Board, and that CFO Jean-Charles Valette intends to step down, remaining in role through 31 January 2027 while a successor is sought."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2912,41 +2909,6 @@
         "rawKind": "Report Release",
         "org": "ACT Security",
         "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Agora Real Estate Technologies",
-        "summary": "Launched Asset-Level Reporting, Launch No.7 in the Season of Innovation, letting customers track and report individual assets alongside investments in one place."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Blockaid",
-        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Twingate",
-        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
-      },
-      {
-        "ts": "2026-11-03T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Navan",
-        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
@@ -2965,6 +2927,27 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Customer Milestone",
+        "org": "Navan",
+        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Twingate",
+        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Antseed",
+        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Product Launch",
         "org": "Base44",
         "summary": "Launched the Base44 Compliance API, connecting an Enterprise workspace to the security platforms a company already uses so security teams can see every app, AI agent, integration, member and role in the workspace alongside the rest of their SaaS. Live at launch with Orca Security (the design partner), Token Security and Noma Security, with Upwind, Pluto and Zenity coming soon."
@@ -2972,23 +2955,44 @@
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Agora Real Estate Technologies",
+        "summary": "Launched Asset-Level Reporting, Launch No.7 in the Season of Innovation, letting customers track and report individual assets alongside investments in one place."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tanium",
+        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
         "rawKind": "Executive Appointment",
-        "org": "The Kingfish Company",
-        "summary": "Announced that CEO Vincent Erenst agreed to extend his tenure at the request of the Supervisory Board, and that CFO Jean-Charles Valette intends to step down, remaining in role through 31 January 2027 while a successor is sought."
+        "org": "EPM Therapeutics",
+        "summary": "Duane Mancini, M.Sc. (CEO and Co-Founder of Project Medtech, host of the Project Medtech Podcast) appointed to the epm Therapeutics Board of Directors, announced by the company. He brings experience in regulatory strategy, clinical trial design and commercialization for medical technology, and will advise as EPM301 advances toward clinical development for Prader-Willi syndrome hyperphagia."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Blockaid",
+        "summary": "Blockaid partnered with Houdini Swap to bring real-time token scanning to its private cross-chain swaps, flagging honeypots, rugpulls, and impersonation tokens before users swap."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Papaya",
-        "summary": "A creditor vote on Papaya's revised repayment proposal was scheduled in the Tel Aviv-Jaffa District Court for November 8, 2026, with the Israeli court stay set to expire on November 25, 2026."
+        "rawKind": "Strategic Partnership",
+        "org": "GeroWallet",
+        "summary": "GeroWallet (A.D. Labs) partnered with Solada, the Cardano coin launchpad at solada.fun: Solada Markets, the trading page launched alongside Solada's V3 release, runs on the Gero swap engine (routing across Minswap, WingRiders, SundaeSwap and Splash with market, limit, stop and OCO orders) and on Nexus, the Cardano market data platform built by the GeroWallet team."
       },
       {
         "ts": "2026-11-02T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Award Recognition",
-        "org": "Remepy",
-        "summary": "Co-CEO and co-founder Michal Tsur won the CEO of the Year award at the Tech1 Gala and Awards night. In the accompanying interview she said Remepy is entering Phase 3 in Parkinson's disease and plans 2027 partnerships across rare oncology, fertility and immunology."
+        "rawKind": "Strategic Partnership",
+        "org": "HyperGuest",
+        "summary": "Marine Tours and HyperGuest opened a direct route between hotels and B2B buyers."
       }
     ]
   }
