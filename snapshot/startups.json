@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T02:01:35.629Z",
+  "generatedAt": "2026-11-07T02:43:55.367Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -159,12 +159,12 @@
   },
   "kpis": {
     "startups": {
-      "value": 39554,
-      "delta24h": 15
+      "value": 39555,
+      "delta24h": 16
     },
     "totalFunding": {
-      "valueUsd": 227657767750,
-      "rounds": 30014
+      "valueUsd": 227494895208,
+      "rounds": 30011
     },
     "exits": {
       "count": 3466,
@@ -822,7 +822,7 @@
         "count": 1
       }
     ],
-    "unresolvedCount": 2321
+    "unresolvedCount": 2322
   },
   "overTime": {
     "foundedClosed": {
@@ -969,7 +969,7 @@
         1462,
         1496,
         1776,
-        1935,
+        1936,
         1995,
         2045,
         2043,
@@ -1062,7 +1062,7 @@
       ],
       "statusMix": {
         "inactive": 385,
-        "active": 21624,
+        "active": 21625,
         "unknown": 3608,
         "closed": 13937
       }
@@ -1160,11 +1160,11 @@
         1586,
         1670,
         2128,
-        2022,
-        1555,
-        1478,
+        2024,
+        1552,
+        1477,
         1399,
-        757
+        756
       ],
       "raisedUsd": [
         0,
@@ -1209,18 +1209,18 @@
         13286118472,
         16095067904,
         38628945511,
-        25396734998,
-        11412609978,
-        15673788252,
+        25495620173,
+        11292853185,
+        15573788317,
         19466600445,
-        28980663558
+        28938662569
       ],
       "stageMix": {
         "Seed": 13782,
         "Series A": 4292,
         "Other": 2697,
         "Series B": 2180,
-        "Series Unknown": 1579,
+        "Series Unknown": 1576,
         "Series C": 1305,
         "Angel": 868,
         "Unknown": 755
@@ -1435,12 +1435,12 @@
   },
   "survivability": {
     "composition": {
-      "active": 23296,
+      "active": 23297,
       "closed": 12792,
       "exited": 3466
     },
     "funnel": {
-      "all": 39554,
+      "all": 39555,
       "funded": 15793,
       "over1m": 6305,
       "over10m": 3096,
@@ -1834,38 +1834,38 @@
       {
         "key": "it-telecom",
         "label": "IT and Telecom",
-        "count": 15469,
-        "share": 0.4026078809015668
+        "count": 15470,
+        "share": 0.40262342867553286
       },
       {
         "key": "healthcare-food",
         "label": "Healthcare and Food",
         "count": 7081,
-        "share": 0.18429545572848888
+        "share": 0.18429065924055904
       },
       {
         "key": "consumer-goods-services",
         "label": "Consumer Goods and Services",
         "count": 7294,
-        "share": 0.1898391546509812
+        "share": 0.1898342138823101
       },
       {
         "key": "energy-utilities",
         "label": "Energy and Utilities",
         "count": 1678,
-        "share": 0.04367289573681745
+        "share": 0.043671759102620826
       },
       {
         "key": "financial-services",
         "label": "Financial Services",
         "count": 2279,
-        "share": 0.05931497579511738
+        "share": 0.05931343205892304
       },
       {
         "key": "media-entertainment",
         "label": "Media and Entertainment",
         "count": 4621,
-        "share": 0.12026963718702827
+        "share": 0.12026650704005414
       }
     ],
     "mixSummary": {
@@ -2190,13 +2190,23 @@
     ],
     "signals": {
       "deeptechCount": 9671,
-      "deeptechPct": 24.5,
-      "globalCount": 16611,
+      "deeptechPct": 24.4,
+      "globalCount": 16612,
       "globalPct": 42.0
     }
   },
   "feeds": {
     "funding": [
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "org": "Mindmax",
+        "stage": "Pre-seed",
+        "amountUsd": 3300000,
+        "investors": [],
+        "investorCount": 6,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "org": "Nayara",
@@ -2207,16 +2217,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Pre-seed round led by SFC Capital"
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "org": "Mindmax",
-        "stage": "Pre-seed",
-        "amountUsd": 3300000,
-        "investors": [],
-        "investorCount": 6,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2252,14 +2252,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Bites",
-        "stage": "Series A",
-        "amountUsd": 40000000,
+        "org": "Sightec",
+        "stage": "Pre-IPO",
+        "amountUsd": 6100000,
         "investors": [],
-        "investorCount": 5,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Series A"
+        "roundTitle": "Pre-IPO convertible preferred (initial close, deferred close pending)"
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
@@ -2274,14 +2274,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Sightec",
-        "stage": "Pre-IPO",
-        "amountUsd": 6100000,
+        "org": "Bites",
+        "stage": "Series A",
+        "amountUsd": 40000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 5,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-IPO convertible preferred (initial close, deferred close pending)"
+        "roundTitle": "Series A"
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2318,33 +2318,11 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
-        "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Modelyo",
         "stage": "Series A",
         "amountUsd": 17000000,
         "investors": [],
         "investorCount": 3,
-        "isVcBacked": true,
-        "isNonEquity": false,
-        "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "MAVE Security",
-        "stage": "Series A",
-        "amountUsd": 28000000,
-        "investors": [],
-        "investorCount": 4,
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
@@ -2359,6 +2337,28 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Emergence from stealth funding round"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "MAVE Security",
+        "stage": "Series A",
+        "amountUsd": 28000000,
+        "investors": [],
+        "investorCount": 4,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Series A"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2421,6 +2421,27 @@
       "notableEvents": 0
     },
     "newStartups": [
+      {
+        "ts": "2026-11-07T02:03:30.831Z",
+        "org": "Troox",
+        "industry": "IT and Telecom",
+        "city": "Tzur Moshe",
+        "subIndustry": "Consumer Software",
+        "description": "Browser-based suite of free utilities for image editing and conversion, text and code formatting, security tools and everyday calculators. All processing happens client-side in the browser with no server uploads, accounts or tracking.",
+        "domain": "troox.online",
+        "keywords": [
+          "Free online utilities",
+          "Image editing tools",
+          "Text formatting tools",
+          "Code formatting tools",
+          "Password generator",
+          "Hash calculator",
+          "Online calculators",
+          "Client-side tools"
+        ],
+        "isDeeptech": false,
+        "businessModel": "B2C"
+      },
       {
         "ts": "2026-11-07T00:13:25.351Z",
         "org": "NUMAS TECH",
@@ -2833,26 +2854,6 @@
         "exactEmployees": 9,
         "isDeeptech": false,
         "businessModel": "B2B"
-      },
-      {
-        "ts": "2026-11-05T02:38:59.263Z",
-        "org": "CLICKTACK TECHNOLOGIES",
-        "industry": "IT and Telecom",
-        "city": "Jerusalem",
-        "subIndustry": "Enterprise Software",
-        "description": "Automated tuition management software for preschools, kindergartens and educational institutions, covering registration, tuition calculation, billing, collections and student and staff management.",
-        "domain": "clicktack.com",
-        "keywords": [
-          "Tuition management software",
-          "School billing software",
-          "Preschool management software",
-          "Student registration software",
-          "Educational institution software",
-          "Payment collection software",
-          "Student record management"
-        ],
-        "isDeeptech": false,
-        "businessModel": "B2B"
       }
     ],
     "notable": [
@@ -2866,16 +2867,9 @@
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Eitan Medical",
-        "summary": "Launched the Sapphire infusion pump system in Japan in partnership with ParagonCare Japan, following PMDA regulatory approval, expanding access across hospital, ambulatory, and homecare settings in the Asia-Pacific market."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Market Expansion",
-        "org": "Eitan Medical",
-        "summary": "Eitan Medical announced a strategic partnership with Paragon Medtech to launch the Sapphire infusion platform in Japan, entering the Japanese market through Paragon Medtech's local regulatory and distribution network."
+        "rawKind": "Company Restructuring",
+        "org": "Bria AI",
+        "summary": "Bria laid off approximately 20 of its 60 employees as part of a corporate restructuring, halting development of its FIBO foundation model due to cost against better-funded rivals and pivoting to its Bria Create enterprise marketing platform. Model development was consolidated in Israel, VP of Research Ron Mokady departed, VP of Business Amit Goldenberg moved to an advisory role, and CTO Misha Feinstein took charge of R&D."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2883,6 +2877,20 @@
         "rawKind": "Acquisition",
         "org": "Fireberry",
         "summary": "Acquired by Priority Software. Priority announced the acquisition of a majority stake (more than 50% of shares, with an option to purchase the remaining stake from founder and CEO Amir Segev) in Fireberry, valuing the company at over NIS 100 million (over $30 million). The deal expands Priority's AI-native cloud ERP portfolio with Fireberry's AI-powered CRM platform."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Cellebrite",
+        "summary": "Appointed Rogerio Rizzi as Executive Vice President of Corporate Strategy and Development. Rizzi joined from Okta, Inc., where he established the Corporate Strategy team and ran growth strategy for six years, and previously led Corporate Strategy at SAP SE and Hewlett Packard Enterprise."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Product Launch",
+        "org": "Zorem",
+        "summary": "Launched AI Shopping Assistant, a WooCommerce chat plugin that searches the catalogue (including misspelt queries), answers product and policy questions from the store's own pages, builds a real WooCommerce cart and hands off to checkout, answers order-status questions for logged-in customers, and offers an optional admin read-only store assistant. Launch offer code AISA40 (40% off) runs until 30 November 2026, licences from $79."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2901,20 +2909,6 @@
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Zorem",
-        "summary": "Launched AI Shopping Assistant, a WooCommerce chat plugin that searches the catalogue (including misspelt queries), answers product and policy questions from the store's own pages, builds a real WooCommerce cart and hands off to checkout, answers order-status questions for logged-in customers, and offers an optional admin read-only store assistant. Launch offer code AISA40 (40% off) runs until 30 November 2026, licences from $79."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cellebrite",
-        "summary": "Appointed Rogerio Rizzi as Executive Vice President of Corporate Strategy and Development. Rizzi joined from Okta, Inc., where he established the Corporate Strategy team and ran growth strategy for six years, and previously led Corporate Strategy at SAP SE and Hewlett Packard Enterprise."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Strategic Partnership",
         "org": "Eco Wave Power",
         "summary": "Wholly owned subsidiary Eco Wave Power U.S. Inc. signed a three-year MoU with WISeQey Corp., SEALSQ Corp. and SEALCOIN AG, demonstrating trusted digital twin and authenticated automated energy transactions using the Jaffa Port installation, targeting applications for AI data centers."
@@ -2922,9 +2916,16 @@
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Company Restructuring",
-        "org": "Bria AI",
-        "summary": "Bria laid off approximately 20 of its 60 employees as part of a corporate restructuring, halting development of its FIBO foundation model due to cost against better-funded rivals and pivoting to its Bria Create enterprise marketing platform. Model development was consolidated in Israel, VP of Research Ron Mokady departed, VP of Business Amit Goldenberg moved to an advisory role, and CTO Misha Feinstein took charge of R&D."
+        "rawKind": "Market Expansion",
+        "org": "Eitan Medical",
+        "summary": "Eitan Medical announced a strategic partnership with Paragon Medtech to launch the Sapphire infusion platform in Japan, entering the Japanese market through Paragon Medtech's local regulatory and distribution network."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Market Expansion",
+        "org": "Eitan Medical",
+        "summary": "Launched the Sapphire infusion pump system in Japan in partnership with ParagonCare Japan, following PMDA regulatory approval, expanding access across hospital, ambulatory, and homecare settings in the Asia-Pacific market."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2932,27 +2933,6 @@
         "rawKind": "R&D Milestone",
         "org": "Plurai",
         "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Earnix",
-        "summary": "Signed its first reseller agreement with Sistran under an expanded global channel strategy, initially focusing on Brazil before expanding across Latin America, to make its intelligent decisioning solutions more accessible to insurers through Sistran's regional presence of more than 105 customers in 18 countries."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Gong",
-        "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Descope",
-        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2976,25 +2956,46 @@
         "summary": "Launched Dragonfly Enterprise: starting with v2.1 the product moves from BSL 1.1 to a new source-available license, free for production use up to 100 vCPUs with commercial licensing above that, and all future development ships in Dragonfly Enterprise."
       },
       {
-        "ts": "2026-11-03T00:00:00.000Z",
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Executive Appointment",
+        "org": "Gong",
+        "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Twingate",
-        "summary": "Launched the Twingate AI Usage Overview, a new view inside Secure DNS analytics in the Twingate Admin Console. Available at no extra charge to all Twingate DNS Filtering customers, it shows which AI tools (e.g. ChatGPT, Claude, Cursor, Granola) teams access, with per-service domain breakdowns, AI Usage by Date and AI Exposure views, and CSV export of device-level activity."
+        "org": "Descope",
+        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Earnix",
+        "summary": "Signed its first reseller agreement with Sistran under an expanded global channel strategy, initially focusing on Brazil before expanding across Latin America, to make its intelligent decisioning solutions more accessible to insurers through Sistran's regional presence of more than 105 customers in 18 countries."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Customer Milestone",
-        "org": "Navan",
-        "summary": "Ingersoll Rand's medium-duty compressors were selected by Investec's Cape Town stadium operations, with units running the stadium's HVAC and pneumatic systems, cited as an example of the company's compressed air and vacuum footprint in large infrastructure venues."
+        "rawKind": "Report Release",
+        "org": "Eco Wave Power",
+        "summary": "Reported Q3 2026 results: net loss reduced 47% year-over-year to $529 thousand, operating expenses down 25%, nine-month net loss down 24%, and approximately $7.68 million in cash and short-term bank deposits as of September 30, 2026."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Bizzabo",
-        "summary": "Launched Sponsor ROI, a sponsor management feature set within its Event Experience OS covering sponsor management, AI matchmaking, lead retrieval and reporting, to help event teams prove sponsor value and grow sponsorship revenue."
+        "rawKind": "Executive Appointment",
+        "org": "ShipIn",
+        "summary": "ShipIn Systems appointed Kunal Pathak as Vice President of Strategic Partnerships to lead global alliances with P&I clubs, insurers, class societies and technology partners, supporting adoption of the FleetVision\u2122 platform across the maritime industry."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Tanium",
+        "summary": "Tanium joined OpenAI's Trusted Access for Cyber (TAC) program, applying OpenAI GPT Cyber Models to threat research, vulnerability and remediation research, and the security of the Tanium platform."
       }
     ]
   }
