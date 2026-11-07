@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T06:01:18.390Z",
+  "generatedAt": "2026-11-07T07:15:11.870Z",
   "widgetMetadata": {
     "instructions": "Each entry under `widgets` describes one chart/widget rendered on this page of the Israeli Ecosystem dashboard. Descriptions are result-agnostic: they explain what the visualization shows and how to interpret it, not the specific numbers. The `dataPaths` array on each entry lists dot-notation paths inside this same JSON file where the underlying data for that widget lives (e.g. \"kpis.patentingStartups\" or \"ipIntensity.items\") When summarizing or answering questions about a number from this snapshot, locate the relevant widget(s) by `dataPaths` and quote the corresponding `description` to explain the metric. Widgets that have a 10 year trend usually show the total overall (across all years) and you get the exact data for each year in the past 10 years. The 10 year data do not add up to the total of course",
     "widgets": {
@@ -160,7 +160,7 @@
   "kpis": {
     "startups": {
       "value": 39553,
-      "delta24h": 16
+      "delta24h": 15
     },
     "totalFunding": {
       "valueUsd": 228245895208,
@@ -184,11 +184,11 @@
     "districts": [
       {
         "name": "Tel Aviv",
-        "count": 7473
+        "count": 7472
       },
       {
         "name": "Central",
-        "count": 4376
+        "count": 4377
       },
       {
         "name": "Haifa",
@@ -217,7 +217,7 @@
         "district": "Tel Aviv",
         "lat": 32.0853,
         "lng": 34.7818,
-        "count": 4640
+        "count": 4639
       },
       {
         "name": "Herzliya",
@@ -301,7 +301,7 @@
         "district": "Central",
         "lat": 32.15,
         "lng": 34.8833,
-        "count": 269
+        "count": 270
       },
       {
         "name": "Modi'in-Maccabim-Re'ut",
@@ -1062,8 +1062,8 @@
       ],
       "statusMix": {
         "inactive": 385,
-        "active": 21624,
-        "unknown": 3607,
+        "active": 21625,
+        "unknown": 3606,
         "closed": 13937
       }
     },
@@ -1441,10 +1441,10 @@
     },
     "funnel": {
       "all": 39553,
-      "funded": 15794,
-      "over1m": 6306,
-      "over10m": 3097,
-      "over100m": 614,
+      "funded": 15795,
+      "over1m": 6307,
+      "over10m": 3098,
+      "over100m": 615,
       "exited": 3466
     },
     "cohorts": [
@@ -2199,13 +2199,14 @@
     "funding": [
       {
         "ts": "2026-11-05T00:00:00.000Z",
-        "org": "Mindmax",
+        "org": "Nayara",
         "stage": "Pre-seed",
-        "amountUsd": 3300000,
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 6,
+        "investorCount": 1,
+        "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Pre-seed round led by SFC Capital"
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2219,14 +2220,13 @@
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
-        "org": "Nayara",
+        "org": "Mindmax",
         "stage": "Pre-seed",
-        "amountUsd": 0,
+        "amountUsd": 3300000,
         "investors": [],
-        "investorCount": 1,
-        "isVcBacked": true,
+        "investorCount": 6,
         "isNonEquity": false,
-        "roundTitle": "Pre-seed round led by SFC Capital"
+        "roundTitle": "Pre-Seed"
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2262,14 +2262,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "Sightec",
-        "stage": "Pre-IPO",
-        "amountUsd": 6100000,
+        "org": "StimCardio Medical",
+        "stage": "Series A",
+        "amountUsd": 30000000,
         "investors": [],
-        "investorCount": 2,
+        "investorCount": 3,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Pre-IPO convertible preferred (initial close, deferred close pending)"
+        "roundTitle": "Oversubscribed Series A Financing"
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
@@ -2284,14 +2284,14 @@
       },
       {
         "ts": "2026-10-29T00:00:00.000Z",
-        "org": "StimCardio Medical",
-        "stage": "Series A",
-        "amountUsd": 30000000,
+        "org": "Sightec",
+        "stage": "Pre-IPO",
+        "amountUsd": 6100000,
         "investors": [],
-        "investorCount": 3,
+        "investorCount": 2,
         "isVcBacked": true,
         "isNonEquity": false,
-        "roundTitle": "Oversubscribed Series A Financing"
+        "roundTitle": "Pre-IPO convertible preferred (initial close, deferred close pending)"
       },
       {
         "ts": "2026-10-28T00:00:00.000Z",
@@ -2317,14 +2317,14 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Cygrid",
-        "stage": "Pre-seed",
-        "amountUsd": 3000000,
+        "org": "Two Delta",
+        "stage": "Seed",
+        "amountUsd": 0,
         "investors": [],
-        "investorCount": 5,
-        "isVcBacked": true,
+        "investorCount": 2,
+        "isVcBacked": false,
         "isNonEquity": false,
-        "roundTitle": "Pre-Seed"
+        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
@@ -2350,6 +2350,17 @@
       },
       {
         "ts": "2026-10-22T00:00:00.000Z",
+        "org": "Cygrid",
+        "stage": "Pre-seed",
+        "amountUsd": 3000000,
+        "investors": [],
+        "investorCount": 5,
+        "isVcBacked": true,
+        "isNonEquity": false,
+        "roundTitle": "Pre-Seed"
+      },
+      {
+        "ts": "2026-10-22T00:00:00.000Z",
         "org": "Modelyo",
         "stage": "Series A",
         "amountUsd": 17000000,
@@ -2358,17 +2369,6 @@
         "isVcBacked": true,
         "isNonEquity": false,
         "roundTitle": "Series A"
-      },
-      {
-        "ts": "2026-10-22T00:00:00.000Z",
-        "org": "Two Delta",
-        "stage": "Seed",
-        "amountUsd": 0,
-        "investors": [],
-        "investorCount": 2,
-        "isVcBacked": false,
-        "isNonEquity": false,
-        "roundTitle": "Seed"
       },
       {
         "ts": "2026-10-20T00:00:00.000Z",
@@ -2383,16 +2383,6 @@
       },
       {
         "ts": "2026-10-19T00:00:00.000Z",
-        "org": "REE Automotive",
-        "stage": "Post-IPO",
-        "amountUsd": 4000000,
-        "investors": [],
-        "investorCount": 2,
-        "isNonEquity": false,
-        "roundTitle": "Restructuring equity investment"
-      },
-      {
-        "ts": "2026-10-19T00:00:00.000Z",
         "org": "High Lander",
         "stage": "Series A",
         "amountUsd": 16000000,
@@ -2403,15 +2393,25 @@
         "roundTitle": "Series A - Extended"
       },
       {
-        "ts": "2026-10-16T00:00:00.000Z",
-        "org": "Alector",
+        "ts": "2026-10-19T00:00:00.000Z",
+        "org": "REE Automotive",
         "stage": "Post-IPO",
-        "amountUsd": 75030000,
+        "amountUsd": 4000000,
         "investors": [],
-        "investorCount": 6,
-        "isVcBacked": true,
+        "investorCount": 2,
         "isNonEquity": false,
-        "roundTitle": "Underwritten public stock offering (36.6M shares at $2.05)"
+        "roundTitle": "Restructuring equity investment"
+      },
+      {
+        "ts": "2026-10-16T00:00:00.000Z",
+        "org": "Tenovi",
+        "stage": "Series B",
+        "amountUsd": 20000000,
+        "investors": [],
+        "investorCount": 1,
+        "isVcBacked": false,
+        "isNonEquity": false,
+        "roundTitle": "Series B"
       }
     ],
     "todayStats": {
@@ -2866,9 +2866,9 @@
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Digital Asset",
-        "summary": "Partnered with OpenAssets to bring the DA Registry to Canton institutions, covering issuance, settlement and compliance for capital markets infrastructure."
+        "rawKind": "Executive Appointment",
+        "org": "Cellebrite",
+        "summary": "Appointed Rogerio Rizzi as Executive Vice President of Corporate Strategy and Development. Rizzi joined from Okta, Inc., where he established the Corporate Strategy team and ran growth strategy for six years, and previously led Corporate Strategy at SAP SE and Hewlett Packard Enterprise."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2882,14 +2882,35 @@
         "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Eitan Medical",
-        "summary": "Launched the Sapphire infusion pump system in Japan in partnership with ParagonCare Japan, following PMDA regulatory approval, expanding access across hospital, ambulatory, and homecare settings in the Asia-Pacific market."
+        "summary": "Eitan Medical announced a strategic partnership with Paragon Medtech to launch the Sapphire infusion platform in Japan, entering the Japanese market through Paragon Medtech's local regulatory and distribution network."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Eco Wave Power",
+        "summary": "Wholly owned subsidiary Eco Wave Power U.S. Inc. signed a three-year MoU with WISeQey Corp., SEALSQ Corp. and SEALCOIN AG, demonstrating trusted digital twin and authenticated automated energy transactions using the Jaffa Port installation, targeting applications for AI data centers."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Digital Asset",
+        "summary": "Partnered with OpenAssets to bring the DA Registry to Canton institutions, covering issuance, settlement and compliance for capital markets infrastructure."
+      },
+      {
+        "ts": "2026-11-05T00:00:00.000Z",
+        "kind": "exit",
+        "rawKind": "Acquisition",
+        "org": "Fireberry",
+        "summary": "Acquired by Priority Software. Priority announced the acquisition of a majority stake (more than 50% of shares, with an option to purchase the remaining stake from founder and CEO Amir Segev) in Fireberry, valuing the company at over NIS 100 million (over $30 million). The deal expands Priority's AI-native cloud ERP portfolio with Fireberry's AI-powered CRM platform."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "large_round",
         "rawKind": "Market Expansion",
         "org": "Eitan Medical",
-        "summary": "Eitan Medical announced a strategic partnership with Paragon Medtech to launch the Sapphire infusion platform in Japan, entering the Japanese market through Paragon Medtech's local regulatory and distribution network."
+        "summary": "Launched the Sapphire infusion pump system in Japan in partnership with ParagonCare Japan, following PMDA regulatory approval, expanding access across hospital, ambulatory, and homecare settings in the Asia-Pacific market."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2902,22 +2923,8 @@
         "ts": "2026-11-05T00:00:00.000Z",
         "kind": "exit",
         "rawKind": "Acquisition",
-        "org": "Fireberry",
-        "summary": "Acquired by Priority Software. Priority announced the acquisition of a majority stake (more than 50% of shares, with an option to purchase the remaining stake from founder and CEO Amir Segev) in Fireberry, valuing the company at over NIS 100 million (over $30 million). The deal expands Priority's AI-native cloud ERP portfolio with Fireberry's AI-powered CRM platform."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Eco Wave Power",
-        "summary": "Wholly owned subsidiary Eco Wave Power U.S. Inc. signed a three-year MoU with WISeQey Corp., SEALSQ Corp. and SEALCOIN AG, demonstrating trusted digital twin and authenticated automated energy transactions using the Jaffa Port installation, targeting applications for AI data centers."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Executive Appointment",
-        "org": "Cellebrite",
-        "summary": "Appointed Rogerio Rizzi as Executive Vice President of Corporate Strategy and Development. Rizzi joined from Okta, Inc., where he established the Corporate Strategy team and ran growth strategy for six years, and previously led Corporate Strategy at SAP SE and Hewlett Packard Enterprise."
+        "org": "Priority Software",
+        "summary": "Acquired Fireberry, expanding its business management portfolio and accelerating its AI-first vision for the future of business management."
       },
       {
         "ts": "2026-11-05T00:00:00.000Z",
@@ -2925,20 +2932,6 @@
         "rawKind": "Product Launch",
         "org": "Zorem",
         "summary": "Launched AI Shopping Assistant, a WooCommerce chat plugin that searches the catalogue (including misspelt queries), answers product and policy questions from the store's own pages, builds a real WooCommerce cart and hands off to checkout, answers order-status questions for logged-in customers, and offers an optional admin read-only store assistant. Launch offer code AISA40 (40% off) runs until 30 November 2026, licences from $79."
-      },
-      {
-        "ts": "2026-11-05T00:00:00.000Z",
-        "kind": "exit",
-        "rawKind": "Acquisition",
-        "org": "Priority Software",
-        "summary": "Acquired Fireberry, expanding its business management portfolio and accelerating its AI-first vision for the future of business management."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Cycode",
-        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2950,9 +2943,9 @@
       {
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "R&D Milestone",
-        "org": "Plurai",
-        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
+        "rawKind": "Product Launch",
+        "org": "Descope",
+        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2964,16 +2957,9 @@
       {
         "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Strategic Partnership",
-        "org": "Earnix",
-        "summary": "Signed its first reseller agreement with Sistran under an expanded global channel strategy, initially focusing on Brazil before expanding across Latin America, to make its intelligent decisioning solutions more accessible to insurers through Sistran's regional presence of more than 105 customers in 18 countries."
-      },
-      {
-        "ts": "2026-11-04T00:00:00.000Z",
-        "kind": "large_round",
         "rawKind": "Product Launch",
-        "org": "Descope",
-        "summary": "Launched Descope Envoy, a delegated access product for personal AI agents, enabling secure delegated sign-in and authorization for agents acting on a user's behalf."
+        "org": "Cycode",
+        "summary": "Extended the platform to citizen developers with Citizen Developer Security (currently in private preview), discovering every AI builder and unmanaged codebase, protecting devices and AI sessions, and securing agent-generated applications."
       },
       {
         "ts": "2026-11-04T00:00:00.000Z",
@@ -2983,18 +2969,32 @@
         "summary": "Appointed Liron Shtraichman as Chief R&D Officer and Guy Havusha as Chief Information Security Officer (CISO). Both join from monday.com, where Shtraichman led global engineering through its AI-native transformation and Havusha served as Global CISO."
       },
       {
-        "ts": "2026-11-03T00:00:00.000Z",
+        "ts": "2026-11-04T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Agora Real Estate Technologies",
-        "summary": "Launched Asset-Level Reporting, Launch No.7 in the Season of Innovation, letting customers track and report individual assets alongside investments in one place."
+        "rawKind": "R&D Milestone",
+        "org": "Plurai",
+        "summary": "Plurai introduced SCOPE (Symbolic Composition Over Predicates and Extractors), a framework that compiles natural-language policies into executable programs built from weak-model predicates, deterministic extractors and composing Python code, optimized with adversarial counterexamples. It matches frontier reasoning models at a fraction of the cost with more stable predictions, and is available as part of the Plurai SDK, with a paper on arXiv and a benchmark released on HuggingFace."
+      },
+      {
+        "ts": "2026-11-04T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Strategic Partnership",
+        "org": "Earnix",
+        "summary": "Signed its first reseller agreement with Sistran under an expanded global channel strategy, initially focusing on Brazil before expanding across Latin America, to make its intelligent decisioning solutions more accessible to insurers through Sistran's regional presence of more than 105 customers in 18 countries."
       },
       {
         "ts": "2026-11-03T00:00:00.000Z",
         "kind": "large_round",
-        "rawKind": "Product Launch",
-        "org": "Antseed",
-        "summary": "Antseed introduced lANTS, an NFT representing a staked ANTS position. The lANTS keeps staked ANTS liquid: it can unlock free AI from the backed provider, earns weekly staking rewards, and can be moved between providers, split, merged or sold on community marketplaces such as antseedmarkets and lANTS Market."
+        "rawKind": "Executive Appointment",
+        "org": "ShipIn",
+        "summary": "ShipIn Systems appointed Kunal Pathak as Vice President of Strategic Partnerships to lead global alliances with P&I clubs, insurers, class societies and technology partners, supporting adoption of the FleetVision\u2122 platform across the maritime industry."
+      },
+      {
+        "ts": "2026-11-03T00:00:00.000Z",
+        "kind": "large_round",
+        "rawKind": "Report Release",
+        "org": "ACT Security",
+        "summary": "Published ReplicaHeist research disclosing that Azure's object replication feature can be turned into a quiet cross-tenant data exfiltration or poisoning channel."
       }
     ]
   }
